@@ -1,0 +1,198 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.HyGalaxy_Lightsaber_Gold.name",
+    "Description": "server.items.HyGalaxy_Lightsaber_Gold.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Legendary",
+  "ItemLevel": 40,
+  "Model": "Resources/WeaponModels/Lightsaber.blockymodel",
+  "Texture": "Resources/WeaponTextures/Lightsaber_Gold.png",
+  "PlayerAnimationsId": "Longsword",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 3
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
+        "Quantity": 1
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "Ingredient_Fire_Essence"
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt",
+        "Quantity": 1
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "OrbisGalactic_Lightsaber_Attack",
+    "Secondary": "Longsword_Block",
+    "SwapTo": "OrbisGalactic_Lightsaber_Equip"
+  },
+  "InteractionVars": {
+    "Longsword_Block_Damage": "Longsword_Block_Damage",
+    "Longsword_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Lightsaber_Swing_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Longsword_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Longsword_Swing_Left_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Longsword_Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Lightsaber_Swing_Right_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Longsword_Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Longsword_Swing_Right_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Longsword_Swing_Up_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Lightsaber_Swing_Up_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Longsword_Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Longsword_Swing_Up_Left_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Longsword_Stab_Charged_Effect": "Longsword_Stab_Charged_Effect",
+    "Longsword_Stab_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Longsword_Stab_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 144
+            },
+            "Type": "Absolute",
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.33,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -43,
+      -43
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Gold.png",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "MaxDurability": 150,
+  "DurabilityLossOnHit": 0.52,
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Longsword"
+    ]
+  },
+  "Weapon": {},
+  "Light": {
+    "Color": "#651"
+  },
+  "InteractionConfig": {
+    "DisplayOutlines": false,
+    "DebugOutlines": false
+  },
+  "UsePlayerAnimations": false,
+  "ItemSoundSetId": "ISS_Items_Gadget",
+  "Variant": false,
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_Gold",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ]
+}

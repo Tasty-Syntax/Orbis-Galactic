@@ -2,7 +2,7 @@
   "Type": "Simple",
   "Effects": {
     "ItemAnimationId": "StabCharged",
-    "WorldSoundEventId": "HyGalaxy_SFX_Lightsaber_Charged_Attack"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack"
   },
   "$Comment": "Prepare Delay",
   "RunTime": 0,

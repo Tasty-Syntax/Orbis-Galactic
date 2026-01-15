@@ -2,7 +2,7 @@
   "Type": "Charging",
   "Effects": {
     "ItemAnimationId": "StabCharging",
-    "WorldSoundEventId": "HyGalaxy_SFX_Lightsaber"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber"
   },
   "AllowIndefiniteHold": false,
   "Next": {

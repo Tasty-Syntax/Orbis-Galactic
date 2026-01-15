@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 31.223405838012695,
+        "X": 33.2030029296875,
         "Y": 80.0,
-        "Z": -12.900089263916016
+        "Z": -15.472273826599121
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 3.0578041076660156,
+        "Yaw": 2.5776193141937256,
         "Roll": 0.0
       }
     },
@@ -63,38 +63,17 @@
           "Capacity": 9,
           "Items": {
             "0": {
-              "Id": "HyGalaxy_Kyber_Crystal_Blue",
-              "Quantity": 25,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "2": {
-              "Id": "Bench_Weapon",
+              "Id": "OrbisGalactic_Lightsaber_Blue",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "HyGalaxy_Kyber_Crystal_Red",
-              "Quantity": 25,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 150.0,
+              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "HyGalaxy_Kyber_Crystal_Clear",
-              "Quantity": 25,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "Bench_Arcane",
+              "Id": "Weapon_Sword_Cobalt",
               "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 150.0,
+              "MaxDurability": 150.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -107,7 +86,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 5,
+        "ActiveHotbarSlot": 0,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -167,15 +146,15 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": 32.60628128051758,
+              "X": 33.59463119506836,
               "Y": 80.0,
-              "Z": -13.908560752868652,
-              "Pitch": -0.3767033815383911,
-              "Yaw": 3.0815298557281494,
+              "Z": -13.924309730529785,
+              "Pitch": -0.3276612162590027,
+              "Yaw": 2.927002191543579,
               "Roll": 0.0
             },
             "LastMovementStates": {
-              "Flying": false
+              "Flying": true
             },
             "FirstSpawn": false,
             "DeathPositions": []
@@ -194,38 +173,17 @@
             "Capacity": 9,
             "Items": {
               "0": {
-                "Id": "HyGalaxy_Kyber_Crystal_Blue",
-                "Quantity": 25,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
+                "Id": "OrbisGalactic_Lightsaber_Blue",
+                "Quantity": 1,
+                "Durability": 150.0,
+                "MaxDurability": 150.0,
                 "OverrideDroppedItemAnimation": false
               },
               "1": {
-                "Id": "HyGalaxy_Kyber_Crystal_Clear",
-                "Quantity": 25,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "3": {
-                "Id": "Bench_Arcane",
+                "Id": "Weapon_Sword_Cobalt",
                 "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "2": {
-                "Id": "Bench_Weapon",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "4": {
-                "Id": "HyGalaxy_Kyber_Crystal_Red",
-                "Quantity": 25,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
+                "Durability": 150.0,
+                "MaxDurability": 150.0,
                 "OverrideDroppedItemAnimation": false
               }
             }
@@ -299,7 +257,14 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 0.0
+          "Value": 0.0,
+          "Modifiers": {
+            "*Weapon_0": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 20.0
+            }
+          }
         },
         "DeployablePreview": {
           "Id": "DeployablePreview",
@@ -317,8 +282,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.45170333981513977,
-        "Yaw": 3.057526111602783,
+        "Pitch": -0.28079754114151,
+        "Yaw": -2.920167922973633,
         "Roll": 0.0
       }
     }

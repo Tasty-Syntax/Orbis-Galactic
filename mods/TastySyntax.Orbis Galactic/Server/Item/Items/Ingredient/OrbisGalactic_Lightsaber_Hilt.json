@@ -1,0 +1,45 @@
+{
+  "Model": "Resources/ItemModels/Lightsaber_Hilt.blockymodel",
+  "Texture": "Resources/WeaponTextures/Lightsaber_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      40,
+      102,
+      6
+    ],
+    "Translation": [
+      -8,
+      -11
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 10
+      }
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt.name",
+    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt.description"
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "ItemLevel": 10,
+  "Quality": "Common"
+}

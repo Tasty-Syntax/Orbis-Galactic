@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Description": "server.items.Ore_Kyber_Crystal_Green.description",
+    "Name": "server.items.Ore_Kyber_Crystal_Green.name"
+  },
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "Model": "Resources/BlockModels/Kyber_Ore_Large.blockymodel",
+  "Texture": "Resources/ItemTextures/Kyber_Crystal_Green.png",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      15,
+      37,
+      22.5
+    ],
+    "Translation": [
+      -2,
+      -25
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_Green.png",
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null,
+    "Physics": {
+      "Mass": 1,
+      "InvertedGravity": false
+    }
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "Light": {
+    "Color": "#050",
+    "Radius": 0
+  },
+  "Particles": [
+    {
+      "SystemId": "Block_Gem_Sparks",
+      "Color": "#3fff1c",
+      "Scale": 1,
+      "PositionOffset": {
+        "Y": 0.5
+      }
+    }
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Clear"
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Green",
+        "Quantity": 30
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ]
+  },
+  "Scale": 0.35,
+  "Quality": "Epic"
+}

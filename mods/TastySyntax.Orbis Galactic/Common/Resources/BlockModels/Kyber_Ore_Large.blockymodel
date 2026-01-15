@@ -26,20 +26,20 @@
           "orientation": {"x": 0.71343, "y": -0.13906, "z": 0.17196, "w": 0.66491},
           "shape": {
             "type": "box",
-            "offset": {"x": 0, "y": 0, "z": 0},
+            "offset": {"x": 0, "y": 0, "z": -2.5},
             "stretch": {"x": 0.77935, "y": 0.85155, "z": 1.32604},
             "settings": {
               "isPiece": false,
-              "size": {"x": 16, "y": 16, "z": 32}
+              "size": {"x": 16, "y": 16, "z": 27}
             },
             "textureLayout": {
               "back": {
                 "offset": {"x": 16, "y": 0},
-                "mirror": {"x": true, "y": true},
-                "angle": 270
+                "mirror": {"x": false, "y": false},
+                "angle": 90
               },
               "right": {
-                "offset": {"x": 0, "y": 0},
+                "offset": {"x": 5, "y": 0},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
@@ -59,7 +59,7 @@
                 "angle": 0
               },
               "bottom": {
-                "offset": {"x": 16, "y": 0},
+                "offset": {"x": 16, "y": 5},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               }
@@ -67,13 +67,13 @@
             "unwrapMode": "custom",
             "visible": true,
             "doubleSided": false,
-            "shadingMode": "reflective"
+            "shadingMode": "fullbright"
           },
           "children": [
             {
               "id": "3",
               "name": "IronOre--C1",
-              "position": {"x": 0, "y": 0, "z": 0},
+              "position": {"x": 0, "y": 0, "z": 2.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "box",
@@ -87,8 +87,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 2},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 15, "y": 0},
@@ -119,13 +119,13 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             },
             {
               "id": "4",
               "name": "IronOre--C2",
-              "position": {"x": 0, "y": 0, "z": 0},
+              "position": {"x": 0, "y": 0, "z": 2.5},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "box",
@@ -139,8 +139,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 8},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 15, "y": 0},
@@ -171,7 +171,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             }
           ]
@@ -212,8 +212,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 0},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 0, "y": 0},
@@ -244,7 +244,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             },
             {
@@ -264,8 +264,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 4},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 13, "y": 0},
@@ -296,7 +296,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             }
           ]
@@ -317,8 +317,8 @@
             "textureLayout": {
               "back": {
                 "offset": {"x": 16, "y": 0},
-                "mirror": {"x": true, "y": true},
-                "angle": 270
+                "mirror": {"x": false, "y": false},
+                "angle": 90
               },
               "right": {
                 "offset": {"x": 0, "y": 0},
@@ -349,7 +349,7 @@
             "unwrapMode": "custom",
             "visible": true,
             "doubleSided": false,
-            "shadingMode": "reflective"
+            "shadingMode": "fullbright"
           },
           "children": [
             {
@@ -369,8 +369,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 6},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 0, "y": 0},
@@ -401,7 +401,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             }
           ]
@@ -442,13 +442,13 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 16},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 32, "y": 0},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "front": {
                     "offset": {"x": 0, "y": 16},
@@ -457,8 +457,8 @@
                   },
                   "left": {
                     "offset": {"x": 32, "y": 0},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "top": {
                     "offset": {"x": 16, "y": 0},
@@ -474,7 +474,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             },
             {
@@ -494,8 +494,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 20},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 32, "y": 32},
@@ -526,7 +526,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             }
           ]
@@ -567,13 +567,13 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 16},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 32, "y": 0},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "front": {
                     "offset": {"x": 0, "y": 16},
@@ -582,8 +582,8 @@
                   },
                   "left": {
                     "offset": {"x": 32, "y": 0},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "top": {
                     "offset": {"x": 16, "y": 0},
@@ -599,7 +599,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             },
             {
@@ -619,8 +619,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 20},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 32, "y": 32},
@@ -651,7 +651,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             }
           ]
@@ -711,8 +711,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 0},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 0, "y": 0},
@@ -726,8 +726,8 @@
                   },
                   "left": {
                     "offset": {"x": 32, "y": 0},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "top": {
                     "offset": {"x": 16, "y": 0},
@@ -743,7 +743,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             },
             {
@@ -763,8 +763,8 @@
                 "textureLayout": {
                   "back": {
                     "offset": {"x": 16, "y": 4},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "right": {
                     "offset": {"x": 0, "y": 0},
@@ -778,8 +778,8 @@
                   },
                   "left": {
                     "offset": {"x": 32, "y": 8},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 270
+                    "mirror": {"x": false, "y": false},
+                    "angle": 90
                   },
                   "top": {
                     "offset": {"x": 16, "y": 18},
@@ -795,7 +795,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "reflective"
+                "shadingMode": "fullbright"
               }
             }
           ]
