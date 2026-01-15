@@ -70,7 +70,13 @@
           },
           "DamageEffects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Impact"
-          }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ]
         }
       ]
     },
@@ -97,7 +103,13 @@
           },
           "DamageEffects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Impact"
-          }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ]
         }
       ]
     },
@@ -124,7 +136,13 @@
           },
           "DamageEffects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Impact"
-          }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ]
         }
       ]
     },
@@ -142,7 +160,13 @@
           },
           "DamageEffects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Impact"
-          }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ]
         }
       ]
     },
