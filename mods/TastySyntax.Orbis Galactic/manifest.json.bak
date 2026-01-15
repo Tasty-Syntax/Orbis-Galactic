@@ -1,0 +1,25 @@
+{
+  "Group": "TastySyntax",
+  "Name": "Orbis Galactic",
+  "Version": "1.0.0",
+  "Description": "A star wars mod for Hytale.",
+  "Authors": [
+    {
+      "Name": "Cerzix",
+      "Email": "",
+      "Url": "https://github.com/Cerzix"
+    },
+    {
+      "Name": "Viluron",
+      "Email": "",
+      "Url": "https://github.com/Viluron"
+    }
+  ],
+  "Website": "https://github.com/Tasty-Syntax/Orbis-Galactic",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

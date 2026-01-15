@@ -57,6 +57,15 @@
         "ItemId": "Ingredient_Crystal_Red",
         "Quantity": 30
       }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
     ]
-  }
+  },
+  "Scale": 0.35
 }

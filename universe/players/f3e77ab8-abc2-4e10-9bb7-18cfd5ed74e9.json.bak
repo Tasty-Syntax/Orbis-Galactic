@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 33.37098693847656,
+        "X": 31.223405838012695,
         "Y": 80.0,
-        "Z": -15.29765796661377
+        "Z": -12.900089263916016
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -3.001654863357544,
+        "Yaw": 3.0578041076660156,
         "Roll": 0.0
       }
     },
@@ -76,6 +76,13 @@
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
+            "4": {
+              "Id": "HyGalaxy_Kyber_Crystal_Red",
+              "Quantity": 25,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
             "1": {
               "Id": "HyGalaxy_Kyber_Crystal_Clear",
               "Quantity": 25,
@@ -100,7 +107,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 4,
+        "ActiveHotbarSlot": 5,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -160,11 +167,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": 34.28318786621094,
+              "X": 32.60628128051758,
               "Y": 80.0,
-              "Z": -13.230521202087402,
-              "Pitch": -0.5456832051277161,
-              "Yaw": 3.132340669631958,
+              "Z": -13.908560752868652,
+              "Pitch": -0.3767033815383911,
+              "Yaw": 3.0815298557281494,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -210,6 +217,13 @@
               "2": {
                 "Id": "Bench_Weapon",
                 "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "HyGalaxy_Kyber_Crystal_Red",
+                "Quantity": 25,
                 "Durability": 0.0,
                 "MaxDurability": 0.0,
                 "OverrideDroppedItemAnimation": false
@@ -303,8 +317,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.46579504013061523,
-        "Yaw": 3.0095295906066895,
+        "Pitch": -0.45170333981513977,
+        "Yaw": 3.057526111602783,
         "Roll": 0.0
       }
     }
