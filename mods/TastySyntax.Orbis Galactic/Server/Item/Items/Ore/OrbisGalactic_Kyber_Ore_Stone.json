@@ -1,23 +1,9 @@
 {
+  "Parent": "OrbisGalactic_Kyber_Ore_Template",
   "TranslationProperties": {
     "Name": "server.items.Ore_Kyber_Stone.name"
   },
-  "Categories": [
-    "Blocks.Ores"
-  ],
   "BlockType": {
-    "Material": "Solid",
-    "DrawType": "CubeWithModel",
-    "CustomModel": "Resources/Ores/Ore_Large.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Resources/ItemTextures/Kyber_Crystal_Colorless.png",
-        "Weight": 1
-      }
-    ],
-    "Group": "Stone",
-    "Flags": {},
-    "RandomRotation": "YawStep90",
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
@@ -42,44 +28,13 @@
         }
       }
     },
-    "BlockParticleSetId": "Stone",
     "Textures": [
       {
         "Weight": 1,
         "All": "BlockTextures/Rock_Stone.png"
       }
     ],
-    "ParticleColor": "#88886a",
-    "BlockSoundSetId": "Crystal",
-    "Opacity": "Semitransparent",
-    "RequiresAlphaBlending": true,
-    "CustomModelScale": 1,
-    "CubeShadingMode": "Standard"
+    "ParticleColor": "#88886a"
   },
-  "PlayerAnimationsId": "Block",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Ore_Stone.png",
-  "Tags": {
-    "Type": [
-      "Ore"
-    ],
-    "Family": [
-      "Adamantite"
-    ]
-  },
-  "MaxStack": 25,
-  "ItemSoundSetId": "ISS_Blocks_Stone",
-  "IconProperties": {
-    "Scale": 0.58823,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -13.5
-    ]
-  },
-  "Texture": "Resources/ItemTextures/Kyber_Crystal_Colorless.png",
-  "Model": "Resources/BlockModels/Kyber_Ore_Large.blockymodel"
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Ore_Stone.png"
 }
