@@ -1,24 +1,10 @@
 {
+  "Parent": "OrbisGalactic_Kyber_Ore_Template",
   "TranslationProperties": {
     "Name": "server.items.Ore_Kyber_Basalt.name",
     "Description": ""
   },
-  "Categories": [
-    "Blocks.Ores"
-  ],
   "BlockType": {
-    "Material": "Solid",
-    "DrawType": "CubeWithModel",
-    "CustomModel": "Resources/Ores/Ore_Large.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Resources/ItemTextures/Kyber_Crystal_Colorless.png",
-        "Weight": 1
-      }
-    ],
-    "Group": "Stone",
-    "Flags": {},
-    "RandomRotation": "YawStep90",
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
@@ -43,17 +29,14 @@
         }
       }
     },
-    "BlockParticleSetId": "Stone",
     "Textures": [
       {
         "Weight": 1,
         "All": "BlockTextures/Rock_Basalt.png"
       }
     ],
-    "ParticleColor": "#636045",
-    "BlockSoundSetId": "Ore"
+    "ParticleColor": "#636045"
   },
-  "PlayerAnimationsId": "Block",
   "Tags": {
     "Type": [
       "Ore"
@@ -62,19 +45,5 @@
       "Gold"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Ore_Basalt.png",
-  "IconProperties": {
-    "Scale": 0.58823,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      0,
-      -13.5
-    ]
-  },
-  "MaxStack": 25,
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Ore_Basalt.png"
 }
