@@ -1,0 +1,14 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/lightsaber_off.ogg"
+      ],
+      "Volume": 10,
+      "StartDelay": 0
+    }
+  ]
+}

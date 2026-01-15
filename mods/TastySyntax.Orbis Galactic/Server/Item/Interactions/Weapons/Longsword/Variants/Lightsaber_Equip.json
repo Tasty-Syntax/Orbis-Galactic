@@ -1,0 +1,7 @@
+{
+  "Type": "Simple",
+  "CancelOnItemChange": true,
+  "Effects": {
+    "WorldSoundEventId": "HyGalaxy_SFX_Lightsaber_Equip"
+  }
+}

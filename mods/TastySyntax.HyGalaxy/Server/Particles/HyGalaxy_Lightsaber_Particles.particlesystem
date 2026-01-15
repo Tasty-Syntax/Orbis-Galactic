@@ -1,0 +1,18 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Ice_Blast_Rings",
+      "FixedRotation": false,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1
+      },
+      "RotationOffset": {
+        "Yaw": 90,
+        "Pitch": 0,
+        "Roll": 0
+      }
+    }
+  ]
+}

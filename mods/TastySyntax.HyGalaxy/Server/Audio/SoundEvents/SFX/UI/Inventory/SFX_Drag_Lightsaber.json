@@ -1,0 +1,18 @@
+{
+  "AudioCategory": "AudioCat_Inventory",
+  "Volume": 0,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/UI/Inventory/Drag_Weapons_Blade_Large_Stereo.ogg"
+      ],
+      "Volume": -4.0,
+      "RandomSettings": {
+        "MinVolume": -1,
+        "MinPitch": -1,
+        "MaxPitch": 1
+      }
+    }
+  ],
+  "PreventSoundInterruption": false
+}

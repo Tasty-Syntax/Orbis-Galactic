@@ -1,0 +1,20 @@
+{
+  "Type": "Charging",
+  "Effects": {
+    "ItemAnimationId": "StabCharging",
+    "WorldSoundEventId": "HyGalaxy_SFX_Lightsaber"
+  },
+  "AllowIndefiniteHold": false,
+  "Next": {
+    "0": {
+      "Type": "Chaining",
+      "ChainingAllowance": 1.25,
+      "Next": [
+        "Longsword_Swing_Left",
+        "Longsword_Swing_Right",
+        "Longsword_Swing_Up_Left"
+      ]
+    },
+    "1.565": "Lightsaber_Stab_Charged"
+  }
+}

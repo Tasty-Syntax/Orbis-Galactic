@@ -1,0 +1,79 @@
+{
+  "Version": 4,
+  "UUID": {
+    "$binary": "1O6e7DjwSLWaG+uJPzxO7Q==",
+    "$type": "04"
+  },
+  "DisplayName": "Dev",
+  "Seed": 1768399759754,
+  "WorldGen": {
+    "Type": "Flat",
+    "Tint": "#578a24",
+    "Layers": [
+      {
+        "From": 0,
+        "To": 75,
+        "BlockType": "Rock_Stone",
+        "Environment": "Env_Zone1_Plains"
+      },
+      {
+        "From": 75,
+        "To": 79,
+        "BlockType": "Soil_Dirt",
+        "Environment": "Env_Zone1_Plains"
+      },
+      {
+        "From": 79,
+        "To": 80,
+        "BlockType": "Soil_Grass",
+        "Environment": "Env_Zone1_Plains"
+      },
+      {
+        "From": 80,
+        "To": 320,
+        "BlockType": "Empty",
+        "Environment": "Env_Zone1_Plains"
+      }
+    ]
+  },
+  "WorldMap": {
+    "Type": "WorldGen"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "ChunkConfig": {},
+  "IsTicking": true,
+  "IsBlockTicking": true,
+  "IsPvpEnabled": false,
+  "IsFallDamageEnabled": false,
+  "IsGameTimePaused": true,
+  "GameTime": "0001-01-01T05:30:00Z",
+  "ClientEffects": {
+    "SunHeightPercent": 100.0,
+    "SunAngleDegrees": 0.0,
+    "BloomIntensity": 0.30000001192092896,
+    "BloomPower": 8.0,
+    "SunIntensity": 0.25,
+    "SunshaftIntensity": 0.30000001192092896,
+    "SunshaftScaleFactor": 4.0
+  },
+  "RequiredPlugins": {},
+  "GameMode": "Creative",
+  "IsSpawningNPC": false,
+  "IsSpawnMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "GameplayConfig": "Default",
+  "IsCompassUpdating": true,
+  "IsSavingPlayers": true,
+  "IsSavingChunks": true,
+  "SaveNewChunks": true,
+  "IsUnloadingChunks": true,
+  "IsObjectiveMarkersEnabled": true,
+  "DeleteOnUniverseStart": false,
+  "DeleteOnRemove": false,
+  "ResourceStorage": {
+    "Type": "Hytale"
+  },
+  "Plugin": {}
+}

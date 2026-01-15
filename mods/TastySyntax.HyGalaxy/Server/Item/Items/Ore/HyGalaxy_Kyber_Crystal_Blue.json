@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Description": "server.items.Ore_Kyber_Crystal_Blue.description",
+    "Name": "server.items.Ore_Kyber_Crystal_Blue.name"
+  },
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "Model": "Resources/BlockModels/Kyber_Ore_Large.blockymodel",
+  "Texture": "Resources/ItemTextures/Kyber_Crystal_Blue.png",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      15,
+      37,
+      22.5
+    ],
+    "Translation": [
+      -2,
+      -25
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Kyber_Crystal_Blue.png",
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null,
+    "Physics": {
+      "Mass": 1,
+      "InvertedGravity": false
+    }
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "Light": {
+    "Color": "#7fe",
+    "Radius": 0
+  },
+  "Particles": [
+    {
+      "SystemId": "Block_Gem_Sparks",
+      "Color": "#50f6ff"
+    }
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Kyber_Crystal_Clear"
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Blue",
+        "Quantity": 30
+      }
+    ]
+  }
+}
