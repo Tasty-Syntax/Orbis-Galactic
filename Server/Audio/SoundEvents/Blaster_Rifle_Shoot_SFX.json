@@ -1,0 +1,12 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Rifle/DC15BlasterShot.ogg"
+      ]
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons",
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Moderate"
+}
