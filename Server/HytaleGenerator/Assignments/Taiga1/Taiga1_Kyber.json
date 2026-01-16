@@ -1,0 +1,270 @@
+{
+  "$Title": "[ROOT] Constant Assignments",
+  "$Position": {
+    "$x": 9509,
+    "$y": -157
+  },
+  "Type": "Constant",
+  "ExportAs": "Taiga1_Kyber",
+  "Prop": {
+    "$Position": {
+      "$x": 10140,
+      "$y": -162
+    },
+    "Type": "Density",
+    "Skip": false,
+    "Pattern": {
+      "$Position": {
+        "$x": 10948,
+        "$y": -548
+      },
+      "Type": "And",
+      "Skip": false,
+      "Patterns": [
+        {
+          "$Position": {
+            "$x": 11585,
+            "$y": -546
+          },
+          "Type": "Floor",
+          "Skip": false,
+          "Origin": {
+            "$Position": {
+              "$x": 12208,
+              "$y": -555
+            },
+            "Type": "BlockSet",
+            "Skip": false,
+            "BlockSet": {
+              "$Position": {
+                "$x": 12857,
+                "$y": -539
+              },
+              "Inclusive": true,
+              "Materials": [
+                {
+                  "$Position": {
+                    "$x": 13342,
+                    "$y": -533
+                  },
+                  "Solid": "Empty"
+                }
+              ]
+            }
+          },
+          "Floor": {
+            "$Position": {
+              "$x": 12215,
+              "$y": -387
+            },
+            "Type": "BlockSet",
+            "Skip": false,
+            "BlockSet": {
+              "$Position": {
+                "$x": 12864,
+                "$y": -371
+              },
+              "Inclusive": true,
+              "Materials": [
+                {
+                  "$Position": {
+                    "$x": 13349,
+                    "$y": -366
+                  },
+                  "Solid": "Rock_Stone"
+                },
+                {
+                  "$Position": {
+                    "$x": 13352,
+                    "$y": -205
+                  },
+                  "Solid": "Rock_Quartzite"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Scanner": {
+      "$Position": {
+        "$x": 10904,
+        "$y": -106
+      },
+      "Type": "ColumnLinear",
+      "Skip": false,
+      "MaxY": 350,
+      "MinY": 170,
+      "RelativeToPosition": false,
+      "BaseHeightName": "Bedrock",
+      "TopDownOrder": true,
+      "ResultCap": 1
+    },
+    "Material": {
+      "$Position": {
+        "$x": 10990,
+        "$y": 1118
+      },
+      "Type": "Solidity",
+      "Solid": {
+        "$Position": {
+          "$x": 11603,
+          "$y": 1114
+        },
+        "Type": "Constant",
+        "Material": {
+          "$Position": {
+            "$x": 12219,
+            "$y": 1109
+          },
+          "Solid": "OrbisGalactic_Kyber_Ore_Stone"
+        }
+      }
+    },
+    "Density": {
+      "$Position": {
+        "$x": 11020,
+        "$y": 646
+      },
+      "Type": "Sum",
+      "Skip": false,
+      "Inputs": [
+        {
+          "$Position": {
+            "$x": 11693,
+            "$y": 266
+          },
+          "Type": "Normalizer",
+          "Skip": false,
+          "FromMin": 0,
+          "FromMax": 1,
+          "ToMin": -0.5,
+          "ToMax": 0,
+          "Inputs": [
+            {
+              "$Position": {
+                "$x": 12302,
+                "$y": 264
+              },
+              "Type": "SimplexNoise3D",
+              "Skip": false,
+              "Lacunarity": 2,
+              "Persistence": 0.5,
+              "Octaves": 1,
+              "ScaleXZ": 4,
+              "ScaleY": 4,
+              "Seed": "A"
+            }
+          ]
+        },
+        {
+          "$Position": {
+            "$x": 11678,
+            "$y": 643
+          },
+          "Type": "Normalizer",
+          "Skip": false,
+          "FromMin": -1,
+          "FromMax": 1,
+          "ToMin": -0.5,
+          "ToMax": 1,
+          "Inputs": [
+            {
+              "$Position": {
+                "$x": 12295,
+                "$y": 643
+              },
+              "Type": "Anchor",
+              "Skip": false,
+              "Reversed": false,
+              "Inputs": [
+                {
+                  "$Position": {
+                    "$x": 12920,
+                    "$y": 642
+                  },
+                  "Type": "Cube",
+                  "Skip": false,
+                  "Curve": {
+                    "$Position": {
+                      "$x": 13541,
+                      "$y": 650
+                    },
+                    "Type": "Manual",
+                    "Points": [
+                      {
+                        "$Position": {
+                          "$x": 14151,
+                          "$y": 539
+                        },
+                        "In": 0,
+                        "Out": 1
+                      },
+                      {
+                        "$Position": {
+                          "$x": 14151,
+                          "$y": 714
+                        },
+                        "In": 5,
+                        "Out": -2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "PlacementMask": {
+      "$Position": {
+        "$x": 10974,
+        "$y": 1543
+      },
+      "DontPlace": {
+        "$Position": {
+          "$x": 11625,
+          "$y": 1555
+        },
+        "Inclusive": true,
+        "Materials": [
+          {
+            "$Position": {
+              "$x": 12093,
+              "$y": 1556
+            },
+            "Solid": "Empty"
+          }
+        ]
+      },
+      "DontReplace": {
+        "$Position": {
+          "$x": 11632,
+          "$y": 1729
+        },
+        "Inclusive": true,
+        "Materials": [
+          {
+            "$Position": {
+              "$x": 12100,
+              "$y": 1730
+            },
+            "Solid": "Empty"
+          }
+        ]
+      }
+    },
+    "Range": {
+      "$Position": {
+        "$x": 10989,
+        "$y": 1305
+      },
+      "X": 3,
+      "Y": 3,
+      "Z": 3
+    }
+  },
+  "$WorkspaceID": "HytaleGenerator - Assignments",
+  "$Groups": []
+}
