@@ -1,0 +1,11 @@
+{
+  "Type": "Projectile",
+  "Config": "Projectile_Config_Laser_Base",
+  "Effects": {
+    "WorldSoundEventId": "Blaster_Rifle_Shoot_SFX",
+    "LocalSoundEventId": "Blaster_Rifle_Shoot_SFX"
+  },
+  "Next": {
+    "Type": "RemoveEntity"
+  }
+}

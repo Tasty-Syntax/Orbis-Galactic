@@ -1,0 +1,167 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 0
+    }
+  },
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "TrailSpawnerRotationMultiplier": 1.0,
+  "MaxConcurrentParticles": 4,
+  "ParticleLifeSpan": {
+    "Min": 0.06,
+    "Max": 0.08
+  },
+  "SpawnRate": {
+    "Min": 4.0,
+    "Max": 4.0
+  },
+  "TotalParticles": {
+    "Min": 1,
+    "Max": 1
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 1.0,
+      "Max": 1.0
+    },
+    "Yaw": {
+      "Min": -180.0,
+      "Max": -180.0
+    },
+    "Pitch": {
+      "Min": 0,
+      "Max": 0
+    }
+  },
+  "Attractors": [
+    {
+      "Position": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "RadialAxis": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "Radius": 0,
+      "RadialAcceleration": 0,
+      "RadialTangentAcceleration": 0,
+      "LinearAcceleration": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Explosion/MuzzleFlash_Spritesheet.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 128
+    },
+    "ScaleRatioConstraint": "None",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "Color": "#ff0000",
+        "Scale": {
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Opacity": 0.4
+      },
+      "10": {
+        "Scale": {
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Color": "#ff0000",
+        "Opacity": 0.4
+      },
+      "50": {
+        "Opacity": 0.4,
+        "Color": "#ff0000"
+      },
+      "80": {
+        "Color": "#ff0000",
+        "Scale": {
+          "X": {
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Y": {
+            "Min": 1.0,
+            "Max": 1.0
+          }
+        },
+        "Opacity": 0.4
+      },
+      "100": {
+        "Color": "#ff0000",
+        "Scale": {
+          "Y": {
+            "Min": 1.1,
+            "Max": 1.3
+          },
+          "X": {
+            "Min": 0.2,
+            "Max": 0.2
+          }
+        },
+        "Opacity": 0.4
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.15,
+          "Max": 0.25
+        },
+        "Y": {
+          "Min": 0.15,
+          "Max": 0.25
+        }
+      },
+      "Opacity": 0.7,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 3
+      },
+      "Rotation": {
+        "Z": {
+          "Min": 180.0,
+          "Max": 180.0
+        }
+      }
+    }
+  },
+  "SpawnBurst": true
+}

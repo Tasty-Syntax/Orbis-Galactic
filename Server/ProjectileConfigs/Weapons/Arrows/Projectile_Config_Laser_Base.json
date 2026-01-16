@@ -1,0 +1,32 @@
+{
+  "Model": "Bullet_Laser",
+  "SpawnRotationOffset": {
+    "Pitch": 2,
+    "Yaw": 0.25,
+    "Roll": 0
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 0,
+    "TerminalVelocityAir": 50,
+    "TerminalVelocityWater": 50,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0.0,
+    "SticksVertically": true,
+    "BounceLimit": 0,
+    "BounceCount": 0
+  },
+  "LaunchForce": 100,
+  "SpawnOffset": {
+    "X": 0.15,
+    "Y": -0.25,
+    "Z": 0
+  },
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        "Blaster_Rifle_Shoot"
+      ]
+    }
+  }
+}

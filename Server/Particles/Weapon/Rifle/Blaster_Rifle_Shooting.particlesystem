@@ -1,0 +1,14 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Blaster_Glow",
+      "PositionOffset": {
+        "Y": -0.3,
+        "Z": -0.08,
+        "X": 0.08
+      }
+    }
+  ],
+  "IsImportant": true,
+  "LifeSpan": 1.0
+}

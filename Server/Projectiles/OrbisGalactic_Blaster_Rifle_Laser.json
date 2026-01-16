@@ -1,0 +1,26 @@
+{
+  "Appearance": "Bullet_Laser",
+  "Radius": 0.1,
+  "Height": 0,
+  "DepthShot": 0.7,
+  "PitchAdjustShot": false,
+  "SticksVertically": true,
+  "MuzzleVelocity": 10,
+  "TerminalVelocity": 10,
+  "Gravity": 0,
+  "Bounciness": 0,
+  "ImpactSlowdown": 0,
+  "TimeToLive": 50,
+  "Damage": 200,
+  "DeathEffectsOnHit": true,
+  "DeadTime": 0.1,
+  "DeadTimeMiss": 0,
+  "DeathParticles": {
+    "SystemId": "Gun_Impact"
+  },
+  "VerticalCenterShot": 0,
+  "HorizontalCenterShot": 0,
+  "DeathSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death",
+  "ComputeYaw": false,
+  "RotationMode": "None"
+}
