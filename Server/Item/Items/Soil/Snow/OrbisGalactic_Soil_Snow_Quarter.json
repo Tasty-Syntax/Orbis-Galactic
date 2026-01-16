@@ -1,0 +1,70 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Snow_Half.name"
+  },
+  "ItemLevel": 10,
+  "Categories": [
+    "Blocks.Soils"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil_Snow",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Snow",
+    "HitboxType": "Block_Quarter",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "BlockParticleSetId": "Snow",
+    "MovementSettings": {
+      "Friction": 0.25
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Snow.png",
+        "Weight": 1
+      }
+    ],
+    "BlockSoundSetId": "Snow",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Snow.png",
+    "TransitionToGroups": [
+      "Stone",
+      "Grass",
+      "Gravel",
+      "Dirt",
+      "Dirt_Dark",
+      "Ice"
+    ],
+    "CustomModel": "Blocks/Structures/Base_Shapes/QuarterBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Soil_Snow.png"
+      }
+    ],
+    "VariantRotation": "DoublePipe",
+    "ParticleColor": "#ddf0f4"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Soil_Snow_Quarter.png",
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
