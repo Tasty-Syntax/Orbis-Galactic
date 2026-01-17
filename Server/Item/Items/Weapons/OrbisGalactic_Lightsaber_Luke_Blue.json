@@ -63,6 +63,5 @@
       -44
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
-  "Model": "Resources/WeaponModels/Lightsaber_Grip_Luke.blockymodel"
+  "Parent": "OrbisGalactic_Lightsaber_Luke_Template"
 }
