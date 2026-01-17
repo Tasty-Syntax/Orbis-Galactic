@@ -3,7 +3,7 @@
     "Items.Weapons"
   ],
   "Quality": "Template",
-  "Model": "Resources/WeaponModels/Lightsaber.blockymodel",
+  "Model": "Resources/WeaponModels/Lightsaber_Grip_Anakin_Blue.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Longsword",
   "Interactions": {
