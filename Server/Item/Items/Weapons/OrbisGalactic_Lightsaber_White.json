@@ -1,8 +1,8 @@
 {
   "Parent": "OrbisGalactic_Lightsaber_Template",
   "TranslationProperties": {
-    "Name": "server.items.HyGalaxy_Lightsaber_Green.name",
-    "Description": "server.items.HyGalaxy_Lightsaber_Green.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_White.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_White.description"
   },
   "Quality": "Legendary",
   "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",
@@ -36,7 +36,7 @@
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
   "Light": {
-    "Color": "#060"
+    "Color": "#666"
   },
   "Trails": [
     {

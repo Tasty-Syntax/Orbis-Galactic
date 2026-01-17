@@ -1,0 +1,6 @@
+{
+  "Animation": "Resources/Animations/Lightsaber_Extend.blockyanim",
+  "SoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip",
+  "MaxStack": 1,
+  "Model": "Resources/WeaponModels/Lightsaber_Grip_Anakin_Blue.blockymodel"
+}

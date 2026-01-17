@@ -1,0 +1,6 @@
+{
+  "Animation": "Resources/Animations/Lightsaber_Retract.blockyanim",
+  "SoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip",
+  "MaxStack": 1,
+  "Model": "Resources/WeaponModels/Lightsaber_Grip_Anakin_Blue.blockymodel"
+}
