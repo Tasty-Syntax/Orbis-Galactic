@@ -1,5 +1,5 @@
 {
-  "Parent": "OrbisGalactic_Lightsaber_Template",
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "TranslationProperties": {
     "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Red.name",
     "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Red.description"
@@ -29,7 +29,7 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
         "Quantity": 1
       }
     ]

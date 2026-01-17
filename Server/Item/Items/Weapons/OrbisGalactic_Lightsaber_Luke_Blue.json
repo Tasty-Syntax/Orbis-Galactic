@@ -28,7 +28,7 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
         "Quantity": 1
       }
     ]
@@ -63,11 +63,6 @@
       -44
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Template",
-  "State": {
-    "Lightsbaer_An": {
-      "Animation": "Resources/Animations/Lightsaber_Extend.blockyanim"
-    }
-  },
+  "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
   "Model": "Resources/WeaponModels/Lightsaber_Grip_Luke.blockymodel"
 }

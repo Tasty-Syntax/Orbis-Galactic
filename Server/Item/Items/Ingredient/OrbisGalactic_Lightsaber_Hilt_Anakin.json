@@ -1,17 +1,17 @@
 {
-  "Model": "Resources/ItemModels/Lightsaber_Hilt.blockymodel",
-  "Texture": "Resources/WeaponTextures/Lightsaber_Blue.png",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt.png",
+  "Model": "Resources/WeaponModels/Lightsaber_Grip_Anakin.blockymodel",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Anakin.png",
   "IconProperties": {
-    "Scale": 1.1,
+    "Scale": 0.8,
     "Rotation": [
-      40,
-      102,
-      6
+      0,
+      203,
+      47
     ],
     "Translation": [
-      -8,
-      -11
+      -15,
+      -16
     ]
   },
   "Recipe": {
@@ -41,5 +41,6 @@
   "ItemSoundSetId": "ISS_Items_Metal",
   "MaxStack": 1,
   "ItemLevel": 10,
-  "Quality": "Common"
+  "Quality": "Common",
+  "PlayerAnimationsId": "Item"
 }

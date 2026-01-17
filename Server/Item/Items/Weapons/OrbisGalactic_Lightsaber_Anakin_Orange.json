@@ -1,11 +1,11 @@
 {
-  "Parent": "OrbisGalactic_Lightsaber_Template",
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Green.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Green.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Orange.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Orange.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Green.png",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Orange.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -29,14 +29,14 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
         "Quantity": 1
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Green.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
   "Light": {
-    "Color": "#060"
+    "Color": "#750"
   },
   "Trails": [
     {
