@@ -1,0 +1,43 @@
+{
+  "formatVersion": 1,
+  "duration": 12,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+		"Blade": {
+			"position": [],
+			"orientation": [],
+			"shapeStretch": [],
+			"shapeVisible": [],
+			"shapeUvOffset": [
+			{
+          "time": 0,
+          "delta": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "time": 4,
+          "delta": {
+            "x": 10,
+            "y": 0
+          }
+        },
+        {
+          "time": 8,
+          "delta": {
+            "x": 20,
+            "y": 0
+          }
+        },
+        {
+          "time": 12,
+          "delta": {
+            "x": 30,
+            "y": 0
+          }
+        }
+		]
+		}
+	}
+}

@@ -1,8 +1,7 @@
 {
-  "Parent": "OrbisGalactic_Lightsaber_Template",
   "TranslationProperties": {
-    "Name": "server.items.HyGalaxy_Lightsaber_Blue.name",
-    "Description": "server.items.HyGalaxy_Lightsaber_Blue.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Blue.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Blue.description"
   },
   "Quality": "Legendary",
   "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
@@ -63,5 +62,11 @@
       -46,
       -44
     ]
+  },
+  "Parent": "OrbisGalactic_Lightsaber_Template",
+  "State": {
+    "Lightsbaer_An": {
+      "Animation": "Resources/Animations/Lightsaber_Extend.blockyanim"
+    }
   }
 }

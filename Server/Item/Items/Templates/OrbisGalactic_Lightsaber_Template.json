@@ -304,5 +304,7 @@
   },
   "Utility": {
     "Compatible": false
-  }
+  },
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
+  "Animation": "Resources/Animations/Saber_Animate.blockyanim"
 }
