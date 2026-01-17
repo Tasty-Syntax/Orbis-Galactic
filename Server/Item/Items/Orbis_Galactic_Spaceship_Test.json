@@ -7,7 +7,6 @@
   "Categories": [
     "Blocks.Soils"
   ],
-  "PlayerAnimationsId": "Block",
   "Set": "Soil",
   "ResourceTypes": [
     {
@@ -25,12 +24,6 @@
       }
     },
     "BlockParticleSetId": "Metal",
-    "Textures": [
-      {
-        "All": "Resources/PropTextures/ship_test.png",
-        "Weight": 1
-      }
-    ],
     "ParticleColor": "#b5b5b5",
     "BlockSoundSetId": "Dirt",
     "BlockBreakingDecalId": "Breaking_Decals_Soil",
@@ -39,7 +32,7 @@
     "CustomModelScale": 6,
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/ship_test.png"
+        "Texture": "Resources/PropTextures/HWK-290_Texture.png"
       }
     ],
     "RandomRotation": "None",
@@ -62,5 +55,6 @@
       10,
       -13.5
     ]
-  }
+  },
+  "PlayerAnimationsId": "Block"
 }
