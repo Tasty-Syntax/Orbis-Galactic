@@ -830,11 +830,323 @@
             "doubleSided": false,
             "shadingMode": "flat"
           }
+        },
+        {
+          "id": "17",
+          "name": "Lightcube--C16",
+          "position": {"x": 11.4, "y": 6.46667, "z": -51.46667},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "box",
+            "offset": {"x": -0.5, "y": 0.5, "z": -0.5},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 1, "y": 1, "z": 1},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 11, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 10, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 13, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": true, "y": true},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 13, "y": 12},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "fullbright"
+          }
+        },
+        {
+          "id": "18",
+          "name": "Lightcube--C17",
+          "position": {"x": 11.4, "y": 6.46667, "z": -55.46667},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "box",
+            "offset": {"x": -0.5, "y": 0.5, "z": -0.5},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 1, "y": 1, "z": 1},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 11, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 10, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 13, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": true, "y": true},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 13, "y": 12},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "fullbright"
+          }
+        },
+        {
+          "id": "19",
+          "name": "Lightcube--C18",
+          "position": {"x": 6, "y": 11.76667, "z": -54.46667},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "box",
+            "offset": {"x": -2, "y": 0.5, "z": -5.5},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 4, "y": 1, "z": 15},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 15, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 0, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 34, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 19, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 19, "y": 15},
+                "mirror": {"x": true, "y": true},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 23, "y": 0},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "fullbright"
+          }
+        },
+        {
+          "id": "20",
+          "name": "Lightcube--C19",
+          "position": {"x": -2, "y": 11.76667, "z": -54.46667},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "box",
+            "offset": {"x": -2, "y": 0.5, "z": -5.5},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 4, "y": 1, "z": 15},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 15, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 0, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 34, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 19, "y": 15},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 19, "y": 15},
+                "mirror": {"x": true, "y": true},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 23, "y": 0},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "fullbright"
+          }
+        },
+        {
+          "id": "21",
+          "name": "Lightcube--C20",
+          "position": {"x": 12.4, "y": 6.46667, "z": -92.46667},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "box",
+            "offset": {"x": -0.5, "y": 0.5, "z": -0.5},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 1, "y": 1, "z": 1},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 11, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 10, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 13, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": true, "y": true},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 13, "y": 12},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "fullbright"
+          }
+        },
+        {
+          "id": "22",
+          "name": "Lightcube--C21",
+          "position": {"x": 12.4, "y": 4.46667, "z": -92.46667},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "box",
+            "offset": {"x": -0.5, "y": 0.5, "z": -0.5},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 1, "y": 1, "z": 1},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 11, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 10, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 13, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 12, "y": 13},
+                "mirror": {"x": true, "y": true},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 13, "y": 12},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "fullbright"
+          }
         }
       ]
     },
     {
-      "id": "17",
+      "id": "23",
       "name": "Wings",
       "position": {"x": 0.16667, "y": 7.8001, "z": -32},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -885,7 +1197,7 @@
       },
       "children": [
         {
-          "id": "18",
+          "id": "24",
           "name": "cube--C1",
           "position": {"x": -13.5, "y": 0, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -937,7 +1249,7 @@
           }
         },
         {
-          "id": "19",
+          "id": "25",
           "name": "cube--C2",
           "position": {"x": -82.5, "y": 0, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -989,7 +1301,7 @@
           }
         },
         {
-          "id": "20",
+          "id": "26",
           "name": "cube--C3",
           "position": {"x": -23.5, "y": 0, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1041,7 +1353,7 @@
           }
         },
         {
-          "id": "21",
+          "id": "27",
           "name": "cube--C4",
           "position": {"x": -70.5, "y": 0, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1093,7 +1405,7 @@
           }
         },
         {
-          "id": "22",
+          "id": "28",
           "name": "cube--C5",
           "position": {"x": -66.5, "y": 0, "z": 2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1145,7 +1457,7 @@
           }
         },
         {
-          "id": "23",
+          "id": "29",
           "name": "cube--C6",
           "position": {"x": -1.5, "y": 0, "z": 2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1197,7 +1509,7 @@
           }
         },
         {
-          "id": "24",
+          "id": "30",
           "name": "cube--C7",
           "position": {"x": -60.5, "y": 0, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1249,7 +1561,7 @@
           }
         },
         {
-          "id": "25",
+          "id": "31",
           "name": "cube--C8",
           "position": {"x": -17.5, "y": 0, "z": 2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1301,7 +1613,7 @@
           }
         },
         {
-          "id": "26",
+          "id": "32",
           "name": "cube--C9",
           "position": {"x": -24.5, "y": 0, "z": 2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1353,7 +1665,7 @@
           }
         },
         {
-          "id": "27",
+          "id": "33",
           "name": "cube--C10",
           "position": {"x": -81.5, "y": 0, "z": 2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1405,7 +1717,7 @@
           }
         },
         {
-          "id": "28",
+          "id": "34",
           "name": "cube--C11",
           "position": {"x": -59.5, "y": 0, "z": 2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1457,7 +1769,7 @@
           }
         },
         {
-          "id": "29",
+          "id": "35",
           "name": "cube--C12",
           "position": {"x": -73.5, "y": -8, "z": 12},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1509,7 +1821,7 @@
           }
         },
         {
-          "id": "30",
+          "id": "36",
           "name": "cube--C13",
           "position": {"x": -73.5, "y": -6, "z": 12},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1561,7 +1873,7 @@
           }
         },
         {
-          "id": "31",
+          "id": "37",
           "name": "cube--C14",
           "position": {"x": -10.5, "y": -6, "z": 12},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1613,7 +1925,7 @@
           }
         },
         {
-          "id": "32",
+          "id": "38",
           "name": "cube--C15",
           "position": {"x": -10.5, "y": -8, "z": 12},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1665,7 +1977,7 @@
           }
         },
         {
-          "id": "33",
+          "id": "39",
           "name": "cube--C16",
           "position": {"x": -15, "y": 0.75, "z": 50},
           "orientation": {"x": 0, "y": 0, "z": -0.19509, "w": 0.98079},
@@ -1717,7 +2029,7 @@
           }
         },
         {
-          "id": "34",
+          "id": "40",
           "name": "cube--C17",
           "position": {"x": -69, "y": 0.75, "z": 50},
           "orientation": {"x": 0, "y": 0, "z": 0.19509, "w": 0.98079},
