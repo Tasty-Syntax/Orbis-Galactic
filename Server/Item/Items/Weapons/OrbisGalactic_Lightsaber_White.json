@@ -1,8 +1,8 @@
 {
   "Parent": "OrbisGalactic_Lightsaber_Template",
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_White.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_White.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.description"
   },
   "Quality": "Legendary",
   "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",

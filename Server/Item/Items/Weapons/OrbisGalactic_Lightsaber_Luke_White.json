@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Blue.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_White.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_White.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Blue.png",
+  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_White.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -33,9 +33,9 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_White.png",
   "Light": {
-    "Color": "#166"
+    "Color": "#666"
   },
   "Trails": [
     {

@@ -1,8 +1,8 @@
 {
   "Parent": "OrbisGalactic_Lightsaber_Template",
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Gold.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Gold.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Gold.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Gold.description"
   },
   "Quality": "Legendary",
   "ItemLevel": 40,
