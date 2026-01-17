@@ -1,10 +1,12 @@
 {
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Gold.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Gold.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
+  "ItemLevel": 40,
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Gold.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -20,28 +22,28 @@
     ],
     "Input": [
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Blue",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
         "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Fire_Essence",
-        "Quantity": 5
+        "Quantity": 5,
+        "ItemId": "Ingredient_Fire_Essence"
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
         "Quantity": 1
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Gold.png",
   "Light": {
-    "Color": "#166"
+    "Color": "#751"
   },
   "Trails": [
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Blue",
+      "TrailId": "Lightsaber_Trail_Gold",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0
@@ -62,11 +64,5 @@
       -46,
       -44
     ]
-  },
-  "Parent": "OrbisGalactic_Lightsaber_Template",
-  "State": {
-    "Lightsbaer_An": {
-      "Animation": "Resources/Animations/Lightsaber_Extend.blockyanim"
-    }
   }
 }

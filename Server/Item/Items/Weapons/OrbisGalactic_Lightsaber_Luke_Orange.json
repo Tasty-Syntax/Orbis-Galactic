@@ -28,12 +28,11 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
         "Quantity": 1
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Orange.png",
   "Light": {
     "Color": "#750"
   },
@@ -63,11 +62,7 @@
       -44
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Template",
-  "State": {
-    "Lightsbaer_An": {
-      "Animation": "Resources/Animations/Lightsaber_Extend.blockyanim"
-    }
-  },
-  "Model": "Resources/WeaponModels/Lightsaber_Grip_Luke.blockymodel"
+  "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
+  "Model": "Resources/WeaponModels/Lightsaber_Grip_Luke.blockymodel",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Orange.png"
 }

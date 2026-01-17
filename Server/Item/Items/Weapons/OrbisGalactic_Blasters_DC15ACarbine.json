@@ -83,7 +83,7 @@
     ]
   },
   "Weapon": {},
-  "Scale": 3,
+  "Scale": 1,
   "PlayerAnimationsId": {
     "Animations": {
       "Shoot": {
@@ -95,6 +95,6 @@
         "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
       }
     },
-    "Parent": "OrbisGalactic_Rifle"
+    "Parent": "Rifle"
   }
 }

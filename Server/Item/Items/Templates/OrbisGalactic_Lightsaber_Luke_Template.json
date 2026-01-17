@@ -2,15 +2,13 @@
   "Categories": [
     "Items.Weapons"
   ],
-  "Quality": "Template",
-  "Model": "Resources/WeaponModels/Lightsaber_Grip_Anakin_Blue.blockymodel",
+  "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Longsword",
   "Interactions": {
     "Primary": "OrbisGalactic_Lightsaber_Attack",
     "Secondary": "Longsword_Block",
-    "SwapTo": "OrbisGalactic_Lightsaber_Equip",
-    "Ability1": "Root_Weapon_Sword_Signature_Vortexstrike"
+    "SwapTo": "OrbisGalactic_Lightsaber_Equip"
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "Longsword_Block_Damage",
@@ -305,6 +303,7 @@
   "Utility": {
     "Compatible": false
   },
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
+  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Blue.png",
+  "Quality": "Template",
   "Animation": "Resources/Animations/Saber_Animate.blockyanim"
 }
