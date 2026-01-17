@@ -1,12 +1,11 @@
 {
   "Parent": "OrbisGalactic_Lightsaber_Template",
   "TranslationProperties": {
-    "Name": "server.items.HyGalaxy_Lightsaber_Gold.name",
-    "Description": "server.items.HyGalaxy_Lightsaber_Gold.description"
+    "Name": "server.items.HyGalaxy_Lightsaber_Green.name",
+    "Description": "server.items.HyGalaxy_Lightsaber_Green.description"
   },
   "Quality": "Legendary",
-  "ItemLevel": 40,
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Gold.png",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -22,12 +21,12 @@
     ],
     "Input": [
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Green",
         "Quantity": 1
       },
       {
-        "Quantity": 5,
-        "ItemId": "Ingredient_Fire_Essence"
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
       },
       {
         "ItemId": "OrbisGalactic_Lightsaber_Hilt",
@@ -35,15 +34,15 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Gold.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
   "Light": {
-    "Color": "#651"
+    "Color": "#060"
   },
   "Trails": [
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Gold",
+      "TrailId": "Lightsaber_Trail_Green",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0

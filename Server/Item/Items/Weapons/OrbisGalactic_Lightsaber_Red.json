@@ -5,7 +5,7 @@
     "Description": "server.items.HyGalaxy_Lightsaber_Red.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Lightsaber_Red.png",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Red.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -51,5 +51,17 @@
       },
       "TrailId": "Lightsaber_Trail_Red"
     }
-  ]
+  ],
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  }
 }

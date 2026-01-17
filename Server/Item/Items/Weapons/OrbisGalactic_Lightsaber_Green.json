@@ -5,7 +5,7 @@
     "Description": "server.items.HyGalaxy_Lightsaber_Green.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Lightsaber_Green.png",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Green.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -51,5 +51,17 @@
         "Roll": 0
       }
     }
-  ]
+  ],
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  }
 }
