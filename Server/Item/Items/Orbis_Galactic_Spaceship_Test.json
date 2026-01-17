@@ -32,11 +32,11 @@
     "CustomModelScale": 6,
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/HWK-290_Texture.png"
+        "Texture": "Resources/PropTextures/HWK-290_Texture_Test.png"
       }
     ],
     "RandomRotation": "None",
-    "HitboxType": "Collision_HWK290"
+    "HitboxType": "Block_Full"
   },
   "Tags": {
     "Type": [
