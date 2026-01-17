@@ -29,14 +29,17 @@
     "BlockBreakingDecalId": "Breaking_Decals_Soil",
     "CustomModel": "Resources/PropModels/HWK-290.blockymodel",
     "CubeShadingMode": "Standard",
-    "CustomModelScale": 6,
+    "CustomModelScale": 5,
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/HWK-290_Texture_Test.png"
+        "Texture": "Resources/PropTextures/HWK-290_Texture.png"
       }
     ],
     "RandomRotation": "None",
-    "HitboxType": "Block_Full"
+    "HitboxType": "Block_Full",
+    "Interactions": {
+      "Use": "Open_Spaceship"
+    }
   },
   "Tags": {
     "Type": [
