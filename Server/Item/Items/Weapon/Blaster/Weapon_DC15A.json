@@ -32,7 +32,7 @@
       ]
     },
     "Staff_Cast_Summon_Launch": "Blaster_Bolt",
-    "Staff_Cast_Summon_Effect": "Staff_Cast_Effect",
+    "Staff_Cast_Summon_Effect": "Blaster_Fire_Effect",
     "Staff_Cast_Summon_Fail": "Staff_Cast_Fail"
   },
   "IconProperties": {
