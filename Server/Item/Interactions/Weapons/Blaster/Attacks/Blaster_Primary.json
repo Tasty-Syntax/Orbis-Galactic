@@ -3,17 +3,9 @@
   "Effects": {
     "ItemAnimationId": "CastSummonCharging"
   },
-  "AllowIndefiniteHold": true,
+  "AllowIndefiniteHold": false,
   "HorizontalSpeedMultiplier": 0.5,
   "Next": {
-    "1": "Staff_Cast_Summon_Charged",
-    "0": {
-      "Type": "Chaining",
-      "ChainingAllowance": 1.25,
-      "Next": [
-        "Spear_Swing_Left",
-        "Spear_Swing_Right"
-      ]
-    }
+    "1": "Blaster_Shoot_Charged"
   }
 }

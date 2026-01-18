@@ -33,11 +33,7 @@
     },
     "Staff_Cast_Summon_Launch": "Blaster_Bolt",
     "Staff_Cast_Summon_Effect": "Staff_Cast_Effect",
-    "Staff_Cast_Summon_Fail": "Staff_Cast_Fail",
-    "Spear_Swing_Left_Damage": "Spear_Swing_Left_Damage",
-    "Spear_Swing_Right_Damage": "Spear_Swing_Right_Damage",
-    "Spear_Swing_Left_Effect": "Spear_Swing_Left_Effect",
-    "Spear_Swing_Right_Effect": "Spear_Swing_Right_Effect"
+    "Staff_Cast_Summon_Fail": "Staff_Cast_Fail"
   },
   "IconProperties": {
     "Scale": 0.3,
