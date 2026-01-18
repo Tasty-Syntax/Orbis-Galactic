@@ -5,7 +5,7 @@
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Orbis_Galactic_Spaceship_Test.png",
   "Categories": [
-    "Blocks.Soils"
+    "Blocks.Portals"
   ],
   "Set": "Soil",
   "ResourceTypes": [
@@ -36,10 +36,13 @@
       }
     ],
     "RandomRotation": "None",
-    "HitboxType": "Block_Full",
+    "HitboxType": "Collision_HWK290",
     "Interactions": {
       "Use": "Open_Spaceship"
-    }
+    },
+    "InteractionHitboxType": "Collision_HWK290",
+    "Parent": "Rock_Bedrock",
+    "Opacity": "Semitransparent"
   },
   "Tags": {
     "Type": [
