@@ -1,0 +1,67 @@
+{
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
+  "TranslationProperties": {
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.description"
+  },
+  "Quality": "Legendary",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 3
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Green",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "Quantity": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
+  "Light": {
+    "Color": "#666"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_White",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
+  "TranslationProperties": {
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Gold.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Gold.description"
+  },
+  "Quality": "Legendary",
+  "ItemLevel": 40,
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Gold.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 3
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
+        "Quantity": 1
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "Ingredient_Fire_Essence"
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "Quantity": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Gold.png",
+  "Light": {
+    "Color": "#751"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_Gold",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  }
+}

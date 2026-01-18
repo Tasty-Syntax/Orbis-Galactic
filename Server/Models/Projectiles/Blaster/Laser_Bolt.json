@@ -1,0 +1,22 @@
+{
+  "Model": "Items/Projectiles/LaserBeam.blockymodel",
+  "Texture": "Items/Projectiles/LaserBeam_Texture.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.05,
+      "Y": 0.05,
+      "Z": 0.05
+    },
+    "Min": {
+      "X": -0.05,
+      "Y": -0.05,
+      "Z": -0.05
+    }
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "Light": {
+    "Color": "#f00",
+    "Radius": 5
+  }
+}

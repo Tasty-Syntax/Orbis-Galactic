@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Staff_Adamantite.name"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Model": "Resources/WeaponModels/DC15ACarbine.blockymodel",
+  "Texture": "Resources/WeaponTextures/DC15ACarbine.png",
+  "PlayerAnimationsId": "Rifle",
+  "Interactions": {
+    "Primary": "Blaster_Primary"
+  },
+  "InteractionVars": {
+    "Staff_Cast_Summon_Charged": {
+      "Interactions": [
+        {
+          "Parent": "Blaster_Shoot"
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Cost": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Cast_Cost",
+          "StatModifiers": {
+            "Mana": -50
+          }
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Launch": "Blaster_Bolt",
+    "Staff_Cast_Summon_Effect": "Staff_Cast_Effect",
+    "Staff_Cast_Summon_Fail": "Staff_Cast_Fail",
+    "Spear_Swing_Left_Damage": "Spear_Swing_Left_Damage",
+    "Spear_Swing_Right_Damage": "Spear_Swing_Right_Damage",
+    "Spear_Swing_Left_Effect": "Spear_Swing_Left_Effect",
+    "Spear_Swing_Right_Effect": "Spear_Swing_Right_Effect"
+  },
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      341,
+      125,
+      23
+    ],
+    "Translation": [
+      -21,
+      -21
+    ]
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Icon": "Icons/ItemsGenerated/Weapon_DC15A.png",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "Weapon": {},
+  "ItemSoundSetId": "ISS_Weapons_Wood"
+}

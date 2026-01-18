@@ -1,7 +1,7 @@
 {
   "Parent": "OrbisGalactic_Kyber_Ore_Template",
   "TranslationProperties": {
-    "Name": "server.items.Ore_Adamantite_Volcanic.name"
+    "Name": "server.items.Ore_Kyber_Volcanic.name"
   },
   "BlockType": {
     "Gathering": {

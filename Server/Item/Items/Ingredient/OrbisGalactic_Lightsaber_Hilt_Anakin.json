@@ -1,0 +1,46 @@
+{
+  "Model": "Resources/WeaponModels/Lightsaber_Grip_Anakin.blockymodel",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Anakin.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      203,
+      47
+    ],
+    "Translation": [
+      -15,
+      -16
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 10
+      }
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt.name",
+    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt.description"
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "ItemLevel": 10,
+  "Quality": "Common",
+  "PlayerAnimationsId": "Item"
+}

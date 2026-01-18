@@ -15,21 +15,5 @@
       "Color": "#ffffff"
     }
   ],
-  "Quality": "Epic",
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Ingredient_Life_Essence_Concentrated",
-        "Quantity": 10
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Arcanebench",
-        "Categories": [
-          "Arcane_Misc"
-        ]
-      }
-    ]
-  }
+  "Quality": "Epic"
 }

@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_White.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_White.description"
+  },
+  "Quality": "Legendary",
+  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_White.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 3
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Blue",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
+        "Quantity": 1
+      }
+    ]
+  },
+  "Light": {
+    "Color": "#666"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_White",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  },
+  "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_White.png"
+}

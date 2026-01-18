@@ -1,7 +1,0 @@
-{
-  "Type": "Simple",
-  "CancelOnItemChange": true,
-  "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip"
-  }
-}

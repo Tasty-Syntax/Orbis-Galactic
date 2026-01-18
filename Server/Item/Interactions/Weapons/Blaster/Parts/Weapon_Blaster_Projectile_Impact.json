@@ -1,0 +1,22 @@
+{
+  "Parent": "Explode_Generic",
+  "Config": {
+    "DamageBlocks": false,
+    "EntityDamage": 10.0,
+    "EntityDamageRadius": 2,
+    "EntityDamageFalloff": 0
+  },
+  "Effects": {
+    "Particles": [
+      {
+        "SystemId": "Explosion_Small",
+        "TargetEntityPart": "Entity",
+        "Scale": 1,
+        "PositionOffset": {
+          "Y": -0.5
+        }
+      }
+    ],
+    "WorldSoundEventId": "SFX_Staff_Flame_Fireball_Impact"
+  }
+}
