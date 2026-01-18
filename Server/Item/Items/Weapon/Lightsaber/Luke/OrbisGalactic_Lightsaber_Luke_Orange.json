@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Gold.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Gold.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Orange.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Orange.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Gold.png",
+  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Orange.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -34,13 +34,13 @@
     ]
   },
   "Light": {
-    "Color": "#751"
+    "Color": "#750"
   },
   "Trails": [
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Blue",
+      "TrailId": "Lightsaber_Trail_Orange",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0
@@ -63,5 +63,5 @@
     ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Gold.png"
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Orange.png"
 }

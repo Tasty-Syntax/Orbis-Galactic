@@ -15,17 +15,6 @@
   },
   "MinScale": 1,
   "MaxScale": 1,
-  "AnimationSets": {
-    "Idle": {
-      "Animations": [
-        {
-          "Animation": "Items/Animations/Spin_Roll/Spin_Roll_Right.blockyanim",
-          "Speed": 1,
-          "SoundEventId": "SFX_Blunderbuss_Bullet_WhizBy"
-        }
-      ]
-    }
-  },
   "Light": {
     "Color": "#f00",
     "Radius": 5

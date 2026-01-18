@@ -1,11 +1,11 @@
 {
   "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Orange.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Orange.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Orange.png",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -36,13 +36,13 @@
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
   "Light": {
-    "Color": "#750"
+    "Color": "#666"
   },
   "Trails": [
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Green",
+      "TrailId": "Lightsaber_Trail_White",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0

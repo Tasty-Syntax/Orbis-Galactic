@@ -7,8 +7,7 @@
   "PlayerAnimationsId": "Longsword",
   "Interactions": {
     "Primary": "OrbisGalactic_Lightsaber_Attack",
-    "Secondary": "Longsword_Block",
-    "SwapTo": "OrbisGalactic_Lightsaber_Equip"
+    "Secondary": "Longsword_Block"
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "Longsword_Block_Damage",

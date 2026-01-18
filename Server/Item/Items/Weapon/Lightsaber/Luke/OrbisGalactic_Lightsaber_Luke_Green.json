@@ -1,11 +1,10 @@
 {
-  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_White.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Green.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Green.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",
+  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Green.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -21,7 +20,7 @@
     ],
     "Input": [
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Green",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Blue",
         "Quantity": 1
       },
       {
@@ -29,14 +28,13 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
         "Quantity": 1
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
   "Light": {
-    "Color": "#666"
+    "Color": "#060"
   },
   "Trails": [
     {
@@ -63,5 +61,7 @@
       -46,
       -44
     ]
-  }
+  },
+  "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Green.png"
 }

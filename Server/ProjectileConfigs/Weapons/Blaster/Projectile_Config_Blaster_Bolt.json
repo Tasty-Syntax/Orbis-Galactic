@@ -1,5 +1,5 @@
 {
-  "Model": "Bullet_Laser",
+  "Model": "Arrow_Crude",
   "SpawnRotationOffset": {
     "Pitch": 2,
     "Yaw": 0.25,
@@ -25,7 +25,14 @@
   "Interactions": {
     "ProjectileHit": {
       "Interactions": [
-        "Blaster_Rifle_Shoot"
+        "Weapon_Blaster_Projectile_Impact",
+        "Weapon_Blaster_Projectile_Despawn"
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        "Weapon_Blaster_Projectile_Impact",
+        "Weapon_Blaster_Projectile_Despawn"
       ]
     }
   }

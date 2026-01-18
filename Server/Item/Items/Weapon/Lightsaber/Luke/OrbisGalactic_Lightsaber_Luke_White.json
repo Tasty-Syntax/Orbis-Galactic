@@ -40,7 +40,7 @@
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Blue",
+      "TrailId": "Lightsaber_Trail_White",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0
