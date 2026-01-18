@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Soil_Dirt.name"
+    "Name": "Space Ship to other Planets"
   },
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Orbis_Galactic_Spaceship_Test.png",
@@ -18,11 +18,6 @@
     "DrawType": "Model",
     "Group": "Ships",
     "Flags": {},
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Soils"
-      }
-    },
     "BlockParticleSetId": "Metal",
     "ParticleColor": "#b5b5b5",
     "BlockSoundSetId": "Dirt",

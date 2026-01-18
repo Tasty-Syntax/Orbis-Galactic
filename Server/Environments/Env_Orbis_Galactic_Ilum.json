@@ -1,0 +1,10 @@
+{
+  "Parent": "Env_Zone3",
+  "SpawnDensity": 0.4,
+  "Tags": {
+    "Zone3": [
+      "Tundra"
+    ]
+  },
+  "WaterTint": "#c2d9ef"
+}
