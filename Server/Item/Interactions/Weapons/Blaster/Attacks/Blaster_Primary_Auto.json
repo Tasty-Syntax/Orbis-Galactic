@@ -1,0 +1,16 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "CastSummonCharging"
+  },
+  "AllowIndefiniteHold": false,
+  "HorizontalSpeedMultiplier": 0.5,
+  "Next": {
+    "Type": "Projectile",
+    "Effects": {
+      "WorldSoundEventId": "Blaster_Rifle_Shoot_SFX",
+      "LocalSoundEventId": "Blaster_Rifle_Shoot_SFX"
+    },
+    "Config": "Projectile_Config_Blaster_Bolt"
+  }
+}
