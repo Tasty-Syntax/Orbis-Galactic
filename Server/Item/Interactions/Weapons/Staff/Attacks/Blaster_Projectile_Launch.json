@@ -1,0 +1,10 @@
+{
+  "Type": "LaunchProjectile",
+  "RunTime": 0,
+  "Effects": {
+    "ItemAnimationId": "CastSummonCharged",
+    "WorldSoundEventId": "Blaster_Rifle_Shoot_SFX",
+    "LocalSoundEventId": "Blaster_Rifle_Shoot_SFX"
+  },
+  "ProjectileId": "OrbisGalactic_Blaster_Rifle_Laser"
+}

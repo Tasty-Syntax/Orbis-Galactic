@@ -1,10 +1,19 @@
 {
   "Type": "Simple",
   "$Comment": "Prepare Delay",
-  "RunTime": 0.167,
+  "RunTime": 0,
+  "Failed": {
+    "Type": "Replace",
+    "DefaultValue": {
+      "Interactions": [
+        "Staff_Cast_Fail"
+      ]
+    },
+    "Var": "Staff_Cast_Summon_Fail"
+  },
   "Next": {
     "Type": "Parallel",
-    "$Comment": "Make sure this parallel interaction is needed and can\u0027t be optimized away",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
     "Interactions": [
       {
         "Interactions": [
@@ -51,20 +60,7 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Staff_Cast_Cost"
-              ]
-            },
-            "Var": "Staff_Cast_Summon_Cost"
-          }
-        ]
-      },
-      {
-        "Interactions": [
-          {
-            "Type": "Replace",
-            "DefaultValue": {
-              "Interactions": [
-                "Staff_Cast_Launch"
+                "Blaster_Projectile_Launch"
               ]
             },
             "Var": "Staff_Cast_Summon_Launch"
@@ -77,7 +73,7 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Staff_Cast_Effect"
+                "Blaster_Projectile_Effect"
               ]
             },
             "Var": "Staff_Cast_Summon_Effect"
@@ -85,14 +81,5 @@
         ]
       }
     ]
-  },
-  "Failed": {
-    "Type": "Replace",
-    "DefaultValue": {
-      "Interactions": [
-        "Staff_Cast_Fail"
-      ]
-    },
-    "Var": "Staff_Cast_Summon_Fail"
   }
 }
