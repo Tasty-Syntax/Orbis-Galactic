@@ -1,5 +1,5 @@
 {
-  "Model": "Resources/WeaponModels/Lightsaber_Grip_Anakin.blockymodel",
+  "Model": "Resources/ItemModels/Lightsaber_Grip_Anakin.blockymodel",
   "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Anakin.png",
   "IconProperties": {
@@ -35,8 +35,8 @@
     ]
   },
   "TranslationProperties": {
-    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt.name",
-    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt.description"
+    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt_Anakin.name",
+    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt_Anakin.description"
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "MaxStack": 1,

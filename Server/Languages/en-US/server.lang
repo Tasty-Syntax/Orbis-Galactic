@@ -10,6 +10,10 @@ items.Ore_Kyber_Crystal_Gold.name=Golden Kyber Crystal
 items.Ore_Kyber_Crystal_Gold.description=A radiant golden crystal emitting a pure, resonant harmony. Its hum feels ancient and unwavering, suffused with clarity, purpose, and an almost mythic presence.
 items.Ore_Kyber_Crystal_Purple.name=Purple Kyber Crystal
 items.Ore_Kyber_Crystal_Purple.description=A deep violet crystal shimmering with conflicting energies. Its hum carries both serenity and intensity, balanced on a razor’s edge between control and aggression.
+items.Ore_Kyber_Crystal_Orange.name=Orange Kyber Crystal
+items.Ore_Kyber_Crystal_Orange.description=A warm orange crystal glowing with restrained intensity. Its hum feels deliberate and measured, resonating with adaptability, ambition, and pragmatic balance. The Force within is neither rigid nor wild, but shaped by personal will and unconventional purpose.
+items.Ore_Kyber_Crystal_Multicolor.name=White Kyber Crystal
+items.Ore_Kyber_Crystal_Multicolor.description=A rare prismatic crystal refracting shifting hues of cyan, magenta, and yellow within its core. Its hum is calm and perfectly unified, as if multiple resonances have been fused into a single, coherent harmony. The Force within feels balanced and self-determined, free from corruption and rigid doctrine alike.
 
 items.Ore_Kyber_Stone.name=Kyber Crystal Ore - Stone
 items.Ore_Kyber_Basalt.name=Kyber Crystal Ore - Basalt
@@ -19,7 +23,7 @@ items.Ore_Kyber_Volcanic.name=Kyber Crystal Ore - Volcanic
 
 items.Orbis_Galactic_Lightsaber_Anakin_Blue.name=Blue Lightsaber (Anakin)
 items.Orbis_Galactic_Lightsaber_Anakin_Blue.description=A blue lightsaber, most commonly wielded by Jedi protectors and warriors. Its blade hums steadily with focus and resolve.
-items.Orbis_Galactic_Lightsaber_Anakin_Green.name=Blue Lightsaber (Anakin)
+items.Orbis_Galactic_Lightsaber_Anakin_Green.name=Green Lightsaber (Anakin)
 items.Orbis_Galactic_Lightsaber_Anakin_Green.description=A green lightsaber, favored by Jedi who follow wisdom and mastery of the Force. Its blade moves with fluid precision.
 items.Orbis_Galactic_Lightsaber_Anakin_Red.name=Red Lightsaber (Anakin)
 items.Orbis_Galactic_Lightsaber_Anakin_Red.description=A red lightsaber, corrupted through the dark side of the Force. The blade crackles with unstable energy, radiating malice and domination.
@@ -34,7 +38,7 @@ items.Orbis_Galactic_Lightsaber_Anakin_White.description=A white lightsaber, pur
 
 items.Orbis_Galactic_Lightsaber_Luke_Blue.name=Blue Lightsaber (Luke)
 items.Orbis_Galactic_Lightsaber_Luke_Blue.description=A blue lightsaber, most commonly wielded by Jedi protectors and warriors. Its blade hums steadily with focus and resolve.
-items.Orbis_Galactic_Lightsaber_Luke_Green.name=Blue Lightsaber (Luke)
+items.Orbis_Galactic_Lightsaber_Luke_Green.name=Green Lightsaber (Luke)
 items.Orbis_Galactic_Lightsaber_Luke_Green.description=A green lightsaber, favored by Jedi who follow wisdom and mastery of the Force. Its blade moves with fluid precision.
 items.Orbis_Galactic_Lightsaber_Luke_Red.name=Red Lightsaber (Luke)
 items.Orbis_Galactic_Lightsaber_Luke_Red.description=A red lightsaber, corrupted through the dark side of the Force. The blade crackles with unstable energy, radiating malice and domination.
@@ -47,5 +51,7 @@ items.Orbis_Galactic_Lightsaber_Luke_Orange.description=An orange lightsaber wit
 items.Orbis_Galactic_Lightsaber_Luke_White.name=White Lightsaber (Luke)
 items.Orbis_Galactic_Lightsaber_Luke_White.description=A white lightsaber, purified of dark corruption and restored to balance. Its blade emits a soft, steady hum, reflecting neutrality, redemption, and independence from both Jedi and Sith traditions.
 
-items.OrbisGalactic_Lightsaber_Hilt.name=Lightsaber Hilt
-items.OrbisGalactic_Lightsaber_Hilt.description=A hilt to mount a kyber crystal inside of.
+items.OrbisGalactic_Lightsaber_Hilt_Anakin.name=Lightsaber Hilt (Anakin)
+items.OrbisGalactic_Lightsaber_Hilt_Anakin.description=A finely crafted lightsaber hilt of elegant, functional design. Once wielded by a legendary Jedi Knight, it carries a powerful presence shaped by great promise and tragic destiny. The hilt feels heavy with history, its balance reflecting both brilliance and hubris.
+items.OrbisGalactic_Lightsaber_Hilt_Luke.name=Lightsaber Hilt (Luke)
+items.OrbisGalactic_Lightsaber_Hilt_Luke.description=A refined lightsaber hilt built with careful intention and quiet resolve. Forged by a Jedi who sought to restore hope to a broken legacy, it hums faintly with determination and balance. The hilt feels purposeful and calm, shaped by perseverance rather than inheritance.

@@ -1,11 +1,11 @@
 {
   "Parent": "OrbisGalactic_Kyber_Crystal_Template",
   "TranslationProperties": {
-    "Description": "server.items.Ore_Kyber_Crystal_Gold.description",
-    "Name": "server.items.Ore_Kyber_Crystal_Gold.name"
+    "Description": "server.items.Ore_Kyber_Crystal_Orange.description",
+    "Name": "server.items.Ore_Kyber_Crystal_Orange.name"
   },
-  "Texture": "Resources/ItemTextures/Kyber_Crystal_Gold.png",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_Gold.png",
+  "Texture": "Resources/ItemTextures/Kyber_Crystal_Orange.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_Orange.png",
   "Light": {
     "Color": "#650"
   },
@@ -22,7 +22,11 @@
       },
       {
         "ItemId": "Ingredient_Crystal_Yellow",
-        "Quantity": 30
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 15
       }
     ],
     "BenchRequirement": [

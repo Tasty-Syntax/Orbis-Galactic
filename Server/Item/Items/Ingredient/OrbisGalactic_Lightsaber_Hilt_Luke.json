@@ -1,5 +1,5 @@
 {
-  "Model": "Resources/WeaponModels/Lightsaber_Grip_Luke.blockymodel",
+  "Model": "Resources/ItemModels/Lightsaber_Grip_Luke.blockymodel",
   "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Blue.png",
   "IconProperties": {
     "Scale": 1,
@@ -34,8 +34,8 @@
     ]
   },
   "TranslationProperties": {
-    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt.name",
-    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt.description"
+    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt_Luke.name",
+    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt_Luke.description"
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "MaxStack": 1,

@@ -22,12 +22,12 @@
     ],
     "Input": [
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
-        "Quantity": 1
-      },
-      {
         "Quantity": 5,
         "ItemId": "Ingredient_Fire_Essence"
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
+        "Quantity": 1
       },
       {
         "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
