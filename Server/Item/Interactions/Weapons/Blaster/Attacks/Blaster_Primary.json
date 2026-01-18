@@ -1,23 +1,4 @@
 {
-  "Type": "Charging",
-  "Next": {
-    "0": {
-      "Type": "SendMessage",
-      "Message": "Click",
-      "Next": "Blaster_Shoot"
-    },
-    "0.15": {
-      "Type": "SendMessage",
-      "Next": {
-        "Type": "RunRootInteraction",
-        "RootInteraction": "Blaster_Primary_Auto_Root",
-        "Effects": {
-          "WaitForAnimationToFinish": false
-        }
-      },
-      "Message": "Hold"
-    }
-  },
-  "AllowIndefiniteHold": false,
-  "DisplayProgress": false
+  "Type": "Simple",
+  "Next": "Blaster_Shoot"
 }

@@ -3,7 +3,7 @@
     "Cooldown": 0.13,
     "SkipCooldownReset": false
   },
-  "RequireNewClick": true,
+  "RequireNewClick": false,
   "Interactions": [
     "Blaster_Primary"
   ]
