@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Dirt.name"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/Orbis_Galactic_Spaceship_Test.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "Set": "Soil",
+  "ResourceTypes": [
+    {
+      "Id": "Soils"
+    }
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Ships",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#b5b5b5",
+    "BlockSoundSetId": "Dirt",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "CustomModel": "Resources/PropModels/HWK-290.blockymodel",
+    "CubeShadingMode": "Standard",
+    "CustomModelScale": 5,
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/PropTextures/HWK-290_Texture.png"
+      }
+    ],
+    "RandomRotation": "None",
+    "HitboxType": "Collision_HWK290",
+    "Interactions": {
+      "Use": "Open_Spaceship"
+    },
+    "InteractionHitboxType": "Collision_HWK290",
+    "Parent": "Rock_Bedrock",
+    "Opacity": "Semitransparent"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      10,
+      -13.5
+    ]
+  },
+  "PlayerAnimationsId": "Block"
+}
