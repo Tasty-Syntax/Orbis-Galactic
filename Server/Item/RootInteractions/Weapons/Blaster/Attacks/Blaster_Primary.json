@@ -1,4 +1,9 @@
 {
+  "Cooldown": {
+    "Cooldown": 0.13,
+    "SkipCooldownReset": false
+  },
+  "RequireNewClick": true,
   "Interactions": [
     "Blaster_Primary"
   ]

@@ -1,0 +1,10 @@
+{
+  "Interactions": [
+    "Blaster_Primary_Auto"
+  ],
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Cooldown": 0.13,
+    "SkipCooldownReset": false
+  }
+}

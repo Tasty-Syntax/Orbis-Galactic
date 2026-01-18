@@ -10,9 +10,6 @@
   "Model": "Resources/WeaponModels/DC15ACarbine.blockymodel",
   "Texture": "Resources/WeaponTextures/DC15ACarbine.png",
   "PlayerAnimationsId": "Rifle",
-  "Interactions": {
-    "Primary": "Blaster_Primary"
-  },
   "InteractionVars": {
     "Staff_Cast_Summon_Charged": {
       "Interactions": [
@@ -55,5 +52,8 @@
     ]
   },
   "Weapon": {},
-  "ItemSoundSetId": "ISS_Weapons_Wood"
+  "ItemSoundSetId": "ISS_Weapons_Wood",
+  "Interactions": {
+    "Primary": "Blaster_Primary"
+  }
 }
