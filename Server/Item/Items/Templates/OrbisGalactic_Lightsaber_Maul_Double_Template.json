@@ -2,7 +2,7 @@
   "Categories": [
     "Items.Weapons"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Grip_Maul_Double.blockymodel",
+  "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Double_Lightsaber",
   "Interactions": {

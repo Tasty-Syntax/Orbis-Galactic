@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "server.items.Template_Weapon_Daggers.name"
   },
-  "Model": "Resources/WeaponModels/Lightsaber_Grip_Maul_Single.blockymodel",
+  "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
   "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Template.png",
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
@@ -342,5 +342,6 @@
       ]
     },
     "Pounce_Stab_Effect": {}
-  }
+  },
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim"
 }

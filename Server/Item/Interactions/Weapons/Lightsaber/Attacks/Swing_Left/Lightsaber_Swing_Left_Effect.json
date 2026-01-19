@@ -1,5 +1,9 @@
 {
   "Type": "Simple",
   "$Comment": "Length of Effect",
-  "RunTime": 0.166
+  "RunTime": 0.166,
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber"
+  }
 }

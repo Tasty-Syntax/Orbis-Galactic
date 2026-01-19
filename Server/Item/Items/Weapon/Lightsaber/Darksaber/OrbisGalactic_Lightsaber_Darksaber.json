@@ -2,9 +2,9 @@
   "Categories": [
     "Items.Weapons"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
+  "Model": "Resources/WeaponModels/Darksaber.blockymodel",
   "ItemLevel": 40,
-  "PlayerAnimationsId": "Lightsaber_Menacing",
+  "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
     "Primary": "OrbisGalactic_Lightsaber_Attack",
     "Secondary": "Sword_Block_Damage"
@@ -164,13 +164,13 @@
   "IconProperties": {
     "Scale": 0.2,
     "Rotation": [
-      344,
-      360,
-      316
+      45,
+      90,
+      0
     ],
     "Translation": [
-      -76,
-      -76
+      -85,
+      -88
     ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
@@ -197,84 +197,18 @@
       "SignatureEnergy"
     ]
   },
-  "InteractionConfig": {
-    "DisplayOutlines": false,
-    "DebugOutlines": false
-  },
-  "UsePlayerAnimations": true,
+  "UsePlayerAnimations": false,
   "ItemSoundSetId": "ISS_Items_Gadget",
   "Variant": false,
-  "ItemAppearanceConditions": {
-    "SignatureEnergy": [
-      {
-        "Condition": [
-          100,
-          100
-        ],
-        "ConditionValueType": "Percent",
-        "Particles": [
-          {
-            "SystemId": "Sword_Signature_Ready",
-            "TargetNodeName": "Handle",
-            "PositionOffset": {
-              "X": 0.8
-            },
-            "TargetEntityPart": "PrimaryItem"
-          },
-          {
-            "SystemId": "Sword_Signature_Status_Spawn",
-            "TargetNodeName": "Handle",
-            "PositionOffset": {
-              "X": 0.5
-            },
-            "TargetEntityPart": "PrimaryItem"
-          },
-          {
-            "SystemId": "Sword_Signature_Status",
-            "TargetNodeName": "Handle",
-            "PositionOffset": {
-              "X": 0.55
-            },
-            "TargetEntityPart": "PrimaryItem",
-            "Scale": 1.3
-          }
-        ],
-        "FirstPersonParticles": [
-          {
-            "SystemId": "Sword_Signature_Ready",
-            "TargetNodeName": "Handle",
-            "PositionOffset": {
-              "X": 0.8
-            },
-            "TargetEntityPart": "PrimaryItem"
-          },
-          {
-            "SystemId": "Sword_Signature_Status_Spawn",
-            "TargetNodeName": "Handle",
-            "TargetEntityPart": "PrimaryItem",
-            "PositionOffset": {
-              "Y": -100
-            }
-          },
-          {
-            "SystemId": "Sword_Signature_Status",
-            "TargetNodeName": "Handle",
-            "PositionOffset": {
-              "X": 0.5
-            },
-            "TargetEntityPart": "PrimaryItem"
-          }
-        ],
-        "ModelVFXId": "Sword_Signature_Status"
-      }
-    ]
-  },
   "Utility": {
     "Compatible": false
   },
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
-  "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Template.png",
-  "Scale": 0.5
+  "Texture": "Resources/WeaponTextures/Darksaber.png",
+  "Quality": "Legendary",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Darksaber.png",
+  "Scale": 0.5,
+  "TranslationProperties": {
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Darksaber.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Darksaber.description"
+  }
 }
