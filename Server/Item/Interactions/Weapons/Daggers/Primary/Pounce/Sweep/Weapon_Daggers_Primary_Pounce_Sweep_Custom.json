@@ -1,0 +1,63 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "PounceSweep",
+    "CameraEffect": "Daggers_Land"
+  },
+  "RunTime": 0.133,
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Pounce_Sweep_StaminaRegenDelay",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            {
+              "Type": "ChangeStat",
+              "Behaviour": "Set",
+              "StatModifiers": {
+                "StaminaRegenDelay": -1.5
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Type": "Parallel",
+        "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
+        "Interactions": [
+          {
+            "Interactions": [
+              {
+                "Type": "Replace",
+                "Var": "Pounce_Sweep_Selector",
+                "DefaultOk": true,
+                "DefaultValue": {
+                  "Interactions": [
+                    "Weapon_Daggers_Primary_Pounce_Sweep_Selector"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "Interactions": [
+              {
+                "Type": "Replace",
+                "Var": "Pounce_Sweep_Effect",
+                "DefaultOk": true,
+                "DefaultValue": {
+                  "Interactions": [
+                    "Weapon_Daggers_Primary_Pounce_Sweep_Effect"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@
   ],
   "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
   "ItemLevel": 40,
-  "PlayerAnimationsId": "Longsword",
+  "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
     "Primary": "OrbisGalactic_Lightsaber_Attack",
     "Secondary": "Sword_Block_Damage"
@@ -196,10 +196,6 @@
     "EntityStatsToClear": [
       "SignatureEnergy"
     ]
-  },
-  "InteractionConfig": {
-    "DisplayOutlines": false,
-    "DebugOutlines": false
   },
   "UsePlayerAnimations": false,
   "ItemSoundSetId": "ISS_Items_Gadget",

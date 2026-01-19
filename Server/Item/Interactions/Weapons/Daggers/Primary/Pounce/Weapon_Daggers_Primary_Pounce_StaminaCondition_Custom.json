@@ -1,0 +1,24 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "Stamina": 0.1
+  },
+  "Next": {
+    "Type": "ChangeStat",
+    "Behaviour": "Set",
+    "StatModifiers": {
+      "StaminaRegenDelay": -3
+    },
+    "Next": {
+      "Type": "Replace",
+      "Var": "Pounce",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Daggers_Primary_Pounce_Custom"
+        ]
+      }
+    }
+  },
+  "Failed": "Weapon_Daggers_Primary_Chain"
+}

@@ -2,9 +2,9 @@
   "Categories": [
     "Items.Weapons"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
+  "Model": "Resources/WeaponModels/Lightsaber_Grip_Maul_Double.blockymodel",
   "ItemLevel": 40,
-  "PlayerAnimationsId": "Lightsaber",
+  "PlayerAnimationsId": "Double_Lightsaber",
   "Interactions": {
     "Primary": "OrbisGalactic_Lightsaber_Attack",
     "Secondary": "Sword_Block_Damage"
@@ -162,15 +162,15 @@
     }
   },
   "IconProperties": {
-    "Scale": 0.33,
+    "Scale": 0.2,
     "Rotation": [
-      45,
-      90,
-      0
+      344,
+      360,
+      316
     ],
     "Translation": [
-      -43,
-      -43
+      -76,
+      -76
     ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
@@ -196,6 +196,10 @@
     "EntityStatsToClear": [
       "SignatureEnergy"
     ]
+  },
+  "InteractionConfig": {
+    "DisplayOutlines": false,
+    "DebugOutlines": false
   },
   "UsePlayerAnimations": false,
   "ItemSoundSetId": "ISS_Items_Gadget",
@@ -268,7 +272,9 @@
   "Utility": {
     "Compatible": false
   },
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Blue.png",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate.blockyanim"
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Template.png",
+  "Scale": 0.5
 }

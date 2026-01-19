@@ -1,0 +1,123 @@
+{
+  "Type": "ApplyForce",
+  "Force": 15.0,
+  "Direction": {
+    "X": 0,
+    "Y": 2,
+    "Z": -3
+  },
+  "AdjustVertical": true,
+  "Effects": {
+    "WorldSoundEventId": "SFX_Daggers_T1_Pounce",
+    "LocalSoundEventId": "SFX_Daggers_T1_Pounce_Local",
+    "ItemAnimationId": "Pounce",
+    "MovementEffects": {
+      "DisableForward": true,
+      "DisableBackward": true
+    },
+    "Trails": [
+      {
+        "PositionOffset": {
+          "X": 0.5,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Small_Charged"
+      },
+      {
+        "PositionOffset": {
+          "X": 0.5,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Small_Charged",
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "Daggers_Pounce_FP",
+        "TargetNodeName": "Handle",
+        "RotationOffset": {
+          "Roll": 90.0
+        },
+        "PositionOffset": {
+          "X": 0.3
+        }
+      },
+      {
+        "SystemId": "Daggers_Pounce_FP",
+        "TargetNodeName": "Handle",
+        "RotationOffset": {
+          "Roll": 90.0
+        },
+        "PositionOffset": {
+          "X": 0.3
+        },
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ],
+    "CameraEffect": "Daggers_Jump"
+  },
+  "ChangeVelocityType": "Add",
+  "WaitForGround": true,
+  "WaitForCollision": true,
+  "RaycastHeightOffset": 0.5,
+  "RaycastDistance": 3,
+  "VelocityConfig": {
+    "AirResistance": 0.99,
+    "AirResistanceMax": 0.97,
+    "GroundResistance": 0.9,
+    "GroundResistanceMax": 0.75,
+    "Threshold": 3.0,
+    "Style": "Linear"
+  },
+  "GroundCheckDelay": 0.3,
+  "RunTime": 10,
+  "GroundNext": {
+    "Type": "Replace",
+    "Var": "Pounce_Sweep",
+    "DefaultOk": true,
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Pounce_Sweep"
+      ]
+    }
+  },
+  "CollisionNext": {
+    "Type": "Replace",
+    "Var": "Pounce_Stab",
+    "DefaultOk": true,
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Pounce_Stab_Custom"
+      ]
+    }
+  },
+  "Next": {
+    "Type": "Replace",
+    "Var": "Pounce_Sweep",
+    "DefaultOk": true,
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Pounce_Sweep_Custom"
+      ]
+    }
+  },
+  "VerticalClamp": [
+    -20,
+    10
+  ]
+}

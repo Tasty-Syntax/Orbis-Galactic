@@ -1,0 +1,375 @@
+{
+  "Animations": {
+    "Idle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Idle_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Idle.blockyanim",
+      "Looping": true
+    },
+    "Walk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk.blockyanim",
+      "Looping": true
+    },
+    "WalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk_Backward_FPS.blockyanim",
+      "Speed": 1.0,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk_Backward.blockyanim",
+      "Looping": true
+    },
+    "Run": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run_FPS.blockyanim",
+      "Speed": 0.9,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run.blockyanim",
+      "Looping": true
+    },
+    "RunBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run_Backward_FPS.blockyanim",
+      "Speed": 0.9,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run_Backward.blockyanim",
+      "Looping": true
+    },
+    "Sprint": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Sprint_FPS.blockyanim",
+      "Speed": 1.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Sprint.blockyanim",
+      "Looping": true
+    },
+    "Crouch": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Crouch_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Crouch.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalk": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Crouch_Walk.blockyanim",
+      "Speed": 0.8,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Crouch_Walk_FPS.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalkBackward": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Crouch_Walk_Backward.blockyanim",
+      "Speed": 0.8,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Crouch_Walk_Backward_FPS.blockyanim",
+      "Looping": true
+    },
+    "Jump": {
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Jump.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpWalk": {
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Jump_Far.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "JumpRun": {
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Jump_Far.blockyanim",
+      "Looping": false,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "Fall": {
+      "BlendingDuration": 0.4,
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fall.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "FallFar": {
+      "BlendingDuration": 0.4,
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fall_Far.blockyanim",
+      "Looping": true,
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "FlyIdle": {
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly_Idle.blockyanim",
+      "Looping": true,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly_Idle_FPS.blockyanim"
+    },
+    "Fly": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly_FPS.blockyanim"
+    },
+    "FlyBackward": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly_Backward.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly_Backward_FPS.blockyanim"
+    },
+    "FlyFast": {
+      "Looping": true,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly_Fast.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Fly/Fly_Fast_FPS.blockyanim"
+    },
+    "SwimIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Idle_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Idle.blockyanim",
+      "Looping": true
+    },
+    "Swim": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim.blockyanim",
+      "Looping": true
+    },
+    "SwimBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Backward_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Backward.blockyanim",
+      "Looping": true
+    },
+    "SwimFast": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Fast_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Fast.blockyanim",
+      "Looping": true
+    },
+    "SwimJump": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Jump_FPS.blockyanim",
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Jump.blockyanim",
+      "Looping": false
+    },
+    "SwimFloat": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Float_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Float.blockyanim",
+      "Looping": true
+    },
+    "SwimSink": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Sink_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Sink.blockyanim",
+      "Looping": true
+    },
+    "SwimDive": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Dive_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Dive.blockyanim",
+      "Looping": true
+    },
+    "SwimDiveBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Dive_Backward_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Dive_Backward.blockyanim",
+      "Looping": true
+    },
+    "SwimDiveFast": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Dive_Fast_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Swim/Swim_Dive_Fast.blockyanim",
+      "Looping": true
+    },
+    "FluidIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Idle_FPS.blockyanim",
+      "Speed": 0.3,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Idle.blockyanim",
+      "Looping": true
+    },
+    "FluidWalk": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk.blockyanim",
+      "Looping": true
+    },
+    "FluidWalkBackward": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk_Backward_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Walk_Backward.blockyanim",
+      "Looping": true
+    },
+    "FluidRun": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run_FPS.blockyanim",
+      "Speed": 0.6,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run.blockyanim",
+      "Looping": true
+    },
+    "ClimbIdle": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Idle_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Idle.blockyanim",
+      "Looping": true
+    },
+    "ClimbUp": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Up_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Up.blockyanim",
+      "Looping": true
+    },
+    "ClimbDown": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Down_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Down.blockyanim",
+      "Looping": true
+    },
+    "ClimbLeft": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Left_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Left.blockyanim",
+      "Looping": true
+    },
+    "ClimbRight": {
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Right_FPS.blockyanim",
+      "Speed": 1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Climb/Climb_Right.blockyanim",
+      "Looping": true
+    },
+    "Interact": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Interact.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Interact_FPS.blockyanim",
+      "Speed": 1,
+      "BlendingDuration": 0.1
+    },
+    "SwingLeft": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left/Swing_Left.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left/Swing_Left_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left/Swing_Left_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 0.8
+    },
+    "SwingRight": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Right/Swing_Right.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Right/Swing_Right_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Right/Swing_Right_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 0.8
+    },
+    "SwingUpLeft": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Up_Left/Swing_Up_Left.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Up_Left/Swing_Up_Left_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Up_Left/Swing_Up_Left_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 0.8
+    },
+    "SwingDown": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Down/Swing_Down.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Down/Swing_Down_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Down/Swing_Down_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 0.8
+    },
+    "SwingLeftCharging": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left_Charged/Swing_Left_Charging.blockyanim",
+      "Looping": false,
+      "Speed": 0.64,
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left_Charged/Swing_Left_Charging_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left_Charged/Swing_Left_Charging_FPS.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "SwingLeftCharged": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left_Charged/Swing_Left_Charged.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left_Charged/Swing_Left_Charged_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Swing_Left_Charged/Swing_Left_Charged_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 0.8,
+      "BlendingDuration": 0
+    },
+    "StabCharging": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Stab_Charged/Stab_Charging.blockyanim",
+      "Looping": false,
+      "Speed": 0.64,
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Stab_Charged/Stab_Charging_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Stab_Charged/Stab_Charging_FPS.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true
+    },
+    "StabCharged": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Stab_Charged/Stab_Charged.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Stab_Charged/Stab_Charged_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Stab_Charged/Stab_Charged_FPS.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1,
+      "BlendingDuration": 0
+    },
+    "Guard": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Guard/Guard.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Guard/Guard_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Guard/Guard_FPS.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "BlendingDuration": 0.1,
+      "Looping": true
+    },
+    "GuardBash": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Guard_Bash/Guard_Bash.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Guard_Bash/Guard_Bash_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Attacks/Guard_Bash/Guard_Bash_FPS.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -30
+      },
+      "TargetNodes": [
+        "Head",
+        "LShoulder",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "WiggleWeights": {
+    "Pitch": 2.5,
+    "PitchDeceleration": 0.1,
+    "Roll": 0.1,
+    "RollDeceleration": 0.1,
+    "X": 2.5,
+    "XDeceleration": 0.1,
+    "Y": 0.1,
+    "YDeceleration": 0.1,
+    "Z": 0.1,
+    "ZDeceleration": 0.1
+  },
+  "PullbackConfig": {
+    "LeftOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "LeftRotationOverride": [
+      0,
+      0,
+      0
+    ],
+    "RightOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "RightRotationOverride": [
+      0,
+      0,
+      0
+    ]
+  }
+}
