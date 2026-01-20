@@ -9,7 +9,7 @@
       "Files": [
         "Sounds/Weapons/Darksaber/Darksaber_Hum.ogg"
       ],
-      "StartDelay": 0
+      "StartDelay": 1.5
     }
   ]
 }

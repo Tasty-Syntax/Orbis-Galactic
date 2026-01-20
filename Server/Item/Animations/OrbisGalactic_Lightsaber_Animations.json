@@ -5,16 +5,17 @@
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite.blockyanim",
-      "Speed": 1,
-      "KeepPreviousFirstPersonAnimation": true,
-      "ClipsGeometry": true
+      "Speed": 0.25,
+      "KeepPreviousFirstPersonAnimation": false,
+      "ClipsGeometry": true,
+      "BlendingDuration": 0
     },
     "OrbisGalactic_Lightsaber_Retract": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Retract.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Retract.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Smile.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Retract.blockyanim",
-      "Speed": 1,
+      "Speed": 0.2,
       "KeepPreviousFirstPersonAnimation": true,
       "ClipsGeometry": true
     }

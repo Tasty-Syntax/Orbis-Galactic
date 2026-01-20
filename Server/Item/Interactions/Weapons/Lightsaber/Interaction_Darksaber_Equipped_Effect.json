@@ -2,12 +2,10 @@
   "Type": "Simple",
   "$Comment": "Length of Effect",
   "RunTime": 0.1,
+  "CancelOnItemChange": true,
   "Effects": {
-    "StartDelay": 0
-  },
-  "CancelOnItemChange": false,
-  "Next": {
-    "Type": "SendMessage",
-    "Message": "BLA"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Darksaber_Hum",
+    "ClearAnimationOnFinish": true,
+    "ClearSoundEventOnFinish": true
   }
 }
