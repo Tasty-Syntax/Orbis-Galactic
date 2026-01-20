@@ -7,7 +7,7 @@
   "RunTime": 0,
   "Next": {
     "Type": "Parallel",
-    "$Comment": "Make sure this parallel interaction is needed and can\u0027t be optimized away",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
     "Interactions": [
       {
         "Interactions": [
@@ -57,10 +57,10 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Interaction_Lightsaber_Stab_Charged_Effect"
+                "Interaction_Darksaber_Stab_Charged_Effect"
               ]
             },
-            "Var": "Lightsaber_Stab_Charged_Effect"
+            "Var": "Darksaber_Stab_Charged_Effect"
           }
         ]
       }
