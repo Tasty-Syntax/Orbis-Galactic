@@ -1,0 +1,23 @@
+{
+  "Type": "Wielding",
+  "Effects": {
+    "ItemAnimationId": "Guard",
+    "ClearAnimationOnFinish": true
+  },
+  "AngledWielding": {
+    "Angle": 0,
+    "AngleDistance": 95,
+    "DamageModifiers": {
+      "Physical": 0,
+      "Projectile": 0
+    },
+    "KnockbackModifiers": {
+      "Physical": 0.25,
+      "Projectile": 0.25
+    }
+  },
+  "StaminaCost": {
+    "Value": 10,
+    "CostType": "Damage"
+  }
+}

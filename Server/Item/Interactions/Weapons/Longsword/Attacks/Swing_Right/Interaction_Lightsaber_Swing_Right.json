@@ -38,10 +38,10 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Longsword_Swing_Right_Damage"
+                      "Interaction_Lightsaber_Swing_Right_Damage"
                     ]
                   },
-                  "Var": "Longsword_Swing_Right_Damage"
+                  "Var": "Lightsaber_Swing_Right_Damage"
                 }
               ]
             },
@@ -59,10 +59,10 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Lightsaber_Swing_Right_Effect"
+                "Interaction_Lightsaber_Swing_Right_Effect"
               ]
             },
-            "Var": "Longsword_Swing_Right_Effect"
+            "Var": "Lightsaber_Swing_Right_Effect"
           }
         ]
       }

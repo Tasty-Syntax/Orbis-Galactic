@@ -1,8 +1,7 @@
 {
   "Type": "Simple",
   "Effects": {
-    "ItemAnimationId": "StabCharged",
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack"
+    "ItemAnimationId": "StabCharged"
   },
   "$Comment": "Prepare Delay",
   "RunTime": 0,
@@ -37,10 +36,10 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Longsword_Stab_Charged_Damage"
+                      "Interaction_Lightsaber_Stab_Charged_Damage"
                     ]
                   },
-                  "Var": "Longsword_Stab_Charged_Damage"
+                  "Var": "Lightsaber_Stab_Charged_Damage"
                 }
               ]
             },
@@ -58,10 +57,10 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Longsword_Stab_Charged_Effect"
+                "Interaction_Lightsaber_Stab_Charged_Effect"
               ]
             },
-            "Var": "Longsword_Stab_Charged_Effect"
+            "Var": "Lightsaber_Stab_Charged_Effect"
           }
         ]
       }

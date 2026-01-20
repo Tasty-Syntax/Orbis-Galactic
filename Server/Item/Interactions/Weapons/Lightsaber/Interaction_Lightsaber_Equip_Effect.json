@@ -1,0 +1,17 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.166,
+  "Next": {
+    "Type": "Replace",
+    "DefaultValue": {
+      "Interactions": [
+        {
+          "Type": "SendMessage",
+          "Message": "Bla"
+        }
+      ]
+    },
+    "Var": "Lightsaber_Equip_Effect"
+  }
+}

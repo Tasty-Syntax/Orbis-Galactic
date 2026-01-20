@@ -3,6 +3,6 @@
   "$Comment": "Length of Effect",
   "RunTime": 0.166,
   "Effects": {
-    "WorldSoundEventId": "SFX_Light_Melee_T2_Swing"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack"
   }
 }

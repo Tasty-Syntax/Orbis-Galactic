@@ -9,11 +9,11 @@
       "Type": "Chaining",
       "ChainingAllowance": 1.25,
       "Next": [
-        "Lightsaber_Swing_Left",
-        "Lightsaber_Swing_Right",
-        "Lightsaber_Swing_Up_Left"
+        "Interaction_Lightsaber_Swing_Left",
+        "Interaction_Lightsaber_Swing_Right",
+        "Interaction_Lightsaber_Swing_Up_Left"
       ]
     },
-    "1.565": "Lightsaber_Stab_Charged"
+    "1": "Interaction_Lightsaber_Stab_Charged"
   }
 }

@@ -6,22 +6,22 @@
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
-    "Primary": "OrbisGalactic_Lightsaber_Attack",
-    "Secondary": "Sword_Block_Damage"
+    "Primary": "ROOT_Interaction_Lightsaber_Attack",
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage"
   },
   "InteractionVars": {
-    "Longsword_Block_Damage": "Sword_Block_Damage",
-    "Longsword_Swing_Left_Effect": {
+    "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "Lightsaber_Swing_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Lightsaber_Swing_Left_Effect",
+          "Parent": "Interaction_Lightsaber_Swing_Left_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Longsword_Swing_Left_Damage": {
+    "Lightsaber_Swing_Left_Damage": {
       "Interactions": [
         {
           "Parent": "Longsword_Swing_Left_Damage",
@@ -38,17 +38,17 @@
         }
       ]
     },
-    "Longsword_Swing_Right_Effect": {
+    "Lightsaber_Swing_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Lightsaber_Swing_Right_Effect",
+          "Parent": "Interaction_Lightsaber_Swing_Right_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Longsword_Swing_Right_Damage": {
+    "Lightsaber_Swing_Right_Damage": {
       "Interactions": [
         {
           "Parent": "Longsword_Swing_Right_Damage",
@@ -65,17 +65,17 @@
         }
       ]
     },
-    "Longsword_Swing_Up_Left_Effect": {
+    "Lightsaber_Swing_Up_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Lightsaber_Swing_Up_Left_Effect",
+          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Longsword_Swing_Up_Left_Damage": {
+    "Lightsaber_Swing_Up_Left_Damage": {
       "Interactions": [
         {
           "Parent": "Longsword_Swing_Up_Left_Damage",
@@ -92,11 +92,11 @@
         }
       ]
     },
-    "Longsword_Stab_Charged_Effect": "OrbisGalactic_Lightsaber_Stab_Charged_Effect",
-    "Longsword_Stab_Charged_Damage": {
+    "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect",
+    "Lightsaber_Stab_Charged_Damage": {
       "Interactions": [
         {
-          "Parent": "Longsword_Stab_Charged_Damage",
+          "Parent": "Interaction_Lightsaber_Stab_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
               "Physical": 144
@@ -203,7 +203,6 @@
   "Utility": {
     "Compatible": false
   },
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
   "Quality": "Template",
   "Animation": "Resources/Animations/Saber_Animate.blockyanim"
 }

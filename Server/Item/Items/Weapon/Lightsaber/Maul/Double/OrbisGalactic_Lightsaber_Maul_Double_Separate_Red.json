@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Blue.png",
   "Light": {
     "Color": "#166"
   },
@@ -52,17 +52,17 @@
     }
   ],
   "IconProperties": {
-    "Scale": 0.3,
+    "Scale": 0.2,
     "Rotation": [
-      333,
-      224,
-      40
+      344,
+      360,
+      316
     ],
     "Translation": [
-      -46,
-      -44
+      -76,
+      -76
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
   "Scale": 0.5
 }

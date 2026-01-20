@@ -4,27 +4,27 @@
   ],
   "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
   "ItemLevel": 40,
-  "PlayerAnimationsId": "Double_Lightsaber",
+  "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
-    "Primary": "OrbisGalactic_Lightsaber_Attack",
-    "Secondary": "Sword_Block_Damage"
+    "Primary": "ROOT_Interaction_Lightsaber_Attack",
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage"
   },
   "InteractionVars": {
-    "Longsword_Block_Damage": "Sword_Block_Damage",
-    "Longsword_Swing_Left_Effect": {
+    "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "Lightsaber_Swing_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Lightsaber_Swing_Left_Effect",
+          "Parent": "Interaction_Lightsaber_Swing_Left_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Longsword_Swing_Left_Damage": {
+    "Lightsaber_Swing_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Longsword_Swing_Left_Damage",
+          "Parent": "Interaction_Lightsaber_Swing_Left_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -38,20 +38,20 @@
         }
       ]
     },
-    "Longsword_Swing_Right_Effect": {
+    "Lightsaber_Swing_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Lightsaber_Swing_Right_Effect",
+          "Parent": "Interaction_Lightsaber_Swing_Right_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Longsword_Swing_Right_Damage": {
+    "Lightsaber_Swing_Right_Damage": {
       "Interactions": [
         {
-          "Parent": "Longsword_Swing_Right_Damage",
+          "Parent": "Interaction_Lightsaber_Swing_Right_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -65,20 +65,20 @@
         }
       ]
     },
-    "Longsword_Swing_Up_Left_Effect": {
+    "Lightsaber_Swing_Up_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Lightsaber_Swing_Up_Left_Effect",
+          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Longsword_Swing_Up_Left_Damage": {
+    "Lightsaber_Swing_Up_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Longsword_Swing_Up_Left_Damage",
+          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -92,22 +92,10 @@
         }
       ]
     },
-    "Longsword_Stab_Charged_Effect": "OrbisGalactic_Lightsaber_Stab_Charged_Effect",
-    "Longsword_Stab_Charged_Damage": {
+    "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect",
+    "Lightsaber_Stab_Charged_Damage": {
       "Interactions": [
-        {
-          "Parent": "Longsword_Stab_Charged_Damage",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 144
-            },
-            "Type": "Absolute",
-            "RandomPercentageModifier": 0.15
-          },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
-          }
-        }
+        "Interaction_Lightsaber_Stab_Charged_Damage"
       ]
     },
     "Thrust_Damage": {
@@ -162,15 +150,15 @@
     }
   },
   "IconProperties": {
-    "Scale": 0.2,
+    "Scale": 0.33,
     "Rotation": [
-      344,
-      360,
-      316
+      45,
+      90,
+      0
     ],
     "Translation": [
-      -76,
-      -76
+      -43,
+      -43
     ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
@@ -196,10 +184,6 @@
     "EntityStatsToClear": [
       "SignatureEnergy"
     ]
-  },
-  "InteractionConfig": {
-    "DisplayOutlines": false,
-    "DebugOutlines": false
   },
   "UsePlayerAnimations": false,
   "ItemSoundSetId": "ISS_Items_Gadget",
@@ -272,9 +256,7 @@
   "Utility": {
     "Compatible": false
   },
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Template.png",
+  "Animation": "Resources/Animations/Saber_Animate.blockyanim",
   "Scale": 0.5
 }

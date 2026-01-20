@@ -1,7 +1,7 @@
 {
   "Type": "Simple",
   "Effects": {
-    "ItemAnimationId": "SwingUpLeft"
+    "ItemAnimationId": "SwingLeft"
   },
   "$Comment": "Prepare Delay",
   "RunTime": 0.229,
@@ -24,7 +24,7 @@
               "StartDistance": 0.1,
               "EndDistance": 3,
               "Length": 60,
-              "RollOffset": -40,
+              "RollOffset": 40,
               "YawStartOffset": -30
             },
             "HitBlock": {
@@ -38,10 +38,10 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Longsword_Swing_Up_Left_Damage"
+                      "Interaction_Lightsaber_Swing_Left_Damage"
                     ]
                   },
-                  "Var": "Longsword_Swing_Up_Left_Damage"
+                  "Var": "Lightsaber_Swing_Left_Damage"
                 }
               ]
             },
@@ -59,10 +59,10 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Lightsaber_Swing_Up_Left_Effect"
+                "Interaction_Lightsaber_Swing_Left_Effect"
               ]
             },
-            "Var": "Longsword_Swing_Up_Left_Effect"
+            "Var": "Lightsaber_Swing_Left_Effect"
           }
         ]
       }
