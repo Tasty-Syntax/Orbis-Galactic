@@ -37,7 +37,7 @@
     "Darksaber_Swing_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Interaction_Darksaber_Swing_Right_Effect",
+          "Parent": "Interaction_Darksaber_Swing_Left_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
@@ -64,7 +64,7 @@
     "Darksaber_Swing_Up_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Interaction_Darksaber_Swing_Up_Left_Effect",
+          "Parent": "Interaction_Darksaber_Swing_Left_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }

@@ -1,9 +1,0 @@
-{
-  "Type": "Simple",
-  "$Comment": "Length of Effect",
-  "RunTime": 0.166,
-  "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Darksaber_Attack",
-    "LocalSoundEventId": "OrbisGalactic_SFX_Darksaber_Attack"
-  }
-}

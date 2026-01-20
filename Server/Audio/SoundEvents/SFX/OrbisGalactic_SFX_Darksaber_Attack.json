@@ -4,18 +4,17 @@
   "AudioCategory": "AudioCat_Sword",
   "Layers": [
     {
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2
+      },
       "Files": [
         "Sounds/Weapons/Darksaber/Darksaber_Swing_1.ogg",
         "Sounds/Weapons/Darksaber/Darksaber_Swing_2.ogg",
         "Sounds/Weapons/Darksaber/Darksaber_Swing_3.ogg",
         "Sounds/Weapons/Darksaber/Darksaber_Swing_4.ogg",
-        "Sounds/Weapons/Darksaber/Darksaber_Swing_5.ogg",
-        "Sounds/Weapons/Darksaber/Darksaber_Swing_6.ogg",
-        "Sounds/Weapons/Darksaber/Darksaber_Swing7.ogg"
-      ],
-      "Volume": 6.48,
-      "StartDelay": 0.15
+        "Sounds/Weapons/Darksaber/Darksaber_Swing_5.ogg"
+      ]
     }
-  ],
-  "Parent": "SFX_Attn_Moderate"
+  ]
 }
