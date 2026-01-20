@@ -16,8 +16,8 @@ Group {
     $C.@TextButton #BtnTravelToIlum {
       @Text = "Travel to Ilum";
     }
-    $C.@TextButton #TextButton285094aa {
-      @Text = "Travel to Poop";
+    $C.@TextButton #BtnTravelToTatooine {
+      @Text = "Travel to Tatooine";
     }
     $C.@TextButton #BtnTravelToOverworld {
       @Text = "Travel back to Overworld";

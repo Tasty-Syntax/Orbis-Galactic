@@ -1,0 +1,46 @@
+{
+  "Type": "NoiseRange",
+  "Biomes": [
+    {
+      "Biome": "Tatooine_Rocky",
+      "Min": -2,
+      "Max": -0.55
+    },
+    {
+      "Biome": "Tatooine_Oasis",
+      "Min": -0.55,
+      "Max": -0.35
+    },
+    {
+      "Biome": "Tatooine_River",
+      "Min": -0.35,
+      "Max": 2
+    }
+  ],
+  "DefaultBiome": "Tatooine_Rocky",
+  "DefaultTransitionDistance": 32,
+  "MaxBiomeEdgeDistance": 48,
+  "Density": {
+    "Type": "Imported",
+    "Name": "Biome-Map"
+  },
+  "ContentFields": [
+    {
+      "Type": "BaseHeight",
+      "Name": "Base",
+      "Y": 110
+    },
+    {
+      "Type": "BaseHeight",
+      "Name": "Water",
+      "Y": 100
+    },
+    {
+      "Type": "BaseHeight",
+      "Name": "Bedrock",
+      "Y": 30
+    }
+  ]
+}
+
+
