@@ -95,7 +95,7 @@
           "InteractionHint": "server.interactionHints.turnon",
           "Light": null,
           "Particles": null,
-          "InteractionSoundEventId": "SFX_Torch_Off",
+          "InteractionSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip",
           "AmbientSoundEventId": null,
           "Textures": [
             {
@@ -115,7 +115,9 @@
     "CustomModelTexture": [
       {}
     ],
-    "InteractionHitboxType": "Block_Full"
+    "InteractionHitboxType": "Block_Full",
+    "Looping": true,
+    "AmbientSoundEventId": "OrbisGalactic_Block_Imperial_Lamp_SFX"
   },
   "Tags": {
     "Type": [

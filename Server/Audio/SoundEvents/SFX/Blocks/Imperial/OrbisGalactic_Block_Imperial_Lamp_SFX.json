@@ -1,0 +1,12 @@
+{
+  "Parent": "SFX_Attn_ExtremelyQuiet",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Blocks/Metal/Hum.ogg"
+      ],
+      "Looping": true
+    }
+  ],
+  "Volume": -4.96
+}
