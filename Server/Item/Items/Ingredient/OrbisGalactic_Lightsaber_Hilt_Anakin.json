@@ -17,10 +17,12 @@
   "Recipe": {
     "BenchRequirement": [
       {
-        "Id": "Arcanebench",
+        "Type": "Crafting",
         "Categories": [
-          "Arcane_Misc"
-        ]
+          "Lightsaber_Hilts"
+        ],
+        "Id": "Laser_Weapon_Crafter",
+        "RequiredTierLevel": 3
       }
     ],
     "Input": [

@@ -13,7 +13,7 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Laser_Swords"
+          "Lightsabers_Single"
         ],
         "Id": "Laser_Weapon_Crafter",
         "RequiredTierLevel": 3

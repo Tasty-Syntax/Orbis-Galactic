@@ -72,37 +72,27 @@
       "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Categories": [
         {
-          "Id": "Laser_Swords",
+          "Id": "Lightsaber_Hilts",
+          "Name": "Lightsaber Hilts",
+          "Icon": "Icons/CraftingCategories/Campfire.png"
+        },
+        {
+          "Id": "Lightsabers_Single",
           "Icon": "Icons/CraftingCategories/Armory/Sword.png",
-          "Name": "Laser swords"
+          "Name": "Lightsabers (Single)"
+        },
+        {
+          "Id": "Lightsabers_Double",
+          "Name": "Lightsabers (Double)"
+        },
+        {
+          "Id": "Lightsabers_Split",
+          "Name": "Lightsabers (Split)",
+          "Icon": "Icons/CraftingCategories/Armory/Bow.png"
         }
       ],
       "Id": "Laser_Weapon_Crafter",
       "TierLevels": [
-        {
-          "CraftingTimeReductionModifier": 0.0,
-          "UpgradeRequirement": {
-            "Material": [
-              {
-                "ItemId": "Ingredient_Bar_Iron",
-                "Quantity": 20
-              },
-              {
-                "ItemId": "Ingredient_Leather_Light",
-                "Quantity": 30
-              },
-              {
-                "ItemId": "Ingredient_Fabric_Scrap_Linen",
-                "Quantity": 30
-              },
-              {
-                "ItemId": "Ingredient_Sac_Venom",
-                "Quantity": 15
-              }
-            ],
-            "TimeSeconds": 3
-          }
-        },
         {
           "UpgradeRequirement": {
             "Material": [
@@ -119,20 +109,13 @@
                 "Quantity": 20
               },
               {
-                "ItemId": "Ingredient_Ice_Essence",
-                "Quantity": 40
-              },
-              {
-                "ItemId": "Ingredient_Void_Essence",
-                "Quantity": 100
+                "ItemId": "OrbisGalactic_Kyber_Crystal_Clear",
+                "Quantity": 5
               }
             ],
             "TimeSeconds": 3
           },
           "CraftingTimeReductionModifier": 0.15
-        },
-        {
-          "CraftingTimeReductionModifier": 0.3
         }
       ]
     },
