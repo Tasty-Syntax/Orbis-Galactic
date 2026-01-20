@@ -5,12 +5,11 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Weapons/Lightsaber/Lightsaber_Attack_3.ogg"
+        "Sounds/Weapons/Darksaber/Darksaber_Ignite.ogg"
       ],
-      "RandomSettings": {
-        "MinPitch": -2,
-        "MaxPitch": 2
-      }
+      "Volume": 0,
+      "StartDelay": 0.15
     }
-  ]
+  ],
+  "Parent": "SFX_Attn_Moderate"
 }

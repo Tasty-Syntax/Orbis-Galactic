@@ -5,7 +5,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Weapons/lightsaber_off.ogg"
+        "Sounds/Weapons/Lightsaber/Lightsaber_Retract.ogg"
       ],
       "Volume": 10,
       "StartDelay": 0

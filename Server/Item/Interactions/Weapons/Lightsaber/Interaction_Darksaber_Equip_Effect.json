@@ -3,6 +3,6 @@
   "$Comment": "Length of Effect",
   "RunTime": 0.166,
   "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Darksaber_Equip"
   }
 }

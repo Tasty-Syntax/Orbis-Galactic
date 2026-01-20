@@ -5,8 +5,8 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Weapons/lightsaber_attack1.ogg",
-        "Sounds/Weapons/lightsaber_attack2.ogg"
+        "Sounds/Weapons/Lightsaber/Lightsaber_Attack_1.ogg",
+        "Sounds/Weapons/Lightsaber/Lightsaber_Attack_2.ogg"
       ],
       "RandomSettings": {
         "MinPitch": -2,

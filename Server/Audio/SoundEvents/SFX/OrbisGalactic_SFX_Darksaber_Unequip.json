@@ -5,12 +5,10 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Weapons/Lightsaber/Lightsaber_Attack_3.ogg"
+        "Sounds/Weapons/Darksaber/Darksaber_Retract.ogg"
       ],
-      "RandomSettings": {
-        "MinPitch": -2,
-        "MaxPitch": 2
-      }
+      "Volume": 10,
+      "StartDelay": 0
     }
   ]
 }

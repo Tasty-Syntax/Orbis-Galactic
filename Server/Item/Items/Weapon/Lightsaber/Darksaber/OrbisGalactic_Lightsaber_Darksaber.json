@@ -7,7 +7,8 @@
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack",
-    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage"
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "SwapTo": "ROOT_Interaction_Darksaber_Ignite"
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -230,7 +231,18 @@
   ],
   "FirstPersonParticles": [
     {
-      "SystemId": "Orbis_Galactic_ParticleSystem_Smoke_Black"
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber"
+    },
+    {
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber_Distortion"
+    }
+  ],
+  "Particles": [
+    {
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber"
+    },
+    {
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber_Distortion"
     }
   ]
 }

@@ -1,13 +1,15 @@
 {
-  "Volume": 0,
+  "Volume": 0.75,
   "PreventSoundInterruption": true,
   "AudioCategory": "AudioCat_Sword",
   "Layers": [
     {
       "Volume": 10,
+      "Looping": true,
       "Files": [
-        "Sounds/Weapons/Lightsaber/Lightsaber_Hum.ogg"
-      ]
+        "Sounds/Weapons/Darksaber/Darksaber_Hum.ogg"
+      ],
+      "StartDelay": 0
     }
   ]
 }

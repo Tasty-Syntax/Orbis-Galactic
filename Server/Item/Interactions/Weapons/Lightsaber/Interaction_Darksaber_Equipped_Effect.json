@@ -1,0 +1,13 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.1,
+  "Effects": {
+    "StartDelay": 0
+  },
+  "CancelOnItemChange": false,
+  "Next": {
+    "Type": "SendMessage",
+    "Message": "BLA"
+  }
+}

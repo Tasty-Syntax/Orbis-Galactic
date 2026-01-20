@@ -5,10 +5,6 @@
   "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack",
-    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage"
-  },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
     "Lightsaber_Swing_Left_Effect": {
@@ -257,5 +253,10 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate.blockyanim"
+  "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack",
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite"
+  }
 }

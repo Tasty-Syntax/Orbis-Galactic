@@ -7,18 +7,14 @@
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack",
-    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage"
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite"
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
     "Lightsaber_Swing_Left_Effect": {
       "Interactions": [
-        {
-          "Parent": "Interaction_Lightsaber_Swing_Left_Effect",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
-          }
-        }
+        "Interaction_Lightsaber_Swing_Left_Effect"
       ]
     },
     "Lightsaber_Swing_Left_Damage": {
