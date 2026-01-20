@@ -1,0 +1,131 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Lumberjack_Lamp.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Lighting"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Furniture_Crude_Candle",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Wood_Hardwood_Planks",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Lighting"
+        ]
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Lamp1.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      11,
+      45,
+      11
+    ],
+    "Translation": [
+      1,
+      -16
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "DrawType": "Cube",
+    "Flags": {},
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "Light": {
+      "Radius": 0,
+      "Color": "#edd"
+    },
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "ParticleColor": "#575757",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "Textures": [
+            {
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png"
+            }
+          ]
+        },
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "InteractionSoundEventId": "SFX_Torch_Off",
+          "AmbientSoundEventId": null,
+          "Textures": [
+            {
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
+            }
+          ]
+        }
+      }
+    },
+    "InteractionHint": "server.interactionHints.turnoff",
+    "CubeShadingMode": "Fullbright",
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png"
+      }
+    ],
+    "CustomModelTexture": [
+      {}
+    ],
+    "InteractionHitboxType": "Block_Full"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Lumberjack"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
+  "Parent": "Spaceship_Metal"
+}

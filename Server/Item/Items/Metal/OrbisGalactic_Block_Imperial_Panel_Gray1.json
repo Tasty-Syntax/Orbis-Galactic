@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Spaceship_Floor_Block.name"
+    "Name": "server.items.Imperial_Ship_Lamp.name"
   },
-  "Icon": "Icons/ItemsGenerated/Spaceship_Hull_Block.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Lamp.png",
   "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
@@ -29,12 +29,28 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Starship_Floor_Clear.png",
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray.png",
         "Weight": 1
       }
     ],
     "ParticleColor": "#bbbbaf",
-    "CubeShadingMode": "Fullbright"
+    "CubeShadingMode": "Standard",
+    "Light": {
+      "Color": "#fff",
+      "Radius": 0
+    },
+    "DrawType": "Cube",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    }
   },
   "ResourceTypes": [
     {
@@ -49,7 +65,7 @@
       "Metal"
     ]
   },
-  "Parent": "Rock_Stone",
+  "Parent": "Spaceship_Metal",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [
