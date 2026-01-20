@@ -1,0 +1,11 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.1,
+  "CancelOnItemChange": true,
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Darksaber_Hum",
+    "ClearAnimationOnFinish": true,
+    "ClearSoundEventOnFinish": true
+  }
+}

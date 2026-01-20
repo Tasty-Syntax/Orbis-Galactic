@@ -1,0 +1,9 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.133,
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack"
+  }
+}

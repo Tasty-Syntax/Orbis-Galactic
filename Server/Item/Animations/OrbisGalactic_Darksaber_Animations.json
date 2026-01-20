@@ -1,0 +1,46 @@
+{
+  "Animations": {
+    "OrbisGalactic_Darksaber_Ignite": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Darksaber_Ignite.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Darksaber_Ignite.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Darksaber_Ignite.blockyanim",
+      "Speed": 0.4,
+      "KeepPreviousFirstPersonAnimation": false,
+      "ClipsGeometry": true,
+      "BlendingDuration": 0
+    },
+    "OrbisGalactic_Darksaber_Retract": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Darksaber_Retract.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Darksaber_Retract.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Darksaber_Retract.blockyanim",
+      "Speed": 0.2,
+      "KeepPreviousFirstPersonAnimation": true,
+      "ClipsGeometry": true
+    }
+  },
+  "WiggleWeights": {
+    "Pitch": 2.5,
+    "PitchDeceleration": 0.1,
+    "Roll": 0.1,
+    "RollDeceleration": 0.1,
+    "X": 2.5,
+    "XDeceleration": 0.1,
+    "Y": 0.1,
+    "YDeceleration": 0.1,
+    "Z": 0.1,
+    "ZDeceleration": 0.1
+  },
+  "Camera": {
+    "Pitch": {
+      "TargetNodes": [
+        "Head",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  }
+}

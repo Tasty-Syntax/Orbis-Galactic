@@ -1,0 +1,248 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Model": "Resources/WeaponModels/Darksaber.blockymodel",
+  "ItemLevel": 40,
+  "PlayerAnimationsId": "Lightsaber",
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack",
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "SwapTo": "ROOT_Interaction_Darksaber_Ignite"
+  },
+  "InteractionVars": {
+    "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Longsword_Swing_Left_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Right_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Longsword_Swing_Right_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Longsword_Swing_Up_Left_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect",
+    "Lightsaber_Stab_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Stab_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 144
+            },
+            "Type": "Absolute",
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Thrust_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Thrust_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 32
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Vortexstrike_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 70
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Vortexstrike_Spin_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 23
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -85,
+      -88
+    ]
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "MaxDurability": 150,
+  "DurabilityLossOnHit": 0.52,
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Longsword"
+    ]
+  },
+  "Weapon": {
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 20,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ]
+  },
+  "UsePlayerAnimations": false,
+  "ItemSoundSetId": "ISS_Items_Gadget",
+  "Variant": false,
+  "Utility": {
+    "Compatible": false
+  },
+  "Texture": "Resources/WeaponTextures/Darksaber.png",
+  "Quality": "Legendary",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Darksaber.png",
+  "Scale": 0.5,
+  "TranslationProperties": {
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Darksaber.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Darksaber.description"
+  },
+  "Light": {
+    "Color": "#666"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Darksaber_Trail",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "FirstPersonParticles": [
+    {
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber"
+    },
+    {
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber_Distortion"
+    }
+  ],
+  "Particles": [
+    {
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber"
+    },
+    {
+      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber_Distortion"
+    }
+  ]
+}

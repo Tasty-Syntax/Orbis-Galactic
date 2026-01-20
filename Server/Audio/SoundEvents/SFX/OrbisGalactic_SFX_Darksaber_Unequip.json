@@ -1,0 +1,14 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Darksaber/Darksaber_Retract.ogg"
+      ],
+      "Volume": 10,
+      "StartDelay": 0
+    }
+  ]
+}

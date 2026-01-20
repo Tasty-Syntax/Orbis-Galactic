@@ -1,0 +1,73 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.069,
+  "Selector": {
+    "Id": "Stab",
+    "EndDistance": 2,
+    "ExtendTop": 0.5,
+    "ExtendBottom": 0.5,
+    "ExtendLeft": 0.5,
+    "ExtendRight": 0.5
+  },
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber",
+    "Particles": [
+      {
+        "SystemId": "Daggers_Stab_Trail",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 1.2,
+          "X": -0.25,
+          "Z": 1.5
+        },
+        "DetachedFromModel": false,
+        "RotationOffset": {
+          "Yaw": 10.0,
+          "Roll": -10.0
+        }
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "Daggers_Stab_Trail",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 1.5,
+          "X": -0.1,
+          "Z": 1.7
+        },
+        "DetachedFromModel": false,
+        "RotationOffset": {
+          "Yaw": 10.0,
+          "Roll": -10.0
+        }
+      }
+    ],
+    "CameraEffect": "Daggers_Swing_Diagonal_Right"
+  },
+  "Next": {
+    "Type": "Simple",
+    "$Comment": "Pad the interaction length",
+    "RunTime": 0.069
+  },
+  "HitBlock": {
+    "Interactions": [
+      "Block_Break_Adventure"
+    ]
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Stab_Left_Damage",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Daggers_Primary_Stab_Left_Damage"
+          ]
+        }
+      }
+    ]
+  }
+}

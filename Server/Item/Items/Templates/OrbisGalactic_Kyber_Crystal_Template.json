@@ -7,7 +7,6 @@
     "Blocks.Ores"
   ],
   "Model": "Resources/BlockModels/Kyber_Ore_Large.blockymodel",
-  "Texture": "Resources/ItemTextures/Kyber_Crystal_Blue.png",
   "ItemLevel": 10,
   "PlayerAnimationsId": "Block",
   "IconProperties": {

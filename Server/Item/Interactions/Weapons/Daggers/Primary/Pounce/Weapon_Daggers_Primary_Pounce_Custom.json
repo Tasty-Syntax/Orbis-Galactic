@@ -1,0 +1,130 @@
+{
+  "Type": "Charging",
+  "DisplayProgress": false,
+  "HorizontalSpeedMultiplier": 0.5,
+  "Effects": {
+    "ItemAnimationId": "PounceStabCharging",
+    "FirstPersonParticles": [
+      {
+        "PositionOffset": {
+          "X": -0.3,
+          "Y": 0.5,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging_FP"
+      },
+      {
+        "PositionOffset": {
+          "X": -0.3,
+          "Y": 0.5,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging_FP",
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ],
+    "Particles": [
+      {
+        "PositionOffset": {
+          "X": 0.3,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging"
+      },
+      {
+        "PositionOffset": {
+          "X": 0.3,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "SystemId": "Dagger_Charging",
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ]
+  },
+  "AllowIndefiniteHold": false,
+  "Next": {
+    "0": "Weapon_Daggers_Primary_Chain",
+    "0.4": {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "Pounce_Stamina_Cost",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "EffectId": "Stamina_Broken_Immune"
+              },
+              {
+                "Type": "ChangeStat",
+                "StatModifiers": {
+                  "Stamina": -4
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Simple",
+          "RunTime": 0.1,
+          "Next": {
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "Replace",
+                "Var": "Pounce_EntityEffect",
+                "DefaultOk": true,
+                "DefaultValue": {
+                  "Interactions": [
+                    {
+                      "Type": "ApplyEffect",
+                      "EffectId": "Dagger_Pounce"
+                    }
+                  ]
+                }
+              },
+              {
+                "Type": "Replace",
+                "Var": "Pounce_Force",
+                "DefaultOk": true,
+                "DefaultValue": {
+                  "Interactions": [
+                    "Weapon_Daggers_Primary_Pounce_Force_Custom"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

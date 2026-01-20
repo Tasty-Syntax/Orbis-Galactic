@@ -1,0 +1,143 @@
+{
+  "RenderMode": "Distortion",
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 0.2
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0.2
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 0.2
+    }
+  },
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 500,
+  "ParticleLifeSpan": {
+    "Min": 0.2,
+    "Max": 0.9
+  },
+  "SpawnRate": {
+    "Min": 12,
+    "Max": 60
+  },
+  "TotalParticles": {
+    "Min": 190,
+    "Max": 190
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0.6599999999999999,
+      "Max": 4.5
+    },
+    "Yaw": {
+      "Min": -25,
+      "Max": 25
+    },
+    "Pitch": {
+      "Min": 80,
+      "Max": 100
+    }
+  },
+  "Attractors": [
+    {
+      "Position": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "RadialAxis": {
+        "X": 0,
+        "Y": 1,
+        "Z": 0
+      },
+      "Radius": 0,
+      "RadialAcceleration": 0,
+      "RadialTangentAcceleration": 0,
+      "RadialImpulse": -0.006,
+      "LinearAcceleration": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Smoke_Spikes.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 64
+    },
+    "ScaleRatioConstraint": "Preserved",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 1,
+          "Max": 2
+        },
+        "Opacity": 0,
+        "Color": "#ffffff"
+      },
+      "50": {
+        "Opacity": 1
+      },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Max": 1,
+            "Min": 0.2
+          },
+          "Y": {
+            "Max": 1,
+            "Min": 0.2
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Rotation": {
+        "X": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Y": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 90
+        }
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.15,
+          "Max": 0.3
+        },
+        "Y": {
+          "Min": 0.15,
+          "Max": 0.3
+        }
+      },
+      "Opacity": 1,
+      "Color": "#ffffff",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    },
+    "UseSpriteBlending": false
+  },
+  "Shape": "Sphere",
+  "SpawnBurst": false
+}

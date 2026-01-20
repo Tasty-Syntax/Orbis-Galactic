@@ -1,0 +1,11 @@
+{
+  "Type": "DamageEntity",
+  "DamageCalculator": {
+    "Type": "Absolute",
+    "Class": "Light",
+    "RandomPercentageModifier": 0,
+    "BaseDamage": {
+      "Physical": 5
+    }
+  }
+}
