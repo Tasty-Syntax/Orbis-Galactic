@@ -6,26 +6,21 @@
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack",
+    "Primary": "ROOT_Interaction_Darksaber_Attack",
     "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
     "SwapTo": "ROOT_Interaction_Darksaber_Ignite"
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
-    "Lightsaber_Swing_Left_Effect": {
+    "Darksaber_Swing_Left_Effect": {
       "Interactions": [
-        {
-          "Parent": "Interaction_Lightsaber_Swing_Left_Effect",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
-          }
-        }
+        "Interaction_Darksaber_Swing_Left_Effect"
       ]
     },
-    "Lightsaber_Swing_Left_Damage": {
+    "Darksaber_Swing_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Longsword_Swing_Left_Damage",
+          "Parent": "Interaction_Darksaber_Swing_Left_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -39,20 +34,20 @@
         }
       ]
     },
-    "Lightsaber_Swing_Right_Effect": {
+    "Darksaber_Swing_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Interaction_Lightsaber_Swing_Right_Effect",
+          "Parent": "Interaction_Darksaber_Swing_Right_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Lightsaber_Swing_Right_Damage": {
+    "Darksaber_Swing_Right_Damage": {
       "Interactions": [
         {
-          "Parent": "Longsword_Swing_Right_Damage",
+          "Parent": "Interaction_Darksaber_Swing_Right_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -66,20 +61,20 @@
         }
       ]
     },
-    "Lightsaber_Swing_Up_Left_Effect": {
+    "Darksaber_Swing_Up_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Effect",
+          "Parent": "Interaction_Darksaber_Swing_Up_Left_Effect",
           "Effects": {
             "WorldSoundEventId": "SFX_Longsword_Special_Swing"
           }
         }
       ]
     },
-    "Lightsaber_Swing_Up_Left_Damage": {
+    "Darksaber_Swing_Up_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Longsword_Swing_Up_Left_Damage",
+          "Parent": "Darksaber_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -93,11 +88,11 @@
         }
       ]
     },
-    "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect",
-    "Lightsaber_Stab_Charged_Damage": {
+    "Darksaber_Stab_Charged_Effect": "ROOT_Interaction_Darksaber_Stab_Charged_Effect",
+    "Darksaber_Stab_Charged_Damage": {
       "Interactions": [
         {
-          "Parent": "Interaction_Lightsaber_Stab_Charged_Damage",
+          "Parent": "Interaction_Darksaber_Stab_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
               "Physical": 144

@@ -1,0 +1,21 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Darksaber/Darksaber_Stab_1.ogg",
+        "Sounds/Weapons/Darksaber/Darksaber_Stab_2.ogg"
+      ],
+      "Volume": 10,
+      "StartDelay": 0.15,
+      "RandomSettings": {
+        "MaxPitch": 2,
+        "MinPitch": -2,
+        "MaxVolume": 10
+      }
+    }
+  ],
+  "Parent": "SFX_Attn_Moderate"
+}
