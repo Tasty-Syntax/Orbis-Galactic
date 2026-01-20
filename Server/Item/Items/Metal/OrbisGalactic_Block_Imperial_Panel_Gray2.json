@@ -29,7 +29,7 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray.png",
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray_Smooth.png",
         "Weight": 1
       }
     ],

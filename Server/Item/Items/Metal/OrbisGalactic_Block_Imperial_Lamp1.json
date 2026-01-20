@@ -89,19 +89,20 @@
             {
               "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png"
             }
-          ]
+          ],
+          "InteractionHint": "server.interactionHints.turnoff"
         },
         "Off": {
           "InteractionHint": "server.interactionHints.turnon",
           "Light": null,
           "Particles": null,
-          "InteractionSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip",
           "AmbientSoundEventId": null,
           "Textures": [
             {
               "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
             }
-          ]
+          ],
+          "InteractionSoundEventId": "SFX_Lamp_Off"
         }
       }
     },
