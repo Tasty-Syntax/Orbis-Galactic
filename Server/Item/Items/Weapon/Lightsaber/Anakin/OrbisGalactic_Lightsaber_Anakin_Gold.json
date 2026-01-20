@@ -14,9 +14,9 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Sword"
+          "Laser_Swords"
         ],
-        "Id": "Weapon_Bench",
+        "Id": "Laser_Weapon_Crafter",
         "RequiredTierLevel": 3
       }
     ],
