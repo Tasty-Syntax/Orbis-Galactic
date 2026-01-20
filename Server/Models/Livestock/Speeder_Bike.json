@@ -1,0 +1,111 @@
+{
+  "Model": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
+  "EyeHeight": 2.1,
+  "CrouchOffset": -0.5,
+  "HitBox": {
+    "Max": {
+      "X": 0.45,
+      "Y": 2.5,
+      "Z": 0.45
+    },
+    "Min": {
+      "X": -0.45,
+      "Y": 0,
+      "Z": -0.45
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 30,
+        "Min": -15
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 15,
+        "Min": -15
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
+          "Speed": 1,
+          "PassiveLoopCount": 1,
+          "SoundEventId": "SFX_Speeder_Idle"
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover_Forward.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Speeder_Move"
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Jump_Far.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Fall.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "RunBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover_Backward.blockyanim"
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim"
+        }
+      ]
+    },
+    "Sprint": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover_Forward.blockyanim",
+          "SoundEventId": "SFX_Speeder_Zoom"
+        }
+      ]
+    }
+  },
+  "MinScale": 4,
+  "MaxScale": 4
+}
