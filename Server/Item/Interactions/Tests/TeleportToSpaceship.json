@@ -1,0 +1,16 @@
+{
+  "Type": "TeleportInstance",
+  "InstanceName": "Orbis_Galactic_Spaceship_Interior",
+  "InstanceKey": "Orbis_Galactic_Spaceship_Interior",
+  "PositionOffset": {
+    "X": 0,
+    "Y": 0,
+    "Z": 2
+  },
+  "Rotation": {
+    "Yaw": 180
+  },
+  "OriginSource": "Block",
+  "PersonalReturnPoint": true,
+  "CloseOnBlockRemove": false
+}

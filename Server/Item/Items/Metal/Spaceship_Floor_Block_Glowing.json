@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Spaceship_Floor_Block.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Spaceship_Hull_Block.png",
+  "Set": "Rock_Marble",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble",
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Starship_Floor2.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "CustomModel": "Resources/BlockModels/Block_Emissive.blockymodel",
+    "Opacity": "Transparent"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "Rock_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

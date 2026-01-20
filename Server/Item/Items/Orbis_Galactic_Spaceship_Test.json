@@ -32,12 +32,16 @@
     ],
     "RandomRotation": "None",
     "HitboxType": "Collision_HWK290",
-    "Interactions": {
-      "Use": "Open_Spaceship"
-    },
     "InteractionHitboxType": "Collision_HWK290",
     "Parent": "Rock_Bedrock",
-    "Opacity": "Semitransparent"
+    "Opacity": "Semitransparent",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          "TeleportToSpaceship"
+        ]
+      }
+    }
   },
   "Tags": {
     "Type": [

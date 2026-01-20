@@ -1,0 +1,28 @@
+{
+  "Type": "NoiseRange",
+  "Biomes": [],
+  "DefaultBiome": "Orbis_Galactic_Spaceship_Interior",
+  "BiomeTransitions": [],
+  "DefaultTransitionDistance": 128,
+  "Density": {
+    "Type" : "Imported",
+    "Name" : "Biome-Map"
+  },
+  "ContentFields" : [
+    {
+      "Type" : "BaseHeight",
+      "Name" : "Base",
+      "Y" : 100
+    },
+    {
+      "Type" : "BaseHeight",
+      "Name" : "Water",
+      "Y" : 100
+    },
+    {
+      "Type" : "BaseHeight",
+      "Name" : "Bedrock",
+      "Y" : 0
+    }
+  ]
+}
