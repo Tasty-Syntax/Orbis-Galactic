@@ -1,0 +1,98 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Feran_Bookshelf.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Set": "Furniture_Feran",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Spaceship_CommandCenter.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.45,
+    "Translation": [
+      2,
+      -16
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Bone",
+    "CustomModel": "Resources/PropModels/Spaceship_CommandCenter.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/PropTextures/Spaceship_CommandCenter.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "ParticleColor": "#c7b885",
+    "MaxSupportDistance": 8,
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Shelf"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "HitboxType": "OrbisGalactic_Spaceship_CommandCenter",
+    "InteractionHitboxType": "OrbisGalactic_Spaceship_CommandCenter",
+    "Interactions": {
+      "Use": "Spaceship_CommandCenter"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Feran"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}
