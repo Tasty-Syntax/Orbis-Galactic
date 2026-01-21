@@ -63,7 +63,7 @@
       -21
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Blue",
+  "Parent": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Blue",
   "Scale": 0.5,
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",

@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Purple.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Purple.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Purple.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -12,9 +12,9 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Sword"
+          "Lightsabers_Single"
         ],
-        "Id": "Weapon_Bench",
+        "Id": "Laser_Weapon_Crafter",
         "RequiredTierLevel": 3
       }
     ],
@@ -24,24 +24,23 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Blue",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Purple",
         "Quantity": 1
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
         "Quantity": 1
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Purple.png",
   "Light": {
-    "Color": "#166"
+    "Color": "#71a"
   },
   "Trails": [
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Blue",
+      "TrailId": "Lightsaber_Trail_Purple",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0
@@ -52,17 +51,17 @@
     }
   ],
   "IconProperties": {
-    "Scale": 0.2,
+    "Scale": 0.3,
     "Rotation": [
-      344,
-      360,
-      316
+      333,
+      224,
+      40
     ],
     "Translation": [
-      -76,
-      -76
+      -46,
+      -44
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Blue",
-  "Scale": 0.5
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Purple.png",
+  "Parent": "OrbisGalactic_Weapon_Lightsaber_Luke_Purple"
 }
