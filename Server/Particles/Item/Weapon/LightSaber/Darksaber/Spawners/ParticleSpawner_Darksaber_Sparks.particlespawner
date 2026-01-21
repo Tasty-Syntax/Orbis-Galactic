@@ -18,8 +18,8 @@
   "LinearFiltering": true,
   "LightInfluence": 0,
   "ParticleRotateWithSpawner": false,
-  "TrailSpawnerPositionMultiplier": 1,
-  "TrailSpawnerRotationMultiplier": 1,
+  "TrailSpawnerPositionMultiplier": 0,
+  "TrailSpawnerRotationMultiplier": 0,
   "MaxConcurrentParticles": 500,
   "ParticleLifeSpan": {
     "Min": 0.2,

@@ -1,0 +1,16 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "ParticleSpawner_Darksaber_Sparks",
+      "PositionOffset": {
+        "Y": 0.5
+      }
+    },
+    {
+      "SpawnerId": "ParticleSpawner_Darksaber_Distortion",
+      "PositionOffset": {
+        "Y": 0.5
+      }
+    }
+  ]
+}
