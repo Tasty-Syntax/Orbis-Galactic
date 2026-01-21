@@ -7,14 +7,19 @@
       "Max": -0.55
     },
     {
-      "Biome": "Tatooine_Oasis",
-      "Min": -0.55,
-      "Max": -0.35
-    },
-    {
       "Biome": "Tatooine_River",
       "Min": -0.35,
       "Max": 2
+    },
+    {
+      "Biome": "Tatooine_BigCaves",
+      "Min": -0.75,
+      "Max": -0.5
+    },
+    {
+      "Biome": "Tatooine_Shore",
+      "Min": 0,
+      "Max": 0.15
     }
   ],
   "DefaultBiome": "Tatooine_Rocky",
@@ -33,12 +38,12 @@
     {
       "Type": "BaseHeight",
       "Name": "Water",
-      "Y": 100
+      "Y": 73
     },
     {
       "Type": "BaseHeight",
       "Name": "Bedrock",
-      "Y": 30
+      "Y": 20
     }
   ]
 }

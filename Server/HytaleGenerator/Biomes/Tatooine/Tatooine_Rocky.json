@@ -1,6 +1,6 @@
 {
 	"$NodeId":	"Biome-83143d50-7bd1-44e5-9cef-14c7c35fb9e6",
-	"Name":	"Desert1_Rocky",
+	"Name":	"Tatooine_Rocky",
 	"Terrain":	{
 		"$NodeId":	"Terrain-54896bfc-c358-4ba2-8174-861c2552f5a4",
 		"Type":	"DAOTerrain",
@@ -19,7 +19,7 @@
 							"Inputs":	[{
 									"$NodeId":	"Mix.Density-90b7190d-694f-420d-bc4d-6e1ca9e397c6",
 									"Type":	"Mix",
-									"ExportAs":	"Desert1_Boulders",
+									"ExportAs":	"Tatooine_Boulders",
 									"Skip":	false,
 									"Inputs":	[{
 											"$NodeId":	"ConstantDensityNode-cafe1e8e-9189-443a-ba62-85a1313ff993",
@@ -241,7 +241,7 @@
 																													"$NodeId":	"ImportedDensityNode-3ecf12be-d032-4f5d-a3e1-ef26c3034560",
 																													"Type":	"Imported",
 																													"Skip":	false,
-																													"Name":	"Desert1_Terrain_Base_Noise_2"
+																													"Name":	"Tatooine_Terrain_Base_Noise_2"
 																												}]
 																										}]
 																								}, {
@@ -254,7 +254,7 @@
 																											"$NodeId":	"ImportedDensityNode-c9482f4b-e0fd-463d-bdfa-d1f642c9a181",
 																											"Type":	"Imported",
 																											"Skip":	false,
-																											"Name":	"Desert1_Terrain_Base_Noise_3"
+																											"Name":	"Tatooine_Terrain_Base_Noise_3"
 																										}]
 																								}]
 																						}]
@@ -1248,7 +1248,7 @@
 											"Inputs":	[{
 													"$NodeId":	"Mix.Density-662e544f-75af-4e5d-abce-9c1aeae735d5",
 													"Type":	"Mix",
-													"ExportAs":	"Desert1_Terrain_Cliffs",
+													"ExportAs":	"Tatooine_Terrain_Cliffs",
 													"Skip":	false,
 													"Inputs":	[{
 															"$NodeId":	"ConstantDensityNode-d1b05830-4368-4a08-8a61-4429a44dadf4",
@@ -1968,7 +1968,7 @@
 													"Inputs":	[{
 															"$NodeId":	"MinDensityNode-3ba96e4d-6811-488c-9ea4-2c4d10f97479",
 															"Type":	"Min",
-															"ExportAs":	"Desert1_Terrain_Base",
+															"ExportAs":	"Tatooine_Terrain_Base",
 															"Skip":	false,
 															"Inputs":	[{
 																	"$NodeId":	"SumDensityNode-39e54dc9-da8b-4638-b0cb-280cf72a7abd",
@@ -1977,7 +1977,7 @@
 																	"Inputs":	[{
 																			"$NodeId":	"SumDensityNode-dbac0154-3b2f-4ce0-b349-7be66a4265ab",
 																			"Type":	"Sum",
-																			"ExportAs":	"Desert1_Terrain_Base_Noise",
+																			"ExportAs":	"Tatooine_Terrain_Base_Noise",
 																			"Skip":	false,
 																			"Inputs":	[{
 																					"$NodeId":	"AmplitudeConstantDensityNode-424d7126-ff1a-484e-b0e8-cdfa16387a78",
@@ -1987,7 +1987,7 @@
 																					"Inputs":	[{
 																							"$NodeId":	"NormalizerDensityNode-2176463a-db44-4003-8e0f-f6306863ff8d",
 																							"Type":	"Normalizer",
-																							"ExportAs":	"Desert1_Terrain_Base_Noise_1",
+																							"ExportAs":	"Tatooine_Terrain_Base_Noise_1",
 																							"Skip":	false,
 																							"FromMin":	-1,
 																							"FromMax":	1,
@@ -2012,7 +2012,7 @@
 																					"Inputs":	[{
 																							"$NodeId":	"InverterDensityNode-afa197b3-c906-4e7a-8a3a-347f65ebb916",
 																							"Type":	"Inverter",
-																							"ExportAs":	"Desert1_Terrain_Base_Noise_2",
+																							"ExportAs":	"Tatooine_Terrain_Base_Noise_2",
 																							"Skip":	false,
 																							"Inputs":	[{
 																									"$NodeId":	"AbsDensityNode-4ec03b43-f1d4-4969-a7d4-69552b145cb2",
@@ -2067,7 +2067,7 @@
 																	"Inputs":	[{
 																			"$NodeId":	"SimplexNoise2DDensityNode-2dfa6dc2-e442-4ae6-ab1d-4c1b5102dc84",
 																			"Type":	"SimplexNoise2D",
-																			"ExportAs":	"Desert1_Terrain_Base_Noise_3",
+																			"ExportAs":	"Tatooine_Terrain_Base_Noise_3",
 																			"Skip":	false,
 																			"Lacunarity":	7,
 																			"Persistence":	0.05,
@@ -2278,7 +2278,7 @@
 						"$NodeId":	"ImportedDensityNode-c323473d-4126-4644-9e16-d0c6169e0115",
 						"Type":	"Imported",
 						"Skip":	false,
-						"Name":	"Desert1_Boulders"
+						"Name":	"Tatooine_Boulders"
 					},
 					"Delimiters":	[{
 							"$NodeId":	"DelimiterFieldFunctionMP-57140b4a-bc12-42e5-bbae-c592e87ede3a",
@@ -2333,7 +2333,7 @@
 																		"$NodeId":	"ImportedDensityNode-a8d4b320-22af-46fc-8d5f-10d1ba368dd8",
 																		"Type":	"Imported",
 																		"Skip":	false,
-																		"Name":	"Desert1_Terrain_Cliffs"
+																		"Name":	"Tatooine_Terrain_Cliffs"
 																	}
 																}
 															}
@@ -2425,7 +2425,7 @@
 																	"$NodeId":	"ImportedDensityNode-4bcbc842-0a50-4ebb-baae-85061c0e69e3",
 																	"Type":	"Imported",
 																	"Skip":	false,
-																	"Name":	"Desert1_Terrain_Base_Noise_3"
+																	"Name":	"Tatooine_Terrain_Base_Noise_3"
 																}]
 														},
 														"Delimiters":	[{
@@ -2458,7 +2458,7 @@
 												"$NodeId":	"ImportedDensityNode-f6d22cdc-9be9-4f6f-99f4-329abbae6ec4",
 												"Type":	"Imported",
 												"Skip":	false,
-												"Name":	"Desert1_Terrain_Cliffs"
+												"Name":	"Tatooine_Terrain_Cliffs"
 											},
 											"Delimiters":	[{
 													"$NodeId":	"DelimiterFieldFunctionMP-345c47ea-c82b-4717-8f27-5388711e8914",
@@ -2506,7 +2506,7 @@
 																								"$NodeId":	"ImportedDensityNode-7a278f96-a83f-4d2b-a9bb-d19cacb8b804",
 																								"Type":	"Imported",
 																								"Skip":	false,
-																								"Name":	"Desert1_Terrain_Base_Noise"
+																								"Name":	"Tatooine_Terrain_Base_Noise"
 																							}]
 																					}]
 																			}]
@@ -2558,7 +2558,7 @@
 															"$NodeId":	"ImportedDensityNode-9508e5ba-5fb1-41dd-9365-b656cb1f3aae",
 															"Type":	"Imported",
 															"Skip":	false,
-															"Name":	"Desert1_Terrain_Base"
+															"Name":	"Tatooine_Terrain_Base"
 														},
 														"Delimiters":	[{
 																"$NodeId":	"DelimiterFieldFunctionMP-30ff65e0-7166-42db-8ddc-068494289b9c",
@@ -2907,7 +2907,7 @@
 			"Assignments":	{
 				"$NodeId":	"Imported.Assignments-75826162-a83b-4579-9d77-48a7020b425b",
 				"Type":	"Imported",
-				"Name":	"Desert1_Iron"
+				"Name":	"Tatooine_Iron"
 			}
 		}],
 	"EnvironmentProvider":	{
