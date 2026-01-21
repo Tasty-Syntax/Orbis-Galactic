@@ -1,10 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Gold.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Gold.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.description"
   },
-  "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+  "Quality": "Epic",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -62,9 +61,33 @@
       -75
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Blue",
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Purple.png",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
   "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double"
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
+      ]
+    }
   }
 }

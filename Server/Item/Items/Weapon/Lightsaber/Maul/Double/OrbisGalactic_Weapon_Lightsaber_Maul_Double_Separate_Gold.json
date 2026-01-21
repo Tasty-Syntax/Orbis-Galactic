@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Gold.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Gold.description"
   },
-  "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Gold.png",
+  "Quality": "Epic",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Gold.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,

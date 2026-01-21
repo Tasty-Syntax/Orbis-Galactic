@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Gold.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Gold.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.description"
   },
-  "Quality": "Legendary",
+  "Quality": "Epic",
   "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Orange.png",
   "Recipe": {
     "TimeSeconds": 4.5,

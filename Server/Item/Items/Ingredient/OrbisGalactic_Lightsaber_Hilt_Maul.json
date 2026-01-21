@@ -34,8 +34,8 @@
     ]
   },
   "TranslationProperties": {
-    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt_Luke.name",
-    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt_Luke.description"
+    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt_Maul.name",
+    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt_Maul.description"
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "MaxStack": 1,

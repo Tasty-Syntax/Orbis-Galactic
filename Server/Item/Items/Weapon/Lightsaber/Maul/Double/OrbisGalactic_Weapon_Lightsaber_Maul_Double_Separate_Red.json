@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Red.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Red.description"
   },
-  "Quality": "Legendary",
+  "Quality": "Epic",
   "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
   "Recipe": {
     "TimeSeconds": 4.5,
@@ -66,6 +66,37 @@
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
   "Scale": 0.5,
   "Interactions": {
+    "Primary": "Root_Weapon_Daggers_Lightsaber_Primary_Red",
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red"
+  },
+  "InteractionVars": {
+    "Swing_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Left_Custom_Red"
+      ]
+    },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Right_Custom_Red"
+      ]
+    },
+    "Stab_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Stab_Left_Custom_Red"
+      ]
+    },
+    "Stab_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Stab_Right_Custom_Red",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 10
+            }
+          },
+          "DamageEffects": {}
+        }
+      ]
+    }
   }
 }

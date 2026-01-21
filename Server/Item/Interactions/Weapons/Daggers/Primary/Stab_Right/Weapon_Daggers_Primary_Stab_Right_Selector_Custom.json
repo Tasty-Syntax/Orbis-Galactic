@@ -10,8 +10,8 @@
     "EndDistance": 2
   },
   "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Blue_Local",
-    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Blue_Local",
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Default_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Default_Local",
     "Particles": [
       {
         "SystemId": "Daggers_Stab_Trail",

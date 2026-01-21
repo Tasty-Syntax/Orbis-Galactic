@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Purple.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Purple.description"
   },
-  "Quality": "Legendary",
+  "Quality": "Epic",
   "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
   "Recipe": {
     "TimeSeconds": 4.5,

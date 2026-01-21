@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Red.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Red.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Red.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Red.description"
   },
-  "Quality": "Legendary",
+  "Quality": "Epic",
   "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Red.png",
   "Recipe": {
     "TimeSeconds": 4.5,

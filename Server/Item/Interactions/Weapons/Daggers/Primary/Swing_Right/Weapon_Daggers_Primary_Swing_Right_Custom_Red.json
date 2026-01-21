@@ -1,0 +1,17 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "SwingRight"
+  },
+  "RunTime": 0.069,
+  "Next": {
+    "Type": "Replace",
+    "Var": "Swing_Right_Selector",
+    "DefaultOk": true,
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Right_Selector_Custom_Red"
+      ]
+    }
+  }
+}

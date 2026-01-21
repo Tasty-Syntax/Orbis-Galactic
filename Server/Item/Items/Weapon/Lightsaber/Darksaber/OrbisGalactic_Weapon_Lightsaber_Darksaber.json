@@ -194,8 +194,8 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Darksaber.png",
   "Scale": 0.5,
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Darksaber.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Darksaber.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Darksaber.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Darksaber.description"
   },
   "Light": {
     "Color": "#666"

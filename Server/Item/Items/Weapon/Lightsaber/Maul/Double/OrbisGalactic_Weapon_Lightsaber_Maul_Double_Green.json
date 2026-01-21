@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Green.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Green.description"
   },
-  "Quality": "Legendary",
+  "Quality": "Epic",
   "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
   "Recipe": {
     "TimeSeconds": 4.5,
@@ -69,5 +69,27 @@
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green_Double"
   },
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim"
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Green"
+      ]
+    }
+  }
 }

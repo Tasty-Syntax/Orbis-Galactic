@@ -1,11 +1,9 @@
 {
-  "Parent": "OrbisGalactic_Lightsaber_Anakin_Blue",
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Purple.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Purple.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.description"
   },
-  "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Purple.png",
+  "Quality": "Epic",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -34,7 +32,6 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Purple.png",
   "Light": {
     "Color": "#71a"
   },
@@ -63,5 +60,34 @@
       -46,
       -44
     ]
-  }
+  },
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Purple.png",
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue"
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
+      ]
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.png"
 }
