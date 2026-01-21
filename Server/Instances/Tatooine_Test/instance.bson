@@ -1,0 +1,36 @@
+{
+  "$Comment": "This instanced world spawns a Default world from the Hytale Generator",
+  "RequiredPlugins": {},
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "IsPvpEnabled": false,
+  "IsSpawningNPC": true,
+  "GameTime": "0001-01-01T07:00:00Z",
+  "UUID": {
+    "$binary": "AZKxiVAMQfWIS0qBsBfjzQ==",
+    "$type": "04"
+  },
+  "GameplayConfig": "Default",
+  "IsCompassUpdating": true,
+  "IsTicking": true,
+  "IsGameTimePaused": false,
+  "IsObjectiveMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "IsSavingPlayers": true,
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "Tatooine",
+    "PlayerSpawn" : {
+      "X": 0,
+      "Y": 101,
+      "Z": 0,
+      "Pitch" : 0,
+      "Yaw" : 90,
+      "Roll" : 0
+    }
+  },
+  "IsSpawnMarkersEnabled": true,
+  "DeleteOnRemove": true,
+  "Version": 2
+}

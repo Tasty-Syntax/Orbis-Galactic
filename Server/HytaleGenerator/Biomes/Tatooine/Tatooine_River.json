@@ -62,7 +62,7 @@
 															"Skip":	false,
 															"Lacunarity":	2,
 															"Persistence":	0.5,
-															"Octaves":	1,
+															"Octaves":	3,
 															"Scale":	150,
 															"Seed":	"U"
 														}]
@@ -98,7 +98,7 @@
 											"Inputs":	[{
 													"$NodeId":	"SumDensityNode-ae5f72d1-a6d1-489b-bde9-9d35c8d7f4ea",
 													"Type":	"Sum",
-													"ExportAs":	"Desert1_Rivers_Cliffs",
+													"ExportAs":	"Tatooine_Rivers_Cliffs",
 													"Skip":	false,
 													"Inputs":	[{
 															"$NodeId":	"NormalizerDensityNode-4f8ac3f4-1cb0-4cca-9d4d-f200eeef42ef",
@@ -111,7 +111,7 @@
 															"Inputs":	[{
 																	"$NodeId":	"AbsDensityNode-f1bfdf4a-2612-44eb-85d8-5f022b91d79f",
 																	"Type":	"Abs",
-																	"ExportAs":	"Desert1_Rivers_Cliffs_Random",
+																	"ExportAs":	"Tatooine_Rivers_Cliffs_Random",
 																	"Skip":	false,
 																	"Inputs":	[{
 																			"$NodeId":	"SimplexNoise3DDensityNode-f0b30a60-b287-489c-8b33-180022776de4",
@@ -122,7 +122,7 @@
 																			"Octaves":	1,
 																			"ScaleXZ":	30,
 																			"ScaleY":	10,
-																			"Seed":	"Desert1_Rivers_Cliffs_Random"
+																			"Seed":	"Tatooine_Rivers_Cliffs_Random"
 																		}]
 																}]
 														}, {
@@ -144,6 +144,30 @@
 																	"Seed":	"Desert1_Rivers_Cliffs"
 																}]
 														}, {
+															"$NodeId":	"CurveMapper.Density-3b31938b-7c2d-4fc2-ad4e-dbc720dd3ce9",
+															"Type":	"CurveMapper",
+															"Skip":	false,
+															"Curve":	{
+																"$NodeId":	"ManualCurve-3b352f6e-8f50-4309-85fe-453d8c4a5f55",
+																"Type":	"Manual",
+																"Points":	[{
+																		"$NodeId":	"CurvePoint-f1427b81-9020-4b21-a834-fd5ebc119a0c",
+																		"In":	10,
+																		"Out":	0.7
+																	}, {
+																		"$NodeId":	"CurvePoint-31b1afa9-8c89-4ac3-9eb6-e871f5317774",
+																		"In":	40,
+																		"Out":	0.59
+																	}]
+															},
+															"Inputs":	[{
+																	"$NodeId":	"BaseHeight.Density-c8c6560a-cbb2-4a7a-8ffa-6917bb6e9901",
+																	"Type":	"BaseHeight",
+																	"Skip":	false,
+																	"BaseHeightName":	"Water",
+																	"Distance":	true
+																}]
+														}, {
 															"$NodeId":	"NormalizerDensityNode-9a329f58-1082-4bf9-9c01-ae5ca5f3490b",
 															"Type":	"Normalizer",
 															"Skip":	false,
@@ -161,30 +185,6 @@
 																			"Skip":	false,
 																			"Name":	"World-River-Map"
 																		}]
-																}]
-														}, {
-															"$NodeId":	"CurveMapper.Density-3b31938b-7c2d-4fc2-ad4e-dbc720dd3ce9",
-															"Type":	"CurveMapper",
-															"Skip":	false,
-															"Curve":	{
-																"$NodeId":	"ManualCurve-3b352f6e-8f50-4309-85fe-453d8c4a5f55",
-																"Type":	"Manual",
-																"Points":	[{
-																		"$NodeId":	"CurvePoint-f1427b81-9020-4b21-a834-fd5ebc119a0c",
-																		"In":	10,
-																		"Out":	0.7
-																	}, {
-																		"$NodeId":	"CurvePoint-31b1afa9-8c89-4ac3-9eb6-e871f5317774",
-																		"In":	50,
-																		"Out":	0.6
-																	}]
-															},
-															"Inputs":	[{
-																	"$NodeId":	"BaseHeight.Density-c8c6560a-cbb2-4a7a-8ffa-6917bb6e9901",
-																	"Type":	"BaseHeight",
-																	"Skip":	false,
-																	"BaseHeightName":	"Water",
-																	"Distance":	true
 																}]
 														}]
 												}, {
@@ -262,7 +262,7 @@
 																									"Type":	"Normalizer",
 																									"Skip":	false,
 																									"FromMin":	0,
-																									"FromMax":	35,
+																									"FromMax":	25,
 																									"ToMin":	0,
 																									"ToMax":	1,
 																									"Inputs":	[{
@@ -279,7 +279,7 @@
 																											"VectorProvider":	{
 																												"$NodeId":	"Imported.VectorProvider-e0643463-c527-45a6-abef-8e3b50a5f6ed",
 																												"Type":	"Imported",
-																												"Name":	"Desert1_Rivers_Gradient"
+																												"Name":	"Tatooine_Rivers_Gradient"
 																											}
 																										}]
 																								}]
@@ -307,7 +307,7 @@
 																									"Skip":	false,
 																									"ScaleX":	1,
 																									"ScaleY":	1,
-																									"ScaleZ":	3,
+																									"ScaleZ":	9,
 																									"Inputs":	[{
 																											"$NodeId":	"NormalizerDensityNode-ed8ef718-3ecf-473a-a22f-9554e47c867e",
 																											"Type":	"Normalizer",
@@ -348,7 +348,7 @@
 																									"Type":	"Normalizer",
 																									"Skip":	false,
 																									"FromMin":	0,
-																									"FromMax":	35,
+																									"FromMax":	25,
 																									"ToMin":	0,
 																									"ToMax":	1,
 																									"Inputs":	[{
@@ -365,7 +365,7 @@
 																											"VectorProvider":	{
 																												"$NodeId":	"Imported.VectorProvider-fd40bd52-f3b5-46b1-931f-c09daa7f106f",
 																												"Type":	"Imported",
-																												"Name":	"Desert1_Rivers_Gradient"
+																												"Name":	"Tatooine_Rivers_Gradient"
 																											}
 																										}]
 																								}]
@@ -434,7 +434,7 @@
 																									"Type":	"Normalizer",
 																									"Skip":	false,
 																									"FromMin":	0,
-																									"FromMax":	35,
+																									"FromMax":	25,
 																									"ToMin":	0,
 																									"ToMax":	1,
 																									"Inputs":	[{
@@ -451,7 +451,7 @@
 																											"VectorProvider":	{
 																												"$NodeId":	"Imported.VectorProvider-2e43cd0f-61d2-4945-ae01-63933dceae35",
 																												"Type":	"Imported",
-																												"Name":	"Desert1_Rivers_Gradient"
+																												"Name":	"Tatooine_Rivers_Gradient"
 																											}
 																										}]
 																								}]
@@ -520,7 +520,7 @@
 																									"Type":	"Normalizer",
 																									"Skip":	false,
 																									"FromMin":	0,
-																									"FromMax":	35,
+																									"FromMax":	25,
 																									"ToMin":	0,
 																									"ToMax":	1,
 																									"Inputs":	[{
@@ -537,7 +537,7 @@
 																											"VectorProvider":	{
 																												"$NodeId":	"Exported.VectorProvider-2575de3e-9bf0-4c16-86c1-17e22fc1dc8e",
 																												"Type":	"Exported",
-																												"ExportAs":	"Desert1_Rivers_Gradient",
+																												"ExportAs":	"Tatooine_Rivers_Gradient",
 																												"SingleInstance":	true,
 																												"VectorProvider":	{
 																													"$NodeId":	"Cache.VectorProvider-e6d9b79d-6ac3-4ffd-b968-4f98ed863112",
@@ -549,7 +549,7 @@
 																															"$NodeId":	"ImportedDensityNode-29423959-9f28-46a4-bbfa-8cc160a85ece",
 																															"Type":	"Imported",
 																															"Skip":	false,
-																															"Name":	"Desert1_Rivers_Base"
+																															"Name":	"Tatooine_Rivers_Base"
 																														}
 																													}
 																												}
@@ -568,7 +568,7 @@
 																	"$NodeId":	"NormalizerDensityNode-565b5023-7205-4043-ad0f-9c6151c9cd57",
 																	"Type":	"Normalizer",
 																	"Skip":	false,
-																	"FromMin":	0.85,
+																	"FromMin":	0.65,
 																	"FromMax":	1,
 																	"ToMin":	0,
 																	"ToMax":	1,
@@ -582,7 +582,7 @@
 														}, {
 															"$NodeId":	"Exported.Density-0b64bbf7-545c-414e-acec-8bb2e5f7ba1b",
 															"Type":	"Exported",
-															"ExportAs":	"Desert1_Rivers_Base",
+															"ExportAs":	"Tatooine_Rivers_Base",
 															"SingleInstance":	true,
 															"Skip":	false,
 															"Inputs":	[{
@@ -636,15 +636,15 @@
 																				"Type":	"Manual",
 																				"Points":	[{
 																						"$NodeId":	"CurvePoint-d2a52aed-a960-4594-9b30-4d8345cf723e",
-																						"In":	-6,
+																						"In":	-7,
 																						"Out":	1
 																					}, {
 																						"$NodeId":	"CurvePoint-af0deef4-a4bc-42b0-b766-7220dad365a2",
-																						"In":	0,
-																						"Out":	0.97
+																						"In":	-1,
+																						"Out":	1.01
 																					}, {
 																						"$NodeId":	"CurvePoint-093a65b5-4054-4e4f-8eec-740143863031",
-																						"In":	50,
+																						"In":	25,
 																						"Out":	0.2
 																					}]
 																			},
@@ -681,11 +681,11 @@
 																"Points":	[{
 																		"$NodeId":	"CurvePoint-0b904ef8-2986-4dfb-a3c3-af7d8837a644",
 																		"In":	-5,
-																		"Out":	1
+																		"Out":	5
 																	}, {
 																		"$NodeId":	"CurvePoint-96c837b5-59b9-4d27-a123-5bc39935e2fc",
 																		"In":	-2,
-																		"Out":	0.2
+																		"Out":	-1
 																	}, {
 																		"$NodeId":	"CurvePoint-0c2377fb-5c12-4445-8cad-b7d59f637fe7",
 																		"In":	-1,
@@ -834,7 +834,7 @@
 												"$NodeId":	"ImportedDensityNode-3e6c1e74-c2a3-4036-8f48-f4d62dd263e7",
 												"Type":	"Imported",
 												"Skip":	false,
-												"Name":	"Desert1_Rivers_Cliffs"
+												"Name":	"Tatooine_Rivers_Cliffs"
 											}]
 									},
 									"Delimiters":	[{
@@ -867,7 +867,7 @@
 																			"Persistence":	0.3,
 																			"Octaves":	2,
 																			"Scale":	30,
-																			"Seed":	"Desert1_Rivers_Sand"
+																			"Seed":	"Tatooine_Rivers_Sand"
 																		}]
 																}, {
 																	"$NodeId":	"NormalizerDensityNode-f539aa36-95dc-4c95-bacc-e9bd2724f9a3",
@@ -942,7 +942,7 @@
 							"$NodeId":	"ImportedDensityNode-8390adf8-1ccd-4f92-bcfc-4f578f0777a8",
 							"Type":	"Imported",
 							"Skip":	false,
-							"Name":	"Desert1_Rivers_Cliffs_Random"
+							"Name":	"Tatooine_Rivers_Cliffs_Random"
 						},
 						"Delimiters":	[{
 								"$NodeId":	"DelimiterFieldFunctionMP-35a617db-ef09-4cc4-9e26-7d6e6886b8ca",
@@ -1006,7 +1006,7 @@
 							"Persistence":	0.5,
 							"Octaves":	1,
 							"Scale":	30,
-							"Seed":	"Desert1_River_Grasses"
+							"Seed":	"Tatooine_River_Grasses"
 						}]
 				},
 				"Positions":	{
@@ -1164,8 +1164,8 @@
 		"$Nodes":	{
 			"Biome-330c4d0e-19a9-4232-9045-962e308875f9":	{
 				"$Position":	{
-					"$x":	-10851,
-					"$y":	-4122
+					"$x":	-11099,
+					"$y":	-4104
 				},
 				"$Title":	"[ROOT] Biome"
 			},
@@ -1189,13 +1189,13 @@
 			},
 			"Mix.Density-3066ecff-f281-46fa-a4bc-1589cb069aee":	{
 				"$Position":	{
-					"$x":	-8735,
+					"$x":	-8736,
 					"$y":	-5355
 				}
 			},
 			"Mix.Density-b5fd5b2d-2bfc-41b3-aa56-e4747c697b18":	{
 				"$Position":	{
-					"$x":	-8084,
+					"$x":	-8085,
 					"$y":	-5345
 				}
 			},
@@ -1279,86 +1279,86 @@
 			},
 			"SumDensityNode-ae5f72d1-a6d1-489b-bde9-9d35c8d7f4ea":	{
 				"$Position":	{
-					"$x":	-5040,
+					"$x":	-5034,
 					"$y":	-7489
 				}
 			},
 			"NormalizerDensityNode-4f8ac3f4-1cb0-4cca-9d4d-f200eeef42ef":	{
 				"$Position":	{
-					"$x":	-4398,
+					"$x":	-4392,
 					"$y":	-7835
 				}
 			},
 			"AbsDensityNode-f1bfdf4a-2612-44eb-85d8-5f022b91d79f":	{
 				"$Position":	{
-					"$x":	-3794,
+					"$x":	-3788,
 					"$y":	-7835
 				}
 			},
 			"SimplexNoise3DDensityNode-f0b30a60-b287-489c-8b33-180022776de4":	{
 				"$Position":	{
-					"$x":	-3191,
+					"$x":	-3185,
 					"$y":	-7839
 				}
 			},
 			"NormalizerDensityNode-e90f4280-9b5a-49d9-991f-6ddd00aa03eb":	{
 				"$Position":	{
-					"$x":	-4394,
+					"$x":	-4388,
 					"$y":	-7496
 				}
 			},
 			"SimplexNoise2DDensityNode-599092a7-3a4b-4b31-a62f-d5b755ba526c":	{
 				"$Position":	{
-					"$x":	-3782,
+					"$x":	-3776,
 					"$y":	-7495
-				}
-			},
-			"NormalizerDensityNode-9a329f58-1082-4bf9-9c01-ae5ca5f3490b":	{
-				"$Position":	{
-					"$x":	-4418,
-					"$y":	-7088
-				}
-			},
-			"InverterDensityNode-efe690ba-988d-49d3-b5ca-83ffe5920383":	{
-				"$Position":	{
-					"$x":	-3818,
-					"$y":	-7091
-				}
-			},
-			"ImportedDensityNode-cb4c8aff-08c3-498b-8094-75673ca0c658":	{
-				"$Position":	{
-					"$x":	-3197,
-					"$y":	-7088
 				}
 			},
 			"CurveMapper.Density-3b31938b-7c2d-4fc2-ad4e-dbc720dd3ce9":	{
 				"$Position":	{
-					"$x":	-4417,
+					"$x":	-4411,
 					"$y":	-6668
 				}
 			},
 			"ManualCurve-3b352f6e-8f50-4309-85fe-453d8c4a5f55":	{
 				"$Position":	{
-					"$x":	-3776,
+					"$x":	-3770,
 					"$y":	-6407
 				}
 			},
 			"CurvePoint-f1427b81-9020-4b21-a834-fd5ebc119a0c":	{
 				"$Position":	{
-					"$x":	-3163,
+					"$x":	-3157,
 					"$y":	-6478
 				}
 			},
 			"CurvePoint-31b1afa9-8c89-4ac3-9eb6-e871f5317774":	{
 				"$Position":	{
-					"$x":	-3164,
+					"$x":	-3158,
 					"$y":	-6336
 				}
 			},
 			"BaseHeight.Density-c8c6560a-cbb2-4a7a-8ffa-6917bb6e9901":	{
 				"$Position":	{
-					"$x":	-3764,
+					"$x":	-3758,
 					"$y":	-6685
+				}
+			},
+			"NormalizerDensityNode-9a329f58-1082-4bf9-9c01-ae5ca5f3490b":	{
+				"$Position":	{
+					"$x":	0,
+					"$y":	0
+				}
+			},
+			"InverterDensityNode-efe690ba-988d-49d3-b5ca-83ffe5920383":	{
+				"$Position":	{
+					"$x":	-3812,
+					"$y":	-7091
+				}
+			},
+			"ImportedDensityNode-cb4c8aff-08c3-498b-8094-75673ca0c658":	{
+				"$Position":	{
+					"$x":	-3191,
+					"$y":	-7088
 				}
 			},
 			"SumDensityNode-480d9a7d-e426-4bb3-a1ea-61a0cf9983c6":	{
@@ -1375,8 +1375,8 @@
 			},
 			"SumDensityNode-f76c32e3-39c0-4199-8b92-09ba201e20db":	{
 				"$Position":	{
-					"$x":	-1515,
-					"$y":	-5783
+					"$x":	-1445,
+					"$y":	-6012
 				}
 			},
 			"MinDensityNode-5dc006f0-6699-4742-bffc-ee071f1f05be":	{
@@ -1855,73 +1855,73 @@
 			},
 			"ConstantDensityNode-d4119c2c-61e5-48b6-9550-b628e6db7061":	{
 				"$Position":	{
-					"$x":	-7421,
-					"$y":	-5353
+					"$x":	-7289,
+					"$y":	-5354
 				}
 			},
 			"CurveMapper.Density-de9475e1-eb67-477f-816e-082975659435":	{
 				"$Position":	{
-					"$x":	-7414,
+					"$x":	-7415,
 					"$y":	-5129
 				}
 			},
 			"ManualCurve-8434f678-d746-45af-a17f-b3ed5159705a":	{
 				"$Position":	{
-					"$x":	-6827,
+					"$x":	-6828,
 					"$y":	-4909
 				}
 			},
 			"CurvePoint-1836815b-e202-4ed1-94be-fed5d3cfc498":	{
 				"$Position":	{
-					"$x":	-6209,
+					"$x":	-6210,
 					"$y":	-5142
 				}
 			},
 			"CurvePoint-d09bc103-7c4b-42c0-8b18-c6191970e5e1":	{
 				"$Position":	{
-					"$x":	-6205,
+					"$x":	-6206,
 					"$y":	-4987
 				}
 			},
 			"BaseHeight.Density-603b79f8-5c80-469a-baef-cefe94fe46ec":	{
 				"$Position":	{
-					"$x":	-6798,
+					"$x":	-6799,
 					"$y":	-5141
 				}
 			},
 			"ConstantDensityNode-c94a3c87-3810-4eac-940d-4e4f9cbf1802":	{
 				"$Position":	{
-					"$x":	-8072,
+					"$x":	-8073,
 					"$y":	-5139
 				}
 			},
 			"CurveMapper.Density-f62018ed-49e1-45ec-a397-a0f5383c8569":	{
 				"$Position":	{
-					"$x":	-8043,
+					"$x":	-8044,
 					"$y":	-4870
 				}
 			},
 			"ManualCurve-4b0d6c8b-286d-4676-a976-d5f71ed84f9b":	{
 				"$Position":	{
-					"$x":	-7456,
+					"$x":	-7457,
 					"$y":	-4650
 				}
 			},
 			"CurvePoint-ebc3999b-8ec8-4b70-b8e0-7edae90c2d92":	{
 				"$Position":	{
-					"$x":	-6833,
+					"$x":	-6834,
 					"$y":	-4578
 				}
 			},
 			"CurvePoint-8e1a5883-b83b-4ef7-9c07-f8ad370fcff5":	{
 				"$Position":	{
-					"$x":	-6827,
+					"$x":	-6828,
 					"$y":	-4417
 				}
 			},
 			"BaseHeight.Density-795d2d69-a9fa-4a0b-9ea4-c8afd2410114":	{
 				"$Position":	{
-					"$x":	-7427,
+					"$x":	-7428,
 					"$y":	-4882
 				}
 			},
@@ -2255,42 +2255,6 @@
 					"$y":	1523
 				}
 			},
-			"OccurrencePositions-47bb0f42-8491-44c4-9fbf-49cdfada86a9":	{
-				"$Position":	{
-					"$x":	-9225,
-					"$y":	2038
-				}
-			},
-			"NormalizerDensityNode-d6f159c7-a040-4bf9-bffc-3869d2d3083c":	{
-				"$Position":	{
-					"$x":	-8485,
-					"$y":	2309
-				}
-			},
-			"SimplexNoise2DDensityNode-93ebe1aa-ae09-4476-876b-2654753306d1":	{
-				"$Position":	{
-					"$x":	-7885,
-					"$y":	2306
-				}
-			},
-			"Mesh2DPositions-69fb5c58-1307-41d4-bbda-325aef2a710b":	{
-				"$Position":	{
-					"$x":	-8544,
-					"$y":	2023
-				}
-			},
-			"MeshPointGenerator-dee3d9e5-bec5-4b29-bd55-74c5cb299303":	{
-				"$Position":	{
-					"$x":	-7886,
-					"$y":	2023
-				}
-			},
-			"Imported.Assignments-3d441604-b807-413d-a9cf-1f9c15d77eb0":	{
-				"$Position":	{
-					"$x":	-9228,
-					"$y":	2256
-				}
-			},
 			"DensityDelimited.EnvironmentProvider-416170e5-7b9e-4d94-ae3b-bda1c2911c3a":	{
 				"$Position":	{
 					"$x":	-12565,
@@ -2429,6 +2393,42 @@
 					"$y":	-600
 				}
 			},
+			"OccurrencePositions-47bb0f42-8491-44c4-9fbf-49cdfada86a9":	{
+				"$Position":	{
+					"$x":	-9225,
+					"$y":	2038
+				}
+			},
+			"NormalizerDensityNode-d6f159c7-a040-4bf9-bffc-3869d2d3083c":	{
+				"$Position":	{
+					"$x":	-8485,
+					"$y":	2309
+				}
+			},
+			"SimplexNoise2DDensityNode-93ebe1aa-ae09-4476-876b-2654753306d1":	{
+				"$Position":	{
+					"$x":	-7885,
+					"$y":	2306
+				}
+			},
+			"Mesh2DPositions-69fb5c58-1307-41d4-bbda-325aef2a710b":	{
+				"$Position":	{
+					"$x":	-8544,
+					"$y":	2023
+				}
+			},
+			"MeshPointGenerator-dee3d9e5-bec5-4b29-bd55-74c5cb299303":	{
+				"$Position":	{
+					"$x":	-7886,
+					"$y":	2023
+				}
+			},
+			"Imported.Assignments-3d441604-b807-413d-a9cf-1f9c15d77eb0":	{
+				"$Position":	{
+					"$x":	-9228,
+					"$y":	2256
+				}
+			},
 			"CurvePoint-47f8c479-6e21-45c3-9a01-02aa8dce6b12":	{
 				"$Position":	{
 					"$x":	743785,
@@ -2458,6 +2458,12 @@
 					"$x":	743787,
 					"$y":	744500
 				}
+			},
+			"NormalizerDensityNode-9a329f58-1082-4bf9-9c01-ae5ca5f3490b":	{
+				"$Position":	{
+					"$x":	-4412,
+					"$y":	-7087
+				}
 			}
 		},
 		"$FloatingNodes":	[{
@@ -2481,7 +2487,7 @@
 							"Persistence":	0.5,
 							"Octaves":	1,
 							"Scale":	50,
-							"Seed":	"Desert1_River_Trees"
+							"Seed":	"Tatooine_River_Trees"
 						}]
 				},
 				"Positions":	{
@@ -2526,6 +2532,15 @@
 				"$NodeId":	"CurvePoint-b84b0382-0704-4e75-86f3-dce7dcc60c60",
 				"In":	0.1,
 				"Out":	-1
+			}, {
+				"$NodeId":	"NormalizerDensityNode-9a329f58-1082-4bf9-9c01-ae5ca5f3490b",
+				"Type":	"Normalizer",
+				"Skip":	false,
+				"FromMin":	-1,
+				"FromMax":	1,
+				"ToMin":	-0.857,
+				"ToMax":	0.857,
+				"Inputs":	[]
 			}],
 		"$Links":	{
 		},
@@ -2556,7 +2571,7 @@
 			}, {
 				"$Position":	{
 					"$x":	-738.3125,
-					"$y":	-8398.6875
+					"$y":	-8399.375
 				},
 				"$width":	5195,
 				"$height":	912.75,
@@ -2571,16 +2586,16 @@
 				"$name":	"Cliff Tops"
 			}, {
 				"$Position":	{
-					"$x":	-5075.875,
-					"$y":	-7981.375
+					"$x":	-5070.1875,
+					"$y":	-7982.4375
 				},
 				"$width":	2957.8125,
 				"$height":	2004.5625,
 				"$name":	"Cliffs"
 			}, {
 				"$Position":	{
-					"$x":	-8754.6875,
-					"$y":	-5465.25
+					"$x":	-8756.375,
+					"$y":	-5465.5
 				},
 				"$width":	2985,
 				"$height":	1267.3125,
@@ -2590,8 +2605,8 @@
 					"$x":	-5201,
 					"$y":	-5413.1875
 				},
-				"$width":	2513,
-				"$height":	1121.8125,
+				"$width":	100,
+				"$height":	100,
 				"$name":	"River Bed"
 			}, {
 				"$Position":	{

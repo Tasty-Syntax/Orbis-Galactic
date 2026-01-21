@@ -13,6 +13,98 @@
 					"Type":	"Min",
 					"Skip":	false,
 					"Inputs":	[{
+							"$NodeId":	"SumDensityNode-ea057023-02fd-4aec-8476-1d5c73baa19a",
+							"Type":	"Sum",
+							"Skip":	false,
+							"Inputs":	[{
+									"$NodeId":	"NormalizerDensityNode-f37f4399-464a-49db-9d9c-b797ca047a91",
+									"Type":	"Normalizer",
+									"Skip":	false,
+									"FromMin":	-1,
+									"FromMax":	1,
+									"ToMin":	-0.01,
+									"ToMax":	0.01,
+									"Inputs":	[{
+											"$NodeId":	"SimplexNoise2DDensityNode-146ef381-28ac-4d3c-80cc-7be18a8122bb",
+											"Type":	"SimplexNoise2D",
+											"Skip":	false,
+											"Lacunarity":	6,
+											"Persistence":	0.1,
+											"Octaves":	2,
+											"Scale":	120,
+											"Seed":	"A"
+										}]
+								}, {
+									"$NodeId":	"NormalizerDensityNode-c72af5e8-fef1-4c7f-bdf6-b884ee05920c",
+									"Type":	"Normalizer",
+									"Skip":	false,
+									"FromMin":	-1,
+									"FromMax":	1,
+									"ToMin":	-0.99,
+									"ToMax":	0.69,
+									"Inputs":	[{
+											"$NodeId":	"CurveMapper.Density-adcfb006-6c8c-417e-b9b5-8046f207031b",
+											"Type":	"CurveMapper",
+											"Skip":	false,
+											"Curve":	{
+												"$NodeId":	"ManualCurve-0b36026c-c2ec-48c5-8ad5-fd641afa6158",
+												"Type":	"Manual",
+												"Points":	[{
+														"$NodeId":	"CurvePoint-1be42ea7-76aa-4453-bac2-9c341ebfe197",
+														"In":	1,
+														"Out":	1
+													}, {
+														"$NodeId":	"CurvePoint-24816021-aa79-427e-8355-b8ff18366fda",
+														"In":	0.5,
+														"Out":	2
+													}, {
+														"$NodeId":	"CurvePoint-e5e4f3ed-3302-4d13-baf0-bd0f3b346977",
+														"In":	-0.2,
+														"Out":	-1
+													}, {
+														"$NodeId":	"CurvePoint-3dfb7326-8af7-4a5c-8c78-6f394429b638",
+														"In":	-1,
+														"Out":	-9
+													}]
+											},
+											"Inputs":	[{
+													"$NodeId":	"InverterDensityNode-bd833ef7-8b43-4166-8617-4cbf1b9ade6b",
+													"Type":	"Inverter",
+													"Skip":	false,
+													"Inputs":	[{
+															"$NodeId":	"ImportedDensityNode-b9a8ce83-39fc-4fb1-a686-5715423620a3",
+															"Type":	"Imported",
+															"Skip":	false,
+															"Name":	"World-Continent-Map"
+														}]
+												}]
+										}]
+								}, {
+									"$NodeId":	"CurveMapper.Density-5ccbcf6f-e108-421f-a27f-60deee40033d",
+									"Type":	"CurveMapper",
+									"Skip":	false,
+									"Curve":	{
+										"$NodeId":	"ManualCurve-697d49e7-21ca-4862-8377-3e065e1b0484",
+										"Type":	"Manual",
+										"Points":	[{
+												"$NodeId":	"CurvePoint-65dab201-ce84-4d02-8e2d-3023d849a39e",
+												"In":	-20,
+												"Out":	1
+											}, {
+												"$NodeId":	"CurvePoint-487eb9c0-1497-46ed-b7ee-048657c2d464",
+												"In":	15,
+												"Out":	-1
+											}]
+									},
+									"Inputs":	[{
+											"$NodeId":	"BaseHeight.Density-f61ddb72-d2dd-4e2d-b196-6e58e782ffeb",
+											"Type":	"BaseHeight",
+											"Skip":	false,
+											"BaseHeightName":	"Water",
+											"Distance":	true
+										}]
+								}]
+						}, {
 							"$NodeId":	"SumDensityNode-6ef88084-c3cf-4035-86b8-531ea0eea3cd",
 							"Type":	"Sum",
 							"Skip":	false,
@@ -125,98 +217,6 @@
 									},
 									"Inputs":	[{
 											"$NodeId":	"BaseHeight.Density-c06b7caf-69f7-442e-a2a1-756816d0ce36",
-											"Type":	"BaseHeight",
-											"Skip":	false,
-											"BaseHeightName":	"Water",
-											"Distance":	true
-										}]
-								}]
-						}, {
-							"$NodeId":	"SumDensityNode-ea057023-02fd-4aec-8476-1d5c73baa19a",
-							"Type":	"Sum",
-							"Skip":	false,
-							"Inputs":	[{
-									"$NodeId":	"NormalizerDensityNode-f37f4399-464a-49db-9d9c-b797ca047a91",
-									"Type":	"Normalizer",
-									"Skip":	false,
-									"FromMin":	-1,
-									"FromMax":	1,
-									"ToMin":	-0.01,
-									"ToMax":	0.01,
-									"Inputs":	[{
-											"$NodeId":	"SimplexNoise2DDensityNode-146ef381-28ac-4d3c-80cc-7be18a8122bb",
-											"Type":	"SimplexNoise2D",
-											"Skip":	false,
-											"Lacunarity":	6,
-											"Persistence":	0.1,
-											"Octaves":	2,
-											"Scale":	120,
-											"Seed":	"A"
-										}]
-								}, {
-									"$NodeId":	"NormalizerDensityNode-c72af5e8-fef1-4c7f-bdf6-b884ee05920c",
-									"Type":	"Normalizer",
-									"Skip":	false,
-									"FromMin":	-1,
-									"FromMax":	1,
-									"ToMin":	-0.99,
-									"ToMax":	0.69,
-									"Inputs":	[{
-											"$NodeId":	"CurveMapper.Density-adcfb006-6c8c-417e-b9b5-8046f207031b",
-											"Type":	"CurveMapper",
-											"Skip":	false,
-											"Curve":	{
-												"$NodeId":	"ManualCurve-0b36026c-c2ec-48c5-8ad5-fd641afa6158",
-												"Type":	"Manual",
-												"Points":	[{
-														"$NodeId":	"CurvePoint-1be42ea7-76aa-4453-bac2-9c341ebfe197",
-														"In":	1,
-														"Out":	1
-													}, {
-														"$NodeId":	"CurvePoint-24816021-aa79-427e-8355-b8ff18366fda",
-														"In":	0,
-														"Out":	1
-													}, {
-														"$NodeId":	"CurvePoint-e5e4f3ed-3302-4d13-baf0-bd0f3b346977",
-														"In":	-0.2,
-														"Out":	-1
-													}, {
-														"$NodeId":	"CurvePoint-3dfb7326-8af7-4a5c-8c78-6f394429b638",
-														"In":	-1,
-														"Out":	-1
-													}]
-											},
-											"Inputs":	[{
-													"$NodeId":	"InverterDensityNode-bd833ef7-8b43-4166-8617-4cbf1b9ade6b",
-													"Type":	"Inverter",
-													"Skip":	false,
-													"Inputs":	[{
-															"$NodeId":	"ImportedDensityNode-b9a8ce83-39fc-4fb1-a686-5715423620a3",
-															"Type":	"Imported",
-															"Skip":	false,
-															"Name":	"World-Continent-Map"
-														}]
-												}]
-										}]
-								}, {
-									"$NodeId":	"CurveMapper.Density-5ccbcf6f-e108-421f-a27f-60deee40033d",
-									"Type":	"CurveMapper",
-									"Skip":	false,
-									"Curve":	{
-										"$NodeId":	"ManualCurve-697d49e7-21ca-4862-8377-3e065e1b0484",
-										"Type":	"Manual",
-										"Points":	[{
-												"$NodeId":	"CurvePoint-65dab201-ce84-4d02-8e2d-3023d849a39e",
-												"In":	-20,
-												"Out":	1
-											}, {
-												"$NodeId":	"CurvePoint-487eb9c0-1497-46ed-b7ee-048657c2d464",
-												"In":	15,
-												"Out":	-1
-											}]
-									},
-									"Inputs":	[{
-											"$NodeId":	"BaseHeight.Density-f61ddb72-d2dd-4e2d-b196-6e58e782ffeb",
 											"Type":	"BaseHeight",
 											"Skip":	false,
 											"BaseHeightName":	"Water",
