@@ -150,15 +150,15 @@
     }
   },
   "IconProperties": {
-    "Scale": 0.33,
+    "Scale": 0.1,
     "Rotation": [
       45,
       90,
       0
     ],
     "Translation": [
-      -43,
-      -43
+      -5,
+      -9
     ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
@@ -258,5 +258,6 @@
   },
   "Quality": "Template",
   "Animation": "Resources/Animations/Saber_Animate.blockyanim",
-  "Scale": 0.5
+  "Scale": 0.5,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Template.png"
 }

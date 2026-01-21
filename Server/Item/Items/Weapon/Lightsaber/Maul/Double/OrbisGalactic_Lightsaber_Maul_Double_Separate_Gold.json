@@ -4,7 +4,7 @@
     "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Blue.png",
+  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Gold.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Gold.png",
   "Light": {
     "Color": "#166"
   },
@@ -52,7 +52,7 @@
     }
   ],
   "IconProperties": {
-    "Scale": 0.1,
+    "Scale": 0.4,
     "Rotation": [
       45,
       90,
@@ -63,40 +63,6 @@
       -21
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
-  "Scale": 0.5,
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-    "Ability3": {
-      "Interactions": [
-        {
-          "Type": "ChangeState"
-        }
-      ]
-    }
-  },
-  "InteractionVars": {
-    "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
-      ]
-    },
-    "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
-      ]
-    },
-    "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
-      ]
-    },
-    "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
-      ]
-    }
-  },
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim"
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
+  "Scale": 0.5
 }

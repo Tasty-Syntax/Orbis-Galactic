@@ -4,7 +4,7 @@
     "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Blue.png",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Purple.png",
   "Light": {
     "Color": "#166"
   },
@@ -41,14 +41,14 @@
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Blue",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0
       },
       "RotationOffset": {
         "Roll": 0
-      }
+      },
+      "TrailId": "Lightsaber_Trail_Red"
     }
   ],
   "IconProperties": {
@@ -63,40 +63,11 @@
       -21
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Blue",
   "Scale": 0.5,
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-    "Ability3": {
-      "Interactions": [
-        {
-          "Type": "ChangeState"
-        }
-      ]
-    }
-  },
-  "InteractionVars": {
-    "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
-      ]
-    },
-    "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
-      ]
-    },
-    "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
-      ]
-    },
-    "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
-      ]
-    }
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double"
   },
   "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim"
 }

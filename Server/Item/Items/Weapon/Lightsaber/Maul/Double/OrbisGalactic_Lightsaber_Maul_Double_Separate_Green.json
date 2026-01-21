@@ -4,7 +4,7 @@
     "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
   },
   "Quality": "Legendary",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Red.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Green.png",
   "Light": {
     "Color": "#166"
   },
@@ -64,5 +64,8 @@
     ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
-  "Scale": 0.5
+  "Scale": 0.5,
+  "Interactions": {
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green"
+  }
 }

@@ -2,11 +2,11 @@
   "Categories": [
     "Items.Weapons"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
+  "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
     "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage"
   },
   "InteractionVars": {
@@ -257,6 +257,6 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
   "Scale": 0.5
 }

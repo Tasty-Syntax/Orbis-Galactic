@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.name",
-    "Description": "server.items.Orbis_Galactic_Lightsaber_Anakin_Blue.description"
+    "Name": "server.items.Orbis_Galactic_Lightsaber_Luke_Blue.name",
+    "Description": "server.items.Orbis_Galactic_Lightsaber_Luke_Blue.description"
   },
   "Quality": "Legendary",
   "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Blue.png",
@@ -12,9 +12,9 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Sword"
+          "Lightsabers_Single"
         ],
-        "Id": "Weapon_Bench",
+        "Id": "Laser_Weapon_Crafter",
         "RequiredTierLevel": 3
       }
     ],
@@ -28,12 +28,12 @@
         "Quantity": 1
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
         "Quantity": 1
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Blue.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Blue.png",
   "Light": {
     "Color": "#166"
   },
@@ -52,16 +52,42 @@
     }
   ],
   "IconProperties": {
-    "Scale": 0.3,
+    "Scale": 0.2,
     "Rotation": [
-      333,
-      224,
-      40
+      318,
+      323,
+      335
     ],
     "Translation": [
-      -46,
-      -44
+      -82,
+      -75
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template"
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double"
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
+      ]
+    }
+  }
 }
