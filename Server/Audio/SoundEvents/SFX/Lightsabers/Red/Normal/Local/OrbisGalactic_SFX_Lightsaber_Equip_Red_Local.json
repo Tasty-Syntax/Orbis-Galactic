@@ -1,0 +1,15 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Volume": 0,
+      "StartDelay": 0.15,
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Red/Lightsaber_Ignite_Red_1_Local.ogg"
+      ]
+    }
+  ],
+  "Parent": "SFX_Attn_Moderate"
+}

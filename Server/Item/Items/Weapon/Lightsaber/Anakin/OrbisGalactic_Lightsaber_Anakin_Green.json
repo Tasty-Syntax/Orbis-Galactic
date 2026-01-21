@@ -63,5 +63,31 @@
       -46,
       -44
     ]
+  },
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Green",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green"
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Green"
+      ]
+    }
   }
 }

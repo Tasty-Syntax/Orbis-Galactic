@@ -1,0 +1,18 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2
+      },
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Default/Lightsaber_Impact_1.ogg",
+        "Sounds/Weapons/Lightsaber/Default/Lightsaber_Impact_2.ogg",
+        "Sounds/Weapons/Lightsaber/Default/Lightsaber_Impact_3.ogg"
+      ]
+    }
+  ]
+}

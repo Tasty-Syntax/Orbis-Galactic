@@ -50,7 +50,7 @@
                 "DefaultOk": true,
                 "DefaultValue": {
                   "Interactions": [
-                    "Weapon_Daggers_Primary_Pounce_Sweep_Effect"
+                    "Weapon_Daggers_Primary_Pounce_Sweep_Effect_Custom"
                   ]
                 }
               }

@@ -63,5 +63,31 @@
       -44
     ]
   },
-  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template"
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue"
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
+      ]
+    }
+  }
 }

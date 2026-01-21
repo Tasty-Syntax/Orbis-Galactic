@@ -21,7 +21,7 @@
     "Run": {
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run_FPS.blockyanim",
       "Speed": 0.9,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Run_Menacing.blockyanim",
       "Looping": true
     },
     "RunBackward": {

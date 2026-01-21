@@ -1,0 +1,9 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0,
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip"
+  },
+  "CancelOnItemChange": true
+}

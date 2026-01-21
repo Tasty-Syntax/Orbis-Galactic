@@ -8,7 +8,7 @@
   "PlayerAnimationsId": "Daggers_Custom",
   "Reticle": "DefaultMelee",
   "Quality": "Template",
-  "ItemSoundSetId": "ISS_Weapon_Blade_Small",
+  "ItemSoundSetId": "ISS_Items_Gadget",
   "ItemLevel": 30,
   "Categories": [
     "Items.Weapons"
@@ -165,10 +165,7 @@
               "Physical": 3
             }
           },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
@@ -186,10 +183,7 @@
               "Physical": 4
             }
           },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
@@ -207,10 +201,7 @@
               "Physical": 8
             }
           },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
@@ -228,10 +219,7 @@
               "Physical": 10
             }
           },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
@@ -243,7 +231,7 @@
     "Pounce_Sweep_Damage": {
       "Interactions": [
         {
-          "Parent": "Weapon_Daggers_Primary_Pounce_Sweep_Damage",
+          "Parent": "Weapon_Daggers_Primary_Pounce_Sweep_Damage_Custom",
           "DamageCalculator": {
             "BaseDamage": {
               "Physical": 35
@@ -255,17 +243,14 @@
               "Amount": 1
             }
           ],
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
     "Pounce_Stab_Damage": {
       "Interactions": [
         {
-          "Parent": "Weapon_Daggers_Primary_Pounce_Stab_Damage",
+          "Parent": "Weapon_Daggers_Primary_Pounce_Stab_Damage_Custom",
           "DamageCalculator": {
             "BaseDamage": {
               "Physical": 44
@@ -277,10 +262,7 @@
               "Amount": 6
             }
           ],
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
@@ -294,10 +276,7 @@
             }
           },
           "EntityStatsOnHit": [],
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
@@ -311,10 +290,7 @@
             }
           },
           "EntityStatsOnHit": [],
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },
@@ -328,10 +304,7 @@
             }
           },
           "EntityStatsOnHit": [],
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Daggers_T2_Slash_Impact",
-            "LocalSoundEventId": "SFX_Daggers_T2_Slash_Impact"
-          }
+          "DamageEffects": {}
         }
       ]
     },

@@ -36,12 +36,7 @@
     },
     "Darksaber_Swing_Right_Effect": {
       "Interactions": [
-        {
-          "Parent": "Interaction_Darksaber_Swing_Left_Effect",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
-          }
-        }
+        "Interaction_Darksaber_Swing_Left_Effect"
       ]
     },
     "Darksaber_Swing_Right_Damage": {
@@ -63,18 +58,13 @@
     },
     "Darksaber_Swing_Up_Left_Effect": {
       "Interactions": [
-        {
-          "Parent": "Interaction_Darksaber_Swing_Left_Effect",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
-          }
-        }
+        "Interaction_Darksaber_Swing_Left_Effect"
       ]
     },
     "Darksaber_Swing_Up_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Darksaber_Swing_Up_Left_Damage",
+          "Parent": "Interaction_Darksaber_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {

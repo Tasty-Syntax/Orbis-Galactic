@@ -1,9 +1,0 @@
-{
-  "Type": "Simple",
-  "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Hum",
-    "ClearSoundEventOnFinish": false,
-    "ClearAnimationOnFinish": false
-  },
-  "CancelOnItemChange": false
-}

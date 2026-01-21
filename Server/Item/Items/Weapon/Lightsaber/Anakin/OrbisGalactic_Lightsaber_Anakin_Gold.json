@@ -64,5 +64,31 @@
       -46,
       -44
     ]
+  },
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default"
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Default"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Default"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Default"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Default"
+      ]
+    }
   }
 }

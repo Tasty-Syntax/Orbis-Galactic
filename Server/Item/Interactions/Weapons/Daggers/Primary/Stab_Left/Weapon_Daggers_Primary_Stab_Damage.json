@@ -7,5 +7,8 @@
     "BaseDamage": {
       "Physical": 5
     }
+  },
+  "DamageEffects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Collision_Local"
   }
 }

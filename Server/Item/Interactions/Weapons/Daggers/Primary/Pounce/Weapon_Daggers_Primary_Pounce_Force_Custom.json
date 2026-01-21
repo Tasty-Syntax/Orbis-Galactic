@@ -8,8 +8,6 @@
   },
   "AdjustVertical": true,
   "Effects": {
-    "WorldSoundEventId": "SFX_Daggers_T1_Pounce",
-    "LocalSoundEventId": "SFX_Daggers_T1_Pounce_Local",
     "ItemAnimationId": "Pounce",
     "MovementEffects": {
       "DisableForward": true,
@@ -69,7 +67,9 @@
         "TargetEntityPart": "SecondaryItem"
       }
     ],
-    "CameraEffect": "Daggers_Jump"
+    "CameraEffect": "Daggers_Jump",
+    "WorldSoundEventId": "SFX_Daggers_T1_Pounce",
+    "LocalSoundEventId": "SFX_Daggers_T1_Pounce_Local"
   },
   "ChangeVelocityType": "Add",
   "WaitForGround": true,
@@ -92,7 +92,7 @@
     "DefaultOk": true,
     "DefaultValue": {
       "Interactions": [
-        "Weapon_Daggers_Primary_Pounce_Sweep"
+        "Weapon_Daggers_Primary_Pounce_Sweep_Custom"
       ]
     }
   },
