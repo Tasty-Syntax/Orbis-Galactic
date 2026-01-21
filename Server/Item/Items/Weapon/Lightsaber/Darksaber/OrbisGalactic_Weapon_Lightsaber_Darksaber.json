@@ -214,20 +214,32 @@
       }
     }
   ],
-  "FirstPersonParticles": [
-    {
-      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber"
-    },
-    {
-      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber_Distortion"
-    }
-  ],
-  "Particles": [
-    {
-      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber"
-    },
-    {
-      "SystemId": "Orbis_Galactic_ParticleSystem_Darksaber_Distortion"
-    }
-  ]
+  "ItemAppearanceConditions": {
+    "SignatureEnergy": [
+      {
+        "Condition": [
+          0,
+          100
+        ],
+        "ConditionValueType": "Percent",
+        "Particles": [
+          {
+            "SystemId": "ParticleSystem_Darksaber",
+            "PositionOffset": {
+              "X": 0.55
+            },
+            "TargetEntityPart": "Self",
+            "Scale": 1.3
+          }
+        ],
+        "FirstPersonParticles": [
+          {
+            "SystemId": "ParticleSystem_Darksaber",
+            "TargetEntityPart": "Self"
+          }
+        ],
+        "ModelVFXId": "ModelVFX_Darksaber"
+      }
+    ]
+  }
 }
