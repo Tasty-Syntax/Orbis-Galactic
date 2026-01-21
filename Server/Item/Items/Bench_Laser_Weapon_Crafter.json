@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "Laser Weapon Crafter",
-    "Description": "server.items.Bench_Weapon.description"
+    "Name": "server.items.Bench_Bench_Laser_Weapon_Crafter.name",
+    "Description": "server.items.Bench_Bench_Laser_Weapon_Crafter.description"
   },
   "Icon": "Icons/ItemsGenerated/Bench_Weapon.png",
   "Categories": [
@@ -72,26 +72,27 @@
       "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
       "Categories": [
         {
-          "Id": "Lightsaber_Hilts",
-          "Name": "Lightsaber Hilts",
-          "Icon": "Icons/CraftingCategories/Campfire.png"
+          "Id": "Weapon_Parts",
+          "Name": "Weapon Parts",
+          "Icon": "Icons/CraftingCategories/Laser_Parts_Crafting_Icon.png"
         },
         {
           "Id": "Lightsabers_Single",
-          "Icon": "Icons/CraftingCategories/Armory/Sword.png",
+          "Icon": "Icons/CraftingCategories/Single_Saber_Crafting_Icon.png",
           "Name": "Lightsabers (Single)"
         },
         {
           "Id": "Lightsabers_Double",
-          "Name": "Lightsabers (Double)"
+          "Name": "Lightsabers (Double)",
+          "Icon": "Icons/CraftingCategories/Double_Saber_Crafting_Icon.png"
         },
         {
           "Id": "Lightsabers_Split",
-          "Name": "Lightsabers (Split)",
-          "Icon": "Icons/CraftingCategories/Armory/Bow.png"
+          "Name": "Lightsabers (Separated)",
+          "Icon": "Icons/CraftingCategories/Double_Sabers_Separated_Crafting_Icon.png"
         }
       ],
-      "Id": "Laser_Weapon_Crafter",
+      "Id": "Bench_Laser_Weapon_Crafter",
       "TierLevels": [
         {
           "UpgradeRequirement": {

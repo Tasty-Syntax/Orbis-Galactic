@@ -12,10 +12,10 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Sword"
+          "Lightsabers_Double"
         ],
-        "Id": "Weapon_Bench",
-        "RequiredTierLevel": 3
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 2
       }
     ],
     "Input": [
@@ -28,7 +28,7 @@
         "Quantity": 1
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
         "Quantity": 1
       }
     ]

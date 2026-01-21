@@ -1,7 +1,7 @@
 {
   "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "TranslationProperties": {
-    "Name": "server.itemsOrbisGalactic_Weapon_Lightsaber_Anakin_White.name",
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_White.name",
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_White.description"
   },
   "Quality": "Epic",
@@ -15,8 +15,8 @@
         "Categories": [
           "Lightsabers_Single"
         ],
-        "Id": "Laser_Weapon_Crafter",
-        "RequiredTierLevel": 3
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
       }
     ],
     "Input": [

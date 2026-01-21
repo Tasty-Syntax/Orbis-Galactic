@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.name",
-    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.description"
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Purple.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Purple.description"
   },
   "Quality": "Epic",
   "Recipe": {
@@ -13,8 +13,8 @@
         "Categories": [
           "Lightsabers_Single"
         ],
-        "Id": "Laser_Weapon_Crafter",
-        "RequiredTierLevel": 3
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
       }
     ],
     "Input": [
@@ -23,11 +23,11 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Purple",
         "Quantity": 1
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
         "Quantity": 1
       }
     ]

@@ -12,10 +12,10 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Sword"
+          "Lightsabers_Split"
         ],
-        "Id": "Weapon_Bench",
-        "RequiredTierLevel": 3
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 2
       }
     ],
     "Input": [
@@ -24,11 +24,11 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Blue",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Green",
         "Quantity": 1
       },
       {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
         "Quantity": 1
       }
     ]

@@ -16,10 +16,11 @@
   "Recipe": {
     "BenchRequirement": [
       {
-        "Id": "Arcanebench",
+        "Id": "Bench_Laser_Weapon_Crafter",
         "Categories": [
-          "Arcane_Misc"
-        ]
+          "Weapon_Parts"
+        ],
+        "RequiredTierLevel": 1
       }
     ],
     "Input": [

@@ -5,8 +5,10 @@
       "Files": [
         "Sounds/Blocks/Metal/Hum.ogg"
       ],
-      "Looping": true
+      "Looping": true,
+      "Volume": -13.32
     }
   ],
-  "Volume": -4.96
+  "Volume": -4.96,
+  "MaxDistance": 3
 }

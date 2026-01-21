@@ -14,8 +14,8 @@
         "Categories": [
           "Lightsabers_Single"
         ],
-        "Id": "Laser_Weapon_Crafter",
-        "RequiredTierLevel": 3
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
       }
     ],
     "Input": [

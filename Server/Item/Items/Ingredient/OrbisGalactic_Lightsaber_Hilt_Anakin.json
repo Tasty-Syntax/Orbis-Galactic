@@ -19,10 +19,10 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Lightsaber_Hilts"
+          "Weapon_Parts"
         ],
-        "Id": "Laser_Weapon_Crafter",
-        "RequiredTierLevel": 3
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
       }
     ],
     "Input": [
