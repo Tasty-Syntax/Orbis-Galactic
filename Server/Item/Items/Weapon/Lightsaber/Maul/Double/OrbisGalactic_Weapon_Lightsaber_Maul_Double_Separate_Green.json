@@ -67,7 +67,7 @@
   "Scale": 0.5,
   "Interactions": {
     "Primary": "Root_Weapon_Daggers_Lightsaber_Primary_Green",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green_Separate",
     "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Green",
     "Held": "ROOT_Interaction_Lightsaber_Idle_Green"
   },
