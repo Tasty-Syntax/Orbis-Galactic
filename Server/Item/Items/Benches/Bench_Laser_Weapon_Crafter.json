@@ -3,24 +3,25 @@
     "Name": "server.items.Bench_Bench_Laser_Weapon_Crafter.name",
     "Description": "server.items.Bench_Bench_Laser_Weapon_Crafter.description"
   },
-  "Icon": "Icons/ItemsGenerated/Bench_Weapon.png",
+  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png",
   "Categories": [
     "Furniture.Benches"
   ],
   "Recipe": {
-    "TimeSeconds": 3,
+    "TimeSeconds": 4,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Copper",
-        "Quantity": 2
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Clear",
+        "Quantity": 1
       },
       {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 10
+        "ResourceTypeId": "",
+        "Quantity": 10,
+        "ItemId": "Ingredient_Fire_Essence"
       },
       {
         "ResourceTypeId": "Rock",
-        "Quantity": 5
+        "Quantity": 10
       }
     ],
     "BenchRequirement": [
@@ -29,7 +30,8 @@
         "Categories": [
           "Workbench_Crafting"
         ],
-        "Id": "Workbench"
+        "Id": "Workbench",
+        "RequiredTierLevel": 2
       }
     ]
   },
@@ -37,13 +39,7 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Benches/Weapon.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "Blocks/Benches/Weapon_Texture.png",
-        "Weight": 1
-      }
-    ],
+    "CustomModel": "Resources/PropModels/Laser_Weapon_Bench.blockymodel",
     "VariantRotation": "NESW",
     "HitboxType": "Bench_Weapon",
     "State": {
@@ -129,19 +125,28 @@
         }
       ]
     },
-    "BlockSoundSetId": "Stone"
+    "BlockSoundSetId": "Stone",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/PropTextures/Laser_Weapon_Bench.png",
+        "Weight": 1
+      }
+    ],
+    "Light": {
+      "Color": "#134"
+    }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.37,
-    "Translation": [
-      18.7,
-      -15
-    ],
+    "Scale": 0.4,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      21,
+      32,
+      19
+    ],
+    "Translation": [
+      16,
+      -9
     ]
   },
   "Tags": {

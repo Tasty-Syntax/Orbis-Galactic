@@ -1,0 +1,345 @@
+{
+  "WaterTint": "#198dea",
+  "SpawnDensity": 0.3,
+  "Tags": {
+    "Zone2": []
+  },
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Tatooine_Weather_Blazing",
+        "Weight": 30
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Sunny",
+        "Weight": 40
+      },
+      {
+        "WeatherId": "Tatooine_Weather_Storm",
+        "Weight": 8
+      }
+    ]
+  }
+}

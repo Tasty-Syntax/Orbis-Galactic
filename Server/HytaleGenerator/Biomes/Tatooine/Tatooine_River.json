@@ -1088,24 +1088,12 @@
 				"Environment":	{
 					"$NodeId":	"Constant.EnvironmentProvider-bf340f9e-9a80-46d1-8d73-a5c631ab3608",
 					"Type":	"Constant",
-					"Environment":	"Env_Zone2_Deserts"
+					"Environment":	"Env_Tatooine_Canyons"
 				},
 				"Range":	{
 					"$NodeId":	"Decimal.Range-d4e5cd87-e37a-4a23-8e82-ff8429564245",
 					"MinInclusive":	0,
 					"MaxExclusive":	2
-				}
-			}, {
-				"$NodeId":	"Delimiter.DensityDelimited.EnvironmentProvider-86732eff-0fd9-451b-aa19-469d098c429e",
-				"Environment":	{
-					"$NodeId":	"Constant.EnvironmentProvider-e897a31f-c941-43fd-9a9a-6c585d61014f",
-					"Type":	"Constant",
-					"Environment":	"Env_Zone2_Caves_Deserts"
-				},
-				"Range":	{
-					"$NodeId":	"Decimal.Range-956fa564-41b0-4d02-ad54-7155f2e89dcc",
-					"MinInclusive":	-2,
-					"MaxExclusive":	0
 				}
 			}]
 	},
@@ -2307,24 +2295,6 @@
 				"$Position":	{
 					"$x":	-11657,
 					"$y":	-2963
-				}
-			},
-			"Delimiter.DensityDelimited.EnvironmentProvider-86732eff-0fd9-451b-aa19-469d098c429e":	{
-				"$Position":	{
-					"$x":	-11912,
-					"$y":	-2740
-				}
-			},
-			"Constant.EnvironmentProvider-e897a31f-c941-43fd-9a9a-6c585d61014f":	{
-				"$Position":	{
-					"$x":	-11673,
-					"$y":	-2744
-				}
-			},
-			"Decimal.Range-956fa564-41b0-4d02-ad54-7155f2e89dcc":	{
-				"$Position":	{
-					"$x":	-11675,
-					"$y":	-2588
 				}
 			},
 			"DensityDelimited.TintProvider-ed616c0e-6181-4f20-a076-1cad564d6514":	{
