@@ -42,7 +42,7 @@
   "Camera": {
     "PositionOffset": {
       "X": 0,
-      "Y": 0,
+      "Y": 2,
       "Z": 0
     }
   },
@@ -86,10 +86,9 @@
       "Animations": [
         {
           "Looping": false,
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Jump.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "BlendingDuration": 0.1,
-          "Weight": 1,
-          "SoundEventId": "Motorcycle_Jump"
+          "Weight": 1
         }
       ],
       "NextAnimationDelay": {
@@ -99,7 +98,7 @@
     "Fall": {
       "Animations": [
         {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Fall.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Looping": true,
           "BlendingDuration": 0.6
         }
@@ -117,7 +116,7 @@
     "Sleep": {
       "Animations": [
         {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Idle.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Looping": true
         }
       ]
@@ -125,7 +124,7 @@
     "Laydown": {
       "Animations": [
         {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Idle.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Looping": true
         }
       ]
@@ -133,22 +132,20 @@
     "WalkBackward": {
       "Animations": [
         {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Walk_Backward.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Speed": 1,
           "Looping": true,
-          "BlendingDuration": 0.6,
-          "SoundEventId": "Motorcycle_Idle"
+          "BlendingDuration": 0.6
         }
       ]
     },
     "RunBackward": {
       "Animations": [
         {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Walk_Backward.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Speed": 2,
           "Looping": true,
-          "BlendingDuration": 0.6,
-          "SoundEventId": "Motorcycle_Idle"
+          "BlendingDuration": 0.6
         }
       ]
     }
