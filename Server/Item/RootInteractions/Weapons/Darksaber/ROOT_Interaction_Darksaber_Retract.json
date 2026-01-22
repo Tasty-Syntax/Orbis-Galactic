@@ -1,12 +1,9 @@
 {
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Cooldown": 0
+  },
   "Interactions": [
-    "Interaction_Lightsaber_Unequip_Effect",
-    {
-      "Type": "Simple",
-      "Effects": {
-        "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
-        "ItemAnimationId": "OrbisGalactic_Lightsaber_Retract"
-      }
-    }
+    "Interaction_Darksaber_Unequip_Effect"
   ]
 }

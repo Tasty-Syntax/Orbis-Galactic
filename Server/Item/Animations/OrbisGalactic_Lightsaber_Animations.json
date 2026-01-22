@@ -25,7 +25,7 @@
       "ThirdPersonFace": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite_Double.blockyanim",
       "KeepPreviousFirstPersonAnimation": true,
       "ClipsGeometry": false,
-      "Speed": 0.25
+      "Speed": 0.4
     },
     "OrbisGalactic_Lightsaber_Retract_Double": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Retract_Double.blockyanim",

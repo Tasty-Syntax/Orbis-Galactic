@@ -32,7 +32,9 @@
     "Primary": "Root_Weapon_Daggers_Lightsaber_Primary",
     "Secondary": "Root_Weapon_Daggers_Secondary_Guard",
     "Ability1": "Root_Weapon_Daggers_Signature_Razorstrike",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Separate"
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Separate",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
   },
   "Tags": {
     "Type": [

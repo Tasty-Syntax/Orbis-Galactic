@@ -133,5 +133,5 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
-  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template"
+  "Parent": "OrbisGalactic_Block_Imperial_Light_Template"
 }

@@ -1,12 +1,12 @@
 {
   "Volume": 0,
-  "PreventSoundInterruption": true,
+  "PreventSoundInterruption": false,
   "AudioCategory": "AudioCat_Sword",
   "Layers": [
     {
       "Volume": 10,
       "Files": [
-        "Sounds/Weapons/Lightsaber/Lightsaber_Hum.ogg"
+        "Sounds/Weapons/Lightsaber/Blue/Lightsaber_Blue_Idle_Local.ogg"
       ]
     }
   ]

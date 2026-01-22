@@ -66,7 +66,9 @@
   "Scale": 0.5,
   "Interactions": {
     "Primary": "Root_Weapon_Daggers_Lightsaber_Primary_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue"
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
   },
   "InteractionVars": {
     "Swing_Left_Effect": {

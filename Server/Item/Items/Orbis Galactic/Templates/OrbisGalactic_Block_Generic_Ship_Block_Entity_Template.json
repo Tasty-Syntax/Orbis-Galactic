@@ -27,7 +27,7 @@
     },
     "ParticleColor": "#bbbbaf",
     "CubeShadingMode": "Standard",
-    "DrawType": "Cube",
+    "DrawType": "Model",
     "Material": "Solid",
     "State": {
       "Definitions": {
@@ -39,10 +39,12 @@
       }
     },
     "PlacementSettings": {
-      "AllowRotationKey": true
+      "BlockPreviewVisibility": "AlwaysVisible"
     },
-    "Group": "Stone",
-    "BlockSoundSetId": "Metal"
+    "Group": "Ships",
+    "BlockSoundSetId": "Metal",
+    "BlockParticleSetId": "Metal",
+    "CustomModel": "Resources/PropModels/HWK-290.blockymodel"
   },
   "ResourceTypes": [
     {

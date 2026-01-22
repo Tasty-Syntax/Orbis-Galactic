@@ -8,7 +8,9 @@
   "Interactions": {
     "Primary": "ROOT_Interaction_Darksaber_Attack",
     "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-    "SwapTo": "ROOT_Interaction_Darksaber_Ignite"
+    "SwapTo": "ROOT_Interaction_Darksaber_Ignite",
+    "SwapFrom": "ROOT_Interaction_Darksaber_Retract",
+    "Held": "ROOT_Interaction_Darksaber_Idle"
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",

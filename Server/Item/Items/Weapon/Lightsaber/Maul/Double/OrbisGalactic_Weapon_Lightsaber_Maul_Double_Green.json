@@ -66,8 +66,10 @@
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
   "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green_Double"
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Green",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green_Double",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Green",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Green"
   },
   "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
   "InteractionVars": {

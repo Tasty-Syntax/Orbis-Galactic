@@ -4,9 +4,8 @@
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Furniture.Containers"
+    "Blocks.Deco"
   ],
-  "Set": "Furniture_Feran",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Spaceship_CommandCenter.png",
   "IconProperties": {
     "Rotation": [
@@ -22,11 +21,11 @@
   },
   "BlockType": {
     "BlockParticleSetId": "Wood",
-    "BlockSoundSetId": "Bone",
+    "BlockSoundSetId": "Metal",
     "CustomModel": "Resources/PropModels/Spaceship_CommandCenter.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/Spaceship_CommandCenter.png",
+        "Texture": "Resources/PropTextures/Spaceship_CommandCenter_Texture.png",
         "Weight": 1
       }
     ],
@@ -84,7 +83,8 @@
     "InteractionHitboxType": "OrbisGalactic_Spaceship_CommandCenter",
     "Interactions": {
       "Use": "Spaceship_CommandCenter"
-    }
+    },
+    "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim"
   },
   "Tags": {
     "Type": [
@@ -94,5 +94,6 @@
       "Feran"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Wood"
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template"
 }

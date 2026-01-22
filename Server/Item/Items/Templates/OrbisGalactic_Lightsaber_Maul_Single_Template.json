@@ -7,7 +7,10 @@
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
-    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage"
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",

@@ -1,6 +1,6 @@
 {
   "Volume": 0.75,
-  "PreventSoundInterruption": true,
+  "PreventSoundInterruption": false,
   "AudioCategory": "AudioCat_Sword",
   "Layers": [
     {

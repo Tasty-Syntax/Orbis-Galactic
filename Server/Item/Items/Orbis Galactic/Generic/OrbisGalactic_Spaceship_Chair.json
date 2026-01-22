@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "Ship Chair"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Spaceship_Chair.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      2.5,
+      -14.9
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "CustomModel": "Resources/PropModels/Ship_Chair.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/PropTextures/Ship_Chair.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "Chair_Small",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#96948e",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Seats": [
+      {
+        "Offset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0.1,
+          "Yaw": 0,
+          "Pitch": 5
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": "Block_Seat"
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Metal",
+    "CustomModelScale": 2
+  },
+  "Model": "Blocks/Decorative_Sets/Tavern/Table.blockymodel",
+  "Texture": "Blocks/Decorative_Sets/Tavern/Chair_Texture.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template"
+}

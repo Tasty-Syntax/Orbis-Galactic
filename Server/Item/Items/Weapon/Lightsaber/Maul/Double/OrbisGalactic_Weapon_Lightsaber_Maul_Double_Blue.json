@@ -65,17 +65,6 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-    "Ability3": {
-      "Interactions": [
-        {
-          "Type": "ChangeState"
-        }
-      ]
-    }
-  },
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
       "Interactions": [
@@ -98,5 +87,11 @@
       ]
     }
   },
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim"
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
+  }
 }

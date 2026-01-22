@@ -1,9 +1,9 @@
 {
-  "Type": "Simple",
-  "$Comment": "Length of Effect",
-  "RunTime": 0,
+  "Type": "ChangeActiveSlot",
   "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local",
+    "WaitForAnimationToFinish": false,
+    "ClearSoundEventOnFinish": false
   },
   "CancelOnItemChange": true
 }
