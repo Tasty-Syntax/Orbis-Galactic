@@ -8,7 +8,10 @@
       },
       "Interactions": [
         "Interaction_Blaster_Primary"
-      ]
+      ],
+      "Cooldown": {
+        "Cooldown": 0.1
+      }
     }
   },
   "InteractionVars": {
