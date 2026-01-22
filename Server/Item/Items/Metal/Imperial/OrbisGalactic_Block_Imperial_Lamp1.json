@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Lumberjack_Lamp.name"
+    "Name": "Imperial Lamp 1"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Furniture.Lighting"
+    "Blocks.Deco"
   ],
   "Recipe": {
     "Input": [
@@ -55,7 +55,7 @@
       }
     },
     "Material": "Solid",
-    "Opacity": "Semitransparent",
+    "Opacity": "Solid",
     "ParticleColor": "#575757",
     "Support": {
       "Down": [
@@ -70,9 +70,9 @@
           {
             "Type": "ChangeState",
             "Changes": {
+              "default": "On",
               "On": "Off",
-              "Off": "On",
-              "default": "Off"
+              "Off": "On"
             }
           }
         ]
@@ -83,15 +83,18 @@
         "On": {
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png"
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_2.png"
             }
           ],
-          "InteractionHint": "server.interactionHints.turnoff",
+          "InteractionHint": "server.interactionHints.turnon",
           "InteractionSoundEventId": "SFX_Lamp_On",
           "AmbientSoundEventId": "OrbisGalactic_Block_Imperial_Lamp_SFX",
           "Light": {
             "Color": "#aaa"
-          }
+          },
+          "Opacity": "Semitransparent",
+          "CubeShadingMode": "Fullbright",
+          "Looping": true
         },
         "Off": {
           "InteractionHint": "server.interactionHints.turnon",
@@ -100,7 +103,7 @@
           "AmbientSoundEventId": null,
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_2_Off.png"
             }
           ],
           "InteractionSoundEventId": "SFX_Lamp_Off"
@@ -108,7 +111,7 @@
       }
     },
     "InteractionHint": "server.interactionHints.turnon",
-    "CubeShadingMode": "Fullbright",
+    "CubeShadingMode": "Standard",
     "Textures": [
       {
         "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_2_Off.png"
@@ -130,5 +133,5 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
-  "Parent": "Spaceship_Metal"
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template"
 }

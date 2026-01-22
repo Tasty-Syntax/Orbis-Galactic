@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Imperial_Ship_Lamp.name"
+    "Name": "Imperial Floor Pattern Arrow Right"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Gray1.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Floor_Pattern_Arrow_Right.png",
   "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
@@ -29,7 +29,7 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray.png",
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_3.png",
         "Weight": 1
       }
     ],
@@ -61,7 +61,7 @@
       "Metal"
     ]
   },
-  "Parent": "Spaceship_Metal",
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [
@@ -73,5 +73,8 @@
       0,
       -13.5
     ]
-  }
+  },
+  "Categories": [
+    "Blocks.Structural"
+  ]
 }
