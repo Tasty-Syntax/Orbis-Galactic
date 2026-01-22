@@ -1,0 +1,5 @@
+{
+  "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel",
+  "Texture": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Texture.png",
+  "Parent": "OrbisGalactic_Blaster_Template"
+}

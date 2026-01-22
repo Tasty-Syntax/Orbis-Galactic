@@ -1,0 +1,35 @@
+{
+  "Type": "Simple",
+  "Next": {
+    "Type": "Parallel",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Interaction_Blaster_Launch_Bolt_Red"
+              ]
+            },
+            "Var": "Interaction_Blaster_Launch_Bolt"
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Interaction_Blaster_Shoot_SFX"
+              ]
+            },
+            "Var": "Interaction_Blaster_Shoot_SFX",
+            "DefaultOk": true
+          }
+        ]
+      }
+    ]
+  }
+}

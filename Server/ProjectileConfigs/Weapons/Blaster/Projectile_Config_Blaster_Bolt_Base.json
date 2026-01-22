@@ -1,8 +1,7 @@
 {
-  "Model": "Arrow_Crude",
   "SpawnRotationOffset": {
-    "Pitch": 2,
-    "Yaw": 0.25,
+    "Pitch": 0,
+    "Yaw": 0,
     "Roll": 0
   },
   "Physics": {
@@ -16,24 +15,25 @@
     "BounceLimit": 0,
     "BounceCount": 0
   },
-  "LaunchForce": 100,
+  "LaunchForce": 50,
   "SpawnOffset": {
-    "X": 0.15,
-    "Y": -0.25,
+    "X": 0,
+    "Y": 0,
     "Z": 0
   },
   "Interactions": {
     "ProjectileHit": {
       "Interactions": [
-        "Weapon_Blaster_Projectile_Impact",
-        "Weapon_Blaster_Projectile_Despawn"
+        "Interaction_Blaster_Projectile_Impact",
+        "Interaction_Blaster_Projectile_Despawn"
       ]
     },
     "ProjectileMiss": {
       "Interactions": [
-        "Weapon_Blaster_Projectile_Impact",
-        "Weapon_Blaster_Projectile_Despawn"
+        "Interaction_Blaster_Projectile_Impact",
+        "Interaction_Blaster_Projectile_Despawn"
       ]
     }
-  }
+  },
+  "Model": "Blaster_Bolt_Red"
 }
