@@ -29,7 +29,7 @@
       },
       {
         "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
-        "Quantity": 1
+        "Quantity": 2
       }
     ]
   },
@@ -69,5 +69,6 @@
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double"
   },
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim"
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+  "Variant": true
 }

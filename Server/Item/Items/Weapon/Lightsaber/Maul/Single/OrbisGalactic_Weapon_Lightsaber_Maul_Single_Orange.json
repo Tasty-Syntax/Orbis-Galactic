@@ -66,5 +66,6 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Orange.png",
   "Interactions": {
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double"
-  }
+  },
+  "Variant": true
 }

@@ -63,5 +63,6 @@
     ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Orange.png"
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Orange.png",
+  "Variant": true
 }

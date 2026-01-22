@@ -29,7 +29,7 @@
       },
       {
         "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
-        "Quantity": 1
+        "Quantity": 2
       }
     ]
   },
@@ -93,5 +93,6 @@
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
     "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
     "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
-  }
+  },
+  "Variant": true
 }

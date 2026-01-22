@@ -89,5 +89,6 @@
       ]
     }
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.png"
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.png",
+  "Variant": true
 }

@@ -90,5 +90,6 @@
         "Interaction_Lightsaber_Stab_Charged_Effect_Default"
       ]
     }
-  }
+  },
+  "Variant": true
 }

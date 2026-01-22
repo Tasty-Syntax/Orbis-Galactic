@@ -91,5 +91,6 @@
         "Interaction_Lightsaber_Stab_Charged_Effect_Green"
       ]
     }
-  }
+  },
+  "Variant": true
 }
