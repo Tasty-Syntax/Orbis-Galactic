@@ -14,7 +14,7 @@
     }
   ],
   "Volume": -1.88,
-  "PreventSoundInterruption": true,
+  "PreventSoundInterruption": false,
   "AudioCategory": "AudioCat_NPC_Horse",
   "Parent": "SFX_Attn_Moderate"
 }

@@ -1,124 +1,35 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Animal_Neutral",
+  "Reference": "Animal_Vehicle",
   "Modify": {
-    "Appearance": "Speeder_Bike",
-    "AttitudeGroup": "PreyBig",
-    "FlockArray": [
-      "Horse",
-      "Horse_Foal"
-    ],
-    "LovedItems": [
-      "Plant_Crop_Carrot_Item"
-    ],
-    "DropList": "Drop_Horse",
-    "MaxHealth": 124,
-    "MaxSpeed": 10,
-    "ViewRange": 15,
-    "AttackWhenStartled": true,
-    "Attack": "Root_NPC_Attack_Melee",
-    "ChanceToTurnFriendly": 30,
-    "ChanceToTurnFriendlyWithAttractiveItem": 70,
-    "WeightGreet": 15,
-    "WeightFollowItem": 30,
-    "WeightFollow": 10,
-    "WeightIgnore": 50,
-    "ProduceItem": "Ingredient_Poop",
+    "Appearance": "Speeder_Bike_Model",
+    "DropList": "Drop_Speeder_Bike",
+    "MaxHealth": 50,
+    "ViewRange": 0.1,
+    "MaxSpeed": 0.1,
+    "ChanceToTurnFriendly": 100,
+    "ChanceToTurnFriendlyWithAttractiveItem": 100,
     "IsMemory": true,
     "IsMountable": true,
+    "MountMovementConfig": "Mount_Speeder_Bike",
     "MountAnchorX": 0,
-    "MountAnchorY": 1.5,
-    "MountAnchorZ": 1,
-    "_InteractionVars": {
-      "Melee_Start": {
-        "Interactions": [
-          {
-            "Parent": "NPC_Attack_Melee_Simple",
-            "$Comment": "Sets animations and delay before hit",
-            "Effects": {
-              "ItemPlayerAnimationsId": "Cow_Default",
-              "ItemAnimationId": "Kick"
-            },
-            "RunTime": 0.167
-          }
-        ]
-      },
-      "Melee_Selector": {
-        "Interactions": [
-          {
-            "Parent": "NPC_Attack_Selector_Left",
-            "$Comment": "Sets Hit shape and padding to allow effect to play and wait till animation is over",
-            "RunTime": 0.083,
-            "Selector": {
-              "Id": "Stab",
-              "TestLineOfSight": true,
-              "ExtendTop": 0,
-              "ExtendBottom": 1,
-              "ExtendLeft": 0.5,
-              "ExtendRight": 0.5,
-              "StartDistance": 0.25,
-              "EndDistance": 2.5,
-              "YawOffset": 180
-            },
-            "Next": {
-              "Type": "Simple",
-              "$Comment": "Pad the interaction length",
-              "RunTime": 0.167
-            }
-          }
-        ]
-      },
-      "Melee_Damage": {
-        "Interactions": [
-          {
-            "$Comment": "When NPC overrides the InteractionVars, this info in Template not applicable anymore",
-            "Parent": "NPC_Livestock_Kick_Damage",
-            "DamageCalculator": {
-              "Type": "Absolute",
-              "BaseDamage": {
-                "Physical": 12
-              },
-              "RandomPercentageModifier": 0.1
-            },
-            "DamageEffects": {
-              "Knockback": {
-                "Type": "Force",
-                "VelocityConfig": {
-                  "AirResistance": 0.97,
-                  "AirResistanceMax": 0.96,
-                  "GroundResistance": 0.94,
-                  "GroundResistanceMax": 0.3,
-                  "Threshold": 3,
-                  "Style": "Exp"
-                },
-                "Direction": {
-                  "X": 0,
-                  "Y": 1,
-                  "Z": 2
-                },
-                "Force": 15,
-                "VelocityType": "Set"
-              },
-              "WorldSoundEventId": "SFX_Unarmed_Impact",
-              "LocalSoundEventId": "SFX_Unarmed_Impact",
-              "WorldParticles": [
-                {
-                  "SystemId": "Impact_Sword_Basic"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
+    "MountAnchorY": 0.75,
+    "MountAnchorZ": 0.5,
+    "AttackWhenStartled": false,
+    "MaxRotationSpeed": 0.5,
+    "AttackRange": 1,
+    "WanderRadius": 0.1,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }
   },
+  "NameTranslationKey": {
+    "Compute": "NameTranslationKey"
+  },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Horse.name",
-      "Description": "Translation key for NPC name display"
+      "Value": "Speeder Bike",
+      "Description": ""
     }
   }
 }

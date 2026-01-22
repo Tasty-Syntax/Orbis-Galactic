@@ -1,0 +1,156 @@
+{
+  "Model": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
+  "EyeHeight": 1.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.5,
+      "Y": 1,
+      "Z": 0.5
+    },
+    "Min": {
+      "X": -0.5,
+      "Y": 0,
+      "Z": -0.5
+    }
+  },
+  "MinScale": 1.2,
+  "MaxScale": 1.2,
+  "PhysicsValues": {
+    "InvertedGravity": false,
+    "DragCoefficient": 0.75
+  },
+  "Opacity": "Transparent",
+  "RequiresAlphaBlending": true,
+  "Light": {
+    "Radius": 15,
+    "Color": "#fc4"
+  },
+  "Icon": "Icons/ModelsGenerated/Speeder_Bike_Model.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      18,
+      326,
+      344
+    ],
+    "Translation": [
+      -1,
+      -17
+    ]
+  },
+  "Camera": {
+    "PositionOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "AnimationSets": {
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
+          "Looping": true,
+          "Speed": 1,
+          "BlendingDuration": 0.6,
+          "SoundEventId": "SFX_Speeder_Idle"
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover_Forward.blockyanim",
+          "Speed": 3,
+          "BlendingDuration": 0.6,
+          "Looping": true,
+          "SoundEventId": "SFX_Speeder_Move",
+          "Weight": 1
+        }
+      ]
+    },
+    "Sprint": {
+      "Animations": [
+        {
+          "Looping": true,
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover_Forward.blockyanim",
+          "SoundEventId": "SFX_Speeder_Zoom",
+          "Speed": 2,
+          "BlendingDuration": 0.6,
+          "Weight": 1
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Looping": false,
+          "Animation": "NPC/Vehicle/Motorcycle/Animations/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Weight": 1,
+          "SoundEventId": "Motorcycle_Jump"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Min": 0
+      }
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Vehicle/Motorcycle/Animations/Fall.blockyanim",
+          "Looping": true,
+          "BlendingDuration": 0.6
+        }
+      ]
+    },
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
+          "Looping": true,
+          "SoundEventId": "SFX_Speeder_Idle"
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Vehicle/Motorcycle/Animations/Idle.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Vehicle/Motorcycle/Animations/Idle.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Vehicle/Motorcycle/Animations/Walk_Backward.blockyanim",
+          "Speed": 1,
+          "Looping": true,
+          "BlendingDuration": 0.6,
+          "SoundEventId": "Motorcycle_Idle"
+        }
+      ]
+    },
+    "RunBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Vehicle/Motorcycle/Animations/Walk_Backward.blockyanim",
+          "Speed": 2,
+          "Looping": true,
+          "BlendingDuration": 0.6,
+          "SoundEventId": "Motorcycle_Idle"
+        }
+      ]
+    }
+  }
+}
