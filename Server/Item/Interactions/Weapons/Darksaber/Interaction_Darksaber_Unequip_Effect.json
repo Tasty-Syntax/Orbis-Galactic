@@ -1,0 +1,6 @@
+{
+  "Type": "ChangeActiveSlot",
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Darksaber_Unequip"
+  }
+}

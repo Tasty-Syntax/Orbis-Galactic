@@ -1,0 +1,21 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2,
+        "MinVolume": 0
+      },
+      "Files": [
+        "Sounds/Weapons/Darksaber/Darksaber_Swing_2.ogg",
+        "Sounds/Weapons/Darksaber/Darksaber_Swing_3.ogg",
+        "Sounds/Weapons/Darksaber/Darksaber_Swing_4.ogg",
+        "Sounds/Weapons/Darksaber/Darksaber_Swing_5.ogg"
+      ],
+      "Volume": 6.48
+    }
+  ]
+}

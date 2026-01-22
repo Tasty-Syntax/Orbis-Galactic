@@ -1,0 +1,96 @@
+{
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Green.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Green.description"
+  },
+  "Quality": "Epic",
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Green.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Single"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Green",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "Quantity": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Green.png",
+  "Light": {
+    "Color": "#060"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_Green",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  },
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Green",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Green",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Green"
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Green"
+      ]
+    }
+  },
+  "Variant": true
+}

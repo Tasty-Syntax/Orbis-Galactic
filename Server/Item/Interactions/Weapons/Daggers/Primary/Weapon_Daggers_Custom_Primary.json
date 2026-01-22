@@ -1,0 +1,21 @@
+{
+  "Type": "Charging",
+  "DisplayProgress": false,
+  "Next": {
+    "0": "Weapon_Daggers_Primary_Chain_Custom",
+    "0.2": {
+      "Type": "Replace",
+      "Var": "Pounce_StaminaCondition",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Daggers_Primary_Pounce_StaminaCondition_Custom"
+        ]
+      },
+      "Effects": {
+        "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Blue_Local",
+        "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Blue_Local"
+      }
+    }
+  }
+}

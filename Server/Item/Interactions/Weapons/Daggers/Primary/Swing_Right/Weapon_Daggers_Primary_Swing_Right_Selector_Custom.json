@@ -1,0 +1,58 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.069,
+  "Selector": {
+    "Id": "Stab",
+    "ExtendTop": 0.5,
+    "ExtendBottom": 0.5,
+    "ExtendLeft": 0.5,
+    "ExtendRight": 0.5,
+    "EndDistance": 2
+  },
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Default_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Default_Local",
+    "Trails": [
+      {
+        "PositionOffset": {
+          "X": 1.1,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "TrailId": "Dagger_Basic",
+        "TargetEntityPart": "SecondaryItem"
+      }
+    ],
+    "CameraEffect": "Daggers_Swing_Horizontal"
+  },
+  "Next": {
+    "Type": "Simple",
+    "$Comment": "Pad the interaction length",
+    "RunTime": 0.069
+  },
+  "HitBlock": {
+    "Interactions": [
+      "Block_Break_Adventure"
+    ]
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "Replace",
+        "Var": "Swing_Right_Damage",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Weapon_Daggers_Primary_Swing_Right_Damage"
+          ]
+        }
+      }
+    ]
+  }
+}

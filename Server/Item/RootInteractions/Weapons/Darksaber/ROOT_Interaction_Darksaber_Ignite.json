@@ -1,0 +1,17 @@
+{
+  "Interactions": [
+    {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Darksaber_Animations",
+            "ItemAnimationId": "OrbisGalactic_Darksaber_Ignite"
+          }
+        }
+      ]
+    },
+    "Interaction_Darksaber_Equip_Effect"
+  ]
+}

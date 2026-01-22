@@ -1,0 +1,9 @@
+{
+  "Type": "ChangeActiveSlot",
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local",
+    "WaitForAnimationToFinish": false,
+    "ClearSoundEventOnFinish": false
+  },
+  "CancelOnItemChange": true
+}

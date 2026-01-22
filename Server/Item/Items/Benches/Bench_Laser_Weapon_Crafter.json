@@ -1,0 +1,160 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bench_Bench_Laser_Weapon_Crafter.name",
+    "Description": "server.items.Bench_Bench_Laser_Weapon_Crafter.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Clear",
+        "Quantity": 1
+      },
+      {
+        "ResourceTypeId": "",
+        "Quantity": 10,
+        "ItemId": "Ingredient_Fire_Essence"
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 10
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/PropModels/Laser_Weapon_Bench.blockymodel",
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Weapon",
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Weapon_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Weapon_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Bench": {
+      "Type": "Crafting",
+      "LocalOpenSoundEventId": "SFX_Weapon_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Weapon_Bench_Close",
+      "CompletedSoundEventId": "SFX_Weapon_Bench_Craft",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Categories": [
+        {
+          "Id": "Weapon_Parts",
+          "Name": "Weapon Parts",
+          "Icon": "Icons/CraftingCategories/Laser_Parts_Crafting_Icon.png"
+        },
+        {
+          "Id": "Lightsabers_Single",
+          "Icon": "Icons/CraftingCategories/Single_Saber_Crafting_Icon.png",
+          "Name": "Lightsabers (Single)"
+        },
+        {
+          "Id": "Lightsabers_Double",
+          "Name": "Lightsabers (Double)",
+          "Icon": "Icons/CraftingCategories/Double_Saber_Crafting_Icon.png"
+        },
+        {
+          "Id": "Lightsabers_Split",
+          "Name": "Lightsabers (Separated)",
+          "Icon": "Icons/CraftingCategories/Double_Sabers_Separated_Crafting_Icon.png"
+        }
+      ],
+      "Id": "Bench_Laser_Weapon_Crafter",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Thorium",
+                "Quantity": 25
+              },
+              {
+                "ItemId": "Ingredient_Bar_Cobalt",
+                "Quantity": 25
+              },
+              {
+                "ItemId": "Ingredient_Fire_Essence",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "OrbisGalactic_Kyber_Crystal_Clear",
+                "Quantity": 5
+              }
+            ],
+            "TimeSeconds": 3
+          },
+          "CraftingTimeReductionModifier": 0.15
+        }
+      ]
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/PropTextures/Laser_Weapon_Bench.png",
+        "Weight": 1
+      }
+    ],
+    "Light": {
+      "Color": "#134"
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      21,
+      32,
+      19
+    ],
+    "Translation": [
+      16,
+      -9
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 2,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

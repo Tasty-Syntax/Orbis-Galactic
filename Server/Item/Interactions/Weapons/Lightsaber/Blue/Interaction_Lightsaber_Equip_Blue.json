@@ -1,0 +1,9 @@
+{
+  "Type": "Charging",
+  "AllowIndefiniteHold": false,
+  "Effects": {
+    "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
+    "ItemAnimationId": "OrbisGalactic_Lightsaber_Ignite",
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip_Blue_Local"
+  }
+}

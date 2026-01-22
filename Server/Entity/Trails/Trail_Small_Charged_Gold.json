@@ -1,0 +1,14 @@
+{
+  "TexturePath": "Trails/Charged.png",
+  "LifeSpan": 8,
+  "Roll": 0,
+  "Start": {
+    "Width": 0.2
+  },
+  "End": {
+    "Width": 0
+  },
+  "LightInfluence": 0,
+  "Smooth": true,
+  "RenderMode": "BlendLinear"
+}

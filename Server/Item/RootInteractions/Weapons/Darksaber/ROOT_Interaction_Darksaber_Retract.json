@@ -1,0 +1,9 @@
+{
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Cooldown": 0
+  },
+  "Interactions": [
+    "Interaction_Darksaber_Unequip_Effect"
+  ]
+}

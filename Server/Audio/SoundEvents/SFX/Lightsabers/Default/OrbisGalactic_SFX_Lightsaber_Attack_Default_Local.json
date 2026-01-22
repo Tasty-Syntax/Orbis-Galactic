@@ -1,0 +1,16 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2
+      },
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Default/Lightsaber_Swing_Default_2_Local.ogg"
+      ]
+    }
+  ]
+}

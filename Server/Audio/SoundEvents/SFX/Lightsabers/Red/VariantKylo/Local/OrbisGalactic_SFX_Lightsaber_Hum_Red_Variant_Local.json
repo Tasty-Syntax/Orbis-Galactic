@@ -1,0 +1,13 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": false,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Volume": 10,
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Lightsaber_Hum.ogg"
+      ]
+    }
+  ]
+}

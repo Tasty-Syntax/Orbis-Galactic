@@ -1,0 +1,17 @@
+{
+  "Interactions": [
+    {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
+            "ItemAnimationId": "OrbisGalactic_Lightsaber_Ignite_Double"
+          }
+        }
+      ]
+    },
+    "Interaction_Lightsaber_Equip_Effect_Red"
+  ]
+}

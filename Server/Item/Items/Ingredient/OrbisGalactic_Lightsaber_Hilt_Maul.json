@@ -1,0 +1,48 @@
+{
+  "Model": "Resources/ItemModels/Lightsaber_Grip_Maul_Single.blockymodel",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      206,
+      158,
+      143
+    ],
+    "Translation": [
+      -32,
+      -33
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "Categories": [
+          "Weapon_Parts"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 10
+      }
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Lightsaber_Hilt_Maul.name",
+    "Description": "server.items.OrbisGalactic_Lightsaber_Hilt_Maul.description"
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "ItemLevel": 10,
+  "Quality": "Common",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Maul.png",
+  "PlayerAnimationsId": "Item",
+  "Scale": 0.5
+}

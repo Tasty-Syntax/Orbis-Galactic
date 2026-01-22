@@ -1,0 +1,9 @@
+{
+  "RequireNewClick": false,
+  "Cooldown": {
+    "Cooldown": 0
+  },
+  "Interactions": [
+    "Interaction_Lightsaber_Swap_From_Default"
+  ]
+}

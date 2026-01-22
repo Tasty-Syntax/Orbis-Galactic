@@ -1,0 +1,13 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": false,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Volume": 0,
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Green/Lightsaber_Green_Idle_Local.ogg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": false,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Lightsaber_Retract.ogg"
+      ],
+      "Volume": 0,
+      "StartDelay": 0
+    }
+  ]
+}

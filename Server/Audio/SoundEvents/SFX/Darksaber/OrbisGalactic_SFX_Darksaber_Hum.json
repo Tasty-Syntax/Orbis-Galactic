@@ -1,0 +1,15 @@
+{
+  "Volume": 0.75,
+  "PreventSoundInterruption": false,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Volume": 10,
+      "Looping": true,
+      "Files": [
+        "Sounds/Weapons/Darksaber/Darksaber_Hum.ogg"
+      ],
+      "StartDelay": 0
+    }
+  ]
+}

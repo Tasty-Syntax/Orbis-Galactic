@@ -1,0 +1,266 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
+  "ItemLevel": 40,
+  "PlayerAnimationsId": "Lightsaber_Menacing",
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
+    "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+  },
+  "InteractionVars": {
+    "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Left_Effect_Red",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Left_Damage_Red",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Right_Effect_Red",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Right_Damage_Red",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Effect_Red",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Damage_Red",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 48
+            },
+            "RandomPercentageModifier": 0.15
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect_Red",
+    "Lightsaber_Stab_Charged_Damage": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Damage_Red"
+      ]
+    },
+    "Thrust_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Thrust_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 32
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Vortexstrike_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 70
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Vortexstrike_Spin_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 23
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.1,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -5,
+      -9
+    ]
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "MaxDurability": 150,
+  "DurabilityLossOnHit": 0.52,
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Longsword"
+    ]
+  },
+  "Weapon": {
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 20,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ]
+  },
+  "UsePlayerAnimations": false,
+  "ItemSoundSetId": "ISS_Items_Gadget",
+  "Variant": false,
+  "ItemAppearanceConditions": {
+    "SignatureEnergy": [
+      {
+        "Condition": [
+          100,
+          100
+        ],
+        "ConditionValueType": "Percent",
+        "Particles": [
+          {
+            "SystemId": "Sword_Signature_Ready",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.8
+            },
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Sword_Signature_Status_Spawn",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.5
+            },
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Sword_Signature_Status",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.55
+            },
+            "TargetEntityPart": "PrimaryItem",
+            "Scale": 1.3
+          }
+        ],
+        "FirstPersonParticles": [
+          {
+            "SystemId": "Sword_Signature_Ready",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.8
+            },
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Sword_Signature_Status_Spawn",
+            "TargetNodeName": "Handle",
+            "TargetEntityPart": "PrimaryItem",
+            "PositionOffset": {
+              "Y": -100
+            }
+          },
+          {
+            "SystemId": "Sword_Signature_Status",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.5
+            },
+            "TargetEntityPart": "PrimaryItem"
+          }
+        ],
+        "ModelVFXId": "Sword_Signature_Status"
+      }
+    ]
+  },
+  "Utility": {
+    "Compatible": false
+  },
+  "Quality": "Template",
+  "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+  "Scale": 0.5,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Template.png"
+}

@@ -1,0 +1,71 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.description"
+  },
+  "Quality": "Epic",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Gold.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Single"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
+        "Quantity": 1
+      }
+    ]
+  },
+  "Light": {
+    "Color": "#751"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_Gold",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      318,
+      323,
+      335
+    ],
+    "Translation": [
+      -82,
+      -75
+    ]
+  },
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Gold.png",
+  "Interactions": {
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double"
+  },
+  "Variant": true
+}

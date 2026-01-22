@@ -1,0 +1,8 @@
+{
+  "Type": "DamageEntity",
+  "Parent": "DamageEntityParent",
+  "DamageEffects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Collision_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Collision_Local"
+  }
+}

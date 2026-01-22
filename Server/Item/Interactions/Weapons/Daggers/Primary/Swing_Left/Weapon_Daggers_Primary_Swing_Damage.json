@@ -1,0 +1,14 @@
+{
+  "Type": "DamageEntity",
+  "DamageCalculator": {
+    "Type": "Absolute",
+    "Class": "Light",
+    "RandomPercentageModifier": 0,
+    "BaseDamage": {
+      "Physical": 5
+    }
+  },
+  "DamageEffects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Collision_Local"
+  }
+}

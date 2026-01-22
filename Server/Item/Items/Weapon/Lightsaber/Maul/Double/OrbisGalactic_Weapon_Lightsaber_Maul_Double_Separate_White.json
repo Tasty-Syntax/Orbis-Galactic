@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_White.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_White.description"
+  },
+  "Quality": "Epic",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_White.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Split"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Multicolor",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
+        "Quantity": 2
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_White.png",
+  "Light": {
+    "Color": "#166"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_Blue",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -19.2,
+      -21
+    ]
+  },
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
+  "Scale": 0.5,
+  "Variant": true
+}

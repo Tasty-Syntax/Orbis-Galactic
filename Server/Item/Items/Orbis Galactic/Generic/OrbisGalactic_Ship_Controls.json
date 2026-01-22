@@ -1,0 +1,94 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Feran_Bookshelf.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Ship_Controls.png",
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      2,
+      -16
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Feran"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template",
+  "BlockType": {
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Resources/PropModels/Ship_Controls.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/PropTextures/Ship_Controls_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "MaxSupportDistance": 8,
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Shelf"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "HitboxType": "Block_Full",
+    "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+    "CustomModelScale": 1.5
+  }
+}

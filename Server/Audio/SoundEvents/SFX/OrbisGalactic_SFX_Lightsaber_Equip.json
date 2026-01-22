@@ -5,10 +5,11 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Weapons/lightsaber_ignite.ogg"
+        "Sounds/Weapons/Lightsaber/Lightsaber_Ignite.ogg"
       ],
-      "Volume": 10,
+      "Volume": 0,
       "StartDelay": 0.15
     }
-  ]
+  ],
+  "Parent": "SFX_Attn_Moderate"
 }

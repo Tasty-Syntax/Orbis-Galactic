@@ -1,0 +1,10 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.133,
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack_Default_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack_Default_Local",
+    "CameraEffect": "Daggers_Sweep"
+  }
+}

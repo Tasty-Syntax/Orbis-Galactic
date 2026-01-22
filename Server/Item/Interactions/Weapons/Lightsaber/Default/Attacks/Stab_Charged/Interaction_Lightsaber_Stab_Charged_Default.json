@@ -1,0 +1,69 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "StabCharged"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0,
+  "Next": {
+    "Type": "Parallel",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Selector",
+            "$Comment": "Length of Combat",
+            "RunTime": 0.083,
+            "Selector": {
+              "Id": "Stab",
+              "TestLineOfSight": false,
+              "ExtendTop": 0.075,
+              "ExtendLeft": 0.075,
+              "ExtendRight": 0.075,
+              "ExtendBottom": 0.075,
+              "StartDistance": 0.1,
+              "EndDistance": 4
+            },
+            "HitBlock": {
+              "Interactions": [
+                "Block_Break_Adventure"
+              ]
+            },
+            "HitEntity": {
+              "Interactions": [
+                {
+                  "Type": "Replace",
+                  "DefaultValue": {
+                    "Interactions": [
+                      "Interaction_Lightsaber_Stab_Charged_Damage_Default"
+                    ]
+                  },
+                  "Var": "Lightsaber_Stab_Charged_Damage"
+                }
+              ]
+            },
+            "Next": {
+              "Type": "Simple",
+              "$Comment": "Pad the interaction length",
+              "RunTime": 0.251
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Interaction_Lightsaber_Stab_Charged_Effect_Default"
+              ]
+            },
+            "Var": "Lightsaber_Stab_Charged_Effect"
+          }
+        ]
+      }
+    ]
+  }
+}

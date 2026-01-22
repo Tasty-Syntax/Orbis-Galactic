@@ -1,0 +1,322 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Template_Weapon_Daggers.name"
+  },
+  "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Template.png",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "PlayerAnimationsId": "Daggers_Custom",
+  "Reticle": "DefaultMelee",
+  "Quality": "Template",
+  "ItemSoundSetId": "ISS_Items_Gadget",
+  "ItemLevel": 30,
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -19.2,
+      -21
+    ]
+  },
+  "Utility": {
+    "Compatible": false
+  },
+  "Interactions": {
+    "Primary": "Root_Weapon_Daggers_Lightsaber_Primary",
+    "Secondary": "Root_Weapon_Daggers_Secondary_Guard",
+    "Ability1": "Root_Weapon_Daggers_Signature_Razorstrike",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Separate",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Dagger"
+    ]
+  },
+  "Weapon": {
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ],
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 27,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "RenderDualWielded": true
+  },
+  "ItemAppearanceConditions": {
+    "SignatureEnergy": [
+      {
+        "Condition": [
+          100,
+          100
+        ],
+        "ConditionValueType": "Percent",
+        "Particles": [
+          {
+            "SystemId": "Daggers_Signature_Ready",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.5
+            },
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Sword_Signature_Status_Spawn",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.4
+            },
+            "TargetEntityPart": "PrimaryItem",
+            "Scale": 0.7
+          },
+          {
+            "SystemId": "Dagger_Signature_Status",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.4
+            },
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Daggers_Signature_Ready",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.5
+            },
+            "TargetEntityPart": "SecondaryItem"
+          },
+          {
+            "SystemId": "Sword_Signature_Status_Spawn",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.4
+            },
+            "TargetEntityPart": "SecondaryItem",
+            "Scale": 0.7
+          },
+          {
+            "SystemId": "Dagger_Signature_Status",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.4
+            },
+            "TargetEntityPart": "SecondaryItem"
+          }
+        ],
+        "ModelVFXId": "Sword_Signature_Status",
+        "FirstPersonParticles": [
+          {
+            "SystemId": "Daggers_Signature_Ready",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.5
+            },
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Dagger_Signature_Status",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.4
+            },
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Daggers_Signature_Ready",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.5
+            },
+            "TargetEntityPart": "SecondaryItem"
+          },
+          {
+            "SystemId": "Dagger_Signature_Status",
+            "TargetNodeName": "Handle",
+            "PositionOffset": {
+              "X": 0.4
+            },
+            "TargetEntityPart": "SecondaryItem"
+          }
+        ]
+      }
+    ]
+  },
+  "MaxDurability": 80,
+  "DurabilityLossOnHit": 0.1,
+  "InteractionVars": {
+    "Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Swing_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            }
+          },
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Swing_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Left_Custom"
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Swing_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 4
+            }
+          },
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Right_Custom"
+      ]
+    },
+    "Stab_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 8
+            }
+          },
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Stab_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Stab_Left_Custom"
+      ]
+    },
+    "Stab_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 10
+            }
+          },
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Stab_Right_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Stab_Right_Custom"
+      ]
+    },
+    "Pounce_Sweep_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Pounce_Sweep_Damage_Custom",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 35
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ],
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Pounce_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Pounce_Stab_Damage_Custom",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 44
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 6
+            }
+          ],
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Razorstrike_Slash_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Signature_Razorstrike_Slash_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 35
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Razorstrike_Sweep_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Signature_Razorstrike_Sweep_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 44
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Razorstrike_Lunge_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Signature_Razorstrike_Lunge_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 52
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {}
+        }
+      ]
+    },
+    "Pounce_Sweep_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Pounce_Sweep_Effect_Custom"
+      ]
+    },
+    "Pounce_Stab_Effect": {}
+  },
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim"
+}

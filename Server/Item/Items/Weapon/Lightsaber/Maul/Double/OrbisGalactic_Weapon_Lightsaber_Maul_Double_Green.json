@@ -1,0 +1,98 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Green.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Green.description"
+  },
+  "Quality": "Epic",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Double"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Green",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
+        "Quantity": 2
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Green.png",
+  "Light": {
+    "Color": "#166"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      },
+      "TrailId": "Lightsaber_Trail_Red"
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.1,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -19.2,
+      -21
+    ]
+  },
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
+  "Scale": 0.5,
+  "Interactions": {
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_Green",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green_Double",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Green",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Green"
+  },
+  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Green"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Green"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Green"
+      ]
+    }
+  },
+  "Variant": true
+}

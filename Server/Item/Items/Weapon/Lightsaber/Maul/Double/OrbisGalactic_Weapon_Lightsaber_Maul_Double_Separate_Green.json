@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Green.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Green.description"
+  },
+  "Quality": "Epic",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Split"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Green",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
+        "Quantity": 2
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Green.png",
+  "Light": {
+    "Color": "#166"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_Blue",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.1,
+    "Rotation": [
+      360,
+      360,
+      328
+    ],
+    "Translation": [
+      -150,
+      -150
+    ]
+  },
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
+  "Scale": 0.5,
+  "Interactions": {
+    "Primary": "Root_Weapon_Daggers_Lightsaber_Primary_Green",
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green_Separate",
+    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Green",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Green"
+  },
+  "InteractionVars": {
+    "Swing_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Left_Custom_Green"
+      ]
+    },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Right_Custom_Green"
+      ]
+    },
+    "Stab_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Stab_Left_Custom_Green"
+      ]
+    },
+    "Stab_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Stab_Right_Custom_Green",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 10
+            }
+          },
+          "DamageEffects": {}
+        }
+      ]
+    }
+  },
+  "Variant": true
+}

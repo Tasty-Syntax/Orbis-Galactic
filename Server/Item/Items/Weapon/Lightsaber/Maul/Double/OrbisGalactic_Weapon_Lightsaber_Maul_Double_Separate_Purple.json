@@ -1,0 +1,99 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Purple.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Purple.description"
+  },
+  "Quality": "Epic",
+  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Split"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 2
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Purple",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
+        "Quantity": 2
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Purple.png",
+  "Light": {
+    "Color": "#166"
+  },
+  "Trails": [
+    {
+      "TargetEntityPart": "PrimaryItem",
+      "TargetNodeName": "Blade",
+      "TrailId": "Lightsaber_Trail_Blue",
+      "PositionOffset": {
+        "Y": 0,
+        "Z": 0.0
+      },
+      "RotationOffset": {
+        "Roll": 0
+      }
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      344,
+      360,
+      316
+    ],
+    "Translation": [
+      -76,
+      -76
+    ]
+  },
+  "Parent": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Blue",
+  "Scale": 0.5,
+  "InteractionVars": {
+    "Swing_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Left_Custom_Blue"
+      ]
+    },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Right_Custom_Blue"
+      ]
+    },
+    "Stab_Left_Effect": {
+      "Interactions": [
+        "Weapon_Daggers_Primary_Stab_Left_Custom_Blue"
+      ]
+    },
+    "Stab_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Daggers_Primary_Stab_Right_Custom_Blue",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 10
+            }
+          },
+          "DamageEffects": {}
+        }
+      ]
+    }
+  },
+  "Variant": true
+}

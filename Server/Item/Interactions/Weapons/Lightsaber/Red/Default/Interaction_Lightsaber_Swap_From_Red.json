@@ -1,0 +1,7 @@
+{
+  "Type": "ChangeActiveSlot",
+  "Effects": {
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+  }
+}

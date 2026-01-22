@@ -1,0 +1,16 @@
+{
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_Sword",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Red/Lightsaber_Swing_Red_Stab_Local.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2
+      }
+    }
+  ]
+}
