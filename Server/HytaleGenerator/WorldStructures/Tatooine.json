@@ -4,12 +4,7 @@
     {
       "Biome": "Tatooine_Rocky",
       "Min": -2,
-      "Max": -0.55
-    },
-    {
-      "Biome": "Tatooine_River",
-      "Min": -0.35,
-      "Max": 2
+      "Max": -0.75
     },
     {
       "Biome": "Tatooine_BigCaves",
@@ -17,12 +12,27 @@
       "Max": -0.5
     },
     {
+      "Biome": "Tatooine_River",
+      "Min": -0.5,
+      "Max": 0
+    },
+    {
       "Biome": "Tatooine_Shore",
       "Min": 0,
-      "Max": 0.15
+      "Max": 0.55
+    },
+    {
+      "Biome": "Tatooine_River",
+      "Min": 0.55,
+      "Max": 1.2
+    },
+    {
+      "Biome": "Tatooine_Shore",
+      "Min": 1.2,
+      "Max": 2
     }
   ],
-  "DefaultBiome": "Tatooine_Rocky",
+  "DefaultBiome": "Tatooine_Shore",
   "DefaultTransitionDistance": 32,
   "MaxBiomeEdgeDistance": 48,
   "Density": {
@@ -37,6 +47,11 @@
     },
     {
       "Type": "BaseHeight",
+      "Name": "Shore",
+      "Y": 110
+    },
+    {
+      "Type": "BaseHeight",
       "Name": "Water",
       "Y": 73
     },
@@ -47,5 +62,3 @@
     }
   ]
 }
-
-
