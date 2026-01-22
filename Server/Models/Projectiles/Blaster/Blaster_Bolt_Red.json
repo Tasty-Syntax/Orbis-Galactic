@@ -1,6 +1,6 @@
 {
-  "Model": "Items/Projectiles/LaserBeam.blockymodel",
-  "Texture": "Items/Projectiles/LaserBeam_Texture.png",
+  "Model": "Items/Projectiles/Blaster_Bolt/Blaster_Bolt_Model.blockymodel",
+  "Texture": "Items/Projectiles/Blaster_Bolt/Blaster_Bolt_Red_Texture.png",
   "HitBox": {
     "Max": {
       "X": 0.05,
@@ -16,7 +16,6 @@
   "MinScale": 1,
   "MaxScale": 1,
   "Light": {
-    "Color": "#f00",
-    "Radius": 5
+    "Color": "#800"
   }
 }

@@ -1,0 +1,5 @@
+{
+  "Type": "Projectile",
+  "Config": "Projectile_Config_Blaster_Bolt_Red",
+  "Parent": "Interaction_Blaster_Launch_Bolt_Base"
+}
