@@ -55,7 +55,7 @@
       }
     },
     "Material": "Solid",
-    "Opacity": "Solid",
+    "Opacity": "Transparent",
     "ParticleColor": "#575757",
     "Interactions": {
       "Use": {

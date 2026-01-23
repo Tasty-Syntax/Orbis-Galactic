@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Wood_Hardwood_Fence.name"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Imperial_Railing_Gray.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Hardwood",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Wall"
+        ]
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Fences/Imperial_Metal_Railing_Grey.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Wood_Hardwood_Fence",
+        "GatherType": "Woods"
+      }
+    },
+    "ParticleColor": "#693e2a",
+    "CustomModel": "Blocks/Structures/Fences/Imperial_Metal_Railing.blockymodel",
+    "DrawType": "Model",
+    "VariantRotation": "NESW",
+    "HitboxType": "Block_Full",
+    "BlockSoundSetId": "Metal",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "IgnoreSupportWhenPlaced": true
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Hardwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      7,
+      -19
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "ItemSoundSetId": "ISS_Items_Metal"
+}
