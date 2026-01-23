@@ -1,5 +1,6 @@
 {
   "Interactions": [
+    "Interaction_Lightsaber_Equip_Effect_Default",
     {
       "Type": "Serial",
       "Interactions": [
@@ -9,9 +10,15 @@
             "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
             "ItemAnimationId": "OrbisGalactic_Lightsaber_Ignite"
           }
+        },
+        {
+          "Type": "ChangeStat",
+          "Behaviour": "Set",
+          "StatModifiers": {
+            "OrbisGalactic_LightsaberActive": 1
+          }
         }
       ]
-    },
-    "Interaction_Lightsaber_Equip_Effect_Default"
+    }
   ]
 }

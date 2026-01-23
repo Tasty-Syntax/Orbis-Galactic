@@ -2,15 +2,24 @@
   "Categories": [
     "Items.Weapons"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
+  "Model": "Resources/ItemModels/Lightsaber_Grip_Anakin.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
     "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+    "Held": {
+      "Interactions": [
+        "Interaction_OrbisGalactic_Lightsaber_Idle_IfActive_Default"
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
+    }
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -202,5 +211,5 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate.blockyanim"
+  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Hilt.png"
 }

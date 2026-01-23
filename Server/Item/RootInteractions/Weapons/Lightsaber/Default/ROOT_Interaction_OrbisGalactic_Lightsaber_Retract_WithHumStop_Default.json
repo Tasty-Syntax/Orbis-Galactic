@@ -1,0 +1,14 @@
+{
+  "Interactions": [
+    {
+      "Type": "Serial",
+      "Interactions": [
+        "Interaction_OrbisGalactic_Lightsaber_Hum_Stop_Default",
+        {
+          "Type": "RunRootInteraction",
+          "RootInteraction": "ROOT_Interaction_Lightsaber_Retract_Red"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,24 @@
 {
   "Interactions": [
-    "Interaction_Lightsaber_Unequip_Effect_Red"
+    "Interaction_Lightsaber_Unequip_Effect_Red",
+    {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
+            "ItemAnimationId": "OrbisGalactic_Lightsaber_Retract"
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "Behaviour": "Set",
+          "StatModifiers": {
+            "OrbisGalactic_LightsaberActive": 0
+          }
+        }
+      ]
+    }
   ]
 }

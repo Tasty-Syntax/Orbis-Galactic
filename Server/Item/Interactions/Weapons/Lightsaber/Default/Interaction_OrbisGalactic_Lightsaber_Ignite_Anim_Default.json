@@ -1,0 +1,11 @@
+{
+  "Type": "Simple",
+  "RunTime": 1.0,
+  "CancelOnItemChange": true,
+  "Effects": {
+    "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
+    "ItemAnimationId": "OrbisGalactic_Lightsaber_Ignite",
+    "WaitForAnimationToFinish": false,
+    "ClearAnimationOnFinish": false
+  }
+}

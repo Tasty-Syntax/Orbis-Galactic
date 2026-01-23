@@ -19,6 +19,15 @@
       "KeepPreviousFirstPersonAnimation": true,
       "ClipsGeometry": true
     },
+    "OrbisGalactic_Lightsaber_Off": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/OrbisGalactic_Lightsaber_Off.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/OrbisGalactic_Lightsaber_Off.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/OrbisGalactic_Lightsaber_Off.blockyanim",
+      "Speed": 1.0,
+      "KeepPreviousFirstPersonAnimation": true,
+      "ClipsGeometry": true,
+      "BlendingDuration": 0
+    },
     "OrbisGalactic_Lightsaber_Ignite_Double": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite_Double.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite_Double.blockyanim",

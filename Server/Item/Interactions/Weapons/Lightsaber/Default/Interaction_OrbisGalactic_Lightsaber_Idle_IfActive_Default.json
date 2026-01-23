@@ -1,0 +1,15 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "OrbisGalactic_LightsaberActive": 1
+  },
+  "ValueType": "Absolute",
+  "Next": {
+    "Type": "RunRootInteraction",
+    "RootInteraction": "ROOT_Interaction_Lightsaber_Idle_Default"
+  },
+  "Failed": {
+    "Type": "Simple",
+    "RunTime": 0.0
+  }
+}

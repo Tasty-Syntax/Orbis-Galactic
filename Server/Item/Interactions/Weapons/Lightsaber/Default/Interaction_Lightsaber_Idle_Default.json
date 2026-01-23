@@ -2,7 +2,8 @@
   "Type": "Simple",
   "Effects": {
     "ClearSoundEventOnFinish": true,
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Hum_Default_Local"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Hum_Default_Local",
+    "WaitForAnimationToFinish": false
   },
   "CancelOnItemChange": true,
   "RunTime": 11

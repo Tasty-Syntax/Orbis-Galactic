@@ -1,0 +1,9 @@
+{
+  "Type": "ChangeStat",
+  "Behaviour": "Set",
+  "StatModifiers": {
+    "OrbisGalactic_LightsaberActive": 1
+  }
+}
+
+

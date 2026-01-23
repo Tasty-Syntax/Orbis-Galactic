@@ -1,0 +1,8 @@
+{
+  "Type": "ChangeStat",
+  "Behaviour": "Set",
+  "StatModifiers": {
+    "OrbisGalactic_LightsaberActive": 0
+  },
+  "Entity": "Owner"
+}

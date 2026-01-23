@@ -1,0 +1,13 @@
+{
+  "SwitchTo": "PostColor",
+  "EffectDirection": "None",
+  "LoopOption": "Loop",
+  "AnimationDuration": 0.25,
+  "HighlightColor": "#ffcc66",
+  "PostColor": "#ffcc66",
+  "PostColorOpacity": 0.25,
+  "HighlightThickness": 2.0,
+  "UseBloomOnHighlight": true
+}
+
+

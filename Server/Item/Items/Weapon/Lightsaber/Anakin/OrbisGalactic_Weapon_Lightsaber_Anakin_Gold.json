@@ -6,16 +6,13 @@
   },
   "Quality": "Epic",
   "ItemLevel": 40,
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Gold.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -36,9 +33,6 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Gold.png",
-  "Light": {
-    "Color": "#751"
-  },
   "Trails": [
     {
       "TargetEntityPart": "PrimaryItem",
@@ -55,41 +49,41 @@
   ],
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      333,
-      224,
-      40
-    ],
-    "Translation": [
-      -46,
-      -44
-    ]
+    "Rotation": [333, 224, 40],
+    "Translation": [-46, -44]
   },
   "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default"
+    "Primary": "ROOT_Interaction_Lightsaber_Attack_IfActive_Default",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_IfActive_Default"
   },
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Default"]
     },
     "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Default"]
     },
     "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Default"]
     },
     "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Default"]
     }
   },
-  "Variant": true
+  "Variant": true,
+  "ItemAppearanceConditions": {
+    "OrbisGalactic_LightsaberActive": [
+      {
+        "ConditionValueType": "Absolute",
+        "Model": "Items/WeaponModels/Lightsaber_Anakin.blockymodel",
+        "Texture": "Items/WeaponTextures/Anakin_Lightsaber_Gold.png",
+        "ModelVFXId": "ModelVFX_Lightsaber_Gold_Glow",
+        "Condition": [1, 1]
+      }
+    ]
+  },
+  "Tags": {
+    "LightsaberItem": []
+  },
+  "Model": "Resources/ItemModels/Lightsaber_Grip_Anakin.blockymodel"
 }

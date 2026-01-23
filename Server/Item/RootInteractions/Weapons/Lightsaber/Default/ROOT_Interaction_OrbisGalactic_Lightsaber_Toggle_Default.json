@@ -1,0 +1,24 @@
+{
+  "RequireNewClick": true,
+  "Cooldown": {
+    "Cooldown": 0.25
+  },
+  "Interactions": [
+    {
+      "Type": "StatsCondition",
+      "Costs": {
+        "OrbisGalactic_LightsaberActive": 1
+      },
+      "LessThan": true,
+      "ValueType": "Absolute",
+      "Next": {
+        "Type": "RunRootInteraction",
+        "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Red"
+      },
+      "Failed": {
+        "Type": "RunRootInteraction",
+        "RootInteraction": "ROOT_Interaction_OrbisGalactic_Lightsaber_Retract_WithHumStop_Default"
+      }
+    }
+  ]
+}

@@ -4,6 +4,25 @@
     "Cooldown": 0
   },
   "Interactions": [
-    "Interaction_Lightsaber_Swap_From_Default"
+    "Interaction_Lightsaber_Swap_From_Default",
+    {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
+            "ItemAnimationId": "OrbisGalactic_Lightsaber_Retract"
+          }
+        },
+        {
+          "Type": "ChangeStat",
+          "Behaviour": "Set",
+          "StatModifiers": {
+            "OrbisGalactic_LightsaberActive": 0
+          }
+        }
+      ]
+    }
   ]
 }
