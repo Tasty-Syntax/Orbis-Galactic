@@ -1,6 +1,6 @@
 {
-  "Model": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
-  "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
+  "Model": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.png",
   "EyeHeight": 1.2,
   "HitBox": {
     "Max": {

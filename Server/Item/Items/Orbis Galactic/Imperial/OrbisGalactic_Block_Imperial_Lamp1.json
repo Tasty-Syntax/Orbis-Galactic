@@ -57,13 +57,6 @@
     "Material": "Solid",
     "Opacity": "Solid",
     "ParticleColor": "#575757",
-    "Support": {
-      "Down": [
-        {
-          "FaceType": "Full"
-        }
-      ]
-    },
     "Interactions": {
       "Use": {
         "Interactions": [

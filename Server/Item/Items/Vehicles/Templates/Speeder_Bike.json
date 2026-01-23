@@ -1,5 +1,5 @@
 {
-  "Icon": "Icons/ItemsGenerated/Speeder_Bike_Template.png",
+  "Icon": "Icons/ItemsGenerated/Speeder_Bike.png",
   "Categories": [
     "Furniture.Benches"
   ],
@@ -35,7 +35,7 @@
     ],
     "Output": [
       {
-        "ItemId": "Trin_Motorcycle"
+        "ItemId": "Speeder_Bike"
       }
     ]
   },
@@ -93,8 +93,8 @@
     }
   },
   "PlayerAnimationsId": "Block",
-  "Model": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
-  "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
+  "Model": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.png",
   "IconProperties": {
     "Scale": 0.2,
     "Rotation": [
@@ -104,7 +104,7 @@
     ],
     "Translation": [
       -9,
-      -18
+      -48
     ]
   },
   "Tags": {

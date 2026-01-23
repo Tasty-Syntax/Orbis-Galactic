@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Lamp 2"
+    "Name": "Imperial Lamp 3 Connected"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -76,7 +76,7 @@
         "On": {
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png"
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_3_On.png"
             }
           ],
           "InteractionHint": "server.interactionHints.turnon",
@@ -96,7 +96,7 @@
           "AmbientSoundEventId": null,
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_3_Off.png"
             }
           ],
           "InteractionSoundEventId": "SFX_Lamp_Off"
@@ -107,7 +107,7 @@
     "CubeShadingMode": "Standard",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_3_Off.png"
       }
     ],
     "CustomModelTexture": [

@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial White Panel Smooth"
+    "Name": "Imperial Black Panel"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Smooth.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Right_Center.png",
   "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
@@ -29,16 +29,21 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Smooth.png",
         "Weight": 1,
-        "Up": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Smooth.png"
+        "North": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Left_Center.png",
+        "South": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Right_Center.png",
+        "Down": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "Up": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "UpDown": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "West": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "East": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png"
       }
     ],
     "ParticleColor": "#bbbbaf",
     "CubeShadingMode": "Standard",
     "DrawType": "Cube",
     "Material": "Solid",
-    "Opacity": "Solid",
+    "Opacity": "Transparent",
     "State": {
       "Definitions": {
         "White": {
@@ -47,7 +52,8 @@
           }
         }
       }
-    }
+    },
+    "RequiresAlphaBlending": true
   },
   "ResourceTypes": [
     {

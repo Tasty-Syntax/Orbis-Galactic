@@ -1,0 +1,24 @@
+{
+  "Layers": [
+    {
+      "StartDelay": 0,
+      "RandomSettings": {
+        "MinPitch": -7.2,
+        "MaxStartOffset": 0,
+        "MinVolume": -8,
+        "MaxVolume": 1
+      },
+      "Files": [
+        "Sounds/NPC/Jawa/Jawa_Gibberish_1.ogg",
+        "Sounds/NPC/Jawa/Jawa_Gibberish_2.ogg",
+        "Sounds/NPC/Jawa/Jawa_Gibberish_3.ogg",
+        "Sounds/NPC/Jawa/Jawa_Hoo_Teeny.ogg",
+        "Sounds/NPC/Jawa/Jawa_Gibberish_Speak.ogg"
+      ],
+      "Probability": 30,
+      "ProbabilityRerollDelay": 5,
+      "RoundRobinHistorySize": 2
+    }
+  ],
+  "PreventSoundInterruption": true
+}
