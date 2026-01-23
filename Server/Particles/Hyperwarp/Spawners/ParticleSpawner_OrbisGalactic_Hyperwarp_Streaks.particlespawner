@@ -1,0 +1,56 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": { "Min": -0.2, "Max": 0.2 },
+    "Y": { "Min": -0.2, "Max": 0.2 },
+    "Z": { "Min": -0.2, "Max": 0.2 }
+  },
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 350,
+  "ParticleLifeSpan": { "Min": 0.25, "Max": 0.6 },
+  "SpawnRate": { "Min": 180, "Max": 260 },
+  "InitialVelocity": {
+    "Speed": { "Min": 5.0, "Max": 14.0 },
+    "Yaw": { "Min": -180, "Max": 180 },
+    "Pitch": { "Min": -25, "Max": 25 }
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Smoke/Smoke_Spikes.png",
+    "FrameSize": { "Width": 64, "Height": 64 },
+    "ScaleRatioConstraint": "Preserved",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "Opacity": 0,
+        "Color": "#bfe7ff"
+      },
+      "10": { "Opacity": 0.9 },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": { "Min": 0.6, "Max": 1.3 },
+          "Y": { "Min": 0.6, "Max": 1.3 }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": { "Min": 0.35, "Max": 0.8 },
+        "Y": { "Min": 0.35, "Max": 0.8 }
+      },
+      "Opacity": 1,
+      "Color": "#ffffff",
+      "FrameIndex": { "Min": 0, "Max": 0 }
+    },
+    "UseSpriteBlending": false
+  },
+  "Shape": "Sphere",
+  "SpawnBurst": true
+}
+
+

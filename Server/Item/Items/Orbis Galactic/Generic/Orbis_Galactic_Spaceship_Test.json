@@ -50,14 +50,14 @@
   },
   "ItemSoundSetId": "ISS_Blocks_Soft",
   "IconProperties": {
-    "Scale": 0.1,
+    "Scale": 0.2,
     "Rotation": [
-      22.5,
+      15,
       45,
-      22.5
+      25
     ],
     "Translation": [
-      10,
+      2,
       -13.5
     ]
   },

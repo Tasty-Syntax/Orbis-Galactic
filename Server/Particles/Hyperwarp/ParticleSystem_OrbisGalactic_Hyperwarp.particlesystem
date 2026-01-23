@@ -1,0 +1,18 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "ParticleSpawner_OrbisGalactic_Hyperwarp_Streaks",
+      "PositionOffset": {
+        "Y": 1.4
+      }
+    },
+    {
+      "SpawnerId": "ParticleSpawner_OrbisGalactic_Hyperwarp_Distortion",
+      "PositionOffset": {
+        "Y": 1.4
+      }
+    }
+  ]
+}
+
+

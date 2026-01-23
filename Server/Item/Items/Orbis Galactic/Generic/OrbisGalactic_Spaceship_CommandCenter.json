@@ -19,6 +19,17 @@
       -16
     ]
   },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Feran"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template",
+  "Animation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
   "BlockType": {
     "BlockParticleSetId": "Wood",
     "BlockSoundSetId": "Metal",
@@ -84,16 +95,17 @@
     "Interactions": {
       "Use": "Spaceship_CommandCenter"
     },
-    "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim"
+    "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+    "State": {
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+          "Looping": true
+        }
+      }
+    }
   },
-  "Tags": {
-    "Type": [
-      "Furniture"
-    ],
-    "Family": [
-      "Feran"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Items_Metal",
-  "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template"
+  "DisplayEntityStatsHUD": [
+    "Idle"
+  ]
 }
