@@ -38,13 +38,14 @@
     "CustomModel": "Blocks/Structures/Fences/Imperial_Metal_Railing.blockymodel",
     "DrawType": "Model",
     "VariantRotation": "NESW",
-    "HitboxType": "Block_Full",
     "BlockSoundSetId": "Metal",
     "PlacementSettings": {
       "RotationMode": "FacingPlayer",
       "BlockPreviewVisibility": "AlwaysVisible"
     },
-    "IgnoreSupportWhenPlaced": true
+    "IgnoreSupportWhenPlaced": true,
+    "Material": "Solid",
+    "HitboxType": "OrbisGalactic_Railing_Hitbox"
   },
   "Tags": {
     "Type": [
