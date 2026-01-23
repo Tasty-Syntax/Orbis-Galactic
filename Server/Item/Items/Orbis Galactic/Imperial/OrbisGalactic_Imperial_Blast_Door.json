@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Scarak_Hive_Door_Large.name"
+    "Name": "Imperial Blast Door"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -18,8 +18,8 @@
       22.5
     ],
     "Translation": [
-      0,
-      -13.5
+      1,
+      -39
     ]
   },
   "BlockType": {
@@ -35,24 +35,24 @@
     "State": {
       "Definitions": {
         "CloseDoorIn": {
-          "InteractionSoundEventId": "SFX_Door_Crude_Close",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
           "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
           "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
           "Material": "Solid"
         },
         "CloseDoorOut": {
-          "InteractionSoundEventId": "SFX_Door_Crude_Close",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
           "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
           "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
           "Material": "Solid"
         },
         "OpenDoorIn": {
-          "InteractionSoundEventId": "SFX_Door_Crude_Open",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
           "CustomModelAnimation": "Resources/Animations/Blocks/Open_Imperial_Blast_Door.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
         },
         "OpenDoorOut": {
-          "InteractionSoundEventId": "SFX_Door_Crude_Open",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
           "CustomModelAnimation": "Resources/Animations/Blocks/Open_Imperial_Blast_Door.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
         }
@@ -69,7 +69,7 @@
     "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
     "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
   },
-  "Scale": 1,
+  "Scale": 0.5,
   "Tags": {
     "Type": [
       "Furniture"
