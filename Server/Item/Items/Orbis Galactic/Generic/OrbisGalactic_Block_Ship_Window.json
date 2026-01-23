@@ -1,20 +1,106 @@
 {
   "BlockType": {
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Building/Imperial/Imperial_Window.png"
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
     "ConnectedBlockRuleSet": {
       "Type": "CustomTemplate",
-      "Corner_Right": {
-        "State": "Corner_Right"
-      },
-      "Inverted_Corner_Left": {
-        "State": "Inverted_Corner_Left"
-      },
-      "Inverted_Corner_Right": {
-        "State": "Inverted_Corner_Right"
-      },
-      "Straight": {
-        "State": "default"
-      },
-      "TemplateShapeAssetId": "WindowConnectedBlockTemplate"
+      "TemplateShapeAssetId": "WindowConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Full": "OrbisGalactic_Block_Ship_Window",
+        "Left": "",
+        "Middle": "",
+        "Right": "*OrbisGalactic_Block_Ship_Window_State_Definitions_Left_Single",
+        "Corner": "",
+        "Left_Single": "*OrbisGalactic_Block_Ship_Window_State_Definitions_Left_Single"
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Left_Single": {
+          "Material": "Empty",
+          "DrawType": "Cube",
+          "Flags": {},
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "Rocks",
+              "DropList": {
+                "Container": {
+                  "Type": "Multiple",
+                  "Containers": [
+                    {
+                      "Type": "Single",
+                      "Item": {
+                        "ItemId": "Ore_Adamantite"
+                      }
+                    },
+                    {
+                      "Type": "Single",
+                      "Item": {
+                        "ItemId": "Rock_Basalt_Cobble"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "Textures": [
+            {
+              "Weight": 1,
+              "West": "Resources/BlockTextures/Building/Imperial/Imperial_Window.png",
+              "UpDown": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center_Top_Bottom.png",
+              "North": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center_Top_Bottom.png",
+              "South": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center_Top_Bottom.png"
+            }
+          ],
+          "Opacity": "Transparent",
+          "RequiresAlphaBlending": true
+        },
+        "Center": {
+          "Material": "Empty",
+          "DrawType": "Cube",
+          "Flags": {},
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "Rocks",
+              "DropList": {
+                "Container": {
+                  "Type": "Multiple",
+                  "Containers": [
+                    {
+                      "Type": "Single",
+                      "Item": {
+                        "ItemId": "Ore_Adamantite"
+                      }
+                    },
+                    {
+                      "Type": "Single",
+                      "Item": {
+                        "ItemId": "Rock_Basalt_Cobble"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "Textures": [
+            {
+              "Weight": 1
+            }
+          ],
+          "Opacity": "Transparent",
+          "RequiresAlphaBlending": true
+        }
+      }
     }
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Center.png",
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template"
 }
