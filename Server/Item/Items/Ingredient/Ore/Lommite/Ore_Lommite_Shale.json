@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Lommite_Shale.name"
+  },
+  "Categories": [
+    "Blocks.Ores",
+    "StarWars.Ores"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "CubeWithModel",
+    "CustomModel": "Resources/Ores/Ore_Large.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ores/Ores_Textures/Lommite_Ore_32.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "Flags": {},
+    "RandomRotation": "YawStep90",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Ore_Lommite"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Rock_Shale_Cobble"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Rock_Shale.png"
+      }
+    ],
+    "BlockSoundSetId": "Ore",
+    "ParticleColor": "#3e4746"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Ore"
+    ],
+    "Family": [
+      "Lommite"
+    ]
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ore_Lommite_Shale.png"
+}

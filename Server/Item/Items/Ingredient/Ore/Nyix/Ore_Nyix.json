@@ -1,0 +1,53 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Nyix.name",
+    "Description": "server.items.Ore_Nyix.description"
+  },
+  "Categories": [
+    "Blocks.Ores","StarWars.Ores"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Salvage_Nyix",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Salvagebench"
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "Model": "Resources/Ores/Ore_Large.blockymodel",
+  "Texture": "Resources/Ores/Ores_Textures/Nyix_Ore_32.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "Icon": "Icons/ItemsGenerated/Ore_Nyix.png"
+}
