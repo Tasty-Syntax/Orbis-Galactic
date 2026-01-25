@@ -86,6 +86,7 @@
   ],
   "Stars": "Sky/Stars.png",
   "Particle": {
-    "SystemId": "Spaceship_Space_Particles"
+    "SystemId": "Spaceship_Space_Particles",
+    "OvergroundOnly": true
   }
 }

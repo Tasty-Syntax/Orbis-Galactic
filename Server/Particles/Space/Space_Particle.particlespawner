@@ -40,7 +40,7 @@
     },
     "Speed": {
       "Min": 0.5,
-      "Max": 1
+      "Max": 0.94
     }
   },
   "Attractors": [
@@ -387,14 +387,14 @@
       "Scale": {
         "X": {
           "Min": 0.1,
-          "Max": 0.15
+          "Max": 0.19
         },
         "Y": {
           "Min": 0.1,
-          "Max": 0.15
+          "Max": 0.19
         }
       },
-      "Opacity": 0.844,
+      "Opacity": 0.916,
       "Color": "#ffffff"
     }
   },
