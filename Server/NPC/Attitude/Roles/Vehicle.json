@@ -1,0 +1,8 @@
+{
+  "Groups": {
+    "Ignore": [
+      "Hostile",
+      "Passive"
+    ]
+  }
+}

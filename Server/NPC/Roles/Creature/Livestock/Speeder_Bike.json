@@ -1,6 +1,6 @@
 {
   "Type": "Variant",
-  "Reference": "Animal_Vehicle",
+  "Reference": "Vehicle",
   "Modify": {
     "Appearance": "Speeder_Bike_Model",
     "DropList": "Drop_Speeder_Bike",

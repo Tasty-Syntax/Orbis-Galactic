@@ -30,7 +30,8 @@
     "Textures": [
       {
         "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Smooth.png",
-        "Weight": 1
+        "Weight": 1,
+        "Up": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Smooth.png"
       }
     ],
     "ParticleColor": "#bbbbaf",

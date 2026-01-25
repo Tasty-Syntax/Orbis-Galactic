@@ -1,0 +1,3180 @@
+{
+  "Type": "Abstract",
+  "StartState": "Idle",
+  "Parameters": {
+    "Appearance": {
+      "Value": "Deer_Stag",
+      "Description": "The NPC's model."
+    },
+    "WanderRadius": {
+      "Value": 0.1,
+      "Description": "The wander radius of the NPC."
+    },
+    "ViewRange": {
+      "Value": 0.1,
+      "Description": "The view distance of the NPC, in blocks."
+    },
+    "ViewSector": {
+      "Value": 0.1,
+      "Description": "The view sector of the NPC, in degrees."
+    },
+    "HearingRange": {
+      "Value": 0.1,
+      "Description": "The hearing distance of the NPC, in blocks."
+    },
+    "AbsoluteDetectionRange": {
+      "Value": 1,
+      "Description": "The range at which a target is guaranteed to be detected, in blocks. If set to zero, absolute detection will be disabled. The interval [ AbsoluteDetectionRange, AlertedActionRange ] defines the distance range within which an NPC can be befriended."
+    },
+    "AlertedRange": {
+      "Value": 18,
+      "Description": "The range within which the target can be seen/sensed when the NPC is alerted to their presence, in blocks. Should be higher than sense ranges."
+    },
+    "AlertedActionRange": {
+      "Value": 8,
+      "Description": "The range at which an NPC will react to other NPCs and players, depending on the attitude towards them, in blocks. Should be higher than AbsoluteDetectionRange to make the NPC befriendable."
+    },
+    "LeashDistance": {
+      "Value": 20,
+      "Description": "The range at which an NPC will start to want to return to their spawn point, in blocks."
+    },
+    "AttractiveItems": {
+      "Value": [
+        "Tool_Feedbag"
+      ],
+      "Description": "The list of items that are deemed attractive (there's a chance targets holding them will be followed)."
+    },
+    "LovedItems": {
+      "Value": [],
+      "TypeHint": "String",
+      "Description": "The list of items that are deemed very attractive (it's guaranteed targets holding them will be followed and befriended)."
+    },
+    "AttractiveItemsTimeout": {
+      "Value": [
+        15,
+        20
+      ],
+      "Description": "The maximum timeout after which the NPC will lose interest in attractive times, regardless of range to the target, in seconds."
+    },
+    "AttractiveItemsSmellTimeout": {
+      "Value": [
+        8,
+        12
+      ],
+      "Description": "The timeout after which the NPC will lose interest in attractive times, when near the target, in seconds"
+    },
+    "DropList": {
+      "Value": "Empty",
+      "Description": "The NPC's drop list."
+    },
+    "FlockArray": {
+      "Value": [],
+      "TypeHint": "String",
+      "Description": "The set of NPCs belonging to this flock type"
+    },
+    "ClimbHeight": {
+      "Value": 1,
+      "Description": "The maximum climb height, in blocks."
+    },
+    "AttitudeGroup": {
+      "Value": "Vehicle",
+      "Description": "The attitude group this NPC belongs to."
+    },
+    "PlayerDefaultAttitude": {
+      "Value": "Neutral",
+      "Description": "The default attitude towards the player."
+    },
+    "AlertedTimeoutReaction": {
+      "Value": [
+        2,
+        6
+      ],
+      "Description": "The timeout after which an alerted NPC will make a decision on whether to befriend the target, in seconds."
+    },
+    "AlertedTimeoutGiveUp": {
+      "Value": [
+        5,
+        12
+      ],
+      "Description": "The timeout after which an alerted NPC will give up on the target, in seconds."
+    },
+    "GrazingBlockSet": {
+      "Value": "Grass",
+      "Description": "The type of block that this NPC will graze on top of."
+    },
+    "FoodBlockSet": {
+      "Value": "Hay",
+      "Description": "The type of block that this NPC will occasionally seek out to munch on."
+    },
+    "FoodItemSet": {
+      "Value": [
+        "Ingredient_Hay"
+      ],
+      "Description": "The list of dropped items that this NPC will occasionally seek out to munch on."
+    },
+    "DayTimePeriod": {
+      "Value": [
+        0.01,
+        24.99
+      ],
+      "Description": "The hour range considered to be daytime for this NPC (inclusive). Hours should be written with decimal fractions."
+    },
+    "DayTimeNapWeight": {
+      "Value": 99999,
+      "Description": "The weight used to determine if the NPC should have a short nap during the day. Set to 0 to disable."
+    },
+    "DayTimeNapTimeRange": {
+      "Value": [
+        3600,
+        3600
+      ],
+      "Description": "The duration range of daytime naps, in seconds."
+    },
+    "DayFlavorAnimation": {
+      "Value": "",
+      "Description": "The flavor animation to play during the day. Ignored if null or empty."
+    },
+    "GreetAnimation": {
+      "Value": "",
+      "Description": "The flavor animation to play when greeting another NPC or player. Ignored if null or empty."
+    },
+    "ChanceToTurnFriendly": {
+      "Value": 100,
+      "Description": "The chance that the NPC will befriend the target when in the alerted state."
+    },
+    "ChanceToTurnFriendlyWithAttractiveItem": {
+      "Value": 100,
+      "Description": "The chance that the NPC will befriend the target, if the latter is holding an attractive item."
+    },
+    "FriendlyOverrideTime": {
+      "Value": 3600,
+      "Description": "The duration of the friendly attitude override for the target, in seconds."
+    },
+    "FriendlyOverrideTimeWithAttractiveItem": {
+      "Value": 3600,
+      "Description": "The duration of the friendly attitude override for the target, when the latter is holding an attractive item, in seconds."
+    },
+    "IgnoreOverrideTime": {
+      "Value": 3600,
+      "Description": "The duration of the ignore attitude override for the target."
+    },
+    "WeightGreet": {
+      "Value": 1,
+      "Description": "The chance that the NPC will greet a friendly target."
+    },
+    "WeightFollowItem": {
+      "Value": 1,
+      "Description": "The chance that the NPC will follow a friendly target holding an attractive item."
+    },
+    "WeightFollow": {
+      "Value": 1,
+      "Description": "The chance that the NPC will follow friendly NPCs or players at a distance."
+    },
+    "WeightIgnore": {
+      "Value": 1,
+      "Description": "The chance that the NPC will ignore friendly NPCs of players."
+    },
+    "IsHarvestable": {
+      "Value": false,
+      "Description": "Whether this NPC can be 'harvested'. This includes shearing, milking, etc."
+    },
+    "HarvestInteractionContext": {
+      "Value": "",
+      "Description": "The interaction context of the harvest tool. If empty, no tool is needed to harvest the NPC."
+    },
+    "HarvestRequiredAttitudes": {
+      "Value": [
+        "Friendly",
+        "Neutral",
+        "Hostile",
+        "Ignore",
+        "Revered"
+      ],
+      "Description": "The attitude groups of players that can harvest the NPC."
+    },
+    "HarvestDropList": {
+      "Value": "",
+      "Description": "The drop list that's executed when the NPC is harvested."
+    },
+    "HarvestParticles": {
+      "Value": "Alerted",
+      "Description": "The particle system that is spawned when the NPC is harvested."
+    },
+    "HarvestSound": {
+      "Value": "SFX_Sheep_Sheared",
+      "Description": "The sound that plays when NPC is harvested."
+    },
+    "HarvestTimeout": {
+      "Value": [
+        "P1D",
+        "P1D"
+      ],
+      "Description": "The minimum time between consecutive harvests. Expressed in the ISO-8601 time period notation, where both values of the array must have the same prefix (either 'PT' or 'P')."
+    },
+    "HarvestModelSlot": {
+      "Value": "",
+      "Description": "The model attachment slot where the 'harvested' state is displayed."
+    },
+    "HarvestModelAttachmentHarvestable": {
+      "Value": "",
+      "Description": "The attachment that should be rendered when the NPC can be harvested."
+    },
+    "HarvestModelAttachmentHarvested": {
+      "Value": "",
+      "Description": "The attachment that should be rendered when the NPC was harvested and is in timeout."
+    },
+    "HarvestAddItemBucket": {
+      "Value": "",
+      "Description": "Item to add when player holds Container_Bucket (e.g., milk bucket for milking)."
+    },
+    "HarvestAddItemDecoBucket": {
+      "Value": "",
+      "Description": "Item to add when player holds Deco_Bucket (e.g., milk bucket for milking)."
+    },
+    "ProduceItem": {
+      "Value": "",
+      "Description": "The item this NPC produces (poop, eggs, etc)."
+    },
+    "ProduceTimeout": {
+      "Value": [
+        "PT6H",
+        "PT36H"
+      ],
+      "Description": "The timeout between consecutive produces."
+    },
+    "DayFlavorAnimationLength": {
+      "Value": [
+        3,
+        5
+      ],
+      "Description": "How long the daytime flavor animation will be played for, in seconds."
+    },
+    "Timid": {
+      "Value": false,
+      "Description": "Whether this NPC is timid or not. Timid NPCs are harder to approach and befriend."
+    },
+    "AttackWhenStartled": {
+      "Value": false,
+      "Description": "Whether this NPC attacks when startled."
+    },
+    "Attack": {
+      "Value": "",
+      "Description": "The attack interaction this NPC will use."
+    },
+    "AttackRange": {
+      "Value": 5,
+      "Description": "The range at which the NPC can identify an attacker."
+    },
+    "MaxSpeed": {
+      "Value": 4,
+      "Description": "The maximum walking speed of the NPC."
+    },
+    "MaxHealth": {
+      "Value": 100,
+      "Description": "The maximum health of the NPC."
+    },
+    "MaxRotationSpeed": {
+      "Value": 360,
+      "Description": "The maximum rotation speed, in degrees per second."
+    },
+    "RunThreshold": {
+      "Value": 0.5,
+      "Description": "The speed ratio at which the NPC switches to run animation (e.g if MaxSpeed is 10, and RunThreshold is set to 0.55, the NPC will start running at speed 5.5)."
+    },
+    "IsMemory": {
+      "Value": false,
+      "Description": "Whether the NPC is a memory."
+    },
+    "MemoriesCategory": {
+      "Value": "Livestock",
+      "Description": "The category of the memory."
+    },
+    "MemoriesNameOverride": {
+      "Value": "",
+      "Description": "If set, overrides the memory name."
+    },
+    "IsMountable": {
+      "Value": false,
+      "Description": "Whether this NPC can be mounted."
+    },
+    "MountAnchorX": {
+      "Value": 0
+    },
+    "MountAnchorY": {
+      "Value": 0
+    },
+    "MountAnchorZ": {
+      "Value": 0
+    },
+    "MountMovementConfig": {
+      "Value": "Mount"
+    },
+    "BreathesInWater": {
+      "Value": false,
+      "Description": "Whether this NPC can breathe underwater."
+    },
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Template.name",
+      "Description": "The translation key for the NPC name display"
+    }
+  },
+  "IsMemory": {
+    "Compute": "IsMemory"
+  },
+  "MemoriesCategory": {
+    "Compute": "MemoriesCategory"
+  },
+  "MemoriesNameOverride": {
+    "Compute": "MemoriesNameOverride"
+  },
+  "DropList": {
+    "Compute": "DropList"
+  },
+  "FlockSpawnTypes": {
+    "Compute": "FlockArray"
+  },
+  "FlockSpawnTypesRandom": true,
+  "DisableDamageGroups": [
+    "Self"
+  ],
+  "Appearance": {
+    "Compute": "Appearance"
+  },
+  "DefaultPlayerAttitude": {
+    "Compute": "PlayerDefaultAttitude"
+  },
+  "DefaultNPCAttitude": "Ignore",
+  "AttitudeGroup": {
+    "Compute": "AttitudeGroup"
+  },
+  "ApplySeparation": true,
+  "SeparationDistance": 1,
+  "SeparationWeight": 1,
+  "SeparationDistanceTarget": 0.5,
+  "SeparationNearRadiusTarget": 1,
+  "SeparationFarRadiusTarget": 7,
+  "BreathesInWater": {
+    "Compute": "BreathesInWater"
+  },
+  "KnockbackScale": 0.5,
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": {
+        "Compute": "MaxSpeed"
+      },
+      "Gravity": 15,
+      "MaxFallSpeed": 15,
+      "JumpHeight": 0.1,
+      "MaxRotationSpeed": {
+        "Compute": "MaxRotationSpeed"
+      },
+      "Acceleration": 100,
+      "RunThreshold": {
+        "Compute": "RunThreshold"
+      },
+      "DescentAnimationType": "Fall",
+      "DescentSteepness": 2.5,
+      "DescentBlending": 1,
+      "JumpDescentSteepness": 8,
+      "MaxClimbHeight": {
+        "Compute": "ClimbHeight"
+      }
+    }
+  ],
+  "StateTransitions": [
+    {
+      "States": [
+        {
+          "From": [
+            "Idle"
+          ],
+          "To": [
+            "Sleep"
+          ]
+        }
+      ],
+      "Actions": {
+        "Reference": "Component_ActionList_Sleep"
+      }
+    },
+    {
+      "States": [
+        {
+          "From": [
+            "Sleep"
+          ],
+          "To": [
+            "Alerted",
+            "Flee",
+            "Idle"
+          ]
+        }
+      ],
+      "Actions": {
+        "Reference": "Component_ActionList_Wake"
+      }
+    },
+    {
+      "$Comment": "Always clear animation when moving from Alerted or Flee state.",
+      "States": [
+        {
+          "To": [],
+          "From": [
+            "Alerted",
+            "Flee"
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "PlayAnimation",
+          "Slot": "Status"
+        },
+        {
+          "Type": "SetFlag",
+          "Name": "AnimationBlock",
+          "SetTo": false
+        }
+      ]
+    },
+    {
+      "$Comment": "Always clear target and reset instructions when going back to idle.",
+      "States": [
+        {
+          "To": [
+            "Idle"
+          ],
+          "From": []
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "ReleaseTarget"
+        },
+        {
+          "Type": "ResetInstructions"
+        },
+        {
+          "Type": "PlayAnimation",
+          "Slot": "Status"
+        }
+      ]
+    },
+    {
+      "$Comment": "Clear idle anims",
+      "States": [
+        {
+          "To": [],
+          "From": [
+            "Idle"
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "PlayAnimation",
+          "Slot": "Status"
+        }
+      ]
+    }
+  ],
+  "MaxHealth": {
+    "Compute": "MaxHealth"
+  },
+  "InteractionVars": {
+    "Melee_Damage": {
+      "Interactions": [
+        {
+          "$Comment": "Config for a successful melee hit, default values for Effects and HitShape are not overwritten here, see each NPC_ file",
+          "Parent": "NPC_Attack_Melee_Damage",
+          "DamageCalculator": {
+            "Type": "Absolute",
+            "BaseDamage": {
+              "Physical": 5
+            },
+            "RandomPercentageModifier": 0.1
+          }
+        }
+      ]
+    }
+  },
+  "Instructions": [
+    {
+      "$Comment": "This is separate so it can run all the time regardless of the rest of the script",
+      "Continue": true,
+      "Instructions": [
+        {
+          "$Comment": "Update flock member leash positions to match the leader.",
+          "Enabled": {
+            "Compute": "!isEmptyStringArray(FlockArray)"
+          },
+          "Continue": true,
+          "Sensor": {
+            "Type": "And",
+            "Sensors": [
+              {
+                "Type": "FlockLeader"
+              },
+              {
+                "Type": "Self",
+                "Filters": [
+                  {
+                    "Type": "Flock",
+                    "FlockStatus": "Follower"
+                  }
+                ]
+              }
+            ]
+          },
+          "Actions": [
+            {
+              "Type": "Timeout",
+              "Delay": [
+                0.5,
+                2
+              ],
+              "Action": {
+                "Type": "SetLeashPosition",
+                "ToTarget": true
+              }
+            }
+          ]
+        },
+        {
+          "$Comment": "Join eligible flocks if not a member of a flock.",
+          "Enabled": {
+            "Compute": "!isEmptyStringArray(FlockArray)"
+          },
+          "Sensor": {
+            "Type": "Mob",
+            "Range": 20,
+            "ExcludeOwnType": false,
+            "LockOnTarget": true,
+            "Filters": [
+              {
+                "Type": "NPCGroup",
+                "IncludeGroups": [
+                  "Self"
+                ]
+              },
+              {
+                "Type": "Flock",
+                "FlockStatus": "NotMember"
+              }
+            ]
+          },
+          "Actions": [
+            {
+              "Type": "JoinFlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Continue": true,
+      "$Comment": "This is separate so it can run all the time regardless of the rest of the script, when in water go straight to panic to get out",
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "And",
+            "Sensors": [
+              {
+                "Type": "InWater"
+              },
+              {
+                "Type": "Not",
+                "Sensor": {
+                  "Type": "State",
+                  "State": "Panic"
+                }
+              }
+            ]
+          },
+          "Actions": [
+            {
+              "Type": "State",
+              "State": "Panic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "If there are configured attachments for the 'harvestable' state, apply them",
+      "Enabled": {
+        "Compute": "IsHarvestable"
+      },
+      "Continue": true,
+      "Sensor": {
+        "Type": "Alarm",
+        "Name": "Harvest_Ready",
+        "State": "Passed",
+        "Clear": true
+      },
+      "Instructions": [
+        {
+          "Enabled": {
+            "Compute": "!isEmpty(HarvestModelSlot)"
+          },
+          "Actions": [
+            {
+              "Type": "ModelAttachment",
+              "Slot": {
+                "Compute": "HarvestModelSlot"
+              },
+              "Attachment": {
+                "Compute": "HarvestModelAttachmentHarvestable"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "Initializes the produce item alarm",
+      "Enabled": {
+        "Compute": "!isEmpty(ProduceItem)"
+      },
+      "Sensor": {
+        "Type": "Any",
+        "Once": true
+      },
+      "Actions": [
+        {
+          "Type": "SetAlarm",
+          "Name": "Produce_Ready",
+          "DurationRange": {
+            "Compute": "ProduceTimeout"
+          }
+        }
+      ]
+    },
+    {
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Idle"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Switch to flee state if any flock member engages a target TODO switch to attack if you are very close and can attack? otherwise flee.",
+              "Enabled": {
+                "Compute": "!isEmptyStringArray(FlockArray)"
+              },
+              "Sensor": {
+                "Type": "Beacon",
+                "Message": "Flock_Attack",
+                "TargetSlot": "LockedTarget",
+                "Range": {
+                  "Compute": "HearingRange"
+                }
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted"
+                }
+              ]
+            },
+            {
+              "Reference": "Component_Instruction_Damage_Check",
+              "Modify": {
+                "_ExportStates": [
+                  "Flee.Switch",
+                  "Panic"
+                ],
+                "AlertedRange": {
+                  "Compute": "AlertedRange"
+                }
+              }
+            },
+            {
+              "$Comment": "Check if there are any potential things that can alert the NPC",
+              "Sensor": {
+                "Reference": "Component_Sensor_Standard_Detection",
+                "Modify": {
+                  "ViewRange": {
+                    "Compute": "ViewRange"
+                  },
+                  "ViewSector": {
+                    "Compute": "ViewSector"
+                  },
+                  "HearingRange": {
+                    "Compute": "HearingRange"
+                  },
+                  "AbsoluteDetectionRange": {
+                    "Compute": "AbsoluteDetectionRange"
+                  },
+                  "Attitudes": [
+                    "Hostile",
+                    "Neutral",
+                    "Friendly"
+                  ]
+                }
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted"
+                }
+              ]
+            },
+            {
+              "$Comment": "If we're beyond our soft leash radius for a set period of time, return home.",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Leash",
+                "Range": {
+                  "Compute": "LeashDistance"
+                }
+              },
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    15,
+                    20
+                  ]
+                },
+                {
+                  "Type": "State",
+                  "State": "ReturnHome"
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "State",
+                "State": ".FindFood"
+              },
+              "Instructions": [
+                {
+                  "Sensor": {
+                    "Type": "Or",
+                    "Sensors": [
+                      {
+                        "Type": "Block",
+                        "Range": 1.5,
+                        "MaxHeight": 4,
+                        "Blocks": {
+                          "Compute": "FoodBlockSet"
+                        },
+                        "Random": true
+                      },
+                      {
+                        "Enabled": {
+                          "Compute": "!isEmptyStringArray(FoodItemSet)"
+                        },
+                        "Type": "DroppedItem",
+                        "Range": 1,
+                        "Items": {
+                          "Compute": "FoodItemSet"
+                        },
+                        "ViewSector": {
+                          "Compute": "ViewSector"
+                        },
+                        "LineOfSight": true
+                      }
+                    ]
+                  },
+                  "BodyMotion": {
+                    "Type": "AimCharge"
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "PlayAnimation",
+                      "Slot": "Status",
+                      "Animation": "Eat"
+                    },
+                    {
+                      "Type": "Timeout",
+                      "Delay": [
+                        4,
+                        6
+                      ]
+                    },
+                    {
+                      "Type": "PickUpItem",
+                      "Items": [
+                        "*Hay*"
+                      ],
+                      "Range": 1.5,
+                      "StorageTarget": "Destroy"
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Or",
+                    "Sensors": [
+                      {
+                        "Type": "Block",
+                        "Range": {
+                          "Compute": "ViewRange"
+                        },
+                        "MaxHeight": 4,
+                        "Blocks": {
+                          "Compute": "FoodBlockSet"
+                        },
+                        "Random": true
+                      },
+                      {
+                        "Enabled": {
+                          "Compute": "!isEmptyStringArray(FoodItemSet)"
+                        },
+                        "Type": "DroppedItem",
+                        "Range": {
+                          "Compute": "ViewRange"
+                        },
+                        "Items": {
+                          "Compute": "FoodItemSet"
+                        },
+                        "ViewSector": {
+                          "Compute": "ViewSector"
+                        },
+                        "LineOfSight": true
+                      }
+                    ]
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "RelativeSpeed": 0.6,
+                    "StopDistance": 0.5,
+                    "RelaxedMoveConstraints": false
+                  },
+                  "HeadMotion": {
+                    "Type": "Watch"
+                  }
+                },
+                {
+                  "Sensor": {
+                    "Type": "Any"
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "PlayAnimation",
+                      "Slot": "Status"
+                    },
+                    {
+                      "Type": "Timeout",
+                      "Delay": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "Type": "ResetBlockSensors"
+                    },
+                    {
+                      "Type": "State",
+                      "State": ".Default"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "$Comment": "Produce an item",
+              "Enabled": {
+                "Compute": "!isEmpty(ProduceItem)"
+              },
+              "Continue": true,
+              "Instructions": [
+                {
+                  "Sensor": {
+                    "Type": "Alarm",
+                    "Name": "Produce_Ready",
+                    "State": "Passed",
+                    "Clear": true
+                  },
+                  "Actions": [
+                    {
+                      "Type": "Nothing"
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Alarm",
+                    "Name": "Produce_Ready",
+                    "State": "Unset"
+                  },
+                  "Actions": [
+                    {
+                      "Type": "DropItem",
+                      "Item": {
+                        "Compute": "ProduceItem"
+                      },
+                      "Distance": [
+                        0,
+                        0
+                      ],
+                      "Delay": [
+                        0,
+                        0
+                      ],
+                      "ThrowSpeed": 14.32
+                    },
+                    {
+                      "Type": "SetAlarm",
+                      "Name": "Produce_Ready",
+                      "DurationRange": {
+                        "Compute": "ProduceTimeout"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "$Comment": "Execute daytime idle behaviors.",
+              "Type": "Random",
+              "ExecuteFor": [
+                20,
+                30
+              ],
+              "Sensor": {
+                "Type": "Time",
+                "Period": {
+                  "Compute": "DayTimePeriod"
+                },
+                "CheckDay": true
+              },
+              "Instructions": [
+                {
+                  "$Comment": "Regular wander.",
+                  "Weight": 20,
+                  "Instructions": [
+                    {
+                      "Continue": true,
+                      "Actions": [
+                        {
+                          "Type": "Crouch",
+                          "Crouch": false
+                        }
+                      ]
+                    },
+                    {
+                      "Reference": "Component_Instruction_Leash_To_Flock_Leader",
+                      "Modify": {
+                        "Enabled": {
+                          "Compute": "!isEmptyStringArray(FlockArray)"
+                        },
+                        "WanderRadius": {
+                          "Compute": "WanderRadius"
+                        },
+                        "StopDistance": 3
+                      }
+                    },
+                    {
+                      "BodyMotion": {
+                        "Type": "Sequence",
+                        "Looped": true,
+                        "Motions": [
+                          {
+                            "Type": "Timer",
+                            "Time": [
+                              1,
+                              5
+                            ],
+                            "Motion": {
+                              "Type": "WanderInCircle",
+                              "Radius": {
+                                "Compute": "WanderRadius"
+                              },
+                              "MaxHeadingChange": 60,
+                              "RelativeSpeed": 0.18
+                            }
+                          },
+                          {
+                            "Type": "Timer",
+                            "Time": [
+                              3,
+                              8
+                            ],
+                            "Motion": {
+                              "Type": "Nothing"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "TODO: grazing component seems to be borked",
+                  "Weight": 10,
+                  "Instructions": [
+                    {
+                      "Sensor": {
+                        "Type": "Self",
+                        "Filters": [
+                          {
+                            "Type": "StandingOnBlock",
+                            "BlockSet": {
+                              "Compute": "GrazingBlockSet"
+                            }
+                          }
+                        ]
+                      },
+                      "ActionsBlocking": true,
+                      "Actions": [
+                        {
+                          "Type": "PlayAnimation",
+                          "Slot": "Status",
+                          "Animation": "Eat"
+                        },
+                        {
+                          "Type": "Timeout",
+                          "Delay": [
+                            5,
+                            6
+                          ]
+                        },
+                        {
+                          "Type": "PlayAnimation",
+                          "Slot": "Status"
+                        },
+                        {
+                          "Type": "ResetInstructions"
+                        }
+                      ]
+                    },
+                    {
+                      "$Comment": "They are not standing on grazing block",
+                      "Actions": [
+                        {
+                          "Type": "ResetInstructions"
+                        },
+                        {
+                          "Type": "State",
+                          "State": ".Default"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Enabled": {
+                    "Compute": "!isEmpty(FoodBlockSet) || !isEmptyStringArray(FoodItemSet)"
+                  },
+                  "Weight": 10,
+                  "Instructions": [
+                    {
+                      "Sensor": {
+                        "Type": "Or",
+                        "Sensors": [
+                          {
+                            "Enabled": {
+                              "Compute": "!isEmptyStringArray(FoodItemSet)"
+                            },
+                            "Type": "DroppedItem",
+                            "Range": {
+                              "Compute": "ViewRange"
+                            },
+                            "Items": {
+                              "Compute": "FoodItemSet"
+                            },
+                            "ViewSector": {
+                              "Compute": "ViewSector"
+                            },
+                            "LineOfSight": true
+                          },
+                          {
+                            "Enabled": {
+                              "Compute": "!isEmpty(FoodBlockSet)"
+                            },
+                            "Type": "Block",
+                            "Range": {
+                              "Compute": "ViewRange"
+                            },
+                            "MaxHeight": 4,
+                            "Blocks": {
+                              "Compute": "FoodBlockSet"
+                            },
+                            "Random": true
+                          }
+                        ]
+                      },
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": ".FindFood"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "Play a daytime flavor animation.",
+                  "Enabled": {
+                    "Compute": "!isEmpty(DayFlavorAnimation)"
+                  },
+                  "Weight": 3,
+                  "Instructions": [
+                    {
+                      "ActionsBlocking": true,
+                      "Actions": [
+                        {
+                          "Type": "PlayAnimation",
+                          "Slot": "Status",
+                          "Animation": {
+                            "Compute": "DayFlavorAnimation"
+                          }
+                        },
+                        {
+                          "Type": "Timeout",
+                          "Delay": {
+                            "Compute": "DayFlavorAnimationLength"
+                          }
+                        },
+                        {
+                          "Type": "PlayAnimation",
+                          "Slot": "Status"
+                        },
+                        {
+                          "Type": "ResetInstructions"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "Nap.",
+                  "Enabled": {
+                    "Compute": "DayTimeNapWeight > 0"
+                  },
+                  "Weight": {
+                    "Compute": "DayTimeNapWeight"
+                  },
+                  "Instructions": [
+                    {
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": "Sleep.Nap"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "$Comment": "Sleep time.",
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    2,
+                    4
+                  ],
+                  "Action": {
+                    "Type": "Sequence",
+                    "Actions": [
+                      {
+                        "Type": "State",
+                        "State": "Sleep"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Sleep"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Wake up if an enemy attacks a flock member.",
+              "Enabled": {
+                "Compute": "!isEmptyStringArray(FlockArray)"
+              },
+              "Sensor": {
+                "Type": "Beacon",
+                "Message": "Flock_Attack",
+                "TargetSlot": "LockedTarget"
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted"
+                }
+              ]
+            },
+            {
+              "$Comment": "Just a little nap.",
+              "Enabled": {
+                "Compute": "DayTimeNapWeight > 0"
+              },
+              "Sensor": {
+                "Type": "State",
+                "State": ".Nap"
+              },
+              "Instructions": [
+                {
+                  "$Comment": "Start the nap timer",
+                  "Continue": true,
+                  "Sensor": {
+                    "Type": "Any",
+                    "Once": true
+                  },
+                  "Actions": [
+                    {
+                      "Type": "TimerStart",
+                      "Name": "NapTimer",
+                      "StartValueRange": {
+                        "Compute": "DayTimeNapTimeRange"
+                      },
+                      "RestartValueRange": {
+                        "Compute": "DayTimeNapTimeRange"
+                      }
+                    },
+                    {
+                      "Type": "TimerRestart",
+                      "Name": "NapTimer"
+                    }
+                  ]
+                },
+                {
+                  "Reference": "Component_Instruction_Wild_Sleep_State",
+                  "Modify": {
+                    "_ExportStates": [
+                      "Panic",
+                      "Panic",
+                      "Flee.Switch",
+                      "Idle"
+                    ],
+                    "HearingRange": {
+                      "Compute": "HearingRange"
+                    },
+                    "Attitudes": [
+                      "Hostile",
+                      "Neutral"
+                    ],
+                    "WakeupSensor": "Component_Sensor_Timed_Nap"
+                  }
+                }
+              ]
+            },
+            {
+              "$Comment": "Night-time sleep.",
+              "Instructions": [
+                {
+                  "Reference": "Component_Instruction_Wild_Sleep_State",
+                  "Modify": {
+                    "_ExportStates": [
+                      "Panic",
+                      "Panic",
+                      "Flee.Switch",
+                      "Idle"
+                    ],
+                    "HearingRange": {
+                      "Compute": "HearingRange"
+                    },
+                    "Attitudes": [
+                      "Hostile",
+                      "Neutral"
+                    ],
+                    "DayTimePeriod": {
+                      "Compute": "DayTimePeriod"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$Comment": "Used when receiving something like a flock beacon that may potentially result in the NPC becoming alerted but could also be discarded with a random chance.",
+          "Sensor": {
+            "Type": "State",
+            "State": "Alerted"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Play the alerted animation when entering the state",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "PlayAnimation",
+                  "Slot": "Status",
+                  "Animation": "Alerted"
+                }
+              ]
+            },
+            {
+              "$Comment": "Starting a timer to get out of alerted state if nothing else got us out of there. TODO: expose the timer duration",
+              "Continue": true,
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": {
+                    "Compute": "AlertedTimeoutGiveUp"
+                  }
+                },
+                {
+                  "Type": "State",
+                  "State": ".TimerEnd"
+                }
+              ]
+            },
+            {
+              "$Comment": "Check for damage",
+              "Reference": "Component_Instruction_Damage_Check",
+              "Modify": {
+                "_ExportStates": [
+                  "Flee.Switch",
+                  "Panic"
+                ],
+                "AlertedRange": {
+                  "Compute": "AlertedRange"
+                }
+              }
+            },
+            {
+              "$Comment": "Watching a target always, if we have any",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Target",
+                "Range": {
+                  "Compute": "AlertedRange"
+                }
+              },
+              "HeadMotion": {
+                "Type": "Watch"
+              }
+            },
+            {
+              "$Comment": "If the target gets too close, flee for a bit",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Target",
+                "Range": {
+                  "Compute": "AlertedActionRange * randomInRange(0.3, 0.7)"
+                }
+              },
+              "BodyMotion": {
+                "Type": "Flee",
+                "RelativeSpeed": 0.5,
+                "StopDistance": {
+                  "Compute": "AlertedActionRange"
+                },
+                "SlowDownDistance": {
+                  "Compute": "AlertedActionRange * 0.25"
+                },
+                "RelaxedMoveConstraints": false
+              }
+            },
+            {
+              "Continue": true,
+              "Sensor": {
+                "$Comment": "If target is reasonably close, the NPC will react instead of just staring",
+                "Type": "Target",
+                "Range": {
+                  "Compute": "AlertedActionRange"
+                },
+                "Filters": [
+                  {
+                    "Type": "LineOfSight"
+                  }
+                ]
+              },
+              "Instructions": [
+                {
+                  "Enabled": {
+                    "Compute": "!isEmptyStringArray(LovedItems)"
+                  },
+                  "$Comment": "If the target is holding an item deemed very attractive, always follow it",
+                  "Sensor": {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "ItemInHand",
+                        "Items": {
+                          "Compute": "LovedItems"
+                        }
+                      },
+                      {
+                        "Type": "Not",
+                        "Filter": {
+                          "Type": "Attitude",
+                          "Attitudes": [
+                            "Hostile",
+                            "Ignore"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "Actions": [
+                    {
+                      "$Comment": "TODO: check what particle systems are offsetting off of and potentially expose it to compute",
+                      "Type": "SpawnParticles",
+                      "Offset": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "ParticleSystem": "Hearts"
+                    },
+                    {
+                      "Type": "OverrideAttitude",
+                      "Attitude": "Friendly",
+                      "Duration": {
+                        "Compute": "FriendlyOverrideTimeWithAttractiveItem"
+                      }
+                    },
+                    {
+                      "Type": "State",
+                      "State": "Curious.Item"
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "Threatening actions that will cause the NPC to flee",
+                  "Sensor": {
+                    "Type": "Or",
+                    "Sensors": [
+                      {
+                        "Type": "Target",
+                        "Filters": [
+                          {
+                            "Type": "Or",
+                            "Filters": [
+                              {
+                                "Type": "Attitude",
+                                "Attitudes": [
+                                  "Hostile"
+                                ]
+                              },
+                              {
+                                "Type": "Combat"
+                              },
+                              {
+                                "Type": "ItemInHand",
+                                "Items": [
+                                  "*Weapon*"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Target",
+                        "Filters": [
+                          {
+                            "Type": "Not",
+                            "Filter": {
+                              "Type": "Attitude",
+                              "Attitudes": [
+                                "Friendly"
+                              ]
+                            }
+                          },
+                          {
+                            "Type": "MovementState",
+                            "State": "Sprinting"
+                          }
+                        ]
+                      },
+                      {
+                        "Enabled": {
+                          "Compute": "Timid"
+                        },
+                        "Type": "Target",
+                        "Filters": [
+                          {
+                            "Type": "MovementState",
+                            "State": "Sprinting"
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Target",
+                        "Range": {
+                          "Compute": "AbsoluteDetectionRange"
+                        },
+                        "Filters": [
+                          {
+                            "Type": "Not",
+                            "Filter": {
+                              "Type": "Attitude",
+                              "Attitudes": [
+                                "Friendly",
+                                "Ignore"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Actions": [
+                    {
+                      "Type": "State",
+                      "State": "Flee.Switch"
+                    }
+                  ]
+                },
+                {
+                  "Continue": true,
+                  "$Comment": "Starting a second timer to try and turn friendly. TODO: compute it as % of alerted timer",
+                  "Sensor": {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "Attitude",
+                        "Attitudes": [
+                          "Neutral"
+                        ]
+                      }
+                    ]
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "Timeout",
+                      "Delay": {
+                        "Compute": "AlertedTimeoutReaction"
+                      }
+                    },
+                    {
+                      "Type": "State",
+                      "State": ".Switch"
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "Execute random behaviors towards friendly and revered.",
+                  "Type": "Random",
+                  "ExecuteFor": [
+                    15,
+                    20
+                  ],
+                  "Sensor": {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "Attitude",
+                        "Attitudes": [
+                          "Friendly",
+                          "Revered"
+                        ]
+                      }
+                    ]
+                  },
+                  "Instructions": [
+                    {
+                      "Enabled": {
+                        "Compute": "!isEmptyStringArray(AttractiveItems)"
+                      },
+                      "Weight": {
+                        "Compute": "WeightFollowItem"
+                      },
+                      "$Comment": "TODO: change this to a weight-based decision to avoid the whole flock chasing the item",
+                      "Sensor": {
+                        "Type": "Target",
+                        "Filters": [
+                          {
+                            "Type": "ItemInHand",
+                            "Items": {
+                              "Compute": "AttractiveItems"
+                            }
+                          }
+                        ]
+                      },
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": "Curious.Item"
+                        }
+                      ]
+                    },
+                    {
+                      "Enabled": {
+                        "Compute": "WeightGreet > 0"
+                      },
+                      "Weight": {
+                        "Compute": "WeightGreet"
+                      },
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": "Curious.Greet"
+                        }
+                      ]
+                    },
+                    {
+                      "$Comment": "NPC will approach player and stop at a distance, following them like this for a while",
+                      "Enabled": {
+                        "Compute": "WeightFollow > 0"
+                      },
+                      "Weight": {
+                        "Compute": "WeightFollow"
+                      },
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": "Curious.Follow"
+                        }
+                      ]
+                    },
+                    {
+                      "$Comment": "We override the attitude here and go to idle - this way the alerted state won't be triggered right away",
+                      "Enabled": {
+                        "Compute": "WeightIgnore > 0"
+                      },
+                      "Weight": {
+                        "Compute": "WeightIgnore"
+                      },
+                      "Sensor": {
+                        "Type": "Target"
+                      },
+                      "ActionsBlocking": true,
+                      "Actions": [
+                        {
+                          "Type": "OverrideAttitude",
+                          "Attitude": "Ignore",
+                          "Duration": {
+                            "Compute": "IgnoreOverrideTime"
+                          }
+                        },
+                        {
+                          "Type": "State",
+                          "State": "Idle"
+                        }
+                      ]
+                    },
+                    {
+                      "$Comment": "Fallback if weights are misconfigured",
+                      "Weight": 1,
+                      "Sensor": {
+                        "Type": "Target"
+                      },
+                      "ActionsBlocking": true,
+                      "Actions": [
+                        {
+                          "Type": "OverrideAttitude",
+                          "Attitude": "Ignore",
+                          "Duration": {
+                            "Compute": "IgnoreOverrideTime"
+                          }
+                        },
+                        {
+                          "Type": "State",
+                          "State": "Idle"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "State",
+                "State": ".TimerEnd"
+              },
+              "Instructions": [
+                {
+                  "Enabled": {
+                    "Compute": "!Timid"
+                  },
+                  "Sensor": {
+                    "$Comment": "Timer ended, we still have a target and it's a friendly one and we are not timid",
+                    "Type": "Target",
+                    "Range": {
+                      "Compute": "AlertedRange"
+                    },
+                    "Filters": [
+                      {
+                        "Type": "Attitude",
+                        "Attitudes": [
+                          "Friendly"
+                        ]
+                      }
+                    ]
+                  },
+                  "Actions": [
+                    {
+                      "Type": "OverrideAttitude",
+                      "Attitude": "Ignore",
+                      "Duration": {
+                        "Compute": "IgnoreOverrideTime"
+                      }
+                    },
+                    {
+                      "Type": "State",
+                      "State": "Idle"
+                    }
+                  ]
+                },
+                {
+                  "Enabled": {
+                    "Compute": "Timid"
+                  },
+                  "Sensor": {
+                    "$Comment": "Timer ended, I am timid and the target is staring me down, stranger danger, flee",
+                    "Type": "Target",
+                    "Range": {
+                      "Compute": "AlertedRange"
+                    },
+                    "Filters": [
+                      {
+                        "Type": "SpotsMe"
+                      },
+                      {
+                        "Type": "Not",
+                        "Filter": {
+                          "Type": "Attitude",
+                          "Attitudes": [
+                            "Friendly"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "Actions": [
+                    {
+                      "Type": "State",
+                      "State": "Flee"
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "$Comment": "Timer ended, target seems uninterested and is assumed to be harmless, ignore for a while",
+                    "Type": "Target",
+                    "Range": {
+                      "Compute": "AlertedRange"
+                    }
+                  },
+                  "Actions": [
+                    {
+                      "Type": "OverrideAttitude",
+                      "Attitude": "Ignore",
+                      "Duration": {
+                        "Compute": "IgnoreOverrideTime"
+                      }
+                    },
+                    {
+                      "Type": "State",
+                      "State": "Idle"
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "There is no target, so just go idle",
+                  "Actions": [
+                    {
+                      "Type": "State",
+                      "State": "Idle"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "$Comment": "Timer elapsed and we randomly decide if friendly or not. This has to continue so we can hit the friendly instructions below",
+              "Sensor": {
+                "Type": "State",
+                "State": ".Switch"
+              },
+              "Instructions": [
+                {
+                  "$Comment": "If the NPC is configured with a different chance to befriend when the target is holding a special item, use that chance",
+                  "Enabled": {
+                    "Compute": "ChanceToTurnFriendlyWithAttractiveItem > 0"
+                  },
+                  "Sensor": {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "Attitude",
+                        "Attitudes": [
+                          "Neutral"
+                        ]
+                      },
+                      {
+                        "Type": "ItemInHand",
+                        "Items": {
+                          "Compute": "AttractiveItems"
+                        }
+                      }
+                    ]
+                  },
+                  "Type": "Random",
+                  "ExecuteFor": [
+                    15,
+                    20
+                  ],
+                  "Instructions": [
+                    {
+                      "Weight": {
+                        "Compute": "ChanceToTurnFriendlyWithAttractiveItem"
+                      },
+                      "Sensor": {
+                        "Type": "Target"
+                      },
+                      "Actions": [
+                        {
+                          "$Comment": "TODO: check what particle systems are offsetting off of and potentially expose it to compute",
+                          "Type": "SpawnParticles",
+                          "Offset": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "ParticleSystem": "Hearts"
+                        },
+                        {
+                          "Type": "OverrideAttitude",
+                          "Attitude": "Friendly",
+                          "Duration": {
+                            "Compute": "FriendlyOverrideTimeWithAttractiveItem"
+                          }
+                        },
+                        {
+                          "$Comment": "Prevents the next instruction from running as soon as the player is no longer neutral",
+                          "Type": "State",
+                          "State": ".Default"
+                        }
+                      ]
+                    },
+                    {
+                      "Enabled": {
+                        "Compute": "ChanceToTurnFriendlyWithAttractiveItem < 100"
+                      },
+                      "Weight": {
+                        "Compute": "100 - ChanceToTurnFriendlyWithAttractiveItem"
+                      },
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": "Flee"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "NPC becoming friendly with a player",
+                  "Enabled": {
+                    "Compute": "ChanceToTurnFriendly > 0"
+                  },
+                  "Sensor": {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "Attitude",
+                        "Attitudes": [
+                          "Neutral"
+                        ]
+                      }
+                    ]
+                  },
+                  "Type": "Random",
+                  "ExecuteFor": [
+                    15,
+                    20
+                  ],
+                  "Instructions": [
+                    {
+                      "Weight": {
+                        "Compute": "ChanceToTurnFriendly"
+                      },
+                      "Sensor": {
+                        "Type": "Target"
+                      },
+                      "Actions": [
+                        {
+                          "$Comment": "TODO: check what it is offseting off and potentially expose it to compute",
+                          "Type": "SpawnParticles",
+                          "Offset": [
+                            0,
+                            1,
+                            0
+                          ],
+                          "ParticleSystem": "Hearts"
+                        },
+                        {
+                          "Type": "OverrideAttitude",
+                          "Attitude": "Friendly",
+                          "Duration": {
+                            "Compute": "FriendlyOverrideTime"
+                          }
+                        },
+                        {
+                          "$Comment": "Prevents the next instruction from running as soon as the player is no longer neutral",
+                          "Type": "State",
+                          "State": ".Default"
+                        }
+                      ]
+                    },
+                    {
+                      "Enabled": {
+                        "Compute": "ChanceToTurnFriendly < 100"
+                      },
+                      "Weight": {
+                        "Compute": "100 - ChanceToTurnFriendly"
+                      },
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": "Flee"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Curious"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Animations",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "PlayAnimation",
+                  "Slot": "Status",
+                  "Animation": "Curious"
+                }
+              ]
+            },
+            {
+              "$Comment": "If getting to the target takes too long, ignore and go to idle. This is also how long it will follow if this is triggered,TODO: mb could be a bit longer for the follow? ",
+              "Sensor": {
+                "Type": "And",
+                "Sensors": [
+                  {
+                    "Type": "Target"
+                  },
+                  {
+                    "$Comment": "The item follow substates has its own timeouts",
+                    "Type": "Not",
+                    "Sensor": {
+                      "Type": "State",
+                      "State": "Curious.Item"
+                    }
+                  }
+                ]
+              },
+              "Continue": true,
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    7,
+                    7
+                  ]
+                },
+                {
+                  "Type": "OverrideAttitude",
+                  "Attitude": "Ignore",
+                  "Duration": {
+                    "Compute": "IgnoreOverrideTime"
+                  }
+                },
+                {
+                  "Type": "State",
+                  "State": "Idle"
+                }
+              ]
+            },
+            {
+              "$Comment": "Check if there are any potential threats nearby and flee. TODO: add more tirggers to flee",
+              "Sensor": {
+                "Reference": "Component_Sensor_Standard_Detection",
+                "Modify": {
+                  "ViewRange": {
+                    "Compute": "ViewRange"
+                  },
+                  "ViewSector": {
+                    "Compute": "ViewSector"
+                  },
+                  "HearingRange": {
+                    "Compute": "HearingRange"
+                  },
+                  "AbsoluteDetectionRange": {
+                    "Compute": "AbsoluteDetectionRange"
+                  },
+                  "Attitudes": [
+                    "Hostile"
+                  ]
+                }
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Flee.Switch"
+                }
+              ]
+            },
+            {
+              "Reference": "Component_Instruction_Damage_Check",
+              "Modify": {
+                "_ExportStates": [
+                  "Flee.Switch",
+                  "Panic"
+                ],
+                "AlertedRange": {
+                  "Compute": "AlertedRange"
+                }
+              }
+            },
+            {
+              "$Comment": "TODO: mb potentially move secnsor component for curious, or for alerted - with parameters to be mor forgiving",
+              "Sensor": {
+                "Type": "Or",
+                "Sensors": [
+                  {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "Or",
+                        "Filters": [
+                          {
+                            "Type": "Attitude",
+                            "Attitudes": [
+                              "Hostile"
+                            ]
+                          },
+                          {
+                            "Type": "Combat"
+                          },
+                          {
+                            "Type": "ItemInHand",
+                            "Items": [
+                              "*Weapon*"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "Not",
+                        "Filter": {
+                          "Type": "Attitude",
+                          "Attitudes": [
+                            "Friendly"
+                          ]
+                        }
+                      },
+                      {
+                        "Type": "MovementState",
+                        "State": "Sprinting"
+                      }
+                    ]
+                  },
+                  {
+                    "Enabled": {
+                      "Compute": "Timid"
+                    },
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "MovementState",
+                        "State": "Sprinting"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Target",
+                    "Range": {
+                      "Compute": "AbsoluteDetectionRange"
+                    },
+                    "Filters": [
+                      {
+                        "Type": "Not",
+                        "Filter": {
+                          "Type": "Attitude",
+                          "Attitudes": [
+                            "Friendly",
+                            "Ignore"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Flee.Switch"
+                }
+              ]
+            },
+            {
+              "$Comment": "We lost target",
+              "Sensor": {
+                "Type": "Not",
+                "Sensor": {
+                  "Type": "Target",
+                  "Range": {
+                    "Compute": "AlertedRange"
+                  },
+                  "Filters": [
+                    {
+                      "Type": "LineOfSight"
+                    }
+                  ]
+                }
+              },
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    0.2,
+                    0.2
+                  ]
+                },
+                {
+                  "Type": "State",
+                  "State": "Idle"
+                }
+              ]
+            },
+            {
+              "$Comment": "Moving to an attractive item",
+              "Sensor": {
+                "Type": "State",
+                "State": ".Item"
+              },
+              "Instructions": [
+                {
+                  "$Comment": "Start a timer after which the NPC will lose interest in the item holder, regardless of range",
+                  "Continue": true,
+                  "Sensor": {
+                    "Type": "Target"
+                  },
+                  "HeadMotion": {
+                    "Type": "Watch"
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "Timeout",
+                      "Delay": {
+                        "Compute": "AttractiveItemsTimeout"
+                      }
+                    },
+                    {
+                      "Type": "PlayAnimation",
+                      "Slot": "Status"
+                    },
+                    {
+                      "Type": "Timeout",
+                      "Delay": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "Type": "OverrideAttitude",
+                      "Attitude": "Ignore",
+                      "Duration": 20
+                    },
+                    {
+                      "Type": "State",
+                      "State": "Idle"
+                    }
+                  ]
+                },
+                {
+                  "$Comment": "Target too far or without attractive item",
+                  "Sensor": {
+                    "Type": "And",
+                    "Sensors": [
+                      {
+                        "Type": "Not",
+                        "Sensor": {
+                          "Type": "Target",
+                          "Range": {
+                            "Compute": "AlertedRange"
+                          },
+                          "Filters": [
+                            {
+                              "Type": "LineOfSight"
+                            },
+                            {
+                              "Type": "ItemInHand",
+                              "Items": {
+                                "Compute": "AttractiveItems"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "$Comment": "Need to do this to avoid two concurrent ItemInHand filters",
+                        "Enabled": {
+                          "Compute": "!isEmptyStringArray(LovedItems)"
+                        },
+                        "Type": "Not",
+                        "Sensor": {
+                          "Type": "Target",
+                          "Range": {
+                            "Compute": "AlertedRange"
+                          },
+                          "Filters": [
+                            {
+                              "Type": "LineOfSight"
+                            },
+                            {
+                              "Type": "ItemInHand",
+                              "Items": {
+                                "Compute": "LovedItems"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "PlayAnimation",
+                      "Slot": "Status",
+                      "Animation": "Alerted"
+                    },
+                    {
+                      "Type": "Timeout",
+                      "Delay": [
+                        2,
+                        3
+                      ]
+                    },
+                    {
+                      "Type": "State",
+                      "State": "Idle"
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": 2.5
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "Timeout",
+                      "Delay": {
+                        "Compute": "AttractiveItemsSmellTimeout"
+                      }
+                    },
+                    {
+                      "Type": "PlayAnimation",
+                      "Slot": "Status"
+                    },
+                    {
+                      "Type": "OverrideAttitude",
+                      "Attitude": "Ignore",
+                      "Duration": 20
+                    },
+                    {
+                      "Type": "State",
+                      "State": "Idle"
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": {
+                      "Compute": "AlertedRange"
+                    }
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "SlowDownDistance": 3.5,
+                    "StopDistance": 2,
+                    "RelativeSpeed": 0.4,
+                    "RelaxedMoveConstraints": false
+                  }
+                }
+              ]
+            },
+            {
+              "$Comment": "Moving to Greet",
+              "Sensor": {
+                "Type": "State",
+                "State": ".Greet"
+              },
+              "Instructions": [
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": 3
+                  },
+                  "HeadMotion": {
+                    "Type": "Watch",
+                    "RelativeTurnSpeed": 0.5
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "PlayAnimation",
+                      "Slot": "Status",
+                      "Animation": "GreetAnimation"
+                    },
+                    {
+                      "Type": "Timeout",
+                      "Delay": [
+                        2,
+                        4
+                      ]
+                    },
+                    {
+                      "Type": "PlayAnimation",
+                      "Slot": "Status"
+                    },
+                    {
+                      "Type": "OverrideAttitude",
+                      "Attitude": "Ignore",
+                      "Duration": {
+                        "Compute": "IgnoreOverrideTime"
+                      }
+                    },
+                    {
+                      "Type": "State",
+                      "State": "Idle"
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": {
+                      "Compute": "AlertedActionRange"
+                    }
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "SlowDownDistance": 5,
+                    "StopDistance": 3,
+                    "RelativeSpeed": 0.4,
+                    "RelaxedMoveConstraints": false
+                  }
+                }
+              ]
+            },
+            {
+              "$Comment": "Moving to follow, stop at half alerted action range and watch a bit. TODO: flee if player sprints towards npc",
+              "Sensor": {
+                "Type": "State",
+                "State": ".Follow"
+              },
+              "Instructions": [
+                {
+                  "Continue": true,
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": {
+                      "Compute": "AlertedActionRange"
+                    }
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "SlowDownDistance": {
+                      "Compute": "AlertedActionRange"
+                    },
+                    "StopDistance": {
+                      "Compute": "AlertedActionRange * 0.5"
+                    },
+                    "RelativeSpeed": 0.4,
+                    "RelaxedMoveConstraints": false
+                  }
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": 4
+                  },
+                  "ActionsBlocking": true,
+                  "Actions": [
+                    {
+                      "Type": "Timeout",
+                      "Delay": [
+                        0.5,
+                        0.5
+                      ]
+                    }
+                  ],
+                  "HeadMotion": {
+                    "Type": "Watch"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "ReturnHome"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Switch to flee state if any flock member engages a target TODO switch to attack if you are very close and can attack? otherwise flee.",
+              "Enabled": {
+                "Compute": "!isEmptyStringArray(FlockArray)"
+              },
+              "Sensor": {
+                "Type": "Beacon",
+                "Message": "Flock_Attack",
+                "TargetSlot": "LockedTarget",
+                "Range": {
+                  "Compute": "HearingRange"
+                }
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted"
+                }
+              ]
+            },
+            {
+              "Reference": "Component_Instruction_Damage_Check",
+              "Modify": {
+                "_ExportStates": [
+                  "Flee.Switch",
+                  "Panic"
+                ],
+                "AlertedRange": {
+                  "Compute": "AlertedRange"
+                }
+              }
+            },
+            {
+              "$Comment": "Check if there are any potential things that can alert the NPC",
+              "Sensor": {
+                "Reference": "Component_Sensor_Standard_Detection",
+                "Modify": {
+                  "ViewRange": {
+                    "Compute": "ViewRange"
+                  },
+                  "ViewSector": {
+                    "Compute": "ViewSector"
+                  },
+                  "HearingRange": {
+                    "Compute": "HearingRange"
+                  },
+                  "AbsoluteDetectionRange": {
+                    "Compute": "AbsoluteDetectionRange"
+                  },
+                  "Attitudes": [
+                    "Hostile",
+                    "Neutral",
+                    "Friendly"
+                  ]
+                }
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted"
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "$Comment": "TODO: make them walk home, expose walking speed?",
+                "Type": "Leash",
+                "Range": {
+                  "Compute": "LeashDistance * 0.3"
+                }
+              },
+              "BodyMotion": {
+                "Type": "Seek",
+                "SlowDownDistance": 1,
+                "StopDistance": 0.5,
+                "RelativeSpeed": 0.4,
+                "UsePathfinder": true
+              }
+            },
+            {
+              "Actions": [
+                {
+                  "Type": "SetStat",
+                  "Stat": "Health",
+                  "Value": 1000000
+                },
+                {
+                  "Type": "State",
+                  "State": "Idle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Flee"
+          },
+          "Instructions": [
+            {
+              "$Comment": "TODO: Add a state message",
+              "Enabled": {
+                "Compute": "!isEmptyStringArray(FlockArray)"
+              },
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "FlockBeacon",
+                  "Message": "Flock_Attack",
+                  "SendTargetSlot": "LockedTarget"
+                }
+              ]
+            },
+            {
+              "Reference": "Component_Instruction_Damage_Check",
+              "Modify": {
+                "_ExportStates": [
+                  "Flee.Switch",
+                  "Panic"
+                ],
+                "AlertedRange": {
+                  "Compute": "AlertedRange"
+                }
+              }
+            },
+            {
+              "Sensor": {
+                "Type": "State",
+                "State": ".Switch"
+              },
+              "Instructions": [
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "TargetSlot": "LockedTarget",
+                    "Range": {
+                      "Compute": "AttackRange"
+                    }
+                  },
+                  "Instructions": [
+                    {
+                      "Continue": true,
+                      "Sensor": {
+                        "Type": "Target",
+                        "Once": true
+                      },
+                      "Actions": [
+                        {
+                          "$TODO": "Maybe friendly lifestock doesnt override it for player when hit",
+                          "Type": "OverrideAttitude",
+                          "Attitude": "Hostile",
+                          "Duration": 23
+                        }
+                      ]
+                    },
+                    {
+                      "Enabled": {
+                        "Compute": "AttackWhenStartled"
+                      },
+                      "Sensor": {
+                        "Type": "Target",
+                        "Filters": [
+                          {
+                            "Type": "Not",
+                            "Filter": {
+                              "Type": "ViewSector",
+                              "ViewSector": 270
+                            }
+                          }
+                        ]
+                      },
+                      "ActionsBlocking": true,
+                      "Actions": [
+                        {
+                          "Type": "PlayAnimation",
+                          "Slot": "Status",
+                          "Animation": "Alerted"
+                        },
+                        {
+                          "Type": "Timeout",
+                          "Delay": [
+                            0.2,
+                            0.2
+                          ]
+                        },
+                        {
+                          "Type": "PlayAnimation",
+                          "Slot": "Status"
+                        },
+                        {
+                          "Type": "State",
+                          "State": ".Attack"
+                        }
+                      ]
+                    },
+                    {
+                      "Actions": [
+                        {
+                          "Type": "State",
+                          "State": ".Default"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "TargetSlot": "LockedTarget",
+                    "Range": {
+                      "Compute": "AlertedRange"
+                    }
+                  },
+                  "Actions": [
+                    {
+                      "Type": "State",
+                      "State": ".Default"
+                    }
+                  ]
+                },
+                {
+                  "Actions": [
+                    {
+                      "Type": "State",
+                      "State": "Panic"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "State",
+                "State": ".Attack"
+              },
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Attack",
+                  "Attack": {
+                    "Compute": "Attack"
+                  },
+                  "AttackPauseRange": [
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    0.3,
+                    0.3
+                  ],
+                  "Action": {
+                    "Type": "State",
+                    "State": ".Default"
+                  }
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Target",
+                "Range": {
+                  "Compute": "AlertedRange + 3"
+                }
+              },
+              "BodyMotion": {
+                "Type": "Flee",
+                "SlowDownDistance": {
+                  "Compute": "AlertedRange - 3"
+                },
+                "StopDistance": {
+                  "Compute": "AlertedRange + 3"
+                },
+                "RelativeSpeed": 0.68
+              },
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    8,
+                    8
+                  ],
+                  "Action": {
+                    "Type": "State",
+                    "State": ".Switch"
+                  }
+                }
+              ]
+            },
+            {
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    3,
+                    6
+                  ],
+                  "Action": {
+                    "Type": "State",
+                    "State": "Idle"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Panic"
+          },
+          "Instructions": [
+            {
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "PlayAnimation",
+                  "Slot": "Status",
+                  "Animation": "Alerted"
+                }
+              ]
+            },
+            {
+              "Continue": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    6,
+                    12
+                  ],
+                  "Action": {
+                    "Type": "State",
+                    "State": "Idle"
+                  }
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Damage",
+                "Combat": true
+              },
+              "BodyMotion": {
+                "Type": "Flee",
+                "SlowDownDistance": 9,
+                "StopDistance": 14,
+                "RelativeSpeed": 1,
+                "RelaxedMoveConstraints": false
+              }
+            },
+            {
+              "BodyMotion": {
+                "Type": "WanderInCircle",
+                "Radius": 10,
+                "MaxHeadingChange": 90,
+                "RelativeSpeed": 1,
+                "RelaxedMoveConstraints": true
+              }
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "$Harvest"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Base harvest logic: particles, sound, alarm (always runs)",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "PlayAnimation",
+                  "Slot": "Status",
+                  "Animation": "Alerted"
+                },
+                {
+                  "Type": "SpawnParticles",
+                  "Offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "ParticleSystem": {
+                    "Compute": "HarvestParticles"
+                  }
+                },
+                {
+                  "Type": "PlaySound",
+                  "SoundEventId": {
+                    "Compute": "HarvestSound"
+                  }
+                },
+                {
+                  "Type": "SetAlarm",
+                  "Name": "Harvest_Ready",
+                  "DurationRange": {
+                    "Compute": "HarvestTimeout"
+                  }
+                }
+              ]
+            },
+            {
+              "$Comment": "Drop item only if HarvestDropList is set",
+              "Enabled": {
+                "Compute": "!isEmpty(HarvestDropList)"
+              },
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "DropItem",
+                  "DropList": {
+                    "Compute": "HarvestDropList"
+                  },
+                  "Distance": [
+                    0.2,
+                    0.5
+                  ],
+                  "Delay": [
+                    0,
+                    0
+                  ],
+                  "DropSector": [
+                    -360,
+                    360
+                  ],
+                  "PitchHigh": false,
+                  "ThrowSpeed": 14
+                }
+              ]
+            },
+            {
+              "$Comment": "Replace Container_Bucket with milk when held",
+              "Enabled": {
+                "Compute": "!isEmpty(HarvestAddItemBucket)"
+              },
+              "Continue": true,
+              "Sensor": {
+                "Type": "And",
+                "Sensors": [
+                  {
+                    "Type": "Any",
+                    "Once": true
+                  },
+                  {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "ItemInHand",
+                        "Items": [
+                          "Container_Bucket"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "Actions": [
+                {
+                  "Type": "Inventory",
+                  "UseTarget": true,
+                  "Operation": "RemoveHeldItem"
+                },
+                {
+                  "Type": "Inventory",
+                  "UseTarget": true,
+                  "Operation": "Add",
+                  "Item": {
+                    "Compute": "HarvestAddItemBucket"
+                  },
+                  "Count": 1
+                }
+              ]
+            },
+            {
+              "$Comment": "Replace Deco_Bucket with milk when held",
+              "Enabled": {
+                "Compute": "!isEmpty(HarvestAddItemDecoBucket)"
+              },
+              "Continue": true,
+              "Sensor": {
+                "Type": "And",
+                "Sensors": [
+                  {
+                    "Type": "Any",
+                    "Once": true
+                  },
+                  {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "ItemInHand",
+                        "Items": [
+                          "Deco_Bucket"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "Actions": [
+                {
+                  "Type": "Inventory",
+                  "UseTarget": true,
+                  "Operation": "RemoveHeldItem"
+                },
+                {
+                  "Type": "Inventory",
+                  "UseTarget": true,
+                  "Operation": "Add",
+                  "Item": {
+                    "Compute": "HarvestAddItemDecoBucket"
+                  },
+                  "Count": 1
+                }
+              ]
+            },
+            {
+              "$Comment": "If there are configured attachments for the 'harvested' state, apply them",
+              "Enabled": {
+                "Compute": "IsHarvestable && !isEmpty(HarvestModelSlot)"
+              },
+              "Continue": true,
+              "Actions": [
+                {
+                  "Type": "ModelAttachment",
+                  "Slot": {
+                    "Compute": "HarvestModelSlot"
+                  },
+                  "Attachment": {
+                    "Compute": "HarvestModelAttachmentHarvested"
+                  }
+                }
+              ]
+            },
+            {
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    2,
+                    3
+                  ]
+                },
+                {
+                  "Type": "State",
+                  "State": "Flee"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "InteractionInstruction": {
+    "Enabled": {
+      "Compute": "IsHarvestable || IsMountable"
+    },
+    "Instructions": [
+      {
+        "Enabled": {
+          "Compute": "IsHarvestable"
+        },
+        "Instructions": [
+          {
+            "Sensor": {
+              "$Comment": "Check the negative first so we can exit early and avoid the rest of the logic",
+              "Type": "Not",
+              "Sensor": {
+                "Type": "And",
+                "Sensors": [
+                  {
+                    "Type": "Alarm",
+                    "Name": "Harvest_Ready",
+                    "State": "Unset"
+                  },
+                  {
+                    "Type": "CanInteract",
+                    "Attitudes": {
+                      "Compute": "HarvestRequiredAttitudes"
+                    }
+                  }
+                ]
+              }
+            },
+            "Actions": [
+              {
+                "Type": "SetInteractable",
+                "Interactable": false
+              }
+            ]
+          },
+          {
+            "$Comment": "Allow contextual interactions (shearing) but hide F key prompt",
+            "Continue": true,
+            "Sensor": {
+              "Type": "Any"
+            },
+            "Actions": [
+              {
+                "Type": "SetInteractable",
+                "Interactable": true,
+                "ShowPrompt": false
+              }
+            ]
+          },
+          {
+            "$Comment": "Harvest action triggered by left-click with appropriate tool",
+            "Sensor": {
+              "Type": "And",
+              "Sensors": [
+                {
+                  "Enabled": {
+                    "Compute": "!isEmpty(HarvestInteractionContext)"
+                  },
+                  "Type": "InteractionContext",
+                  "Context": {
+                    "Compute": "HarvestInteractionContext"
+                  }
+                },
+                {
+                  "Type": "Alarm",
+                  "Name": "Harvest_Ready",
+                  "State": "Unset"
+                }
+              ]
+            },
+            "Actions": [
+              {
+                "Type": "State",
+                "State": "$Harvest"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Enabled": {
+          "Compute": "IsMountable"
+        },
+        "Instructions": [
+          {
+            "Sensor": {
+              "Type": "Not",
+              "Sensor": {
+                "$Comment": "Check the negative first so we can exit early and avoid the rest of the logic",
+                "Type": "CanInteract",
+                "ViewSector": 360,
+                "Attitudes": [
+                  "Neutral",
+                  "Friendly",
+                  "Hostile"
+                ]
+              }
+            },
+            "Actions": [
+              {
+                "Type": "SetInteractable",
+                "Interactable": false
+              }
+            ]
+          },
+          {
+            "Continue": true,
+            "Sensor": {
+              "Type": "Any"
+            },
+            "Actions": [
+              {
+                "Type": "SetInteractable",
+                "Interactable": true,
+                "Hint": "server.interactionHints.mount"
+              }
+            ]
+          },
+          {
+            "Sensor": {
+              "Type": "HasInteracted"
+            },
+            "Actions": [
+              {
+                "Type": "Mount",
+                "AnchorX": {
+                  "Compute": "MountAnchorX"
+                },
+                "AnchorY": {
+                  "Compute": "MountAnchorY"
+                },
+                "AnchorZ": {
+                  "Compute": "MountAnchorZ"
+                },
+                "MovementConfig": {
+                  "Compute": "MountMovementConfig"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "NameTranslationKey": {
+    "Compute": "NameTranslationKey"
+  }
+}

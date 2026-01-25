@@ -1,0 +1,123 @@
+{
+  "Icon": "Icons/ItemsGenerated/Speeder_Bike.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 8,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Deco_Lantern",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tinkering"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Speeder_Bike"
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "SpawnNPC",
+          "EntityId": "Speeder_Bike",
+          "SpawnOffset": {
+            "Z": 0,
+            "Y": 1
+          }
+        },
+        {
+          "Type": "ModifyInventory",
+          "AdjustHeldItemQuantity": -1
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
+        "Weight": 1
+      }
+    ],
+    "Material": "Solid",
+    "VariantRotation": "NESW",
+    "BlockParticleSetId": "Metal",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "Support": "Ignored"
+        }
+      ]
+    },
+    "ParticleColor": "#5c646d",
+    "BlockSoundSetId": "Metal",
+    "Textures": [
+      {}
+    ],
+    "CubeShadingMode": "Standard",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "CustomModelScale": 0.5,
+    "Light": {
+      "Radius": 0,
+      "Color": "#864"
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Model": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      21,
+      327,
+      349
+    ],
+    "Translation": [
+      -9,
+      -48
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rail"
+    ]
+  },
+  "MaxStack": 1,
+  "RenderDeployablePreview": true,
+  "Quality": "Legendary",
+  "ItemLevel": 25,
+  "TranslationProperties": {
+    "Name": "Speeder Bike",
+    "Description": ""
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Imperial Blast Door"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Doors"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -39
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "CustomModel": "Resources/BlockModels/Spaceship Door.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Building/Imperial/Imperial_Ship_Door.png"
+      }
+    ],
+    "DrawType": "Model",
+    "Material": "Empty",
+    "State": {
+      "Definitions": {
+        "CloseDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
+          "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
+          "Material": "Solid"
+        },
+        "CloseDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
+          "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
+          "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
+          "Material": "Solid"
+        },
+        "OpenDoorIn": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Resources/Animations/Blocks/Open_Imperial_Blast_Door.blockyanim",
+          "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
+        },
+        "OpenDoorOut": {
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "CustomModelAnimation": "Resources/Animations/Blocks/Open_Imperial_Blast_Door.blockyanim",
+          "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
+        }
+      }
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#676767",
+    "BlockSoundSetId": "Metal",
+    "IsDoor": true,
+    "Interactions": {
+      "Use": "Door"
+    },
+    "Opacity": "Semitransparent",
+    "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
+    "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
+  },
+  "Scale": 0.5,
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Imperial_Blast_Door.png",
+  "ItemSoundSetId": "ISS_Items_Metal"
+}
