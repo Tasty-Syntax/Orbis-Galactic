@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Mirkanite.name",
+    "Description": "server.items.Ore_Mirkanite.description"
+  },
+  "Categories": [
+    "Blocks.Ores", "StarWars.Ores"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Salvage_Mirkanite",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Salvagebench"
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "Model": "Resources/Ores/Ore_Large.blockymodel",
+  "Texture": "Resources/Ores/Ores_Textures/Mirkanite_Ore_32.png",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "Particles": [
+    {
+      "SystemId": "Camfire_New1",
+      "Scale": 0.5,
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.2
+      }
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Ore_Mirkanite.png"
+}

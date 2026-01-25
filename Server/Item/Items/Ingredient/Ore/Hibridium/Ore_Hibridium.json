@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Hibridium.name",
+    "Description": "server.items.Ore_Hibridium.description"
+  },
+  "Categories": [
+    "Blocks.Ores","StarWars.Ores"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Salvage_Hibridium",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Salvagebench"
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "Model": "Resources/Ores/Ore_Large.blockymodel",
+  "Quality": "Common",
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "UsePlayerAnimations": false,
+  "Light": {
+    "Radius": 1
+  },
+  "Texture": "Resources/Ores/Ores_Textures/Hibridium_Ore_32.png",
+  "Icon": "Icons/ItemsGenerated/Ore_Hibridium.png",
+  "ItemEntity": {
+    "PickupRadius": 22222
+  },
+  "ItemLevel": 10
+}
