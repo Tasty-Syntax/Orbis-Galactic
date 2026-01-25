@@ -35,22 +35,8 @@
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Purple.png",
   "Light": {
-    "Color": "#166"
+    "Color": "#71a"
   },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Blue",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      }
-    }
-  ],
   "IconProperties": {
     "Scale": 0.2,
     "Rotation": [

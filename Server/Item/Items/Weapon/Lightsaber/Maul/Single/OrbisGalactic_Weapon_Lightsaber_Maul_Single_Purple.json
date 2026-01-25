@@ -33,13 +33,13 @@
     ]
   },
   "Light": {
-    "Color": "#751"
+    "Color": "#71a"
   },
   "Trails": [
     {
       "TargetEntityPart": "PrimaryItem",
       "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Gold",
+      "TrailId": "Lightsaber_Trail_Purple",
       "PositionOffset": {
         "Y": 0,
         "Z": 0.0
