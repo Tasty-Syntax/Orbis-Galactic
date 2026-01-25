@@ -1,56 +1,171 @@
 {
   "RenderMode": "Erosion",
   "EmitOffset": {
-    "X": { "Min": -0.2, "Max": 0.2 },
-    "Y": { "Min": -0.2, "Max": 0.2 },
-    "Z": { "Min": -0.2, "Max": 0.2 }
+    "X": {
+      "Min": -15,
+      "Max": 15
+    },
+    "Y": {
+      "Min": -8,
+      "Max": 15
+    },
+    "Z": {
+      "Min": -9.5,
+      "Max": 15.5
+    }
   },
-  "ParticleRotationInfluence": "Billboard",
+  "ParticleRotationInfluence": "BillboardVelocity",
   "LinearFiltering": true,
   "LightInfluence": 0,
   "ParticleRotateWithSpawner": false,
   "TrailSpawnerPositionMultiplier": 1,
   "TrailSpawnerRotationMultiplier": 1,
-  "MaxConcurrentParticles": 350,
-  "ParticleLifeSpan": { "Min": 0.25, "Max": 0.6 },
-  "SpawnRate": { "Min": 180, "Max": 260 },
+  "MaxConcurrentParticles": 1400,
+  "ParticleLifeSpan": {
+    "Min": 1.25,
+    "Max": 2.65
+  },
+  "SpawnRate": {
+    "Min": 650,
+    "Max": 900
+  },
   "InitialVelocity": {
-    "Speed": { "Min": 5.0, "Max": 14.0 },
-    "Yaw": { "Min": -180, "Max": 180 },
-    "Pitch": { "Min": -25, "Max": 25 }
+    "Speed": {
+      "Min": 18,
+      "Max": 34
+    },
+    "Yaw": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Pitch": {
+      "Min": -3,
+      "Max": 3
+    }
   },
   "Particle": {
-    "Texture": "Particles/Textures/Smoke/Smoke_Spikes.png",
-    "FrameSize": { "Width": 64, "Height": 64 },
+    "Texture": "Particles/Textures/Basic/Ray.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 96
+    },
     "ScaleRatioConstraint": "Preserved",
     "UVOption": "RandomFlipU",
     "Animation": {
       "0": {
-        "Opacity": 0,
-        "Color": "#bfe7ff"
-      },
-      "10": { "Opacity": 0.9 },
-      "100": {
-        "Opacity": 0,
-        "Scale": {
-          "X": { "Min": 0.6, "Max": 1.3 },
-          "Y": { "Min": 0.6, "Max": 1.3 }
+        "Opacity": 0.252,
+        "Color": "#33a3a9",
+        "Rotation": {
+          "X": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Y": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Z": {
+            "Min": 0,
+            "Max": 0
+          }
         }
+      },
+      "10": {
+        "Opacity": 0.456,
+        "Color": "#3298c1",
+        "Scale": {
+          "X": {
+            "Min": 0.7,
+            "Max": 1.2
+          },
+          "Y": {
+            "Max": 2.4,
+            "Min": 0.8
+          }
+        }
+      },
+      "50": {
+        "Color": "#42b1ca",
+        "Opacity": 0.592,
+        "Scale": {
+          "X": {
+            "Min": 1.1,
+            "Max": 2.4
+          },
+          "Y": {
+            "Max": 2.4,
+            "Min": 0.8
+          }
+        }
+      },
+      "100": {
+        "Opacity": 0.396,
+        "Rotation": {
+          "X": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Y": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Z": {
+            "Min": 0,
+            "Max": 0
+          }
+        },
+        "Scale": {
+          "X": {
+            "Min": 1.3,
+            "Max": 2.3
+          },
+          "Y": {
+            "Min": 2.5,
+            "Max": 8
+          }
+        },
+        "Color": "#ffffff"
       }
     },
     "InitialAnimationFrame": {
+      "Rotation": {
+        "X": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Y": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 0
+        }
+      },
       "Scale": {
-        "X": { "Min": 0.35, "Max": 0.8 },
-        "Y": { "Min": 0.35, "Max": 0.8 }
+        "X": {
+          "Min": 0.5,
+          "Max": 3
+        },
+        "Y": {
+          "Min": 3,
+          "Max": 8
+        }
       },
       "Opacity": 1,
-      "Color": "#ffffff",
-      "FrameIndex": { "Min": 0, "Max": 0 }
+      "Color": "#1f0cff",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
     },
-    "UseSpriteBlending": false
+    "UseSpriteBlending": true,
+    "CollisionAnimationFrame": {
+      "Color": "#002fff",
+      "Opacity": 0.588
+    }
   },
   "Shape": "Sphere",
-  "SpawnBurst": true
+  "SpawnBurst": true,
+  "LifeSpan": 14
 }
-
-
