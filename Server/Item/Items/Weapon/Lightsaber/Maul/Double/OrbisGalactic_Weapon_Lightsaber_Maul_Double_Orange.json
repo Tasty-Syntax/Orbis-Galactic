@@ -35,7 +35,7 @@
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Orange.png",
   "Light": {
-    "Color": "#166"
+    "Color": "#750"
   },
   "Trails": [
     {
@@ -48,7 +48,7 @@
       "RotationOffset": {
         "Roll": 0
       },
-      "TrailId": "Lightsaber_Trail_Red"
+      "TrailId": "Lightsaber_Trail_Orange"
     }
   ],
   "IconProperties": {
