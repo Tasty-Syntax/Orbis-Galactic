@@ -15,9 +15,8 @@
         "Quantity": 1
       },
       {
-        "ResourceTypeId": "",
-        "Quantity": 10,
-        "ItemId": "Ingredient_Fire_Essence"
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 10
       },
       {
         "ResourceTypeId": "Rock",
