@@ -12,6 +12,11 @@
       "Cooldown": {
         "Cooldown": 0.1
       }
+    },
+    "Secondary": {
+      "Interactions": [
+        "Interaction_OrbisGalactic_Blaster_Aim"
+      ]
     }
   },
   "InteractionVars": {
@@ -36,5 +41,6 @@
   },
   "Quality": "Template",
   "ItemSoundSetId": "ISS_Items_Gadget",
-  "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel"
+  "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel",
+  "PlayerAnimationsId": "Blaster"
 }

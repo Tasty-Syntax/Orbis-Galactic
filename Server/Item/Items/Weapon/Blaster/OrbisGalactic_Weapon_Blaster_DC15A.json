@@ -1,5 +1,18 @@
 {
   "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel",
   "Texture": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Texture.png",
-  "Parent": "OrbisGalactic_Blaster_Template"
+  "Parent": "OrbisGalactic_Blaster_Template",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_DC15A.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      336,
+      124,
+      25
+    ],
+    "Translation": [
+      -16,
+      -27
+    ]
+  }
 }
