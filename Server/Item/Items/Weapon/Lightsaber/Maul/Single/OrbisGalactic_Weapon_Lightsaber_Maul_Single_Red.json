@@ -92,5 +92,8 @@
       ]
     }
   },
-  "Variant": false
+  "Variant": false,
+  "Utility": {
+    "Compatible": false
+  }
 }

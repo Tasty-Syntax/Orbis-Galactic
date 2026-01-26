@@ -59,14 +59,6 @@
     }
   },
   "BlockType": {
-    "DrawType": "Model",
-    "CustomModel": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
-        "Weight": 1
-      }
-    ],
     "Material": "Solid",
     "VariantRotation": "NESW",
     "BlockParticleSetId": "Metal",
@@ -80,21 +72,13 @@
     },
     "ParticleColor": "#5c646d",
     "BlockSoundSetId": "Metal",
-    "Textures": [
-      {}
-    ],
     "CubeShadingMode": "Standard",
     "Opacity": "Transparent",
     "RequiresAlphaBlending": true,
-    "CustomModelScale": 0.5,
-    "Light": {
-      "Radius": 0,
-      "Color": "#864"
-    }
+    "CustomModelScale": 1,
+    "DrawType": "Model"
   },
   "PlayerAnimationsId": "Block",
-  "Model": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.blockymodel",
-  "Texture": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.png",
   "IconProperties": {
     "Scale": 0.2,
     "Rotation": [
