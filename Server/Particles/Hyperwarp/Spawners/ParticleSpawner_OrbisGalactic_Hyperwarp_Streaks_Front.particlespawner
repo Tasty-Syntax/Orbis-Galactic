@@ -10,8 +10,8 @@
       "Max": 15
     },
     "Z": {
-      "Min": -9.5,
-      "Max": 15.5
+      "Min": -0.5,
+      "Max": 22.5
     }
   },
   "ParticleRotationInfluence": "BillboardVelocity",
@@ -20,27 +20,27 @@
   "ParticleRotateWithSpawner": false,
   "TrailSpawnerPositionMultiplier": 1,
   "TrailSpawnerRotationMultiplier": 1,
-  "MaxConcurrentParticles": 700,
+  "MaxConcurrentParticles": 1400,
   "ParticleLifeSpan": {
     "Min": 1.25,
     "Max": 2.65
   },
   "SpawnRate": {
-    "Min": 50,
-    "Max": 100
+    "Min": 650,
+    "Max": 900
   },
   "InitialVelocity": {
     "Speed": {
-      "Min": 34,
-      "Max": 50
+      "Min": 20,
+      "Max": 28
     },
     "Yaw": {
       "Min": 0,
       "Max": 0
     },
     "Pitch": {
-      "Min": -0.5,
-      "Max": 0.5
+      "Min": -0.9,
+      "Max": 0.9
     }
   },
   "Particle": {
@@ -76,10 +76,10 @@
         "Scale": {
           "X": {
             "Min": 0.7,
-            "Max": 1.1
+            "Max": 1.2
           },
           "Y": {
-            "Max": 2,
+            "Max": 2.4,
             "Min": 0.8
           }
         }
@@ -90,7 +90,7 @@
         "Scale": {
           "X": {
             "Min": 1.1,
-            "Max": 1.1
+            "Max": 2.4
           },
           "Y": {
             "Max": 2.4,
@@ -117,11 +117,11 @@
         "Scale": {
           "X": {
             "Min": 1.3,
-            "Max": 1.3
+            "Max": 2.3
           },
           "Y": {
             "Min": 2.5,
-            "Max": 2.5
+            "Max": 8
           }
         },
         "Color": "#fbfce0"
@@ -149,7 +149,7 @@
         },
         "Y": {
           "Min": 3,
-          "Max": 3
+          "Max": 8
         }
       },
       "Opacity": 1,
@@ -161,16 +161,26 @@
     },
     "UseSpriteBlending": true,
     "CollisionAnimationFrame": {
-      "Color": "#ffffff",
-      "Opacity": 0.588
+      "Color": "#ff1111",
+      "Opacity": 0.588,
+      "Scale": {
+        "X": {
+          "Min": 0.1,
+          "Max": 0.1
+        },
+        "Y": {
+          "Min": 0.1,
+          "Max": 0.1
+        }
+      }
     }
   },
   "Shape": "Sphere",
-  "SpawnBurst": false,
+  "SpawnBurst": true,
   "LifeSpan": 14,
   "ParticleCollision": {
     "Action": "Expire",
     "BlockType": "Solid"
   },
-  "VelocityStretchMultiplier": 35
+  "VelocityStretchMultiplier": 50
 }
