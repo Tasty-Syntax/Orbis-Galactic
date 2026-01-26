@@ -61,5 +61,6 @@
       -13.5
     ]
   },
-  "PlayerAnimationsId": "Block"
+  "PlayerAnimationsId": "Block",
+  "Scale": 0.25
 }
