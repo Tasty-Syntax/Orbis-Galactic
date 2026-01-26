@@ -1,11 +1,6 @@
 {
   "Layers": [
     {
-      "RandomSettings": {
-        "MinPitch": -2,
-        "MaxPitch": 2,
-        "MinVolume": 0
-      },
       "Volume": -3.2,
       "Looping": true,
       "Files": [

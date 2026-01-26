@@ -5,7 +5,7 @@
   "HitBox": {
     "Max": {
       "X": 0.5,
-      "Y": 1,
+      "Y": 1.5,
       "Z": 0.5
     },
     "Min": {
@@ -22,10 +22,6 @@
   },
   "Opacity": "Transparent",
   "RequiresAlphaBlending": true,
-  "Light": {
-    "Radius": 15,
-    "Color": "#fc4"
-  },
   "Icon": "Icons/ModelsGenerated/Speeder_Bike_Model.png",
   "IconProperties": {
     "Scale": 0.2,
