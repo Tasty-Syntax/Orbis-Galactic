@@ -1,4 +1,13 @@
 {
   "Model": "Blaster_Bolt_Red",
-  "Parent": "Projectile_Config_Blaster_Bolt_Base"
+  "Parent": "Projectile_Config_Blaster_Bolt_Base",
+  "SpawnOffset": {
+    "X": 0.08,
+    "Y": -0.08,
+    "Z": -0.7
+  },
+  "SpawnRotationOffset": {
+    "Pitch": 0.5,
+    "Yaw": 0.6
+  }
 }
