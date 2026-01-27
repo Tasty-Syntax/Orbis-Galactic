@@ -4,9 +4,7 @@
   },
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Orbis_Galactic_Spaceship_Test.png",
-  "Categories": [
-    "Blocks.Portals"
-  ],
+  "Categories": ["Blocks.Portals"],
   "Set": "Soil",
   "ResourceTypes": [
     {
@@ -19,6 +17,7 @@
     "Group": "Ships",
     "Flags": {},
     "BlockParticleSetId": "Metal",
+    "VariantRotation": "NESW",
     "ParticleColor": "#b5b5b5",
     "BlockSoundSetId": "Dirt",
     "BlockBreakingDecalId": "Breaking_Decals_Soil",
@@ -37,30 +36,20 @@
     "Opacity": "Semitransparent",
     "Interactions": {
       "Use": {
-        "Interactions": [
-          "TeleportToSpaceship"
-        ]
+        "Interactions": ["TeleportToSpaceship"]
       }
     }
   },
   "Tags": {
-    "Type": [
-      "Soil"
-    ]
+    "Type": ["Soil"]
   },
   "ItemSoundSetId": "ISS_Blocks_Soft",
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [
-      15,
-      45,
-      25
-    ],
-    "Translation": [
-      2,
-      -13.5
-    ]
+    "Rotation": [15, 45, 25],
+    "Translation": [2, -13.5]
   },
   "PlayerAnimationsId": "Block",
-  "Scale": 0.25
+  "Scale": 0.25,
+  "Variant": false
 }

@@ -52,8 +52,7 @@
       "Use": {
         "Interactions": [
           {
-            "Type": "SendMessage",
-            "Message": "Ship triggered"
+            "Type": "OrbisGalactic_ShipBeacon_Interaction"
           }
         ]
       }
