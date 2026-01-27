@@ -1,0 +1,51 @@
+{
+  "BlockType": {
+    "DrawType": "Cube",
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Ship_Metal_Plating_Block_Rusty.png"
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "Quantity": 1,
+        "ItemId": "OrbisGalactic_Block_Spaceship_Hull_Plating",
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Scrap_Metal",
+                  "QuantityMin": 0,
+                  "QuantityMax": 2
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Material": "Solid",
+    "BlockSoundSetId": "Metal"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Rusty Spaceship Hull Plating"
+  },
+  "PlayerAnimationsId": "Block",
+  "UsePlayerAnimations": true
+}
