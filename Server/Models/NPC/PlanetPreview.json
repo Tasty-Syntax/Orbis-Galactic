@@ -1,7 +1,7 @@
 {
   "Parent": "Player_NPC_Template",
   "Model": "NPC/Planet_Preview.blockymodel",
-  "Texture": "NPC/Planet_Preview_Ilum.png",
+  "Texture": "NPC/Hoth_Planet_Preview.png",
   "CrouchOffset": -0.2,
   "HitBox": {
     "Max": {
