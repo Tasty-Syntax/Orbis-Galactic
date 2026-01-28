@@ -15,7 +15,7 @@
     },
     "Secondary": {
       "Interactions": [
-        "Interaction_OrbisGalactic_Blaster_Aim"
+        "Blaster_Melee"
       ]
     }
   },
@@ -28,6 +28,11 @@
     "Interaction_Blaster_Shoot_SFX": {
       "Interactions": [
         "Interaction_Blaster_Shoot_SFX_Base"
+      ]
+    },
+    "Blaster_Swing_Left_Damage": {
+      "Interactions": [
+        "Blaster_Swing_Left_Damage"
       ]
     }
   },
@@ -42,5 +47,10 @@
   "Quality": "Template",
   "ItemSoundSetId": "ISS_Items_Gadget",
   "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel",
-  "PlayerAnimationsId": "Blaster"
+  "PlayerAnimationsId": "Blaster",
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "ItemLevel": 15,
+  "MaxStack": 1
 }

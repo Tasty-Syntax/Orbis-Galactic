@@ -22,5 +22,9 @@
         "Interaction_Blaster_Launch_Bolt_DC15A"
       ]
     }
-  }
+  },
+  "TranslationProperties": {
+    "Name": "DC15A-Carbine"
+  },
+  "Quality": "Uncommon"
 }
