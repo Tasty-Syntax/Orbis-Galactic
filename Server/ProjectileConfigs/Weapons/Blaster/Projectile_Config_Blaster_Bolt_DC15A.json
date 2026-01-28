@@ -3,7 +3,7 @@
   "Parent": "Projectile_Config_Blaster_Bolt_Base",
   "SpawnOffset": {
     "X": 0.08,
-    "Y": -0.08,
+    "Y": -0.11,
     "Z": -0.7
   },
   "SpawnRotationOffset": {

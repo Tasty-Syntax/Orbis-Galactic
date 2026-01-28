@@ -22,7 +22,7 @@
   "InteractionVars": {
     "Interaction_Blaster_Launch_Bolt": {
       "Interactions": [
-        "Interaction_Blaster_Launch_Bolt_Red"
+        "Interaction_Blaster_Launch_Bolt_Base"
       ]
     },
     "Interaction_Blaster_Shoot_SFX": {

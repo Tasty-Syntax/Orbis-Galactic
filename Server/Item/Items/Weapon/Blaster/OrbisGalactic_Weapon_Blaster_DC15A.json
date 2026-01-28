@@ -14,5 +14,13 @@
       -16,
       -27
     ]
+  },
+  "Scale": 0.8,
+  "InteractionVars": {
+    "Interaction_Blaster_Launch_Bolt": {
+      "Interactions": [
+        "Interaction_Blaster_Launch_Bolt_DC15A"
+      ]
+    }
   }
 }
