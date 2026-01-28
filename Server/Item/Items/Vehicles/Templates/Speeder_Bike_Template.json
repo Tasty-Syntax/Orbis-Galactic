@@ -59,14 +59,6 @@
     }
   },
   "BlockType": {
-    "DrawType": "Model",
-    "CustomModel": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
-    "CustomModelTexture": [
-      {
-        "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
-        "Weight": 1
-      }
-    ],
     "Material": "Solid",
     "VariantRotation": "NESW",
     "BlockParticleSetId": "Metal",
@@ -80,21 +72,18 @@
     },
     "ParticleColor": "#5c646d",
     "BlockSoundSetId": "Metal",
-    "Textures": [
-      {}
-    ],
     "CubeShadingMode": "Standard",
     "Opacity": "Transparent",
     "RequiresAlphaBlending": true,
-    "CustomModelScale": 0.5,
-    "Light": {
-      "Radius": 0,
-      "Color": "#864"
-    }
+    "CustomModelScale": 1,
+    "DrawType": "Model"
   },
   "PlayerAnimationsId": "Block",
+<<<<<<<< HEAD:Server/Item/Items/Vehicles/Templates/Speeder_Bike_Template.json
   "Model": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
   "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
+========
+>>>>>>>> f8bf31561b922a406774a382499dda961cbaeb85:Server/Item/Items/Vehicles/Templates/OrbisGalactic_Land_Vehicle_Template.json
   "IconProperties": {
     "Scale": 0.2,
     "Rotation": [
