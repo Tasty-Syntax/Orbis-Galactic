@@ -43,12 +43,23 @@
     }
   },
   "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
+          "Looping": true,
+          "SoundEventId": "SFX_Speeder_Idle",
+          "PassiveLoopCount": 1,
+          "BlendingDuration": 1
+        }
+      ]
+    },
     "Walk": {
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Looping": true,
-          "Speed": 1,
+          "Speed": 0.5,
           "BlendingDuration": 0.6,
           "SoundEventId": "SFX_Speeder_Idle"
         }
@@ -58,13 +69,17 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover_Forward.blockyanim",
-          "Speed": 3,
-          "BlendingDuration": 0.6,
+          "Speed": 1,
+          "BlendingDuration": 0,
           "Looping": true,
           "SoundEventId": "SFX_Speeder_Move",
           "Weight": 1
         }
-      ]
+      ],
+      "NextAnimationDelay": {
+        "Min": 0,
+        "Max": 0
+      }
     },
     "Sprint": {
       "Animations": [
@@ -78,50 +93,12 @@
         }
       ]
     },
-    "Jump": {
-      "Animations": [
-        {
-          "Looping": false,
-          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
-          "BlendingDuration": 0.1,
-          "Weight": 1
-        }
-      ],
-      "NextAnimationDelay": {
-        "Min": 0
-      }
-    },
     "Fall": {
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Looping": true,
           "BlendingDuration": 0.6
-        }
-      ]
-    },
-    "Idle": {
-      "Animations": [
-        {
-          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
-          "Looping": true,
-          "SoundEventId": "SFX_Speeder_Idle"
-        }
-      ]
-    },
-    "Sleep": {
-      "Animations": [
-        {
-          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
-          "Looping": true
-        }
-      ]
-    },
-    "Laydown": {
-      "Animations": [
-        {
-          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
-          "Looping": true
         }
       ]
     },
@@ -144,6 +121,20 @@
           "BlendingDuration": 0.6
         }
       ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Looping": false,
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Weight": 1,
+          "SoundEventId": "SFX_Speeder_Move"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Min": 0
+      }
     }
   }
 }
