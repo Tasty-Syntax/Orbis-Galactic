@@ -8,8 +8,6 @@
     ],
     "Gathering": {
       "Breaking": {
-        "Quantity": 1,
-        "ItemId": "OrbisGalactic_Block_Spaceship_Hull_Plating",
         "DropList": {
           "Container": {
             "Type": "Multiple",
@@ -24,7 +22,8 @@
               }
             ]
           }
-        }
+        },
+        "GatherType": "VolcanicRocks"
       }
     },
     "Material": "Solid",
