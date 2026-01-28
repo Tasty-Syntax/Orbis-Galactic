@@ -1,7 +1,7 @@
 {
   "Parent": "Player_NPC_Template",
-  "Model": "NPC/Intelligent/Tatooine/Jawa/Jawa.blockymodel",
-  "Texture": "NPC/Intelligent/Tatooine/Jawa/Jawa.png",
+  "Model": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -38,8 +38,7 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Intelligent/Idle.blockyanim",
-          "Speed": 0.5,
-          "SoundEventId": "Jawa_SFX_Idle"
+          "Speed": 0.5
         }
       ]
     },
@@ -47,10 +46,7 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Intelligent/Walk.blockyanim",
-          "Speed": 0.85,
-          "FootstepIntervals": [
-            1
-          ]
+          "Speed": 0.85
         }
       ]
     },
@@ -574,12 +570,6 @@
       ]
     }
   },
-  "DefaultAttachments": [
-    {
-      "Model": "NPC/Intelligent/Tatooine/Jawa/Jawa_Eyes.blockymodel",
-      "Texture": "NPC/Intelligent/Tatooine/Jawa/Jawa_Eyes.png"
-    }
-  ],
   "Icon": "Icons/ModelsGenerated/Jawa_Model.png",
   "IconProperties": {
     "Scale": 0.25,

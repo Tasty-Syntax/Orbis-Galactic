@@ -1,0 +1,15 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Screech.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Screech_2.ogg"
+      ],
+      "RoundRobinHistorySize": 1,
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2
+      }
+    }
+  ]
+}

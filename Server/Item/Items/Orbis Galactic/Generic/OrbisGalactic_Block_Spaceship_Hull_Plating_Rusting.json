@@ -30,7 +30,7 @@
     "Material": "Solid",
     "BlockSoundSetId": "Metal"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting.png",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [

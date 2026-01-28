@@ -1,7 +1,6 @@
 {
-  "Parent": "Player_NPC_Template",
-  "Model": "NPC/Intelligent/Tatooine/Jawa/Jawa.blockymodel",
-  "Texture": "NPC/Intelligent/Tatooine/Jawa/Jawa.png",
+  "Model": "NPC/Intelligent/Droids/R2_Droid.blockymodel",
+  "Texture": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Test.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -37,20 +36,16 @@
     "Idle": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/NPC/Intelligent/Idle.blockyanim",
           "Speed": 0.5,
-          "SoundEventId": "Jawa_SFX_Idle"
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Idle.blockyanim"
         }
       ]
     },
     "Walk": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/NPC/Intelligent/Walk.blockyanim",
           "Speed": 0.85,
-          "FootstepIntervals": [
-            1
-          ]
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Move.blockyanim"
         }
       ]
     },
@@ -65,7 +60,7 @@
     "Run": {
       "Animations": [
         {
-          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Run.blockyanim",
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Move.blockyanim",
           "Speed": 0.8
         }
       ]
@@ -350,8 +345,7 @@
         {
           "Animation": "Characters/Animations/NPC/Intelligent/Hurt.blockyanim",
           "BlendingDuration": 0.1,
-          "Looping": false,
-          "SoundEventId": "Jawa_SFX_Hurt"
+          "Looping": false
         }
       ]
     },
@@ -574,13 +568,6 @@
       ]
     }
   },
-  "DefaultAttachments": [
-    {
-      "Model": "NPC/Intelligent/Tatooine/Jawa/Jawa_Eyes.blockymodel",
-      "Texture": "NPC/Intelligent/Tatooine/Jawa/Jawa_Eyes.png"
-    }
-  ],
-  "Icon": "Icons/ModelsGenerated/Jawa_Model.png",
   "IconProperties": {
     "Scale": 0.25,
     "Rotation": [
@@ -593,6 +580,6 @@
       -44
     ]
   },
-  "MinScale": 0.85,
-  "MaxScale": 1.15
+  "MinScale": 1,
+  "MaxScale": 1
 }
