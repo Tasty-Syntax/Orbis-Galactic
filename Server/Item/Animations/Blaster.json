@@ -1,33 +1,27 @@
 {
   "Animations": {
     "Idle": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Idle_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Idle_FPS.blockyanim",
       "Speed": 0.5,
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Idle.blockyanim",
       "Looping": true
     },
     "Walk": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Walk_FPS.blockyanim",
       "Speed": 1.0,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Walk_FPS.blockyanim",
       "Looping": true
     },
     "WalkBackward": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_Backward_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Walk_Backward_FPS.blockyanim",
       "Speed": 1.0,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_Backward.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Walk_Backward.blockyanim",
       "Looping": true
     },
     "Run": {
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Run_FPS.blockyanim",
       "Speed": 0.9,
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Run.blockyanim",
-      "Looping": true
-    },
-    "RunBackward": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run_Backward_FPS.blockyanim",
-      "Speed": 0.9,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run_Backward.blockyanim",
       "Looping": true
     },
     "Sprint": {
@@ -45,47 +39,47 @@
     },
     "CrouchWalk": {
       "BlendingDuration": 0.1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Crouch_Walk.blockyanim",
       "Speed": 0.8,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Crouch_Walk_FPS.blockyanim",
       "Looping": true
     },
     "CrouchWalkBackward": {
       "BlendingDuration": 0.1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk_Backward.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Crouch_Walk_Backward.blockyanim",
       "Speed": 0.8,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk_Backward_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Crouch_Walk_Backward_FPS.blockyanim",
       "Looping": true
     },
     "Jump": {
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Jump.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Jump.blockyanim",
       "Looping": false,
       "KeepPreviousFirstPersonAnimation": true
     },
     "JumpWalk": {
       "Speed": 0.8,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Jump_Far.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Jump_Far.blockyanim",
       "Looping": false,
       "KeepPreviousFirstPersonAnimation": true
     },
     "JumpRun": {
       "Speed": 0.8,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Jump_Far.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Jump_Far.blockyanim",
       "Looping": false,
       "KeepPreviousFirstPersonAnimation": true
     },
     "Fall": {
       "BlendingDuration": 0.4,
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fall.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Fall.blockyanim",
       "Looping": true,
       "KeepPreviousFirstPersonAnimation": true
     },
     "FallFar": {
       "BlendingDuration": 0.4,
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fall_Far.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blaster/Fall_Far.blockyanim",
       "Looping": true,
       "KeepPreviousFirstPersonAnimation": true
     },
