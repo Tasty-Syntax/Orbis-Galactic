@@ -23,7 +23,8 @@
               }
             ]
           }
-        }
+        },
+        "GatherType": "VolcanicRocks"
       }
     },
     "Material": "Solid",
