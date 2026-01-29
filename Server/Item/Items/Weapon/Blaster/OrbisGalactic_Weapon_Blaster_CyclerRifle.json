@@ -1,0 +1,30 @@
+{
+  "Model": "Items/Weapons/Blaster_CyclerRifle/Blaster_CyclerRifle_Model.blockymodel",
+  "Texture": "Items/Weapons/Blaster_CyclerRifle/Blaster_CyclerRifle_Texture.png",
+  "Parent": "OrbisGalactic_Blaster_Template",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_CyclerRifle.png",
+  "IconProperties": {
+    "Scale": 0.15,
+    "Rotation": [
+      336,
+      124,
+      25
+    ],
+    "Translation": [
+      -16,
+      -27
+    ]
+  },
+  "Scale": 0.7,
+  "InteractionVars": {
+    "Interaction_Blaster_Launch_Bolt": {
+      "Interactions": [
+        "Interaction_Blaster_Launch_Bolt_CyclerRifle"
+      ]
+    }
+  },
+  "TranslationProperties": {
+    "Name": "Cycler Rifle"
+  },
+  "Quality": "Uncommon"
+}
