@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "cube",
-      "position": {"x": -47, "y": 0, "z": -79},
+      "position": {"x": -45, "y": 0, "z": -79},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -107,7 +107,7 @@
     {
       "id": "3",
       "name": "cube",
-      "position": {"x": 17, "y": 0, "z": -79},
+      "position": {"x": 15, "y": 0, "z": -79},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -211,7 +211,7 @@
     {
       "id": "5",
       "name": "cube",
-      "position": {"x": -47, "y": 0, "z": -111},
+      "position": {"x": -45, "y": 0, "z": -111},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -263,7 +263,7 @@
     {
       "id": "6",
       "name": "cube",
-      "position": {"x": -47, "y": 0, "z": -111},
+      "position": {"x": -47, "y": 0, "z": -109},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -367,7 +367,7 @@
     {
       "id": "8",
       "name": "cube",
-      "position": {"x": -15, "y": 0, "z": -111},
+      "position": {"x": -15, "y": 0, "z": -109},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -419,7 +419,7 @@
     {
       "id": "9",
       "name": "cube",
-      "position": {"x": 17, "y": 0, "z": -111},
+      "position": {"x": 17, "y": 0, "z": -109},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -575,7 +575,7 @@
     {
       "id": "12",
       "name": "cube",
-      "position": {"x": 17, "y": 0, "z": -111},
+      "position": {"x": 15, "y": 0, "z": -111},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -627,7 +627,7 @@
     {
       "id": "13",
       "name": "cube",
-      "position": {"x": -47, "y": 0, "z": -47},
+      "position": {"x": -45, "y": 0, "z": -47},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -783,7 +783,7 @@
     {
       "id": "16",
       "name": "cube",
-      "position": {"x": -47, "y": 0, "z": -47},
+      "position": {"x": -47, "y": 0, "z": -49},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -835,7 +835,7 @@
     {
       "id": "17",
       "name": "cube",
-      "position": {"x": -15, "y": 0, "z": -47},
+      "position": {"x": -15, "y": 0, "z": -49},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -939,7 +939,7 @@
     {
       "id": "19",
       "name": "cube",
-      "position": {"x": 17, "y": 0, "z": -47},
+      "position": {"x": 15, "y": 0, "z": -47},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -991,7 +991,7 @@
     {
       "id": "20",
       "name": "cube",
-      "position": {"x": 17, "y": 0, "z": -47},
+      "position": {"x": 17, "y": 0, "z": -49},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -1206,8 +1206,8 @@
             "angle": 0
           },
           "bottom": {
-            "offset": {"x": 100, "y": 101},
-            "mirror": {"x": true, "y": false},
+            "offset": {"x": 100, "y": 100},
+            "mirror": {"x": true, "y": true},
             "angle": 0
           }
         },
