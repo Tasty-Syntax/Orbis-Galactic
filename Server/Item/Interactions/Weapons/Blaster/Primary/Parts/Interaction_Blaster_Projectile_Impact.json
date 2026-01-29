@@ -2,7 +2,7 @@
   "Type": "Explode",
   "Config": {
     "DamageBlocks": false,
-    "EntityDamage": 100,
+    "EntityDamage": 4,
     "EntityDamageRadius": 2,
     "EntityDamageFalloff": 0,
     "DamageEntities": true,
