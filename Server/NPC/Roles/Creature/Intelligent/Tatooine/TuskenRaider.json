@@ -41,7 +41,7 @@
     "DropList": "Drop_Skeleton_Archer",
     "Appearance": "Tusken_Raider_Model",
     "Weapons": [
-      "Weapon_Shortbow_Iron_Rusty"
+      "OrbisGalactic_Weapon_Blaster_CyclerRifle"
     ],
     "FlockArray": {
       "Compute": "FlockArray"
@@ -55,7 +55,7 @@
     "WanderRadius": {
       "Compute": "WanderRadius"
     },
-    "Attack": "Skeleton_Archer_Bow_Shoot",
+    "Attack": "ROOT_Interaction_Tusken_Raider_Shoot",
     "CombatBackOffAfterAttack": false,
     "AttackDistance": 20,
     "CombatFleeIfTooCloseDistance": 4,
