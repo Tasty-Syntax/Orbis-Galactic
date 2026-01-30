@@ -1,36 +1,77 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Trork_Melee",
-  "Modify": {
-    "Appearance": "Tusken_Raider_Model",
-    "DropList": "Drop_Jawa",
-    "Weapons": [
-      "OrbisGalactic_Weapon_Lightsaber_Maul_Single_Red",
-      "Rubble_Stone"
-    ],
-    "MaxHealth": 250,
-    "_InteractionVars": {
-      "Melee_Damage": {
-        "Interactions": [
-          {
-            "Parent": "NPC_Attack_Melee_Damage",
-            "DamageCalculator": {
-              "BaseDamage": {
-                "Physical": 60
-              }
-            }
-          }
-        ]
-      }
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "WanderRadius": {
+      "Value": 3,
+      "Description": "General wander radius for idle wander and wander on the break."
+    },
+    "FollowPatrolPath": {
+      "Value": false,
+      "Description": "Whether this NPC will follow patrol paths at all."
+    },
+    "Patrol": {
+      "Value": false,
+      "Description": "Whether or not this NPC will patrol during its waking hours, either alone or as part of a group."
+    },
+    "FlockArray": {
+      "Value": [
+        "TuskenRaider"
+      ],
+      "TypeHint": "String",
+      "Description": "Array containing NPCs for this flock type."
+    },
+    "ApplySeparation": {
+      "Value": false,
+      "Description": "When set to false, NPCs wont try to avoid each other or player, it can lead to them stacking together, but can help to avoid jerky-like movemenet in enclosed space."
     },
     "NameTranslationKey": {
-      "Compute": "NameTranslationKey"
+      "Value": "Tusken Raider",
+      "Description": "Translation key for NPC name display"
     }
   },
-  "Parameters": {
+  "Modify": {
+    "MaxHealth": 36,
+    "HearingRange": 20,
+    "ViewSector": 270,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_Skeleton_Archer",
+    "Appearance": "Tusken_Raider_Model",
+    "Weapons": [
+      "Weapon_Shortbow_Iron_Rusty"
+    ],
+    "FlockArray": {
+      "Compute": "FlockArray"
+    },
+    "FollowPatrolPath": {
+      "Compute": "FollowPatrolPath"
+    },
+    "Patrol": {
+      "Compute": "Patrol"
+    },
+    "WanderRadius": {
+      "Compute": "WanderRadius"
+    },
+    "Attack": "Skeleton_Archer_Bow_Shoot",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 20,
+    "CombatFleeIfTooCloseDistance": 4,
+    "DesiredAttackDistanceRange": [
+      15,
+      19.5
+    ],
+    "CombatBehaviorDistance": 20,
+    "TargetRange": 20,
+    "LeashMinPlayerDistance": 18,
+    "ApplySeparation": {
+      "Compute": "ApplySeparation"
+    },
+    "BreathesInWater": true,
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Trork_Brawler.name",
-      "Description": "Translation key for NPC name display"
+      "Compute": "NameTranslationKey"
     }
   }
 }
