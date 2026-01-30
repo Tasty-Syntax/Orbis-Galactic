@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "Durasteel Ingot",
+    "Description": "The most commonly used metal alloy in the galaxy."
+  },
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ore_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Charcoal"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Bench_Alloy_Furnace",
+        "Categories": [
+          ""
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 14
+  },
+  "Model": "Resources/Materials/Ingot.blockymodel",
+  "Texture": "Resources/ItemTextures/Durasteel_Bar_Texture.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Bar_Durasteel.png",
+  "ResourceTypes": [
+    {
+      "Id": "Metal_Bars"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true
+}
