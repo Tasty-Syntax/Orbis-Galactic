@@ -1,0 +1,44 @@
+{
+  "Type": "Explode",
+  "Config": {
+    "DamageBlocks": false,
+    "EntityDamage": 33,
+    "EntityDamageRadius": 2,
+    "EntityDamageFalloff": 0,
+    "DamageEntities": true,
+    "Knockback": {
+      "Type": "Point",
+      "VelocityConfig": {
+        "AirResistance": 0.97,
+        "AirResistanceMax": 0.96,
+        "Direction": {
+          "X": 0.0,
+          "Y": 5.0,
+          "Z": 0.0
+        },
+        "GroundResistance": 0.94,
+        "GroundResistanceMax": 0.3,
+        "Threshold": 3.0
+      },
+      "Force": 5,
+      "VelocityType": "Set"
+    }
+  },
+  "Effects": {
+    "Particles": [
+      {
+        "SystemId": "ParticleSystem_Blaster_Bolt_Impact",
+        "TargetEntityPart": "Entity",
+        "Scale": 1,
+        "PositionOffset": {
+          "Y": -0.5
+        }
+      }
+    ],
+    "WorldSoundEventId": "SFX_Staff_Flame_Fireball_Impact"
+  },
+  "Next": {
+    "Type": "DamageEntity",
+    "Parent": "DamageEntityParent"
+  }
+}

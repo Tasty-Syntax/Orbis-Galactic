@@ -1,0 +1,52 @@
+{
+  "Type": "Simple",
+  "Next": {
+    "Type": "StatsCondition",
+    "Costs": {
+      "Stamina": 0.1
+    },
+    "Next": {
+      "Type": "Parallel",
+      "Interactions": [
+        {
+          "Interactions": [
+            {
+              "Type": "Replace",
+              "DefaultValue": {
+                "Interactions": [
+                  "Interaction_Blaster_Launch_Bolt_Red"
+                ]
+              },
+              "Var": "Interaction_Blaster_Launch_Bolt",
+              "DefaultOk": true
+            }
+          ]
+        },
+        {
+          "Interactions": [
+            {
+              "Type": "Replace",
+              "DefaultValue": {
+                "Interactions": [
+                  "Interaction_Blaster_Shoot_SFX"
+                ]
+              },
+              "Var": "Interaction_Blaster_Shoot_SFX",
+              "DefaultOk": true
+            }
+          ]
+        },
+        {
+          "Interactions": [
+            {
+              "Type": "ChangeStat",
+              "StatModifiers": {
+                "Stamina": -1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

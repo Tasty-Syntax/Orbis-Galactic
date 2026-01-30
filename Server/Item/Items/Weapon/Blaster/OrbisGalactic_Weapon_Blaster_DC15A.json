@@ -1,0 +1,31 @@
+{
+  "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel",
+  "Texture": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Texture.png",
+  "Parent": "OrbisGalactic_Blaster_Template",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_DC15A.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      336,
+      124,
+      25
+    ],
+    "Translation": [
+      -16,
+      -27
+    ]
+  },
+  "Scale": 0.8,
+  "InteractionVars": {
+    "Interaction_Blaster_Launch_Bolt": {
+      "Interactions": [
+        "Interaction_Blaster_Launch_Bolt_DC15A"
+      ]
+    }
+  },
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_DC15A.name",
+    "Description": "server.items.OrbisGalactic_Weapon_DC15A.description"
+  },
+  "Quality": "Developer"
+}

@@ -41,7 +41,8 @@
           "TeleportToSpaceship"
         ]
       }
-    }
+    },
+    "CustomModelAnimation": "Resources/Animations/Blocks/HWK290_Landing_Animation.blockyanim"
   },
   "Tags": {
     "Type": [
