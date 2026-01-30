@@ -1,0 +1,16 @@
+{
+  "Parent": "Projectile_Blaster_Bolt_Base",
+  "Appearance": "Blaster_Bolt_Red",
+  "MuzzleVelocity": 100,
+  "TerminalVelocity": 300,
+  "Damage": 4,
+  "VerticalCenterShot": 0.3,
+  "HorizontalCenterShot": 0.35,
+  "DepthShot": -3.7,
+  "DeathParticles": {
+    "SystemId": "ParticleSystem_Blaster_Bolt_Impact"
+  },
+  "HitParticles": {
+    "SystemId": "ParticleSystem_Blaster_Bolt_Impact"
+  }
+}

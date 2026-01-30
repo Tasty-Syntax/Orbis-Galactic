@@ -1,7 +1,7 @@
 {
-  "Type": "Projectile",
-  "Config": "Projectile_Config_Blaster_Bolt_CyclerRifle",
-  "Parent": "Interaction_Blaster_Launch_Bolt_Base",
+  "Type": "LaunchProjectile",
+  "ProjectileId": "Projectile_Blaster_Bolt_CyclerRifle",
+  "HorizontalSpeedMultiplier": 1,
   "RunTime": 1.5,
   "Effects": {
     "ItemPlayerAnimationsId": {
