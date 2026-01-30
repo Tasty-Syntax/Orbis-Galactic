@@ -1,0 +1,36 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Trork_Melee",
+  "Modify": {
+    "Appearance": "Tusken_Raider_Model",
+    "DropList": "Drop_Jawa",
+    "Weapons": [
+      "OrbisGalactic_Weapon_Lightsaber_Maul_Single_Red",
+      "Rubble_Stone"
+    ],
+    "MaxHealth": 250,
+    "_InteractionVars": {
+      "Melee_Damage": {
+        "Interactions": [
+          {
+            "Parent": "NPC_Attack_Melee_Damage",
+            "DamageCalculator": {
+              "BaseDamage": {
+                "Physical": 60
+              }
+            }
+          }
+        ]
+      }
+    },
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Trork_Brawler.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}
