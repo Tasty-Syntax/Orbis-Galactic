@@ -9,7 +9,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ore_Iron",
+        "ItemId": "Ingredient_Bar_Iron",
         "Quantity": 1
       },
       {
