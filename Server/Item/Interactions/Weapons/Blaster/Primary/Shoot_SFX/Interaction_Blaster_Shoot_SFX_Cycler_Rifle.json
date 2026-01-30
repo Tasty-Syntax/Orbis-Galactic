@@ -1,0 +1,9 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0,
+  "Effects": {
+    "WorldSoundEventId": "SFX_Blaster_Shoot_Cycler_Rifle",
+    "LocalSoundEventId": "SFX_Blaster_Shoot_Cycler_Rifle"
+  }
+}
