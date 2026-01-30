@@ -21,10 +21,16 @@
       "Interactions": [
         "Interaction_Blaster_Launch_Bolt_CyclerRifle"
       ]
+    },
+    "Interaction_Blaster_Shoot_SFX": {
+      "Interactions": [
+        "Interaction_Blaster_Shoot_SFX_Cycler_Rifle"
+      ]
     }
   },
   "TranslationProperties": {
-    "Name": "Cycler Rifle"
+    "Name": "server.items.OrbisGalactic_Weapon_Cycler_Rifle.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Cycler_Rifle.description"
   },
-  "Quality": "Uncommon"
+  "Quality": "Developer"
 }

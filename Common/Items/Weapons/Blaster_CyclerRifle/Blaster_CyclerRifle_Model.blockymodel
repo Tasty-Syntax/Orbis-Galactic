@@ -3,11 +3,11 @@
     {
       "id": "1",
       "name": "R-Attachment",
-      "position": {"x": 0, "y": 0, "z": -57},
+      "position": {"x": 0, "y": -7, "z": -35},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
-        "offset": {"x": 0, "y": 4, "z": 160},
+        "offset": {"x": 0, "y": 11, "z": 138},
         "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {
           "isPiece": true,
@@ -576,11 +576,11 @@
         {
           "id": "12",
           "name": "Scope",
-          "position": {"x": 0, "y": 7.5, "z": -105.66666},
-          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "position": {"x": -2.5, "y": 8.25, "z": -105.66666},
+          "orientation": {"x": 0, "y": 0, "z": 0.13053, "w": 0.99144},
           "shape": {
             "type": "box",
-            "offset": {"x": 0, "y": 0, "z": -3.33334},
+            "offset": {"x": -2, "y": 0, "z": -3.33334},
             "stretch": {"x": 0.875, "y": 0.875, "z": 1},
             "settings": {
               "isPiece": false,
@@ -692,7 +692,7 @@
                 },
                 "textureLayout": {
                   "back": {
-                    "offset": {"x": 72, "y": 120},
+                    "offset": {"x": 48, "y": 120},
                     "mirror": {"x": true, "y": false},
                     "angle": 0
                   },

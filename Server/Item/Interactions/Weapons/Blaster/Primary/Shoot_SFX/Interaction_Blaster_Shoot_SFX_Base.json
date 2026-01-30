@@ -4,6 +4,15 @@
   "RunTime": 0,
   "Effects": {
     "WorldSoundEventId": "SFX_Blaster_Shoot_Red",
-    "LocalSoundEventId": "SFX_Blaster_Shoot_Red"
+    "LocalSoundEventId": "SFX_Blaster_Shoot_Red",
+    "ItemPlayerAnimationsId": {
+      "Animations": {
+        "Shoot": {
+          "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/DC15A/DC15A_Shoot.blockyanim",
+          "BlendingDuration": 0.05
+        }
+      }
+    },
+    "ItemAnimationId": "Shoot"
   }
 }
