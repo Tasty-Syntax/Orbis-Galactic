@@ -1,45 +1,16 @@
 {
+  "Parent": "OrbisGalactic_ForceFocus_Template",
   "TranslationProperties": {
-    "Name": "server.items.OrbisGalactic_ForceFocus_Push.name",
-    "Description": "server.items.OrbisGalactic_ForceFocus_Push.description"
+    "Name": "server.items.OrbisGalactic_ForceFocus_Pull.name",
+    "Description": "server.items.OrbisGalactic_ForceFocus_Pull.description"
   },
   "Icon": "Icons/ItemsGenerated/Force_Pull.png",
   "Quality": "Rare",
-  "ItemLevel": 40,
-  "Categories": [
-    "Items.Tools"
-  ],
-  "Utility": {
-    "Usable": true
-  },
-  "Reticle": "DefaultMelee",
-  "Interactions": {
-    "Secondary": {
+  "InteractionVars": {
+    "Force_Power": {
       "Interactions": [
-        {
-          "Type": "ApplyEffect",
-          "EffectId": "Stamina_Broken_Immune"
-        },
         "Interaction_Force_Pull"
       ]
     }
-  },
-  "IconProperties": {
-    "Scale": 0.4,
-    "Translation": [
-      -25,
-      -25
-    ],
-    "Rotation": [
-      315,
-      270,
-      0
-    ]
-  },
-  "Tags": {
-    "Type": [
-      "Tool"
-    ]
-  },
-  "MaxStack": 1
+  }
 }
