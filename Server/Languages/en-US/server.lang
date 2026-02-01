@@ -150,3 +150,7 @@ items.OrbisGalactic_Speeder_Bike.name= Speeder Bike
 items.OrbisGalactic_Speeder_Bike.description= A speeder bike, perfect to optimize planetary travel time. (Rightclick to deploy!)
 items.OrbisGalactic_Scrap_Metal.name= Scrap Metal
 items.OrbisGalactic_Scrap_Metal.description= Some scrap metal. A Jawa might see value in this.
+
+# --- Force Power Items ---
+items.OrbisGalactic_ForceFocus_Push.name=Force Push
+items.OrbisGalactic_ForceFocus_Push.description=Force Push
