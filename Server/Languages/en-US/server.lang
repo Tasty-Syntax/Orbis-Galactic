@@ -126,3 +126,5 @@ items.OrbisGalactic_Weapon_Cycler_Rifle.description=A long range high velocity b
 # --- Force Power Items ---
 items.OrbisGalactic_ForceFocus_Push.name=Force Push
 items.OrbisGalactic_ForceFocus_Push.description=Force Push
+items.OrbisGalactic_ForceFocus_Jump.name=Force Jump
+items.OrbisGalactic_ForceFocus_Jump.description=Force Jump
