@@ -1,45 +1,16 @@
 {
+  "Parent": "OrbisGalactic_ForceFocus_Template",
   "TranslationProperties": {
     "Name": "server.items.OrbisGalactic_ForceFocus_Jump.name",
     "Description": "server.items.OrbisGalactic_ForceFocus_Jump.description"
   },
   "Icon": "Icons/ItemsGenerated/Force_Jump.png",
   "Quality": "Rare",
-  "ItemLevel": 40,
-  "Categories": [
-    "Items.Tools"
-  ],
-  "Utility": {
-    "Usable": true
-  },
-  "Reticle": "DefaultMelee",
-  "Interactions": {
-    "Secondary": {
+  "InteractionVars": {
+    "Force_Power": {
       "Interactions": [
-        {
-          "Type": "ApplyEffect",
-          "EffectId": "Stamina_Broken_Immune"
-        },
         "Interaction_Force_Jump"
       ]
     }
-  },
-  "IconProperties": {
-    "Scale": 0.4,
-    "Translation": [
-      -25,
-      -25
-    ],
-    "Rotation": [
-      315,
-      270,
-      0
-    ]
-  },
-  "Tags": {
-    "Type": [
-      "Tool"
-    ]
-  },
-  "MaxStack": 1
+  }
 }

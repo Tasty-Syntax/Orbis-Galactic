@@ -1,0 +1,55 @@
+{
+  "Icon": "Icons/ItemsGenerated/Force_Push.png",
+  "Quality": "Template",
+  "ItemLevel": 40,
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Utility": {
+    "Usable": true
+  },
+  "Reticle": "DefaultMelee",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "StatsCondition",
+          "Costs": {
+            "Stamina": 0.1
+          },
+          "Next": {
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "EffectId": "Stamina_Broken_Immune"
+              },
+              {
+                "Type": "Replace",
+                "Var": "Force_Power"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.4,
+    "Translation": [
+      -25,
+      -25
+    ],
+    "Rotation": [
+      315,
+      270,
+      0
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "MaxStack": 1
+}
