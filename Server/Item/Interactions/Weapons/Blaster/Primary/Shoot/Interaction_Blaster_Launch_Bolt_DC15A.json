@@ -1,5 +1,4 @@
 {
-  "Type": "LaunchProjectile",
-  "ProjectileId": "Projectile_Blaster_Bolt_DC15A",
-  "HorizontalSpeedMultiplier": 1
+  "Type": "Projectile",
+  "Config": "Projectile_Config_Blaster_Bolt_Rifle_Base"
 }
