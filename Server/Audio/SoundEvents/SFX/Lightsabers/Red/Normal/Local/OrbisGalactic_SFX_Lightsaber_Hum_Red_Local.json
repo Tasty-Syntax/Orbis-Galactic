@@ -4,7 +4,7 @@
   "AudioCategory": "AudioCat_Sword",
   "Layers": [
     {
-      "Volume": 10,
+      "Volume": 0,
       "Files": [
         "Sounds/Weapons/Lightsaber/Red/Lightsaber_Red_Idle_1_Local.ogg"
       ]

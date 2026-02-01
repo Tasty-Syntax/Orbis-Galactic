@@ -8,7 +8,7 @@
         "Sounds/Weapons/Lightsaber/Blue/Lightsaber_Retract_Blue.ogg",
         "Sounds/Weapons/Lightsaber/Blue/Lightsaber_Retract_Blue_2.ogg"
       ],
-      "Volume": 10,
+      "Volume": -2.76,
       "StartDelay": 0
     }
   ]
