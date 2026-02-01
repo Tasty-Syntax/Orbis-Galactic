@@ -1,0 +1,11 @@
+{
+  "Type": "ApplyForce",
+  "ChangeVelocityType": "Add",
+  "Direction": {
+    "Y": 2,
+    "Z": -2
+  },
+  "Force": 40,
+  "GroundCheckDelay": 0.100000001490116,
+  "RaycastMode": "FollowLook"
+}

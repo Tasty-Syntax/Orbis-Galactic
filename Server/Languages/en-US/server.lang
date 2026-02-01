@@ -154,3 +154,5 @@ items.OrbisGalactic_Scrap_Metal.description= Some scrap metal. A Jawa might see 
 # --- Force Power Items ---
 items.OrbisGalactic_ForceFocus_Push.name=Force Push
 items.OrbisGalactic_ForceFocus_Push.description=Force Push
+items.OrbisGalactic_ForceFocus_Jump.name=Force Jump
+items.OrbisGalactic_ForceFocus_Jump.description=Force Jump
