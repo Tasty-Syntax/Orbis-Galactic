@@ -1,11 +1,8 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Kweebec_Sapling",
+  "Reference": "Template_Humanoid_Friendly_Static",
   "Modify": {
     "Appearance": "CantinaGuy_Model",
-    "DropList": "Drop_Jawa",
-    "MaxHealth": 74,
-    "IsMemory": true,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }

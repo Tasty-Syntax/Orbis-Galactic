@@ -1,0 +1,21 @@
+{
+  "Type": "Abstract",
+  "Parameters": {
+    "Appearance": {
+      "Value": "Kweebec_Sapling",
+      "Description": "Model to be used"
+    },
+    "AttitudeGroup": {
+      "Value": "Vehicle",
+      "Description": "This NPCs attitude group"
+    },
+    "Weapons": {
+      "Value": [],
+      "TypeHint": "String",
+      "Description": "NPC Weapons"
+    }
+  },
+  "NameTranslationKey": {
+    "Compute": "NameTranslationKey"
+  }
+}
