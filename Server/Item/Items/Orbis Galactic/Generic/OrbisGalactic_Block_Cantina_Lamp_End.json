@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Long Cantina Lamp"
+    "Name": "Bulbous Cantina Lamp "
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -89,7 +89,7 @@
               "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png"
             }
           ],
-          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+          "CustomModel": "Resources/BlockModels/Cantina_Lamp_End_Square.blockymodel"
         },
         "Off": {
           "InteractionHint": "server.interactionHints.turnon",
@@ -98,7 +98,7 @@
           "AmbientSoundEventId": null,
           "InteractionSoundEventId": "SFX_Lamp_Off",
           "DrawType": "Model",
-          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel",
+          "CustomModel": "Resources/BlockModels/Cantina_Lamp_End_Square.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture_Off.png"
@@ -116,7 +116,7 @@
     ],
     "InteractionHitboxType": "Block_Full",
     "Looping": true,
-    "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+    "CustomModel": "Resources/BlockModels/Cantina_Lamp_End_Square.blockymodel"
   },
   "Tags": {
     "Type": [

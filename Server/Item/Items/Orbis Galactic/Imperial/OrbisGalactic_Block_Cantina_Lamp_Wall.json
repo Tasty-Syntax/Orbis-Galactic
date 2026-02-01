@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Long Cantina Lamp"
+    "Name": "Cantina Lamp"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -31,7 +31,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Lamp.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Lamp_Wall.png",
   "IconProperties": {
     "Scale": 0.5,
     "Rotation": [
@@ -47,7 +47,7 @@
   "BlockType": {
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
-    "DrawType": "Model",
+    "DrawType": "Cube",
     "Flags": {},
     "Gathering": {
       "Soft": {
@@ -74,49 +74,47 @@
     "State": {
       "Definitions": {
         "On": {
+          "Textures": [
+            {
+              "All": "Resources/BlockTextures/Rock_Cantina_Light.png"
+            }
+          ],
           "InteractionHint": "server.interactionHints.turnon",
           "InteractionSoundEventId": "SFX_Lamp_On",
           "AmbientSoundEventId": "OrbisGalactic_Block_Imperial_Lamp_SFX",
           "Light": {
-            "Color": "#aaa"
+            "Color": "#ba3"
           },
           "Opacity": "Semitransparent",
           "CubeShadingMode": "Fullbright",
-          "Looping": true,
-          "DrawType": "Model",
-          "CustomModelTexture": [
-            {
-              "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png"
-            }
-          ],
-          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+          "Looping": true
         },
         "Off": {
           "InteractionHint": "server.interactionHints.turnon",
           "Light": null,
           "Particles": null,
           "AmbientSoundEventId": null,
-          "InteractionSoundEventId": "SFX_Lamp_Off",
-          "DrawType": "Model",
-          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel",
-          "CustomModelTexture": [
+          "Textures": [
             {
-              "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture_Off.png"
+              "All": "Resources/BlockTextures/Rock_Cantina_Light_Off.png"
             }
-          ]
+          ],
+          "InteractionSoundEventId": "SFX_Lamp_Off"
         }
       }
     },
     "InteractionHint": "server.interactionHints.turnon",
     "CubeShadingMode": "Standard",
-    "CustomModelTexture": [
+    "Textures": [
       {
-        "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture_Off.png"
+        "All": "Resources/BlockTextures/Rock_Cantina_Light_Off.png"
       }
     ],
+    "CustomModelTexture": [
+      {}
+    ],
     "InteractionHitboxType": "Block_Full",
-    "Looping": true,
-    "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+    "Looping": true
   },
   "Tags": {
     "Type": [
@@ -127,7 +125,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
-  "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png",
-  "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "Model": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+  "Texture": "Resources/BlockTextures/Rock_Cantina_Light_Off.png",
+  "Parent": "OrbisGalactic_Block_Imperial_Light_Template"
 }
