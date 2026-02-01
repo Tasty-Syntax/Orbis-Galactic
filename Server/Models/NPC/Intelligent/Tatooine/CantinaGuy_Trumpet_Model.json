@@ -1,0 +1,59 @@
+{
+  "Parent": "Player_NPC_Template",
+  "Model": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien.blockymodel",
+  "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien.png",
+  "EyeHeight": 1,
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "Cosmetics/Pants/Pants_Asymetrical.blockymodel",
+      "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/Explorer_Greyscale.png"
+    },
+    {
+      "Model": "Cosmetics/Overtops/NeckHighJumper.blockymodel",
+      "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/SavanaShirt.png"
+    },
+    {
+      "Model": "Cosmetics/Shoes/BasicSlipons.blockymodel",
+      "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/CoolGaia_Slipons_Texture.png"
+    }
+  ],
+  "Icon": "Icons/ModelsGenerated/Jawa_Model.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -44
+    ]
+  },
+  "MinScale": 0.85,
+  "MaxScale": 1.15,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Intelligent/CantinaBand/CantinaGuyPlayTrumpet.blockyanim",
+          "Speed": 1,
+          "Looping": true
+        }
+      ]
+    }
+  }
+}

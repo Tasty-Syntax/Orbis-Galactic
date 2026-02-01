@@ -1,0 +1,95 @@
+{
+  "TranslationProperties": {
+    "Name": "Gold Galactic Credit Stack"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Galactic_Credit_Stack_Silver_Variation.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Harvest": {
+        "DropList": "Droplist_OrbisGalactic_Galactic_Credit_Stack_Silver"
+      },
+      "Soft": {
+        "DropList": "Droplist_OrbisGalactic_Galactic_Credit_Stack_Silver"
+      }
+    },
+    "ParticleColor": "#d1d1c8",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Model",
+    "Material": "Empty",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    },
+    "RequiresAlphaBlending": true,
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/ItemTextures/Credit_Texture_Silver.png"
+      }
+    ],
+    "CustomModel": "Resources/ItemModels/CreditStack_Variation_1.blockymodel",
+    "CustomModelScale": 0.4,
+    "BlockSoundSetId": "Coins",
+    "Particles": [
+      {
+        "SystemId": "Block_Gem_Sparks",
+        "Color": "#d2d2d2",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 0
+        }
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      0,
+      96,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "ItemSoundSetId": "ISS_Items_Gems"
+}

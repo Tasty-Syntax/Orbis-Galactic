@@ -1,0 +1,15 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Music/Cantina Bar Theme (From _Star Wars Episode IV_ A New Hope_).ogg"
+      ],
+      "Looping": true
+    }
+  ],
+  "MaxDistance": 40,
+  "MaxInstance": 1,
+  "StartAttenuationDistance": 15,
+  "AmbientDuckingVolume": -6.8,
+  "MusicDuckingVolume": -35.2
+}
