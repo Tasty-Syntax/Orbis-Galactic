@@ -1,7 +1,7 @@
 {
   "Parent": "Player_NPC_Template",
-  "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
-  "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo.png",
+  "Model": "Characters/Player_With_Face.blockymodel",
+  "Texture": "Characters/Player_Textures/Player_Muscular_Greyscale.png",
   "EyeHeight": 1.65,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -16,25 +16,7 @@
       "Z": -0.3
     }
   },
-  "DefaultAttachments": [
-    {
-      "Model": "Cosmetics/Pants/Pants_Asymetrical.blockymodel",
-      "Texture": "Cosmetics/Pants/Pants_Asymetrical_Textures/Explorer_Greyscale.png"
-    },
-    {
-      "Model": "Cosmetics/Overtops/CollaredJacket.blockymodel",
-      "Texture": "Cosmetics/Overtops/CollaredJacket_Texture/TopBomber_Texture.png"
-    },
-    {
-      "Model": "Cosmetics/Shoes/HeavyBoots.blockymodel",
-      "Texture": "Cosmetics/Shoes/HeavyBoots_Textures/Worker_Greyscale.png"
-    },
-    {
-      "Model": "Cosmetics/Undertops/LongSleeveShirt.blockymodel",
-      "Texture": "Cosmetics/Undertops/LongSleeveShirt_Textures/Goldtrim_Greyscale.png"
-    }
-  ],
-  "Icon": "Icons/ModelsGenerated/Greedo_Model.png",
+  "Icon": "Icons/ModelsGenerated/Human_Bizarre_Model.png",
   "IconProperties": {
     "Scale": 0.25,
     "Rotation": [
@@ -1257,5 +1239,62 @@
         }
       ]
     }
-  }
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
+      "Texture": "Cosmetics/Head/ChillGaia_Cap/ChillGaia_Cap_Very_Bizarre_Texture.png",
+      "Weight": 1,
+      "GradientSet": "Fantasy_Cotton_Dark"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+      "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+      "GradientSet": "Eyes_Gradient",
+      "GradientId": "Grey"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Mouths/Mouth1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Mouths/Mouth1_Textures/Default_Greyscale.png",
+      "GradientSet": "Skin",
+      "GradientId": "01"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Ears/Ears1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Ears/Ears.png",
+      "GradientSet": "Skin",
+      "GradientId": "01"
+    },
+    {
+      "Model": "Cosmetics/Pants/Pants_Slim.blockymodel",
+      "Texture": "Cosmetics/Pants/Pants_Slim_Textures/Jean_Tight_Greyscale.png",
+      "GradientSet": "Fantasy_Cotton",
+      "GradientId": "Blue"
+    },
+    {
+      "Model": "Cosmetics/Overtops/FancyMiniJacket.blockymodel",
+      "Texture": "Cosmetics/Overtops/FancyMiniJacket_Textures/PopstarJacket_Textures.png",
+      "GradientSet": "Fantasy_Cotton",
+      "GradientId": "Purple"
+    },
+    {
+      "Model": "Cosmetics/Shoes/Trainers.blockymodel",
+      "Texture": "Cosmetics/Shoes/Trainers_Textures/Trainers_Greyscale.png",
+      "GradientSet": "Fantasy_Cotton_Dark",
+      "GradientId": "Blue"
+    },
+    {
+      "Model": "Cosmetics/Undertops/Tshirt.blockymodel",
+      "Texture": "Cosmetics/Undertops/Tshirt_Textures/Crinkled_Greyscale.png",
+      "GradientSet": "Shiny_Fabric",
+      "GradientId": "White"
+    },
+    {
+      "Model": "Characters/Haircuts/StylishWindswept.blockymodel",
+      "Texture": "Characters/Haircuts/StylishWindswept_Greyscale.png",
+      "GradientSet": "Hair"
+    }
+  ],
+  "GradientSet": "Skin",
+  "GradientId": "01"
 }

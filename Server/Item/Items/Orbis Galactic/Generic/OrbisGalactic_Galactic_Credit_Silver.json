@@ -5,7 +5,8 @@
     "Items.Ingredients"
   ],
   "TranslationProperties": {
-    "Name": "Silver Galactic Credit"
+    "Name": "Silver Credit",
+    "Description": "The standard currency denomination of choice."
   },
   "UsePlayerAnimations": true,
   "PlayerAnimationsId": "Item",

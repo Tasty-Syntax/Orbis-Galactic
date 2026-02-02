@@ -5,7 +5,8 @@
     "Items.Ingredients"
   ],
   "TranslationProperties": {
-    "Name": "Gold Galactic Credit"
+    "Name": "Gold Credit",
+    "Description": "Worth a whole 10 Silver Credits!"
   },
   "UsePlayerAnimations": true,
   "PlayerAnimationsId": "Item",

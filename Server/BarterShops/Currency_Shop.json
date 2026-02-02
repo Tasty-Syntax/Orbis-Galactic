@@ -1,0 +1,69 @@
+{
+  "DisplayNameKey": "Credit Exchange",
+  "RestockHour": 6,
+  "Trades": [
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+        "Quantity": 1
+      },
+      "Input": [
+        {
+          "Quantity": 10,
+          "ItemId": "OrbisGalactic_Galactic_Credit_Silver"
+        }
+      ]
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+        "Quantity": 10
+      },
+      "Input": [
+        {
+          "Quantity": 1,
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold"
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "Ingredient_Bar_Gold",
+          "Quantity": 5
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+        "Quantity": 2
+      },
+      "Stock": 99999
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+        "Quantity": 3
+      },
+      "Input": [
+        {
+          "ItemId": "Ingredient_Bar_Mithril",
+          "Quantity": 5
+        }
+      ],
+      "Stock": 99999
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+        "Quantity": 1
+      },
+      "Input": [
+        {
+          "ItemId": "Ingredient_Bar_Adamantite",
+          "Quantity": 5
+        }
+      ],
+      "Stock": 99999
+    }
+  ]
+}

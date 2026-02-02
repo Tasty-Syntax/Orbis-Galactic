@@ -1,26 +1,12 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Humanoid_Friendly",
-  "DropList": "Drop_Jawa",
+  "Reference": "Template_Kweebec_Sapling",
   "Modify": {
-    "Appearance": "Greedo_Model",
+    "Appearance": "Rodian_Red_Model",
+    "MaxHealth": 74,
+    "IsMemory": true,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
-    }
-  },
-  "MaxHealth": 250,
-  "_InteractionVars": {
-    "Melee_Damage": {
-      "Interactions": [
-        {
-          "Parent": "NPC_Attack_Melee_Damage",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 2
-            }
-          }
-        }
-      ]
     }
   },
   "AttitudeGroup": {

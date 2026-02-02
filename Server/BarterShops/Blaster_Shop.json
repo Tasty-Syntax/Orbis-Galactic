@@ -1,0 +1,46 @@
+{
+  "DisplayNameKey": "Bounty Hunter",
+  "RestockHour": 6,
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "TradeSlots": [
+    {
+      "Type": "Pool",
+      "SlotCount": 1,
+      "Trades": [
+        {
+          "Stock": [
+            1
+          ],
+          "Output": {
+            "ItemId": "OrbisGalactic_Weapon_Blaster_DC15A",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+              "Quantity": 2
+            }
+          ],
+          "Weight": 90
+        },
+        {
+          "Weight": 10,
+          "Stock": [
+            1
+          ],
+          "Input": [
+            {
+              "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+              "Quantity": 15
+            }
+          ],
+          "Output": {
+            "ItemId": "OrbisGalactic_Weapon_Blaster_CyclerRifle"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "Parent": "Player_NPC_Template",
   "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
-  "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo.png",
+  "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Blue.png",
   "EyeHeight": 1.65,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -18,23 +18,19 @@
   },
   "DefaultAttachments": [
     {
-      "Model": "Cosmetics/Pants/Pants_Asymetrical.blockymodel",
-      "Texture": "Cosmetics/Pants/Pants_Asymetrical_Textures/Explorer_Greyscale.png"
+      "Model": "Cosmetics/Pants/Short_Bermuda_Belted.blockymodel",
+      "Texture": "Cosmetics/Pants/Short_Bermuda_Belted_Textures/Merchant_Belted_Pants_Orange.png"
     },
     {
-      "Model": "Cosmetics/Overtops/CollaredJacket.blockymodel",
-      "Texture": "Cosmetics/Overtops/CollaredJacket_Texture/TopBomber_Texture.png"
+      "Model": "Cosmetics/Overtops/Merchant_Dress.blockymodel",
+      "Texture": "Cosmetics/Overtops/Merchant_Dress_Texture/Merchant_Dress_Orange.png"
     },
     {
-      "Model": "Cosmetics/Shoes/HeavyBoots.blockymodel",
-      "Texture": "Cosmetics/Shoes/HeavyBoots_Textures/Worker_Greyscale.png"
-    },
-    {
-      "Model": "Cosmetics/Undertops/LongSleeveShirt.blockymodel",
-      "Texture": "Cosmetics/Undertops/LongSleeveShirt_Textures/Goldtrim_Greyscale.png"
+      "Model": "Cosmetics/Shoes/BasicSlipons.blockymodel",
+      "Texture": "Cosmetics/Shoes/BasicSlipons_Textures/CoolGaia_Slipons_Texture.png"
     }
   ],
-  "Icon": "Icons/ModelsGenerated/Greedo_Model.png",
+  "Icon": "Icons/ModelsGenerated/Rodian_Blue_Model.png",
   "IconProperties": {
     "Scale": 0.25,
     "Rotation": [
