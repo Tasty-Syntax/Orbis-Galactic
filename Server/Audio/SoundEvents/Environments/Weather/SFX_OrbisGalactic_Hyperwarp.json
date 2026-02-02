@@ -12,7 +12,7 @@
       "StartDelay": 0
     }
   ],
-  "PreventSoundInterruption": true,
+  "PreventSoundInterruption": false,
   "Volume": -0.5,
   "Parent": "SFX_Attn_Quiet"
 }

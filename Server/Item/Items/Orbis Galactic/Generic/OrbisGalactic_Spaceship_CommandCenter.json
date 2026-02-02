@@ -41,11 +41,6 @@
       }
     ],
     "DrawType": "Model",
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Woods"
-      }
-    },
     "ParticleColor": "#c7b885",
     "MaxSupportDistance": 8,
     "Support": {
@@ -104,7 +99,8 @@
         }
       }
     },
-    "AmbientSoundEventId": "Spaceship_SFX_CommandCenter_Idle"
+    "AmbientSoundEventId": "Spaceship_SFX_CommandCenter_Idle",
+    "Parent": "Rock_Bedrock"
   },
   "DisplayEntityStatsHUD": [
     "Idle"
