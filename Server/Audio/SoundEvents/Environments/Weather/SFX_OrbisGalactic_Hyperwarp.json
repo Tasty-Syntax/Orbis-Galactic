@@ -9,7 +9,7 @@
         "MaxPitch": 2,
         "MinPitch": -2
       },
-      "StartDelay": 1.5
+      "StartDelay": 0
     }
   ],
   "PreventSoundInterruption": true,

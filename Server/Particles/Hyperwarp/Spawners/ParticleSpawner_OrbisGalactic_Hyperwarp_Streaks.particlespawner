@@ -167,7 +167,7 @@
   },
   "Shape": "Sphere",
   "SpawnBurst": false,
-  "LifeSpan": 14,
+  "LifeSpan": 12,
   "ParticleCollision": {
     "Action": "Expire",
     "BlockType": "Solid"

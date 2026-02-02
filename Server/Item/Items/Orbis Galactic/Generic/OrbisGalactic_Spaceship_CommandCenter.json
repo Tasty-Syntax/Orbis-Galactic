@@ -103,7 +103,8 @@
           "Looping": true
         }
       }
-    }
+    },
+    "AmbientSoundEventId": "Spaceship_SFX_CommandCenter_Idle"
   },
   "DisplayEntityStatsHUD": [
     "Idle"
