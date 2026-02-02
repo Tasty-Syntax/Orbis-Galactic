@@ -53,7 +53,8 @@
         "West": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
         "East": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png"
       }
-    ]
+    ],
+    "Parent": "Rock_Bedrock"
   },
   "ResourceTypes": [
     {

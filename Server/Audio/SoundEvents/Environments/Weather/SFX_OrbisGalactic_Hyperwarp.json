@@ -13,6 +13,6 @@
     }
   ],
   "PreventSoundInterruption": true,
-  "Volume": 2.08,
+  "Volume": -0.5,
   "Parent": "SFX_Attn_Quiet"
 }

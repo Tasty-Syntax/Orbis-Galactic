@@ -47,7 +47,8 @@
         }
       }
     },
-    "RequiresAlphaBlending": true
+    "RequiresAlphaBlending": true,
+    "Parent": "Rock_Bedrock"
   },
   "ResourceTypes": [
     {

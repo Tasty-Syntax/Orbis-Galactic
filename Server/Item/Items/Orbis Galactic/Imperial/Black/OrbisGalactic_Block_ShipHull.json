@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "Imperial Black Panel"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Top_Right.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Black.png",
   "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
@@ -21,29 +21,17 @@
     "TimeSeconds": 0
   },
   "BlockType": {
-    "Gathering": {
-      "Breaking": {
-        "ItemId": "Rock_Marble_Cobble",
-        "GatherType": "Rocks"
-      }
-    },
     "Textures": [
       {
-        "Weight": 1,
-        "North": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Corner_Top_Left.png",
-        "South": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Corner_Top_Right.png",
-        "Down": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "Up": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "UpDown": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "West": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "East": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png"
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black.png",
+        "Weight": 1
       }
     ],
     "ParticleColor": "#bbbbaf",
     "CubeShadingMode": "Standard",
     "DrawType": "Cube",
     "Material": "Solid",
-    "Opacity": "Transparent",
+    "Opacity": "Solid",
     "State": {
       "Definitions": {
         "White": {
@@ -53,7 +41,6 @@
         }
       }
     },
-    "RequiresAlphaBlending": true,
     "Parent": "Rock_Bedrock"
   },
   "ResourceTypes": [
@@ -84,5 +71,6 @@
   },
   "Categories": [
     "Blocks.Structural"
-  ]
+  ],
+  "ItemLevel": 0
 }
