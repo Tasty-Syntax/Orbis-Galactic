@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Top",
+      "position": {"x": 0, "y": 13.01157, "z": -15.33691},
+      "orientation": {"x": -0.01745, "y": 0, "z": 0, "w": 0.99985},
+      "shape": {
+        "type": "quad",
+        "offset": {"x": 0, "y": 7.1039, "z": 0.12546},
+        "stretch": {"x": 1, "y": 1, "z": 1},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 32, "y": 24},
+          "normal": "+Z"
+        },
+        "textureLayout": {
+          "front": {
+            "offset": {"x": 34, "y": 8},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": true,
+        "shadingMode": "standard"
+      }
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}

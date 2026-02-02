@@ -1,6 +1,6 @@
 {
   "Parent": "Player_NPC_Template",
-  "Model": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien.blockymodel",
+  "Model": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien_Trumpet.blockymodel",
   "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
