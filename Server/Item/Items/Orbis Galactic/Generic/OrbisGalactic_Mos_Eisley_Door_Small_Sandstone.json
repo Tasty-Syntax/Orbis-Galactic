@@ -18,7 +18,7 @@
       0
     ],
     "Translation": [
-      1,
+      -13,
       -47
     ]
   },
@@ -26,7 +26,7 @@
     "BlockParticleSetId": "Metal",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Mos_Eisley_Door.png"
+        "Texture": "Resources/BlockTextures/Mos_Eisley_Door_Sandstone.png"
       }
     ],
     "DrawType": "Model",
@@ -79,7 +79,7 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Mos_Eisley_Door_Small.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Mos_Eisley_Door_Small_Sandstone.png",
   "Model": "Resources/BlockModels/Mos_Eisley_Door.blockymodel",
   "Texture": "Resources/BlockTextures/Mos_Eisley_Door.png"
 }

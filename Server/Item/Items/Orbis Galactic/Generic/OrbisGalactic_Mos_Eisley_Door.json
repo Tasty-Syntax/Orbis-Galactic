@@ -64,7 +64,7 @@
     "Interactions": {
       "Use": "Door"
     },
-    "Opacity": "Semitransparent",
+    "Opacity": "Solid",
     "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
     "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
     "CustomModel": "Resources/BlockModels/Mos_Eisley_Door.blockymodel"

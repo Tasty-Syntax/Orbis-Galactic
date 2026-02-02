@@ -7,6 +7,21 @@
       "Compute": "NameTranslationKey"
     }
   },
+  "MaxHealth": 250,
+  "_InteractionVars": {
+    "Melee_Damage": {
+      "Interactions": [
+        {
+          "Parent": "NPC_Attack_Melee_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 2
+            }
+          }
+        }
+      ]
+    }
+  },
   "AttitudeGroup": {
     "Value": "Humanoid_Friendly",
     "Description": "The attitude group this NPC belongs to."
