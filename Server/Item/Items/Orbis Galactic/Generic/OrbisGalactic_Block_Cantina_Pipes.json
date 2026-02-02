@@ -1,8 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "Silver Galactic Credit Stack"
+    "Name": "Cantina Pipes"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Galactic_Credit_Stack_Silver.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Pipes.png",
+  "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
       {
@@ -21,17 +22,15 @@
   },
   "BlockType": {
     "Gathering": {
-      "Harvest": {
-        "DropList": "Droplist_OrbisGalactic_Galactic_Credit_Stack_Silver"
-      },
-      "Soft": {
-        "DropList": "Droplist_OrbisGalactic_Galactic_Credit_Stack_Silver"
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble",
+        "GatherType": "Rocks"
       }
     },
     "ParticleColor": "#bbbbaf",
     "CubeShadingMode": "Standard",
     "DrawType": "Model",
-    "Material": "Empty",
+    "Material": "Solid",
     "Opacity": "Transparent",
     "State": {
       "Definitions": {
@@ -43,23 +42,10 @@
       }
     },
     "RequiresAlphaBlending": true,
+    "CustomModel": "Resources/BlockModels/Cantina_Pipe_Block.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/ItemTextures/Credit_Texture_Silver.png"
-      }
-    ],
-    "CustomModel": "Resources/ItemModels/CreditStack.blockymodel",
-    "CustomModelScale": 0.4,
-    "BlockSoundSetId": "Coins",
-    "AllowsMultipleUsers": false,
-    "Particles": [
-      {
-        "SystemId": "Block_Gem_Sparks",
-        "Color": "#d8d8d8",
-        "TargetEntityPart": "Entity",
-        "PositionOffset": {
-          "Y": 1
-        }
+        "Texture": "Resources/BlockTextures/Cantina_Pipes.png"
       }
     ]
   },
@@ -78,10 +64,10 @@
   },
   "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.58823,
     "Rotation": [
-      0,
-      96,
+      22.5,
+      45,
       22.5
     ],
     "Translation": [
@@ -91,6 +77,5 @@
   },
   "Categories": [
     "Blocks.Structural"
-  ],
-  "ItemSoundSetId": "ISS_Items_Gems"
+  ]
 }
