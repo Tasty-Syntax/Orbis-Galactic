@@ -1,0 +1,142 @@
+{
+  "TranslationProperties": {
+    "Name": "Cantina Pipes"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Tap.png",
+  "Set": "Rock_Marble",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble",
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Model",
+    "Material": "Empty",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Resources/BlockModels/Cantina_Pipe_Tap.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Cantina_Tap.png"
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "On",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "Opacity": "Solid",
+          "CubeShadingMode": "Standard",
+          "Looping": false,
+          "DrawType": "Model",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/BlockTextures/Cantina_Tap.png"
+            }
+          ],
+          "CustomModel": "Resources/BlockModels/Cantina_Pipe_Tap.blockymodel",
+          "CustomModelAnimation": "Resources/Animations/Blocks/Cantina_Pipe_Tap_Dispense.blockyanim",
+          "Material": "Solid",
+          "SupportsRequiredFor": "Any",
+          "Particles": [
+            {
+              "SystemId": "Cantina_Tap",
+              "TargetEntityPart": "Entity",
+              "PositionOffset": {
+                "Y": 0,
+                "X": 0,
+                "Z": 0
+              },
+              "RotationOffset": {
+                "Pitch": 90
+              }
+            }
+          ]
+        },
+        "Off": {
+          "Light": null,
+          "Particles": null,
+          "AmbientSoundEventId": null,
+          "DrawType": "Model",
+          "CustomModel": "Resources/BlockModels/Cantina_Pipe_Tap.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/BlockTextures/Cantina_Tap.png"
+            }
+          ],
+          "Material": "Solid",
+          "SupportsRequiredFor": "Any",
+          "CustomModelAnimation": "Resources/Animations/Blocks/Cantina_Pipe_Tap_StopDispensing.blockyanim"
+        }
+      }
+    },
+    "IgnoreSupportWhenPlaced": false,
+    "Support": {
+      "All": [
+        {
+          "Support": "Ignored"
+        }
+      ]
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template"
+}

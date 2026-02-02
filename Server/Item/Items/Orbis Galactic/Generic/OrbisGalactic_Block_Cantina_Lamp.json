@@ -1,0 +1,133 @@
+{
+  "TranslationProperties": {
+    "Name": "Long Cantina Lamp"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Furniture_Crude_Candle",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Wood_Hardwood_Planks",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Lighting"
+        ]
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Lamp.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      11,
+      45,
+      11
+    ],
+    "Translation": [
+      1,
+      -16
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "ParticleColor": "#575757",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "On",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "InteractionSoundEventId": "SFX_Lamp_On",
+          "AmbientSoundEventId": "OrbisGalactic_Block_Imperial_Lamp_SFX",
+          "Light": {
+            "Color": "#aaa"
+          },
+          "Opacity": "Semitransparent",
+          "CubeShadingMode": "Fullbright",
+          "Looping": true,
+          "DrawType": "Model",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png"
+            }
+          ],
+          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+        },
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "AmbientSoundEventId": null,
+          "InteractionSoundEventId": "SFX_Lamp_Off",
+          "DrawType": "Model",
+          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture_Off.png"
+            }
+          ]
+        }
+      }
+    },
+    "InteractionHint": "server.interactionHints.turnon",
+    "CubeShadingMode": "Standard",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture_Off.png"
+      }
+    ],
+    "InteractionHitboxType": "Block_Full",
+    "Looping": true,
+    "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Lumberjack"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png",
+  "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
+  "Model": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+}

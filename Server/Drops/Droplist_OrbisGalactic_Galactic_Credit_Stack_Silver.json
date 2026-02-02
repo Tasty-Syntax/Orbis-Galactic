@@ -6,8 +6,8 @@
         "Type": "Single",
         "Item": {
           "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
-          "QuantityMin": 0,
-          "QuantityMax": 2
+          "QuantityMin": 1,
+          "QuantityMax": 6
         }
       }
     ]
