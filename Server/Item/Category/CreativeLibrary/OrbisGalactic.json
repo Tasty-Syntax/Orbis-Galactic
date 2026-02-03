@@ -1,0 +1,36 @@
+{
+  "Icon": "Icons/ItemCategories/OrbisGalactic.png",
+  "Order": 4,
+  "Children": [
+    {
+      "Id": "Blocks",
+      "Name": "server.ui.itemcategory.orbisgalactic.blocks",
+      "Icon": "Icons/ItemCategories/Blocks.png"
+    },
+    {
+      "Id": "Sabers",
+      "Name": "server.ui.itemcategory.orbisgalactic.sabers",
+      "Icon": "Icons/ItemCategories/Items-Weapons.png"
+    },
+    {
+      "Id": "Blasters",
+      "Name": "server.ui.itemcategory.orbisgalactic.blasters",
+      "Icon": "Icons/ItemCategories/Items-Weapons.png"
+    },
+    {
+      "Id": "Armor",
+      "Name": "server.ui.itemcategory.orbisgalactic.armor",
+      "Icon": "Icons/ItemCategories/Items-Armor.png"
+    },
+    {
+      "Id": "Clothes",
+      "Name": "server.ui.itemcategory.orbisgalactic.clothes",
+      "Icon": "Icons/ItemCategories/Items-Clothes.png"
+    },
+    {
+      "Id": "Misc",
+      "Name": "server.ui.itemcategory.orbisgalactic.misc",
+      "Icon": "Icons/ItemCategories/Misc.png"
+    }
+  ]
+}
