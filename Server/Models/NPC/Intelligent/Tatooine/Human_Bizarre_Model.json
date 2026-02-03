@@ -1,5 +1,5 @@
 {
-  "Parent": "Player_NPC_Template",
+  "Parent": "Template_Human",
   "Model": "Characters/Player_With_Face.blockymodel",
   "Texture": "Characters/Player_Textures/Player_Muscular_Greyscale.png",
   "EyeHeight": 1.65,
@@ -35,7 +35,7 @@
     "Idle": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Animation": "Characters/Animations/Poses/Jotaro_Walk.blockyanim",
           "Looping": true,
           "Speed": 0.5
         }
@@ -1242,12 +1242,6 @@
   },
   "DefaultAttachments": [
     {
-      "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
-      "Texture": "Cosmetics/Head/ChillGaia_Cap/ChillGaia_Cap_Very_Bizarre_Texture.png",
-      "Weight": 1,
-      "GradientSet": "Fantasy_Cotton_Dark"
-    },
-    {
       "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
       "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
       "GradientSet": "Eyes_Gradient",
@@ -1274,8 +1268,8 @@
     {
       "Model": "Cosmetics/Overtops/FancyMiniJacket.blockymodel",
       "Texture": "Cosmetics/Overtops/FancyMiniJacket_Textures/PopstarJacket_Textures.png",
-      "GradientSet": "Fantasy_Cotton",
-      "GradientId": "Purple"
+      "GradientSet": "Fantasy_Cotton_Dark",
+      "GradientId": "Blue"
     },
     {
       "Model": "Cosmetics/Shoes/Trainers.blockymodel",
@@ -1287,12 +1281,18 @@
       "Model": "Cosmetics/Undertops/Tshirt.blockymodel",
       "Texture": "Cosmetics/Undertops/Tshirt_Textures/Crinkled_Greyscale.png",
       "GradientSet": "Shiny_Fabric",
-      "GradientId": "White"
+      "GradientId": "Pink"
     },
     {
       "Model": "Characters/Haircuts/StylishWindswept.blockymodel",
       "Texture": "Characters/Haircuts/StylishWindswept_Greyscale.png",
-      "GradientSet": "Hair"
+      "GradientSet": "Hair",
+      "GradientId": "Black"
+    },
+    {
+      "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
+      "Texture": "Cosmetics/Head/ChillGaia_Cap/ChillGaia_Cap_Very_Bizarre_Texture.png",
+      "Weight": 12
     }
   ],
   "GradientSet": "Skin",

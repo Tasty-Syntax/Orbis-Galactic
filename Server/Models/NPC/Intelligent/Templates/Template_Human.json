@@ -1,7 +1,7 @@
 {
   "Parent": "Player_NPC_Template",
-  "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
-  "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Blue.png",
+  "Model": "Characters/Player_With_Face.blockymodel",
+  "Texture": "Characters/Player_Textures/Player_Muscular_Greyscale.png",
   "EyeHeight": 1.65,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -16,7 +16,7 @@
       "Z": -0.3
     }
   },
-  "Icon": "Icons/ModelsGenerated/Rodian_Blue_Model.png",
+  "Icon": "Icons/ModelsGenerated/Human_Bizarre_Model.png",
   "IconProperties": {
     "Scale": 0.25,
     "Rotation": [
@@ -1240,84 +1240,31 @@
       ]
     }
   },
-  "RandomAttachmentSets": {
-    "Hats": {
-      "Cap": {
-        "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
-        "Texture": "Cosmetics/Head/ChillGaia_Cap/ChillGaia_Cap_Very_Bizarre_Texture.png"
-      },
-      "Tophat": {
-        "Model": "Cosmetics/Head/TopHat.blockymodel",
-        "Texture": "Cosmetics/Head/TopHat_Red.png"
-      },
-      "Goggles": {
-        "Model": "Cosmetics/Head/Goggles.blockymodel",
-        "Texture": "Cosmetics/Head/Goggles_Texture.png"
-      }
+  "DefaultAttachments": [
+    {
+      "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+      "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+      "GradientSet": "Eyes_Gradient",
+      "GradientId": "Grey"
     },
-    "Shirts": {
-      "Undershirt": {
-        "Model": "Cosmetics/Undertops/Tshirt.blockymodel",
-        "Texture": "Cosmetics/Undertops/Tshirt_Textures/Crinkled_Greyscale.png",
-        "GradientSet": "Shiny_Fabric",
-        "GradientId": "White"
-      },
-      "Longsleeve": {
-        "Model": "Cosmetics/Undertops/LongSleeveShirt.blockymodel",
-        "Texture": "Cosmetics/Undertops/LongSleeveShirt_Textures/Ribbed_Shirt_Greyscale.png",
-        "GradientSet": "Shiny_Fabric",
-        "GradientId": "White"
-      }
+    {
+      "Model": "Characters/Body_Attachments/Mouths/Mouth1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Mouths/Mouth1_Textures/Default_Greyscale.png",
+      "GradientSet": "Skin",
+      "GradientId": "01"
     },
-    "Jackets": {
-      "Trenchcoat": {
-        "Model": "Cosmetics/Overtops/Trench_Coat.blockymodel",
-        "Texture": "Cosmetics/Overtops/Trench_Coat_Texture.png"
-      },
-      "BomberJacket": {
-        "Model": "Cosmetics/Overtops/CollaredJacket_Zipper.blockymodel",
-        "Texture": "Cosmetics/Overtops/CollaredJacket_Texture/Puffy_Bomber_Texture.png",
-        "Weight": 1
-      },
-      "BikerJacket": {
-        "Model": "Cosmetics/Overtops/Jacket_ElbowPads.blockymodel",
-        "Texture": "Cosmetics/Overtops/Jacket_ElbowPads_Greyscale.png",
-        "Weight": 1
-      },
-      "Bandages": {
-        "Model": "Cosmetics/Overtops/Arm_Bandage.blockymodel",
-        "Texture": "Cosmetics/Overtops/Arm_Bandage_White.png"
-      }
+    {
+      "Model": "Characters/Body_Attachments/Ears/Ears1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Ears/Ears.png",
+      "GradientSet": "Skin",
+      "GradientId": "01"
     },
-    "Pants": {
-      "Complex": {
-        "Model": "Cosmetics/Pants/Pants_Complex.blockymodel",
-        "Texture": "Cosmetics/Pants/Pants_Complex_Texture/Scavenger_Pants_Texture.png"
-      },
-      "Biker": {
-        "Model": "Cosmetics/Pants/Pants_Large.blockymodel",
-        "Texture": "Cosmetics/Pants/Pants_Large_Textures/Black.png",
-        "Weight": 1
-      },
-      "Rolled": {
-        "Model": "Cosmetics/Pants/Shorty_Rolled.blockymodel",
-        "Texture": "Cosmetics/Pants/Shorty_Rolled_Textures/Fantasy_Jean_Greyscale.png"
-      }
-    },
-    "Shoes": {
-      "Biker": {
-        "Model": "Cosmetics/Shoes/Stockings.blockymodel",
-        "Texture": "Cosmetics/Shoes/Stockings_Textures/HighSandals_Greyscale.png",
-        "Weight": 1
-      },
-      "Quilted": {
-        "Model": "Cosmetics/Shoes/QuiltedBoots.blockymodel",
-        "Texture": "Cosmetics/Shoes/QuiltedBoots_Textures/QuiltedBoots_Texture.png"
-      },
-      "Slipons": {
-        "Model": "Cosmetics/Shoes/Slipons.blockymodel",
-        "Texture": "Cosmetics/Shoes/SlipOns_Textures/SlipOns_Greyscale.png"
-      }
+    {
+      "Model": "Characters/Haircuts/StylishWindswept.blockymodel",
+      "Texture": "Characters/Haircuts/StylishWindswept_Greyscale.png",
+      "GradientSet": "Hair"
     }
-  }
+  ],
+  "GradientSet": "Skin",
+  "GradientId": "01"
 }

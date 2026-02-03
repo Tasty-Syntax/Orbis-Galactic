@@ -31,7 +31,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Lamp.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Lamp_End.png",
   "IconProperties": {
     "Scale": 0.5,
     "Rotation": [
@@ -40,8 +40,8 @@
       11
     ],
     "Translation": [
-      1,
-      -16
+      -1,
+      -25
     ]
   },
   "BlockType": {

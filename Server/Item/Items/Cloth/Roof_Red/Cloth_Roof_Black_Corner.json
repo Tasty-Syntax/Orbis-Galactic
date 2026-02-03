@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Cloth_Roof_Red_Vertical.name"
+    "Name": "Black Cloth Roof - Corner"
   },
   "Recipe": {
     "Input": [
@@ -27,10 +27,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
+    "CustomModel": "Blocks/Structures/Tents/Tent_Roof_Corner.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Branded_Red.png",
+        "Texture": "Blocks/Structures/Tents/Black.png",
         "Weight": 0
       }
     ],
@@ -51,8 +51,7 @@
       ]
     },
     "BlockSoundSetId": "Cloth",
-    "ParticleColor": "#7d332d",
-    "CustomModelScale": 0.5
+    "ParticleColor": "#7d332d"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
@@ -63,8 +62,8 @@
       22.5
     ],
     "Translation": [
-      19,
-      -39
+      10,
+      -19
     ]
   },
   "Tags": {
@@ -78,5 +77,5 @@
   "ItemSoundSetId": "ISS_Items_Cloth",
   "Model": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
   "Texture": "Resources/BlockTextures/Branded_Red.png",
-  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Vertical_Branded.png"
+  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Black_Corner.png"
 }

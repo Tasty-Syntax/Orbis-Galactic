@@ -1,7 +1,7 @@
 {
   "Parent": "Template_Human",
   "Model": "Characters/Player_With_Face.blockymodel",
-  "Texture": "Characters/Player_Textures/Player_Muscular_Greyscale.png",
+  "Texture": "Characters/Player_Textures/Player_Greyscale.png",
   "EyeHeight": 1.65,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -16,7 +16,7 @@
       "Z": -0.3
     }
   },
-  "Icon": "Icons/ModelsGenerated/Human_Stepdad_Model.png",
+  "Icon": "Icons/ModelsGenerated/Stormtrooper.png",
   "IconProperties": {
     "Scale": 0.25,
     "Rotation": [
@@ -1251,23 +1251,23 @@
       "Model": "Characters/Body_Attachments/Mouths/Mouth1.blockymodel",
       "Texture": "Characters/Body_Attachments/Mouths/Mouth1_Textures/Default_Greyscale.png",
       "GradientSet": "Skin",
-      "GradientId": "02"
+      "GradientId": "04"
     },
     {
-      "Model": "Characters/Body_Attachments/Ears/Ears1.blockymodel",
-      "Texture": "Characters/Body_Attachments/Ears/Ears.png",
-      "GradientSet": "Skin",
-      "GradientId": "02"
+      "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png"
     },
     {
-      "Model": "Cosmetics/Pants/Pants_Slim.blockymodel",
-      "Texture": "Cosmetics/Pants/Pants_Slim_Textures/Costume_Greyscale.png"
+      "Model": "Resources/ClothingModels/Stormtrooper/Chest.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/Chest_Texture_Clean.png"
     },
     {
-      "Model": "Cosmetics/Shoes/Sandals.blockymodel",
-      "Texture": "Cosmetics/Shoes/Sandals_basic.png",
-      "GradientSet": "Fantasy_Cotton_Dark",
-      "GradientId": "Blue"
+      "Model": "Resources/ClothingModels/Stormtrooper/Hands.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/Hands_Texture.png"
+    },
+    {
+      "Model": "Resources/ClothingModels/Stormtrooper/Legs.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/Legs_Texture.png"
     },
     {
       "Model": "Cosmetics/Undertops/Top.blockymodel",
@@ -1276,15 +1276,10 @@
       "GradientId": "White"
     },
     {
-      "Model": "Characters/Haircuts/Balding.blockymodel",
-      "Texture": "Characters/Haircuts/Balding_Greyscale.png",
-      "GradientSet": "Hair"
-    },
-    {
-      "Model": "Characters/Body_Attachments/Beards/Simple.blockymodel",
-      "Texture": "Characters/Body_Attachments/Beards/Moustache_Greyscale.png"
+      "Model": "Cosmetics/Hands/LongDetail_Gloves_Custom.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/LongDetailGloves_Stormtrooper_Texture.png"
     }
   ],
   "GradientSet": "Skin",
-  "GradientId": "02"
+  "GradientId": "04"
 }

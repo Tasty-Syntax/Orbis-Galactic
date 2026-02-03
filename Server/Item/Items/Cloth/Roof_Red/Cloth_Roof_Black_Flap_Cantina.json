@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Cloth_Roof_Red_Vertical.name"
+    "Name": "Black Cloth Roof - Flap"
   },
   "Recipe": {
     "Input": [
@@ -25,48 +25,49 @@
     "Blocks.Structural"
   ],
   "BlockType": {
-    "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
+    "CustomModel": "Resources/BlockModels/Tent_Roof_Vertical_Flap.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Branded_Red.png",
-        "Weight": 0
+        "Texture": "Blocks/Structures/Tents/Black.png",
+        "Weight": 1
       }
     ],
     "Group": "Roof",
-    "HitboxType": "Block_Vertical_Flat",
     "VariantRotation": "NESW",
     "Flags": {},
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks",
-        "ItemId": "Cloth_Roof_Red_Vertical"
+        "ItemId": "Cloth_Roof_Red_Flap"
       }
     },
     "BlockParticleSetId": "Grass",
-    "Supporting": {
-      "North": [
-        {}
-      ]
-    },
+    "HitboxType": "Block_Vertical_Flat_Custom",
     "BlockSoundSetId": "Cloth",
     "ParticleColor": "#7d332d",
-    "CustomModelScale": 0.5
+    "Support": {
+      "All": [
+        {
+          "Support": "Ignored"
+        }
+      ]
+    }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.3,
+    "Scale": 0.72,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      19,
-      -39
+      9.9,
+      -18.9
     ]
   },
+  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Black_Flap_Cantina.png",
   "Tags": {
     "Type": [
       "Cloth"
@@ -75,8 +76,5 @@
       "Roof"
     ]
   },
-  "ItemSoundSetId": "ISS_Items_Cloth",
-  "Model": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
-  "Texture": "Resources/BlockTextures/Branded_Red.png",
-  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Vertical_Branded.png"
+  "ItemSoundSetId": "ISS_Items_Cloth"
 }

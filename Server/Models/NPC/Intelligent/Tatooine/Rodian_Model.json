@@ -1,7 +1,4 @@
 {
-  "Parent": "Player_NPC_Template",
-  "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
-  "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Red.png",
   "EyeHeight": 1.65,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -16,7 +13,7 @@
       "Z": -0.3
     }
   },
-  "Icon": "Icons/ModelsGenerated/Rodian_Red_Model.png",
+  "Icon": "Icons/ModelsGenerated/Rodian_Blue_Model.png",
   "IconProperties": {
     "Scale": 0.25,
     "Rotation": [
@@ -1245,6 +1242,14 @@
       "Cap": {
         "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
         "Texture": "Cosmetics/Head/ChillGaia_Cap/ChillGaia_Cap_Very_Bizarre_Texture.png"
+      },
+      "Tophat": {
+        "Model": "Cosmetics/Head/TopHat.blockymodel",
+        "Texture": "Cosmetics/Head/TopHat_Red.png"
+      },
+      "Goggles": {
+        "Model": "Cosmetics/Head/Goggles.blockymodel",
+        "Texture": "Cosmetics/Head/Goggles_Texture.png"
       }
     },
     "Shirts": {
@@ -1310,6 +1315,29 @@
         "Model": "Cosmetics/Shoes/Slipons.blockymodel",
         "Texture": "Cosmetics/Shoes/SlipOns_Textures/SlipOns_Greyscale.png"
       }
+    },
+    "Skin": {
+      "Blue": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Blue.png"
+      },
+      "Green": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo.png"
+      },
+      "LightGreen": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_LightGreen.png"
+      },
+      "Olive": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Olive.png"
+      },
+      "Red": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Red.png"
+      }
     }
-  }
+  },
+  "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel"
 }
