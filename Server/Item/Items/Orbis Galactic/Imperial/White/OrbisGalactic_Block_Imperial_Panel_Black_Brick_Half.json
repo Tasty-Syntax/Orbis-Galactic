@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Half White"
+    "Name": "Imperial Half Black Brick"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Half.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Smooth_Half.png",
   "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
@@ -50,7 +50,7 @@
     "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White.png"
+        "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black_Brick_1.png"
       }
     ],
     "HitboxType": "Block_Half",

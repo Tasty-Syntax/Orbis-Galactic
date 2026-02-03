@@ -79,5 +79,6 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Imperial_Blast_Door.png",
-  "ItemSoundSetId": "ISS_Items_Metal"
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1
 }
