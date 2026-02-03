@@ -1,6 +1,6 @@
 {
   "Categories": [
-    "Items.Weapons"
+    "OrbisGalactic.Sabers"
   ],
   "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
   "ItemLevel": 40,
@@ -202,5 +202,6 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate.blockyanim"
+  "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+  "Set": ""
 }
