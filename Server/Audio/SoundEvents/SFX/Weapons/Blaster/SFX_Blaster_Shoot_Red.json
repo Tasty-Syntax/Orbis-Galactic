@@ -1,0 +1,12 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Blaster/BlasterShot_Red.ogg"
+      ]
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons",
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Moderate"
+}

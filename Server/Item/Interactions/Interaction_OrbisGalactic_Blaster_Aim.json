@@ -1,0 +1,8 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Blaster",
+    "ItemAnimationId": "Aim",
+    "ClearAnimationOnFinish": false
+  }
+}

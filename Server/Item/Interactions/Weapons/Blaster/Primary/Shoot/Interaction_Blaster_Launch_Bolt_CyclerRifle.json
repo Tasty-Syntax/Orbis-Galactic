@@ -1,0 +1,16 @@
+{
+  "Type": "Projectile",
+  "Config": "Projectile_Config_Blaster_Bolt_CyclerRifle",
+  "Parent": "Interaction_Blaster_Launch_Bolt_Base",
+  "RunTime": 1.5,
+  "Effects": {
+    "ItemPlayerAnimationsId": {
+      "Animations": {
+        "Shoot": {
+          "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/Cycler_Rifle/Cycler_Rifle_Shoot.blockyanim"
+        }
+      }
+    },
+    "ItemAnimationId": "Shoot"
+  }
+}

@@ -341,7 +341,7 @@
       "Looping": false
     },
     "StabLeft": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Stab_Left.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Stab_Left.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Stab_Left/Stab_Left_Moving.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Stab_Left/Stab_Left_FPS.blockyanim",
       "Speed": 1.2,
@@ -357,9 +357,9 @@
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
     },
     "SwingLeft": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swing_Left.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Swing_Left.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Swing_Left_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Swing_Left.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Swing_Left.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Swing_Left_FPS.blockyanim",
       "Speed": 1.2,
       "BlendingDuration": 0.05,
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
@@ -407,15 +407,15 @@
       "Looping": false
     },
     "Pounce": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Pounce_Stab.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Pounce_Stab.blockyanim",
       "Speed": 1.0,
       "KeepPreviousFirstPersonAnimation": true,
       "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
       "Looping": false,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Pounce_FPS.blockyanim"
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Pounce_FPS.blockyanim"
     },
     "PounceLeap": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Pounce_Stab.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Pounce_Stab.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce_Stab/Pounce_Stab_FPS.blockyanim",
       "Speed": 1,
       "BlendingDuration": 0.2,
@@ -425,7 +425,7 @@
     },
     "PounceStab": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Backflip.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Pounce_Stab2_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Pounce_Stab2_FPS.blockyanim",
       "Speed": 1.2,
       "BlendingDuration": 0.05,
       "KeepPreviousFirstPersonAnimation": true,
@@ -433,9 +433,9 @@
       "Looping": false
     },
     "PounceSweep": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Pounce_Stab3.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Pounce_Stab3.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Pounce_Stab/Pounce_Stab3_Moving.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Pounce_Stab3_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Pounce_Stab3_FPS.blockyanim",
       "Speed": 1.2,
       "BlendingDuration": 0.1,
       "KeepPreviousFirstPersonAnimation": true,
@@ -536,18 +536,18 @@
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Attacks/Razorstrike/Razorstrike_Lunge_FPS.blockyanim"
     },
     "Guard": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Guard.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Guard.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Guard_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Guard.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Guard.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Guard_FPS.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
       "KeepPreviousFirstPersonAnimation": true,
       "BlendingDuration": 0.1,
       "Looping": true
     },
     "GuardBash": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Guard_Bash.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers/Guard_Bash.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers/Guard_Bash_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Guard_Bash.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Guard_Bash.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Daggers_Custom/Guard_Bash_FPS.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
       "KeepPreviousFirstPersonAnimation": true
     }

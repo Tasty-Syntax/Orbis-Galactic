@@ -65,7 +65,8 @@
   "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue"
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
   },
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {

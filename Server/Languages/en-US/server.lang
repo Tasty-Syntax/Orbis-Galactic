@@ -262,7 +262,7 @@ items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Orange.description=A
 items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_White.name=White Separated Double Lightsaber (Maul)
 items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_White.description=A white lightsaber, purified of dark corruption and restored to balance. Its blade emits a soft, steady hum, reflecting neutrality, redemption, and independence from both Jedi and Sith traditions.
 
-# --- Lightsaber hilts
+# --- Lightsaber hilts ---
 items.OrbisGalactic_Lightsaber_Hilt_Anakin.name=Lightsaber Hilt (Anakin)
 items.OrbisGalactic_Lightsaber_Hilt_Anakin.description=A finely crafted lightsaber hilt of elegant, functional design. Once wielded by a legendary Jedi Knight, it carries a powerful presence shaped by great promise and tragic destiny. The hilt feels heavy with history, its balance reflecting both brilliance and hubris.
 items.OrbisGalactic_Lightsaber_Hilt_Luke.name=Lightsaber Hilt (Luke)
@@ -270,3 +270,9 @@ items.OrbisGalactic_Lightsaber_Hilt_Luke.description=A refined lightsaber hilt b
 items.OrbisGalactic_Lightsaber_Hilt_Maul.name=Lightsaber Hilt (Maul)
 items.OrbisGalactic_Lightsaber_Hilt_Maul.description=A brutal, double-coupled lightsaber hilt forged for relentless aggression rather than elegance. Constructed under Sith doctrine, it was designed to overwhelm opponents through sheer ferocity and unyielding offense. The hilt radiates a cold, predatory presence, its balance favoring sweeping, dominant strikes. It hums with barely restrained hatred, shaped by a life defined by obsession, vengeance, and absolute devotion to the dark side of the Force.
 
+# --- Blasters ---
+items.OrbisGalactic_Weapon_DC15A.name=DC-15A
+items.OrbisGalactic_Weapon_DC15A.description=The standard issue blaster rifle for clone troopers. [DEV HINT]: Projectiles fired out of render distance do not despawn quickly, if there are too many, reload your world. To be fixed...
+
+items.OrbisGalactic_Weapon_Cycler_Rifle.name=Cycler Rifle
+items.OrbisGalactic_Weapon_Cycler_Rifle.description=A long range high velocity blaster rifle often used by Tusken Raiders. [DEV HINT]: Projectiles fired out of render distance do not despawn quickly, if there are too many, reload your world. To be fixed...
