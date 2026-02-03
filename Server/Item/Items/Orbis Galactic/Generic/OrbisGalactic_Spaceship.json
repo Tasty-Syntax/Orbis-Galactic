@@ -79,6 +79,5 @@
   },
   "PlayerAnimationsId": "Block",
   "Scale": 0.25,
-  "Variant": false,
-  "Quality": "Developer"
+  "Variant": false
 }

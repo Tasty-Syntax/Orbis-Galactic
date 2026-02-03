@@ -12,5 +12,9 @@
   },
   "OriginSource": "Block",
   "PersonalReturnPoint": true,
-  "CloseOnBlockRemove": false
+  "CloseOnBlockRemove": false,
+  "Effects": {
+    "LocalSoundEventId": "OrbisGalactic_Spaceship_Enter"
+  },
+  "RunTime": 3
 }
