@@ -608,5 +608,11 @@
       "Hour": 23,
       "Value": 0.7
     }
+  ],
+  "ColorFilters": [
+    {
+      "Hour": 0,
+      "Color": "#fff8d1"
+    }
   ]
 }

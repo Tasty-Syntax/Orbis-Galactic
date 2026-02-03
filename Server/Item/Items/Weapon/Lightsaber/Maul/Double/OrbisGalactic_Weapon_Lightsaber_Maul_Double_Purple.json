@@ -67,7 +67,8 @@
   "Scale": 0.5,
   "Interactions": {
     "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double"
+    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double",
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
   },
   "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
   "Variant": true

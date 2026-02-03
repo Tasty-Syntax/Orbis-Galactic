@@ -1,0 +1,1088 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "R-Attachment",
+      "position": {"x": 0, "y": 2, "z": 6},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": false
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "Credit",
+          "position": {"x": 2.5, "y": -2, "z": -6},
+          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "shape": {
+            "type": "none",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0, "y": 0, "z": 0},
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "3",
+              "name": "Credit--C1",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": -10, "y": 1, "z": -22.5},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 2, "y": 2, "z": 41},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 2, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 27, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 64},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "4",
+              "name": "Credit--C2",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 2.5, "y": 1, "z": -42},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 23, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 2, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 41, "y": 25},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 39, "y": 62},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "5",
+              "name": "Credit--C3",
+              "position": {"x": 0, "y": -0.1, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 2.5, "y": 1, "z": -27},
+                "stretch": {"x": 1, "y": 0.875, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 23, "y": 2, "z": 28},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 30, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 39, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 39, "y": 25},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 11, "y": 62},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "6",
+              "name": "Credit--C4",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": -8.5, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 1, "y": 2, "z": 11},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 3, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 25},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 62},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "7",
+              "name": "Credit--C5",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": -5.5, "y": 1, "z": -12},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 8, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 32, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 24, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 24},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 9, "y": 61},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "8",
+              "name": "Credit--C6",
+              "position": {"x": 0, "y": -0.1, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": -5.5, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 0.875, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 7},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 8, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 39, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 24, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 9, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 9, "y": 24},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 2, "y": 61},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "9",
+              "name": "Credit--C7",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": -5.5, "y": 1, "z": -3},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 8, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 24, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 2, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 2, "y": 24},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 61},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "10",
+              "name": "Credit--C8",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": -2.5, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 1, "y": 2, "z": 11},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 9, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 19, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 19},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 56},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "11",
+              "name": "Credit--C9",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0.5, "y": 1, "z": -12},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 14, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 32, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 18, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 18},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 9, "y": 55},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "12",
+              "name": "Credit--C10",
+              "position": {"x": 0, "y": -0.1, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0.5, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 0.875, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 7},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 14, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 39, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 18, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 9, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 9, "y": 18},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 2, "y": 55},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "13",
+              "name": "Credit--C11",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 0.5, "y": 1, "z": -3},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 14, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 18, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 2, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 2, "y": 18},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 55},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "14",
+              "name": "Credit--C12",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 3.5, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 1, "y": 2, "z": 11},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 15, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 13, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 13},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 50},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "15",
+              "name": "Credit--C13",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 6.5, "y": 1, "z": -12},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 20, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 32, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 12, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 12},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 9, "y": 49},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "16",
+              "name": "Credit--C14",
+              "position": {"x": 0, "y": -0.1, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 6.5, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 0.875, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 7},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 20, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 39, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 12, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 9, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 9, "y": 12},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 2, "y": 49},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "17",
+              "name": "Credit--C15",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 6.5, "y": 1, "z": -3},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 5, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 20, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 12, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 2, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 2, "y": 12},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 49},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "18",
+              "name": "Credit--C16",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 9.5, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 1, "y": 2, "z": 11},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 21, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 7, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 7},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 44},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "19",
+              "name": "Credit--C17",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 12, "y": 1, "z": -12},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 4, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 32, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 6, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 11, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 11, "y": 6},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 9, "y": 43},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "20",
+              "name": "Credit--C18",
+              "position": {"x": 0, "y": -0.1, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 12, "y": 1, "z": -7.5},
+                "stretch": {"x": 1, "y": 0.875, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 4, "y": 2, "z": 7},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 39, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 6, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 9, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 9, "y": 6},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 2, "y": 43},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "21",
+              "name": "Credit--C19",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 12, "y": 1, "z": -3},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 4, "y": 2, "z": 2},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 25, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 6, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 2, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 2, "y": 6},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 43},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            },
+            {
+              "id": "22",
+              "name": "Credit--C20",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": 0, "y": 0.93969, "z": -0.34202, "w": 0},
+              "shape": {
+                "type": "box",
+                "offset": {"x": 15, "y": 1, "z": -22.5},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false,
+                  "size": {"x": 2, "y": 2, "z": 41},
+                  "isStaticBox": true
+                },
+                "textureLayout": {
+                  "back": {
+                    "offset": {"x": 27, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 2, "y": 29},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 41, "y": 27},
+                    "mirror": {"x": true, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 41, "y": 2},
+                    "mirror": {"x": false, "y": true},
+                    "angle": 270
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 39},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 270
+                  }
+                },
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "reflective"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}
