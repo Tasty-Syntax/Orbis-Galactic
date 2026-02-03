@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Environments/Spaceship/Events/Spaceship_Hyperwarp.ogg"
+        "Sounds/Environments/Spaceship/Events/Spaceship_Land.ogg"
       ],
       "StartDelay": 0
     }

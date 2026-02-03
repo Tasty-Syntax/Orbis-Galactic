@@ -4,7 +4,9 @@
   },
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Orbis_Galactic_Spaceship_Test.png",
-  "Categories": ["Blocks.Portals"],
+  "Categories": [
+    "Blocks.Portals"
+  ],
   "Set": "Soil",
   "ResourceTypes": [
     {
@@ -32,23 +34,48 @@
     "RandomRotation": "None",
     "HitboxType": "Collision_HWK290",
     "InteractionHitboxType": "Collision_HWK290",
-    "Parent": "Rock_Bedrock",
     "Opacity": "Semitransparent",
     "Interactions": {
       "Use": {
-        "Interactions": ["TeleportToSpaceship"]
+        "Interactions": [
+          "TeleportToSpaceship"
+        ]
       }
     },
-    "CustomModelAnimation": "Resources/Animations/Blocks/HWK290_Landing_Animation.blockyanim"
+    "CustomModelAnimation": "Resources/Animations/Blocks/HWK290_Landing_Animation.blockyanim",
+    "State": {
+      "Definitions": {
+        "Landed": {
+          "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+          "HitboxType": "Collision_HWK290",
+          "InteractionHitboxType": "Collision_HWK290"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "Quantity": 0
+      }
+    }
   },
   "Tags": {
-    "Type": ["Soil"]
+    "Type": [
+      "Soil"
+    ]
   },
   "ItemSoundSetId": "ISS_Blocks_Soft",
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [15, 45, 25],
-    "Translation": [2, -13.5]
+    "Rotation": [
+      15,
+      45,
+      25
+    ],
+    "Translation": [
+      2,
+      -13.5
+    ]
   },
   "PlayerAnimationsId": "Block",
   "Scale": 0.25,
