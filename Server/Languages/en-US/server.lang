@@ -122,3 +122,10 @@ items.OrbisGalactic_Weapon_DC15A.description=The standard issue blaster rifle fo
 
 items.OrbisGalactic_Weapon_Cycler_Rifle.name=Cycler Rifle
 items.OrbisGalactic_Weapon_Cycler_Rifle.description=A long range high velocity blaster rifle often used by Tusken Raiders. [DEV HINT]: Projectiles fired out of render distance do not despawn quickly, if there are too many, reload your world. To be fixed...
+
+ui.itemcategory.orbisgalactic.blocks=Blocks
+ui.itemcategory.orbisgalactic.sabers=Lightsabers
+ui.itemcategory.orbisgalactic.blasters=Blasters
+ui.itemcategory.orbisgalactic.armor=Armor
+ui.itemcategory.orbisgalactic.clothes=Clothes
+ui.itemcategory.orbisgalactic.misc=Miscellaneous
