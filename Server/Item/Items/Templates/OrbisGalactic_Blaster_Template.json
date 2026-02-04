@@ -49,7 +49,7 @@
   "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel",
   "PlayerAnimationsId": "Blaster",
   "Categories": [
-    "Items.Weapons"
+    "OrbisGalactic.Blasters"
   ],
   "ItemLevel": 15,
   "MaxStack": 1

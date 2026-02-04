@@ -1,7 +1,7 @@
 {
   "Quality": "Template",
   "Categories": [
-    "Blocks.Ores"
+    "OrbisGalactic.Blocks"
   ],
   "BlockType": {
     "Material": "Solid",

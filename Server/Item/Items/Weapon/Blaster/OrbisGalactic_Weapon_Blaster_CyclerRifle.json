@@ -5,32 +5,22 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_CyclerRifle.png",
   "IconProperties": {
     "Scale": 0.15,
-    "Rotation": [
-      336,
-      124,
-      25
-    ],
-    "Translation": [
-      -16,
-      -27
-    ]
+    "Rotation": [336, 124, 25],
+    "Translation": [-16, -27]
   },
   "Scale": 0.7,
   "InteractionVars": {
     "Interaction_Blaster_Launch_Bolt": {
-      "Interactions": [
-        "Interaction_Blaster_Launch_Bolt_CyclerRifle"
-      ]
+      "Interactions": ["Interaction_Blaster_Launch_Bolt_CyclerRifle"]
     },
     "Interaction_Blaster_Shoot_SFX": {
-      "Interactions": [
-        "Interaction_Blaster_Shoot_SFX_Cycler_Rifle"
-      ]
+      "Interactions": ["Interaction_Blaster_Shoot_SFX_Cycler_Rifle"]
     }
   },
   "TranslationProperties": {
     "Name": "server.items.OrbisGalactic_Weapon_Cycler_Rifle.name",
     "Description": "server.items.OrbisGalactic_Weapon_Cycler_Rifle.description"
   },
-  "Quality": "Technical"
+  "Quality": "Technical",
+  "Categories": ["OrbisGalactic.Blasters"]
 }

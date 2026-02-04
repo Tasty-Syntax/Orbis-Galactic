@@ -95,5 +95,8 @@
     ]
   },
   "ItemSoundSetId": "ISS_Armor_Heavy",
-  "DurabilityLossOnHit": 0.5
+  "DurabilityLossOnHit": 0.5,
+  "Categories": [
+    "OrbisGalactic.Armor"
+  ]
 }

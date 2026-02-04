@@ -1,5 +1,7 @@
 {
-  "Categories": ["Items.Weapons"],
+  "Categories": [
+    "OrbisGalactic.Sabers"
+  ],
   "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
