@@ -4,28 +4,28 @@
       "SpawnerId": "ParticleSpawner_Blaster_Bolt_Glow",
       "PositionOffset": {
         "X": 0,
-        "Y": 0.6
+        "Y": 0
       }
     },
     {
       "SpawnerId": "ParticleSpawner_Blaster_Bolt_Core",
       "PositionOffset": {
         "X": 0,
-        "Y": 0.6
+        "Y": 0
       }
     },
     {
       "SpawnerId": "ParticleSpawner_Sparks_LightOrange",
       "PositionOffset": {
         "X": 0,
-        "Y": 0.6
+        "Y": 0
       }
     },
     {
       "SpawnerId": "ParticleSpawner_Sparks_DarkOrange",
       "PositionOffset": {
         "X": 0,
-        "Y": 0.6
+        "Y": 0
       }
     }
   ],

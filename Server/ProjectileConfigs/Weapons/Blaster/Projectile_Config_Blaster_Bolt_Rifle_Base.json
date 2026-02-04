@@ -24,8 +24,7 @@
   "Interactions": {
     "ProjectileHit": {
       "Interactions": [
-        "Interaction_Blaster_Projectile_Impact",
-        "Interaction_Blaster_Projectile_Despawn"
+        "Interaction_Blaster_Projectile_Impact"
       ]
     },
     "ProjectileMiss": {
@@ -35,5 +34,6 @@
       ]
     }
   },
-  "Model": "Blaster_Bolt_Red"
+  "Model": "Blaster_Bolt_Red",
+  "Parent": "Projectile_Config_Arrow_Base"
 }

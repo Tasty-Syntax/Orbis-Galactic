@@ -3,8 +3,8 @@
   "Parent": "Projectile_Config_Blaster_Bolt_Rifle_Base",
   "SpawnOffset": {
     "X": 0.3,
-    "Y": -0.30,
-    "Z": -1.4
+    "Y": -0.3,
+    "Z": 0
   },
   "SpawnRotationOffset": {
     "Pitch": 0.5,

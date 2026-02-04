@@ -11,14 +11,11 @@
         {
           "Interactions": [
             {
-              "Type": "Replace",
-              "DefaultValue": {
-                "Interactions": [
-                  "Interaction_Blaster_Launch_Bolt_Red"
-                ]
-              },
-              "Var": "Interaction_Blaster_Launch_Bolt",
-              "DefaultOk": true
+              "Type": "OrbisGalactic_ShootBlaster",
+              "ImpactDamage": 10,
+              "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_DC15A",
+              "ImpactSfxId": "SFX_Staff_Flame_Fireball_Impact",
+              "ImpactParticleId": "ParticleSystem_Blaster_Bolt_Impact"
             }
           ]
         },
