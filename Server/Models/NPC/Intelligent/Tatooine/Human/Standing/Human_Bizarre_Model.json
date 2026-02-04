@@ -35,7 +35,7 @@
     "Idle": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Poses/Jotaro_Walk.blockyanim",
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
           "Looping": true,
           "Speed": 0.5
         }
@@ -44,7 +44,7 @@
     "Walk": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Default/Walk.blockyanim",
+          "Animation": "Characters/Animations/Poses/Jotaro_Walk.blockyanim",
           "Speed": 1.0,
           "FootstepIntervals": [
             25,
@@ -1291,8 +1291,10 @@
     },
     {
       "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
-      "Texture": "Cosmetics/Head/ChillGaia_Cap/ChillGaia_Cap_Very_Bizarre_Texture.png",
-      "Weight": 12
+      "Weight": 1,
+      "Texture": "Cosmetics/Head/Shaped_Cap_Textures/ChillGaia_Cap_Texture.png",
+      "GradientSet": "Fantasy_Cotton_Dark",
+      "GradientId": "Blue"
     }
   ],
   "GradientSet": "Skin",

@@ -768,5 +768,19 @@
   },
   "Texture": "Characters/Player_Textures/Player_Greyscale.png",
   "GradientSet": "Skin",
-  "GradientId": "03"
+  "GradientId": "03",
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Sit_And_Talk.blockyanim",
+          "Looping": true
+        }
+      ],
+      "NextAnimationDelay": {
+        "Min": 0,
+        "Max": 0
+      }
+    }
+  }
 }

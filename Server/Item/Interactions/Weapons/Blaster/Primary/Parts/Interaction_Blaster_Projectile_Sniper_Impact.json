@@ -2,7 +2,7 @@
   "Type": "Explode",
   "Config": {
     "DamageBlocks": false,
-    "EntityDamage": 33,
+    "EntityDamage": 45,
     "EntityDamageRadius": 2,
     "EntityDamageFalloff": 0,
     "DamageEntities": true,
@@ -20,7 +20,7 @@
         "GroundResistanceMax": 0.3,
         "Threshold": 3.0
       },
-      "Force": 5,
+      "Force": 15,
       "VelocityType": "Set"
     }
   },

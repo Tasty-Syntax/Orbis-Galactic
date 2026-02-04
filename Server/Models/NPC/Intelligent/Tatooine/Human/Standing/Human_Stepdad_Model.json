@@ -1261,7 +1261,9 @@
     },
     {
       "Model": "Cosmetics/Pants/Pants_Slim.blockymodel",
-      "Texture": "Cosmetics/Pants/Pants_Slim_Textures/Costume_Greyscale.png"
+      "Texture": "Cosmetics/Pants/Pants_Slim_Textures/Costume_Greyscale.png",
+      "GradientSet": "Colored_Cotton",
+      "GradientId": "Black"
     },
     {
       "Model": "Cosmetics/Shoes/Sandals.blockymodel",
@@ -1278,11 +1280,20 @@
     {
       "Model": "Characters/Haircuts/Balding.blockymodel",
       "Texture": "Characters/Haircuts/Balding_Greyscale.png",
-      "GradientSet": "Hair"
+      "GradientSet": "Hair",
+      "GradientId": "Black"
     },
     {
       "Model": "Characters/Body_Attachments/Beards/Simple.blockymodel",
-      "Texture": "Characters/Body_Attachments/Beards/Moustache_Greyscale.png"
+      "Texture": "Characters/Body_Attachments/Beards/Moustache_Greyscale.png",
+      "GradientSet": "Hair",
+      "GradientId": "Black"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Eyebrows/Bushy.blockymodel",
+      "Texture": "Characters/Body_Attachments/Eyebrows/Angry_Greyscale.png",
+      "GradientSet": "Hair",
+      "GradientId": "Black"
     }
   ],
   "GradientSet": "Skin",

@@ -2,14 +2,18 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Music/Cantina Bar Theme (From _Star Wars Episode IV_ A New Hope_).ogg"
+        "Sounds/Music/Star Wars Cantina Band 1.ogg",
+        "Sounds/Music/Star Wars Cantina Band 2.ogg"
       ],
-      "Looping": true
+      "Looping": true,
+      "RoundRobinHistorySize": 1,
+      "Volume": 4.28
     }
   ],
-  "MaxDistance": 40,
+  "MaxDistance": 46,
   "MaxInstance": 1,
   "StartAttenuationDistance": 15,
-  "AmbientDuckingVolume": -6.8,
-  "MusicDuckingVolume": -35.2
+  "AmbientDuckingVolume": -5,
+  "MusicDuckingVolume": -30,
+  "AudioCategory": "AudioCat_Music"
 }

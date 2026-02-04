@@ -76,7 +76,6 @@
         "On": {
           "InteractionHint": "server.interactionHints.turnon",
           "InteractionSoundEventId": "SFX_Lamp_On",
-          "AmbientSoundEventId": "OrbisGalactic_Block_Imperial_Lamp_SFX",
           "Light": {
             "Color": "#aaa"
           },
