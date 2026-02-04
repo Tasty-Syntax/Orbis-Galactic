@@ -1,6 +1,6 @@
 {
   "Model": "NPC/Intelligent/Droids/R2_Droid.blockymodel",
-  "Texture": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Test.png",
+  "Texture": "NPC/Intelligent/Droids/R2_Texture_Blue.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -37,15 +37,21 @@
       "Animations": [
         {
           "Speed": 0.5,
-          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Idle.blockyanim"
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Idle.blockyanim",
+          "Looping": false,
+          "SoundEventId": "Astromech_Idle_Sounds"
         }
       ]
     },
     "Walk": {
       "Animations": [
         {
-          "Speed": 0.85,
-          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Move.blockyanim"
+          "Speed": 1,
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Move.blockyanim",
+          "SoundEventId": "Astromech_Move_Sounds",
+          "Looping": true,
+          "BlendingDuration": 0.2,
+          "PassiveLoopCount": 2
         }
       ]
     },
