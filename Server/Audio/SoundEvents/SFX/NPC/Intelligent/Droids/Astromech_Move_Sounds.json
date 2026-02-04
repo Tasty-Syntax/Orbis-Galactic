@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/NPC/Droid/Astromech/Walk_1.ogg"
+      ],
+      "RoundRobinHistorySize": 0,
+      "Looping": true,
+      "Volume": -5
+    }
+  ],
+  "AudioCategory": "AudioCat_Footsteps"
+}

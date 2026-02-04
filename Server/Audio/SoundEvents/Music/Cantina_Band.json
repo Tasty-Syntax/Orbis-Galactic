@@ -1,0 +1,19 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Music/Star Wars Cantina Band 1.ogg",
+        "Sounds/Music/Star Wars Cantina Band 2.ogg"
+      ],
+      "Looping": true,
+      "RoundRobinHistorySize": 1,
+      "Volume": 4.28
+    }
+  ],
+  "MaxDistance": 46,
+  "MaxInstance": 1,
+  "StartAttenuationDistance": 15,
+  "AmbientDuckingVolume": -5,
+  "MusicDuckingVolume": -30,
+  "AudioCategory": "AudioCat_Music"
+}

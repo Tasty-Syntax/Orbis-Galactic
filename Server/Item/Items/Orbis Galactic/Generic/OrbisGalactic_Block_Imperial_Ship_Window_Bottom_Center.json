@@ -21,12 +21,6 @@
     "TimeSeconds": 0
   },
   "BlockType": {
-    "Gathering": {
-      "Breaking": {
-        "ItemId": "Rock_Marble_Cobble",
-        "GatherType": "Rocks"
-      }
-    },
     "ParticleColor": "#bbbbaf",
     "CubeShadingMode": "Standard",
     "DrawType": "Cube",
@@ -53,7 +47,8 @@
         "West": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
         "East": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png"
       }
-    ]
+    ],
+    "Parent": "Rock_Bedrock"
   },
   "ResourceTypes": [
     {

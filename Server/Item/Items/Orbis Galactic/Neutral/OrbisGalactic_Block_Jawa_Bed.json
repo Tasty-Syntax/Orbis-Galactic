@@ -1,0 +1,120 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Lumberjack_Bed.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Beds"
+  ],
+  "Set": "Furniture_Lumberjack",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Hardwood_Planks",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Hide_Heavy",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Beds"
+        ]
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Lumberjack_Bed.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.295,
+    "Translation": [
+      7.3,
+      -2.3
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "Beds": [
+      {
+        "Offset": {
+          "X": 0.4,
+          "Y": 0.4,
+          "Z": 1.0
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Bed"
+          }
+        ]
+      },
+      "Primary": "Check_Can_Break_Respawn"
+    },
+    "CustomModel": "Blocks/Decorative_Sets/Lumberjack/Bed.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Lumberjack/Bed_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "Bed_Jawa",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#793e21",
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "RespawnBlock": {}
+      }
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Lumberjack"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "ItemLevel": 4
+}

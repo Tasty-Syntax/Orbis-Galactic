@@ -1,0 +1,119 @@
+{
+  "Parent": "Template_Human_Static",
+  "Model": "Characters/Player.blockymodel",
+  "Texture": "Characters/Player_Textures/Player_Muscular_Greyscale.png",
+  "EyeHeight": 1.65,
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Human_Bizarre_Model.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -64
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "DefaultAttachments": [
+    {
+      "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
+      "Texture": "Characters/Body_Attachments/Faces/Faces_Detached_Textures/Face_Neutral_Freckles.png",
+      "GradientSet": "Skin",
+      "GradientId": "38"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+      "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Almond_Greyscale.png",
+      "GradientSet": "Eyes_Gradient",
+      "GradientId": "Turquoise"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Mouths/Mouth1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Mouths/Mouth1_Textures/Mouth_Cute.png",
+      "GradientSet": "Skin",
+      "GradientId": "38"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Ears/Ears1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Ears/Ears.png",
+      "GradientSet": "Skin",
+      "GradientId": "38"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Eyebrows/Eyebrows_Medium.blockymodel",
+      "Texture": "Characters/Body_Attachments/Eyebrows/Medium_Greyscale.png",
+      "GradientSet": "Hair",
+      "GradientId": "Red"
+    },
+    {
+      "Model": "Characters/Haircuts/Scavenger_Hair.blockymodel",
+      "Texture": "Characters/Haircuts/Scavenger_Hair_Greyscale.png",
+      "GradientSet": "Hair",
+      "GradientId": "Red"
+    },
+    {
+      "Model": "Cosmetics/Head/Goggles.blockymodel",
+      "Texture": "Cosmetics/Head/Goggles_Texture.png",
+      "GradientSet": "Colored_Cotton",
+      "GradientId": "Turquoise"
+    },
+    {
+      "Model": "Cosmetics/Undertops/Top.blockymodel",
+      "Texture": "Cosmetics/Undertops/Top_Textures/Mercenary_Top.png",
+      "GradientSet": "Colored_Cotton",
+      "GradientId": "Red"
+    },
+    {
+      "Model": "Cosmetics/Overtops/Merchant_Dress.blockymodel",
+      "Texture": "Cosmetics/Overtops/Merchant_Dress_Texture/Merchant_Dress_Orange.png",
+      "GradientSet": "Colored_Cotton",
+      "GradientId": "Black"
+    },
+    {
+      "Model": "Cosmetics/Overpants/Long_Socks.blockymodel",
+      "Texture": "Cosmetics/Overpants/Long_Socks_Textures/BasicWrap_Greyscale.png",
+      "GradientSet": "Colored_Cotton",
+      "GradientId": "Black"
+    },
+    {
+      "Model": "Cosmetics/Shoes/Bangle.blockymodel",
+      "Texture": "Cosmetics/Shoes/Bangle_Texture/Bangle_Greyscale.png",
+      "GradientSet": "Ornamented_Metal",
+      "GradientId": "Iron_Black"
+    },
+    {
+      "Model": "Cosmetics/Capes/Cape_Wasteland_Marauder.blockymodel",
+      "Texture": "Cosmetics/Capes/Cape_Wasteland_Marauder_Texture.png",
+      "GradientSet": "Colored_Cotton",
+      "GradientId": "Red"
+    }
+  ],
+  "GradientSet": "Skin",
+  "GradientId": "38",
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Sit_And_Talk.blockyanim"
+        }
+      ]
+    }
+  }
+}

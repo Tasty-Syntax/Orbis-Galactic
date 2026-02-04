@@ -34,23 +34,6 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Blue.png",
-  "Light": {
-    "Color": "#166"
-  },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Blue",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      }
-    }
-  ],
   "IconProperties": {
     "Scale": 0.3,
     "Rotation": [
@@ -64,12 +47,6 @@
     ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
-  },
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
       "Interactions": [
@@ -92,5 +69,48 @@
       ]
     }
   },
-  "Variant": true
+  "Variant": true,
+  "State": {
+    "On": {
+      "Quality": "Epic",
+      "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
+      "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Blue.png",
+      "Light": {
+        "Color": "#166"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_Blue",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
 }

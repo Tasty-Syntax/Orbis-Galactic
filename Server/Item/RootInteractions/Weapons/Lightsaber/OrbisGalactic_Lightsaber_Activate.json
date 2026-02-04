@@ -1,0 +1,11 @@
+{
+  "Interactions": [
+    {
+      "Type": "OrbisGalactic_Lightsaber_Interaction"
+    },
+    {
+      "Type": "SendMessage",
+      "RunTime": 3
+    }
+  ]
+}

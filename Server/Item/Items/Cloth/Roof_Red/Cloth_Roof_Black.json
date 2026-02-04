@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "Black Cloth Roof - Sloped"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Red",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Roof"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Structures/Roofs/Tent_Roof_Diagonal.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Tents/Black.png",
+        "Weight": 0
+      }
+    ],
+    "Group": "Roof",
+    "HitboxType": "Block_Vertical_Flat",
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks",
+        "ItemId": "Cloth_Roof_Red_Vertical"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "Supporting": {
+      "North": [
+        {}
+      ]
+    },
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#7d332d"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      10,
+      -19
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ],
+    "SubType": [
+      "Roof"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "Model": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
+  "Texture": "Resources/BlockTextures/Branded_Red.png",
+  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Black.png"
+}

@@ -1,0 +1,24 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "ParticleSpawner_OrbisGalactic_Hyperwarp_Streaks",
+      "PositionOffset": {
+        "Y": 1.6,
+        "X": 0,
+        "Z": 16
+      }
+    },
+    {
+      "SpawnerId": "ParticleSpawner_OrbisGalactic_Hyperwarp_Distortion",
+      "PositionOffset": {
+        "Y": 1.6,
+        "X": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "LifeSpan": 14,
+  "IsImportant": true,
+  "BoundingRadius": 80,
+  "CullDistance": 80
+}
