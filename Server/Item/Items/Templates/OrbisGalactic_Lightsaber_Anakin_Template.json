@@ -1,6 +1,6 @@
 {
   "Categories": [
-    "Items.Weapons"
+    "OrbisGalactic.Sabers"
   ],
   "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
   "ItemLevel": 40,
