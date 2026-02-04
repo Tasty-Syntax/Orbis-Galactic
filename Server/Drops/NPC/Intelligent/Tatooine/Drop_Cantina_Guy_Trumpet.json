@@ -3,7 +3,7 @@
     "Type": "Single",
     "Item": {
       "ItemId": "OrbisGalactic_Cantina_Instrument_Trumpet",
-      "QuantityMin": 0,
+      "QuantityMin": 1,
       "QuantityMax": 1
     }
   }

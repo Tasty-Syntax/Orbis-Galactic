@@ -1,11 +1,11 @@
 {
   "Type": "Variant",
   "Reference": "Template_Humanoid_Friendly_Static",
-  "DropList": "Drop_Cantina_Guy_Guitar",
   "Modify": {
     "Appearance": "CantinaGuy_Model",
     "NameTranslationKey": {
-      "Compute": "NameTranslationKey"
+      "Compute": "NameTranslationKey",
+      "DropList": "Drop_Cantina_Guy_Guitar"
     }
   },
   "MaxHealth": 250,
