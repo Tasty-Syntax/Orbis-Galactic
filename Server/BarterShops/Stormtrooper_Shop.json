@@ -1,0 +1,53 @@
+{
+  "DisplayNameKey": "Stormtrooper Outfitter",
+  "RestockHour": 6,
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "Trades": [
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Helmet"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 2
+        }
+      ]
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Chest"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 5
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 3
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Leggings"
+      }
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 2
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Gloves"
+      }
+    }
+  ]
+}

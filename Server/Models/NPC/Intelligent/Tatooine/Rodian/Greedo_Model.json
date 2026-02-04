@@ -53,7 +53,7 @@
     "Idle": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Flavor/Sit_Ground.blockyanim",
+          "Animation": "NPC/Human/Animations/Sit Ground2.blockyanim",
           "Looping": true,
           "Speed": 0.5
         }

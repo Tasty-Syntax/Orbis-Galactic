@@ -106,5 +106,14 @@
     }
   ],
   "GradientSet": "Skin",
-  "GradientId": "38"
+  "GradientId": "38",
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Sit_And_Talk.blockyanim"
+        }
+      ]
+    }
+  }
 }

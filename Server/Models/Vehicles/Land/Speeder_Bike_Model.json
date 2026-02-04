@@ -136,5 +136,21 @@
         "Min": 0
       }
     }
-  }
+  },
+  "Trails": [
+    {
+      "TrailId": "Bear_Claw",
+      "PositionOffset": {
+        "X": -0.4,
+        "Z": -1.45
+      }
+    },
+    {
+      "TrailId": "Bear_Claw",
+      "PositionOffset": {
+        "X": 0.4,
+        "Z": -1.45
+      }
+    }
+  ]
 }

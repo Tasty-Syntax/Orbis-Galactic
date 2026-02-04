@@ -1254,10 +1254,6 @@
       "GradientId": "04"
     },
     {
-      "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
-      "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png"
-    },
-    {
       "Model": "Resources/ClothingModels/Stormtrooper/Chest.blockymodel",
       "Texture": "Resources/ClothingTextures/Stormtrooper/Chest_Texture_Clean.png"
     },
@@ -1281,5 +1277,16 @@
     }
   ],
   "GradientSet": "Skin",
-  "GradientId": "04"
+  "GradientId": "04",
+  "RandomAttachmentSets": {
+    "Helmet": {
+      "Stormtrooper_Helmet": {
+        "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
+        "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png"
+      },
+      "No_Helmet": {
+        "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel"
+      }
+    }
+  }
 }

@@ -27,16 +27,16 @@
       ]
     },
     {
-      "Input": [
-        {
-          "ItemId": "Ingredient_Bar_Gold",
-          "Quantity": 5
-        }
-      ],
       "Output": {
         "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
-        "Quantity": 2
+        "Quantity": 3
       },
+      "Input": [
+        {
+          "ItemId": "Ingredient_Bar_Cobalt",
+          "Quantity": 10
+        }
+      ],
       "Stock": 99999
     },
     {
@@ -46,7 +46,7 @@
       },
       "Input": [
         {
-          "ItemId": "Ingredient_Bar_Mithril",
+          "ItemId": "Ingredient_Bar_Thorium",
           "Quantity": 5
         }
       ],
@@ -54,15 +54,27 @@
     },
     {
       "Output": {
-        "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
-        "Quantity": 1
+        "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+        "Quantity": 5
       },
+      "Input": [
+        {
+          "ItemId": "Ingredient_Bar_Gold",
+          "Quantity": 5
+        }
+      ]
+    },
+    {
       "Input": [
         {
           "ItemId": "Ingredient_Bar_Adamantite",
           "Quantity": 5
         }
       ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+        "Quantity": 1
+      },
       "Stock": 99999
     }
   ]

@@ -94,5 +94,14 @@
     }
   ],
   "GradientSet": "Skin",
-  "GradientId": "15"
+  "GradientId": "15",
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Human/Animations/Sit Ground.blockyanim"
+        }
+      ]
+    }
+  }
 }

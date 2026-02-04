@@ -7,12 +7,9 @@
     }
   },
   "StartState": "Idle",
-  "DisplayNames": [
-    "Credit Exchange"
-  ],
   "DefaultNPCAttitude": "Ignore",
   "DefaultPlayerAttitude": "Neutral",
-  "Appearance": "Rodian_Blue_Trader_Model",
+  "Appearance": "Rodian_Red_Trader_Model",
   "DropList": "Drop_Jawa",
   "MaxHealth": 74,
   "DisableDamageGroups": [

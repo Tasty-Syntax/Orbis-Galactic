@@ -43,13 +43,13 @@
       -64
     ]
   },
-  "MinScale": 1,
-  "MaxScale": 1,
+  "MinScale": 1.2,
+  "MaxScale": 1.2,
   "AnimationSets": {
     "Idle": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Animation": "NPC/Human/Animations/Idle3.blockyanim",
           "Looping": true,
           "Speed": 0.5
         }
