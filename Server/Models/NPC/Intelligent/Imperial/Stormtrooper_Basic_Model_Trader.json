@@ -1,0 +1,92 @@
+{
+  "Parent": "Template_Human_Static",
+  "Model": "Characters/Player_With_Face.blockymodel",
+  "Texture": "Characters/Player_Textures/Player_Greyscale.png",
+  "EyeHeight": 1.65,
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Stormtrooper.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -64
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "DefaultAttachments": [
+    {
+      "Model": "Characters/Body_Attachments/Eyes/Eyes.blockymodel",
+      "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Greyscale.png",
+      "GradientSet": "Eyes_Gradient",
+      "GradientId": "Grey"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Mouths/Mouth1.blockymodel",
+      "Texture": "Characters/Body_Attachments/Mouths/Mouth1_Textures/Default_Greyscale.png",
+      "GradientSet": "Skin",
+      "GradientId": "04"
+    },
+    {
+      "Model": "Resources/ClothingModels/Stormtrooper/Chest.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/Chest_Texture_Clean.png"
+    },
+    {
+      "Model": "Resources/ClothingModels/Stormtrooper/Hands.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/Hands_Texture.png"
+    },
+    {
+      "Model": "Resources/ClothingModels/Stormtrooper/Legs.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/Legs_Texture.png"
+    },
+    {
+      "Model": "Cosmetics/Undertops/Top.blockymodel",
+      "Texture": "Cosmetics/Undertops/Top_Textures/SpaghettiStrap_Greyscale.png",
+      "GradientSet": "Shiny_Fabric",
+      "GradientId": "White"
+    },
+    {
+      "Model": "Cosmetics/Hands/LongDetail_Gloves_Custom.blockymodel",
+      "Texture": "Resources/ClothingTextures/Stormtrooper/LongDetailGloves_Stormtrooper_Texture.png"
+    }
+  ],
+  "GradientSet": "Skin",
+  "GradientId": "04",
+  "RandomAttachmentSets": {
+    "Helmet": {
+      "Stormtrooper_Helmet": {
+        "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
+        "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png"
+      },
+      "No_Helmet": {
+        "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel"
+      }
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Human/Animations/Idle4.blockyanim"
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "Type": "Simple",
   "$Comment": "Length of Effect",
-  "RunTime": 0.166,
+  "RunTime": 0.266,
   "Effects": {
     "WorldSoundEventId": "OrbisGalactic_SFX_Darksaber_Equip"
   }

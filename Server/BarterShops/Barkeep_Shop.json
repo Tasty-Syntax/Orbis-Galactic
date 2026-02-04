@@ -1,0 +1,84 @@
+{
+  "DisplayNameKey": "Barkeep",
+  "RestockHour": 6,
+  "Trades": [
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+          "Quantity": 1
+        }
+      ],
+      "Output": {
+        "ItemId": "Potion_Health_Small",
+        "Quantity": 1
+      },
+      "Stock": 20
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+          "Quantity": 2
+        }
+      ],
+      "Output": {
+        "ItemId": "Potion_Health_Large",
+        "Quantity": 1
+      },
+      "Stock": 10
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+          "Quantity": 5
+        }
+      ],
+      "Output": {
+        "ItemId": "Potion_Health_Greater",
+        "Quantity": 1
+      },
+      "Stock": 5
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+          "Quantity": 2
+        }
+      ],
+      "Output": {
+        "ItemId": "Potion_Mana_Small",
+        "Quantity": 1
+      },
+      "Stock": 20
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+          "Quantity": 5
+        }
+      ],
+      "Output": {
+        "ItemId": "Potion_Mana_Large",
+        "Quantity": 1
+      },
+      "Stock": 5
+    },
+    {
+      "Output": {
+        "ItemId": "Potion_Morph_Jawa",
+        "Quantity": 1
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 1
+        }
+      ],
+      "Stock": 2
+    }
+  ]
+}

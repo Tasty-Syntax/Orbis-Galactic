@@ -1,0 +1,18 @@
+{
+  "Type": "Condition",
+  "RequiredGameMode": "Adventure",
+  "Crouching": false,
+  "Next": {
+    "Type": "EffectCondition",
+    "EntityEffectIds": [
+      "Potion_Morph_Dog",
+      "Potion_Morph_Frog",
+      "Potion_Morph_Pigeon",
+      "Potion_Morph_Mouse",
+      "Potion_Morph_Jawa"
+    ],
+    "Match": "None",
+    "Next": "Consume_Charge_Potion_Fast"
+  },
+  "Failed": "Block_Secondary"
+}

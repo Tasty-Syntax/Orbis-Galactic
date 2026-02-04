@@ -1,0 +1,10 @@
+{
+  "Interactions": [
+    "Interaction_Stormtrooper_Shoot"
+  ],
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  }
+}

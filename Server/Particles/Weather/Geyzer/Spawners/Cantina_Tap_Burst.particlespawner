@@ -1,0 +1,132 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "LinearFiltering": false,
+  "LightInfluence": 0.05,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "ParticleLifeSpan": {
+    "Min": 0.5,
+    "Max": 0.6
+  },
+  "SpawnRate": {
+    "Min": 100,
+    "Max": 150
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Rnd/Water_Splash2.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 64
+    },
+    "ScaleRatioConstraint": "None",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 3
+        },
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Rotation": {
+          "Z": {
+            "Min": 0,
+            "Max": 0
+          }
+        },
+        "Color": "#936619"
+      },
+      "50": {
+        "Opacity": 1,
+        "Color": "#c08133"
+      },
+      "80": {
+        "Scale": {
+          "X": {
+            "Min": 1.67,
+            "Max": 2
+          },
+          "Y": {
+            "Min": 2.6,
+            "Max": 3.6
+          }
+        },
+        "Color": "#f5caa0"
+      },
+      "100": {
+        "Opacity": 0,
+        "Color": "#ffedcf"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Rotation": {
+        "Z": {
+          "Min": 180,
+          "Max": 180
+        }
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.1,
+          "Max": 0.2
+        },
+        "Y": {
+          "Min": 0.1,
+          "Max": 0.1
+        }
+      },
+      "Opacity": 1,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 3
+      }
+    }
+  },
+  "MaxConcurrentParticles": 5000,
+  "Shape": "Sphere",
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 1,
+      "Max": 2
+    },
+    "Pitch": {
+      "Min": 65.3,
+      "Max": 129.4
+    },
+    "Yaw": {
+      "Min": -180,
+      "Max": 180
+    }
+  },
+  "EmitOffset": {
+    "Z": {
+      "Min": 0.15,
+      "Max": 0.15
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0.5
+    },
+    "X": {
+      "Min": 0,
+      "Max": 0.5
+    }
+  },
+  "Attractors": [],
+  "LifeSpan": 10,
+  "SpawnBurst": false,
+  "ParticleCollision": {
+    "Action": "Expire"
+  }
+}

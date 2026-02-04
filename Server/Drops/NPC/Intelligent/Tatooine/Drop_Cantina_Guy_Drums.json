@@ -1,0 +1,9 @@
+{
+  "Container": {
+    "Type": "Single",
+    "Item": {
+      "ItemId": "OrbisGalactic_Cantina_Instrument_Drums",
+      "QuantityMin": 0
+    }
+  }
+}

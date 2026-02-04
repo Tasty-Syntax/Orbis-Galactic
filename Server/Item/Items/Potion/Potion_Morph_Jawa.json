@@ -1,0 +1,110 @@
+{
+  "Parent": "Potion_Template",
+  "TranslationProperties": {
+    "Name": "Potion of Jawa Morphing"
+  },
+  "Icon": "Icons/ItemsGenerated/Potion_Morph_Jawa.png",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Potion_Empty",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Plant_Flower_Water_Green",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Alchemybench",
+        "Type": "Crafting",
+        "Categories": [
+          "Alchemy_Potions_Misc"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 4
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Root_Secondary_Consume_Potion_Morph"
+  },
+  "InteractionVars": {
+    "RemoveEffect": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Potion_Morph_Jawa"
+        }
+      ]
+    },
+    "Stat_Check": {
+      "Interactions": [
+        {
+          "Parent": "Stat_Check",
+          "Costs": {
+            "Health": 1
+          },
+          "ValueType": "Percent",
+          "LessThan": false
+        }
+      ]
+    },
+    "ConsumeSFX": {
+      "Interactions": [
+        {
+          "Parent": "Consume_SFX",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Health_Potion_Low_Drink"
+          }
+        }
+      ]
+    },
+    "ConsumedSFX": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "CustomModel": "Items/Consumables/Potions/Potion.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Consumables/Potions/Potion_Textures/White.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#fafafb"
+  },
+  "MaxStack": 10,
+  "ItemLevel": 51,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

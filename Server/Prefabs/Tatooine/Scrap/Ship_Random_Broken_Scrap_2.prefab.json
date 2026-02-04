@@ -1,0 +1,830 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -4,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": 0,
+      "name": "OrbisGalactic_Scrap_Block"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Scrap_Block"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 0,
+      "name": "OrbisGalactic_Scrap_Block"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Scrap_Block"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Scrap_Block"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -2,
+      "name": "OrbisGalactic_Scrap_Block"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusty"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 2,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": -1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 0,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 1,
+      "name": "OrbisGalactic_Block_Spaceship_Hull_Plating_Rusting"
+    }
+  ],
+  "fluids": [
+    {
+      "x": -4,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 2,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": -1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 1,
+      "name": "Empty",
+      "level": 0
+    }
+  ]
+}

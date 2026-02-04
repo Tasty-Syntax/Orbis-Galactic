@@ -1,0 +1,1343 @@
+{
+  "EyeHeight": 1.65,
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Rodian_Blue_Model.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -64
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Looping": true,
+          "Speed": 0.5
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Walk.blockyanim",
+          "Speed": 1.0,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Walk_Backward.blockyanim",
+          "Speed": 1.0,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Run.blockyanim",
+          "Speed": 0.9,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "RunBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Run_Backward.blockyanim",
+          "Speed": 0.9,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "Sprint": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Sprint.blockyanim",
+          "Speed": 1.1,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Crouch.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.5,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Crouch_Walk.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.8,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Crouch_Walk_Backward.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.8,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "CrouchSlide": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Slide/Slide.blockyanim",
+          "BlendingDuration": 0.2,
+          "Speed": 1.0,
+          "SoundEventId": "SFX_Player_Slide"
+        }
+      ]
+    },
+    "SafetyRoll": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Roll/Roll.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 1.0,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Roll"
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1,
+          "SoundEventId": "SFX_Player_Jump"
+        }
+      ]
+    },
+    "JumpCrouch": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Jump_Crouch.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Player_Jump"
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8,
+          "SoundEventId": "SFX_Player_Jump"
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8,
+          "SoundEventId": "SFX_Player_Jump"
+        }
+      ]
+    },
+    "JumpSprint": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Jump_Far.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8,
+          "SoundEventId": "SFX_Player_Jump"
+        },
+        {
+          "Animation": "Characters/Animations/Default/Jump_Far2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8,
+          "SoundEventId": "SFX_Player_Jump"
+        }
+      ]
+    },
+    "StepWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Step_Walk.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1
+        },
+        {
+          "Animation": "Characters/Animations/Default/Step_Walk2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1
+        }
+      ]
+    },
+    "StepRun": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Step_Run.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1.1
+        },
+        {
+          "Animation": "Characters/Animations/Default/Step_Run2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1.1
+        }
+      ]
+    },
+    "StepSprint": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Step_Sprint.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1.2
+        },
+        {
+          "Animation": "Characters/Animations/Default/Step_Sprint2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1.2
+        }
+      ]
+    },
+    "StepCrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Step_Crouch_Walk.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1.1
+        },
+        {
+          "Animation": "Characters/Animations/Default/Step_Crouch_Walk2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 1.1
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Fall.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Player_Fall"
+        },
+        {
+          "Animation": "Characters/Animations/Default/Fall2.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Player_Fall"
+        }
+      ]
+    },
+    "GlideIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Glide/Glide_Idle.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Player_Glide_Stationary"
+        }
+      ]
+    },
+    "Glide": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Glide/Glide.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Player_Glide_Motion"
+        }
+      ]
+    },
+    "GlideBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Glide/Glide_Backward.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Player_Glide_Motion"
+        }
+      ]
+    },
+    "GlideFast": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Glide/Glide_Fast.blockyanim",
+          "Speed": 1,
+          "SoundEventId": "SFX_Player_Glide_Motion"
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Fly/Fly_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Fly/Fly.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Fly/Fly_Backward.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Fly/Fly_Fast.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyCrouchIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Fly/Fly_Crouch_Idle.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyCrouch": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Fly/Fly_Crouch.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyCrouchBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Fly/Fly_Crouch_Backward.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Idle.blockyanim"
+        }
+      ]
+    },
+    "Swim": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Backward.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimFast": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Fast.blockyanim",
+          "SoundEventId": "SFX_Player_Swim_Fast",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimJump": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Swim_Jump",
+          "Speed": 0.8
+        }
+      ]
+    },
+    "SwimFloat": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Float.blockyanim",
+          "SoundEventId": "SFX_Player_Swim"
+        }
+      ]
+    },
+    "SwimSink": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Sink.blockyanim",
+          "SoundEventId": "SFX_Player_Swim"
+        }
+      ]
+    },
+    "SwimDive": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Dive.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimDiveBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Dive_Backward.blockyanim",
+          "SoundEventId": "SFX_Player_Swim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimDiveFast": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Dive_Fast.blockyanim",
+          "SoundEventId": "SFX_Player_Swim_Fast",
+          "Speed": 0.6
+        },
+        {
+          "Animation": "Characters/Animations/Swim/Swim_Dive_Fast2.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Speed": 0.3
+        }
+      ]
+    },
+    "FluidWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Walk.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Walk_Backward.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidRun": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Run.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidRunBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Run_Backward.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidSprint": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Default/Sprint.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "ClimbIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Climb/Climb_Idle.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "ClimbUp": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Climb/Climb_Up.blockyanim",
+          "SoundEventId": "SFX_Player_Climb_Up"
+        }
+      ]
+    },
+    "ClimbDown": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Climb/Climb_Down.blockyanim",
+          "SoundEventId": "SFX_Player_Climb_Down"
+        }
+      ]
+    },
+    "ClimbLeft": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Climb/Climb_Left.blockyanim",
+          "SoundEventId": "SFX_Player_Climb_Side"
+        }
+      ]
+    },
+    "ClimbRight": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Climb/Climb_Right.blockyanim",
+          "SoundEventId": "SFX_Player_Climb_Side"
+        }
+      ]
+    },
+    "MantleIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mantle/Mantle_Idle.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "MantleUp": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mantle/Mantle_Up.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Mantle"
+        },
+        {
+          "Animation": "Characters/Animations/Mantle/Mantle_Up2.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Mantle"
+        }
+      ]
+    },
+    "MantleLeft": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mantle/Mantle_Left.blockyanim"
+        }
+      ]
+    },
+    "MantleRight": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mantle/Mantle_Right.blockyanim"
+        }
+      ]
+    },
+    "DashForward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Dash/Dash_Forward.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "DashBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Dash/Dash_Backward.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "DashLeft": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Dash/Dash_Left.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "DashRight": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Dash/Dash_Right.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Roll": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Roll/Roll.blockyanim",
+          "Speed": 2.0,
+          "Looping": false
+        }
+      ]
+    },
+    "RollBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Roll/Roll_Backward.blockyanim",
+          "Speed": 2.0,
+          "Looping": false
+        }
+      ]
+    },
+    "RollLeft": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Roll/Roll_Left.blockyanim",
+          "Speed": 2.0,
+          "Looping": false
+        }
+      ]
+    },
+    "RollRight": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Roll/Roll_Right.blockyanim",
+          "Speed": 2.0,
+          "Looping": false
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt3.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt4.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Default/Death.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Death"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Death2.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Death"
+        }
+      ]
+    },
+    "HurtFall": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Fall/Hurt_Fall.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt_Fall"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Fall/Hurt_Fall2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt_Fall"
+        }
+      ]
+    },
+    "DeathFall": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Fall/Death_Fall.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Death"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Fall/Death_Fall2.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Death"
+        }
+      ]
+    },
+    "HurtFly": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt3.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        },
+        {
+          "Animation": "Characters/Animations/Damage/Default/Hurt4.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt"
+        }
+      ]
+    },
+    "DeathFly": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Fly/Death_Fly.blockyanim",
+          "BlendingDuration": 0.6,
+          "SoundEventId": "SFX_Player_Hurt"
+        }
+      ]
+    },
+    "DeathFlyImpact": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Fly/Death_Fly_Impact.blockyanim",
+          "BlendingDuration": 0.05,
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Death"
+        }
+      ]
+    },
+    "HurtDrown": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Drown/Hurt_Drown.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt_Drowning"
+        }
+      ]
+    },
+    "DeathDrown": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Drown/Death_Drown.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Death_Drown"
+        }
+      ]
+    },
+    "HurtBurn": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Damage/Burn/Hurt_Burn.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Player_Hurt_Burn"
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Sleep.blockyanim"
+        }
+      ]
+    },
+    "Sleep2": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Sleep2.blockyanim"
+        }
+      ]
+    },
+    "Sit": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Sit.blockyanim",
+          "Looping": true,
+          "Speed": 0.5
+        }
+      ]
+    },
+    "Sit2": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Sit2.blockyanim",
+          "Looping": true,
+          "Speed": 0.5
+        }
+      ]
+    },
+    "SitGround": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Sit_Ground.blockyanim",
+          "Looping": true,
+          "Speed": 0.5
+        }
+      ]
+    },
+    "Slide": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Slide/Slide.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "IdlePassive": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around2.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Down.blockyanim",
+          "Weight": 1,
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Up.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Left.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Right.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink_Double.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left_Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right_Blink.blockyanim"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Max": 1,
+        "Min": 0
+      }
+    },
+    "FlyIdlePassive": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around2.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Down.blockyanim",
+          "Weight": 1,
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Up.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Left.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Right.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink_Double.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left_Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right_Blink.blockyanim"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Max": 1,
+        "Min": 0
+      }
+    },
+    "SwimIdlePassive": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around2.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Down.blockyanim",
+          "Weight": 1,
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Up.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Left.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Right.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink_Double.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left_Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right_Blink.blockyanim"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Max": 1,
+        "Min": 0
+      }
+    },
+    "FluidIdlePassive": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Around2.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Down.blockyanim",
+          "Weight": 1,
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Up.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Left.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Look_Right.blockyanim",
+          "BlendingDuration": 0.4
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Blink_Double.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye2_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye3_Blink2.blockyanim",
+          "Weight": 2
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Left_Blink.blockyanim"
+        },
+        {
+          "Animation": "Characters/Animations/Flavor/Eye_Look_Right_Blink.blockyanim"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Max": 1,
+        "Min": 0
+      }
+    },
+    "MountIdle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mount/Mount_Idle.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "MountWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mount/Mount_Walk.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "MountWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mount/Mount_Walk_Backward.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "MountRun": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mount/Mount_Run.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "MountRunBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mount/Mount_Run_Backward.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "MountSprint": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Mount/Mount_Sprint.blockyanim",
+          "Looping": true
+        }
+      ]
+    }
+  },
+  "RandomAttachmentSets": {
+    "Hats": {
+      "Cap": {
+        "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
+        "Texture": "Cosmetics/Head/ChillGaia_Cap/ChillGaia_Cap_Very_Bizarre_Texture.png"
+      },
+      "Tophat": {
+        "Model": "Cosmetics/Head/TopHat.blockymodel",
+        "Texture": "Cosmetics/Head/TopHat_Red.png"
+      },
+      "Goggles": {
+        "Model": "Cosmetics/Head/Goggles.blockymodel",
+        "Texture": "Cosmetics/Head/Goggles_Texture.png"
+      }
+    },
+    "Shirts": {
+      "Undershirt": {
+        "Model": "Cosmetics/Undertops/Tshirt.blockymodel",
+        "Texture": "Cosmetics/Undertops/Tshirt_Textures/Crinkled_Greyscale.png",
+        "GradientSet": "Shiny_Fabric",
+        "GradientId": "White"
+      },
+      "Longsleeve": {
+        "Model": "Cosmetics/Undertops/LongSleeveShirt.blockymodel",
+        "Texture": "Cosmetics/Undertops/LongSleeveShirt_Textures/Ribbed_Shirt_Greyscale.png",
+        "GradientSet": "Shiny_Fabric",
+        "GradientId": "White"
+      }
+    },
+    "Jackets": {
+      "Trenchcoat": {
+        "Model": "Cosmetics/Overtops/Trench_Coat.blockymodel",
+        "Texture": "Cosmetics/Overtops/Trench_Coat_Texture.png"
+      },
+      "BomberJacket": {
+        "Model": "Cosmetics/Overtops/CollaredJacket_Zipper.blockymodel",
+        "Texture": "Cosmetics/Overtops/CollaredJacket_Texture/Puffy_Bomber_Texture.png",
+        "Weight": 1
+      },
+      "BikerJacket": {
+        "Model": "Cosmetics/Overtops/Jacket_ElbowPads.blockymodel",
+        "Texture": "Cosmetics/Overtops/Jacket_ElbowPads_Greyscale.png",
+        "Weight": 1
+      },
+      "Bandages": {
+        "Model": "Cosmetics/Overtops/Arm_Bandage.blockymodel",
+        "Texture": "Cosmetics/Overtops/Arm_Bandage_White.png"
+      }
+    },
+    "Pants": {
+      "Complex": {
+        "Model": "Cosmetics/Pants/Pants_Complex.blockymodel",
+        "Texture": "Cosmetics/Pants/Pants_Complex_Texture/Scavenger_Pants_Texture.png"
+      },
+      "Biker": {
+        "Model": "Cosmetics/Pants/Pants_Large.blockymodel",
+        "Texture": "Cosmetics/Pants/Pants_Large_Textures/Black.png",
+        "Weight": 1
+      },
+      "Rolled": {
+        "Model": "Cosmetics/Pants/Shorty_Rolled.blockymodel",
+        "Texture": "Cosmetics/Pants/Shorty_Rolled_Textures/Fantasy_Jean_Greyscale.png"
+      }
+    },
+    "Shoes": {
+      "Biker": {
+        "Model": "Cosmetics/Shoes/Stockings.blockymodel",
+        "Texture": "Cosmetics/Shoes/Stockings_Textures/HighSandals_Greyscale.png",
+        "Weight": 1
+      },
+      "Quilted": {
+        "Model": "Cosmetics/Shoes/QuiltedBoots.blockymodel",
+        "Texture": "Cosmetics/Shoes/QuiltedBoots_Textures/QuiltedBoots_Texture.png"
+      },
+      "Slipons": {
+        "Model": "Cosmetics/Shoes/Slipons.blockymodel",
+        "Texture": "Cosmetics/Shoes/SlipOns_Textures/SlipOns_Greyscale.png"
+      }
+    },
+    "Skin": {
+      "Blue": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Blue.png"
+      },
+      "Green": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo.png"
+      },
+      "LightGreen": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_LightGreen.png"
+      },
+      "Olive": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Olive.png"
+      },
+      "Red": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Red.png"
+      }
+    }
+  },
+  "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel"
+}

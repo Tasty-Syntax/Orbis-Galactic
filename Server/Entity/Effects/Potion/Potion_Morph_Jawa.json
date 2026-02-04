@@ -1,0 +1,14 @@
+{
+  "StatusEffectIcon": "Icons/ItemsGenerated/Potion_Purify.png",
+  "OverlapBehavior": "Overwrite",
+  "Duration": 180,
+  "ModelChange": "Jawa_Model",
+  "ApplicationEffects": {
+    "Particles": [
+      {
+        "SystemId": "Potion_Morph_Burst"
+      }
+    ],
+    "WorldSoundEventId": "Jawa_SFX_Conversation"
+  }
+}

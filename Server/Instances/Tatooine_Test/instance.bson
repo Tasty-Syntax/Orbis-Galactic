@@ -18,10 +18,9 @@
   "IsObjectiveMarkersEnabled": true,
   "IsAllNPCFrozen": false,
   "IsSavingPlayers": true,
-  "WorldGen": {
-    "Type": "HytaleGenerator",
-    "WorldStructure": "Tatooine",
-    "PlayerSpawn" : {
+    "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
       "X": 0,
       "Y": 101,
       "Z": 0,
@@ -29,6 +28,10 @@
       "Yaw" : 90,
       "Roll" : 0
     }
+  },
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "Tatooine"
   },
   "IsSpawnMarkersEnabled": true,
   "DeleteOnRemove": true,

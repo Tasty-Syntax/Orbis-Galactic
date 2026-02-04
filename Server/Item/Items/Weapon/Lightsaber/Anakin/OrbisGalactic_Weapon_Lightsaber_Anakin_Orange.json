@@ -35,23 +35,6 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Anakin_Orange.png",
-  "Light": {
-    "Color": "#750"
-  },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_Orange",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      }
-    }
-  ],
   "IconProperties": {
     "Scale": 0.3,
     "Rotation": [
@@ -64,5 +47,48 @@
       -44
     ]
   },
-  "Variant": true
+  "Variant": true,
+  "State": {
+    "On": {
+      "Quality": "Epic",
+      "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
+      "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Orange.png",
+      "Light": {
+        "Color": "#750"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_Orange",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
 }

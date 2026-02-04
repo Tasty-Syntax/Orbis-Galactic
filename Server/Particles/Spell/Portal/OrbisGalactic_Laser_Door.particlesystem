@@ -1,0 +1,33 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "OrbisGalactic_Square_Laser_Door_Background",
+      "PositionOffset": {
+        "Y": 2.5,
+        "Z": 0,
+        "X": 0.0
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    },
+    {
+      "SpawnerId": "OrbisGalactic_Square_Laser_Door_Distortion",
+      "PositionOffset": {
+        "Y": 2.5,
+        "Z": 0,
+        "X": 0.0
+      },
+      "StartDelay": 0.5
+    },
+    {
+      "SpawnerId": "OrbisGalactic_Laser_Door_Frame",
+      "PositionOffset": {
+        "Y": 7,
+        "Z": 0,
+        "X": 0
+      },
+      "StartDelay": 0.5
+    }
+  ],
+  "IsImportant": true
+}

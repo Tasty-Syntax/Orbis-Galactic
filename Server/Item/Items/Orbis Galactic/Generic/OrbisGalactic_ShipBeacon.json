@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "Ship Beacon",
+    "Description": "Place this to call your personal spaceship. IMPORTANT: A free space of 17x5x5 blocks in front of the beacon is required!"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "Set": "Furniture_Temple_Light",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      19,
+      101,
+      15
+    ],
+    "Translation": [
+      -27,
+      -75
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Resources/BlockModels/Ship_Call_Beacon.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Temple_Dark/Statue_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Statue_Full",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#2e3742",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OrbisGalactic_ShipBeacon_Interaction",
+            "RunTime": 10,
+            "Failed": {
+              "Type": "SendMessage",
+              "Message": "Please wait before calling the ship again!"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_ShipBeacon.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "MaxStack": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ],
+    "TimeSeconds": 5
+  }
+}

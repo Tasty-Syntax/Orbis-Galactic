@@ -6,7 +6,7 @@
   },
   "IsPvpEnabled": false,
   "IsSpawningNPC": true,
-  "GameTime": "0001-01-01T07:00:00Z",
+  "GameTime": "0001-01-01T00:00:00Z",
   "UUID": {
     "$binary": "AZKxiVAMQfWIS0qBsBfjzQ==",
     "$type": "04"
@@ -18,19 +18,22 @@
   "IsObjectiveMarkersEnabled": true,
   "IsAllNPCFrozen": false,
   "IsSavingPlayers": true,
-  "WorldGen": {
-    "Type": "HytaleGenerator",
-    "WorldStructure": "Orbis_Galactic_Spaceship_Interior",
-    "PlayerSpawn" : {
-      "X": 0,
-      "Y": 101,
-      "Z": 0,
-      "Pitch" : 0,
-      "Yaw" : 90,
-      "Roll" : 0
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": 0.5,
+      "Y": 101.0,
+      "Z": 0.5,
+      "Pitch": 0.0,
+      "Yaw": -180.0,
+      "Roll": 0.0
     }
   },
+  "WorldGen": {
+    "Type": "HytaleGenerator",
+    "WorldStructure": "Orbis_Galactic_Spaceship_Interior"
+  },
   "IsSpawnMarkersEnabled": true,
-  "DeleteOnRemove": true,
+  "DeleteOnRemove": false,
   "Version": 2
 }

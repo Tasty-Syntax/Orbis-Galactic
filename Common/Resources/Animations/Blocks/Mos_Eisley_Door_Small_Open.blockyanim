@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "duration": 33,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "Door": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": 0, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 30,
+          "delta": {"x": 55, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 33,
+          "delta": {"x": 33, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [
+        {
+          "time": 0,
+          "delta": {"x": 1, "y": 1, "z": 1},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 30,
+          "delta": {"x": 1, "y": 1, "z": 1},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 33,
+          "delta": {"x": 0, "y": 1, "z": 1},
+          "interpolationType": "linear"
+        }
+      ],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    }
+  }
+}

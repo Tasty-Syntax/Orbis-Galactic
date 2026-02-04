@@ -1,0 +1,14 @@
+{
+  "Parent": "SFX_Attn_Quiet",
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Environments/Spaceship/Events/Spaceship_Enter.ogg"
+      ],
+      "Looping": false,
+      "Volume": -13.32
+    }
+  ],
+  "Volume": -1.44,
+  "MaxDistance": 3
+}

@@ -35,23 +35,6 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Red.png",
-  "Light": {
-    "Color": "#700"
-  },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      },
-      "TrailId": "Lightsaber_Trail_Red"
-    }
-  ],
   "IconProperties": {
     "Scale": 0.3,
     "Rotation": [
@@ -63,12 +46,6 @@
       -46,
       -44
     ]
-  },
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Red",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Red"
   },
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
@@ -92,5 +69,48 @@
       ]
     }
   },
-  "Variant": true
+  "Variant": true,
+  "State": {
+    "On": {
+      "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
+      "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Red.png",
+      "Light": {
+        "Color": "#700"
+      },
+      "Quality": "Epic",
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_Red",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Red",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Red",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Red_Local"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
 }

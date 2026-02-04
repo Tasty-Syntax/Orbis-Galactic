@@ -10,7 +10,8 @@
       "RandomSettings": {
         "MaxPitch": 0.5,
         "MinPitch": -0.5
-      }
+      },
+      "RoundRobinHistorySize": 1
     }
   ],
   "AudioCategory": "AudioCat_Weapons",

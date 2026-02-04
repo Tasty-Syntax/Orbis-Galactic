@@ -1,0 +1,39 @@
+{
+  "Type": "Generic",
+  "Reference": "Template_Kweebec_Sapling",
+  "MaxHealth": 1,
+  "Appearance": "PlanetPreview",
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 1,
+      "Gravity": 1,
+      "MaxFallSpeed": 1,
+      "Acceleration": 1
+    }
+  ],
+  "NameTranslationKey": "server.npcRoles.PlanetTest.name",
+  "Modify": {
+    "Appearance": "PlanetPreview",
+    "MaxHealth": 1,
+    "IsMemory": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    },
+    "MotionControllerList": [
+      {
+        "Type": "Walk",
+        "MaxWalkSpeed": 0,
+        "Gravity": 0,
+        "MaxFallSpeed": 0,
+        "Acceleration": 0
+      }
+    ]
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Jawa.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

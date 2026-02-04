@@ -1,0 +1,47 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Sandcrawler_Plating.png"
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "Quantity": 1,
+        "ItemId": "OrbisGalactic_Block_Spaceship_Hull_Plating",
+        "GatherType": "VolcanicRocks"
+      }
+    },
+    "Material": "Solid",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "HitboxType": "Block_Half",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Sandcrawler_Plating.png"
+      }
+    ],
+    "VariantRotation": "DoublePipe",
+    "FlipType": "Symmetric"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Jawa_Crawler_Hull_Half.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Spaceship Hull Plating"
+  },
+  "PlayerAnimationsId": "Block",
+  "UsePlayerAnimations": true,
+  "Parent": "Rock_Stone_Brick_Half"
+}

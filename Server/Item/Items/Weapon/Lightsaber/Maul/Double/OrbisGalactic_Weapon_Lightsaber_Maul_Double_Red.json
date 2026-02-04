@@ -34,23 +34,6 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Red.png",
-  "Light": {
-    "Color": "#700"
-  },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      },
-      "TrailId": "Lightsaber_Trail_Red"
-    }
-  ],
   "IconProperties": {
     "Scale": 0.1,
     "Rotation": [
@@ -65,13 +48,6 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red_Double",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Red",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Red"
-  },
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
       "Interactions": [
@@ -92,6 +68,49 @@
       "Interactions": [
         "Interaction_Lightsaber_Stab_Charged_Effect_Red"
       ]
+    }
+  },
+  "Variant": true,
+  "State": {
+    "On": {
+      "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
+      "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
+      "Light": {
+        "Color": "#700"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_Red",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red_Double",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Red",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Red",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Red_Local"
+              }
+            }
+          ]
+        }
+      }
     }
   }
 }

@@ -47,7 +47,10 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Intelligent/Walk.blockyanim",
-          "Speed": 0.85
+          "Speed": 0.85,
+          "FootstepIntervals": [
+            1
+          ]
         }
       ]
     },
@@ -347,7 +350,8 @@
         {
           "Animation": "Characters/Animations/NPC/Intelligent/Hurt.blockyanim",
           "BlendingDuration": 0.1,
-          "Looping": false
+          "Looping": false,
+          "SoundEventId": "Jawa_SFX_Hurt"
         }
       ]
     },

@@ -1,0 +1,81 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 3,
+  "ParticleLifeSpan": {
+    "Min": 2,
+    "Max": 3
+  },
+  "SpawnRate": {
+    "Min": 1.2,
+    "Max": 1.2
+  },
+  "InitialVelocity": {
+    "Yaw": {
+      "Min": -15,
+      "Max": 15
+    },
+    "Pitch": {
+      "Min": 80,
+      "Max": 100
+    }
+  },
+  "$Comment": "Square that becomes a frame",
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Square_NotTop.png",
+    "ScaleRatioConstraint": "None",
+    "UVOption": "None",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Color": "#4ee4ff",
+        "Opacity": 0.0,
+        "Scale": {
+          "X": {
+            "Min": 19,
+            "Max": 19
+          },
+          "Y": {
+            "Min": 10,
+            "Max": 10
+          }
+        }
+      },
+      "50": {
+        "Opacity": 1.0,
+        "Color": "#d9fdff"
+      },
+      "100": {
+        "Color": "#4ee4ff",
+        "Opacity": 0.0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.5,
+          "Max": 0.5
+        },
+        "Y": {
+          "Min": 0.65,
+          "Max": 0.65
+        }
+      },
+      "Opacity": 1.0,
+      "Color": "#d9fdff",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    }
+  },
+  "SpawnBurst": false
+}

@@ -1,0 +1,45 @@
+{
+  "Parent": "Player_NPC_Template",
+  "Model": "NPC/Planet_Preview.blockymodel",
+  "Texture": "NPC/Overworld_Planet_Preview.png",
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/PlanetPreview/PlanetPreview_Idle.blockyanim",
+          "Speed": 0.1,
+          "SoundEventId": "Jawa_SFX_Idle",
+          "Looping": true
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Jawa_Model.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -44
+    ]
+  },
+  "MinScale": 2.5,
+  "MaxScale": 3
+}

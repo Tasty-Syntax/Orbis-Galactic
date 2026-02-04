@@ -1,0 +1,99 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Cobalt_Chest.name"
+  },
+  "Parent": "Armor_Adamantite_Chest",
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "Icon": "Icons/ItemsGenerated/Stormtrooper_Chest.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0.3,
+      -6.9
+    ]
+  },
+  "Model": "Resources/ClothingModels/Stormtrooper/Chest.blockymodel",
+  "Texture": "Resources/ClothingTextures/Stormtrooper/Chest_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 7
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 7
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Chest"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.1152,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.1152,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 22,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Signature": [
+        {
+          "Amount": 0.06,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 120,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Cobalt"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}

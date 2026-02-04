@@ -27,78 +27,6 @@
       "Texture": "Sky/MoonCycle/Moon_New.png"
     }
   ],
-  "Clouds": [
-    {
-      "Texture": "Sky/Clouds/Light_Base.png",
-      "Colors": [
-        {
-          "Hour": 7,
-          "Color": "#ecfaffff"
-        },
-        {
-          "Hour": 17,
-          "Color": "#ecfaffff"
-        },
-        {
-          "Hour": 0,
-          "Color": "#385e6aff"
-        },
-        {
-          "Hour": 2,
-          "Color": "#b06b54ff"
-        },
-        {
-          "Hour": 21,
-          "Color": "#b06b54ff"
-        },
-        {
-          "Hour": 23,
-          "Color": "#ffffff00"
-        }
-      ],
-      "Speeds": [
-        {
-          "Hour": 0,
-          "Value": 1
-        }
-      ]
-    },
-    {
-      "Texture": "Sky/Clouds/Light_Highlights.png",
-      "Colors": [
-        {
-          "Hour": 7,
-          "Color": "#ecfaffff"
-        },
-        {
-          "Hour": 17,
-          "Color": "#ecfaffff"
-        },
-        {
-          "Hour": 0,
-          "Color": "#3c4464ff"
-        },
-        {
-          "Hour": 2,
-          "Color": "#b06b54ff"
-        },
-        {
-          "Hour": 21,
-          "Color": "#b06b54ff"
-        },
-        {
-          "Hour": 23,
-          "Color": "#ffffff00"
-        }
-      ],
-      "Speeds": [
-        {
-          "Hour": 0,
-          "Value": 1
-        }
-      ]
-    }
-  ],
   "SkyTopColors": [
     {
       "Hour": 12,
@@ -383,7 +311,12 @@
     }
   ],
   "SunColors": [],
-  "SunlightColors": [],
+  "SunlightColors": [
+    {
+      "Hour": 0,
+      "Color": "#fffcf0"
+    }
+  ],
   "FogHeightFalloffs": [
     {
       "Hour": 0,

@@ -1,0 +1,37 @@
+{
+  "BlockType": {
+    "DrawType": "Cube",
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Sandcrawler_Plating.png"
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "Quantity": 1,
+        "ItemId": "OrbisGalactic_Block_Spaceship_Hull_Plating",
+        "GatherType": "VolcanicRocks"
+      }
+    },
+    "Material": "Solid",
+    "BlockSoundSetId": "Metal"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Jawa_Crawler_Hull.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Spaceship Hull Plating"
+  },
+  "PlayerAnimationsId": "Block",
+  "UsePlayerAnimations": true
+}

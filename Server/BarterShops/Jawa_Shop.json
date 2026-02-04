@@ -1,0 +1,30 @@
+{
+  "DisplayNameKey": "Scrap Trader",
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "RestockHour": 6,
+  "TradeSlots": [
+    {
+      "Type": "Pool",
+      "SlotCount": 1,
+      "Trades": [
+        {
+          "Output": {
+            "ItemId": "OrbisGalactic_Speeder_Bike",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "OrbisGalactic_Scrap_Metal",
+              "Quantity": 50
+            }
+          ],
+          "Stock": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

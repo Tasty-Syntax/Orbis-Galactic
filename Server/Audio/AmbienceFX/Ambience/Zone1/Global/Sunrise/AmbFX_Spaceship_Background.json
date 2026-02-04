@@ -1,0 +1,12 @@
+{
+  "AmbientBed": {
+    "Track": "Sounds/Environments/Spaceship/Spaceship_Ambience_Stereo_LOOP.ogg",
+    "Volume": -5.4
+  },
+  "Conditions": {
+    "EnvironmentTagPattern": {
+      "Op": "Equals",
+      "Tag": "OrbisGalactic_Spaceship"
+    }
+  }
+}

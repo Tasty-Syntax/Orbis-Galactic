@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Cantina Window"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Window.png",
+  "Set": "Rock_Marble",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble",
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    },
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Cantina_Glass.png"
+      }
+    ],
+    "VariantRotation": "DoublePipe",
+    "HitboxType": "Block_Half"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "Blocks.Structural"
+  ]
+}

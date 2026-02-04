@@ -9,11 +9,22 @@
         "MaxVolume": 1
       },
       "Files": [
-        "Sounds/NPC/Jawa/Jawa_Gibberish_1.ogg",
-        "Sounds/NPC/Jawa/Jawa_Gibberish_2.ogg",
-        "Sounds/NPC/Jawa/Jawa_Gibberish_3.ogg",
-        "Sounds/NPC/Jawa/Jawa_Hoo_Teeny.ogg",
-        "Sounds/NPC/Jawa/Jawa_Gibberish_Speak.ogg"
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_1.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_2.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_3.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_4.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_5.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_6.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_7.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_8.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_9.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_10.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_11.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Random_Blabber_12.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Giggle.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Speak_1.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Jawa_Speak_2.ogg",
+        "Sounds/NPC/Jawa/Jawa_New/Uttini.ogg"
       ],
       "Probability": 30,
       "ProbabilityRerollDelay": 5,

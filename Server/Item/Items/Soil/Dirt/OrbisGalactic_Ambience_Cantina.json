@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "Cantina Ambience Player"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Ambience_Cantina.png",
+  "Categories": [
+    "Blocks.Soils"
+  ],
+  "PlayerAnimationsId": "Block",
+  "ResourceTypes": [
+    {
+      "Id": "Soils"
+    }
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "Group": "Dirt",
+    "Flags": {},
+    "BlockParticleSetId": "Dirt",
+    "ParticleColor": "#98743b",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt"
+    ],
+    "Looping": true,
+    "BlockSoundSetId": "Metal",
+    "Textures": [
+      {
+        "All": "BlockTextures/Rock_Sandstone_White_Brick.png"
+      }
+    ],
+    "AmbientSoundEventId": "Cantina_SFX_Ambience"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Scale": 1,
+  "Parent": "Rock_Bedrock"
+}

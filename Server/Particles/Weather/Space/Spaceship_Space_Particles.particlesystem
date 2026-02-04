@@ -1,0 +1,11 @@
+{
+  "Spawners": [
+    {
+      "FixedRotation": true,
+      "PositionOffset": {
+        "Z": -10.0
+      },
+      "SpawnerId": "Space_Particle"
+    }
+  ]
+}

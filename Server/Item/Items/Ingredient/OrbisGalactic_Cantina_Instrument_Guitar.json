@@ -1,0 +1,50 @@
+{
+  "Model": "Resources/ItemModels/Cantina_Guitar.blockymodel",
+  "Texture": "Resources/ItemTextures/Cantina_Guitar.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Cantina_Instrument_Guitar.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      203,
+      47
+    ],
+    "Translation": [
+      -18,
+      -19
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Parts"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 10
+      }
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Cantina Guitar",
+    "Description": ""
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "ItemLevel": 10,
+  "Quality": "Common",
+  "PlayerAnimationsId": "Item",
+  "Parent": "Weapon_Staff_Cane",
+  "Scale": 1.6
+}

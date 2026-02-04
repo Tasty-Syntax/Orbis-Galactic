@@ -1,0 +1,22 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Kweebec_Sapling",
+  "Modify": {
+    "Appearance": "Human_Vampire_Bizarre_Model",
+    "MaxHealth": 74,
+    "IsMemory": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "AttitudeGroup": {
+    "Value": "Humanoid_Friendly",
+    "Description": "The attitude group this NPC belongs to."
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Jawa.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

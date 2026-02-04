@@ -1,0 +1,50 @@
+{
+  "Model": "Resources/ItemModels/Cantina_Trumpet.blockymodel",
+  "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Cantina_Instrument_Trumpet.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      203,
+      47
+    ],
+    "Translation": [
+      -16,
+      -17
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Parts"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 10
+      }
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Cantina Trumpet",
+    "Description": ""
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "ItemLevel": 10,
+  "Quality": "Common",
+  "PlayerAnimationsId": "Item",
+  "Parent": "Weapon_Staff_Cane",
+  "Scale": 1.6
+}

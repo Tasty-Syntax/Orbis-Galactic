@@ -1,0 +1,179 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Kweebec_Sapling",
+  "Modify": {
+    "Appearance": "OrbisGalactic_Model_R2",
+    "DropList": "Drop_Jawa",
+    "MaxHealth": 74,
+    "IsMemory": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Instructions": [
+    {
+      "Instructions": [
+        {
+          "$Comment": "Idle state - no player nearby",
+          "Sensor": {
+            "Type": "State",
+            "State": "Idle"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Greet player when they approach (Alerted animation)",
+              "ActionsBlocking": true,
+              "Sensor": {
+                "Type": "Player",
+                "Range": 8
+              },
+              "Actions": [
+                {
+                  "Type": "PlayAnimation",
+                  "Slot": "Status",
+                  "Animation": "Alerted"
+                },
+                {
+                  "Type": "State",
+                  "State": "Watching"
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Any"
+              },
+              "BodyMotion": {
+                "Type": "Nothing"
+              }
+            }
+          ]
+        },
+        {
+          "$Comment": "Watching state - player is nearby, just watch them",
+          "Sensor": {
+            "Type": "State",
+            "State": "Watching"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Watch nearby players with head",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Player",
+                "Range": 12
+              },
+              "HeadMotion": {
+                "Type": "Watch"
+              }
+            },
+            {
+              "$Comment": "Clear animation after delay",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any"
+              },
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    2,
+                    2
+                  ],
+                  "Action": {
+                    "Type": "PlayAnimation",
+                    "Slot": "Status"
+                  }
+                }
+              ]
+            },
+            {
+              "$Comment": "Return to Idle when player leaves (clear animation first)",
+              "Sensor": {
+                "Type": "Not",
+                "Sensor": {
+                  "Type": "Player",
+                  "Range": 12
+                }
+              },
+              "Actions": [
+                {
+                  "Type": "PlayAnimation",
+                  "Slot": "Status"
+                },
+                {
+                  "Type": "State",
+                  "State": "Idle"
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Any"
+              },
+              "BodyMotion": {
+                "Type": "Nothing"
+              }
+            }
+          ]
+        },
+        {
+          "$Comment": "Interaction state - look at player while shop is open",
+          "Sensor": {
+            "Type": "State",
+            "State": "$Interaction"
+          },
+          "Instructions": [
+            {
+              "Continue": true,
+              "Sensor": {
+                "Type": "Target",
+                "Range": 10
+              },
+              "HeadMotion": {
+                "Type": "Watch"
+              }
+            },
+            {
+              "$Comment": "Return to Watching after interaction ends",
+              "Sensor": {
+                "Type": "Any"
+              },
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [
+                    1,
+                    1
+                  ],
+                  "Action": {
+                    "Type": "Sequence",
+                    "Actions": [
+                      {
+                        "Type": "ReleaseTarget"
+                      },
+                      {
+                        "Type": "State",
+                        "State": "Watching"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AttitudeGroup": {
+    "Value": "Humanoid_Friendly",
+    "Description": "The attitude group this NPC belongs to."
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Jawa.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

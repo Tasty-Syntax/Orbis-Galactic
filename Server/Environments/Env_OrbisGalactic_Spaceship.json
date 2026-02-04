@@ -1,0 +1,154 @@
+{
+  "Parent": "Default",
+  "SpawnDensity": 0.4,
+  "WaterTint": "#000000",
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 10100
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 10100
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Spaceship_Weather",
+        "Weight": 100
+      }
+    ]
+  },
+  "Tags": {
+    "OrbisGalactic_Spaceship": []
+  }
+}

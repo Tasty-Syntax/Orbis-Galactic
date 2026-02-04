@@ -1,0 +1,16 @@
+{
+  "Type": "Simple",
+  "Next": "Interaction_Blaster_Launch_Bolt_CyclerRifle",
+  "Tags": {
+    "AimingReference": [],
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "RunTime": 0,
+  "Effects": {
+    "ItemPlayerAnimationsId": "Blaster_Cycler_Rifle",
+    "ItemAnimationId": "Shoot",
+    "WorldSoundEventId": "SFX_Blaster_Shoot_Cycler_Rifle"
+  }
+}
