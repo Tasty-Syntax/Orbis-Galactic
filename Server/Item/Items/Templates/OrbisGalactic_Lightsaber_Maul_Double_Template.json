@@ -1,7 +1,5 @@
 {
-  "Categories": [
-    "OrbisGalactic.Sabers"
-  ],
+  "Categories": ["OrbisGalactic.Sabers"],
   "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber_Menacing",
@@ -19,10 +17,7 @@
           "Type": "OrbisGalactic_Lightsaber_Interaction"
         }
       ]
-    },
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+    }
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -109,9 +104,7 @@
     },
     "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect_Red",
     "Lightsaber_Stab_Charged_Damage": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Damage_Red"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Damage_Red"]
     },
     "Thrust_Damage": {
       "Interactions": [
@@ -166,26 +159,16 @@
   },
   "IconProperties": {
     "Scale": 0.1,
-    "Rotation": [
-      45,
-      90,
-      0
-    ],
-    "Translation": [
-      -5,
-      -9
-    ]
+    "Rotation": [45, 90, 0],
+    "Translation": [-5, -9]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.52,
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Longsword"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Longsword"],
+    "LightsaberItem": []
   },
   "Weapon": {
     "StatModifiers": {
@@ -196,9 +179,7 @@
         }
       ]
     },
-    "EntityStatsToClear": [
-      "SignatureEnergy"
-    ]
+    "EntityStatsToClear": ["SignatureEnergy"]
   },
   "UsePlayerAnimations": false,
   "ItemSoundSetId": "ISS_Items_Gadget",
@@ -206,10 +187,7 @@
   "ItemAppearanceConditions": {
     "SignatureEnergy": [
       {
-        "Condition": [
-          100,
-          100
-        ],
+        "Condition": [100, 100],
         "ConditionValueType": "Percent",
         "Particles": [
           {
@@ -272,7 +250,7 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+  "Animation": "Resources/Animations/Lightsaber_Double_Off.blockyanim",
   "Scale": 0.5,
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Template.png"
 }

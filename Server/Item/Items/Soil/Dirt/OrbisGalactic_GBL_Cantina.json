@@ -5,7 +5,7 @@
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_SFX_Cantina_Music.png",
   "Categories": [
-    "Blocks.Soils"
+    "OrbisGalactic.Misc"
   ],
   "PlayerAnimationsId": "Block",
   "ResourceTypes": [

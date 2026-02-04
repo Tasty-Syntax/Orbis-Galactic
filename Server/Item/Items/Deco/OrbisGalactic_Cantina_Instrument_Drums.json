@@ -6,27 +6,6 @@
   "Categories": [
     "Blocks.Deco"
   ],
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Wood_Hardwood_Planks",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Id": "Furniture_Bench",
-        "Categories": [
-          "Furniture_Misc"
-        ]
-      }
-    ]
-  },
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Root_Mug_Fill"

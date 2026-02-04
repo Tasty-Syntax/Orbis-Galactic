@@ -57,5 +57,6 @@
       "Soil"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Soft"
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "Quality": "Developer"
 }

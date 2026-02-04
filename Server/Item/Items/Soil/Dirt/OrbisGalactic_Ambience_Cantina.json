@@ -51,5 +51,6 @@
     ]
   },
   "Scale": 1,
-  "Parent": "Rock_Bedrock"
+  "Parent": "Rock_Bedrock",
+  "Quality": "Developer"
 }

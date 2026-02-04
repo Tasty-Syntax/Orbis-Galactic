@@ -1,0 +1,45 @@
+{
+  "formatVersion": 1,
+  "duration": 3,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "Blade": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": 0, "y": -151, "z": 0},
+          "interpolationType": "smooth"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [
+        {
+          "time": 0,
+          "delta": {"x": 1, "y": 0, "z": 1},
+          "interpolationType": "smooth"
+        }
+      ],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    },
+    "Blade2": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": 0, "y": 159, "z": 0},
+          "interpolationType": "smooth"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [
+        {
+          "time": 0,
+          "delta": {"x": 1, "y": 0.0025, "z": 1},
+          "interpolationType": "smooth"
+        }
+      ],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    }
+  }
+}

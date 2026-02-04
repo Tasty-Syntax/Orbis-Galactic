@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Double"
-        ],
+        "Categories": ["Lightsabers_Double"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 2
       }
@@ -34,42 +32,55 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Purple.png",
-  "Light": {
-    "Color": "#71a"
-  },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      },
-      "TrailId": "Lightsaber_Trail_Purple"
-    }
-  ],
   "IconProperties": {
     "Scale": 0.1,
-    "Rotation": [
-      45,
-      90,
-      0
-    ],
-    "Translation": [
-      -19.2,
-      -21
-    ]
+    "Rotation": [45, 90, 0],
+    "Translation": [-19.2, -21]
   },
-  "Parent": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Blue",
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
-  },
-  "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
-  "Variant": true
+  "Variant": true,
+  "State": {
+    "On": {
+      "Quality": "Epic",
+      "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
+      "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+      "Light": {
+        "Color": "#71a"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          },
+          "TrailId": "Lightsaber_Trail_Purple"
+        }
+      ],
+      "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
 }
