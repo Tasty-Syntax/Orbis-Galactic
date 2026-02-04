@@ -99,7 +99,8 @@
           "RequiresAlphaBlending": true
         }
       }
-    }
+    },
+    "Parent": "Rock_Bedrock"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Center.png",
   "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template"
