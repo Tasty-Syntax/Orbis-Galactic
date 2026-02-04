@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -35,43 +33,23 @@
   },
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      333,
-      224,
-      40
-    ],
-    "Translation": [
-      -46,
-      -44
-    ]
+    "Rotation": [333, 224, 40],
+    "Translation": [-46, -44]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Luke_Purple.png",
-  "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Blue"
-  },
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Blue"]
     },
     "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Blue"]
     },
     "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"]
     },
     "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Blue"]
     }
   },
   "Variant": true,

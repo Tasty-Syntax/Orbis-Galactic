@@ -13,11 +13,11 @@
           "SpawnOffset": {
             "Z": 0,
             "Y": 1
+          },
+          "Next": {
+            "Type": "ModifyInventory",
+            "AdjustHeldItemQuantity": -1
           }
-        },
-        {
-          "Type": "ModifyInventory",
-          "AdjustHeldItemQuantity": -1
         }
       ]
     }
