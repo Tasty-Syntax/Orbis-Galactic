@@ -21,12 +21,6 @@
     "TimeSeconds": 0
   },
   "BlockType": {
-    "Gathering": {
-      "Breaking": {
-        "ItemId": "Rock_Marble_Cobble",
-        "GatherType": "Rocks"
-      }
-    },
     "Textures": [
       {
         "All": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
@@ -47,7 +41,8 @@
         }
       }
     },
-    "RequiresAlphaBlending": true
+    "RequiresAlphaBlending": true,
+    "Parent": "Rock_Bedrock"
   },
   "ResourceTypes": [
     {
