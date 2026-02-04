@@ -4,7 +4,6 @@
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber_Menacing",
   "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
     "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
     "Ability2": {
       "Interactions": [
