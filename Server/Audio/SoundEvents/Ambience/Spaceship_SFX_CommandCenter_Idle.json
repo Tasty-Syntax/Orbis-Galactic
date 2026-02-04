@@ -8,6 +8,6 @@
       "Looping": true
     }
   ],
-  "MaxDistance": 500,
+  "MaxDistance": 20,
   "StartAttenuationDistance": 20
 }

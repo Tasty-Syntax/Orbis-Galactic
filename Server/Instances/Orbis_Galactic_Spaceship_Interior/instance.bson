@@ -34,7 +34,6 @@
     "WorldStructure": "Orbis_Galactic_Spaceship_Interior"
   },
   "IsSpawnMarkersEnabled": true,
-  "DeleteOnRemove": true,
-  "IsGameTimePaused": true,
+  "DeleteOnRemove": false,
   "Version": 2
 }

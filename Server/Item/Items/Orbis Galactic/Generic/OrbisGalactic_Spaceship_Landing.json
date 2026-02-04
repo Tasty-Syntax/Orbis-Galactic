@@ -42,30 +42,13 @@
         ]
       }
     },
-    "State": {
-      "Definitions": {
-        "Home": {
-          "HitboxType": "Collision_HWK290",
-          "InteractionHitboxType": "Collision_HWK290",
-          "Interactions": {
-            "Use": {
-              "Interactions": [
-                {
-                  "Type": "OrbisGalactic_ShipTravel_Interaction"
-                }
-              ]
-            }
-          },
-          "IsDoor": false
-        }
-      }
-    },
     "Gathering": {
       "Breaking": {
         "GatherType": "Soils",
         "Quantity": 0
       }
-    }
+    },
+    "CustomModelAnimation": "Resources/Animations/Blocks/HWK290_Landing_Animation.blockyanim"
   },
   "Tags": {
     "Type": [
@@ -87,5 +70,6 @@
   },
   "PlayerAnimationsId": "Block",
   "Scale": 0.25,
-  "Variant": false
+  "Variant": false,
+  "Quality": "Developer"
 }

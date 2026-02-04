@@ -1,23 +1,27 @@
 {
-  "Categories": [
-    "Items.Weapons"
-  ],
+  "Categories": ["Items.Weapons"],
   "Model": "Resources/WeaponModels/Darksaber.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
-    "Primary": "ROOT_Interaction_Darksaber_Attack",
     "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-    "SwapTo": "ROOT_Interaction_Darksaber_Ignite",
-    "SwapFrom": "ROOT_Interaction_Darksaber_Retract",
-    "Held": "ROOT_Interaction_Darksaber_Idle"
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "RunRootInteraction",
+          "RootInteraction": "ROOT_Interaction_Darksaber_Ignite",
+          "RunTime": 0
+        },
+        {
+          "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
+    }
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
     "Darksaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Darksaber_Swing_Left_Effect"
-      ]
+      "Interactions": ["Interaction_Darksaber_Swing_Left_Effect"]
     },
     "Darksaber_Swing_Left_Damage": {
       "Interactions": [
@@ -37,9 +41,7 @@
       ]
     },
     "Darksaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Darksaber_Swing_Left_Effect"
-      ]
+      "Interactions": ["Interaction_Darksaber_Swing_Left_Effect"]
     },
     "Darksaber_Swing_Right_Damage": {
       "Interactions": [
@@ -59,9 +61,7 @@
       ]
     },
     "Darksaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Darksaber_Swing_Left_Effect"
-      ]
+      "Interactions": ["Interaction_Darksaber_Swing_Left_Effect"]
     },
     "Darksaber_Swing_Up_Left_Damage": {
       "Interactions": [
@@ -151,39 +151,16 @@
   },
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [
-      45,
-      90,
-      0
-    ],
-    "Translation": [
-      -85,
-      -88
-    ]
+    "Rotation": [45, 90, 0],
+    "Translation": [-85, -88]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.52,
   "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Longsword"
-    ]
-  },
-  "Weapon": {
-    "StatModifiers": {
-      "SignatureEnergy": [
-        {
-          "Amount": 20,
-          "CalculationType": "Additive"
-        }
-      ]
-    },
-    "EntityStatsToClear": [
-      "SignatureEnergy"
-    ]
+    "Type": ["Weapon"],
+    "Family": ["Longsword"],
+    "LightsaberItem": []
   },
   "UsePlayerAnimations": false,
   "ItemSoundSetId": "ISS_Items_Gadget",
@@ -199,30 +176,10 @@
     "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Darksaber.name",
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Darksaber.description"
   },
-  "Light": {
-    "Color": "#666"
-  },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "TrailId": "Darksaber_Trail",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      }
-    }
-  ],
   "ItemAppearanceConditions": {
     "SignatureEnergy": [
       {
-        "Condition": [
-          0,
-          100
-        ],
+        "Condition": [0, 100],
         "ConditionValueType": "Percent",
         "Particles": [
           {
@@ -243,5 +200,60 @@
         "ModelVFXId": "ModelVFX_Darksaber"
       }
     ]
+  },
+  "Animation": "Resources/Animations/Darksaber_Off.blockyanim",
+  "State": {
+    "On": {
+      "Quality": "Legendary",
+      "Model": "Resources/WeaponModels/Darksaber.blockymodel",
+      "Texture": "Resources/WeaponTextures/Darksaber.png",
+      "Light": {
+        "Color": "#666"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Darksaber_Trail",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Weapon": {
+        "StatModifiers": {
+          "SignatureEnergy": [
+            {
+              "Amount": 20,
+              "CalculationType": "Additive"
+            }
+          ]
+        },
+        "EntityStatsToClear": ["SignatureEnergy"]
+      },
+      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Darksaber_Attack",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Darksaber_Ignite",
+        "SwapFrom": "ROOT_Interaction_Darksaber_Retract",
+        "Held": "ROOT_Interaction_Darksaber_Idle",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
+              }
+            }
+          ]
+        }
+      }
+    }
   }
 }

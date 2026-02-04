@@ -8,6 +8,6 @@
     }
   ],
   "PreventSoundInterruption": false,
-  "Volume": -0.5,
+  "Volume": -1.9,
   "Parent": "SFX_Attn_Quiet"
 }
