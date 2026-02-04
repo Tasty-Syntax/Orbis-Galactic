@@ -53,7 +53,8 @@
         "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray.png"
       }
     ],
-    "HitboxType": "Block_Half"
+    "HitboxType": "Block_Half",
+    "VariantRotation": "DoublePipe"
   },
   "ResourceTypes": [
     {

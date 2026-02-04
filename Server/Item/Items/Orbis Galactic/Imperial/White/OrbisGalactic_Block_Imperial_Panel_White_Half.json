@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Gray Panel"
+    "Name": "Imperial Half White"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Half.png",
   "Set": "Rock_Marble",
@@ -53,7 +53,8 @@
         "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White.png"
       }
     ],
-    "HitboxType": "Block_Half"
+    "HitboxType": "Block_Half",
+    "VariantRotation": "DoublePipe"
   },
   "ResourceTypes": [
     {

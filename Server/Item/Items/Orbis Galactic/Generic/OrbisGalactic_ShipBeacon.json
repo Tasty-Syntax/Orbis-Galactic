@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Temple_Dark_Statue_Gaia.name"
+    "Name": "Ship Beacon",
+    "Description": "Place this to call your personal spaceship. IMPORTANT: A free space of 17x5x5 blocks in front of the beacon is required!"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -8,21 +9,21 @@
   ],
   "Set": "Furniture_Temple_Light",
   "IconProperties": {
-    "Scale": 0.315,
+    "Scale": 0.2,
     "Rotation": [
-      22,
-      43,
-      18
+      19,
+      101,
+      15
     ],
     "Translation": [
-      -4,
-      -43
+      -27,
+      -75
     ]
   },
   "BlockType": {
     "BlockParticleSetId": "Stone",
     "BlockSoundSetId": "Stone",
-    "CustomModel": "Blocks/Decorative_Sets/Temple_Dark/Statue.blockymodel",
+    "CustomModel": "Resources/BlockModels/Ship_Call_Beacon.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Decorative_Sets/Temple_Dark/Statue_Texture.png",
@@ -52,14 +53,18 @@
       "Use": {
         "Interactions": [
           {
-            "Type": "SendMessage",
-            "Message": "Ship triggered"
+            "Type": "OrbisGalactic_ShipBeacon_Interaction",
+            "RunTime": 10,
+            "Failed": {
+              "Type": "SendMessage",
+              "Message": "Please wait before calling the ship again!"
+            }
           }
         ]
       }
     }
   },
-  "Icon": "Icons/ItemsGenerated/Furniture_Temple_Dark_Statue_Gaia.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_ShipBeacon.png",
   "Tags": {
     "Type": [
       "Furniture"
@@ -70,5 +75,31 @@
   },
   "Scale": 0.6,
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "MaxStack": 1
+  "MaxStack": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ],
+    "TimeSeconds": 5
+  }
 }

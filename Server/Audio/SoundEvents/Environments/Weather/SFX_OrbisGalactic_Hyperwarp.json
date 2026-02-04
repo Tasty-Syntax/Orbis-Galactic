@@ -4,15 +4,10 @@
       "Files": [
         "Sounds/Environments/Spaceship/Events/Spaceship_Hyperwarp.ogg"
       ],
-      "RandomSettings": {
-        "MinVolume": -10,
-        "MaxPitch": 2,
-        "MinPitch": -2
-      },
-      "StartDelay": 1.5
+      "StartDelay": 0
     }
   ],
-  "PreventSoundInterruption": true,
-  "Volume": 2.08,
+  "PreventSoundInterruption": false,
+  "Volume": -1.9,
   "Parent": "SFX_Attn_Quiet"
 }

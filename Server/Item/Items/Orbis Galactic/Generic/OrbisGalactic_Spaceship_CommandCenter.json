@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Feran_Bookshelf.name"
+    "Name": "Command Center"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -8,15 +8,15 @@
   ],
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Spaceship_CommandCenter.png",
   "IconProperties": {
+    "Scale": 0.2,
     "Rotation": [
-      22.5,
+      23,
       45,
       22.5
     ],
-    "Scale": 0.45,
     "Translation": [
-      2,
-      -16
+      1,
+      -21
     ]
   },
   "Tags": {
@@ -41,11 +41,6 @@
       }
     ],
     "DrawType": "Model",
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Woods"
-      }
-    },
     "ParticleColor": "#c7b885",
     "MaxSupportDistance": 8,
     "Support": {
@@ -103,7 +98,9 @@
           "Looping": true
         }
       }
-    }
+    },
+    "AmbientSoundEventId": "Spaceship_SFX_CommandCenter_Idle",
+    "Parent": "Rock_Bedrock"
   },
   "DisplayEntityStatsHUD": [
     "Idle"

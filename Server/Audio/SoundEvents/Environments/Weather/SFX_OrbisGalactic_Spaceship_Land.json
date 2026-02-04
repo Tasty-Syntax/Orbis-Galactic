@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Environments/Spaceship/Events/Spaceship_Land.ogg"
+      ],
+      "StartDelay": 0
+    }
+  ],
+  "PreventSoundInterruption": false,
+  "Volume": -0.5,
+  "Parent": "SFX_Attn_Quiet"
+}

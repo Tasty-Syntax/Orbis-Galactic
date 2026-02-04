@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Ambience/CommandCenter_Idle.ogg"
+      ],
+      "Volume": 3.4,
+      "Looping": true
+    }
+  ],
+  "MaxDistance": 20,
+  "StartAttenuationDistance": 20
+}
