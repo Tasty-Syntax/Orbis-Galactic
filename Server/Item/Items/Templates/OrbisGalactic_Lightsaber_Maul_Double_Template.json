@@ -1,6 +1,6 @@
 {
   "Categories": [
-    "Items.Weapons"
+    "OrbisGalactic.Sabers"
   ],
   "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
   "ItemLevel": 40,

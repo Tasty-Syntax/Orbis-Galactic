@@ -11,7 +11,7 @@
   "ItemSoundSetId": "ISS_Items_Gadget",
   "ItemLevel": 30,
   "Categories": [
-    "Items.Weapons"
+    "OrbisGalactic.Sabers"
   ],
   "IconProperties": {
     "Scale": 0.4,

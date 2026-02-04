@@ -44,5 +44,8 @@
   "ItemLevel": 10,
   "Quality": "Common",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Luke.png",
-  "PlayerAnimationsId": "Item"
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ]
 }

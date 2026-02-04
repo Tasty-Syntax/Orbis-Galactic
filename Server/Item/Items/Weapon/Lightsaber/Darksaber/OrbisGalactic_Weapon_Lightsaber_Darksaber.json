@@ -1,6 +1,6 @@
 {
   "Categories": [
-    "Items.Weapons"
+    "OrbisGalactic.Sabers"
   ],
   "Model": "Resources/WeaponModels/Darksaber.blockymodel",
   "ItemLevel": 40,

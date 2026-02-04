@@ -44,5 +44,8 @@
   "Quality": "Common",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Maul.png",
   "PlayerAnimationsId": "Item",
-  "Scale": 0.5
+  "Scale": 0.5,
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ]
 }
