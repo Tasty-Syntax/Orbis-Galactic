@@ -1,7 +1,7 @@
 {
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Speeder_Bike.png",
   "Categories": [
-    "Furniture.Benches"
+    "OrbisGalactic.Misc"
   ],
   "Interactions": {
     "Primary": "Block_Primary",
