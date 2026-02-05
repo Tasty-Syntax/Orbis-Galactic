@@ -1,0 +1,53 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Doonium.name",
+    "Description": "server.items.Ore_Doonium.description"
+  },
+  "Categories": [
+    "Blocks.Ores","StarWars.Ores"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Salvage_Doonium",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Salvagebench"
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "Model": "Resources/Ores/Ore_Large.blockymodel",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3,
+      -15
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "Texture": "Resources/Ores/Ores_Textures/Doonium_Ore_32.png",
+  "Icon": "Icons/ItemsGenerated/Ore_Doonium.png"
+}
