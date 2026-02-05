@@ -3,24 +3,15 @@
     "Name": "Imperial Blast Door"
   },
   "PlayerAnimationsId": "Block",
-  "Categories": [
-    "Furniture.Doors"
-  ],
+  "Categories": ["Furniture.Doors"],
   "Interactions": {
     "Primary": "Block_Primary",
     "Secondary": "Block_Secondary"
   },
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      1,
-      -39
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [1, -39]
   },
   "BlockType": {
     "BlockParticleSetId": "Metal",
@@ -35,13 +26,13 @@
     "State": {
       "Definitions": {
         "CloseDoorIn": {
-          "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Open",
+          "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Close",
           "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
           "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
           "Material": "Solid"
         },
         "CloseDoorOut": {
-          "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Open",
+          "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Close",
           "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
           "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
           "Material": "Solid"
@@ -71,12 +62,8 @@
   },
   "Scale": 0.5,
   "Tags": {
-    "Type": [
-      "Furniture"
-    ],
-    "Family": [
-      "Temple"
-    ]
+    "Type": ["Furniture"],
+    "Family": ["Temple"]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Imperial_Blast_Door.png",
   "ItemSoundSetId": "ISS_Items_Metal",
