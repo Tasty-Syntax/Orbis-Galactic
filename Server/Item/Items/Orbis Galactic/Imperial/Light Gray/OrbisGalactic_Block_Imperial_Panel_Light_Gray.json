@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "Imperial Light Gray Panel"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Light_Gray.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Light_Gray_Smooth.png",
   "Set": "Imperial",
   "Recipe": {
     "Input": [
@@ -29,7 +29,7 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Light_Gray.png",
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Light_Gray_Smooth.png",
         "Weight": 1
       }
     ],

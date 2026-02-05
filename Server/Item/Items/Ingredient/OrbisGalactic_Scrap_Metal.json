@@ -3,7 +3,7 @@
     "Name": "Scrap Metal"
   },
   "Categories": [
-    "Items.Ingredients"
+    "OrbisGalactic.Misc"
   ],
   "Quality": "Common",
   "ItemLevel": 10,

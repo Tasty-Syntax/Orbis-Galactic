@@ -2,8 +2,8 @@
   "TranslationProperties": {
     "Name": "Imperial White Panel"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White.png",
-  "Set": "Rock_Marble",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Smooth.png",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {
@@ -29,8 +29,9 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White.png",
-        "Weight": 1
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Smooth.png",
+        "Weight": 1,
+        "Up": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Smooth.png"
       }
     ],
     "ParticleColor": "#bbbbaf",

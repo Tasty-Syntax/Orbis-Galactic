@@ -1,12 +1,12 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Lumberjack_Bed.name"
+    "Name": "Jawa Bed (Stackable)"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Furniture.Beds"
+    "OrbisGalactic.Decorative Blocks"
   ],
-  "Set": "Furniture_Lumberjack",
+  "Set": "Jawa",
   "Recipe": {
     "Input": [
       {
@@ -36,17 +36,17 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Furniture_Lumberjack_Bed.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Jawa_Bed.png",
   "IconProperties": {
+    "Scale": 0.295,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
-    "Scale": 0.295,
     "Translation": [
-      7.3,
-      -2.3
+      -29,
+      -15
     ]
   },
   "BlockType": {
@@ -116,5 +116,6 @@
   "Scale": 0.6,
   "ItemSoundSetId": "ISS_Blocks_Wood",
   "MaxStack": 1,
-  "ItemLevel": 4
+  "ItemLevel": 4,
+  "Quality": "Developer"
 }

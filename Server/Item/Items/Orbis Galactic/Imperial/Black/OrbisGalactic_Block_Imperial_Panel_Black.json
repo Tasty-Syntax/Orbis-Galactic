@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "Imperial Black Panel"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Black.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Black_Smooth.png",
   "Set": "Imperial",
   "Recipe": {
     "Input": [
@@ -29,7 +29,7 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black.png",
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black_Smooth.png",
         "Weight": 1
       }
     ],

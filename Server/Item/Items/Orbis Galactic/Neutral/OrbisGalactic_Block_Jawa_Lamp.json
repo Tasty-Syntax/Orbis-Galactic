@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Lamp 1"
+    "Name": "Jawa Lamp"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Blocks.Deco"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "Recipe": {
     "Input": [
@@ -127,5 +127,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
-  "Parent": "OrbisGalactic_Block_Imperial_Light_Template"
+  "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
+  "Set": "Jawa"
 }
