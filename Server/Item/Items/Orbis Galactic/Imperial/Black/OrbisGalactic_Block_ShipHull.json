@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Black Panel"
+    "Name": "Ship Hull"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Black.png",
-  "Set": "Rock_Marble",
+  "Set": "Ship",
   "Recipe": {
     "Input": [
       {
@@ -70,7 +70,8 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ],
-  "ItemLevel": 0
+  "ItemLevel": 0,
+  "Quality": "Developer"
 }

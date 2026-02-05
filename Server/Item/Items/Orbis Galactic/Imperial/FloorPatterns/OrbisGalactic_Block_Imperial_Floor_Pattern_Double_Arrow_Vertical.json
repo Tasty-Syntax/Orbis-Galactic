@@ -3,7 +3,7 @@
     "Name": "Imperial Floor Pattern Double Arrow Vertical"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Floor_Pattern_Double_Arrow_Vertical.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {

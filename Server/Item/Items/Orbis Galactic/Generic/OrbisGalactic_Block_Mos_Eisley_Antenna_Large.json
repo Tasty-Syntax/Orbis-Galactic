@@ -75,7 +75,9 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
-  "Scale": 0.25
+  "Scale": 0.25,
+  "Set": "Mos_Eisley",
+  "PlayerAnimationsId": "Block"
 }

@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "Small Mos Eisley Antenna"
+    "Name": "Singular Mos Eisley Antenna"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Mos_Eisley_Antenna_Small.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Mos_Eisley_Antenna_Singular.png",
   "Recipe": {
     "Input": [
       {
@@ -63,19 +63,21 @@
   },
   "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
   "IconProperties": {
-    "Scale": 0.1,
+    "Scale": 0.2,
     "Rotation": [
-      22.5,
+      24,
       45,
       22.5
     ],
     "Translation": [
-      -2,
-      -62
+      1,
+      -78
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
-  "Scale": 0.5
+  "Scale": 0.5,
+  "Set": "Mos_Eisley",
+  "PlayerAnimationsId": "Block"
 }

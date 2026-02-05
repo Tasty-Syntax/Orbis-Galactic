@@ -39,9 +39,13 @@
     ]
   },
   "TranslationProperties": {
-    "Name": "Spaceship Hull Plating"
+    "Name": "Jawa Crawler Hull Half"
   },
   "PlayerAnimationsId": "Block",
   "UsePlayerAnimations": true,
-  "Parent": "Rock_Stone_Brick_Half"
+  "Parent": "Rock_Stone_Brick_Half",
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ],
+  "Set": "Jawa"
 }

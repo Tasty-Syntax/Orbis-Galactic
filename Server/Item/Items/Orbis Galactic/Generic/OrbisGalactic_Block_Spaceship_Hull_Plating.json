@@ -33,5 +33,8 @@
     "Name": "Spaceship Hull Plating"
   },
   "PlayerAnimationsId": "Block",
-  "UsePlayerAnimations": true
+  "UsePlayerAnimations": true,
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ]
 }
