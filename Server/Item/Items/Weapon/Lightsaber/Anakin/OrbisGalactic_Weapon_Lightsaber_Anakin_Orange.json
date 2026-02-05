@@ -12,9 +12,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -37,19 +35,12 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Anakin_Orange.png",
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      333,
-      224,
-      40
-    ],
-    "Translation": [
-      -46,
-      -44
-    ]
+    "Rotation": [333, 224, 40],
+    "Translation": [-46, -44]
   },
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Quality": "Epic",
       "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
       "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Orange.png",

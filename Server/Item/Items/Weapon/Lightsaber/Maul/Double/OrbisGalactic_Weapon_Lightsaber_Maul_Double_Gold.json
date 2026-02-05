@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Double"
-        ],
+        "Categories": ["Lightsabers_Double"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 2
       }
@@ -36,21 +34,14 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Gold.png",
   "IconProperties": {
     "Scale": 0.1,
-    "Rotation": [
-      45,
-      90,
-      0
-    ],
-    "Translation": [
-      -19.2,
-      -21
-    ]
+    "Rotation": [45, 90, 0],
+    "Translation": [-19.2, -21]
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Quality": "Epic",
       "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
       "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Gold.png",

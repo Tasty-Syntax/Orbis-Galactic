@@ -39,9 +39,9 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Quality": "Epic",
       "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
       "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",

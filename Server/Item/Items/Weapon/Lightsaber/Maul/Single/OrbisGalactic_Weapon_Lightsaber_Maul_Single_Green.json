@@ -52,9 +52,9 @@
       "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Green"]
     }
   },
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
       "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
       "Light": {

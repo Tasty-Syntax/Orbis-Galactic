@@ -13,9 +13,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -38,41 +36,26 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Gold.png",
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      333,
-      224,
-      40
-    ],
-    "Translation": [
-      -46,
-      -44
-    ]
+    "Rotation": [333, 224, 40],
+    "Translation": [-46, -44]
   },
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Default"]
     },
     "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Default"]
     },
     "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Default"]
     },
     "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Default"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Default"]
     }
   },
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Quality": "Epic",
       "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
       "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Gold.png",

@@ -53,9 +53,9 @@
       "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Blue"]
     }
   },
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Quality": "Epic",
       "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
       "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Blue.png",

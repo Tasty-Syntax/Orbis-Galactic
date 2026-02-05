@@ -204,6 +204,7 @@
   "Animation": "Resources/Animations/Darksaber_Off.blockyanim",
   "State": {
     "On": {
+      "Variant": true,
       "Quality": "Legendary",
       "Model": "Resources/WeaponModels/Darksaber.blockymodel",
       "Texture": "Resources/WeaponTextures/Darksaber.png",

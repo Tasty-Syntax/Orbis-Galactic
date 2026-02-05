@@ -38,9 +38,9 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Orange.png",
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
       "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Orange.png",
       "Light": {

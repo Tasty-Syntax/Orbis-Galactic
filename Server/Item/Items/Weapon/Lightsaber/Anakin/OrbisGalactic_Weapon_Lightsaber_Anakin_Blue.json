@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -36,42 +34,27 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Blue.png",
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      333,
-      224,
-      40
-    ],
-    "Translation": [
-      -46,
-      -44
-    ]
+    "Rotation": [333, 224, 40],
+    "Translation": [-46, -44]
   },
   "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Blue"]
     },
     "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Blue"]
     },
     "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"]
     },
     "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Blue"]
     }
   },
-  "Variant": true,
   "State": {
     "On": {
+      "Variant": true,
       "Quality": "Epic",
       "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
       "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
