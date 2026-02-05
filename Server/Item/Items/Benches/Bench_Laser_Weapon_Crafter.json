@@ -80,11 +80,6 @@
           "Id": "Lightsabers_Double",
           "Name": "Lightsabers (Double)",
           "Icon": "Icons/CraftingCategories/Double_Saber_Crafting_Icon.png"
-        },
-        {
-          "Id": "Lightsabers_Split",
-          "Name": "Lightsabers (Separated)",
-          "Icon": "Icons/CraftingCategories/Double_Sabers_Separated_Crafting_Icon.png"
         }
       ],
       "Id": "Bench_Laser_Weapon_Crafter",
