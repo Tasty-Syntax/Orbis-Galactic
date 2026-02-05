@@ -3,16 +3,6 @@
   "Order": 4,
   "Children": [
     {
-      "Id": "Blocks",
-      "Name": "server.ui.itemcategory.orbisgalactic.blocks",
-      "Icon": "Icons/ItemCategories/Blocks.png"
-    },
-    {
-      "Id": "Decorative Blocks",
-      "Name": "server.ui.itemcategory.orbisgalactic.deco",
-      "Icon": "Icons/ItemCategories/Build-Lights.png"
-    },
-    {
       "Id": "Sabers",
       "Name": "server.ui.itemcategory.orbisgalactic.sabers",
       "Icon": "Icons/ItemCategories/Items-Weapons.png"
@@ -31,6 +21,16 @@
       "Id": "Clothes",
       "Name": "server.ui.itemcategory.orbisgalactic.clothes",
       "Icon": "Icons/ItemCategories/Items-Clothes.png"
+    },
+    {
+      "Id": "Blocks",
+      "Name": "server.ui.itemcategory.orbisgalactic.blocks",
+      "Icon": "Icons/ItemCategories/Blocks.png"
+    },
+    {
+      "Id": "Decorative Blocks",
+      "Name": "server.ui.itemcategory.orbisgalactic.deco",
+      "Icon": "Icons/ItemCategories/Build-Lights.png"
     },
     {
       "Id": "Misc",
