@@ -1,7 +1,7 @@
 {
   "Groups": {
     "Ignore": [
-      "Hostile",
+      "Aggressive",
       "Passive"
     ]
   }

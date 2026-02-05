@@ -3,8 +3,8 @@
   "Effects": {
     "ItemAnimationId": "PounceStab",
     "CameraEffect": "Daggers_Land",
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack",
-    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack_Default_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Charged_Attack_Default_Local"
   },
   "RunTime": 0.033,
   "Next": {

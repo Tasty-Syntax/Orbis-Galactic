@@ -1,7 +1,9 @@
 {
   "Groups": {
     "Hostile": [
-      "Any"
+      "Passive",
+      "Aggressive",
+      "Neutral"
     ]
   }
 }

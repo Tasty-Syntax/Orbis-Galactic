@@ -10,6 +10,10 @@
       "Value": 0.1,
       "Description": "0 = cannot move"
     },
+    "DropList": {
+      "Value": "Empty",
+      "Description": "Drop Items"
+    },
     "MaxHealth": {
       "Value": 100,
       "Description": "Max health for the NPC"
@@ -22,12 +26,11 @@
   "Appearance": {
     "Compute": "Appearance"
   },
-  "DropList": {
-    "Value": "Empty",
-    "Description": "Drop Items"
-  },
   "MaxHealth": {
     "Compute": "MaxHealth"
+  },
+  "DropList": {
+    "Compute": "DropList"
   },
   "NameTranslationKey": {
     "Compute": "NameTranslationKey"
