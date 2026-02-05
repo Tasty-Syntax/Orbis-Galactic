@@ -1,0 +1,545 @@
+{
+  "Type": "Abstract",
+  "StartState": "Idle",
+  "Parameters": {
+    "Appearance": {
+      "Value": "Stormtrooper_Basic_Model",
+      "Description": "Model to be used"
+    },
+    "WanderRadius": {
+      "Value": 15,
+      "Description": "General wander radius"
+    },
+    "ViewRange": {
+      "Value": 15,
+      "Description": "View range"
+    },
+    "ViewSector": {
+      "Value": 180,
+      "Description": "View sector"
+    },
+    "HearingRange": {
+      "Value": 10,
+      "Description": "Hearing range"
+    },
+    "AlertedRange": {
+      "Value": 30,
+      "Description": "A range within which the player can be seen/sensed when the NPC is alerted to their presence"
+    },
+    "WatchRange": {
+      "Value": 3,
+      "Description": "The range at which Kweebecs will look at nearby (non-hostile) targets"
+    },
+    "DropList": {
+      "Value": "Drop_Kweebec",
+      "Description": "Drop Items"
+    },
+    "MaxSpeed": {
+      "Value": 5,
+      "Description": "Maximum walking speed"
+    },
+    "HotbarItems": {
+      "Value": "OrbisGalactic_Weapon_Blaster_DC15A",
+      "Description": "This NPCs attitude group"
+    },
+    "Weapons": {
+      "Value": ["OrbisGalactic_Weapon_Blaster_DC15A"],
+      "TypeHint": "String",
+      "Description": "NPC Weapons"
+    },
+    "AttackSequence": {
+      "Value": "Component_Instruction_Attack_Sequence_Kweebec_Sapling_Razorleaf",
+      "Description": "The attack sequence to use in combat"
+    },
+    "AttackDistance": {
+      "Value": 3.25,
+      "Description": "The distance at which an NPC will execute attacks"
+    },
+    "MotionComponent": {
+      "Value": "Component_Instruction_Intelligent_Idle_Motion_Wander",
+      "Description": "The component to use for motion"
+    },
+    "CombatRelativeTurnSpeed": {
+      "Value": 1.5,
+      "Description": "Modifier that decides turn speed difference in combat"
+    },
+    "MaxHealth": {
+      "Value": 100,
+      "Description": "Max health for the NPC"
+    },
+    "IsMemory": {
+      "Value": false,
+      "Description": "Defines if the NPC is a memory"
+    },
+    "MemoriesCategory": {
+      "Value": "Other",
+      "Description": "Defines the category of the memory"
+    },
+    "MemoriesNameOverride": {
+      "Value": "",
+      "Description": "Overrides the memory name if set"
+    },
+    "NameTranslationKey": {
+      "Value": "Basic Stormtrooper",
+      "Description": "Translation key for NPC name display"
+    }
+  },
+  "IsMemory": { "Compute": "IsMemory" },
+  "MemoriesCategory": { "Compute": "MemoriesCategory" },
+  "MemoriesNameOverride": { "Compute": "MemoriesNameOverride" },
+  "Appearance": { "Compute": "Appearance" },
+  "DropList": { "Compute": "DropList" },
+  "DisableDamageGroups": ["Self"],
+  "HotbarItems": { "Compute": "Weapons" },
+  "DefaultNPCAttitude": "Ignore",
+  "DefaultPlayerAttitude": "Neutral",
+  "KnockbackScale": 0.5,
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": { "Compute": "MaxSpeed" },
+      "Gravity": 10,
+      "RunThreshold": 0.3,
+      "MaxFallSpeed": 15,
+      "MaxRotationSpeed": 360,
+      "Acceleration": 10
+    }
+  ],
+  "MaxHealth": { "Compute": "MaxHealth" },
+  "CombatConfig": {
+    "EntityEffect": "Immunity_Environmental"
+  },
+  "Instructions": [
+    {
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "Any",
+            "Once": true
+          },
+          "Actions": [
+            {
+              "Type": "TimerStart",
+              "Name": "WatchTimer",
+              "StartValueRange": [0.1, 0.1],
+              "RestartValueRange": [10, 30]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Idle"
+          },
+          "Instructions": [
+            {
+              "Reference": "Component_Instruction_Clear_Status_Animation"
+            },
+            {
+              "Sensor": {
+                "Type": "Or",
+                "Sensors": [
+                  {
+                    "Type": "Beacon",
+                    "Message": "Kweebec_All_Danger",
+                    "TargetSlot": "LockedTarget"
+                  },
+                  {
+                    "Type": "EntityEvent",
+                    "Range": 30,
+                    "EventType": "Damage",
+                    "NPCGroup": "Kweebec_Pets",
+                    "SearchType": "PlayerFirst",
+                    "TargetSlot": "LockedTarget"
+                  }
+                ]
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Attack"
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Beacon",
+                "Message": "Kweebec_All_Axe",
+                "TargetSlot": "LockedTarget"
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted.Converge"
+                }
+              ]
+            },
+            {
+              "Reference": "Component_Instruction_Damage_Check",
+              "Modify": {
+                "_ExportStates": ["Attack", "Search"],
+                "AlertedRange": { "Compute": "AlertedRange" }
+              }
+            },
+            {
+              "Sensor": {
+                "Type": "Or",
+                "Sensors": [
+                  {
+                    "Reference": "Component_Sensor_Sight_By_Attitude",
+                    "Modify": {
+                      "ViewRange": { "Compute": "AlertedRange" },
+                      "ViewSector": { "Compute": "ViewSector" },
+                      "Attitudes": ["Hostile"]
+                    }
+                  },
+                  {
+                    "Reference": "Component_Sensor_Sound_By_Attitude",
+                    "Modify": {
+                      "HearingRange": { "Compute": "HearingRange" },
+                      "Attitudes": ["Hostile"]
+                    }
+                  },
+                  {
+                    "Type": "Player",
+                    "Range": { "Compute": "ViewRange" },
+                    "LockOnTarget": true,
+                    "Filters": [
+                      {
+                        "Type": "LineOfSight"
+                      },
+                      {
+                        "Type": "ViewSector",
+                        "ViewSector": { "Compute": "ViewSector" }
+                      },
+                      {
+                        "Type": "ItemInHand",
+                        "Items": ["*_Axe*", "*_Hatchet*"]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted"
+                }
+              ]
+            },
+            {
+              "Continue": true,
+              "Sensor": {
+                "Type": "And",
+                "Sensors": [
+                  {
+                    "Reference": "Component_Sensor_Sight_By_Attitude",
+                    "Modify": {
+                      "ViewRange": { "Compute": "WatchRange" },
+                      "ViewSector": { "Compute": "ViewSector * 0.8" },
+                      "Attitudes": ["Neutral"],
+                      "GetNPCs": true
+                    }
+                  },
+                  {
+                    "Type": "Timer",
+                    "Name": "WatchTimer",
+                    "State": "Stopped"
+                  }
+                ]
+              },
+              "HeadMotion": {
+                "Type": "Watch"
+              },
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [3, 6]
+                },
+                {
+                  "Type": "TimerRestart",
+                  "Name": "WatchTimer"
+                }
+              ]
+            },
+            {
+              "Type": "Random",
+              "Name": "Kweebec_Idle_Random_Day",
+              "ResetOnStateChange": false,
+              "Instructions": [
+                {
+                  "Weight": 50,
+                  "Instructions": [
+                    {
+                      "Sensor": {
+                        "Type": "Leash",
+                        "Range": 20
+                      },
+                      "BodyMotion": {
+                        "Type": "Seek",
+                        "RelativeSpeed": 0.45,
+                        "StopDistance": 2,
+                        "SlowDownDistance": 3
+                      }
+                    },
+                    {
+                      "Continue": true,
+                      "ActionsAtomic": true,
+                      "Actions": [
+                        {
+                          "Type": "Timeout",
+                          "Delay": [15, 20]
+                        },
+                        {
+                          "Type": "ResetInstructions",
+                          "Instructions": ["Kweebec_Idle_Random_Day"]
+                        }
+                      ]
+                    },
+                    {
+                      "Reference": { "Compute": "MotionComponent" },
+                      "Interfaces": [
+                        "Hytale.Instruction.Intelligent.Idle.Motion"
+                      ],
+                      "Nullable": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Alerted"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Animations",
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "PlayAnimation",
+                  "Slot": "Status",
+                  "Animation": "Alerted"
+                },
+                {
+                  "Type": "SpawnParticles",
+                  "Offset": [0, 1.2, 0],
+                  "ParticleSystem": "Alerted"
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Or",
+                "Sensors": [
+                  {
+                    "Type": "Beacon",
+                    "Message": "Kweebec_All_Danger",
+                    "TargetSlot": "LockedTarget"
+                  },
+                  {
+                    "Type": "EntityEvent",
+                    "Range": 30,
+                    "EventType": "Damage",
+                    "NPCGroup": "Kweebec_Pets",
+                    "SearchType": "PlayerFirst",
+                    "TargetSlot": "LockedTarget"
+                  }
+                ]
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Attack"
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Beacon",
+                "Message": "Kweebec_All_Axe",
+                "TargetSlot": "LockedTarget"
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Alerted.Converge"
+                }
+              ]
+            },
+            {
+              "Reference": "Component_Instruction_Damage_Check",
+              "Modify": {
+                "_ExportStates": ["Attack", "Search"],
+                "AlertedRange": { "Compute": "AlertedRange" }
+              }
+            },
+            {
+              "Sensor": {
+                "Type": "And",
+                "Sensors": [
+                  {
+                    "Type": "Target",
+                    "Range": { "Compute": "AlertedRange" }
+                  },
+                  {
+                    "Type": "Target",
+                    "Filters": [
+                      {
+                        "Type": "Attitude",
+                        "Attitudes": ["Hostile"]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "ActionsAtomic": true,
+              "Actions": [
+                {
+                  "Type": "Timeout",
+                  "Delay": [1, 2]
+                },
+                {
+                  "Type": "State",
+                  "State": "Attack"
+                }
+              ],
+              "HeadMotion": {
+                "Type": "Watch"
+              }
+            },
+            {
+              "Sensor": {
+                "Type": "State",
+                "State": ".Converge"
+              },
+              "Instructions": [
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": 7
+                  },
+                  "Actions": [
+                    {
+                      "Type": "State",
+                      "State": ".Default"
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": { "Compute": "AlertedRange" }
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "SlowDownDistance": 8,
+                    "StopDistance": 6
+                  }
+                }
+              ]
+            },
+            {
+              "Sensor": {
+                "Type": "Target",
+                "Range": { "Compute": "AlertedRange" }
+              },
+              "HeadMotion": {
+                "Type": "Watch"
+              }
+            },
+            {
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Idle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Search"
+          },
+          "Instructions": [
+            {
+              "Reference": "Component_Kweebec_Instruction_Search",
+              "Modify": {
+                "_ExportStates": ["Alerted", "Attack", "Search", "Idle"],
+                "ViewRange": { "Compute": "ViewRange" },
+                "ViewSector": { "Compute": "ViewSector" },
+                "HearingRange": { "Compute": "HearingRange" },
+                "AlertedRange": { "Compute": "AlertedRange" }
+              }
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Attack"
+          },
+          "Instructions": [
+            {
+              "Reference": "Component_Instruction_Clear_Status_Animation"
+            },
+            {
+              "Continue": true,
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "Actions": [
+                {
+                  "Type": "Beacon",
+                  "Message": "Kweebec_All_Danger",
+                  "Range": 30,
+                  "TargetGroups": ["Kweebec"],
+                  "SendTargetSlot": "LockedTarget"
+                }
+              ]
+            },
+            {
+              "Reference": "Component_Instruction_Target_Adjusted_Attack_Melee",
+              "Modify": {
+                "TargetSwitchTimer": [5, 5],
+                "AttackSequence": { "Compute": "AttackSequence" },
+                "AttackDistance": { "Compute": "AttackDistance" },
+                "TargetRange": 5,
+                "CombatRelativeTurnSpeed": {
+                  "Compute": "CombatRelativeTurnSpeed"
+                }
+              }
+            },
+            {
+              "Reference": "Component_Instruction_Simple_Soft_Leash",
+              "Modify": {
+                "_ExportStates": ["Idle"]
+              }
+            },
+            {
+              "Reference": "Component_Instruction_Intelligent_Chase",
+              "Modify": {
+                "_ExportStates": ["Search", "Idle", "Search"],
+                "ViewRange": { "Compute": "AlertedRange" },
+                "HearingRange": { "Compute": "HearingRange" },
+                "RelativeSpeed": 0.8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "NameTranslationKey": { "Compute": "NameTranslationKey" }
+}

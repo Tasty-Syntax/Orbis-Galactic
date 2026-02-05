@@ -1,48 +1,32 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Temple",
+  "Reference": "StormtrooperBase",
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "Basic Stormtrooper (Sitting)",
+      "Value": "Basic Stormtrooper",
       "Description": "Translation key for NPC name display"
     }
   },
   "Modify": {
     "Appearance": "Stormtrooper_Basic_Model",
-    "HotbarItems": [
-      "OrbisGalactic_Weapon_Blaster_DC15A"
-    ],
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }
   },
   "MaxHealth": 150,
-  "Weapons": [
-    "OrbisGalactic_Weapon_Blaster_DC15A"
-  ],
+  "Weapons": ["OrbisGalactic_Weapon_Blaster_DC15A"],
   "Attack": "ROOT_Interaction_Stormtrooper_Shoot",
   "CombatBackOffAfterAttack": false,
   "AttackDistance": 20,
   "CombatFleeIfTooCloseDistance": 4,
-  "DesiredAttackDistanceRange": [
-    15,
-    19.5
-  ],
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
-  },
+  "DesiredAttackDistanceRange": [15, 19.5],
   "StartState": "Idle",
   "StateTransitions": [
     {
       "States": [
         {
-          "From": [
-            "Idle"
-          ],
-          "To": [
-            "Combat"
-          ]
+          "From": ["Idle"],
+          "To": ["Combat"]
         }
       ],
       "Actions": [
@@ -53,22 +37,15 @@
         },
         {
           "Type": "Timeout",
-          "Delay": [
-            0.3,
-            0.3
-          ]
+          "Delay": [0.3, 0.3]
         }
       ]
     },
     {
       "States": [
         {
-          "From": [
-            "Combat"
-          ],
-          "To": [
-            "Idle"
-          ]
+          "From": ["Combat"],
+          "To": ["Idle"]
         }
       ],
       "Actions": [
@@ -79,10 +56,7 @@
         },
         {
           "Type": "Timeout",
-          "Delay": [
-            0.3,
-            0.3
-          ]
+          "Delay": [0.3, 0.3]
         }
       ]
     }
