@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Floor Pattern Arrow Down"
+    "Name": "Imperial Floor Pattern Arrow"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Floor_Pattern_Arrow_Down.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {

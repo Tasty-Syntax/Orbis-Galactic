@@ -4,7 +4,7 @@
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Blocks.Deco"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "Recipe": {
     "Input": [
@@ -128,5 +128,6 @@
   "ItemSoundSetId": "ISS_Items_Metal",
   "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "Model": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+  "Model": "Resources/BlockModels/Cantina_Lamp.blockymodel",
+  "Set": "Cantina"
 }

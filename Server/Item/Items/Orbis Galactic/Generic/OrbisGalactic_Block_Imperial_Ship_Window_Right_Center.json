@@ -1,9 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Black Panel"
+    "Name": "Imperial Ship Window Center Right"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Right_Center.png",
-  "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
       {
@@ -77,6 +76,8 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
-  ]
+    "OrbisGalactic.Blocks"
+  ],
+  "Quality": "Developer",
+  "Set": "Imperial"
 }

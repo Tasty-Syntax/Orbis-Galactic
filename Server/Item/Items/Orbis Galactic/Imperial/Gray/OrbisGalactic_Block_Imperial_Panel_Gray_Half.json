@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Gray Panel"
+    "Name": "Imperial Gray Panel Half"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Gray_Half.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {
@@ -83,6 +83,6 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ]
 }

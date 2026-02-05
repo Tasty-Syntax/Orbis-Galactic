@@ -8,6 +8,11 @@
       "Icon": "Icons/ItemCategories/Blocks.png"
     },
     {
+      "Id": "Decorative Blocks",
+      "Name": "server.ui.itemcategory.orbisgalactic.deco",
+      "Icon": "Icons/ItemCategories/Build-Lights.png"
+    },
+    {
       "Id": "Sabers",
       "Name": "server.ui.itemcategory.orbisgalactic.sabers",
       "Icon": "Icons/ItemCategories/Items-Weapons.png"

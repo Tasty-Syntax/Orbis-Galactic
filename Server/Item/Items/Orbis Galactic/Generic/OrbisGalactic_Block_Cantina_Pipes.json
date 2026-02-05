@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "Cantina Pipes"
   },
-  "Set": "Rock_Marble",
+  "Set": "Cantina",
   "Recipe": {
     "Input": [
       {
@@ -75,7 +75,8 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Pipes.png"
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Pipes.png",
+  "ItemSoundSetId": "ISS_Items_Metal"
 }

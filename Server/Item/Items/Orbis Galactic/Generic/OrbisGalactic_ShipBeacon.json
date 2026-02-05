@@ -7,7 +7,6 @@
   "Categories": [
     "Blocks.Structural"
   ],
-  "Set": "Furniture_Temple_Light",
   "IconProperties": {
     "Scale": 0.2,
     "Rotation": [
@@ -26,7 +25,7 @@
     "CustomModel": "Resources/BlockModels/Ship_Call_Beacon.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Decorative_Sets/Temple_Dark/Statue_Texture.png",
+        "Texture": "Resources/BlockTextures/Ship_Call_Beacon_Texture.png",
         "Weight": 1
       }
     ],

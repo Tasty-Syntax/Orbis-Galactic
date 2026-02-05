@@ -30,8 +30,12 @@
     ]
   },
   "TranslationProperties": {
-    "Name": "Spaceship Hull Plating"
+    "Name": "Jawa Crawler Hull"
   },
   "PlayerAnimationsId": "Block",
-  "UsePlayerAnimations": true
+  "UsePlayerAnimations": true,
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ],
+  "Set": "Jawa"
 }

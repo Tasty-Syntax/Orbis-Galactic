@@ -1,9 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "Cantina Window"
+    "Name": "Cantina Window Cover"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Window.png",
-  "Set": "Rock_Marble",
   "Recipe": {
     "Input": [
       {
@@ -78,6 +77,8 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
-  ]
+    "OrbisGalactic.Blocks"
+  ],
+  "Set": "Cantina",
+  "ItemSoundSetId": "ISS_Items_Ingots"
 }

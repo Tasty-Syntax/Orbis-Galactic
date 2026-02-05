@@ -63,7 +63,7 @@
   },
   "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
   "IconProperties": {
-    "Scale": 0.1,
+    "Scale": 0.2,
     "Rotation": [
       22.5,
       45,
@@ -71,11 +71,13 @@
     ],
     "Translation": [
       -2,
-      -62
+      -69
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
-  "Scale": 0.5
+  "Scale": 0.5,
+  "Set": "Mos_Eisley",
+  "PlayerAnimationsId": "Block"
 }

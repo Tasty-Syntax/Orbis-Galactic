@@ -3,7 +3,7 @@
     "Name": "Imperial Black Panel"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Black.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {

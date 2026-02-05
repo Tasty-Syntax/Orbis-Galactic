@@ -3,7 +3,7 @@
     "Name": "Imperial Light Gray Panel Brick Vertical"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Light_Gray_Brick_Vertical.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {
