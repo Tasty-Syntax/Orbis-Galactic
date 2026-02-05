@@ -134,3 +134,10 @@ ui.itemcategory.orbisgalactic.blasters=Blasters
 ui.itemcategory.orbisgalactic.armor=Armor
 ui.itemcategory.orbisgalactic.clothes=Clothes
 ui.itemcategory.orbisgalactic.misc=Miscellaneous
+
+# --- Spawners ---
+items.Egg_Spawner_Jawa.name=Jawa Spawn Egg
+items.Egg_Spawner_Rodian.name=Rodian Spawn Egg
+items.Egg_Spawner_Stormtrooper.name=Stormtrooper Spawn Egg
+items.Egg_Spawner_TuskenRaider.name=Tusken Raider Spawn Egg
+items.Egg_Spawner_Twilek.name=Twilek Spawn Egg
