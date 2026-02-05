@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Lamp 3 Connected"
+    "Name": "Imperial Lamp 3 Seamless Vertical"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -127,5 +127,6 @@
   "ItemSoundSetId": "ISS_Items_Metal",
   "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "MaxStack": 1
+  "MaxStack": 1,
+  "Set": "Imperial"
 }

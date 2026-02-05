@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Lamp 2"
+    "Name": "Imperial Lamp 2 Vertical"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Blocks.Deco"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "Recipe": {
     "Input": [
@@ -31,7 +31,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Lamp2_Vertical.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Lamp1_Vertical.png",
   "IconProperties": {
     "Scale": 0.5,
     "Rotation": [
@@ -76,7 +76,7 @@
         "On": {
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_2_Vertical.png"
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Vertical.png"
             }
           ],
           "InteractionHint": "server.interactionHints.turnon",
@@ -96,7 +96,7 @@
           "AmbientSoundEventId": null,
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_2_Vertical_Off.png"
+              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Vertical_Off.png"
             }
           ],
           "InteractionSoundEventId": "SFX_Lamp_Off"
@@ -107,7 +107,7 @@
     "CubeShadingMode": "Standard",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_2_Vertical_Off.png"
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Vertical_Off.png"
       }
     ],
     "CustomModelTexture": [
@@ -127,5 +127,6 @@
   "ItemSoundSetId": "ISS_Items_Metal",
   "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "MaxStack": 1
+  "MaxStack": 1,
+  "Set": "Imperial"
 }

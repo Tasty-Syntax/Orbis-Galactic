@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Lamp 3 Connected"
+    "Name": "Cantina Lamp"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Blocks.Deco"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "Recipe": {
     "Input": [
@@ -31,7 +31,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Lamp2.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Lamp_Wall.png",
   "IconProperties": {
     "Scale": 0.5,
     "Rotation": [
@@ -55,7 +55,7 @@
       }
     },
     "Material": "Solid",
-    "Opacity": "Transparent",
+    "Opacity": "Solid",
     "ParticleColor": "#575757",
     "Interactions": {
       "Use": {
@@ -76,14 +76,14 @@
         "On": {
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_3_On.png"
+              "All": "Resources/BlockTextures/Rock_Cantina_Light.png"
             }
           ],
           "InteractionHint": "server.interactionHints.turnon",
           "InteractionSoundEventId": "SFX_Lamp_On",
           "AmbientSoundEventId": "OrbisGalactic_Block_Imperial_Lamp_SFX",
           "Light": {
-            "Color": "#aaa"
+            "Color": "#ba3"
           },
           "Opacity": "Semitransparent",
           "CubeShadingMode": "Fullbright",
@@ -96,7 +96,7 @@
           "AmbientSoundEventId": null,
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_3_Off.png"
+              "All": "Resources/BlockTextures/Rock_Cantina_Light_Off.png"
             }
           ],
           "InteractionSoundEventId": "SFX_Lamp_Off"
@@ -107,7 +107,7 @@
     "CubeShadingMode": "Standard",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_3_Off.png"
+        "All": "Resources/BlockTextures/Rock_Cantina_Light_Off.png"
       }
     ],
     "CustomModelTexture": [
@@ -125,7 +125,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
-  "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
-  "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "MaxStack": 1
+  "Texture": "Resources/BlockTextures/Rock_Cantina_Light_Off.png",
+  "Parent": "OrbisGalactic_Block_Imperial_Light_Template"
 }
