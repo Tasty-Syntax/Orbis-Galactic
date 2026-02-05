@@ -6,5 +6,8 @@
     "Attack": [
       "Ranged"
     ]
+  },
+  "Cooldown": {
+    "SkipCooldownReset": false
   }
 }
