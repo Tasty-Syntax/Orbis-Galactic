@@ -42,7 +42,8 @@
               }
             ],
             "WorldSoundEventId": "SFX_Light_Melee_T2_Guard_Break",
-            "LocalSoundEventId": "SFX_Light_Melee_T2_Guard_Break"
+            "LocalSoundEventId": "SFX_Light_Melee_T2_Guard_Break",
+            "ClearAnimationOnFinish": false
           }
         }
       ]
@@ -65,27 +66,19 @@
     }
   },
   "DamageModifiers": {
-    "Projectile": -50
+    "Projectile": 0
   },
   "AngledWielding": {
     "Angle": 0,
     "AngleDistance": 90,
     "DamageModifiers": {
       "Physical": 0,
-      "Projectile": -50,
+      "Projectile": 0,
       "Poison": 0
     },
     "KnockbackModifiers": {
       "Physical": 0.25,
       "Projectile": 0.25
     }
-  },
-  "BlockedInteractions": {
-    "Interactions": [
-      {
-        "Type": "Simple",
-        "Next": "Interaction_Blaster_Launch_Bolt_DC15A"
-      }
-    ]
   }
 }

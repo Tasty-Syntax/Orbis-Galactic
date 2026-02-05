@@ -56,7 +56,8 @@
               ]
             }
           },
-          "IsDoor": false
+          "IsDoor": false,
+          "Parent": "Rock_Bedrock"
         }
       }
     },

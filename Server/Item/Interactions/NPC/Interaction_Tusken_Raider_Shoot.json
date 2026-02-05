@@ -1,6 +1,5 @@
 {
   "Type": "Simple",
-  "Next": "Interaction_Blaster_Launch_Bolt_CyclerRifle",
   "Tags": {
     "AimingReference": [],
     "Attack": [
@@ -12,5 +11,10 @@
     "ItemPlayerAnimationsId": "Blaster_Cycler_Rifle",
     "ItemAnimationId": "Shoot",
     "WorldSoundEventId": "SFX_Blaster_Shoot_Cycler_Rifle"
+  },
+  "Next": {
+    "Type": "OrbisGalactic_ShootBlaster",
+    "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_CyclerRifle",
+    "ImpactDamage": 20
   }
 }
