@@ -57,7 +57,11 @@
             }
           },
           "IsDoor": false,
-          "Parent": "Rock_Bedrock"
+          "Gathering": {
+            "Breaking": {
+              "Quality": 0
+            }
+          }
         }
       }
     },

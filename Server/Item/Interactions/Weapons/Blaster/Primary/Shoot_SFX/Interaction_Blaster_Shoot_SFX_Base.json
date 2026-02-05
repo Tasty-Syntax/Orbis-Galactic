@@ -11,6 +11,18 @@
           "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/DC15A/DC15A_Shoot.blockyanim",
           "BlendingDuration": 0.05
         }
+      },
+      "WiggleWeights": {
+        "Pitch": 2.5,
+        "PitchDeceleration": 0.1,
+        "Roll": 0.1,
+        "RollDeceleration": 0.1,
+        "X": 2.5,
+        "XDeceleration": 0.1,
+        "Y": 0.1,
+        "YDeceleration": 0.1,
+        "Z": 0.1,
+        "ZDeceleration": 0.1
       }
     },
     "ItemAnimationId": "Shoot"

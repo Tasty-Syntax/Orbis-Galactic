@@ -15,6 +15,6 @@
   "Next": {
     "Type": "OrbisGalactic_ShootBlaster",
     "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_CyclerRifle",
-    "ImpactDamage": 20
+    "ImpactDamage": 35
   }
 }
