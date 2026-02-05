@@ -72,5 +72,6 @@
   ],
   "ItemSoundSetId": "ISS_Items_Metal",
   "Set": "Imperial",
-  "PlayerAnimationsId": "Block"
+  "PlayerAnimationsId": "Block",
+  "Quality": "Template"
 }
