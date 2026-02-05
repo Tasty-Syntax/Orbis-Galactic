@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "Imperial White Panel"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Smooth.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White.png",
   "Set": "Imperial",
   "Recipe": {
     "Input": [

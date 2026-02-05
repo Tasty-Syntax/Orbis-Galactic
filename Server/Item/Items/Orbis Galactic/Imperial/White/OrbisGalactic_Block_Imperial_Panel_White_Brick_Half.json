@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial White Panel Half"
+    "Name": "Imperial White Brick Half"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Half.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_White_Brick_Half.png",
   "Set": "Imperial",
   "Recipe": {
     "Input": [
@@ -50,7 +50,7 @@
     "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Smooth.png"
+        "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_White_Brick_1.png"
       }
     ],
     "HitboxType": "Block_Half",
