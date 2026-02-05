@@ -11,7 +11,9 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Lightsabers_Single"],
+        "Categories": [
+          "Lightsabers_Single"
+        ],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -33,23 +35,38 @@
   },
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [318, 323, 335],
-    "Translation": [-82, -75]
+    "Rotation": [
+      318,
+      323,
+      335
+    ],
+    "Translation": [
+      -82,
+      -75
+    ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Red.png",
   "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
-      "Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Red"]
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Red"
+      ]
     },
     "Lightsaber_Swing_Right_Effect": {
-      "Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Red"]
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Red"
+      ]
     },
     "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Red"]
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Red"
+      ]
     },
     "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Red"]
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Red"
+      ]
     }
   },
   "Utility": {
@@ -97,6 +114,20 @@
           ]
         }
       }
+    }
+  },
+  "Interactions": {
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "RunRootInteraction",
+          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Red_Double",
+          "RunTime": 0
+        },
+        {
+          "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
     }
   }
 }

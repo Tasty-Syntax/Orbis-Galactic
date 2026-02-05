@@ -1,9 +1,9 @@
 {
   "Type": "Simple",
   "$Comment": "Length of Effect",
-  "RunTime": 0.566,
+  "RunTime": 0.283,
   "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip_Green_Local",
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip_Blue_Local",
     "WaitForAnimationToFinish": true
   }
 }
