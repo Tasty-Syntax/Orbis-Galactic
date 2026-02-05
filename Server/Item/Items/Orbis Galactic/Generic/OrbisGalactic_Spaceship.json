@@ -56,7 +56,12 @@
               ]
             }
           },
-          "IsDoor": false
+          "IsDoor": false,
+          "Gathering": {
+            "Breaking": {
+              "Quality": 0
+            }
+          }
         }
       }
     },

@@ -5,13 +5,28 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_DC15A.png",
   "IconProperties": {
     "Scale": 0.4,
-    "Rotation": [336, 124, 25],
-    "Translation": [-16, -27]
+    "Rotation": [
+      336,
+      124,
+      25
+    ],
+    "Translation": [
+      -16,
+      -27
+    ]
   },
   "Scale": 0.8,
   "InteractionVars": {
     "Interaction_Blaster_Launch_Bolt": {
-      "Interactions": ["Interaction_Blaster_Launch_Bolt_DC15A"]
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_ShootBlaster",
+          "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_DC15A",
+          "ImpactDamage": 15,
+          "RunTime": 0,
+          "BulletSpread": 0.02
+        }
+      ]
     }
   },
   "TranslationProperties": {
@@ -19,5 +34,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_DC15A.description"
   },
   "Quality": "Technical",
-  "Categories": ["OrbisGalactic.Blasters"]
+  "Categories": [
+    "OrbisGalactic.Blasters"
+  ]
 }

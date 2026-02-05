@@ -15,21 +15,16 @@
     "BounceLimit": 0,
     "BounceCount": 0
   },
-  "LaunchForce": 50,
+  "LaunchForce": 100,
   "SpawnOffset": {
     "X": 0,
     "Y": 0,
     "Z": 0
   },
   "Interactions": {
-    "ProjectileHit": {
-      "Interactions": [
-        "Interaction_Blaster_Projectile_Impact"
-      ]
-    },
+    "ProjectileHit": {},
     "ProjectileMiss": {
       "Interactions": [
-        "Interaction_Blaster_Projectile_Impact",
         "Interaction_Blaster_Projectile_Despawn"
       ]
     }
