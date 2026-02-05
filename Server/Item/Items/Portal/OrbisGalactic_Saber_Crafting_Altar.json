@@ -1,11 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.VoidInvasion_Portal.name",
-    "Description": "server.items.VoidInvasion_Portal.description"
+    "Name": "Saber Forge"
   },
   "Icon": "Icons/ItemsGenerated/Portal_Return.png",
   "Categories": [
-    "Blocks.Portals"
+    "OrbisGalactic.Blocks"
   ],
   "BlockType": {
     "DrawType": "Model",
@@ -42,7 +41,7 @@
       "Portal"
     ]
   },
-  "Quality": "Technical",
+  "Quality": "Developer",
   "IconProperties": {
     "Scale": 0.35,
     "Rotation": [

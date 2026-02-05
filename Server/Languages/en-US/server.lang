@@ -23,6 +23,8 @@ items.Ore_Kyber_Shale.name=Kyber Crystal Ore - Shale
 items.Ore_Kyber_Volcanic.name=Kyber Crystal Ore - Volcanic
 items.Bench_Bench_Laser_Weapon_Crafter.name=Laser Weapon Bench
 items.Bench_Bench_Laser_Weapon_Crafter.description=A workstation to manufacture laser-based weaponry.
+items.Ship_Call_Beacon.name=Ship Call Beacon
+items.Ship_Call_Beacon.description=Place this to call your personal spaceship. IMPORTANT: A free space of 17x5x5 blocks in front of the beacon is required!
 
 # --- Darksaber ---
 items.OrbisGalactic_Weapon_Lightsaber_Darksaber.name=Darksaber
@@ -122,6 +124,8 @@ items.OrbisGalactic_Weapon_DC15A.description=The standard issue blaster rifle fo
 
 items.OrbisGalactic_Weapon_Cycler_Rifle.name=Cycler Rifle
 items.OrbisGalactic_Weapon_Cycler_Rifle.description=A long range high velocity blaster rifle often used by Tusken Raiders. [DEV HINT]: Projectiles fired out of render distance do not despawn quickly, if there are too many, reload your world. To be fixed...
+
+# --- Item Categories ---
 
 ui.itemcategory.orbisgalactic.blocks=Blocks
 ui.itemcategory.orbisgalactic.deco=Decoration

@@ -22,6 +22,10 @@
   "Appearance": {
     "Compute": "Appearance"
   },
+  "DropList": {
+    "Value": "Empty",
+    "Description": "Drop Items"
+  },
   "MaxHealth": {
     "Compute": "MaxHealth"
   },

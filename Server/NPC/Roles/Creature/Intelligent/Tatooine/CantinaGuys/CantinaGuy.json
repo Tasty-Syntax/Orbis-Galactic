@@ -4,10 +4,10 @@
   "Modify": {
     "Appearance": "CantinaGuy_Model",
     "NameTranslationKey": {
-      "Compute": "NameTranslationKey",
-      "DropList": "Drop_Cantina_Guy_Guitar"
+      "Compute": "NameTranslationKey"
     }
   },
+  "DropList": "Drop_Cantina_Guy_Guitar",
   "MaxHealth": 250,
   "_InteractionVars": {
     "Melee_Damage": {

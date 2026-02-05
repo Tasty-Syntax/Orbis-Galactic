@@ -1,21 +1,21 @@
 {
   "TranslationProperties": {
-    "Name": "Ship Beacon",
-    "Description": "Place this to call your personal spaceship. IMPORTANT: A free space of 17x5x5 blocks in front of the beacon is required!"
+    "Name": "server.items.Ship_Call_Beacon.name",
+    "Description": "server.items.Ship_Call_Beacon.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ],
   "IconProperties": {
     "Scale": 0.2,
     "Rotation": [
-      19,
-      101,
-      15
+      0,
+      39,
+      0
     ],
     "Translation": [
-      -27,
+      -3,
       -75
     ]
   },
@@ -73,7 +73,7 @@
     ]
   },
   "Scale": 0.6,
-  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "ItemSoundSetId": "ISS_Items_Metal",
   "MaxStack": 1,
   "Recipe": {
     "Input": [

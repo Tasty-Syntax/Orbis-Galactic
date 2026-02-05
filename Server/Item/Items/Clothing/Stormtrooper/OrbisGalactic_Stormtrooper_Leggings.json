@@ -5,17 +5,17 @@
   "Parent": "Armor_Adamantite_Legs",
   "Quality": "Rare",
   "ItemLevel": 35,
-  "Icon": "Icons/ItemsGenerated/Stormtrooper_Leggings.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Stormtrooper_Leggings.png",
   "IconProperties": {
-    "Scale": 0.415,
+    "Scale": 0.5,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      360,
+      232,
+      0
     ],
     "Translation": [
-      -1.2,
-      -22.2
+      -1,
+      -33
     ]
   },
   "Model": "Resources/ClothingModels/Stormtrooper/Legs.blockymodel",

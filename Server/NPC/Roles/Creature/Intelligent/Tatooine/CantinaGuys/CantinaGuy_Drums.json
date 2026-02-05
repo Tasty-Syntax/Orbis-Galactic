@@ -4,10 +4,10 @@
   "Modify": {
     "Appearance": "CantinaGuy_Drums_Model",
     "NameTranslationKey": {
-      "Compute": "NameTranslationKey",
-      "DropList": "Drop_Cantina_Guy_Drums"
+      "Compute": "NameTranslationKey"
     }
   },
+  "DropList": "Drop_Cantina_Guy_Drums",
   "AttitudeGroup": {
     "Value": "Humanoid_Friendly",
     "Description": "The attitude group this NPC belongs to."
