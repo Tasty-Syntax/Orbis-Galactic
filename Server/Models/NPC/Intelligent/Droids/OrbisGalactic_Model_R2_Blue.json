@@ -19,9 +19,10 @@
     "Spawn": {
       "Animations": [
         {
-          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Spawn.blockyanim",
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Spawn.blockyanim",
           "BlendingDuration": 0,
-          "Looping": false
+          "Looping": false,
+          "Speed": 1
         }
       ]
     },
@@ -29,7 +30,8 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Pickup.blockyanim",
-          "Looping": false
+          "Looping": false,
+          "Speed": 1.1
         }
       ]
     },

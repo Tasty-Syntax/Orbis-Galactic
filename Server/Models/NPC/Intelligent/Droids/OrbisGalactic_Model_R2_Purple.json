@@ -1,6 +1,6 @@
 {
   "Model": "NPC/Intelligent/Droids/R2_Droid.blockymodel",
-  "Texture": "NPC/Intelligent/Droids/R2_Texture_Blue.png",
+  "Texture": "NPC/Intelligent/Droids/R2_Texture_Purple.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -28,7 +28,7 @@
     "Despawn": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Pickup.blockyanim",
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Despawn.blockyanim",
           "Looping": false
         }
       ]
@@ -358,7 +358,7 @@
     "Death": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Pickup.blockyanim",
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Damage/Death.blockyanim",
           "Looping": false
         }
       ]
@@ -509,7 +509,7 @@
     "Interact": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Pickup.blockyanim",
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Interact.blockyanim",
           "Looping": false
         }
       ]

@@ -1,162 +1,154 @@
 {
-  "Type": "Variant",
-  "Reference": "Template_Kweebec_Sapling",
-  "Modify": {
-    "Appearance": "OrbisGalactic_Model_R2",
-    "DropList": "Drop_Jawa",
-    "MaxHealth": 74,
-    "IsMemory": true,
-    "NameTranslationKey": {
-      "Compute": "NameTranslationKey"
+  "StartState": "Idle",
+  "DefaultSubState": "Default",
+  "Type": "Generic",
+  "Appearance": "OrbisGalactic_Model_R2_Blue",
+  "Invulnerable": false,
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 15,
+      "Gravity": 10,
+      "MaxFallSpeed": 8,
+      "Acceleration": 10,
+      "HoverFreq": 0.2,
+      "MaxClimbHeight": 10
     }
-  },
+  ],
+  "MaxHealth": 50,
   "Instructions": [
     {
       "Instructions": [
         {
-          "$Comment": "Idle state - no player nearby",
+          "Sensor": {
+            "Type": "State",
+            "State": "Despawn"
+          },
+          "ActionsAtomic": true,
+          "Instructions": [
+            {
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "DropItem",
+                  "Item": "Egg_Spawner_R2",
+                  "Distance": [
+                    0,
+                    0
+                  ],
+                  "ThrowSpeed": 8,
+                  "Once": true
+                }
+              ]
+            },
+            {
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Despawn"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "Sensor": {
             "Type": "State",
             "State": "Idle"
           },
           "Instructions": [
             {
-              "$Comment": "Greet player when they approach (Alerted animation)",
-              "ActionsBlocking": true,
               "Sensor": {
-                "Type": "Player",
-                "Range": 8
+                "Type": "State",
+                "State": ".Default"
               },
-              "Actions": [
+              "Instructions": [
                 {
-                  "Type": "PlayAnimation",
-                  "Slot": "Status",
-                  "Animation": "Alerted"
-                },
-                {
-                  "Type": "State",
-                  "State": "Watching"
-                }
-              ]
-            },
-            {
-              "Sensor": {
-                "Type": "Any"
-              },
-              "BodyMotion": {
-                "Type": "Nothing"
-              }
-            }
-          ]
-        },
-        {
-          "$Comment": "Watching state - player is nearby, just watch them",
-          "Sensor": {
-            "Type": "State",
-            "State": "Watching"
-          },
-          "Instructions": [
-            {
-              "$Comment": "Watch nearby players with head",
-              "Continue": true,
-              "Sensor": {
-                "Type": "Player",
-                "Range": 12
-              },
-              "HeadMotion": {
-                "Type": "Watch"
-              }
-            },
-            {
-              "$Comment": "Clear animation after delay",
-              "Continue": true,
-              "Sensor": {
-                "Type": "Any"
-              },
-              "Actions": [
-                {
-                  "Type": "Timeout",
-                  "Delay": [
-                    2,
-                    2
-                  ],
-                  "Action": {
-                    "Type": "PlayAnimation",
-                    "Slot": "Status"
-                  }
-                }
-              ]
-            },
-            {
-              "$Comment": "Return to Idle when player leaves (clear animation first)",
-              "Sensor": {
-                "Type": "Not",
-                "Sensor": {
-                  "Type": "Player",
-                  "Range": 12
-                }
-              },
-              "Actions": [
-                {
-                  "Type": "PlayAnimation",
-                  "Slot": "Status"
-                },
-                {
-                  "Type": "State",
-                  "State": "Idle"
-                }
-              ]
-            },
-            {
-              "Sensor": {
-                "Type": "Any"
-              },
-              "BodyMotion": {
-                "Type": "Nothing"
-              }
-            }
-          ]
-        },
-        {
-          "$Comment": "Interaction state - look at player while shop is open",
-          "Sensor": {
-            "Type": "State",
-            "State": "$Interaction"
-          },
-          "Instructions": [
-            {
-              "Continue": true,
-              "Sensor": {
-                "Type": "Target",
-                "Range": 10
-              },
-              "HeadMotion": {
-                "Type": "Watch"
-              }
-            },
-            {
-              "$Comment": "Return to Watching after interaction ends",
-              "Sensor": {
-                "Type": "Any"
-              },
-              "Actions": [
-                {
-                  "Type": "Timeout",
-                  "Delay": [
-                    1,
-                    1
-                  ],
-                  "Action": {
-                    "Type": "Sequence",
-                    "Actions": [
-                      {
-                        "Type": "ReleaseTarget"
+                  "Sensor": {
+                    "Type": "Player",
+                    "Range": 10,
+                    "LockOnTarget": true
+                  },
+                  "Instructions": [
+                    {
+                      "$Comment": "Strafe when grouped up",
+                      "Sensor": {
+                        "Type": "Mob",
+                        "Range": 2,
+                        "ExcludeOwnType": false,
+                        "LockOnTarget": false,
+                        "Filters": [
+                          {
+                            "Type": "NPCGroup",
+                            "IncludeGroups": [
+                              "Self"
+                            ]
+                          },
+                          {
+                            "Type": "ViewSector",
+                            "ViewSector": 35
+                          }
+                        ]
                       },
-                      {
-                        "Type": "State",
-                        "State": "Watching"
+                      "BodyMotion": {
+                        "Type": "MaintainDistance",
+                        "DesiredDistanceRange": [
+                          2,
+                          3
+                        ],
+                        "StrafingDurationRange": [
+                          1,
+                          2
+                        ],
+                        "StrafingFrequencyRange": [
+                          1,
+                          1
+                        ],
+                        "MoveThreshold": 0.5,
+                        "RelativeForwardsSpeed": 0.75,
+                        "RelativeBackwardsSpeed": 0.25
                       }
-                    ]
+                    },
+                    {
+                      "Sensor": {
+                        "Type": "Target"
+                      },
+                      "BodyMotion": {
+                        "Type": "Seek",
+                        "SlowDownDistance": 5,
+                        "StopDistance": 3,
+                        "RelativeSpeed": 0.5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": 20
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "SlowDownDistance": 5,
+                    "StopDistance": 3,
+                    "RelativeSpeed": 1
+                  }
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target"
+                  },
+                  "BodyMotion": {
+                    "Type": "Teleport",
+                    "OffsetRange": [
+                      2,
+                      2
+                    ],
+                    "MaxYOffset": 2
                   }
                 }
               ]
@@ -166,14 +158,39 @@
       ]
     }
   ],
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
+  "InteractionInstruction": {
+    "Instructions": [
+      {
+        "Continue": true,
+        "Sensor": {
+          "Type": "Any"
+        },
+        "Actions": [
+          {
+            "Type": "SetInteractable",
+            "Interactable": true
+          }
+        ]
+      },
+      {
+        "Sensor": {
+          "Type": "HasInteracted"
+        },
+        "Instructions": [
+          {
+            "Actions": [
+              {
+                "Type": "LockOnInteractionTarget"
+              },
+              {
+                "Type": "State",
+                "State": "Despawn"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
-  "Parameters": {
-    "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
-      "Description": "Translation key for NPC name display"
-    }
-  }
+  "NameTranslationKey": "R2D2"
 }

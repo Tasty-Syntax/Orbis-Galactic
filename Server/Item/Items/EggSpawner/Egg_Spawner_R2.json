@@ -1,0 +1,45 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Egg_Spawner_R2D2.name"
+  },
+  "Quality": "Common",
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "SpawnNPC",
+          "EntityId": "OrbisGalactic_NPC_R2",
+          "SpawnOffset": {
+            "X": 0,
+            "Y": 0.5,
+            "Z": 0
+          }
+        }
+      ]
+    }
+  },
+  "Model": "Items/Consumables/R2D2Egg.blockymodel",
+  "Texture": "Items/Consumables/Egg_R2D2.png",
+  "Icon": "Icons/ItemsGenerated/Egg_Spawner_R2.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      216,
+      357
+    ],
+    "Translation": [
+      0,
+      -10
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ]
+}

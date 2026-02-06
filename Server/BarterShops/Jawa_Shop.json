@@ -4,27 +4,41 @@
     "Days": 1
   },
   "RestockHour": 6,
-  "TradeSlots": [
+  "Trades": [
     {
-      "Type": "Pool",
-      "SlotCount": 1,
-      "Trades": [
+      "Input": [
         {
-          "Output": {
-            "ItemId": "OrbisGalactic_Speeder_Bike",
-            "Quantity": 1
-          },
-          "Input": [
-            {
-              "ItemId": "OrbisGalactic_Scrap_Metal",
-              "Quantity": 50
-            }
-          ],
-          "Stock": [
-            1
-          ]
+          "Quantity": 100,
+          "ItemId": "OrbisGalactic_Scrap_Metal"
         }
-      ]
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Speeder_Bike"
+      },
+      "Stock": 2
+    },
+    {
+      "Output": {
+        "ItemId": "Egg_Spawner_R2"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Scrap_Metal",
+          "Quantity": 50
+        }
+      ],
+      "Stock": 2
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Scrap_Metal",
+          "Quantity": 20
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Silver"
+      }
     }
   ]
 }

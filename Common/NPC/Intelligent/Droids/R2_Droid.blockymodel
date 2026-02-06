@@ -367,7 +367,7 @@
         {
           "id": "8",
           "name": "Leg_Extendable_Center",
-          "position": {"x": 0, "y": -44.62091, "z": 4.9592},
+          "position": {"x": 0, "y": -6.62091, "z": -0.0408},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",

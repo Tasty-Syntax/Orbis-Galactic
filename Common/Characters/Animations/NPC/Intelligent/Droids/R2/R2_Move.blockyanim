@@ -92,12 +92,12 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": 0, "y": 4.82364, "z": -1.63192},
+          "delta": {"x": 0, "y": -32.63057, "z": 2.97049},
           "interpolationType": "linear"
         },
         {
           "time": 15,
-          "delta": {"x": 0, "y": 4.82364, "z": -1.63192},
+          "delta": {"x": 0, "y": -32.63057, "z": 2.97049},
           "interpolationType": "linear"
         }
       ],
