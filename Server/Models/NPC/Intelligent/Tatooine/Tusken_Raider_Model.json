@@ -1252,6 +1252,14 @@
           "Looping": true
         }
       ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Klops/Animations/Default/Alerted.blockyanim",
+          "Looping": false
+        }
+      ]
     }
   }
 }

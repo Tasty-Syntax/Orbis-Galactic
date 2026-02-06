@@ -30,7 +30,7 @@
               "Type": "Replace",
               "DefaultValue": {
                 "Interactions": [
-                  "Interaction_Blaster_Shoot_SFX"
+                  "Interaction_Blaster_Shoot_SFX_Base"
                 ]
               },
               "Var": "Interaction_Blaster_Shoot_SFX",

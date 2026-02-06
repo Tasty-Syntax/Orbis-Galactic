@@ -36,7 +36,7 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Interaction_Lightsaber_Stab_Charged_Damage"
+                      "Interaction_Lightsaber_Stab_Charged_Damage_Green"
                     ]
                   },
                   "Var": "Lightsaber_Stab_Charged_Damage"
@@ -57,7 +57,7 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Interaction_Lightsaber_Stab_Charged_Effect"
+                "Interaction_Lightsaber_Stab_Charged_Effect_Green"
               ]
             },
             "Var": "Lightsaber_Stab_Charged_Effect"

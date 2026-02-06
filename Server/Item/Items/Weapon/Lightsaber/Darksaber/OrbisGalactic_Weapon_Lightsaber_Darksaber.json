@@ -1,5 +1,7 @@
 {
-  "Categories": ["OrbisGalactic.Sabers"],
+  "Categories": [
+    "OrbisGalactic.Sabers"
+  ],
   "Model": "Resources/WeaponModels/Darksaber.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
@@ -21,7 +23,9 @@
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
     "Darksaber_Swing_Left_Effect": {
-      "Interactions": ["Interaction_Darksaber_Swing_Left_Effect"]
+      "Interactions": [
+        "Interaction_Darksaber_Swing_Left_Effect"
+      ]
     },
     "Darksaber_Swing_Left_Damage": {
       "Interactions": [
@@ -41,7 +45,9 @@
       ]
     },
     "Darksaber_Swing_Right_Effect": {
-      "Interactions": ["Interaction_Darksaber_Swing_Left_Effect"]
+      "Interactions": [
+        "Interaction_Darksaber_Swing_Right_Effect"
+      ]
     },
     "Darksaber_Swing_Right_Damage": {
       "Interactions": [
@@ -61,7 +67,9 @@
       ]
     },
     "Darksaber_Swing_Up_Left_Effect": {
-      "Interactions": ["Interaction_Darksaber_Swing_Left_Effect"]
+      "Interactions": [
+        "Interaction_Darksaber_Swing_Up_Left_Effect"
+      ]
     },
     "Darksaber_Swing_Up_Left_Damage": {
       "Interactions": [
@@ -151,15 +159,26 @@
   },
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [45, 90, 0],
-    "Translation": [-85, -88]
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -85,
+      -88
+    ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.52,
   "Tags": {
-    "Type": ["Weapon"],
-    "Family": ["Longsword"],
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Longsword"
+    ],
     "LightsaberItem": []
   },
   "UsePlayerAnimations": false,
@@ -179,7 +198,10 @@
   "ItemAppearanceConditions": {
     "SignatureEnergy": [
       {
-        "Condition": [0, 100],
+        "Condition": [
+          0,
+          100
+        ],
         "ConditionValueType": "Percent",
         "Particles": [
           {
@@ -234,7 +256,9 @@
             }
           ]
         },
-        "EntityStatsToClear": ["SignatureEnergy"]
+        "EntityStatsToClear": [
+          "SignatureEnergy"
+        ]
       },
       "Animation": "Resources/Animations/Saber_Animate.blockyanim",
       "Interactions": {

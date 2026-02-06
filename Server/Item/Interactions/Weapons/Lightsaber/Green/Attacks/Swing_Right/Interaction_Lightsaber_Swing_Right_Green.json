@@ -38,7 +38,7 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Interaction_Lightsaber_Swing_Right_Damage_Default"
+                      "Interaction_Lightsaber_Swing_Right_Damage_Green"
                     ]
                   },
                   "Var": "Lightsaber_Swing_Right_Damage"

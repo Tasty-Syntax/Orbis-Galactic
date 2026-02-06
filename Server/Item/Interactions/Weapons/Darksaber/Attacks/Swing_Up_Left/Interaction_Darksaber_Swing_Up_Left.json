@@ -38,10 +38,10 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Lightsaber_Swing_Up_Left_Damage"
+                      "Darksaber_Swing_Up_Left_Damage"
                     ]
                   },
-                  "Var": "Lightsaber_Swing_Up_Left_Damage"
+                  "Var": "Darksaber_Swing_Up_Left_Damage"
                 }
               ]
             },
