@@ -1,7 +1,7 @@
 {
   "Group": "TastySyntax",
   "Name": "OrbisGalactic",
-  "Version": "1.1.0",
+  "Version": "1.4.0",
   "Description": "A star wars mod for Hytale.",
   "Authors": [
     {
@@ -13,6 +13,16 @@
       "Name": "Viluron",
       "Email": "",
       "Url": "https://github.com/Viluron"
+    },
+    {
+      "Name": "Nelayx",
+      "Email": "",
+      "Url": "https://github.com/Nelayx"
+    },
+    {
+      "Name": "Holag",
+      "Email": "",
+      "Url": "https://github.com/xHolagx"
     }
   ],
   "Website": "https://github.com/Tasty-Syntax/Orbis-Galactic",
