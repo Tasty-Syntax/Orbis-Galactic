@@ -1,0 +1,42 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Egg_Spawner_Trork.name"
+  },
+  "Quality": "Common",
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "SpawnNPC",
+          "EntityId": "TuskenRaider",
+          "SpawnOffset": {
+            "X": 0,
+            "Y": 0.5,
+            "Z": 0
+          }
+        }
+      ]
+    }
+  },
+  "Model": "Items/Consumables/Food/Egg.blockymodel",
+  "Texture": "Items/Consumables/Food/Egg_DarkGreen_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Food_Egg_DarkGreen.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.7,
+    "Translation": [
+      0,
+      -5.4
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ]
+  }
+}

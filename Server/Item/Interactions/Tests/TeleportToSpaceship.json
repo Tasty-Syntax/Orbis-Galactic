@@ -10,7 +10,7 @@
   "Rotation": {
     "Yaw": 180
   },
-  "OriginSource": "Block",
+  "OriginSource": "Player",
   "PersonalReturnPoint": true,
   "CloseOnBlockRemove": false,
   "Effects": {
