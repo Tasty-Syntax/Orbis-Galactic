@@ -1,0 +1,21 @@
+{
+  "DisplayNameKey": "Jabba",
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "RestockHour": 6,
+  "Trades": [
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 5
+        }
+      ],
+      "Output": {
+        "ItemId": "Soil_Dirt",
+        "Quantity": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "TranslationProperties": {
+    "Name": "Scope Creep"
+  },
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "BlockType": {
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/Ingredients/Poop.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Items/Ingredients/Poop_Texture.png"
+      }
+    ],
+    "Group": "",
+    "Flags": {},
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {}
+    },
+    "BlockParticleSetId": "Mud",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#765222",
+    "Material": "Empty",
+    "HitboxType": "Plant_Small",
+    "Particles": [
+      {
+        "SystemId": "Flies_Poop",
+        "Color": "#ffffff"
+      }
+    ],
+    "BlockSoundSetId": "Mud",
+    "CustomModelScale": 0.75
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    }
+  ],
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Translation": [
+      0,
+      -6.6
+    ],
+    "Rotation": [
+      10.125,
+      54,
+      16.875
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Poop.png",
+  "Scale": 1.5,
+  "Interactions": {
+    "Secondary": "Item_Throw"
+  },
+  "InteractionVars": {
+    "Item_Throw_Projectile": {
+      "Interactions": [
+        {
+          "Parent": "Item_Throw_Projectile",
+          "ProjectileId": "Ingredient_Poop",
+          "Effects": {
+            "CameraEffect": "Unarmed_Swing_Horizontal"
+          }
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Splatty",
+  "DropOnDeath": true,
+  "Quality": "Developer"
+}

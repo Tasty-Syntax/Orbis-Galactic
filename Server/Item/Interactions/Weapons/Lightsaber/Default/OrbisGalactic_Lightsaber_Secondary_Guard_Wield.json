@@ -27,28 +27,6 @@
     "CostType": "Damage"
   },
   "CancelOnOtherClick": false,
-  "Failed": {
-    "Type": "Replace",
-    "Var": "Guard_Break",
-    "DefaultOk": true,
-    "DefaultValue": {
-      "Interactions": [
-        {
-          "Type": "Simple",
-          "Effects": {
-            "Particles": [
-              {
-                "SystemId": "Shield_Shatter"
-              }
-            ],
-            "WorldSoundEventId": "SFX_Light_Melee_T2_Guard_Break",
-            "LocalSoundEventId": "SFX_Light_Melee_T2_Guard_Break",
-            "ClearAnimationOnFinish": false
-          }
-        }
-      ]
-    }
-  },
   "BlockedEffects": {
     "WorldSoundEventId": "SFX_Light_Melee_T2_Guard_Hit",
     "WorldParticles": [

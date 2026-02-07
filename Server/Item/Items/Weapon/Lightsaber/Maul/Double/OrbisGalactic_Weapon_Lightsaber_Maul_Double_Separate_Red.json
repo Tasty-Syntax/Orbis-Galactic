@@ -56,35 +56,5 @@
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red_Separate",
     "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Red",
     "Held": "ROOT_Interaction_Lightsaber_Idle_Red"
-  },
-  "InteractionVars": {
-    "Swing_Left_Effect": {
-      "Interactions": [
-        "Weapon_Daggers_Primary_Swing_Left_Custom_Red"
-      ]
-    },
-    "Swing_Right_Effect": {
-      "Interactions": [
-        "Weapon_Daggers_Primary_Swing_Right_Custom_Red"
-      ]
-    },
-    "Stab_Left_Effect": {
-      "Interactions": [
-        "Weapon_Daggers_Primary_Stab_Left_Custom_Red"
-      ]
-    },
-    "Stab_Right_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Daggers_Primary_Stab_Right_Custom_Red",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 10
-            }
-          },
-          "DamageEffects": {}
-        }
-      ]
-    }
   }
 }

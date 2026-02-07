@@ -20,34 +20,6 @@
   },
   "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
   "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png",
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bar_Cobalt",
-        "Quantity": 12
-      },
-      {
-        "ItemId": "Ingredient_Leather_Heavy",
-        "Quantity": 4
-      },
-      {
-        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
-        "Quantity": 4
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Armor_Bench",
-        "Type": "Crafting",
-        "Categories": [
-          "Armor_Head"
-        ],
-        "RequiredTierLevel": 2
-      }
-    ],
-    "KnowledgeRequired": false,
-    "TimeSeconds": 3
-  },
   "Armor": {
     "ArmorSlot": "Head",
     "BaseDamageResistance": 0,

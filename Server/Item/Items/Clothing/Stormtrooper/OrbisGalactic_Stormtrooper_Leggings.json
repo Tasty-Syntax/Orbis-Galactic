@@ -20,34 +20,6 @@
   },
   "Model": "Resources/ClothingModels/Stormtrooper/Legs.blockymodel",
   "Texture": "Resources/ClothingTextures/Stormtrooper/Legs_Texture.png",
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bar_Cobalt",
-        "Quantity": 18
-      },
-      {
-        "ItemId": "Ingredient_Leather_Heavy",
-        "Quantity": 6
-      },
-      {
-        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
-        "Quantity": 6
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Armor_Bench",
-        "Type": "Crafting",
-        "Categories": [
-          "Armor_Legs"
-        ],
-        "RequiredTierLevel": 2
-      }
-    ],
-    "KnowledgeRequired": false,
-    "TimeSeconds": 3
-  },
   "Armor": {
     "ArmorSlot": "Legs",
     "BaseDamageResistance": 0,

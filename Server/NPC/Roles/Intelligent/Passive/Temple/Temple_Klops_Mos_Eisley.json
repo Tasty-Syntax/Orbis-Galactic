@@ -1,0 +1,17 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Kweebec_Sapling",
+  "Modify": {
+    "Appearance": "Klops_Merchant",
+    "MaxHealth": 49,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Feran_Civilian.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

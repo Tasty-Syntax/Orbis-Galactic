@@ -4,10 +4,10 @@
       "Files": [
         "Sounds/Ambience/Cantina Ambience.ogg"
       ],
-      "Volume": -15,
+      "Volume": -8,
       "Looping": true
     }
   ],
   "MaxDistance": 18,
-  "StartAttenuationDistance": 5
+  "StartAttenuationDistance": 10
 }

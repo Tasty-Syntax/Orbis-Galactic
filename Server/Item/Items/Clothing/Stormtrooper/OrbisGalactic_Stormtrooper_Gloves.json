@@ -20,34 +20,6 @@
   },
   "Model": "Resources/ClothingModels/Stormtrooper/Hands.blockymodel",
   "Texture": "Resources/ClothingTextures/Stormtrooper/Hands_Texture.png",
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bar_Cobalt",
-        "Quantity": 8
-      },
-      {
-        "ItemId": "Ingredient_Leather_Heavy",
-        "Quantity": 3
-      },
-      {
-        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
-        "Quantity": 3
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Armor_Bench",
-        "Type": "Crafting",
-        "Categories": [
-          "Armor_Hands"
-        ],
-        "RequiredTierLevel": 2
-      }
-    ],
-    "KnowledgeRequired": false,
-    "TimeSeconds": 3
-  },
   "Armor": {
     "ArmorSlot": "Hands",
     "BaseDamageResistance": 0,

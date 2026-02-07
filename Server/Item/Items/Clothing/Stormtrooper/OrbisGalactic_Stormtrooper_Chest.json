@@ -20,34 +20,6 @@
   },
   "Model": "Resources/ClothingModels/Stormtrooper/Chest.blockymodel",
   "Texture": "Resources/ClothingTextures/Stormtrooper/Chest_Texture_Clean.png",
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bar_Cobalt",
-        "Quantity": 24
-      },
-      {
-        "ItemId": "Ingredient_Leather_Heavy",
-        "Quantity": 7
-      },
-      {
-        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
-        "Quantity": 7
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Armor_Bench",
-        "Type": "Crafting",
-        "Categories": [
-          "Armor_Chest"
-        ],
-        "RequiredTierLevel": 2
-      }
-    ],
-    "KnowledgeRequired": false,
-    "TimeSeconds": 3
-  },
   "Armor": {
     "ArmorSlot": "Chest",
     "BaseDamageResistance": 0,
