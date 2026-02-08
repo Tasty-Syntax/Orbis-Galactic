@@ -5,8 +5,8 @@
     "Items.Ingredients"
   ],
   "TranslationProperties": {
-    "Name": "Silver Credit",
-    "Description": "The standard currency denomination of choice."
+    "Name": "server.items.OrbisGalactic_Galactic_Credit_Silver.name",
+    "Description": "server.items.OrbisGalactic_Galactic_Credit_Silver.description"
   },
   "UsePlayerAnimations": true,
   "PlayerAnimationsId": "Item",

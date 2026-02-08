@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "Scrap Metal"
+    "Name": "server.items.OrbisGalactic_Scrap_Metal.name",
+    "Description": "server.items.OrbisGalactic_Scrap_Metal.description"
   },
   "Categories": [
     "OrbisGalactic.Misc"

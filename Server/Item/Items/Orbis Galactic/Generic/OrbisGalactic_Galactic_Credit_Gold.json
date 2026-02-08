@@ -5,8 +5,8 @@
     "Items.Ingredients"
   ],
   "TranslationProperties": {
-    "Name": "Gold Credit",
-    "Description": "Worth a whole 10 Silver Credits!"
+    "Name": "server.items.OrbisGalactic_Galactic_Credit_Gold.name",
+    "Description": "server.items.OrbisGalactic_Galactic_Credit_Gold.description"
   },
   "UsePlayerAnimations": true,
   "PlayerAnimationsId": "Item",

@@ -37,7 +37,7 @@
     "Name": "server.items.OrbisGalactic_Weapon_Cycler_Rifle.name",
     "Description": "server.items.OrbisGalactic_Weapon_Cycler_Rifle.description"
   },
-  "Quality": "Technical",
+  "Quality": "Epic",
   "Categories": [
     "OrbisGalactic.Blasters"
   ]
