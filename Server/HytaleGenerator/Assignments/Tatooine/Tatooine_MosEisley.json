@@ -1,7 +1,7 @@
 {
 	"$NodeId":	"FieldFunction.Assignments-5f6290b6-e0d7-4594-9d86-de5d013a3d21",
 	"Type":	"FieldFunction",
-	"ExportAs":	"Tatooine_Crawler",
+	"ExportAs":	"Tatooine_MosEisley",
 	"FieldFunction":	{
 		"$NodeId":	"SimplexNoise2DDensityNode-f69a2c7c-9d9b-4aee-82af-9ad8f652dbb4",
 		"Type":	"SimplexNoise2D",
@@ -37,8 +37,8 @@
 										"Skip":	false,
 										"WeightedPrefabPaths":	[{
 												"$NodeId":	"WeightedPath.Prefab.Prop-2203eee3-f8ed-4eaa-a90a-8b9169ad074f",
-												"Path":	"Tatooine/Crawler",
-												"Weight":	100
+												"Path":	"Tatooine/MosEisley",
+												"Weight":	90
 											}],
 										"LegacyPath":	false,
 										"LoadEntities":	true,
