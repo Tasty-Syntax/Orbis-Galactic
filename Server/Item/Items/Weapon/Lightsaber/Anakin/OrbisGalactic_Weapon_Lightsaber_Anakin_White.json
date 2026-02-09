@@ -5,7 +5,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_White.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",
+  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_White.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -67,7 +67,7 @@
           }
         }
       ],
-      "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_White.png",
+      "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_White.png",
       "Interactions": {
         "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
         "Ability2": {
@@ -90,7 +90,7 @@
       "Quality": "Epic",
       "Variant": true,
       "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim"
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim"
     }
   }
 }

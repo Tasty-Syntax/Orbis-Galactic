@@ -7,7 +7,7 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": 0, "y": -73, "z": 3},
+          "delta": {"x": 0, "y": -73, "z": -3},
           "interpolationType": "linear"
         }
       ],
@@ -83,7 +83,7 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": 0, "y": -159, "z": 1},
+          "delta": {"x": 0, "y": -159, "z": -2},
           "interpolationType": "linear"
         }
       ],
@@ -121,7 +121,7 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": 0, "y": -140, "z": 2},
+          "delta": {"x": 0, "y": -140, "z": -3},
           "interpolationType": "linear"
         }
       ],

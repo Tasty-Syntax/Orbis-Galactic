@@ -6,7 +6,7 @@
   },
   "Quality": "Epic",
   "ItemLevel": 40,
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Gold.png",
+  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -75,7 +75,7 @@
       "Variant": true,
       "Quality": "Epic",
       "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
-      "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Gold.png",
+      "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
       "Light": {
         "Color": "#761"
       },
@@ -93,7 +93,7 @@
           }
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

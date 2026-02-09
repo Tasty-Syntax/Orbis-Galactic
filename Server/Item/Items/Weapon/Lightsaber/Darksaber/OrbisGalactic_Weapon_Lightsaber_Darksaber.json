@@ -187,7 +187,7 @@
   "Utility": {
     "Compatible": false
   },
-  "Texture": "Resources/WeaponTextures/Darksaber.png",
+  "Texture": "Items/Weapons/Darksaber/Darksaber.png",
   "Quality": "Legendary",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Darksaber.png",
   "Scale": 0.5,
@@ -223,13 +223,13 @@
       }
     ]
   },
-  "Animation": "Resources/Animations/Darksaber_Off.blockyanim",
+  "Animation": "Items/Animations/Darksaber/Darksaber_Off.blockyanim",
   "State": {
     "On": {
       "Variant": true,
       "Quality": "Legendary",
       "Model": "Items/Weapons/Darksaber/Darksaber.blockymodel",
-      "Texture": "Resources/WeaponTextures/Darksaber.png",
+      "Texture": "Items/Weapons/Darksaber/Darksaber.png",
       "Light": {
         "Color": "#666"
       },
@@ -260,7 +260,6 @@
           "SignatureEnergy"
         ]
       },
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Darksaber_Attack",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -278,7 +277,8 @@
             }
           ]
         }
-      }
+      },
+      "Animation": "Items/Animations/Darksaber/Saber_Animate_Darksaber.blockyanim"
     }
   },
   "MaxStack": 1

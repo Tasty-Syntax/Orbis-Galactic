@@ -46,7 +46,7 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Purple.png",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+  "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Purple.png",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
       "Interactions": [
@@ -73,7 +73,7 @@
     "On": {
       "Variant": true,
       "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
-      "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+      "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Purple.png",
       "Light": {
         "Color": "#71a"
       },
@@ -92,7 +92,7 @@
         }
       ],
       "Quality": "Epic",
-      "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

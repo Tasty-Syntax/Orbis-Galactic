@@ -4,7 +4,7 @@
     "Description": "server.items.Ore_Kyber_Crystal_Purple.description",
     "Name": "server.items.Ore_Kyber_Crystal_Purple.name"
   },
-  "Texture": "Resources/ItemTextures/Kyber_Crystal_Purple.png",
+  "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Purple.png",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_Purple.png",
   "Light": {
     "Color": "#206"

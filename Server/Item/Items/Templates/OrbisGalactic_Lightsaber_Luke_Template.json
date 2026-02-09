@@ -172,7 +172,7 @@
       -43
     ]
   },
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Right_Floating.blockyanim",
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.52,
   "Tags": {
@@ -269,5 +269,5 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Lightsaber_Off.blockyanim"
+  "Animation": "Items/Animations/Lightsaber/Lightsaber_Off.blockyanim"
 }

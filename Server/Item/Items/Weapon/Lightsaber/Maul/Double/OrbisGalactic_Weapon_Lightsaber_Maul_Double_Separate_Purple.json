@@ -4,7 +4,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Purple.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+  "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Purple.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -49,7 +49,7 @@
       -76
     ]
   },
-  "Parent": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Blue",
+  "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
   "Scale": 0.5,
   "Variant": true
 }

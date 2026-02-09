@@ -45,10 +45,10 @@
     "RequiresAlphaBlending": true,
     "CustomModelTexture": [
       {
-        "Texture": "Resources/ItemTextures/Credit_Texture_Silver.png"
+        "Texture": "Items/Ingredients/Credits/Credit_Texture_Silver.png"
       }
     ],
-    "CustomModel": "Resources/ItemModels/CreditStack.blockymodel",
+    "CustomModel": "Items/Ingredients/Credits/CreditStack.blockymodel",
     "CustomModelScale": 0.4,
     "BlockSoundSetId": "Coins",
     "AllowsMultipleUsers": false,
