@@ -41,10 +41,10 @@
       }
     },
     "RequiresAlphaBlending": true,
-    "CustomModel": "Resources/BlockModels/Mos_Eisley_Pipe4BlockBend.blockymodel",
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Pipe4BlockBend.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Mos_Eisley_Pipe_Texture.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Pipe_Texture.png"
       }
     ],
     "VariantRotation": "All"

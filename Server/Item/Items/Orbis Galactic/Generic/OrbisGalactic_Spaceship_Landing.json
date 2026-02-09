@@ -48,7 +48,7 @@
         "Quantity": 0
       }
     },
-    "CustomModelAnimation": "Resources/Animations/Blocks/HWK290_Landing_Animation.blockyanim"
+    "CustomModelAnimation": "Blocks/Animations/HWK290_Landing_Animation.blockyanim"
   },
   "Tags": {
     "Type": [

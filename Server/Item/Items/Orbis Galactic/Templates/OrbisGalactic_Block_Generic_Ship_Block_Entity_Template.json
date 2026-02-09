@@ -44,7 +44,7 @@
     "Group": "Ships",
     "BlockSoundSetId": "Metal",
     "BlockParticleSetId": "Metal",
-    "CustomModel": "Resources/PropModels/HWK-290.blockymodel"
+    "CustomModel": "Blocks/Spaceship/HWK-290.blockymodel"
   },
   "ResourceTypes": [
     {

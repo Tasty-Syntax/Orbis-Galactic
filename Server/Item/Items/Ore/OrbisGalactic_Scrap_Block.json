@@ -24,23 +24,22 @@
         "GatherType": "VolcanicRocks"
       }
     },
-    "Textures": [
-      {
-        "Weight": 1,
-        "All": "Resources/BlockTextures/Scrap_Metal_Block.png"
-      }
-    ],
     "ParticleColor": "#312828",
     "DrawType": "CubeWithModel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/ItemTextures/Scrap_Metal_Texture.png"
+        "Texture": "Items/Ingredients/Scrap Metal/Scrap_Metal_Texture.png"
       }
     ],
-    "CustomModel": "Resources/BlockModels/Scrap_Metal_Ore.blockymodel",
     "CustomModelScale": 1,
     "RandomRotation": "YawPitchRollStep1",
-    "BlockSoundSetId": "Metal"
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/Tatooine/Jawa/Scrap_Metal_Ore.blockymodel",
+    "Textures": [
+      {
+        "All": "Blocks/Tatooine/Jawa/Scrap_Metal_Block.png"
+      }
+    ]
   },
   "Tags": {
     "Type": [

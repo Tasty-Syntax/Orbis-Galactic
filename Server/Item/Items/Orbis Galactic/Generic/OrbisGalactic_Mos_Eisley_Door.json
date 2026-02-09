@@ -35,24 +35,24 @@
       "Definitions": {
         "CloseDoorIn": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Close.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Close.blockyanim",
           "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
           "Material": "Solid"
         },
         "CloseDoorOut": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Close.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Close.blockyanim",
           "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
           "Material": "Solid"
         },
         "OpenDoorIn": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Open.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Open.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox"
         },
         "OpenDoorOut": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Open.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Open.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox"
         }
       }

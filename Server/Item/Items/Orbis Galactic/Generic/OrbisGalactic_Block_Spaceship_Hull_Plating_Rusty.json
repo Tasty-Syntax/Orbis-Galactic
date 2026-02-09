@@ -3,7 +3,7 @@
     "DrawType": "Cube",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Ship_Metal_Plating_Block_Rusty.png"
+        "All": "Blocks/Tatooine/Jawa/Ship_Metal_Plating_Block_Rusty.png"
       }
     ],
     "Gathering": {

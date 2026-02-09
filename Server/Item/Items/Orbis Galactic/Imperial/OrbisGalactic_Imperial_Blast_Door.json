@@ -36,24 +36,24 @@
       "Definitions": {
         "CloseDoorIn": {
           "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Close",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Close_Imperial_Blast_Door.blockyanim",
           "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
           "Material": "Solid"
         },
         "CloseDoorOut": {
           "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Close",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Close_Imperial_Blast_Door.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Close_Imperial_Blast_Door.blockyanim",
           "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
           "Material": "Solid"
         },
         "OpenDoorIn": {
           "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Open",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Open_Imperial_Blast_Door.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Open_Imperial_Blast_Door.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
         },
         "OpenDoorOut": {
           "InteractionSoundEventId": "OrbisGalactic_SFX_Imperial_Blast_Door_Open",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Open_Imperial_Blast_Door.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Open_Imperial_Blast_Door.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
         }
       }
