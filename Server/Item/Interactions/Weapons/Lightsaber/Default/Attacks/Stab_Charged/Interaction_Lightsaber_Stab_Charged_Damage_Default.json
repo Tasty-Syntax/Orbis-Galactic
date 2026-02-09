@@ -2,8 +2,11 @@
   "Type": "DamageEntity",
   "DamageCalculator": {
     "BaseDamage": {
-      "Physical": 5
-    }
+      "Physical": 80
+    },
+    "Class": "Unknown",
+    "Type": "Absolute",
+    "RandomPercentageModifier": 0.3
   },
   "DamageEffects": {
     "Knockback": {

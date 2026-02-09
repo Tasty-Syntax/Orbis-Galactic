@@ -68,7 +68,7 @@
       ]
     }
   },
-  "Variant": true,
+  "Variant": false,
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.png",
   "State": {
     "On": {

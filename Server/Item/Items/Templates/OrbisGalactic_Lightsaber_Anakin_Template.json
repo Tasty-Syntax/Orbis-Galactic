@@ -101,19 +101,7 @@
     "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect_Default",
     "Lightsaber_Stab_Charged_Damage": {
       "Interactions": [
-        {
-          "Parent": "Interaction_Lightsaber_Stab_Charged_Damage_Default",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 144
-            },
-            "Type": "Absolute",
-            "RandomPercentageModifier": 0.15
-          },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Longsword_Special_Impact"
-          }
-        }
+        "Interaction_Lightsaber_Stab_Charged_Damage_Default"
       ]
     },
     "Thrust_Damage": {

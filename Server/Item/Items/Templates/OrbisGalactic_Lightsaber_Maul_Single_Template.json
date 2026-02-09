@@ -35,7 +35,7 @@
     "Lightsaber_Swing_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Interaction_Lightsaber_Swing_Left_Damage_Red",
+          "Parent": "Interaction_Lightsaber_Swing_Left_Damage_Default",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -62,7 +62,7 @@
     "Lightsaber_Swing_Right_Damage": {
       "Interactions": [
         {
-          "Parent": "Interaction_Lightsaber_Swing_Right_Damage_Red",
+          "Parent": "Interaction_Lightsaber_Swing_Right_Damage_Default",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -89,7 +89,7 @@
     "Lightsaber_Swing_Up_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Interaction_Lightsaber_Swing_Up_Left_Damage_Red",
+          "Parent": "Interaction_Darksaber_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "Type": "Absolute",
             "BaseDamage": {
@@ -106,7 +106,7 @@
     "Lightsaber_Stab_Charged_Effect": "ROOT_Interaction_Lightsaber_Stab_Charged_Effect_Red",
     "Lightsaber_Stab_Charged_Damage": {
       "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Damage_Red"
+        "Interaction_Lightsaber_Stab_Charged_Damage_Default"
       ]
     },
     "Thrust_Damage": {
