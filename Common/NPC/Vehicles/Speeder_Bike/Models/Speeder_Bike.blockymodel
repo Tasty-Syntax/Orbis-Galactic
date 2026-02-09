@@ -22,11 +22,11 @@
         {
           "id": "2",
           "name": "Bike Body",
-          "position": {"x": 0, "y": -4.485, "z": -52.325},
+          "position": {"x": 0, "y": -4.485, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 0.04, "y": 1.535, "z": 14.9625},
+            "offset": {"x": 0.04, "y": 1.535, "z": 14.6375},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
@@ -803,11 +803,11 @@
         {
           "id": "17",
           "name": "Handle_Left",
-          "position": {"x": 11.96, "y": 34.385, "z": -2.02},
+          "position": {"x": 11.96, "y": 34.385, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 0.025, "y": -4.745, "z": -10.48},
+            "offset": {"x": 0.025, "y": -4.745, "z": 39.5},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
@@ -1064,11 +1064,11 @@
         {
           "id": "22",
           "name": "Handle_Right",
-          "position": {"x": -11.96, "y": 34.385, "z": -2.02},
+          "position": {"x": -11.96, "y": 34.385, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": -0.025, "y": -4.745, "z": -10.48},
+            "offset": {"x": -0.025, "y": -4.745, "z": 39.5},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
@@ -1325,7 +1325,7 @@
         {
           "id": "27",
           "name": "Pedal_Arm_Left",
-          "position": {"x": 8.97, "y": -16.445, "z": -53.82},
+          "position": {"x": 8.97, "y": -16.445, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -1344,7 +1344,7 @@
             {
               "id": "28",
               "name": "cube--C1",
-              "position": {"x": 2.99, "y": 0, "z": -4.485},
+              "position": {"x": 2.99, "y": 0, "z": -6.305},
               "orientation": {"x": -0.38268, "y": 0, "z": 0, "w": 0.92388},
               "shape": {
                 "type": "box",
@@ -1396,7 +1396,7 @@
             {
               "id": "29",
               "name": "cube--C2",
-              "position": {"x": 11.96, "y": -4.784, "z": 2.691},
+              "position": {"x": 11.96, "y": -4.784, "z": 0.871},
               "orientation": {"x": 0.25882, "y": 0, "z": 0, "w": 0.96593},
               "shape": {
                 "type": "box",
@@ -1448,7 +1448,7 @@
             {
               "id": "30",
               "name": "Pedal_Left",
-              "position": {"x": 0, "y": 0, "z": 0},
+              "position": {"x": 0, "y": 0, "z": -1.82},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "box",
@@ -1501,7 +1501,7 @@
         {
           "id": "31",
           "name": "Pedal_Arm_Right",
-          "position": {"x": -8.97, "y": -16.445, "z": -53.82},
+          "position": {"x": -8.97, "y": -16.445, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -1520,7 +1520,7 @@
             {
               "id": "32",
               "name": "cube--C1",
-              "position": {"x": -2.99, "y": 0, "z": -4.485},
+              "position": {"x": -2.99, "y": 0, "z": -6.305},
               "orientation": {"x": -0.38268, "y": 0, "z": 0, "w": 0.92388},
               "shape": {
                 "type": "box",
@@ -1572,7 +1572,7 @@
             {
               "id": "33",
               "name": "cube--C2",
-              "position": {"x": -11.86, "y": -4.784, "z": 2.691},
+              "position": {"x": -11.86, "y": -4.784, "z": 0.871},
               "orientation": {"x": 0.25882, "y": 0, "z": 0, "w": 0.96593},
               "shape": {
                 "type": "box",
@@ -1624,7 +1624,7 @@
             {
               "id": "34",
               "name": "Pedal_Right",
-              "position": {"x": -5.98, "y": 8.671, "z": 80.73},
+              "position": {"x": -5.98, "y": 8.671, "z": 78.91},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "box",
@@ -1677,7 +1677,7 @@
         {
           "id": "35",
           "name": "Saddle-Attachment",
-          "position": {"x": 0, "y": 8.97, "z": -47.84},
+          "position": {"x": 0, "y": 8.97, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -1696,7 +1696,7 @@
         {
           "id": "36",
           "name": "Front_Bar_Right",
-          "position": {"x": -5.98, "y": -17.94, "z": 20.93},
+          "position": {"x": -5.98, "y": -17.94, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -1715,7 +1715,7 @@
             {
               "id": "37",
               "name": "cube--C1",
-              "position": {"x": -1.495, "y": 1.495, "z": 47.84},
+              "position": {"x": -1.495, "y": 1.495, "z": 120.77},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
               "shape": {
                 "type": "box",
@@ -1767,7 +1767,7 @@
             {
               "id": "38",
               "name": "cube--C2",
-              "position": {"x": 1.505, "y": 2.495, "z": 103.84},
+              "position": {"x": 1.505, "y": 2.495, "z": 176.77},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
               "shape": {
                 "type": "box",
@@ -1819,7 +1819,7 @@
             {
               "id": "39",
               "name": "cube--C3",
-              "position": {"x": 1.495, "y": 5.98, "z": 95.68},
+              "position": {"x": 1.495, "y": 5.98, "z": 168.61},
               "orientation": {"x": 0, "y": 0, "z": 0.34202, "w": 0.93969},
               "shape": {
                 "type": "box",
@@ -1873,7 +1873,7 @@
         {
           "id": "40",
           "name": "Front_Bar_Left",
-          "position": {"x": 8.97, "y": -17.94, "z": 17.94},
+          "position": {"x": 8.97, "y": -17.94, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "none",
@@ -1892,7 +1892,7 @@
             {
               "id": "41",
               "name": "cube--C1",
-              "position": {"x": -1.495, "y": 1.495, "z": 50.83},
+              "position": {"x": -1.495, "y": 1.495, "z": 120.77},
               "orientation": {"x": 0, "y": 0, "z": 0.38268, "w": 0.92388},
               "shape": {
                 "type": "box",
@@ -1944,7 +1944,7 @@
             {
               "id": "42",
               "name": "cube--C2",
-              "position": {"x": 1.495, "y": 0.299, "z": 98.67},
+              "position": {"x": 1.495, "y": 0.299, "z": 168.61},
               "orientation": {"x": 0, "y": 0, "z": -0.34202, "w": 0.93969},
               "shape": {
                 "type": "box",
@@ -1996,7 +1996,7 @@
             {
               "id": "43",
               "name": "cube--C3",
-              "position": {"x": -5.445, "y": 2.495, "z": 106.83},
+              "position": {"x": -5.445, "y": 2.495, "z": 176.77},
               "orientation": {"x": 0, "y": 0, "z": -0.38268, "w": 0.92388},
               "shape": {
                 "type": "box",
@@ -2050,11 +2050,11 @@
         {
           "id": "44",
           "name": "Bag",
-          "position": {"x": 0, "y": 15.495, "z": -97.66},
+          "position": {"x": 0, "y": 15.495, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 0.04, "y": -1.48, "z": 3.99},
+            "offset": {"x": 0.04, "y": -1.48, "z": -41.67},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
@@ -2101,11 +2101,11 @@
         {
           "id": "45",
           "name": "FlapLeft",
-          "position": {"x": 19.97, "y": 8, "z": -33.92},
+          "position": {"x": 19.97, "y": 8, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 7.49, "y": -9.94, "z": -56.75},
+            "offset": {"x": 7.49, "y": -9.94, "z": -38.67},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
@@ -2310,11 +2310,11 @@
         {
           "id": "49",
           "name": "FlapRight",
-          "position": {"x": -19.97, "y": 8, "z": -33.92},
+          "position": {"x": -19.97, "y": 8, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": -7.49, "y": -9.94, "z": -56.75},
+            "offset": {"x": -7.49, "y": -9.94, "z": -38.67},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
@@ -2519,11 +2519,11 @@
         {
           "id": "53",
           "name": "Seat",
-          "position": {"x": 0.03, "y": 10.73083, "z": -62.215},
+          "position": {"x": 0.03, "y": 10.73083, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 0, "y": -0.75083, "z": 6.41},
+            "offset": {"x": 0, "y": -0.75083, "z": -3.805},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
