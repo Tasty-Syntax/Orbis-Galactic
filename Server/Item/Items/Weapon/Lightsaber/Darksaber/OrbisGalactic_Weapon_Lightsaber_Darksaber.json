@@ -2,7 +2,7 @@
   "Categories": [
     "OrbisGalactic.Sabers"
   ],
-  "Model": "Resources/WeaponModels/Darksaber.blockymodel",
+  "Model": "Items/Weapons/Darksaber/Darksaber.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
@@ -228,7 +228,7 @@
     "On": {
       "Variant": true,
       "Quality": "Legendary",
-      "Model": "Resources/WeaponModels/Darksaber.blockymodel",
+      "Model": "Items/Weapons/Darksaber/Darksaber.blockymodel",
       "Texture": "Resources/WeaponTextures/Darksaber.png",
       "Light": {
         "Color": "#666"

@@ -18,8 +18,8 @@
       -6.9
     ]
   },
-  "Model": "Resources/ClothingModels/Stormtrooper/Chest.blockymodel",
-  "Texture": "Resources/ClothingTextures/Stormtrooper/Chest_Texture_Clean.png",
+  "Model": "Items/Armors/Stormtrooper/Chest.blockymodel",
+  "Texture": "Items/Armors/Stormtrooper/Chest_Texture_Clean.png",
   "Armor": {
     "ArmorSlot": "Chest",
     "BaseDamageResistance": 0,

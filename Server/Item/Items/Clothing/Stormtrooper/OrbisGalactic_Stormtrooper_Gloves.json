@@ -18,8 +18,8 @@
       -2.3
     ]
   },
-  "Model": "Resources/ClothingModels/Stormtrooper/Hands.blockymodel",
-  "Texture": "Resources/ClothingTextures/Stormtrooper/Hands_Texture.png",
+  "Model": "Items/Armors/Stormtrooper/Hands.blockymodel",
+  "Texture": "Items/Armors/Stormtrooper/Hands_Texture.png",
   "Armor": {
     "ArmorSlot": "Hands",
     "BaseDamageResistance": 0,

@@ -18,8 +18,8 @@
       -33
     ]
   },
-  "Model": "Resources/ClothingModels/Stormtrooper/Legs.blockymodel",
-  "Texture": "Resources/ClothingTextures/Stormtrooper/Legs_Texture.png",
+  "Model": "Items/Armors/Stormtrooper/Legs.blockymodel",
+  "Texture": "Items/Armors/Stormtrooper/Legs_Texture.png",
   "Armor": {
     "ArmorSlot": "Legs",
     "BaseDamageResistance": 0,

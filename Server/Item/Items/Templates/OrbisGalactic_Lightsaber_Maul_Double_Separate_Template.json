@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "server.items.Template_Weapon_Daggers.name"
   },
-  "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
+  "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Template.png",
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "PlayerAnimationsId": "Daggers_Custom",

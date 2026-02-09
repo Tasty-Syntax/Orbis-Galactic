@@ -2,7 +2,7 @@
   "Categories": [
     "OrbisGalactic.Sabers"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
+  "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {

@@ -72,7 +72,7 @@
   "State": {
     "On": {
       "Variant": true,
-      "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
       "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Red.png",
       "Light": {
         "Color": "#700"

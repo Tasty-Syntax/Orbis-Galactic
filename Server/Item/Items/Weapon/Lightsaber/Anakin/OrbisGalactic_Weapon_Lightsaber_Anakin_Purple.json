@@ -72,7 +72,7 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.png",
   "State": {
     "On": {
-      "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
       "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Purple.png",
       "Light": {
         "Color": "#71a"
@@ -110,7 +110,8 @@
             }
           ]
         }
-      }
+      },
+      "Variant": true
     }
   },
   "Interactions": {

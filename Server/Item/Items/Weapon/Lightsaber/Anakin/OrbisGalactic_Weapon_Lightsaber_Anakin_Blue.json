@@ -73,7 +73,7 @@
     "On": {
       "Variant": true,
       "Quality": "Epic",
-      "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
       "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
       "Light": {
         "Color": "#166"

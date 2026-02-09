@@ -75,7 +75,7 @@
   "State": {
     "On": {
       "Variant": true,
-      "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
       "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
       "Light": {
         "Color": "#700"

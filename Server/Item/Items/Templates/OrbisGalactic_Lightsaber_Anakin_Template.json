@@ -2,7 +2,7 @@
   "Categories": [
     "OrbisGalactic.Sabers"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
+  "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {

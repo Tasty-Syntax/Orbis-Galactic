@@ -52,7 +52,7 @@
     "On": {
       "Variant": true,
       "Quality": "Epic",
-      "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
       "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
       "Light": {
         "Color": "#71a"

@@ -2,7 +2,7 @@
   "Categories": [
     "OrbisGalactic.Sabers"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
+  "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber_Menacing",
   "Interactions": {
