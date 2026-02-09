@@ -1,7 +1,7 @@
 {
   "AmbientBed": {
-    "Track": "Sounds/Environments/Spaceship/Spaceship_Ambience_Stereo_LOOP.ogg",
-    "Volume": -5.4
+    "Track": "Sounds/Ambience/Spaceship_Ambience_Stereo.ogg",
+    "Volume": -3.64
   },
   "Conditions": {
     "EnvironmentTagPattern": {
