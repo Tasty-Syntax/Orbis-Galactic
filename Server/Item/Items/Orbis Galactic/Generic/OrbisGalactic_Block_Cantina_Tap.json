@@ -33,10 +33,10 @@
     "Material": "Empty",
     "Opacity": "Transparent",
     "RequiresAlphaBlending": true,
-    "CustomModel": "Resources/BlockModels/Cantina_Pipe_Tap.blockymodel",
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Cantina_Pipe_Tap.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Cantina_Tap.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Tap.png"
       }
     ],
     "Interactions": {

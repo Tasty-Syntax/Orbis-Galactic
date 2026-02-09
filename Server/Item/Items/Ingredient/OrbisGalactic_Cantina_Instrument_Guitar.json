@@ -1,6 +1,6 @@
 {
-  "Model": "Resources/ItemModels/Cantina_Guitar.blockymodel",
-  "Texture": "Resources/ItemTextures/Cantina_Guitar.png",
+  "Model": "Items/Ingredients/Cantina Instruments/Cantina_Guitar.blockymodel",
+  "Texture": "Items/Ingredients/Cantina Instruments/Cantina_Guitar.png",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Cantina_Instrument_Guitar.png",
   "IconProperties": {
     "Scale": 0.8,

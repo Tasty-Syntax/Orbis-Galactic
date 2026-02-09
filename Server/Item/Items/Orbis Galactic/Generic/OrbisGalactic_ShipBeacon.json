@@ -22,10 +22,10 @@
   "BlockType": {
     "BlockParticleSetId": "Stone",
     "BlockSoundSetId": "Stone",
-    "CustomModel": "Resources/BlockModels/Ship_Call_Beacon.blockymodel",
+    "CustomModel": "Blocks/Spaceship/Ship_Call_Beacon.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Ship_Call_Beacon_Texture.png",
+        "Texture": "Blocks/Spaceship/Ship_Call_Beacon_Texture.png",
         "Weight": 1
       }
     ],

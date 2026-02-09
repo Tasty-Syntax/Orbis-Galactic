@@ -19,7 +19,7 @@
     "HitboxType": "Block_Half",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Sandcrawler_Plating.png"
+        "Texture": "Blocks/Tatooine/Jawa/Sandcrawler_Plating.png"
       }
     ],
     "VariantRotation": "DoublePipe",

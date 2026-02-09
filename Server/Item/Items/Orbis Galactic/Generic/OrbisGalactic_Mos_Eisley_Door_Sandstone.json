@@ -26,7 +26,7 @@
     "BlockParticleSetId": "Metal",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Mos_Eisley_Door_Sandstone.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door_Sandstone.png"
       }
     ],
     "DrawType": "Model",
@@ -67,7 +67,7 @@
     "Opacity": "Solid",
     "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
     "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
-    "CustomModel": "Resources/BlockModels/Mos_Eisley_Door.blockymodel"
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel"
   },
   "Scale": 0.5,
   "Tags": {
@@ -80,6 +80,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Mos_Eisley_Door_Sandstone.png",
-  "Model": "Resources/BlockModels/Mos_Eisley_Door.blockymodel",
-  "Texture": "Resources/BlockTextures/Mos_Eisley_Door.png"
+  "Model": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel",
+  "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door_Sandstone.png"
 }

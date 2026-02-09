@@ -31,10 +31,10 @@
   "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template",
   "BlockType": {
     "BlockSoundSetId": "Metal",
-    "CustomModel": "Resources/PropModels/Ship_Controls.blockymodel",
+    "CustomModel": "Blocks/Spaceship/Ship_Controls.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/Ship_Controls_Texture.png",
+        "Texture": "Blocks/Spaceship/Ship_Controls_Texture.png",
         "Weight": 1
       }
     ],

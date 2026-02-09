@@ -76,7 +76,7 @@
         "On": {
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Sandcrawler_Lamp_On.png"
+              "All": "Blocks/Tatooine/Jawa/Sandcrawler_Lamp_On.png"
             }
           ],
           "InteractionHint": "server.interactionHints.turnon",
@@ -96,7 +96,7 @@
           "AmbientSoundEventId": null,
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Sandcrawler_Lamp_Off.png"
+              "All": "Blocks/Tatooine/Jawa/Sandcrawler_Lamp_Off.png"
             }
           ],
           "InteractionSoundEventId": "SFX_Lamp_Off",
@@ -108,7 +108,7 @@
     "CubeShadingMode": "Standard",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Sandcrawler_Lamp_Off.png"
+        "All": "Blocks/Tatooine/Jawa/Sandcrawler_Lamp_Off.png"
       }
     ],
     "CustomModelTexture": [

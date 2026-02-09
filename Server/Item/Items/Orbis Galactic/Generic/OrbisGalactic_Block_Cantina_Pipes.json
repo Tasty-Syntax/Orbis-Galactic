@@ -41,10 +41,10 @@
       }
     },
     "RequiresAlphaBlending": true,
-    "CustomModel": "Resources/BlockModels/Cantina_Pipe_Block.blockymodel",
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Cantina_Pipe_Block.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Cantina_Pipes.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Pipes.png"
       }
     ]
   },
