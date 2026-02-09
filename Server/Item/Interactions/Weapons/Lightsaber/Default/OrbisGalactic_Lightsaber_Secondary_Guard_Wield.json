@@ -1,0 +1,62 @@
+{
+  "Type": "Wielding",
+  "Effects": {
+    "ItemAnimationId": "Guard",
+    "ClearAnimationOnFinish": true,
+    "WorldSoundEventId": "SFX_Light_Melee_T2_Block",
+    "LocalSoundEventId": "SFX_Sword_T2_Block_Local"
+  },
+  "Forks": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "Guard_Bash",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              "Weapon_Sword_Secondary_Guard_Bash"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "StaminaCost": {
+    "Value": 15,
+    "CostType": "Damage"
+  },
+  "CancelOnOtherClick": false,
+  "BlockedEffects": {
+    "WorldSoundEventId": "SFX_Light_Melee_T2_Guard_Hit",
+    "WorldParticles": [
+      {
+        "SystemId": "Shield_Block"
+      }
+    ]
+  },
+  "Next": {
+    "$Comment": "Standard regen delay upon ending guarding on all weapons",
+    "Type": "ChangeStat",
+    "Behaviour": "Set",
+    "StatModifiers": {
+      "StaminaRegenDelay": -1
+    }
+  },
+  "DamageModifiers": {
+    "Projectile": 0
+  },
+  "AngledWielding": {
+    "Angle": 0,
+    "AngleDistance": 90,
+    "DamageModifiers": {
+      "Physical": 0,
+      "Projectile": 0,
+      "Poison": 0
+    },
+    "KnockbackModifiers": {
+      "Physical": 0.25,
+      "Projectile": 0.25
+    }
+  }
+}

@@ -36,7 +36,7 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Interaction_Lightsaber_Stab_Charged_Damage"
+                      "Interaction_Lightsaber_Stab_Charged_Damage_Blue"
                     ]
                   },
                   "Var": "Lightsaber_Stab_Charged_Damage"

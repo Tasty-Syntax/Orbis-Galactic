@@ -1,0 +1,148 @@
+{
+  "EyeHeight": 1.65,
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Rodian_Blue_Model.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -64
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "RandomAttachmentSets": {
+    "Hats": {
+      "Cap": {
+        "Model": "Cosmetics/Head/Shaped_Cap.blockymodel",
+        "Texture": "Cosmetics/Head/Shaped_Cap_Textures/ChillGaia_Cap_Texture.png"
+      },
+      "Tophat": {
+        "Model": "Cosmetics/Head/TopHat.blockymodel",
+        "Texture": "Cosmetics/Head/TopHat_Red.png"
+      },
+      "Goggles": {
+        "Model": "Cosmetics/Head/Goggles.blockymodel",
+        "Texture": "Cosmetics/Head/Goggles_Texture.png"
+      }
+    },
+    "Shirts": {
+      "Undershirt": {
+        "Model": "Cosmetics/Undertops/Tshirt.blockymodel",
+        "Texture": "Cosmetics/Undertops/Tshirt_Textures/Crinkled_Greyscale.png",
+        "GradientSet": "Shiny_Fabric",
+        "GradientId": "White"
+      },
+      "Longsleeve": {
+        "Model": "Cosmetics/Undertops/LongSleeveShirt.blockymodel",
+        "Texture": "Cosmetics/Undertops/LongSleeveShirt_Textures/Ribbed_Shirt_Greyscale.png",
+        "GradientSet": "Shiny_Fabric",
+        "GradientId": "White"
+      }
+    },
+    "Jackets": {
+      "Trenchcoat": {
+        "Model": "Cosmetics/Overtops/Trench_Coat.blockymodel",
+        "Texture": "Cosmetics/Overtops/Trench_Coat_Texture.png"
+      },
+      "BomberJacket": {
+        "Model": "Cosmetics/Overtops/CollaredJacket_Zipper.blockymodel",
+        "Texture": "Cosmetics/Overtops/CollaredJacket_Texture/Puffy_Bomber_Texture.png",
+        "Weight": 1
+      },
+      "BikerJacket": {
+        "Model": "Cosmetics/Overtops/Jacket_ElbowPads.blockymodel",
+        "Texture": "Cosmetics/Overtops/Jacket_ElbowPads_Greyscale.png",
+        "Weight": 1
+      },
+      "Bandages": {
+        "Model": "Cosmetics/Overtops/Arm_Bandage.blockymodel",
+        "Texture": "Cosmetics/Overtops/Arm_Bandage_White.png"
+      }
+    },
+    "Pants": {
+      "Complex": {
+        "Model": "Cosmetics/Pants/Pants_Complex.blockymodel",
+        "Texture": "Cosmetics/Pants/Pants_Complex_Texture/Scavenger_Pants_Texture.png"
+      },
+      "Biker": {
+        "Model": "Cosmetics/Pants/Pants_Large.blockymodel",
+        "Texture": "Cosmetics/Pants/Pants_Large_Textures/Black.png",
+        "Weight": 1
+      },
+      "Rolled": {
+        "Model": "Cosmetics/Pants/Shorty_Rolled.blockymodel",
+        "Texture": "Cosmetics/Pants/Shorty_Rolled_Textures/Fantasy_Jean_Greyscale.png"
+      }
+    },
+    "Shoes": {
+      "Biker": {
+        "Model": "Cosmetics/Shoes/Stockings.blockymodel",
+        "Texture": "Cosmetics/Shoes/Stockings_Textures/HighSandals_Greyscale.png",
+        "Weight": 1
+      },
+      "Quilted": {
+        "Model": "Cosmetics/Shoes/QuiltedBoots.blockymodel",
+        "Texture": "Cosmetics/Shoes/QuiltedBoots_Textures/QuiltedBoots_Texture.png"
+      },
+      "Slipons": {
+        "Model": "Cosmetics/Shoes/Slipons.blockymodel",
+        "Texture": "Cosmetics/Shoes/SlipOns_Textures/SlipOns_Greyscale.png"
+      }
+    },
+    "Skin": {
+      "Blue": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Blue.png"
+      },
+      "Green": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo.png"
+      },
+      "LightGreen": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_LightGreen.png"
+      },
+      "Olive": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Olive.png"
+      },
+      "Red": {
+        "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+        "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Red.png"
+      }
+    }
+  },
+  "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
+  "Parent": "Template_Rodian_Static",
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Sit_And_Talk.blockyanim",
+          "Looping": true
+        }
+      ],
+      "NextAnimationDelay": {
+        "Max": 0
+      }
+    }
+  }
+}

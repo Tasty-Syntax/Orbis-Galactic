@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -33,39 +31,55 @@
       }
     ]
   },
-  "Light": {
-    "Color": "#666"
-  },
-  "Trails": [
-    {
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Blade",
-      "TrailId": "Lightsaber_Trail_White",
-      "PositionOffset": {
-        "Y": 0,
-        "Z": 0.0
-      },
-      "RotationOffset": {
-        "Roll": 0
-      }
-    }
-  ],
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [
-      318,
-      323,
-      335
-    ],
-    "Translation": [
-      -82,
-      -75
-    ]
+    "Rotation": [318, 323, 335],
+    "Translation": [-82, -75]
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_White.png",
-  "Interactions": {
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double"
-  },
-  "Variant": true
+  "State": {
+    "On": {
+      "Variant": true,
+      "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
+      "Texture": "Resources/WeaponTextures/Maul_Lightsaber_White.png",
+      "Light": {
+        "Color": "#666"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_White",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Quality": "Epic",
+      "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
 }

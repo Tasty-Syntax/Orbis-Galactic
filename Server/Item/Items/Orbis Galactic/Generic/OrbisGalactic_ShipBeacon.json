@@ -1,0 +1,104 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ship_Call_Beacon.name",
+    "Description": "server.items.Ship_Call_Beacon.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ],
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      0,
+      39,
+      0
+    ],
+    "Translation": [
+      -3,
+      -75
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "CustomModel": "Resources/BlockModels/Ship_Call_Beacon.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Ship_Call_Beacon_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "HitboxType": "Statue_Full",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#2e3742",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OrbisGalactic_ShipBeacon_Interaction",
+            "RunTime": 10,
+            "Failed": {
+              "Type": "SendMessage",
+              "Message": "Please wait before calling the ship again!"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_ShipBeacon.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ],
+    "TimeSeconds": 5
+  }
+}

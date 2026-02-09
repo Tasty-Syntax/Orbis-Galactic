@@ -19,20 +19,15 @@
     {
       "Biome": "Tatooine_Shore",
       "Min": 0,
-      "Max": 0.55
-    },
-    {
-      "Biome": "Tatooine_River",
-      "Min": 0.55,
       "Max": 1.2
     },
     {
-      "Biome": "Tatooine_Shore",
+      "Biome": "Tatooine_River",
       "Min": 1.2,
       "Max": 2
     }
   ],
-  "DefaultBiome": "Tatooine_Shore",
+  "DefaultBiome": "Basic",
   "DefaultTransitionDistance": 32,
   "MaxBiomeEdgeDistance": 48,
   "Density": {

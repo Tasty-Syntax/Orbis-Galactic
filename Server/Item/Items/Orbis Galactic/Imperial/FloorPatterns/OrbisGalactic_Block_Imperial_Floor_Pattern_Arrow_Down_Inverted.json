@@ -3,7 +3,7 @@
     "Name": "Imperial Floor Pattern Inverted Arrow Down"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Floor_Pattern_Arrow_Down_Inverted.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {
@@ -75,6 +75,6 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ]
 }

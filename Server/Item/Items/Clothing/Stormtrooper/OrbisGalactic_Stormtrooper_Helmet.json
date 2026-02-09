@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "Stormtrooper Helmet"
+  },
+  "Parent": "Armor_Adamantite_Head",
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "Icon": "Icons/ItemsGenerated/Stormtrooper_Helmet.png",
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      23.06,
+      43.315,
+      23.06
+    ],
+    "Translation": [
+      0,
+      -8.1
+    ]
+  },
+  "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
+  "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png",
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.064,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.064,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 12,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Signature": [
+        {
+          "Amount": 0.03,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 120,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Cobalt"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5,
+  "Categories": [
+    "OrbisGalactic.Armor"
+  ]
+}

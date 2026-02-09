@@ -10,7 +10,11 @@
   "Rotation": {
     "Yaw": 180
   },
-  "OriginSource": "Block",
+  "OriginSource": "Player",
   "PersonalReturnPoint": true,
-  "CloseOnBlockRemove": false
+  "CloseOnBlockRemove": false,
+  "Effects": {
+    "LocalSoundEventId": "OrbisGalactic_Spaceship_Enter"
+  },
+  "RunTime": 5
 }

@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "Cantina Pipes"
+  },
+  "Set": "Cantina",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble",
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    },
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Resources/BlockModels/Cantina_Pipe_Block.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Cantina_Pipes.png"
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Decorative Blocks"
+  ],
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Pipes.png",
+  "ItemSoundSetId": "ISS_Items_Metal"
+}

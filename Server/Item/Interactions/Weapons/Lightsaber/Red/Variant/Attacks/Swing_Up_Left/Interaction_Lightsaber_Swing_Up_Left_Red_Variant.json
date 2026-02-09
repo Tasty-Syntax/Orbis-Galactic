@@ -38,7 +38,7 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Lightsaber_Swing_Up_Left_Damage"
+                      "Lightsaber_Swing_Up_Left_Damage_Red_Variant"
                     ]
                   },
                   "Var": "Lightsaber_Swing_Up_Left_Damage"
@@ -59,7 +59,7 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Interaction_Lightsaber_Swing_Up_Left_Effect"
+                "Interaction_Lightsaber_Swing_Up_Left_Effect_Red_Variant"
               ]
             },
             "Var": "Lightsaber_Swing_Up_Left_Effect"

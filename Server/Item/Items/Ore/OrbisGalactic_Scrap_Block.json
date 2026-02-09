@@ -1,0 +1,69 @@
+{
+  "Parent": "OrbisGalactic_Kyber_Ore_Template",
+  "TranslationProperties": {
+    "Name": "Metal Scrap Block"
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Scrap_Metal",
+                  "QuantityMin": 1,
+                  "QuantityMax": 3
+                }
+              }
+            ]
+          }
+        },
+        "GatherType": "VolcanicRocks"
+      }
+    },
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Resources/BlockTextures/Scrap_Metal_Block.png"
+      }
+    ],
+    "ParticleColor": "#312828",
+    "DrawType": "CubeWithModel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/ItemTextures/Scrap_Metal_Texture.png"
+      }
+    ],
+    "CustomModel": "Resources/BlockModels/Scrap_Metal_Ore.blockymodel",
+    "CustomModelScale": 1,
+    "RandomRotation": "YawPitchRollStep1",
+    "BlockSoundSetId": "Metal"
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ],
+    "Family": [
+      "Gold"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Scrap_Block.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ]
+}

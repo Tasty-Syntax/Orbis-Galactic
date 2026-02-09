@@ -1,0 +1,28 @@
+{
+  "Model": "Resources/ItemModels/Credit.blockymodel",
+  "Texture": "Resources/ItemTextures/Credit_Texture_Gold.png",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Galactic_Credit_Gold.name",
+    "Description": "server.items.OrbisGalactic_Galactic_Credit_Gold.description"
+  },
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": "Item",
+  "Scale": 0.75,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Galactic_Credit_Gold.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      293,
+      123,
+      34
+    ],
+    "Translation": [
+      1,
+      -19
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Gems"
+}

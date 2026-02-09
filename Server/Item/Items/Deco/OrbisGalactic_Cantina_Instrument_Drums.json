@@ -1,0 +1,164 @@
+{
+  "TranslationProperties": {
+    "Name": "Cantina Drums"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Cantina_Instrument_Drums.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Root_Mug_Fill"
+  },
+  "Consumable": true,
+  "Utility": {
+    "Compatible": true
+  },
+  "State": {
+    "Filled_Water": {
+      "Variant": true,
+      "TranslationProperties": {
+        "Name": "server.items.Deco_Tankard_Water.name"
+      },
+      "Recipe": null,
+      "Consumable": true,
+      "MaxDurability": 1,
+      "MaxStack": 1,
+      "BlockType": {
+        "CustomModelTexture": [
+          {
+            "Texture": "Blocks/Miscellaneous/Tankard_Texture_Water.png",
+            "Weight": 1
+          }
+        ],
+        "DrawType": "Model",
+        "Opacity": "Transparent",
+        "CustomModel": "Blocks/Miscellaneous/Tankard.blockymodel",
+        "CustomModelScale": 1.2,
+        "HitboxType": "Food_Medium",
+        "Flags": {
+          "IsStackable": false
+        },
+        "RandomRotation": "YawStep1",
+        "BlockSoundSetId": "Wood",
+        "Gathering": {
+          "Harvest": {},
+          "Soft": {
+            "IsWeaponBreakable": false
+          }
+        }
+      },
+      "Scale": 1.43,
+      "IconProperties": {
+        "Scale": 1.3,
+        "Rotation": [
+          22.5,
+          24.0,
+          22.5
+        ],
+        "Translation": [
+          0.305,
+          -6.895
+        ]
+      },
+      "Icon": "Icons/ItemsGenerated/Deco_Tankard_Water.png",
+      "Interactions": {
+        "Secondary": "Root_Secondary_Consume_Drink"
+      },
+      "InteractionVars": {
+        "Effect": {
+          "Interactions": [
+            {
+              "Type": "ApplyEffect",
+              "EffectId": "Food_Health_Restore_Small"
+            }
+          ]
+        },
+        "ConsumeSFX": {
+          "Interactions": [
+            {
+              "Parent": "Consume_SFX",
+              "Effects": {
+                "LocalSoundEventId": "SFX_Health_Potion_Low_Drink"
+              }
+            }
+          ]
+        },
+        "ConsumedSFX": {
+          "Interactions": [
+            {
+              "Parent": "Consume_SFX",
+              "Effects": {
+                "LocalSoundEventId": "SFX_WATER_MoveOut"
+              }
+            }
+          ]
+        },
+        "DurabilityModify": {
+          "Interactions": [
+            {
+              "Type": "ModifyInventory",
+              "AdjustHeldItemDurability": -1,
+              "BrokenItem": "Deco_Tankard"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Drums.blockymodel",
+    "CustomModelScale": 1.2,
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Food_Medium",
+    "Flags": {
+      "IsStackable": false
+    },
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Harvest": {},
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": {
+    "Parent": "Item",
+    "Animations": {
+      "Consume": {
+        "FirstPerson": "Characters/Animations/Items/Main_Handed/Item/Attacks/Drink/Drink_FPS.blockyanim",
+        "ThirdPerson": "Characters/Animations/Items/Main_Handed/Item/Attacks/Drink/Drink.blockyanim",
+        "Speed": 1,
+        "Looping": true
+      }
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      20,
+      302,
+      340
+    ],
+    "Translation": [
+      2,
+      -6
+    ]
+  },
+  "Scale": 1.4,
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

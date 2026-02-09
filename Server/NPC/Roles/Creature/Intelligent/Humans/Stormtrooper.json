@@ -1,0 +1,89 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "WanderRadius": {
+      "Value": 3,
+      "Description": "General wander radius for idle wander and wander on the break."
+    },
+    "FollowPatrolPath": {
+      "Value": false,
+      "Description": "Whether this NPC will follow patrol paths at all."
+    },
+    "Patrol": {
+      "Value": false,
+      "Description": "Whether or not this NPC will patrol during its waking hours, either alone or as part of a group."
+    },
+    "FlockArray": {
+      "Value": [
+        "StormTrooper"
+      ],
+      "TypeHint": "String",
+      "Description": "Array containing NPCs for this flock type."
+    },
+    "ApplySeparation": {
+      "Value": false,
+      "Description": "When set to false, NPCs wont try to avoid each other or player, it can lead to them stacking together, but can help to avoid jerky-like movemenet in enclosed space."
+    },
+    "NameTranslationKey": {
+      "Value": "Storm Trooper",
+      "Description": "Translation key for NPC name display"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 36,
+    "HearingRange": 50,
+    "ViewSector": 270,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_Jawa",
+    "Appearance": "Stormtrooper_Basic_Model",
+    "Weapons": [
+      "OrbisGalactic_Weapon_Blaster_DC15A"
+    ],
+    "AttackPauseRange": [
+      0,
+      0.5
+    ],
+    "CombatAttackPreDelay": [
+      0,
+      0
+    ],
+    "CombatAttackPostDelay": [
+      0,
+      0
+    ],
+    "FlockArray": {
+      "Compute": "FlockArray"
+    },
+    "FollowPatrolPath": {
+      "Compute": "FollowPatrolPath"
+    },
+    "Patrol": {
+      "Compute": "Patrol"
+    },
+    "WanderRadius": {
+      "Compute": "WanderRadius"
+    },
+    "Attack": "ROOT_Interaction_Stormtrooper_Shoot",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 50,
+    "CombatFleeIfTooCloseDistance": 10,
+    "DesiredAttackDistanceRange": [
+      30,
+      50
+    ],
+    "CombatBehaviorDistance": 50,
+    "TargetRange": 50,
+    "LeashMinPlayerDistance": 50,
+    "ApplySeparation": {
+      "Compute": "ApplySeparation"
+    },
+    "BreathesInWater": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  }
+}

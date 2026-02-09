@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Ambience/Cantina Ambience.ogg"
+      ],
+      "Volume": -8,
+      "Looping": true
+    }
+  ],
+  "MaxDistance": 18,
+  "StartAttenuationDistance": 10
+}

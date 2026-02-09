@@ -1,0 +1,84 @@
+{
+  "TranslationProperties": {
+    "Name": "Mos Eisley Pipe Bend"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Mos_Eisley_Pipe_Bend.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble",
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    },
+    "RequiresAlphaBlending": true,
+    "CustomModel": "Resources/BlockModels/Mos_Eisley_Pipe_Bend.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Mos_Eisley_Pipe_Texture.png"
+      }
+    ],
+    "VariantRotation": "All"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      24,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -6,
+      -17
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Decorative Blocks"
+  ],
+  "Scale": 0.5,
+  "Set": "Mos_Eisley",
+  "PlayerAnimationsId": "Block"
+}

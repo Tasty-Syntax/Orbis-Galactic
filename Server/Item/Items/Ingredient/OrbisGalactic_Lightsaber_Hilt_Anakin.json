@@ -44,5 +44,8 @@
   "MaxStack": 1,
   "ItemLevel": 10,
   "Quality": "Common",
-  "PlayerAnimationsId": "Item"
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ]
 }

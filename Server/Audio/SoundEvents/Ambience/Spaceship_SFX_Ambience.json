@@ -1,0 +1,13 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Ambience/Spaceship_Ambience.ogg"
+      ],
+      "Volume": -10.24,
+      "Looping": true
+    }
+  ],
+  "MaxDistance": 500,
+  "StartAttenuationDistance": 500
+}

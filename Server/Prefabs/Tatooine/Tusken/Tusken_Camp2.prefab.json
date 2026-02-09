@@ -1,0 +1,7127 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -10,
+      "y": 4,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": -10,
+      "y": 4,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": -10,
+      "y": 4,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": -9,
+      "y": 4,
+      "z": -3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": -9,
+      "y": -1,
+      "z": -2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 4,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -9,
+      "y": -1,
+      "z": -1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 0,
+      "z": -1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 1,
+      "z": -1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 2,
+      "z": -1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 3,
+      "z": -1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 4,
+      "z": -1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -9,
+      "y": 5,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Left",
+      "rotation": 2
+    },
+    {
+      "x": -9,
+      "y": -1,
+      "z": 0,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 1,
+      "z": 0,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 2,
+      "z": 0,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 3,
+      "z": 0,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 4,
+      "z": 0,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -9,
+      "y": 5,
+      "z": 0,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": -9,
+      "y": -1,
+      "z": 1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 1,
+      "z": 1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 2,
+      "z": 1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 3,
+      "z": 1,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 4,
+      "z": 1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -9,
+      "y": 5,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right"
+    },
+    {
+      "x": -9,
+      "y": -1,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 0,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 1,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -9,
+      "y": 4,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -9,
+      "y": 4,
+      "z": 3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": -8,
+      "y": 4,
+      "z": -4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -8,
+      "y": -1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 2,
+      "z": -3,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": -8,
+      "y": 3,
+      "z": -3,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": -8,
+      "y": 4,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -8,
+      "y": 5,
+      "z": -3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 3
+    },
+    {
+      "x": -8,
+      "y": -1,
+      "z": -2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": -2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 2,
+      "z": -2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 3,
+      "z": -2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 4,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -8,
+      "y": 5,
+      "z": -2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": -8,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": -1,
+      "name": "Furniture_Feran_Bed",
+      "components": {
+        "Components": {
+          "RespawnBlock": {}
+        }
+      }
+    },
+    {
+      "x": -8,
+      "y": 2,
+      "z": -1,
+      "name": "Furniture_Feran_Bed",
+      "filler": 1024
+    },
+    {
+      "x": -8,
+      "y": 5,
+      "z": -1,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": -8,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": 0,
+      "name": "Furniture_Feran_Bed",
+      "filler": 32
+    },
+    {
+      "x": -8,
+      "y": 2,
+      "z": 0,
+      "name": "Furniture_Feran_Bed",
+      "filler": 1056
+    },
+    {
+      "x": -8,
+      "y": 5,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -8,
+      "y": 6,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -8,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": 1,
+      "name": "Furniture_Feran_Bed",
+      "filler": 64
+    },
+    {
+      "x": -8,
+      "y": 2,
+      "z": 1,
+      "name": "Furniture_Feran_Bed",
+      "filler": 1088
+    },
+    {
+      "x": -8,
+      "y": 5,
+      "z": 1,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -8,
+      "y": -1,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 2,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 3,
+      "z": 2,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 4,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -8,
+      "y": 5,
+      "z": 2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": -8,
+      "y": -1,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 1,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 2,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -8,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": -8,
+      "y": 4,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -8,
+      "y": 5,
+      "z": 3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right"
+    },
+    {
+      "x": -8,
+      "y": 4,
+      "z": 4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -7,
+      "y": 4,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -7,
+      "y": 1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -7,
+      "y": 2,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -7,
+      "y": 3,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -7,
+      "y": 4,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -7,
+      "y": 5,
+      "z": -3,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 6,
+      "z": -2,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 1,
+      "z": -1,
+      "name": "Furniture_Feran_Bed",
+      "filler": 1
+    },
+    {
+      "x": -7,
+      "y": 2,
+      "z": -1,
+      "name": "Furniture_Feran_Bed",
+      "filler": 1025
+    },
+    {
+      "x": -7,
+      "y": 5,
+      "z": -1,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -7,
+      "y": 6,
+      "z": -1,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 1,
+      "z": 0,
+      "name": "Furniture_Feran_Bed",
+      "filler": 33
+    },
+    {
+      "x": -7,
+      "y": 2,
+      "z": 0,
+      "name": "Furniture_Feran_Bed",
+      "filler": 1057
+    },
+    {
+      "x": -7,
+      "y": 5,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -7,
+      "y": 6,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 1,
+      "z": 1,
+      "name": "Furniture_Feran_Bed",
+      "filler": 65
+    },
+    {
+      "x": -7,
+      "y": 2,
+      "z": 1,
+      "name": "Furniture_Feran_Bed",
+      "filler": 1089
+    },
+    {
+      "x": -7,
+      "y": 5,
+      "z": 1,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -7,
+      "y": 6,
+      "z": 1,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": 2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -7,
+      "y": 6,
+      "z": 2,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": 3,
+      "name": "Wood_Dry_Trunk"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": 3,
+      "name": "Wood_Dry_Trunk"
+    },
+    {
+      "x": -7,
+      "y": 1,
+      "z": 3,
+      "name": "Wood_Dry_Trunk"
+    },
+    {
+      "x": -7,
+      "y": 2,
+      "z": 3,
+      "name": "Wood_Dry_Trunk"
+    },
+    {
+      "x": -7,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Dry_Trunk"
+    },
+    {
+      "x": -7,
+      "y": 4,
+      "z": 3,
+      "name": "Wood_Dry_Trunk"
+    },
+    {
+      "x": -7,
+      "y": 5,
+      "z": 3,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -7,
+      "y": -1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -7,
+      "y": 0,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -7,
+      "y": 4,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -6,
+      "y": 4,
+      "z": -5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 2,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 3,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 4,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -6,
+      "y": 5,
+      "z": -4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Left",
+      "rotation": 2
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 5,
+      "z": -3,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -6,
+      "y": 5,
+      "z": -2,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -6,
+      "y": 6,
+      "z": -2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 6,
+      "z": -1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -6,
+      "y": 7,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -6,
+      "y": 6,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -6,
+      "y": 6,
+      "z": 1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -6,
+      "y": 5,
+      "z": 2,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -6,
+      "y": 6,
+      "z": 2,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": 3,
+      "name": "Furniture_Feran_Chest_Small",
+      "components": {
+        "Components": {
+          "container": {
+            "Position": {
+              "X": 19,
+              "Y": 143,
+              "Z": 9
+            },
+            "Custom": false,
+            "AllowViewing": true,
+            "ItemContainer": {
+              "Capacity": 18,
+              "Items": {
+                "2": {
+                  "Id": "Ingredient_Chitin_Sturdy",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "14": {
+                  "Id": "Plant_Fruit_Apple",
+                  "Quantity": 5,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "13": {
+                  "Id": "Ingredient_Fabric_Scrap_Linen",
+                  "Quantity": 2,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "5": {
+                  "Id": "Ingredient_Sac_Venom",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "16": {
+                  "Id": "Wood_Dry_Trunk",
+                  "Quantity": 6,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "rotation": 2
+    },
+    {
+      "x": -6,
+      "y": 5,
+      "z": 3,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -6,
+      "y": -1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 0,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 2,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 3,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -6,
+      "y": 4,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -6,
+      "y": 5,
+      "z": 4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Left",
+      "rotation": 3
+    },
+    {
+      "x": -6,
+      "y": 4,
+      "z": 5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -5,
+      "y": 4,
+      "z": -5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -4,
+      "name": "Wood_Dry_Trunk",
+      "support": 15
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -4,
+      "name": "Wood_Dry_Trunk",
+      "support": 15
+    },
+    {
+      "x": -5,
+      "y": 2,
+      "z": -4,
+      "name": "Wood_Dry_Trunk",
+      "support": 15
+    },
+    {
+      "x": -5,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Dry_Trunk",
+      "support": 15
+    },
+    {
+      "x": -5,
+      "y": 4,
+      "z": -4,
+      "name": "Wood_Dry_Trunk",
+      "support": 15
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": -4,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": -3,
+      "name": "Furniture_Feran_Wardrobe",
+      "filler": 31
+    },
+    {
+      "x": -5,
+      "y": 2,
+      "z": -3,
+      "name": "Furniture_Feran_Wardrobe",
+      "filler": 1055
+    },
+    {
+      "x": -5,
+      "y": 6,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": -2,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -5,
+      "y": 6,
+      "z": -2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": -1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -5,
+      "y": 6,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": 1,
+      "name": "Furniture_Crude_Brazier"
+    },
+    {
+      "x": -5,
+      "y": 6,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": 2,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -5,
+      "y": 6,
+      "z": 2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": 3,
+      "name": "Furniture_Village_Pot"
+    },
+    {
+      "x": -5,
+      "y": 6,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 2,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 3,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 4,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -5,
+      "y": 5,
+      "z": 4,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -5,
+      "y": -1,
+      "z": 5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 0,
+      "z": 5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 1,
+      "z": 5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -5,
+      "y": 4,
+      "z": 5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -6,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 2,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 3,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": -5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 2,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 3,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": -3,
+      "name": "Furniture_Feran_Wardrobe"
+    },
+    {
+      "x": -4,
+      "y": 2,
+      "z": -3,
+      "name": "Furniture_Feran_Wardrobe",
+      "filler": 1024
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -3,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": -2,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": -2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": -1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -4,
+      "y": 7,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": 1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -4,
+      "y": 7,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": 2,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -4,
+      "y": 6,
+      "z": 2,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": 3,
+      "name": "Furniture_Village_Pot"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": 3,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 2,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 3,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -4,
+      "y": 5,
+      "z": 4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "z": 5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "z": 5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -4,
+      "y": 4,
+      "z": 5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -7,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -7,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -6,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Gravel_Sand"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 3,
+      "z": -4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 3,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": -3,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": -2,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": -1,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": -1,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 1,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": 1,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": 2,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 3,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 3,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": 4,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "z": 4,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": -3,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": -3,
+      "y": 4,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -7,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -7,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -7,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Gravel_Sand"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -5,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": -4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": -2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": -2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": -2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": -1,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 1,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -8,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -8,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -7,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -7,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -5,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": -1,
+      "y": 2,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": -1,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -1,
+      "y": 2,
+      "z": -3,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": -1,
+      "y": 3,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": -3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 8
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 8
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": 0,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 8
+    },
+    {
+      "x": -1,
+      "y": 5,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 3,
+      "name": "Furniture_Village_Pot"
+    },
+    {
+      "x": -1,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": -1,
+      "y": 4,
+      "z": 3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": -1,
+      "y": 2,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": -1,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -8,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -8,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -7,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -7,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -6,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": -3,
+      "name": "Furniture_Feran_Chest_Small",
+      "components": {
+        "Components": {
+          "container": {
+            "Position": {
+              "X": 25,
+              "Y": 143,
+              "Z": 3
+            },
+            "Custom": false,
+            "AllowViewing": true,
+            "ItemContainer": {
+              "Capacity": 18,
+              "Items": {
+                "6": {
+                  "Id": "Ingredient_Sac_Venom",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "15": {
+                  "Id": "Ingredient_Fibre",
+                  "Quantity": 6,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "13": {
+                  "Id": "Ingredient_Chitin_Sturdy",
+                  "Quantity": 3,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "9": {
+                  "Id": "Potion_Health_Lesser",
+                  "Quantity": 2,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "3": {
+                  "Id": "Wood_Gumboab_Trunk",
+                  "Quantity": 5,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                },
+                "7": {
+                  "Id": "Potion_Signature_Lesser",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": -3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": -2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 10
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": -1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 11
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 3,
+      "name": "Furniture_Village_Pot"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "z": 3,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -8,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -8,
+      "name": "Rock_Sandstone_Cobble"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -7,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -6,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": -5,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": -4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -3,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": -3,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 1
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 1
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": -1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 3
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": 0,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 3
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 1
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 1
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "z": 3,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "z": 5,
+      "name": "Deco_Rope_Diagonal"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 6,
+      "name": "Deco_Rope_Diagonal"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -7,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": -5,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": -5,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": -5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -4,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": -4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 3
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -3,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": -3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 10
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": -3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": -2,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 3
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 10
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 11
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 2,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 11
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 5,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 5,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -7,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -7,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -5,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": -5,
+      "name": "Cloth_Roof_Hide_Flap",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": -5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": -4,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -3,
+      "name": "Bench_Tannery",
+      "filler": 31
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": -3,
+      "name": "Bench_Tannery",
+      "filler": 1055
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": -3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": -2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": -2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": -1,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 1,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 2,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 2,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 4,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 4,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 6,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -7,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -7,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": -5,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": -5,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": -5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": -4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": -3,
+      "name": "Bench_Tannery",
+      "components": {
+        "Components": {
+          "processingBench": {
+            "Position": {
+              "X": 29,
+              "Y": 143,
+              "Z": 3
+            },
+            "TierLevel": 1,
+            "UpgradeItems": [],
+            "InputContainer": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {}
+            },
+            "FuelContainer": {
+              "Id": "Empty"
+            },
+            "OutputContainer": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {}
+            },
+            "Progress": 0.0,
+            "FuelTime": 0.0,
+            "Active": true,
+            "NextExtra": 0
+          }
+        }
+      }
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": -3,
+      "name": "Bench_Tannery",
+      "filler": 1024
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": -3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 9
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": -3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -2,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": -2,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 9
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 8
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": 2,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 8
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": 3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": 4,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 5,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 5,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": 5,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 6,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": 6,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": 7,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -7,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": -6,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": -5,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": -4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": -4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "z": -3,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "z": -1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 7
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "z": 0,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "z": 1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "z": 3,
+      "name": "Cloth_Roof_Hide"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": 4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 4,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "z": 5,
+      "name": "Deco_Rope_Diagonal"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "z": 6,
+      "name": "Deco_Rope_Diagonal"
+    },
+    {
+      "x": 5,
+      "y": -1,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "z": 7,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "z": -5,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -4,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": -4,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "z": -4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 6
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "z": -3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "z": -3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "z": -2,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": -2,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "z": -2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 9
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "z": 0,
+      "name": "Cloth_Roof_Hide_Flat",
+      "rotation": 8
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 8
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "z": 2,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 2,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 3
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "z": 2,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "z": 3,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "z": 4,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "z": 4,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 4
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": -1,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "z": 6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": -6,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -6,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -4,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": -4,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": -3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "z": -3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": -2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "z": -2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": -1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": -1,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": -1,
+      "name": "Cloth_Roof_Hide_Vertical"
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "z": -1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "z": -1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "z": 0,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "z": 0,
+      "name": "Cloth_Roof_Hide",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 1,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 1,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 2
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "z": 1,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "z": 1,
+      "name": "*Cloth_Roof_Hide_State_Definitions_Corner_Right",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 2,
+      "name": "Wood_Dry_Branch_Long",
+      "support": 15
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "z": 2,
+      "name": "Wood_Drywood_Planks"
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "z": 3,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "z": 3,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "z": 5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": -5,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": -5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": -4,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": -3,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": -2,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": -1,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": -1,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "z": -1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "z": 0,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 1,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 1,
+      "name": "Cloth_Roof_Hide_Vertical",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "z": 1,
+      "name": "Wood_Drywood_Planks_Half",
+      "rotation": 5
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "z": 2,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 1
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "z": 3,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": 4,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 8,
+      "y": -1,
+      "z": 5,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "z": 5,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": -4,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": -4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": -3,
+      "name": "Soil_Dirt"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": -3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "z": -2,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 1
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": -1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "z": -1,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "z": 2,
+      "name": "Deco_Rope_Diagonal",
+      "rotation": 1
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": 3,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "z": 3,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 9,
+      "y": -1,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "z": 4,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": -1,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "z": -2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": -1,
+      "z": -1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "z": -1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 10,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "z": 0,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "z": 1,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "z": 1,
+      "name": "Rubble_Sandstone",
+      "support": 15
+    },
+    {
+      "x": 10,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "z": 2,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "z": 3,
+      "name": "Soil_Dirt_Dry"
+    }
+  ],
+  "entities": [
+    {
+      "Components": {
+        "EffectController": {},
+        "DisplayName": {
+          "DisplayName": {
+            "MessageId": "Tusken Raider",
+            "Bold": null,
+            "Italic": null,
+            "Monospace": null,
+            "Underline": null
+          }
+        },
+        "UIComponentList": {},
+        "Transform": {
+          "Position": {
+            "X": 2.2976171584336385,
+            "Y": 1.0,
+            "Z": 2.7787176005445815
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 2.315542221069336,
+            "Roll": 0.0
+          }
+        },
+        "Velocity": {
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "PrefabCopyable": {},
+        "Interactions": {
+          "Interactions": {
+            "Use": "*UseNPC"
+          }
+        },
+        "Model": {
+          "Model": {
+            "Id": "Tusken_Raider_Model",
+            "Scale": 0.8689620494842529,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "+iVVqjcTOdWdKAw5/BWQUQ==",
+            "$type": "04"
+          }
+        },
+        "EntityStats": {
+          "Version": 5,
+          "Stats": {
+            "Oxygen": {
+              "Id": "Oxygen",
+              "Value": 100.0
+            },
+            "Mana": {
+              "Id": "Mana",
+              "Value": 0.0
+            },
+            "Health": {
+              "Id": "Health",
+              "Value": 36.0
+            },
+            "GlidingActive": {
+              "Id": "GlidingActive",
+              "Value": 0.0
+            },
+            "Immunity": {
+              "Id": "Immunity",
+              "Value": 0.0
+            },
+            "SignatureCharges": {
+              "Id": "SignatureCharges",
+              "Value": 0.0
+            },
+            "Stamina": {
+              "Id": "Stamina",
+              "Value": 10.0
+            },
+            "Ammo": {
+              "Id": "Ammo",
+              "Value": 0.0
+            },
+            "Unknown": {
+              "Id": "Unknown",
+              "Value": 0.0
+            },
+            "SignatureEnergy": {
+              "Id": "SignatureEnergy",
+              "Value": 0.0
+            },
+            "DeployablePreview": {
+              "Id": "DeployablePreview",
+              "Value": 0.0
+            },
+            "StaminaRegenDelay": {
+              "Id": "StaminaRegenDelay",
+              "Value": 0.0
+            },
+            "MagicCharges": {
+              "Id": "MagicCharges",
+              "Value": 0.0
+            }
+          }
+        },
+        "NPC": {
+          "Version": 5,
+          "UUID": {
+            "$binary": "+iVVqjcTOdWdKAw5/BWQUQ==",
+            "$type": "04"
+          },
+          "Inventory": {
+            "Version": 4,
+            "Storage": {
+              "Id": "Empty"
+            },
+            "Armor": {
+              "Id": "Simple",
+              "Capacity": 4,
+              "Items": {}
+            },
+            "HotBar": {
+              "Id": "Simple",
+              "Capacity": 3,
+              "Items": {
+                "0": {
+                  "Id": "OrbisGalactic_Weapon_Blaster_CyclerRifle",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Utility": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {
+                "0": {
+                  "Id": "Furniture_Crude_Torch",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Backpack": {
+              "Id": "Empty"
+            },
+            "ActiveHotbarSlot": 0,
+            "Tool": {
+              "Id": "Empty"
+            },
+            "ActiveToolsSlot": -1,
+            "ActiveUtilitySlot": -1,
+            "SortType": "Name"
+          },
+          "HvrPhs": 0.0,
+          "HvrHght": 0.0,
+          "MdlScl": 0.8689620494842529,
+          "SpawnInstant": "0001-04-29T12:00:01.000001952Z",
+          "WorldgenId": 0,
+          "PathManager": {},
+          "LeashPos": {
+            "X": -258.5,
+            "Y": 143.0,
+            "Z": 166.5
+          },
+          "LeashHdg": 0.0,
+          "LeashPtch": 0.0,
+          "RoleName": "TuskenRaider"
+        },
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 2.315542221069336,
+            "Roll": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Components": {
+        "EffectController": {},
+        "DisplayName": {
+          "DisplayName": {
+            "MessageId": "Tusken Raider",
+            "Bold": null,
+            "Italic": null,
+            "Monospace": null,
+            "Underline": null
+          }
+        },
+        "UIComponentList": {},
+        "Transform": {
+          "Position": {
+            "X": 1.7329805195832932,
+            "Y": 4.0,
+            "Z": -4.208262211380259
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 1.438110589981079,
+            "Roll": 0.0
+          }
+        },
+        "Velocity": {
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "PrefabCopyable": {},
+        "Interactions": {
+          "Interactions": {
+            "Use": "*UseNPC"
+          }
+        },
+        "Model": {
+          "Model": {
+            "Id": "Tusken_Raider_Model",
+            "Scale": 0.8533533215522766,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "kJ/3gzr+M7yWqqIpDj6sNg==",
+            "$type": "04"
+          }
+        },
+        "EntityStats": {
+          "Version": 5,
+          "Stats": {
+            "Oxygen": {
+              "Id": "Oxygen",
+              "Value": 100.0
+            },
+            "Mana": {
+              "Id": "Mana",
+              "Value": 0.0
+            },
+            "Health": {
+              "Id": "Health",
+              "Value": 36.0
+            },
+            "GlidingActive": {
+              "Id": "GlidingActive",
+              "Value": 0.0
+            },
+            "Immunity": {
+              "Id": "Immunity",
+              "Value": 0.0
+            },
+            "SignatureCharges": {
+              "Id": "SignatureCharges",
+              "Value": 0.0
+            },
+            "Stamina": {
+              "Id": "Stamina",
+              "Value": 10.0
+            },
+            "Ammo": {
+              "Id": "Ammo",
+              "Value": 0.0
+            },
+            "Unknown": {
+              "Id": "Unknown",
+              "Value": 0.0
+            },
+            "SignatureEnergy": {
+              "Id": "SignatureEnergy",
+              "Value": 0.0
+            },
+            "DeployablePreview": {
+              "Id": "DeployablePreview",
+              "Value": 0.0
+            },
+            "StaminaRegenDelay": {
+              "Id": "StaminaRegenDelay",
+              "Value": 0.0
+            },
+            "MagicCharges": {
+              "Id": "MagicCharges",
+              "Value": 0.0
+            }
+          }
+        },
+        "NPC": {
+          "Version": 5,
+          "UUID": {
+            "$binary": "kJ/3gzr+M7yWqqIpDj6sNg==",
+            "$type": "04"
+          },
+          "Inventory": {
+            "Version": 4,
+            "Storage": {
+              "Id": "Empty"
+            },
+            "Armor": {
+              "Id": "Simple",
+              "Capacity": 4,
+              "Items": {}
+            },
+            "HotBar": {
+              "Id": "Simple",
+              "Capacity": 3,
+              "Items": {
+                "0": {
+                  "Id": "OrbisGalactic_Weapon_Blaster_CyclerRifle",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Utility": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {
+                "0": {
+                  "Id": "Furniture_Crude_Torch",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Backpack": {
+              "Id": "Empty"
+            },
+            "ActiveHotbarSlot": 0,
+            "Tool": {
+              "Id": "Empty"
+            },
+            "ActiveToolsSlot": -1,
+            "ActiveUtilitySlot": -1,
+            "SortType": "Name"
+          },
+          "HvrPhs": 0.0,
+          "HvrHght": 0.0,
+          "MdlScl": 0.8533533215522766,
+          "SpawnInstant": "0001-04-29T12:00:01.000001952Z",
+          "WorldgenId": 0,
+          "PathManager": {},
+          "LeashPos": {
+            "X": -262.5,
+            "Y": 143.0,
+            "Z": 161.5
+          },
+          "LeashHdg": 0.0,
+          "LeashPtch": 0.0,
+          "RoleName": "TuskenRaider"
+        },
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 1.438110589981079,
+            "Roll": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Components": {
+        "EffectController": {},
+        "DisplayName": {
+          "DisplayName": {
+            "MessageId": "Tusken Raider",
+            "Bold": null,
+            "Italic": null,
+            "Monospace": null,
+            "Underline": null
+          }
+        },
+        "UIComponentList": {},
+        "Transform": {
+          "Position": {
+            "X": 0.7657983747609478,
+            "Y": 1.25,
+            "Z": -5.667814553780886
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.4659225940704346,
+            "Roll": 0.0
+          }
+        },
+        "Velocity": {
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "PrefabCopyable": {},
+        "Interactions": {
+          "Interactions": {
+            "Use": "*UseNPC"
+          }
+        },
+        "Model": {
+          "Model": {
+            "Id": "Tusken_Raider_Model",
+            "Scale": 0.9574185013771057,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "Lu6MbDWnMOiuRtU7MZ3zDA==",
+            "$type": "04"
+          }
+        },
+        "EntityStats": {
+          "Version": 5,
+          "Stats": {
+            "Oxygen": {
+              "Id": "Oxygen",
+              "Value": 100.0
+            },
+            "Mana": {
+              "Id": "Mana",
+              "Value": 0.0
+            },
+            "Health": {
+              "Id": "Health",
+              "Value": 36.0
+            },
+            "GlidingActive": {
+              "Id": "GlidingActive",
+              "Value": 0.0
+            },
+            "Immunity": {
+              "Id": "Immunity",
+              "Value": 0.0
+            },
+            "SignatureCharges": {
+              "Id": "SignatureCharges",
+              "Value": 0.0
+            },
+            "Stamina": {
+              "Id": "Stamina",
+              "Value": 10.0
+            },
+            "Ammo": {
+              "Id": "Ammo",
+              "Value": 0.0
+            },
+            "Unknown": {
+              "Id": "Unknown",
+              "Value": 0.0
+            },
+            "SignatureEnergy": {
+              "Id": "SignatureEnergy",
+              "Value": 0.0
+            },
+            "DeployablePreview": {
+              "Id": "DeployablePreview",
+              "Value": 0.0
+            },
+            "StaminaRegenDelay": {
+              "Id": "StaminaRegenDelay",
+              "Value": 0.0
+            },
+            "MagicCharges": {
+              "Id": "MagicCharges",
+              "Value": 0.0
+            }
+          }
+        },
+        "NPC": {
+          "Version": 5,
+          "UUID": {
+            "$binary": "Lu6MbDWnMOiuRtU7MZ3zDA==",
+            "$type": "04"
+          },
+          "Inventory": {
+            "Version": 4,
+            "Storage": {
+              "Id": "Empty"
+            },
+            "Armor": {
+              "Id": "Simple",
+              "Capacity": 4,
+              "Items": {}
+            },
+            "HotBar": {
+              "Id": "Simple",
+              "Capacity": 3,
+              "Items": {
+                "0": {
+                  "Id": "OrbisGalactic_Weapon_Blaster_CyclerRifle",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Utility": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {
+                "0": {
+                  "Id": "Furniture_Crude_Torch",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Backpack": {
+              "Id": "Empty"
+            },
+            "ActiveHotbarSlot": 0,
+            "Tool": {
+              "Id": "Empty"
+            },
+            "ActiveToolsSlot": -1,
+            "ActiveUtilitySlot": -1,
+            "SortType": "Name"
+          },
+          "HvrPhs": 0.0,
+          "HvrHght": 0.0,
+          "MdlScl": 0.9574185013771057,
+          "SpawnInstant": "0001-04-29T12:00:01.000001952Z",
+          "WorldgenId": 0,
+          "PathManager": {},
+          "LeashPos": {
+            "X": -264.5,
+            "Y": 144.0,
+            "Z": 161.5
+          },
+          "LeashHdg": 0.0,
+          "LeashPtch": 0.0,
+          "RoleName": "TuskenRaider"
+        },
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.4659228324890137,
+            "Roll": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Components": {
+        "EffectController": {},
+        "DisplayName": {
+          "DisplayName": {
+            "MessageId": "Tusken Raider",
+            "Bold": null,
+            "Italic": null,
+            "Monospace": null,
+            "Underline": null
+          }
+        },
+        "UIComponentList": {},
+        "Transform": {
+          "Position": {
+            "X": 3.0754968964017166,
+            "Y": 1.0,
+            "Z": 0.8136025695148987
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.689022421836853,
+            "Roll": 0.0
+          }
+        },
+        "Velocity": {
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "PrefabCopyable": {},
+        "Interactions": {
+          "Interactions": {
+            "Use": "*UseNPC"
+          }
+        },
+        "Model": {
+          "Model": {
+            "Id": "Tusken_Raider_Model",
+            "Scale": 0.8761326670646667,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "fVNdQprBPlW7rRff7oTmPw==",
+            "$type": "04"
+          }
+        },
+        "EntityStats": {
+          "Version": 5,
+          "Stats": {
+            "Oxygen": {
+              "Id": "Oxygen",
+              "Value": 100.0
+            },
+            "Mana": {
+              "Id": "Mana",
+              "Value": 0.0
+            },
+            "Health": {
+              "Id": "Health",
+              "Value": 36.0
+            },
+            "GlidingActive": {
+              "Id": "GlidingActive",
+              "Value": 0.0
+            },
+            "Immunity": {
+              "Id": "Immunity",
+              "Value": 0.0
+            },
+            "SignatureCharges": {
+              "Id": "SignatureCharges",
+              "Value": 0.0
+            },
+            "Stamina": {
+              "Id": "Stamina",
+              "Value": 10.0
+            },
+            "Ammo": {
+              "Id": "Ammo",
+              "Value": 0.0
+            },
+            "Unknown": {
+              "Id": "Unknown",
+              "Value": 0.0
+            },
+            "SignatureEnergy": {
+              "Id": "SignatureEnergy",
+              "Value": 0.0
+            },
+            "DeployablePreview": {
+              "Id": "DeployablePreview",
+              "Value": 0.0
+            },
+            "StaminaRegenDelay": {
+              "Id": "StaminaRegenDelay",
+              "Value": 0.0
+            },
+            "MagicCharges": {
+              "Id": "MagicCharges",
+              "Value": 0.0
+            }
+          }
+        },
+        "NPC": {
+          "Version": 5,
+          "UUID": {
+            "$binary": "fVNdQprBPlW7rRff7oTmPw==",
+            "$type": "04"
+          },
+          "Inventory": {
+            "Version": 4,
+            "Storage": {
+              "Id": "Empty"
+            },
+            "Armor": {
+              "Id": "Simple",
+              "Capacity": 4,
+              "Items": {}
+            },
+            "HotBar": {
+              "Id": "Simple",
+              "Capacity": 3,
+              "Items": {
+                "0": {
+                  "Id": "OrbisGalactic_Weapon_Blaster_CyclerRifle",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Utility": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {
+                "0": {
+                  "Id": "Furniture_Crude_Torch",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Backpack": {
+              "Id": "Empty"
+            },
+            "ActiveHotbarSlot": 0,
+            "Tool": {
+              "Id": "Empty"
+            },
+            "ActiveToolsSlot": -1,
+            "ActiveUtilitySlot": -1,
+            "SortType": "Name"
+          },
+          "HvrPhs": 0.0,
+          "HvrHght": 0.0,
+          "MdlScl": 0.8761326670646667,
+          "SpawnInstant": "0001-04-29T12:00:01.000001952Z",
+          "WorldgenId": 0,
+          "PathManager": {},
+          "LeashPos": {
+            "X": -262.5,
+            "Y": 143.0,
+            "Z": 167.5
+          },
+          "LeashHdg": 0.0,
+          "LeashPtch": 0.0,
+          "RoleName": "TuskenRaider"
+        },
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.6890225410461426,
+            "Roll": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Components": {
+        "EffectController": {},
+        "DisplayName": {
+          "DisplayName": {
+            "MessageId": "Tusken Raider",
+            "Bold": null,
+            "Italic": null,
+            "Monospace": null,
+            "Underline": null
+          }
+        },
+        "UIComponentList": {},
+        "Transform": {
+          "Position": {
+            "X": 8.464065933227545,
+            "Y": 3.0,
+            "Z": 2.77003985495017
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 1.5707963705062866,
+            "Roll": 0.0
+          }
+        },
+        "Velocity": {
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "PrefabCopyable": {},
+        "Interactions": {
+          "Interactions": {
+            "Use": "*UseNPC"
+          }
+        },
+        "Model": {
+          "Model": {
+            "Id": "Tusken_Raider_Model",
+            "Scale": 1.0468864440917969,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "2QYVTesgOwuF0BK7jffN+w==",
+            "$type": "04"
+          }
+        },
+        "EntityStats": {
+          "Version": 5,
+          "Stats": {
+            "Oxygen": {
+              "Id": "Oxygen",
+              "Value": 100.0
+            },
+            "Mana": {
+              "Id": "Mana",
+              "Value": 0.0
+            },
+            "Health": {
+              "Id": "Health",
+              "Value": 36.0
+            },
+            "GlidingActive": {
+              "Id": "GlidingActive",
+              "Value": 0.0
+            },
+            "Immunity": {
+              "Id": "Immunity",
+              "Value": 0.0
+            },
+            "SignatureCharges": {
+              "Id": "SignatureCharges",
+              "Value": 0.0
+            },
+            "Stamina": {
+              "Id": "Stamina",
+              "Value": 10.0
+            },
+            "Ammo": {
+              "Id": "Ammo",
+              "Value": 0.0
+            },
+            "Unknown": {
+              "Id": "Unknown",
+              "Value": 0.0
+            },
+            "SignatureEnergy": {
+              "Id": "SignatureEnergy",
+              "Value": 0.0
+            },
+            "DeployablePreview": {
+              "Id": "DeployablePreview",
+              "Value": 0.0
+            },
+            "StaminaRegenDelay": {
+              "Id": "StaminaRegenDelay",
+              "Value": 0.0
+            },
+            "MagicCharges": {
+              "Id": "MagicCharges",
+              "Value": 0.0
+            }
+          }
+        },
+        "NPC": {
+          "Version": 5,
+          "UUID": {
+            "$binary": "2QYVTesgOwuF0BK7jffN+w==",
+            "$type": "04"
+          },
+          "Inventory": {
+            "Version": 4,
+            "Storage": {
+              "Id": "Empty"
+            },
+            "Armor": {
+              "Id": "Simple",
+              "Capacity": 4,
+              "Items": {}
+            },
+            "HotBar": {
+              "Id": "Simple",
+              "Capacity": 3,
+              "Items": {
+                "0": {
+                  "Id": "OrbisGalactic_Weapon_Blaster_CyclerRifle",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Utility": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {
+                "0": {
+                  "Id": "Furniture_Crude_Torch",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Backpack": {
+              "Id": "Empty"
+            },
+            "ActiveHotbarSlot": 0,
+            "Tool": {
+              "Id": "Empty"
+            },
+            "ActiveToolsSlot": -1,
+            "ActiveUtilitySlot": -1,
+            "SortType": "Name"
+          },
+          "HvrPhs": 0.0,
+          "HvrHght": 0.0,
+          "MdlScl": 1.0468864440917969,
+          "SpawnInstant": "0001-04-29T12:00:01.000001952Z",
+          "WorldgenId": 0,
+          "PathManager": {},
+          "LeashPos": {
+            "X": -253.5,
+            "Y": 143.0,
+            "Z": 166.5
+          },
+          "LeashHdg": 0.0,
+          "LeashPtch": 0.0,
+          "RoleName": "TuskenRaider"
+        },
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 1.5707963705062866,
+            "Roll": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Components": {
+        "EffectController": {},
+        "DisplayName": {
+          "DisplayName": {
+            "MessageId": "Tusken Raider",
+            "Bold": null,
+            "Italic": null,
+            "Monospace": null,
+            "Underline": null
+          }
+        },
+        "UIComponentList": {},
+        "Transform": {
+          "Position": {
+            "X": 5.860458021364025,
+            "Y": 1.0,
+            "Z": 3.4168259051400582
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.4254682064056396,
+            "Roll": 0.0
+          }
+        },
+        "Velocity": {
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "PrefabCopyable": {},
+        "Interactions": {
+          "Interactions": {
+            "Use": "*UseNPC"
+          }
+        },
+        "Model": {
+          "Model": {
+            "Id": "Tusken_Raider_Model",
+            "Scale": 0.8840179443359375,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "LidtlE2mOGO1pRyD/mCGEw==",
+            "$type": "04"
+          }
+        },
+        "EntityStats": {
+          "Version": 5,
+          "Stats": {
+            "Oxygen": {
+              "Id": "Oxygen",
+              "Value": 100.0
+            },
+            "Mana": {
+              "Id": "Mana",
+              "Value": 0.0
+            },
+            "Health": {
+              "Id": "Health",
+              "Value": 36.0
+            },
+            "GlidingActive": {
+              "Id": "GlidingActive",
+              "Value": 0.0
+            },
+            "Immunity": {
+              "Id": "Immunity",
+              "Value": 0.0
+            },
+            "SignatureCharges": {
+              "Id": "SignatureCharges",
+              "Value": 0.0
+            },
+            "Stamina": {
+              "Id": "Stamina",
+              "Value": 10.0
+            },
+            "Ammo": {
+              "Id": "Ammo",
+              "Value": 0.0
+            },
+            "Unknown": {
+              "Id": "Unknown",
+              "Value": 0.0
+            },
+            "SignatureEnergy": {
+              "Id": "SignatureEnergy",
+              "Value": 0.0
+            },
+            "DeployablePreview": {
+              "Id": "DeployablePreview",
+              "Value": 0.0
+            },
+            "StaminaRegenDelay": {
+              "Id": "StaminaRegenDelay",
+              "Value": 0.0
+            },
+            "MagicCharges": {
+              "Id": "MagicCharges",
+              "Value": 0.0
+            }
+          }
+        },
+        "NPC": {
+          "Version": 5,
+          "UUID": {
+            "$binary": "LidtlE2mOGO1pRyD/mCGEw==",
+            "$type": "04"
+          },
+          "Inventory": {
+            "Version": 4,
+            "Storage": {
+              "Id": "Empty"
+            },
+            "Armor": {
+              "Id": "Simple",
+              "Capacity": 4,
+              "Items": {}
+            },
+            "HotBar": {
+              "Id": "Simple",
+              "Capacity": 3,
+              "Items": {
+                "0": {
+                  "Id": "OrbisGalactic_Weapon_Blaster_CyclerRifle",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Utility": {
+              "Id": "Simple",
+              "Capacity": 2,
+              "Items": {
+                "0": {
+                  "Id": "Furniture_Crude_Torch",
+                  "Quantity": 1,
+                  "Durability": 0.0,
+                  "MaxDurability": 0.0,
+                  "OverrideDroppedItemAnimation": false
+                }
+              }
+            },
+            "Backpack": {
+              "Id": "Empty"
+            },
+            "ActiveHotbarSlot": 0,
+            "Tool": {
+              "Id": "Empty"
+            },
+            "ActiveToolsSlot": -1,
+            "ActiveUtilitySlot": -1,
+            "SortType": "Name"
+          },
+          "HvrPhs": 0.0,
+          "HvrHght": 0.0,
+          "MdlScl": 0.8840179443359375,
+          "SpawnInstant": "0001-04-29T12:00:01.000001952Z",
+          "WorldgenId": 0,
+          "PathManager": {},
+          "LeashPos": {
+            "X": -259.5,
+            "Y": 143.0,
+            "Z": 171.5
+          },
+          "LeashHdg": 0.0,
+          "LeashPtch": 0.0,
+          "RoleName": "TuskenRaider"
+        },
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.4254679679870605,
+            "Roll": 0.0
+          }
+        }
+      }
+    }
+  ]
+}

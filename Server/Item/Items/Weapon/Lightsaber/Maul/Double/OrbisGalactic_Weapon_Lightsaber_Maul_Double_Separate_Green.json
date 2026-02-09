@@ -57,35 +57,5 @@
     "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Green",
     "Held": "ROOT_Interaction_Lightsaber_Idle_Green"
   },
-  "InteractionVars": {
-    "Swing_Left_Effect": {
-      "Interactions": [
-        "Weapon_Daggers_Primary_Swing_Left_Custom_Green"
-      ]
-    },
-    "Swing_Right_Effect": {
-      "Interactions": [
-        "Weapon_Daggers_Primary_Swing_Right_Custom_Green"
-      ]
-    },
-    "Stab_Left_Effect": {
-      "Interactions": [
-        "Weapon_Daggers_Primary_Stab_Left_Custom_Green"
-      ]
-    },
-    "Stab_Right_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Daggers_Primary_Stab_Right_Custom_Green",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 10
-            }
-          },
-          "DamageEffects": {}
-        }
-      ]
-    }
-  },
   "Variant": true
 }

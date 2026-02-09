@@ -1,0 +1,22 @@
+{
+  "Appearance": "Blaster_Bolt_Red",
+  "PitchAdjustShot": true,
+  "SticksVertically": true,
+  "MuzzleVelocity": 100,
+  "TerminalVelocity": 300,
+  "Gravity": 0,
+  "Damage": 10,
+  "DeathEffectsOnHit": true,
+  "TimeToLive": 3.1,
+  "DeadTimeMiss": 0,
+  "ImpactSlowdown": 0,
+  "DepthShot": 0,
+  "DeathParticles": {
+    "SystemId": "ParticleSystem_Blaster_Bolt_Impact"
+  },
+  "VerticalCenterShot": 0.1,
+  "HitParticles": {
+    "SystemId": "ParticleSystem_Blaster_Bolt_Impact"
+  },
+  "HorizontalCenterShot": 0
+}

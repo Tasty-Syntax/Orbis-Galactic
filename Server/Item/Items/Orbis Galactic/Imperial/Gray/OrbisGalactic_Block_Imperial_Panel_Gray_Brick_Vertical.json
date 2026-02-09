@@ -3,7 +3,7 @@
     "Name": "Imperial Gray Panel Brick Vertical"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Gray_Brick_Vertical.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {
@@ -75,6 +75,6 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ]
 }

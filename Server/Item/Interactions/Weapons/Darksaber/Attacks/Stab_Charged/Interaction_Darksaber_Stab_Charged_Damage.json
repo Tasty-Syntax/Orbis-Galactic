@@ -2,7 +2,7 @@
   "Type": "DamageEntity",
   "DamageCalculator": {
     "BaseDamage": {
-      "Physical": 5
+      "Physical": 135
     }
   },
   "DamageEffects": {
@@ -12,8 +12,8 @@
       "RelativeZ": -5,
       "VelocityY": 5
     },
-    "WorldSoundEventId": "SFX_Sword_T2_Impact",
-    "LocalSoundEventId": "SFX_Sword_T2_Impact",
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Collision_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Collision_Local",
     "WorldParticles": [
       {
         "SystemId": "Impact_Blade_01"

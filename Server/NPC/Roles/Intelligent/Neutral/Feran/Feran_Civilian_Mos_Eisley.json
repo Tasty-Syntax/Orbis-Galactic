@@ -1,0 +1,19 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Kweebec_Sapling",
+  "Modify": {
+    "Appearance": "Feran_Civilian",
+    "MaxHealth": 49,
+    "IsMemory": true,
+    "MemoriesCategory": "Feran",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Feran_Civilian.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

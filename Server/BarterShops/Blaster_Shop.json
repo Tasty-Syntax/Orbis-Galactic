@@ -1,0 +1,43 @@
+{
+  "DisplayNameKey": "Bounty Hunter",
+  "RestockHour": 6,
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "Trades": [
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Weapon_Blaster_DC15A"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 5
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 15
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Weapon_Blaster_CyclerRifle"
+      }
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 50
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Weapon_Lightsaber_Darksaber",
+        "Quantity": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Blaster/Cycler_Rifle/Cycler_Rifle_Shoot_1.ogg",
+        "Sounds/Weapons/Blaster/Cycler_Rifle/Cycler_Rifle_Shoot_2.ogg",
+        "Sounds/Weapons/Blaster/Cycler_Rifle/Cycler_Rifle_Shoot_3.ogg",
+        "Sounds/Weapons/Blaster/Cycler_Rifle/Cycler_Rifle_Shoot_4.ogg"
+      ],
+      "RandomSettings": {
+        "MaxPitch": 0.5,
+        "MinPitch": -0.5
+      },
+      "RoundRobinHistorySize": 1
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons",
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Moderate"
+}

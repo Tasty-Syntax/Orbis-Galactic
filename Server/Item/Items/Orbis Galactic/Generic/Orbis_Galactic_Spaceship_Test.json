@@ -19,6 +19,7 @@
     "Group": "Ships",
     "Flags": {},
     "BlockParticleSetId": "Metal",
+    "VariantRotation": "NESW",
     "ParticleColor": "#b5b5b5",
     "BlockSoundSetId": "Dirt",
     "BlockBreakingDecalId": "Breaking_Decals_Soil",
@@ -33,13 +34,28 @@
     "RandomRotation": "None",
     "HitboxType": "Collision_HWK290",
     "InteractionHitboxType": "Collision_HWK290",
-    "Parent": "Rock_Bedrock",
     "Opacity": "Semitransparent",
     "Interactions": {
       "Use": {
         "Interactions": [
           "TeleportToSpaceship"
         ]
+      }
+    },
+    "CustomModelAnimation": "Resources/Animations/Blocks/HWK290_Landing_Animation.blockyanim",
+    "State": {
+      "Definitions": {
+        "Landed": {
+          "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+          "HitboxType": "Collision_HWK290",
+          "InteractionHitboxType": "Collision_HWK290"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "Quantity": 0
       }
     }
   },
@@ -50,16 +66,19 @@
   },
   "ItemSoundSetId": "ISS_Blocks_Soft",
   "IconProperties": {
-    "Scale": 0.1,
+    "Scale": 0.2,
     "Rotation": [
-      22.5,
+      15,
       45,
-      22.5
+      25
     ],
     "Translation": [
-      10,
+      2,
       -13.5
     ]
   },
-  "PlayerAnimationsId": "Block"
+  "PlayerAnimationsId": "Block",
+  "Scale": 0.25,
+  "Variant": false,
+  "Quality": "Developer"
 }

@@ -1,0 +1,17 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/NPC/Droid/Astromech/Idle_Beep_1.ogg",
+        "Sounds/NPC/Droid/Astromech/Idle_Beep_2.ogg",
+        "Sounds/NPC/Droid/Astromech/Idle_Beep_3.ogg",
+        "Sounds/NPC/Droid/Astromech/Idle_Beep_4.ogg"
+      ],
+      "RoundRobinHistorySize": 2,
+      "Looping": true,
+      "Volume": -5,
+      "Probability": 25
+    }
+  ],
+  "AudioCategory": "AudioCat_Footsteps"
+}

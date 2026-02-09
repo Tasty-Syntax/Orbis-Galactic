@@ -1,0 +1,88 @@
+{
+  "TranslationProperties": {
+    "Name": "Imperial Gray Brick Half"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Gray_Brick_Half.png",
+  "Set": "Imperial",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble",
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    },
+    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray_Brick_1.png"
+      }
+    ],
+    "HitboxType": "Block_Half",
+    "VariantRotation": "DoublePipe"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ]
+}

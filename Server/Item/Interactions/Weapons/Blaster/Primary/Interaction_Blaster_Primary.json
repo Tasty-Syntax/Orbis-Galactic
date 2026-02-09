@@ -1,0 +1,54 @@
+{
+  "Type": "Simple",
+  "Next": {
+    "Type": "StatsCondition",
+    "Costs": {
+      "Stamina": 0.1
+    },
+    "Next": {
+      "Type": "Parallel",
+      "Interactions": [
+        {
+          "Interactions": [
+            {
+              "Type": "Replace",
+              "Var": "Interaction_Blaster_Launch_Bolt",
+              "DefaultValue": {
+                "Interactions": [
+                  {
+                    "Type": "OrbisGalactic_ShootBlaster",
+                    "ImpactDamage": 10
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Interactions": [
+            {
+              "Type": "Replace",
+              "DefaultValue": {
+                "Interactions": [
+                  "Interaction_Blaster_Shoot_SFX_Base"
+                ]
+              },
+              "Var": "Interaction_Blaster_Shoot_SFX",
+              "DefaultOk": true
+            }
+          ]
+        },
+        {
+          "Interactions": [
+            {
+              "Type": "ChangeStat",
+              "StatModifiers": {
+                "Stamina": -1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

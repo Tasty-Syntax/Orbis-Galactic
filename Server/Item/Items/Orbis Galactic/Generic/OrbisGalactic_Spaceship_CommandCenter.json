@@ -1,24 +1,35 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Feran_Bookshelf.name"
+    "Name": "Command Center"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Blocks.Deco"
+    "OrbisGalactic.Misc"
   ],
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Spaceship_CommandCenter.png",
   "IconProperties": {
+    "Scale": 0.2,
     "Rotation": [
-      22.5,
+      23,
       45,
       22.5
     ],
-    "Scale": 0.45,
     "Translation": [
-      2,
-      -16
+      1,
+      -21
     ]
   },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Feran"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template",
+  "Animation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
   "BlockType": {
     "BlockParticleSetId": "Wood",
     "BlockSoundSetId": "Metal",
@@ -30,11 +41,6 @@
       }
     ],
     "DrawType": "Model",
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Woods"
-      }
-    },
     "ParticleColor": "#c7b885",
     "MaxSupportDistance": 8,
     "Support": {
@@ -84,16 +90,19 @@
     "Interactions": {
       "Use": "Spaceship_CommandCenter"
     },
-    "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim"
+    "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+    "State": {
+      "Definitions": {
+        "Idle": {
+          "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+          "Looping": true
+        }
+      }
+    },
+    "AmbientSoundEventId": "Spaceship_SFX_CommandCenter_Idle",
+    "Parent": "Rock_Bedrock"
   },
-  "Tags": {
-    "Type": [
-      "Furniture"
-    ],
-    "Family": [
-      "Feran"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Items_Metal",
-  "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template"
+  "DisplayEntityStatsHUD": [
+    "Idle"
+  ]
 }

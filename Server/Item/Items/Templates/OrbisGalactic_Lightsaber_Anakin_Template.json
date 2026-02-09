@@ -1,16 +1,24 @@
 {
   "Categories": [
-    "Items.Weapons"
+    "OrbisGalactic.Sabers"
   ],
   "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber",
   "Interactions": {
-    "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
     "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "RunRootInteraction",
+          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Default",
+          "RunTime": 0
+        },
+        {
+          "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
+    }
   },
   "InteractionVars": {
     "Longsword_Block_Damage": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -180,7 +188,8 @@
     ],
     "Family": [
       "Longsword"
-    ]
+    ],
+    "LightsaberItem": []
   },
   "Weapon": {
     "StatModifiers": {
@@ -202,5 +211,5 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Saber_Animate.blockyanim"
+  "Animation": "Resources/Animations/Lightsaber_Off.blockyanim"
 }

@@ -1,0 +1,77 @@
+{
+  "TranslationProperties": {
+    "Name": "Ship Hull"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Black.png",
+  "Set": "Ship",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Cube",
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    },
+    "Parent": "Rock_Bedrock"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ],
+  "ItemLevel": 0,
+  "Quality": "Developer"
+}

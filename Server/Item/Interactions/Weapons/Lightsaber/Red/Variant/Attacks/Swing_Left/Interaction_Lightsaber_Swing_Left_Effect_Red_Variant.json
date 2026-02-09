@@ -3,7 +3,7 @@
   "$Comment": "Length of Effect",
   "RunTime": 0.166,
   "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack",
-    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Red_Variant_Local",
+    "LocalSoundEventId": "OrbisGalactic_SFX_Lightsaber_Attack_Red_Variant_Local"
   }
 }

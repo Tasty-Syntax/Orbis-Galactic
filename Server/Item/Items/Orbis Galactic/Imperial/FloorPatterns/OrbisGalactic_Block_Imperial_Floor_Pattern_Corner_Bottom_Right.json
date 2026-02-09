@@ -3,7 +3,7 @@
     "Name": "Imperial Floor Pattern Corner Bottom Right"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Floor_Pattern_Corner_Bottom_Right.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {
@@ -75,6 +75,6 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ]
 }

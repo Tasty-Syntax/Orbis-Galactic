@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Feran_Bookshelf.name"
+    "Name": "Ship Controls"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Blocks.Deco"
+    "OrbisGalactic.Misc"
   ],
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Ship_Controls.png",
   "IconProperties": {

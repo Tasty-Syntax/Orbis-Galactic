@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "Spaceship Hangar Laser Door"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_Purple.png",
+  "Categories": [
+    "Blocks.Soils"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "ResourceTypes": [
+    {
+      "Id": "Soils"
+    }
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black.png",
+        "Weight": 1
+      }
+    ],
+    "BlockSoundSetId": "Dirt",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Dirt.png",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt"
+    ],
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "Particles": [
+      {
+        "SystemId": "OrbisGalactic_Laser_Door",
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 90
+        },
+        "PositionOffset": {
+          "Y": 0.25
+        }
+      }
+    ],
+    "Parent": "Rock_Bedrock"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "Quality": "Developer"
+}

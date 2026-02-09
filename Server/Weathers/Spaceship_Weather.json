@@ -1,0 +1,92 @@
+{
+  "Tags": {
+    "Zone2": [
+      "Sunny"
+    ]
+  },
+  "SkyTopColors": [
+    {
+      "Hour": 0,
+      "Color": "#000000ff"
+    }
+  ],
+  "SkyBottomColors": null,
+  "SkySunsetColors": [
+    {
+      "Hour": 0,
+      "Color": "#000000ff"
+    }
+  ],
+  "SunScales": [
+    {
+      "Hour": 0,
+      "Value": 0
+    },
+    {
+      "Hour": 22,
+      "Value": 0
+    }
+  ],
+  "MoonScales": [
+    {
+      "Hour": 0,
+      "Value": 0
+    },
+    {
+      "Hour": 2,
+      "Value": 0
+    }
+  ],
+  "FogColors": [
+    {
+      "Hour": 0,
+      "Color": "#000000"
+    }
+  ],
+  "SunGlowColors": [
+    {
+      "Hour": 0,
+      "Color": "#000000ff"
+    }
+  ],
+  "WaterTints": null,
+  "SunColors": [
+    {
+      "Hour": 0,
+      "Color": "#141010"
+    }
+  ],
+  "SunlightColors": [
+    {
+      "Hour": 0,
+      "Color": "#130e0e"
+    }
+  ],
+  "FogHeightFalloffs": null,
+  "FogDensities": null,
+  "ScreenEffectColors": null,
+  "MoonGlowColors": [
+    {
+      "Hour": 0,
+      "Color": "#000000ff"
+    }
+  ],
+  "MoonColors": [
+    {
+      "Hour": 0,
+      "Color": "#140a0aff"
+    }
+  ],
+  "SunlightDampingMultipliers": null,
+  "ColorFilters": [
+    {
+      "Hour": 0,
+      "Color": "#a7c7ee"
+    }
+  ],
+  "Stars": "Sky/Stars.png",
+  "Particle": {
+    "SystemId": "Spaceship_Space_Particles",
+    "OvergroundOnly": true
+  }
+}

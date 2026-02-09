@@ -1,0 +1,104 @@
+{
+  "RenderMode": "Distortion",
+  "EmitOffset": {
+    "X": {
+      "Min": -8,
+      "Max": 8
+    },
+    "Y": {
+      "Min": -5.5,
+      "Max": 4.5
+    },
+    "Z": {
+      "Min": -8.5,
+      "Max": 8.5
+    }
+  },
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 200,
+  "ParticleLifeSpan": {
+    "Min": 0.25,
+    "Max": 0.45
+  },
+  "SpawnRate": {
+    "Min": 90,
+    "Max": 140
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 10.0,
+      "Max": 15.0
+    },
+    "Yaw": {
+      "Min": 180,
+      "Max": 180
+    },
+    "Pitch": {
+      "Min": -3,
+      "Max": 3
+    }
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Ray.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 96
+    },
+    "ScaleRatioConstraint": "Preserved",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Color": "#ff2a2a",
+        "Rotation": {
+          "Y": {
+            "Min": 90
+          }
+        }
+      },
+      "10": {
+        "Opacity": 0.8
+      },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 0.15,
+            "Max": 0.35
+          },
+          "Y": {
+            "Min": 1.5,
+            "Max": 3.5
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.15,
+          "Max": 0.35
+        },
+        "Y": {
+          "Min": 1.5,
+          "Max": 3.5
+        }
+      },
+      "Opacity": 1,
+      "Color": "#ff2a2a",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    },
+    "UseSpriteBlending": false
+  },
+  "Shape": "Sphere",
+  "SpawnBurst": true,
+  "LifeSpan": 12
+}

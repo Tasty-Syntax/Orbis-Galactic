@@ -1,0 +1,23 @@
+{
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "Resources/BlockTextures/Building/Imperial/Imperial_Window.png"
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "RequiresAlphaBlending": true,
+    "Parent": "Rock_Bedrock",
+    "BlockSoundSetId": "Crystal"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Center.png",
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ],
+  "TranslationProperties": {
+    "Name": "Imperial Ship Window"
+  },
+  "ItemSoundSetId": "ISS_Items_Gems"
+}

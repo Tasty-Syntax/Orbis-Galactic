@@ -4,7 +4,7 @@
   "AudioCategory": "AudioCat_Sword",
   "Layers": [
     {
-      "Volume": 0,
+      "Volume": -5,
       "Files": [
         "Sounds/Weapons/Lightsaber/Default/Lightsaber_Idle_Local.ogg"
       ],

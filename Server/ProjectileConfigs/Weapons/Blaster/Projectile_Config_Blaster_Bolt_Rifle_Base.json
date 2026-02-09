@@ -1,0 +1,34 @@
+{
+  "SpawnRotationOffset": {
+    "Pitch": 0,
+    "Yaw": 0,
+    "Roll": 0
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 0,
+    "TerminalVelocityAir": 50,
+    "TerminalVelocityWater": 50,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0.0,
+    "SticksVertically": true,
+    "BounceLimit": 0,
+    "BounceCount": 0
+  },
+  "LaunchForce": 100,
+  "SpawnOffset": {
+    "X": 0,
+    "Y": 0,
+    "Z": 0
+  },
+  "Interactions": {
+    "ProjectileHit": {},
+    "ProjectileMiss": {
+      "Interactions": [
+        "Interaction_Blaster_Projectile_Despawn"
+      ]
+    }
+  },
+  "Model": "Blaster_Bolt_Red",
+  "Parent": "Projectile_Config_Arrow_Base"
+}

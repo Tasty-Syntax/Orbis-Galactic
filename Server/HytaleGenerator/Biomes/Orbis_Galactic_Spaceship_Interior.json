@@ -11,35 +11,6 @@
 			"Value":	1
 		}
 	},
-	"MaterialProvider":	{
-		"$NodeId":	"SolidityMaterialProvider-cacefa0e-770a-4cfa-b25e-f83c9daade94",
-		"Type":	"Solidity",
-		"Solid":	{
-			"$NodeId":	"QueueMaterialProvider-a0459aff-7a26-40d0-bf74-83fe16cc78da",
-			"Type":	"Queue",
-			"Queue":	[{
-					"$NodeId":	"ConstantMaterialProvider-15ae7cde-0cb2-4db6-8fe7-c5e4ff3a1180",
-					"Type":	"Constant",
-					"Material":	{
-						"$NodeId":	"Material-5fe4c223-aa70-4c99-a920-6864ad5fa2ba",
-						"Solid":	"Rock_Stone"
-					}
-				}]
-		},
-		"Empty":	{
-			"$NodeId":	"QueueMaterialProvider-0c2236df-ecf9-4ac2-9698-a7768b8fff4f",
-			"Type":	"Queue",
-			"Queue":	[{
-					"$NodeId":	"ConstantMaterialProvider-ed136bfe-0213-4988-a672-edd06da78ed7",
-					"$Comment":	"REQUIRED",
-					"Type":	"Constant",
-					"Material":	{
-						"$NodeId":	"Material-7924dafc-9f80-4f8c-b3ac-1c06036daa0e",
-						"Solid":	"Empty"
-					}
-				}]
-		}
-	},
 	"Props":	[{
 			"$NodeId":	"Runtime-9e07d6a7-c7ce-4353-b1a4-f9de7526da5d",
 			"Skip":	false,
@@ -79,7 +50,7 @@
 							"Skip":	false,
 							"Material":	{
 								"$NodeId":	"Material-1a582f90-5c0c-4a74-a82b-f7b1e535df0c",
-								"Solid":	"Rock_Stone"
+								"Solid":	"Empty"
 							}
 						}
 					},
@@ -99,6 +70,11 @@
 				}
 			}
 		}],
+	"EnvironmentProvider":	{
+		"$NodeId":	"Constant.EnvironmentProvider-3a47d11f-3572-4fd8-9e5e-e5af280b1f18",
+		"Type":	"Constant",
+		"Environment":	"Env_OrbisGalactic_Spaceship"
+	},
 	"TintProvider":	{
 		"$NodeId":	"Constant.TintProvider-5beea414-67c2-40c9-ab41-c869f1c0ff01",
 		"Type":	"Constant",
@@ -340,9 +316,43 @@
 					"$x":	-1032,
 					"$y":	-3772
 				}
+			},
+			"Constant.EnvironmentProvider-3a47d11f-3572-4fd8-9e5e-e5af280b1f18":	{
+				"$Position":	{
+					"$x":	-3334,
+					"$y":	-3067
+				}
 			}
 		},
 		"$FloatingNodes":	[{
+				"$NodeId":	"SolidityMaterialProvider-cacefa0e-770a-4cfa-b25e-f83c9daade94",
+				"Type":	"Solidity",
+				"Solid":	{
+					"$NodeId":	"QueueMaterialProvider-a0459aff-7a26-40d0-bf74-83fe16cc78da",
+					"Type":	"Queue",
+					"Queue":	[{
+							"$NodeId":	"ConstantMaterialProvider-15ae7cde-0cb2-4db6-8fe7-c5e4ff3a1180",
+							"Type":	"Constant",
+							"Material":	{
+								"$NodeId":	"Material-5fe4c223-aa70-4c99-a920-6864ad5fa2ba",
+								"Solid":	"Rock_Stone"
+							}
+						}]
+				},
+				"Empty":	{
+					"$NodeId":	"QueueMaterialProvider-0c2236df-ecf9-4ac2-9698-a7768b8fff4f",
+					"Type":	"Queue",
+					"Queue":	[{
+							"$NodeId":	"ConstantMaterialProvider-ed136bfe-0213-4988-a672-edd06da78ed7",
+							"$Comment":	"REQUIRED",
+							"Type":	"Constant",
+							"Material":	{
+								"$NodeId":	"Material-7924dafc-9f80-4f8c-b3ac-1c06036daa0e",
+								"Solid":	"Empty"
+							}
+						}]
+				}
+			}, {
 				"$NodeId":	"Point3D-588ec54a-33fc-49c2-81ff-9b0ce45faa46",
 				"X":	50,
 				"Y":	0,

@@ -1,0 +1,44 @@
+{
+  "DisplayNameKey": "Scrap Trader",
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "RestockHour": 6,
+  "Trades": [
+    {
+      "Input": [
+        {
+          "Quantity": 100,
+          "ItemId": "OrbisGalactic_Scrap_Metal"
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Speeder_Bike"
+      },
+      "Stock": 2
+    },
+    {
+      "Output": {
+        "ItemId": "Egg_Spawner_R2"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Scrap_Metal",
+          "Quantity": 50
+        }
+      ],
+      "Stock": 2
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Scrap_Metal",
+          "Quantity": 20
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Galactic_Credit_Silver"
+      }
+    }
+  ]
+}

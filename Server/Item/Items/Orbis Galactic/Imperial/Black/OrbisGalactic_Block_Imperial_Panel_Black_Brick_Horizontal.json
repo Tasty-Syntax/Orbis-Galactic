@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "Imperial Black Panel Brick Vertical"
+    "Name": "Imperial Black Panel Brick Horizontal"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Black_Brick_Horizontal.png",
-  "Set": "Rock_Marble",
+  "Set": "Imperial",
   "Recipe": {
     "Input": [
       {
@@ -75,6 +75,6 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ]
 }

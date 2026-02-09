@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Scrap_Metal.name",
+    "Description": "server.items.OrbisGalactic_Scrap_Metal.description"
+  },
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ],
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      34.315,
+      29.815,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -1
+    ]
+  },
+  "Scale": 1.2,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Scrap_Metal.png",
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ],
+    "Family": [
+      "Crystal"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "Model": "Resources/ItemModels/ScrapMetal.blockymodel",
+  "Texture": "Resources/ItemTextures/Scrap_Metal_Texture.png"
+}

@@ -1,0 +1,196 @@
+{
+  "StartState": "Idle",
+  "DefaultSubState": "Default",
+  "Type": "Generic",
+  "Appearance": "OrbisGalactic_Model_R2_Blue",
+  "Invulnerable": false,
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 15,
+      "Gravity": 10,
+      "MaxFallSpeed": 8,
+      "Acceleration": 10,
+      "HoverFreq": 0.2,
+      "MaxClimbHeight": 10
+    }
+  ],
+  "MaxHealth": 50,
+  "Instructions": [
+    {
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Despawn"
+          },
+          "ActionsAtomic": true,
+          "Instructions": [
+            {
+              "Sensor": {
+                "Type": "Any",
+                "Once": true
+              },
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "DropItem",
+                  "Item": "Egg_Spawner_R2",
+                  "Distance": [
+                    0,
+                    0
+                  ],
+                  "ThrowSpeed": 8,
+                  "Once": true
+                }
+              ]
+            },
+            {
+              "ActionsBlocking": true,
+              "Actions": [
+                {
+                  "Type": "Despawn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Idle"
+          },
+          "Instructions": [
+            {
+              "Sensor": {
+                "Type": "State",
+                "State": ".Default"
+              },
+              "Instructions": [
+                {
+                  "Sensor": {
+                    "Type": "Player",
+                    "Range": 10,
+                    "LockOnTarget": true
+                  },
+                  "Instructions": [
+                    {
+                      "$Comment": "Strafe when grouped up",
+                      "Sensor": {
+                        "Type": "Mob",
+                        "Range": 2,
+                        "ExcludeOwnType": false,
+                        "LockOnTarget": false,
+                        "Filters": [
+                          {
+                            "Type": "NPCGroup",
+                            "IncludeGroups": [
+                              "Self"
+                            ]
+                          },
+                          {
+                            "Type": "ViewSector",
+                            "ViewSector": 35
+                          }
+                        ]
+                      },
+                      "BodyMotion": {
+                        "Type": "MaintainDistance",
+                        "DesiredDistanceRange": [
+                          2,
+                          3
+                        ],
+                        "StrafingDurationRange": [
+                          1,
+                          2
+                        ],
+                        "StrafingFrequencyRange": [
+                          1,
+                          1
+                        ],
+                        "MoveThreshold": 0.5,
+                        "RelativeForwardsSpeed": 0.75,
+                        "RelativeBackwardsSpeed": 0.25
+                      }
+                    },
+                    {
+                      "Sensor": {
+                        "Type": "Target"
+                      },
+                      "BodyMotion": {
+                        "Type": "Seek",
+                        "SlowDownDistance": 5,
+                        "StopDistance": 3,
+                        "RelativeSpeed": 0.5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target",
+                    "Range": 20
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "SlowDownDistance": 5,
+                    "StopDistance": 3,
+                    "RelativeSpeed": 1
+                  }
+                },
+                {
+                  "Sensor": {
+                    "Type": "Target"
+                  },
+                  "BodyMotion": {
+                    "Type": "Teleport",
+                    "OffsetRange": [
+                      2,
+                      2
+                    ],
+                    "MaxYOffset": 2
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "InteractionInstruction": {
+    "Instructions": [
+      {
+        "Continue": true,
+        "Sensor": {
+          "Type": "Any"
+        },
+        "Actions": [
+          {
+            "Type": "SetInteractable",
+            "Interactable": true
+          }
+        ]
+      },
+      {
+        "Sensor": {
+          "Type": "HasInteracted"
+        },
+        "Instructions": [
+          {
+            "Actions": [
+              {
+                "Type": "LockOnInteractionTarget"
+              },
+              {
+                "Type": "State",
+                "State": "Despawn"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "NameTranslationKey": "R2D2"
+}

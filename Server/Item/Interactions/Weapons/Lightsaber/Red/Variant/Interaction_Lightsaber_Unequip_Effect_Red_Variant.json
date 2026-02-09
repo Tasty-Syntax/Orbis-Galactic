@@ -3,7 +3,7 @@
   "$Comment": "Length of Effect",
   "RunTime": 0,
   "Effects": {
-    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip"
+    "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Red_Variant_Local"
   },
   "CancelOnItemChange": true
 }

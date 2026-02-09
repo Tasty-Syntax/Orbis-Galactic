@@ -1,0 +1,84 @@
+{
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Speeder_Bike.png",
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "SpawnNPC",
+          "EntityId": "Speeder_Bike",
+          "SpawnOffset": {
+            "Z": 0,
+            "Y": 1
+          },
+          "Next": {
+            "Type": "ModifyInventory",
+            "AdjustHeldItemQuantity": -1
+          }
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "CustomModel": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "BlockParticleSetId": "Metal",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full",
+          "Support": "Ignored"
+        }
+      ]
+    },
+    "ParticleColor": "#5c646d",
+    "BlockSoundSetId": "Metal",
+    "CubeShadingMode": "Standard",
+    "CustomModelScale": 0.5,
+    "Light": {
+      "Radius": 0,
+      "Color": "#520"
+    },
+    "DrawType": "Model"
+  },
+  "PlayerAnimationsId": "Item",
+  "Model": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.png",
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      21,
+      327,
+      349
+    ],
+    "Translation": [
+      -9,
+      -48
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rail"
+    ]
+  },
+  "MaxStack": 1,
+  "RenderDeployablePreview": true,
+  "Quality": "Rare",
+  "ItemLevel": 25,
+  "TranslationProperties": {
+    "Name": "Speeder Bike",
+    "Description": ""
+  },
+  "Scale": 1.5,
+  "UsePlayerAnimations": true,
+  "Parent": "OrbisGalactic_Land_Vehicle_Template"
+}

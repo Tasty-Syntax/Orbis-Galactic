@@ -1,0 +1,18 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 1.5,
+  "Effects": {
+    "WorldSoundEventId": "SFX_Blaster_Shoot_Cycler_Rifle",
+    "LocalSoundEventId": "SFX_Blaster_Shoot_Cycler_Rifle",
+    "ItemPlayerAnimationsId": {
+      "Animations": {
+        "Shoot": {
+          "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/Cycler_Rifle/Cycler_Rifle_Shoot.blockyanim",
+          "BlendingDuration": 0.05
+        }
+      }
+    },
+    "ItemAnimationId": "Shoot"
+  }
+}

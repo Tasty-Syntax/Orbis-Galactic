@@ -1,0 +1,9 @@
+{
+  "Type": "CameraShake",
+  "CameraShake": "OrbisGalactic_Hyperwarp_Fast",
+  "Intensity": {
+    "Value": 0.05
+  }
+}
+
+

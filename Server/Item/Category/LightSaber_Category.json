@@ -1,0 +1,41 @@
+{
+  "Icon": "Icons/ItemCategories/Items-Weapons.png",
+  "Order": 4,
+  "Children": [
+    {
+      "Id": "Single Lightsabers",
+      "Name": "SingleLightsabers",
+      "Icon": "Icons/ItemCategories/Hypixel.png"
+    },
+    {
+      "Id": "Double Lightsabers",
+      "Name": "DoubleLightsabers",
+      "Icon": "Icons/ItemCategories/Hypixel.png"
+    },
+    {
+      "Id": "DoubleLightsabersSeparate",
+      "Name": "Double Lightsabers (Separate)",
+      "Icon": "Icons/ItemCategories/Hypixel.png"
+    },
+    {
+      "Id": "Blasters",
+      "Name": "Blasters",
+      "Icon": "Icons/ItemCategories/Hypixel.png"
+    },
+    {
+      "Id": "Ingredients",
+      "Name": "Ingredients",
+      "Icon": "Icons/ItemCategories/Hypixel.png"
+    },
+    {
+      "Id": "Ores",
+      "Name": "Ores",
+      "Icon": "Icons/ItemCategories/Hypixel.png"
+    },
+    {
+      "Id": "OtherWeapons",
+      "Name": "Other weapons",
+      "Icon": "Icons/ItemCategories/Hypixel.png"
+    }
+  ]
+}

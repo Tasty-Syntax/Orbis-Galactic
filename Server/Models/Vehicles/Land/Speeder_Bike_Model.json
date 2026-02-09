@@ -1,11 +1,11 @@
 {
-  "Model": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
-  "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png",
+  "Model": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+  "Texture": "NPC/Vehicles/Speeder_Bike/Models/Speeder_Bike.png",
   "EyeHeight": 1.2,
   "HitBox": {
     "Max": {
       "X": 0.5,
-      "Y": 1,
+      "Y": 1.5,
       "Z": 0.5
     },
     "Min": {
@@ -22,10 +22,6 @@
   },
   "Opacity": "Transparent",
   "RequiresAlphaBlending": true,
-  "Light": {
-    "Radius": 15,
-    "Color": "#fc4"
-  },
   "Icon": "Icons/ModelsGenerated/Speeder_Bike_Model.png",
   "IconProperties": {
     "Scale": 0.2,
@@ -42,17 +38,28 @@
   "Camera": {
     "PositionOffset": {
       "X": 0,
-      "Y": 0,
+      "Y": 2,
       "Z": 0
     }
   },
   "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
+          "Looping": true,
+          "SoundEventId": "SFX_Speeder_Idle",
+          "PassiveLoopCount": 1,
+          "BlendingDuration": 1
+        }
+      ]
+    },
     "Walk": {
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Looping": true,
-          "Speed": 1,
+          "Speed": 0.5,
           "BlendingDuration": 0.6,
           "SoundEventId": "SFX_Speeder_Idle"
         }
@@ -62,13 +69,17 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover_Forward.blockyanim",
-          "Speed": 3,
-          "BlendingDuration": 0.6,
+          "Speed": 1,
+          "BlendingDuration": 0,
           "Looping": true,
           "SoundEventId": "SFX_Speeder_Move",
           "Weight": 1
         }
-      ]
+      ],
+      "NextAnimationDelay": {
+        "Min": 0,
+        "Max": 0
+      }
     },
     "Sprint": {
       "Animations": [
@@ -82,75 +93,64 @@
         }
       ]
     },
-    "Jump": {
-      "Animations": [
-        {
-          "Looping": false,
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Jump.blockyanim",
-          "BlendingDuration": 0.1,
-          "Weight": 1,
-          "SoundEventId": "Motorcycle_Jump"
-        }
-      ],
-      "NextAnimationDelay": {
-        "Min": 0
-      }
-    },
     "Fall": {
-      "Animations": [
-        {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Fall.blockyanim",
-          "Looping": true,
-          "BlendingDuration": 0.6
-        }
-      ]
-    },
-    "Idle": {
       "Animations": [
         {
           "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Looping": true,
-          "SoundEventId": "SFX_Speeder_Idle"
-        }
-      ]
-    },
-    "Sleep": {
-      "Animations": [
-        {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Idle.blockyanim",
-          "Looping": true
-        }
-      ]
-    },
-    "Laydown": {
-      "Animations": [
-        {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Idle.blockyanim",
-          "Looping": true
+          "BlendingDuration": 0.6
         }
       ]
     },
     "WalkBackward": {
       "Animations": [
         {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Walk_Backward.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Speed": 1,
           "Looping": true,
-          "BlendingDuration": 0.6,
-          "SoundEventId": "Motorcycle_Idle"
+          "BlendingDuration": 0.6
         }
       ]
     },
     "RunBackward": {
       "Animations": [
         {
-          "Animation": "NPC/Vehicle/Motorcycle/Animations/Walk_Backward.blockyanim",
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Hover.blockyanim",
           "Speed": 2,
           "Looping": true,
-          "BlendingDuration": 0.6,
-          "SoundEventId": "Motorcycle_Idle"
+          "BlendingDuration": 0.6
         }
       ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Looping": false,
+          "Animation": "Characters/Animations/NPC/Default/Speeder_Bike/Speederbike_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Weight": 1,
+          "SoundEventId": "SFX_Speeder_Move"
+        }
+      ],
+      "NextAnimationDelay": {
+        "Min": 0
+      }
     }
-  }
+  },
+  "Trails": [
+    {
+      "TrailId": "Bear_Claw",
+      "PositionOffset": {
+        "X": -0.4,
+        "Z": -1.45
+      }
+    },
+    {
+      "TrailId": "Bear_Claw",
+      "PositionOffset": {
+        "X": 0.4,
+        "Z": -1.45
+      }
+    }
+  ]
 }

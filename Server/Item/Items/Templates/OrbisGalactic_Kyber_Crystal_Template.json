@@ -4,7 +4,7 @@
     "Name": "server.items.Ore_Kyber_Crystal_Blue.name"
   },
   "Categories": [
-    "Blocks.Ores"
+    "OrbisGalactic.Misc"
   ],
   "Model": "Resources/BlockModels/Kyber_Ore_Large.blockymodel",
   "ItemLevel": 10,

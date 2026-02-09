@@ -42,7 +42,8 @@
       "BlockPreviewVisibility": "AlwaysVisible"
     },
     "Group": "Stone",
-    "BlockSoundSetId": "Metal"
+    "BlockSoundSetId": "Metal",
+    "VariantRotation": "NESW"
   },
   "ResourceTypes": [
     {
@@ -67,9 +68,10 @@
     ]
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Blocks"
   ],
   "ItemSoundSetId": "ISS_Items_Metal",
   "Set": "Imperial",
-  "PlayerAnimationsId": "Block"
+  "PlayerAnimationsId": "Block",
+  "Quality": "Template"
 }

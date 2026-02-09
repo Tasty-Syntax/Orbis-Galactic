@@ -1,0 +1,112 @@
+{
+  "TranslationProperties": {
+    "Name": "GBL Music Player (Cantina)"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_SFX_Cantina_Music.png",
+  "Categories": [
+    "OrbisGalactic.Decorative Blocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "ResourceTypes": [
+    {
+      "Id": "Soils"
+    }
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils"
+      }
+    },
+    "BlockParticleSetId": "Dirt",
+    "ParticleColor": "#98743b",
+    "TransitionTexture": "BlockTextures/Transition_Soil_Dirt.png",
+    "TransitionToGroups": [
+      "Stone",
+      "Dirt"
+    ],
+    "Looping": true,
+    "CustomModel": "NPC/Intelligent/Tatooine/CantinaGuy/GBL.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/GBL_Box.png"
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "On": {
+          "InteractionHint": "server.interactionHints.turnoff",
+          "InteractionSoundEventId": "SFX_Lamp_On",
+          "AmbientSoundEventId": "Cantina_Band",
+          "Opacity": "Solid",
+          "CubeShadingMode": "Standard",
+          "Looping": true,
+          "DrawType": "Model",
+          "CustomModelTexture": [
+            {
+              "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/GBL_Box.png"
+            }
+          ],
+          "CustomModel": "NPC/Intelligent/Tatooine/CantinaGuy/GBL.blockymodel",
+          "Material": "Solid"
+        },
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "AmbientSoundEventId": null,
+          "InteractionSoundEventId": "SFX_Lamp_Off",
+          "DrawType": "Model",
+          "CustomModel": "NPC/Intelligent/Tatooine/CantinaGuy/GBL.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/GBL_Box.png"
+            }
+          ],
+          "Material": "Solid"
+        }
+      }
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "On",
+              "On": "Off",
+              "Off": "On"
+            }
+          }
+        ]
+      }
+    },
+    "InteractionHitboxType": "OrbisGalactic_GBL_Hitbox",
+    "HitboxType": "OrbisGalactic_GBL_Hitbox",
+    "BlockSoundSetId": "Metal"
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Scale": 1.5
+}

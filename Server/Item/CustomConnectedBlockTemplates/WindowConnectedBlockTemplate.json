@@ -1,0 +1,350 @@
+{
+  "ConnectsToOtherMaterials": true,
+  "DefaultShape": "Default",
+  "Shapes": {
+    "Full": {
+      "FaceTags": {
+        "East": [
+          "BookshelfConnection"
+        ],
+        "West": [
+          "BookshelfConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Right": {
+      "FaceTags": {
+        "East": [
+          "BookshelfConnection"
+        ],
+        "West": [
+          "BookshelfConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "BookshelfConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Left": {
+      "FaceTags": {
+        "East": [
+          "BookshelfConnection"
+        ],
+        "West": [
+          "BookshelfConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "BookshelfConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Middle": {
+      "FaceTags": {
+        "East": [
+          "BookshelfConnection"
+        ],
+        "West": [
+          "BookshelfConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "BookshelfConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Corner": {
+      "FaceTags": {
+        "South": [
+          "BookshelfConnection"
+        ],
+        "West": [
+          "BookshelfConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "Shapes": [
+                "Bookshelf_Full|Yaw=270",
+                "Bookshelf_Middle|Yaw=270",
+                "Bookshelf_Right|Yaw=270",
+                "Bookshelf_Left|Yaw=270",
+                "Bookshelf_Corner|Yaw=270"
+              ]
+            }
+          ]
+        },
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "YawToApplyAddReplacedBlockType": "Ninety",
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "Shapes": [
+                "Bookshelf_Full|Yaw=90",
+                "Bookshelf_Middle|Yaw=90",
+                "Bookshelf_Right|Yaw=90",
+                "Bookshelf_Left|Yaw=90",
+                "Bookshelf_Corner|Yaw=90"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Left_Single": {
+      "FaceTags": {
+        "East": [
+          "BookshelfConnection"
+        ],
+        "West": [
+          "BookshelfConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "BookshelfConnection"
+                ],
+                "West": [
+                  "BookshelfConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

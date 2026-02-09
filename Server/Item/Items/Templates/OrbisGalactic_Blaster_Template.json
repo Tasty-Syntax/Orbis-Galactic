@@ -1,0 +1,56 @@
+{
+  "Interactions": {
+    "Primary": {
+      "Tags": {
+        "Attack": [
+          "Ranged"
+        ]
+      },
+      "Interactions": [
+        "Interaction_Blaster_Primary"
+      ],
+      "Cooldown": {
+        "Cooldown": 0.1
+      }
+    },
+    "Secondary": {
+      "Interactions": [
+        "Blaster_Melee"
+      ]
+    }
+  },
+  "InteractionVars": {
+    "Interaction_Blaster_Launch_Bolt": {
+      "Interactions": [
+        "Interaction_Blaster_Launch_Bolt_Base"
+      ]
+    },
+    "Interaction_Blaster_Shoot_SFX": {
+      "Interactions": [
+        "Interaction_Blaster_Shoot_SFX_Base"
+      ]
+    },
+    "Blaster_Swing_Left_Damage": {
+      "Interactions": [
+        "Blaster_Swing_Left_Damage"
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Blaster"
+    ]
+  },
+  "Quality": "Template",
+  "ItemSoundSetId": "ISS_Items_Gadget",
+  "Model": "Items/Weapons/Blaster_DC15A/Blaster_DC15A_Model.blockymodel",
+  "PlayerAnimationsId": "Blaster",
+  "Categories": [
+    "OrbisGalactic.Blasters"
+  ],
+  "ItemLevel": 15,
+  "MaxStack": 1
+}

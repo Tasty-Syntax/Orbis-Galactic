@@ -1115,11 +1115,11 @@
         {
           "id": "23",
           "name": "Blade",
-          "position": {"x": 1.32311, "y": -8, "z": -3.15342},
+          "position": {"x": -0.125, "y": 66.94913, "z": -0.125},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": -1.44811, "y": 74.94913, "z": 3.02842},
+            "offset": {"x": 0, "y": 0, "z": 0},
             "stretch": {"x": 0.375, "y": 1, "z": 0.375},
             "settings": {
               "isPiece": false,

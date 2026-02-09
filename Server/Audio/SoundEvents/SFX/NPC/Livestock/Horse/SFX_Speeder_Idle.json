@@ -1,15 +1,10 @@
 {
   "Layers": [
     {
-      "RandomSettings": {
-        "MinPitch": -2,
-        "MaxPitch": 2,
-        "MinVolume": 0
-      },
       "Volume": -3.2,
       "Looping": true,
       "Files": [
-        "Sounds/NPC/Speeder_Bike_Idle_Alternative.ogg"
+        "Sounds/NPC/Speeder_Bike_Idle.ogg"
       ]
     }
   ],

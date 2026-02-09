@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "Imperial Ship Window Center Top Right"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Top_Right.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Furnace",
+        "Type": "Processing"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Textures": [
+      {
+        "Weight": 1,
+        "North": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Corner_Top_Left.png",
+        "South": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Corner_Top_Right.png",
+        "Down": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "Up": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "UpDown": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "West": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "East": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png"
+      }
+    ],
+    "ParticleColor": "#bbbbaf",
+    "CubeShadingMode": "Standard",
+    "DrawType": "Cube",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#bbb"
+          }
+        }
+      }
+    },
+    "RequiresAlphaBlending": true,
+    "Parent": "Rock_Bedrock"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Marble"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Metal"
+    ]
+  },
+  "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ],
+  "Quality": "Developer",
+  "Set": "Imperial"
+}

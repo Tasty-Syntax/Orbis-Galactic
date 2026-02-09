@@ -36,10 +36,10 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Interaction_Lightsaber_Stab_Charged_Damage"
+                      "Interaction_Darksaber_Stab_Charged_Damage"
                     ]
                   },
-                  "Var": "Lightsaber_Stab_Charged_Damage"
+                  "Var": "Darksaber_Stab_Charged_Damage"
                 }
               ]
             },

@@ -1,0 +1,591 @@
+{
+  "Model": "NPC/Intelligent/Droids/R2_Droid.blockymodel",
+  "Texture": "NPC/Intelligent/Droids/R2_Texture_Imperial.png",
+  "EyeHeight": 1,
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "AnimationSets": {
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Spawn.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false
+        }
+      ]
+    },
+    "Despawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Despawn.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Idle": {
+      "Animations": [
+        {
+          "Speed": 0.5,
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Idle.blockyanim",
+          "Looping": false,
+          "SoundEventId": "Astromech_Idle_Sounds"
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Speed": 1,
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Move.blockyanim",
+          "SoundEventId": "Astromech_Move_Sounds",
+          "Looping": true,
+          "BlendingDuration": 0.2,
+          "PassiveLoopCount": 2
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Walk_Backward.blockyanim",
+          "Speed": 0.9
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Intelligent/Droids/R2/R2_Move.blockyanim",
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Crouch.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.5
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Crouch_Walk.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 1.2
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Crouch_Walk_Backward.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 1.2
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Jump_Far.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        },
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Jump_Far2.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Fall.blockyanim",
+          "BlendingDuration": 0.4,
+          "Looping": true
+        },
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Fall2.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "FallFar": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Fall_Far.blockyanim",
+          "BlendingDuration": 0.4,
+          "Looping": true
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Alerted.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Fly/Fly_Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Fly/Fly.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Fly/Fly_Backward.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Fly/Fly_Fast.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Idle.blockyanim"
+        }
+      ]
+    },
+    "Swim": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Backward.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Fast.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimJump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "Speed": 0.8
+        }
+      ]
+    },
+    "SwimFloat": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Float.blockyanim"
+        }
+      ]
+    },
+    "SwimSink": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Sink.blockyanim"
+        }
+      ]
+    },
+    "SwimDive": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Dive.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "SwimDiveBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Dive_Backward.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "SwimDiveFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Dive_Fast.blockyanim",
+          "Speed": 0.6
+        },
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Swim/Swim_Dive_Fast2.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Idle.blockyanim",
+          "Speed": 0.3
+        }
+      ]
+    },
+    "FluidWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Walk.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Walk_Backward.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Run.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "ClimbIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Climb/Climb_Idle.blockyanim",
+          "Speed": 0.5
+        }
+      ]
+    },
+    "ClimbUp": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Climb/Climb_Up.blockyanim"
+        }
+      ]
+    },
+    "ClimbDown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Climb/Climb_Down.blockyanim"
+        }
+      ]
+    },
+    "ClimbLeft": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Climb/Climb_Left.blockyanim"
+        }
+      ]
+    },
+    "ClimbRight": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Climb/Climb_Right.blockyanim"
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Intelligent/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Damage/Death.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Laydown.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Sleep.blockyanim"
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Default/Wake.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Sit": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Sit.blockyanim"
+        }
+      ]
+    },
+    "Feed": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Feed.blockyanim"
+        }
+      ]
+    },
+    "Wave": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Wave.blockyanim"
+        }
+      ]
+    },
+    "DanceRain": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Dance_Rain.blockyanim"
+        }
+      ]
+    },
+    "SitDown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Sit_Down.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "SitUp": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Sit_Up.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "RestDown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Rest_Down.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Rest": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Rest.blockyanim"
+        }
+      ]
+    },
+    "RestUp": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Rest_Up.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Yawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Yawn.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Flee": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Flee.blockyanim"
+        }
+      ]
+    },
+    "Happy": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Intelligent/Happy.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Scared": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Scared.blockyanim"
+        }
+      ]
+    },
+    "Petrified": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Petrified.blockyanim"
+        }
+      ]
+    },
+    "LookAround": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/NPC/Intelligent/Look_Around.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Cheer": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Cheer.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Interact": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Interact.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "FixHat": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Fix_Hat.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Pet": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Pet.blockyanim"
+        }
+      ]
+    },
+    "Shoo": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Shoo.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Celebrate": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Celebrate.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "InspectWeapon": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Inspect_Weapon.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "TauntSpear": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Taunt_Spear.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Console": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Console.blockyanim",
+          "Looping": true
+        },
+        {
+          "Animation": "NPC/Intelligent/Kweebec_Sapling/Animations/Flavor/Console2.blockyanim",
+          "Looping": true
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -44
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1
+}
