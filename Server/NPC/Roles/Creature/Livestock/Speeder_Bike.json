@@ -11,7 +11,7 @@
     "MountMovementConfig": "Mount_Speeder_Bike",
     "MountAnchorX": 0,
     "MountAnchorY": 1.4,
-    "MountAnchorZ": 0.8,
+    "MountAnchorZ": 0,
     "AttackWhenStartled": false,
     "MaxRotationSpeed": 2,
     "AttackRange": 1,
