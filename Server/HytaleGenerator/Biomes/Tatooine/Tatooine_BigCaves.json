@@ -900,7 +900,7 @@
 								}, {
 									"$NodeId":	"WeightedPath.Prefab.Prop-62039699-fe5b-41cd-83e3-84689beffaae",
 									"Path":	"Tatooine/Tusken",
-									"Weight":	30
+									"Weight":	20
 								}],
 							"LegacyPath":	false,
 							"LoadEntities":	true,
@@ -1066,9 +1066,9 @@
 					"$NodeId":	"MeshPointGenerator-e828e86c-e174-4dee-bf1c-81d9e0e83362",
 					"Type":	"Mesh",
 					"Jitter":	0.5,
-					"ScaleX":	16,
-					"ScaleY":	16,
-					"ScaleZ":	16,
+					"ScaleX":	36,
+					"ScaleY":	36,
+					"ScaleZ":	36,
 					"Seed":	"B"
 				}
 			},
@@ -2276,7 +2276,7 @@
 			"MeshPointGenerator-e828e86c-e174-4dee-bf1c-81d9e0e83362":	{
 				"$Position":	{
 					"$x":	-2458,
-					"$y":	1583
+					"$y":	1569
 				}
 			},
 			"Imported.Assignments-e8f1fc81-6812-4ee4-b52b-cae50eb63a02":	{
