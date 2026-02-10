@@ -4,7 +4,7 @@
   "Modify": {
     "Appearance": "Kweebec_Rootling",
     "MaxHealth": 74,
-    "IsMemory": true,
+     
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }

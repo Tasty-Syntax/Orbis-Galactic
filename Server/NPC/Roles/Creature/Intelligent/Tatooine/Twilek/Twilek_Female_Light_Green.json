@@ -4,18 +4,17 @@
   "Modify": {
     "Appearance": "Twilek_Female_Model_Light_Green",
     "MaxHealth": 74,
-    "IsMemory": true,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
+    },
+    "AttitudeGroup": {
+      "Value": "Humanoid_Friendly",
+      "Description": "The attitude group this NPC belongs to."
     }
-  },
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Twilek (Light Green)",
       "Description": "Translation key for NPC name display"
     }
   }

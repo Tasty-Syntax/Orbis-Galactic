@@ -5,15 +5,15 @@
     "Appearance": "Twilek_Female_Model_Blue_Sitting",
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
+    },
+    "AttitudeGroup": {
+      "Value": "Humanoid_Friendly",
+      "Description": "The attitude group this NPC belongs to."
     }
-  },
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Twilek (Blue)",
       "Description": "Translation key for NPC name display"
     }
   }

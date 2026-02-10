@@ -4,7 +4,7 @@
   "Modify": {
     "Appearance": "Stormtrooper_Basic_Model",
     "MaxHealth": 99999,
-    "IsMemory": true,
+     
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }

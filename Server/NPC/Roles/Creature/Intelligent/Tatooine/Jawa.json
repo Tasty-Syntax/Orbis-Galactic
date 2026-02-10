@@ -5,7 +5,6 @@
     "Appearance": "Jawa_Model",
     "DropList": "Drop_Jawa",
     "MaxHealth": 74,
-    "IsMemory": true,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }
@@ -16,7 +15,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Jawa",
       "Description": "Translation key for NPC name display"
     }
   }
