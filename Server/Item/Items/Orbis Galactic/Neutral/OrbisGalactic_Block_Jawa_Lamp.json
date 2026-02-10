@@ -111,9 +111,6 @@
         "All": "Blocks/Tatooine/Jawa/Sandcrawler_Lamp_Off.png"
       }
     ],
-    "CustomModelTexture": [
-      {}
-    ],
     "InteractionHitboxType": "Block_Full",
     "Looping": true
   },
@@ -126,7 +123,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
-  "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
   "Set": "Jawa"
 }
