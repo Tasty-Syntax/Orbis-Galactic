@@ -4,14 +4,13 @@
   "Modify": {
     "Appearance": "Twilek_Male_Model_Green",
     "MaxHealth": 74,
-    "IsMemory": true,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
+    },
+    "AttitudeGroup": {
+      "Value": "Humanoid_Friendly",
+      "Description": "The attitude group this NPC belongs to."
     }
-  },
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
   },
   "Parameters": {
     "NameTranslationKey": {

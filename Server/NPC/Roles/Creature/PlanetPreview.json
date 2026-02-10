@@ -16,7 +16,6 @@
   "Modify": {
     "Appearance": "PlanetPreview",
     "MaxHealth": 1,
-    "IsMemory": true,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     },

@@ -4,7 +4,7 @@
   "Modify": {
     "Appearance": "OrbisGalactic_Model_R2",
     "MaxHealth": 74,
-    "IsMemory": true,
+     
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }
