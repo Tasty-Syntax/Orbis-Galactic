@@ -12,7 +12,8 @@
           "Quantity": 10,
           "ItemId": "OrbisGalactic_Galactic_Credit_Silver"
         }
-      ]
+      ],
+      "Stock": 99999
     },
     {
       "Output": {
@@ -24,7 +25,8 @@
           "Quantity": 1,
           "ItemId": "OrbisGalactic_Galactic_Credit_Gold"
         }
-      ]
+      ],
+      "Stock": 99999
     },
     {
       "Output": {
@@ -62,7 +64,8 @@
           "ItemId": "Ingredient_Bar_Gold",
           "Quantity": 5
         }
-      ]
+      ],
+      "Stock": 99999
     },
     {
       "Input": [
