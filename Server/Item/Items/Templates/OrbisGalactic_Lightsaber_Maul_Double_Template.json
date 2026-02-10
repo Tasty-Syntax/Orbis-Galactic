@@ -2,7 +2,7 @@
   "Categories": [
     "OrbisGalactic.Sabers"
   ],
-  "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
+  "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
   "ItemLevel": 40,
   "PlayerAnimationsId": "Lightsaber_Menacing",
   "Interactions": {
@@ -172,7 +172,7 @@
       -9
     ]
   },
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Right_Floating.blockyanim",
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.52,
   "Tags": {
@@ -269,7 +269,7 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Resources/Animations/Lightsaber_Double_Off.blockyanim",
+  "Animation": "Items/Animations/Lightsaber/Lightsaber_Double_Off.blockyanim",
   "Scale": 0.5,
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Template.png"
 }

@@ -4,7 +4,7 @@
     "Description": "server.items.Ore_Kyber_Crystal_Multicolor.description",
     "Name": "server.items.Ore_Kyber_Crystal_Multicolor.name"
   },
-  "Texture": "Resources/ItemTextures/Kyber_Crystal_Rainbow.png",
+  "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Rainbow.png",
   "Icon": "Icons/ItemsGenerated/OreGalactic_Kyber_Crystal_Multicolor.png",
   "Light": {
     "Color": "#650"

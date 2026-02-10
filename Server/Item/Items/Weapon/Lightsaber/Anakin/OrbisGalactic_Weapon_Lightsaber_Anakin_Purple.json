@@ -44,7 +44,7 @@
       -44
     ]
   },
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Purple.png",
+  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Purple.png",
   "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
@@ -72,8 +72,8 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Purple.png",
   "State": {
     "On": {
-      "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
-      "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Purple.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Purple.png",
       "Light": {
         "Color": "#71a"
       },
@@ -92,7 +92,7 @@
           }
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -110,7 +110,8 @@
             }
           ]
         }
-      }
+      },
+      "Variant": true
     }
   },
   "Interactions": {

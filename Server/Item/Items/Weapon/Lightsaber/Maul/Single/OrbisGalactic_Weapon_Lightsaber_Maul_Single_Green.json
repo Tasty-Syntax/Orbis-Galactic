@@ -4,7 +4,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Green.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
+  "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Green.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -72,8 +72,8 @@
   "State": {
     "On": {
       "Variant": true,
-      "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
-      "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Green.png",
       "Light": {
         "Color": "#060"
       },
@@ -92,7 +92,7 @@
         }
       ],
       "Quality": "Epic",
-      "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Green",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

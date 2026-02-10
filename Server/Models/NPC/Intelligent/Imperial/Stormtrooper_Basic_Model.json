@@ -16,7 +16,7 @@
       "Z": -0.3
     }
   },
-  "Icon": "Icons/ModelsGenerated/Stormtrooper.png",
+  "Icon": "Icons/ModelsGenerated/Stormtrooper_Basic_Model.png",
   "IconProperties": {
     "Scale": 0.25,
     "Rotation": [
@@ -1262,16 +1262,16 @@
       "GradientId": "04"
     },
     {
-      "Model": "Resources/ClothingModels/Stormtrooper/Chest.blockymodel",
-      "Texture": "Resources/ClothingTextures/Stormtrooper/Chest_Texture_Clean.png"
+      "Model": "Items/Armors/Stormtrooper/Chest.blockymodel",
+      "Texture": "Items/Armors/Stormtrooper/Chest_Texture_Clean.png"
     },
     {
-      "Model": "Resources/ClothingModels/Stormtrooper/Hands.blockymodel",
-      "Texture": "Resources/ClothingTextures/Stormtrooper/Hands_Texture.png"
+      "Model": "Items/Armors/Stormtrooper/Hands.blockymodel",
+      "Texture": "Items/Armors/Stormtrooper/Hands_Texture.png"
     },
     {
-      "Model": "Resources/ClothingModels/Stormtrooper/Legs.blockymodel",
-      "Texture": "Resources/ClothingTextures/Stormtrooper/Legs_Texture.png"
+      "Model": "Items/Armors/Stormtrooper/Legs.blockymodel",
+      "Texture": "Items/Armors/Stormtrooper/Legs_Texture.png"
     },
     {
       "Model": "Cosmetics/Undertops/Top.blockymodel",
@@ -1281,7 +1281,7 @@
     },
     {
       "Model": "Cosmetics/Hands/LongDetail_Gloves_Custom.blockymodel",
-      "Texture": "Resources/ClothingTextures/Stormtrooper/LongDetailGloves_Stormtrooper_Texture.png"
+      "Texture": "Items/Armors/Stormtrooper/LongDetailGloves_Stormtrooper_Texture.png"
     }
   ],
   "GradientSet": "Skin",
@@ -1289,11 +1289,11 @@
   "RandomAttachmentSets": {
     "Helmet": {
       "Stormtrooper_Helmet": {
-        "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
-        "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png"
+        "Model": "Items/Armors/Stormtrooper/Head.blockymodel",
+        "Texture": "Items/Armors/Stormtrooper/Head_Texture.png"
       },
       "No_Helmet": {
-        "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel"
+        "Model": "Items/Armors/Stormtrooper/Head.blockymodel"
       }
     }
   }

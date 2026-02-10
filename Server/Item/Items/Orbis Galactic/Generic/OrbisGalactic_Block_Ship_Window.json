@@ -2,7 +2,7 @@
   "BlockType": {
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Imperial_Window.png"
+        "All": "BlockTextures/Building/Imperial/Imperial_Window.png"
       }
     ],
     "Material": "Solid",

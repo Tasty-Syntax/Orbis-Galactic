@@ -1,6 +1,6 @@
 {
-  "Model": "Resources/ItemModels/Credit.blockymodel",
-  "Texture": "Resources/ItemTextures/Credit_Texture_Silver.png",
+  "Model": "Items/Ingredients/Credits/Credit.blockymodel",
+  "Texture": "Items/Ingredients/Credits/Credit_Texture_Silver.png",
   "Categories": [
     "Items.Ingredients"
   ],

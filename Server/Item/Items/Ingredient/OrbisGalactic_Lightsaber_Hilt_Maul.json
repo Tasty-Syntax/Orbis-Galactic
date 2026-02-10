@@ -1,6 +1,6 @@
 {
-  "Model": "Resources/ItemModels/Lightsaber_Grip_Maul_Single.blockymodel",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Red.png",
+  "Model": "Items/Ingredients/Lightsaber Grips/Lightsaber_Grip_Maul_Single.blockymodel",
+  "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Red.png",
   "IconProperties": {
     "Scale": 0.4,
     "Rotation": [

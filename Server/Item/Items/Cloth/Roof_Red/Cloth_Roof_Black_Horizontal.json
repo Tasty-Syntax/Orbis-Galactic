@@ -75,7 +75,5 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
-  "Model": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
-  "Texture": "Resources/BlockTextures/Branded_Red.png",
   "Icon": "Icons/ItemsGenerated/Cloth_Roof_Black_Horizontal.png"
 }

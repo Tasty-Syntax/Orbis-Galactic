@@ -41,10 +41,10 @@
       }
     },
     "RequiresAlphaBlending": true,
-    "CustomModel": "Resources/BlockModels/Mos_Eisley_Antenna_Big.blockymodel",
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Antenna_Big.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Mos_Eisley_Antenna_Big_Texture.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Antenna_Big_Texture.png"
       }
     ]
   },

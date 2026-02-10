@@ -9,7 +9,7 @@
     "CustomModel": "Resources/Ores/Ore_Large.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/ItemTextures/Kyber_Crystal_Colorless.png",
+        "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Colorless.png",
         "Weight": 1
       }
     ],

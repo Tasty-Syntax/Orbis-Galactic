@@ -30,12 +30,12 @@
     "Textures": [
       {
         "Weight": 1,
-        "Up": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_2.png",
-        "Down": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_4.png",
-        "North": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_4.png",
-        "South": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_2.png",
-        "West": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_1.png",
-        "East": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_3.png"
+        "Up": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_2.png",
+        "Down": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_4.png",
+        "North": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_4.png",
+        "South": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_2.png",
+        "West": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_1.png",
+        "East": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_a_3.png"
       }
     ],
     "ParticleColor": "#bbbbaf",
@@ -43,15 +43,6 @@
     "DrawType": "Cube",
     "Material": "Solid",
     "Opacity": "Solid",
-    "State": {
-      "Definitions": {
-        "White": {
-          "Light": {
-            "Color": "#bbb"
-          }
-        }
-      }
-    },
     "VariantRotation": "NESW"
   },
   "ResourceTypes": [

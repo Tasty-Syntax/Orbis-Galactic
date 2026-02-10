@@ -85,10 +85,10 @@
           "DrawType": "Model",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png"
+              "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture.png"
             }
           ],
-          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+          "CustomModel": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel"
         },
         "Off": {
           "InteractionHint": "server.interactionHints.turnon",
@@ -97,10 +97,10 @@
           "AmbientSoundEventId": null,
           "InteractionSoundEventId": "SFX_Lamp_Off",
           "DrawType": "Model",
-          "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel",
+          "CustomModel": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture_Off.png"
+              "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture_Off.png"
             }
           ]
         }
@@ -110,12 +110,12 @@
     "CubeShadingMode": "Standard",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture_Off.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture_Off.png"
       }
     ],
     "InteractionHitboxType": "Block_Full",
     "Looping": true,
-    "CustomModel": "Resources/BlockModels/Cantina_Lamp.blockymodel"
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel"
   },
   "Tags": {
     "Type": [
@@ -126,8 +126,8 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
-  "Texture": "Resources/BlockTextures/Cantina_Lamp_Texture.png",
+  "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture.png",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "Model": "Resources/BlockModels/Cantina_Lamp.blockymodel",
+  "Model": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel",
   "Set": "Cantina"
 }

@@ -4,14 +4,16 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Orange.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Orange.png",
+  "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Orange.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Lightsabers_Single"],
+        "Categories": [
+          "Lightsabers_Single"
+        ],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -33,8 +35,15 @@
   },
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [333, 224, 40],
-    "Translation": [-46, -44]
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Orange.png",
@@ -42,8 +51,8 @@
     "On": {
       "Variant": true,
       "Quality": "Epic",
-      "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
-      "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Orange.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Orange.png",
       "Light": {
         "Color": "#750"
       },
@@ -61,7 +70,7 @@
           }
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

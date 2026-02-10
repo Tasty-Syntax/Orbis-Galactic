@@ -36,6 +36,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Gems",
   "DropOnDeath": true,
-  "Model": "Resources/ItemModels/ScrapMetal.blockymodel",
-  "Texture": "Resources/ItemTextures/Scrap_Metal_Texture.png"
+  "Model": "Items/Ingredients/Scrap Metal/ScrapMetal.blockymodel",
+  "Texture": "Items/Ingredients/Scrap Metal/Scrap_Metal_Texture.png"
 }

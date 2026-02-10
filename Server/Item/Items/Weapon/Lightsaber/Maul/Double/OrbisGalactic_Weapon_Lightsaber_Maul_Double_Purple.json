@@ -4,7 +4,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Purple.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+  "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Purple.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -52,8 +52,8 @@
     "On": {
       "Variant": true,
       "Quality": "Epic",
-      "Model": "Resources/WeaponModels/Lightsaber_Maul_Double.blockymodel",
-      "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Purple.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Purple.png",
       "Light": {
         "Color": "#71a"
       },
@@ -71,7 +71,7 @@
           "TrailId": "Lightsaber_Trail_Purple"
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

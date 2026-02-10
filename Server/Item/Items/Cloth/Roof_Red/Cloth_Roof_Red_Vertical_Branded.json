@@ -27,10 +27,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Tent_Roof_Vertical_Custom.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Branded_Red.png",
+        "Texture": "Blocks/Tatooine/Mos Eisley/Branded_Red.png",
         "Weight": 0
       }
     ],
@@ -76,7 +76,5 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
-  "Model": "Resources/BlockModels/Tent_Roof_Vertical_Custom.blockymodel",
-  "Texture": "Resources/BlockTextures/Branded_Red.png",
   "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Vertical_Branded.png"
 }

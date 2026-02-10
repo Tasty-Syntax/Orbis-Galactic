@@ -18,8 +18,8 @@
       -8.1
     ]
   },
-  "Model": "Resources/ClothingModels/Stormtrooper/Head.blockymodel",
-  "Texture": "Resources/ClothingTextures/Stormtrooper/Head_Texture.png",
+  "Model": "Items/Armors/Stormtrooper/Head.blockymodel",
+  "Texture": "Items/Armors/Stormtrooper/Head_Texture.png",
   "Armor": {
     "ArmorSlot": "Head",
     "BaseDamageResistance": 0,

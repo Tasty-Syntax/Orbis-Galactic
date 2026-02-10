@@ -4,7 +4,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Gold.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Gold.png",
+  "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Gold.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -51,8 +51,8 @@
     "On": {
       "Variant": true,
       "Quality": "Epic",
-      "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
-      "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Gold.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Gold.png",
       "Light": {
         "Color": "#761"
       },
@@ -70,7 +70,7 @@
           }
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

@@ -3,7 +3,7 @@
     "DrawType": "Cube",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Sandcrawler_Plating.png"
+        "All": "Blocks/Tatooine/Jawa/Sandcrawler_Plating.png"
       }
     ],
     "Gathering": {

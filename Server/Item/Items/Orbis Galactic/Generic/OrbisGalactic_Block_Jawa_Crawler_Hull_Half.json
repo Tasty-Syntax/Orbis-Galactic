@@ -3,7 +3,7 @@
     "DrawType": "Model",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Sandcrawler_Plating.png"
+        "All": "Blocks/Tatooine/Jawa/Sandcrawler_Plating.png"
       }
     ],
     "Gathering": {
@@ -19,13 +19,12 @@
     "HitboxType": "Block_Half",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Sandcrawler_Plating.png"
+        "Texture": "Blocks/Tatooine/Jawa/Sandcrawler_Plating.png"
       }
     ],
     "VariantRotation": "DoublePipe",
     "FlipType": "Symmetric"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Jawa_Crawler_Hull_Half.png",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [
@@ -47,5 +46,6 @@
   "Categories": [
     "OrbisGalactic.Blocks"
   ],
-  "Set": "Jawa"
+  "Set": "Jawa",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Jawa_Crawler_Hull_Half.png"
 }

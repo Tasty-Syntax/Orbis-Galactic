@@ -5,7 +5,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Red.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Red.png",
+  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Red.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -72,8 +72,8 @@
   "State": {
     "On": {
       "Variant": true,
-      "Model": "Resources/WeaponModels/Lightsaber_Anakin.blockymodel",
-      "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Red.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Red.png",
       "Light": {
         "Color": "#700"
       },
@@ -92,7 +92,7 @@
           }
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

@@ -26,7 +26,7 @@
     "BlockParticleSetId": "Metal",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Mos_Eisley_Door.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.png"
       }
     ],
     "DrawType": "Model",
@@ -35,24 +35,24 @@
       "Definitions": {
         "CloseDoorIn": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Small_Close.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Small_Close.blockyanim",
           "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Small_Hitbox",
           "Material": "Solid"
         },
         "CloseDoorOut": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Small_Close.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Small_Close.blockyanim",
           "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Small_Hitbox",
           "Material": "Solid"
         },
         "OpenDoorIn": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Small_Open.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Small_Open.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Small_Hitbox"
         },
         "OpenDoorOut": {
           "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
-          "CustomModelAnimation": "Resources/Animations/Blocks/Mos_Eisley_Door_Small_Open.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Small_Open.blockyanim",
           "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Small_Hitbox"
         }
       }
@@ -67,7 +67,7 @@
     "Opacity": "Solid",
     "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Small_Hitbox",
     "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Small_Hitbox",
-    "CustomModel": "Resources/BlockModels/Mos_Eisley_Door_Small.blockymodel"
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door_Small.blockymodel"
   },
   "Scale": 0.5,
   "Tags": {
@@ -80,6 +80,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Mos_Eisley_Door_Small.png",
-  "Model": "Resources/BlockModels/Mos_Eisley_Door.blockymodel",
-  "Texture": "Resources/BlockTextures/Mos_Eisley_Door.png"
+  "Model": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel",
+  "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.png"
 }

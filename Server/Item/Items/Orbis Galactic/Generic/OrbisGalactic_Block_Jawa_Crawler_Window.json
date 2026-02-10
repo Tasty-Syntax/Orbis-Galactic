@@ -3,7 +3,7 @@
     "DrawType": "Cube",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Jawa_Window.png"
+        "All": "Blocks/Tatooine/Jawa/Jawa_Window.png"
       }
     ],
     "Gathering": {

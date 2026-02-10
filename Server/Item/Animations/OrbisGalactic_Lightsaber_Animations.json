@@ -3,7 +3,6 @@
     "OrbisGalactic_Lightsaber_Ignite": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite.blockyanim",
-      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Ignite.blockyanim",
       "Speed": 0.25,
       "KeepPreviousFirstPersonAnimation": false,

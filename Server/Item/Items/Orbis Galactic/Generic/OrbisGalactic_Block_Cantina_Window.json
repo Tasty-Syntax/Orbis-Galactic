@@ -44,7 +44,7 @@
     "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Cantina_Glass.png"
+        "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Glass.png"
       }
     ],
     "VariantRotation": "DoublePipe",

@@ -23,7 +23,7 @@
   "BlockType": {
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black.png",
+        "All": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Black.png",
         "Weight": 1
       }
     ],

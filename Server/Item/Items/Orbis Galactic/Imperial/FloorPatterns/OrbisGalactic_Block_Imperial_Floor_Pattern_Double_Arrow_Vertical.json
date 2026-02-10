@@ -29,7 +29,7 @@
     },
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_c_1.png",
+        "All": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Pattern_c_1.png",
         "Weight": 1
       }
     ],
@@ -37,16 +37,7 @@
     "CubeShadingMode": "Standard",
     "DrawType": "Cube",
     "Material": "Solid",
-    "Opacity": "Solid",
-    "State": {
-      "Definitions": {
-        "White": {
-          "Light": {
-            "Color": "#bbb"
-          }
-        }
-      }
-    }
+    "Opacity": "Solid"
   },
   "ResourceTypes": [
     {

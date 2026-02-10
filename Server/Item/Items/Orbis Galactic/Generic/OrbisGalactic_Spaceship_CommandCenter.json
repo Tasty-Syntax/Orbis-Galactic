@@ -29,14 +29,14 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Parent": "OrbisGalactic_Block_Generic_Ship_Block_Entity_Template",
-  "Animation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+  "Animation": "Blocks/Animations/Spaceship_Command_Center_Idle.blockyanim",
   "BlockType": {
     "BlockParticleSetId": "Wood",
     "BlockSoundSetId": "Metal",
-    "CustomModel": "Resources/PropModels/Spaceship_CommandCenter.blockymodel",
+    "CustomModel": "Blocks/Spaceship/Spaceship_CommandCenter.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/Spaceship_CommandCenter_Texture.png",
+        "Texture": "Blocks/Spaceship/Spaceship_CommandCenter_Texture.png",
         "Weight": 1
       }
     ],
@@ -90,11 +90,11 @@
     "Interactions": {
       "Use": "Spaceship_CommandCenter"
     },
-    "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+    "CustomModelAnimation": "Blocks/Animations/Spaceship_Command_Center_Idle.blockyanim",
     "State": {
       "Definitions": {
         "Idle": {
-          "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Spaceship_Command_Center_Idle.blockyanim",
           "Looping": true
         }
       }

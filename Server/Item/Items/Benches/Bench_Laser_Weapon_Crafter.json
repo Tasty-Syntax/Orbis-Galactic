@@ -38,7 +38,7 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Resources/PropModels/Laser_Weapon_Bench.blockymodel",
+    "CustomModel": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.blockymodel",
     "VariantRotation": "NESW",
     "HitboxType": "Bench_Weapon",
     "State": {
@@ -122,7 +122,7 @@
     "BlockSoundSetId": "Stone",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/Laser_Weapon_Bench.png",
+        "Texture": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.png",
         "Weight": 1
       }
     ],
@@ -139,8 +139,8 @@
       19
     ],
     "Translation": [
-      16,
-      -9
+      -1,
+      -13
     ]
   },
   "Tags": {

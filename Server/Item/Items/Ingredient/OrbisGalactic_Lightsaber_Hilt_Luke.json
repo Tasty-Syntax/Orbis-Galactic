@@ -1,6 +1,6 @@
 {
-  "Model": "Resources/ItemModels/Lightsaber_Grip_Luke.blockymodel",
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Blue.png",
+  "Model": "Items/Ingredients/Lightsaber Grips/Lightsaber_Grip_Luke.blockymodel",
+  "Texture": "Items/Ingredients/Lightsaber Grips/Luke_Lightsaber_Hilt.png",
   "IconProperties": {
     "Scale": 1,
     "Rotation": [

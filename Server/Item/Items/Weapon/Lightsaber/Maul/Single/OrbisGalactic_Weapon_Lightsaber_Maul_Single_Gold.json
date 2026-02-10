@@ -4,14 +4,16 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Single_Gold.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Gold.png",
+  "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Gold.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Lightsabers_Single"],
+        "Categories": [
+          "Lightsabers_Single"
+        ],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -33,16 +35,23 @@
   },
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [318, 323, 335],
-    "Translation": [-82, -75]
+    "Rotation": [
+      318,
+      323,
+      335
+    ],
+    "Translation": [
+      -82,
+      -75
+    ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Gold.png",
   "State": {
     "On": {
       "Variant": true,
-      "Model": "Resources/WeaponModels/Lightsaber_Maul_Single.blockymodel",
-      "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Gold.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Green.png",
       "Light": {
         "Color": "#761"
       },
@@ -61,7 +70,7 @@
           }
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate_Upscaled.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",

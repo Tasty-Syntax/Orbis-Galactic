@@ -29,15 +29,6 @@
     "CubeShadingMode": "Standard",
     "DrawType": "Cube",
     "Material": "Solid",
-    "State": {
-      "Definitions": {
-        "White": {
-          "Light": {
-            "Color": "#bbb"
-          }
-        }
-      }
-    },
     "PlacementSettings": {
       "BlockPreviewVisibility": "AlwaysVisible"
     },

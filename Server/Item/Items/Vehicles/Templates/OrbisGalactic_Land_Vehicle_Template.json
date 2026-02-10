@@ -76,7 +76,13 @@
     "Opacity": "Transparent",
     "RequiresAlphaBlending": true,
     "CustomModelScale": 1,
-    "DrawType": "Model"
+    "DrawType": "Model",
+    "CustomModel": "NPC/Speeder_Bike/Models/Speeder_Bike.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Speeder_Bike/Models/Speeder_Bike.png"
+      }
+    ]
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {

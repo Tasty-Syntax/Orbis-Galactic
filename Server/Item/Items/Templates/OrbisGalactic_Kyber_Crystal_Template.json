@@ -6,7 +6,7 @@
   "Categories": [
     "OrbisGalactic.Misc"
   ],
-  "Model": "Resources/BlockModels/Kyber_Ore_Large.blockymodel",
+  "Model": "Resources/Ingredients/Kyber Crystal/Kyber_Ore_Large.blockymodel",
   "ItemLevel": 10,
   "PlayerAnimationsId": "Block",
   "IconProperties": {

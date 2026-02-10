@@ -23,12 +23,12 @@
     "ParticleColor": "#b5b5b5",
     "BlockSoundSetId": "Dirt",
     "BlockBreakingDecalId": "Breaking_Decals_Soil",
-    "CustomModel": "Resources/PropModels/HWK-290.blockymodel",
+    "CustomModel": "Blocks/Spaceship/HWK-290.blockymodel",
     "CubeShadingMode": "Standard",
     "CustomModelScale": 5,
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/HWK-290_Texture.png"
+        "Texture": "Blocks/Spaceship/HWK-290_Texture.png"
       }
     ],
     "RandomRotation": "None",
@@ -42,11 +42,11 @@
         ]
       }
     },
-    "CustomModelAnimation": "Resources/Animations/Blocks/HWK290_Landing_Animation.blockyanim",
+    "CustomModelAnimation": "Blocks/Animations/HWK290_Landing_Animation.blockyanim",
     "State": {
       "Definitions": {
         "Landed": {
-          "CustomModelAnimation": "Resources/Animations/Blocks/Spaceship_Command_Center_Idle.blockyanim",
+          "CustomModelAnimation": "Blocks/Animations/Spaceship_Command_Center_Idle.blockyanim",
           "HitboxType": "Collision_HWK290",
           "InteractionHitboxType": "Collision_HWK290"
         }

@@ -1,6 +1,6 @@
 {
-  "Model": "Resources/ItemModels/Lightsaber_Grip_Anakin.blockymodel",
-  "Texture": "Resources/WeaponTextures/Anakin_Lightsaber_Blue.png",
+  "Model": "Items/Ingredients/Lightsaber Grips/Lightsaber_Grip_Anakin.blockymodel",
+  "Texture": "Items/Ingredients/Lightsaber Grips/Anakin_Lightsaber_Hilt.png",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Anakin.png",
   "IconProperties": {
     "Scale": 0.8,

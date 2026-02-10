@@ -22,10 +22,10 @@
   },
   "BlockType": {
     "BlockParticleSetId": "Metal",
-    "CustomModel": "Resources/PropModels/Ship_Chair.blockymodel",
+    "CustomModel": "Blocks/Spaceship/Ship_Chair.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/PropTextures/Ship_Chair.png",
+        "Texture": "Blocks/Spaceship/Ship_Chair.png",
         "Weight": 1
       }
     ],

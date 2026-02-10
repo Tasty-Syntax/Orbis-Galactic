@@ -1,5 +1,5 @@
 {
-  "Model": "Resources/ItemModels/Cantina_Trumpet.blockymodel",
+  "Model": "Items/Ingredients/Cantina Instruments/Cantina_Trumpet.blockymodel",
   "Texture": "NPC/Intelligent/Tatooine/CantinaGuy/Cantina_Alien.png",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Cantina_Instrument_Trumpet.png",
   "IconProperties": {

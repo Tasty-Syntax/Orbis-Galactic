@@ -4,7 +4,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_Green.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Maul_Lightsaber_Green.png",
+  "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Green.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,

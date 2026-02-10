@@ -4,7 +4,7 @@
     "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Purple.description"
   },
   "Quality": "Epic",
-  "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Purple.png",
+  "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Purple.png",
   "Recipe": {
     "TimeSeconds": 4.5,
     "KnowledgeRequired": false,
@@ -73,8 +73,8 @@
     "On": {
       "Variant": true,
       "Quality": "Epic",
-      "Model": "Resources/WeaponModels/Lightsaber_Luke.blockymodel",
-      "Texture": "Resources/WeaponTextures/Luke_Lightsaber_Purple.png",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Purple.png",
       "Light": {
         "Color": "#71a"
       },
@@ -92,7 +92,7 @@
           }
         }
       ],
-      "Animation": "Resources/Animations/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
