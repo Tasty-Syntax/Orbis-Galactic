@@ -24,13 +24,13 @@
     "Textures": [
       {
         "Weight": 1,
-        "North": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center_Left_Right.png",
-        "South": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center_Left_Right.png",
-        "Down": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "Up": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "UpDown": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "West": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
-        "East": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png"
+        "North": "BlockTextures/Building/Imperial/Imperial_Window_Center_Left_Right.png",
+        "South": "BlockTextures/Building/Imperial/Imperial_Window_Center_Left_Right.png",
+        "Down": "BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "Up": "BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "UpDown": "BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "West": "BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "East": "BlockTextures/Building/Imperial/Imperial_Window_Center.png"
       }
     ],
     "ParticleColor": "#bbbbaf",
@@ -38,15 +38,6 @@
     "DrawType": "Cube",
     "Material": "Solid",
     "Opacity": "Transparent",
-    "State": {
-      "Definitions": {
-        "White": {
-          "Light": {
-            "Color": "#bbb"
-          }
-        }
-      }
-    },
     "RequiresAlphaBlending": true,
     "Parent": "Rock_Bedrock"
   },

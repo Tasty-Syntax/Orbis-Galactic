@@ -29,21 +29,33 @@
     "CubeShadingMode": "Standard",
     "DrawType": "Cube",
     "Material": "Solid",
-    "State": {
-      "Definitions": {
-        "White": {
-          "Light": {
-            "Color": "#bbb"
-          }
-        }
-      }
-    },
     "PlacementSettings": {
       "BlockPreviewVisibility": "AlwaysVisible"
     },
     "Group": "Stone",
     "BlockSoundSetId": "Metal",
-    "VariantRotation": "NESW"
+    "VariantRotation": "NESW",
+    "State": {
+      "Definitions": {
+        "On": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "InteractionSoundEventId": "SFX_Lamp_On",
+          "Light": {
+            "Color": "#aaa"
+          },
+          "Opacity": "Semitransparent",
+          "CubeShadingMode": "Fullbright",
+          "Looping": true
+        },
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "AmbientSoundEventId": null,
+          "InteractionSoundEventId": "SFX_Lamp_Off"
+        }
+      }
+    }
   },
   "ResourceTypes": [
     {

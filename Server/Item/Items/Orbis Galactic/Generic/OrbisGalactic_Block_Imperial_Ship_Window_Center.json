@@ -23,7 +23,7 @@
   "BlockType": {
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Imperial_Window_Center.png",
+        "All": "BlockTextures/Building/Imperial/Imperial_Window_Center.png",
         "Weight": 1
       }
     ],
@@ -32,15 +32,6 @@
     "DrawType": "Cube",
     "Material": "Solid",
     "Opacity": "Transparent",
-    "State": {
-      "Definitions": {
-        "White": {
-          "Light": {
-            "Color": "#bbb"
-          }
-        }
-      }
-    },
     "RequiresAlphaBlending": true,
     "Parent": "Rock_Bedrock"
   },

@@ -27,30 +27,15 @@
         "GatherType": "Rocks"
       }
     },
-    "Textures": [
-      {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Gray.png",
-        "Weight": 1
-      }
-    ],
     "ParticleColor": "#bbbbaf",
     "CubeShadingMode": "Standard",
     "DrawType": "Model",
     "Material": "Solid",
     "Opacity": "Solid",
-    "State": {
-      "Definitions": {
-        "White": {
-          "Light": {
-            "Color": "#bbb"
-          }
-        }
-      }
-    },
     "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Panel_Light_Gray_Smooth.png"
+        "Texture": "BlockTextures/Building/Imperial/Rock_Imperial_Panel_Light_Gray_Smooth.png"
       }
     ],
     "HitboxType": "Block_Half",

@@ -27,7 +27,7 @@
     "CustomModel": "Blocks/Spaceship/Spaceship Door.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Resources/BlockTextures/Building/Imperial/Imperial_Ship_Door.png"
+        "Texture": "BlockTextures/Building/Imperial/Imperial_Ship_Door.png"
       }
     ],
     "DrawType": "Model",

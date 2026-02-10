@@ -76,7 +76,7 @@
         "On": {
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png"
+              "All": "BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png"
             }
           ],
           "InteractionHint": "server.interactionHints.turnon",
@@ -96,7 +96,7 @@
           "AmbientSoundEventId": null,
           "Textures": [
             {
-              "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
+              "All": "BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
             }
           ],
           "InteractionSoundEventId": "SFX_Lamp_Off"
@@ -107,11 +107,8 @@
     "CubeShadingMode": "Standard",
     "Textures": [
       {
-        "All": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
+        "All": "BlockTextures/Building/Imperial/Rock_Imperial_Light_1_Off.png"
       }
-    ],
-    "CustomModelTexture": [
-      {}
     ],
     "InteractionHitboxType": "Block_Full",
     "Looping": true
@@ -125,7 +122,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Metal",
-  "Texture": "Resources/BlockTextures/Building/Imperial/Rock_Imperial_Light_1.png",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
   "MaxStack": 1,
   "Set": "Imperial"
