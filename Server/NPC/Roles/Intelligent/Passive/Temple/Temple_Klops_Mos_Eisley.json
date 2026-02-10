@@ -10,7 +10,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Feran_Civilian.name",
+      "Value": "Klops Merchant",
       "Description": "Translation key for NPC name display"
     }
   }

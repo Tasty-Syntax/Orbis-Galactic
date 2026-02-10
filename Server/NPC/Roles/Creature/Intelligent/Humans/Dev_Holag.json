@@ -13,7 +13,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "Viluron",
+      "Value": "Holag",
       "Description": "Translation key for NPC name display"
     }
   }

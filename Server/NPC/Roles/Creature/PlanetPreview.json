@@ -32,7 +32,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Planet Preview",
       "Description": "Translation key for NPC name display"
     }
   }

@@ -15,7 +15,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Damage Test Dummy",
       "Description": "Translation key for NPC name display"
     }
   }
