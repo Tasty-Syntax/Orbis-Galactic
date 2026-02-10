@@ -13,7 +13,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Twilek (Green)",
       "Description": "Translation key for NPC name display"
     }
   }
