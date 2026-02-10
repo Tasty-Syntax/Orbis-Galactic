@@ -12,20 +12,20 @@
     "ExtendRight": 3,
     "ExtendBottom": 0.5,
     "StartDistance": 0.5,
-    "EndDistance": 30
+    "EndDistance": 15
   },
   "HitBlock": {
     "Interactions": [
       "Block_Break_Adventure"
     ]
   },
-  "HitEntity": {
-    "Interactions": [
-      "Interaction_Force_Pull_Damage"
-    ]
-  },
   "Next": {
     "Type": "Simple",
     "RunTime": 0.333
+  },
+  "HitEntity": {
+    "Interactions": [
+      "Interaction_Force_Push_Knockback1"
+    ]
   }
 }

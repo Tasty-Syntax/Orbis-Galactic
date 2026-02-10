@@ -1,0 +1,35 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Physical": 0
+    }
+  },
+  "DamageEffects": {
+    "Knockback": {
+      "Type": "Force",
+      "VelocityConfig": {
+        "AirResistance": 0.99,
+        "AirResistanceMax": 0.98,
+        "GroundResistance": 0.94,
+        "GroundResistanceMax": 0.3,
+        "Threshold": 3.0,
+        "Style": "Linear"
+      },
+      "Direction": {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 3.0
+      },
+      "Force": 30,
+      "VelocityType": "Set"
+    },
+    "WorldSoundEventId": "SFX_T1_Impact_Blunt",
+    "LocalSoundEventId": "SFX_T1_Impact_Blunt",
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Shield_Bash"
+      }
+    ]
+  }
+}

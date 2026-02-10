@@ -21,7 +21,7 @@
   },
   "HitEntity": {
     "Interactions": [
-      "Interaction_Force_Push_Damage"
+      "Interaction_Force_Push_Knockback3"
     ]
   },
   "Next": {
