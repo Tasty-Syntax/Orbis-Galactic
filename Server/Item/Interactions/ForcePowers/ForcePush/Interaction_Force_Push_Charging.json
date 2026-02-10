@@ -1,0 +1,32 @@
+{
+  "Type": "Charging",
+  "AllowIndefiniteHold": true,
+  "DisplayProgress": true,
+  "HorizontalSpeedMultiplier": 0.67,
+  "Next": {
+    "0": {
+      "Type": "ChangeStat",
+      "Next": "Interaction_Force_Push_Selector1",
+      "StatModifiers": {
+        "Stamina": -1,
+        "StaminaRegenDelay": -1.2
+      }
+    },
+    "0.6": {
+      "Type": "ChangeStat",
+      "Next": "Interaction_Force_Push_Selector2",
+      "StatModifiers": {
+        "Stamina": -3,
+        "StaminaRegenDelay": -1.2
+      }
+    },
+    "1.2": {
+      "Type": "ChangeStat",
+      "Next": "Interaction_Force_Push_Selector3",
+      "StatModifiers": {
+        "StaminaRegenDelay": -1.2,
+        "Stamina": -5
+      }
+    }
+  }
+}

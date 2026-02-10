@@ -9,7 +9,7 @@
   "InteractionVars": {
     "Force_Power": {
       "Interactions": [
-        "Interaction_Force_Pull"
+        "Interaction_Force_Pull_Charging"
       ]
     }
   }

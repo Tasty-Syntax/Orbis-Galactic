@@ -19,9 +19,9 @@
       "Direction": {
         "X": 0.0,
         "Y": 1.0,
-        "Z": -3.0
+        "Z": 3.0
       },
-      "Force": 70,
+      "Force": 20,
       "VelocityType": "Set"
     },
     "WorldSoundEventId": "SFX_T1_Impact_Blunt",
