@@ -1,0 +1,26 @@
+{
+  "Type": "Charging",
+  "AllowIndefiniteHold": false,
+  "Effects": {
+    "WorldSoundEventId": "Force_Lightning",
+    "Particles": [
+      {
+        "SystemId": "ForceLightning",
+        "TargetEntityPart": "Entity",
+        "DetachedFromModel": false
+      }
+    ],
+    "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+    "ItemAnimationId": "Force_Lightning"
+  },
+  "Next": {
+    "0": {
+      "Type": "ChangeStat",
+      "StatModifiers": {
+        "StaminaRegenDelay": -1.2,
+        "Stamina": -1
+      },
+      "Next": "Interaction_Force_Lightning_Selector1"
+    }
+  }
+}

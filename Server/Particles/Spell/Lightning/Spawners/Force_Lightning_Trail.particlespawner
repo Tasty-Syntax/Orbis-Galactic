@@ -1,0 +1,128 @@
+{
+  "RenderMode": "BlendAdd",
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 500,
+  "ParticleLifeSpan": {
+    "Min": 1.0833333333333333,
+    "Max": 1.083
+  },
+  "SpawnRate": {
+    "Min": 90,
+    "Max": 114
+  },
+  "TotalParticles": {
+    "Min": 150,
+    "Max": 150
+  },
+  "Attractors": [
+    {
+      "Position": {
+        "X": 0,
+        "Y": 0,
+        "Z": -5
+      },
+      "RadialAxis": {
+        "Y": 0
+      },
+      "LinearAcceleration": {
+        "X": 0,
+        "Z": 5
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Shapes/Lightning.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 128
+    },
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Opacity": 0
+      },
+      "2": {
+        "Opacity": 0.76
+      },
+      "4": {
+        "FrameIndex": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "6": {
+        "FrameIndex": {
+          "Min": 2,
+          "Max": 2
+        }
+      },
+      "8": {
+        "Opacity": 0.6
+      },
+      "10": {
+        "Opacity": 0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 1,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    }
+  },
+  "Shape": "Sphere",
+  "SpawnBurst": false,
+  "VelocityStretchMultiplier": 5,
+  "UVMotion": {
+    "Texture": "Particles/Textures/Shapes/LightningVoid.png"
+  },
+  "ParticleCollision": {
+    "Action": "Expire"
+  },
+  "EmitOffset": {
+    "X": {
+      "Max": 1
+    },
+    "Y": {
+      "Min": 1,
+      "Max": 1
+    },
+    "Z": {
+      "Max": 0
+    }
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Max": -15,
+      "Min": -15
+    },
+    "Yaw": {
+      "Max": 45,
+      "Min": -45
+    },
+    "Pitch": {
+      "Min": -50,
+      "Max": 5
+    }
+  },
+  "LifeSpan": 0.5
+}

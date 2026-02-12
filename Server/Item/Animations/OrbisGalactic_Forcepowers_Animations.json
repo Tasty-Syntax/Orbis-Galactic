@@ -1,0 +1,34 @@
+{
+  "WiggleWeights": {
+    "Pitch": 2.5,
+    "PitchDeceleration": 0.1,
+    "Roll": 0.1,
+    "RollDeceleration": 0.1,
+    "X": 2.5,
+    "XDeceleration": 0.1,
+    "Y": 0.1,
+    "YDeceleration": 0.1,
+    "Z": 0.1,
+    "ZDeceleration": 0.1
+  },
+  "Camera": {
+    "Pitch": {
+      "TargetNodes": [
+        "Head",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  },
+  "Animations": {
+    "Force_Lightning": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning_Fps.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
+    }
+  }
+}

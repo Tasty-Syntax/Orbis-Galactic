@@ -1,0 +1,46 @@
+{
+  "Parent": "OrbisGalactic_ForceFocus_Template",
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_ForceFocus_Lightning.name",
+    "Description": "server.items.OrbisGalactic_ForceFocus_Lightning.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Force_Push.png",
+  "Quality": "Rare",
+  "InteractionVars": {
+    "Force_Power": {
+      "Interactions": [
+        "Interaction_Force_Lightning_Charging"
+      ]
+    }
+  },
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "StatsCondition",
+          "Costs": {
+            "Stamina": 0.1
+          },
+          "Next": {
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "EffectId": "Stamina_Broken_Immune"
+              },
+              {
+                "Type": "Replace",
+                "Var": "Force_Power"
+              }
+            ]
+          }
+        }
+      ],
+      "Cooldown": {
+        "SkipCooldownReset": true,
+        "Cooldown": 0.01
+      }
+    }
+  },
+  "PlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations"
+}

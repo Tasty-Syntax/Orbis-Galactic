@@ -1,0 +1,31 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Force_Lightning_Trail",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 2
+      },
+      "LifeSpan": {
+        "Min": 0,
+        "Max": 0
+      },
+      "SpawnRate": {
+        "Min": 0
+      },
+      "RotationOffset": {
+        "Pitch": 0,
+        "Roll": 0,
+        "Yaw": 0
+      },
+      "FixedRotation": false,
+      "TotalSpawners": 0,
+      "Attractors": [
+        {}
+      ]
+    }
+  ],
+  "IsImportant": false,
+  "LifeSpan": 0
+}

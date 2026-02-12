@@ -1,0 +1,30 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.083,
+  "Effects": {
+    "CameraEffect": "Impact"
+  },
+  "Selector": {
+    "Id": "Horizontal",
+    "Length": 5,
+    "Direction": "ToRight",
+    "EndDistance": 10,
+    "ExtendTop": 5,
+    "ExtendBottom": 5,
+    "TestLineOfSight": true
+  },
+  "HitBlock": {
+    "Interactions": [
+      "Block_Break_Adventure"
+    ]
+  },
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.333
+  },
+  "HitEntity": {
+    "Interactions": [
+      "Interaction_Force_Lightning_Damage"
+    ]
+  }
+}
