@@ -1,0 +1,127 @@
+{
+  "RenderMode": "BlendAdd",
+  "EmitOffset": {
+    "X": {
+      "Min": 0
+    },
+    "Y": {
+      "Min": 2,
+      "Max": 2
+    },
+    "Z": {
+      "Min": 2,
+      "Max": 2
+    }
+  },
+  "ParticleRotationInfluence": "BillboardVelocity",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 500,
+  "ParticleLifeSpan": {
+    "Min": 1.0833333333333333,
+    "Max": 2
+  },
+  "SpawnRate": {
+    "Min": 90,
+    "Max": 114
+  },
+  "TotalParticles": {
+    "Min": 10,
+    "Max": 10
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Yaw": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Pitch": {
+      "Min": 90,
+      "Max": 90
+    }
+  },
+  "Attractors": [
+    {
+      "Position": {
+        "X": 0,
+        "Y": 0,
+        "Z": 5
+      },
+      "RadialAxis": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "RadialTangentAcceleration": 0,
+      "LinearAcceleration": {
+        "X": 0,
+        "Y": 0,
+        "Z": 55
+      },
+      "TrailPositionMultiplier": 0
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Shapes/Lightning.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 128
+    },
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Opacity": 0
+      },
+      "2": {
+        "Opacity": 0.76
+      },
+      "4": {
+        "FrameIndex": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "6": {
+        "FrameIndex": {
+          "Min": 2,
+          "Max": 2
+        }
+      },
+      "8": {
+        "Opacity": 0.6
+      },
+      "10": {
+        "Opacity": 0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 1,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    }
+  },
+  "Shape": "Sphere",
+  "SpawnBurst": true
+}

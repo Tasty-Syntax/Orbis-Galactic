@@ -1,0 +1,18 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Forcepowers/Force_Lightning_1.ogg",
+        "Sounds/Forcepowers/Force_Lightning_2.ogg",
+        "Sounds/Forcepowers/Force_Lightning_3.ogg",
+        "Sounds/Forcepowers/Force_Lightning_4.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1,
+        "MaxPitch": 1
+      },
+      "Looping": false
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons"
+}
