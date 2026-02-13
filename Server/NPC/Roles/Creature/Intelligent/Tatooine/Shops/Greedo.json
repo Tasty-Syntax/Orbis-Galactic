@@ -4,6 +4,10 @@
     "NameTranslationKey": {
       "Value": "Greedo",
       "Description": "Translation key for NPC name display"
+    },
+    "Invulnerable": {
+      "Value": true,
+      "Description": "Whether this NPC is invulnerable."
     }
   },
   "StartState": "Idle",

@@ -5,10 +5,6 @@
     "Appearance": "Human_Male_Dark_Model_Sitting",
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
-    },
-    "AttitudeGroup": {
-      "Value": "Humanoid_Friendly",
-      "Description": "The attitude group this NPC belongs to."
     }
   },
   "Parameters": {

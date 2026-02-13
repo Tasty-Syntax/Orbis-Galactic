@@ -4,14 +4,9 @@
   "Modify": {
     "Appearance": "Kweebec_Rootling",
     "MaxHealth": 74,
-     
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }
-  },
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
   },
   "Parameters": {
     "NameTranslationKey": {

@@ -9,10 +9,6 @@
       "Compute": "NameTranslationKey"
     }
   },
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
-  },
   "Parameters": {
     "NameTranslationKey": {
       "Value": "Jawa",
