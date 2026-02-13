@@ -7,13 +7,9 @@
       "Compute": "NameTranslationKey"
     }
   },
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
-  },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Rodian",
       "Description": "Translation key for NPC name display"
     }
   }

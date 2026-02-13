@@ -4,7 +4,7 @@
   "Modify": {
     "Appearance": "Feran_Civilian",
     "MaxHealth": 49,
-    "IsMemory": true,
+     
     "MemoriesCategory": "Feran",
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
@@ -12,7 +12,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Feran_Civilian.name",
+      "Value": "Feran Civilian",
       "Description": "Translation key for NPC name display"
     }
   }

@@ -5,18 +5,13 @@
     "Appearance": "Jawa_Model",
     "DropList": "Drop_Jawa",
     "MaxHealth": 74,
-    "IsMemory": true,
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }
   },
-  "AttitudeGroup": {
-    "Value": "Humanoid_Friendly",
-    "Description": "The attitude group this NPC belongs to."
-  },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Jawa",
       "Description": "Translation key for NPC name display"
     }
   }
