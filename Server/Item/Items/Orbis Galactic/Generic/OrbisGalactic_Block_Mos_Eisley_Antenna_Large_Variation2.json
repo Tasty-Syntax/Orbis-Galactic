@@ -46,7 +46,8 @@
       {
         "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Antenna_Big_Texture.png"
       }
-    ]
+    ],
+    "HitboxType": "OrbisGalactic_Mos_Eisley_Antenna_Hitbox"
   },
   "ResourceTypes": [
     {
