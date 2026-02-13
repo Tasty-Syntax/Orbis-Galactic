@@ -3,22 +3,6 @@
     "Name": "Cantina Window Cover"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Window.png",
-  "Recipe": {
-    "Input": [
-      {
-        "Quantity": 2,
-        "ResourceTypeId": "Rock_Marble"
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Furnace",
-        "Type": "Processing"
-      }
-    ],
-    "OutputQuantity": 1,
-    "TimeSeconds": 0
-  },
   "BlockType": {
     "Gathering": {
       "Breaking": {
@@ -50,14 +34,6 @@
     "VariantRotation": "DoublePipe",
     "HitboxType": "Block_Half"
   },
-  "ResourceTypes": [
-    {
-      "Id": "Rock"
-    },
-    {
-      "Id": "Rock_Marble"
-    }
-  ],
   "Tags": {
     "Type": [
       "Metal"
