@@ -1,0 +1,20 @@
+{
+  "Conditions": {
+    "DayTime": {
+      "Min": 0,
+      "Max": 24
+    },
+    "EnvironmentTagPattern": {
+      "Op": "Equals",
+      "Tag": "Ilum"
+    }
+  },
+  "Music": {
+    "Tracks": [
+      "Music/_general/00a1_Silence.ogg",
+      "Music/Ilum/YuriO_Ilum_Day.ogg"
+    ]
+  },
+  "AudioCategory": "AudioCat_Music",
+  "Priority": 20
+}
