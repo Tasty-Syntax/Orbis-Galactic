@@ -67,7 +67,13 @@
     "Opacity": "Solid",
     "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
     "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
-    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel"
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "OrbisGalactic_Mos_Eisley_Door_Small"
+      }
+    }
   },
   "Scale": 0.5,
   "Tags": {

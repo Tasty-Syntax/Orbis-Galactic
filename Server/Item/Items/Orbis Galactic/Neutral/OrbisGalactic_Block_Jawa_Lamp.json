@@ -51,7 +51,8 @@
     "Flags": {},
     "Gathering": {
       "Soft": {
-        "IsWeaponBreakable": false
+        "IsWeaponBreakable": false,
+        "ItemId": "OrbisGalactic_Block_Jawa_Lamp"
       }
     },
     "Material": "Solid",
