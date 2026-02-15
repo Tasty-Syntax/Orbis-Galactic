@@ -1,0 +1,75 @@
+{
+  "TranslationProperties": {
+    "Name": "Stormtrooper Leggings"
+  },
+  "Parent": "Armor_Adamantite_Legs",
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Stormtrooper_Leggings.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      360,
+      232,
+      0
+    ],
+    "Translation": [
+      -1,
+      -33
+    ]
+  },
+  "Model": "Items/Armors/Stormtrooper/Legs.blockymodel",
+  "Texture": "Items/Armors/Stormtrooper/Worn_Sandy/Sand_Legs_Texture.png",
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 15,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Signature": [
+        {
+          "Amount": 0.02,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 120,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Cobalt"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5,
+  "Categories": [
+    "OrbisGalactic.Armor"
+  ]
+}
