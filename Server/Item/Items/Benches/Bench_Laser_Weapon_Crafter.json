@@ -55,7 +55,11 @@
     },
     "Gathering": {
       "Breaking": {
-        "GatherType": "Benches"
+        "DropList": {
+          "Type": "Single"
+        },
+        "GatherType": "Benches",
+        "ItemId": "Bench_Laser_Weapon_Crafter"
       }
     },
     "Bench": {

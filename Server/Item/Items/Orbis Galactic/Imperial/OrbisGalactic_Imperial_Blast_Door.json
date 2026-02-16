@@ -67,7 +67,13 @@
     },
     "Opacity": "Semitransparent",
     "InteractionHitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
-    "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox"
+    "HitboxType": "OrbisGalactic_Imperial_Blast_Door_Hitbox",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "OrbisGalactic_Imperial_Blast_Door"
+      }
+    }
   },
   "Scale": 0.5,
   "Tags": {
