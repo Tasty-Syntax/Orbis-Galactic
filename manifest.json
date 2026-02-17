@@ -31,5 +31,6 @@
   "LoadBefore": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "SubPlugins": []
+  "SubPlugins": [],
+  "ServerVersion": "2026.02.17-255364b8e"
 }
