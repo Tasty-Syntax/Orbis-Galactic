@@ -1,11 +1,11 @@
 {
   "TranslationProperties": {
-    "Name": "Stromtrooper Gloves"
+    "Name": "Worn Stromtrooper Gloves"
   },
   "Parent": "Armor_Adamantite_Hands",
   "Quality": "Rare",
   "ItemLevel": 35,
-  "Icon": "Icons/ItemsGenerated/Stormtrooper_Gloves.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Stormtrooper_Gloves_Worn_Sandy.png",
   "IconProperties": {
     "Scale": 0.645,
     "Rotation": [
