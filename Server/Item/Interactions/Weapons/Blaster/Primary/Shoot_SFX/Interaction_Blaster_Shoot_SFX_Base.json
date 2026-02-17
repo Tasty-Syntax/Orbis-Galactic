@@ -9,8 +9,22 @@
       "Animations": {
         "Shoot": {
           "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/DC15A/DC15A_Shoot.blockyanim",
-          "BlendingDuration": 0.05
+          "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/DC15A/DC15A_Shoot.blockyanim",
+          "BlendingDuration": 0.05,
+          "Speed": 1
         }
+      },
+      "WiggleWeights": {
+        "Pitch": 2.25,
+        "PitchDeceleration": 0.15,
+        "Roll": 0.1,
+        "RollDeceleration": 0.15,
+        "X": 2.25,
+        "XDeceleration": 0.15,
+        "Y": 0.1,
+        "YDeceleration": 0.15,
+        "Z": 0.1,
+        "ZDeceleration": 0.15
       }
     },
     "ItemAnimationId": "Shoot"
