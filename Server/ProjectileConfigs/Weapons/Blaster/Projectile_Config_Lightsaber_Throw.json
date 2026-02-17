@@ -29,6 +29,6 @@
       ]
     }
   },
-  "Model": "BoomerangTest",
+  "Model": "MA_Lightsaber_Throw",
   "Parent": "Projectile_Config_Arrow_Base"
 }
