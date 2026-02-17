@@ -3,7 +3,6 @@
     "Name": "server.items.Bench_Bench_Laser_Weapon_Crafter.name",
     "Description": "server.items.Bench_Bench_Laser_Weapon_Crafter.description"
   },
-  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png",
   "Categories": [
     "OrbisGalactic.Misc"
   ],
@@ -143,7 +142,7 @@
       19
     ],
     "Translation": [
-      -1,
+      14,
       -13
     ]
   },
@@ -154,5 +153,6 @@
   },
   "MaxStack": 1,
   "ItemLevel": 2,
-  "ItemSoundSetId": "ISS_Blocks_Wood"
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png"
 }
