@@ -29,7 +29,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Trork_Brawler.name",
+      "Value": "Jawa Sith",
       "Description": "Translation key for NPC name display"
     }
   }

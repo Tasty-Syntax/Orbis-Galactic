@@ -51,7 +51,8 @@
     "Flags": {},
     "Gathering": {
       "Soft": {
-        "IsWeaponBreakable": false
+        "IsWeaponBreakable": false,
+        "ItemId": "OrbisGalactic_Block_Cantina_Lamp_Wall"
       }
     },
     "Material": "Solid",

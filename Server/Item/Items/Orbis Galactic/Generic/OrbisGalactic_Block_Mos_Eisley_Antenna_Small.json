@@ -22,7 +22,7 @@
   "BlockType": {
     "Gathering": {
       "Breaking": {
-        "ItemId": "Rock_Marble_Cobble",
+        "ItemId": "OrbisGalactic_Block_Mos_Eisley_Antenna_Small",
         "GatherType": "Rocks"
       }
     },

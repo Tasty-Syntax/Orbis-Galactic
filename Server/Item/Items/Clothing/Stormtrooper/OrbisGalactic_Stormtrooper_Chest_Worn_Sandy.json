@@ -1,11 +1,11 @@
 {
   "TranslationProperties": {
-    "Name": "Stormtrooper Chestplate"
+    "Name": "Worn Stormtrooper Chestplate"
   },
   "Parent": "Armor_Adamantite_Chest",
   "Quality": "Rare",
   "ItemLevel": 35,
-  "Icon": "Icons/ItemsGenerated/Stormtrooper_Chest.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Stormtrooper_Chest_Worn_Sandy.png",
   "IconProperties": {
     "Scale": 0.4,
     "Rotation": [

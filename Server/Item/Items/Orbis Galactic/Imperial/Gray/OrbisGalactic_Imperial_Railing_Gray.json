@@ -30,7 +30,6 @@
     ],
     "Gathering": {
       "Breaking": {
-        "ItemId": "Wood_Hardwood_Fence",
         "GatherType": "Woods"
       }
     },

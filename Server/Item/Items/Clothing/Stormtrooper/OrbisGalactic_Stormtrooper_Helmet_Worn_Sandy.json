@@ -1,11 +1,11 @@
 {
   "TranslationProperties": {
-    "Name": "Stormtrooper Helmet"
+    "Name": "Worn Stormtrooper Helmet"
   },
   "Parent": "Armor_Adamantite_Head",
   "Quality": "Rare",
   "ItemLevel": 35,
-  "Icon": "Icons/ItemsGenerated/Stormtrooper_Helmet.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Stormtrooper_Helmet_Worn_Sandy.png",
   "IconProperties": {
     "Scale": 0.45,
     "Rotation": [

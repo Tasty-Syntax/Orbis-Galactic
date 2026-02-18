@@ -41,7 +41,8 @@
     "DrawType": "Model",
     "Gathering": {
       "Breaking": {
-        "GatherType": "Woods"
+        "GatherType": "Woods",
+        "ItemId": "OrbisGalactic_Ship_Controls"
       }
     },
     "MaxSupportDistance": 8,

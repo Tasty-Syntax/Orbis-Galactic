@@ -4,22 +4,6 @@
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Ship_Window_Center.png",
   "Set": "Imperial",
-  "Recipe": {
-    "Input": [
-      {
-        "Quantity": 2,
-        "ResourceTypeId": "Rock_Marble"
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Furnace",
-        "Type": "Processing"
-      }
-    ],
-    "OutputQuantity": 1,
-    "TimeSeconds": 0
-  },
   "BlockType": {
     "Textures": [
       {
@@ -35,14 +19,6 @@
     "RequiresAlphaBlending": true,
     "Parent": "Rock_Bedrock"
   },
-  "ResourceTypes": [
-    {
-      "Id": "Rock"
-    },
-    {
-      "Id": "Rock_Marble"
-    }
-  ],
   "Tags": {
     "Type": [
       "Metal"

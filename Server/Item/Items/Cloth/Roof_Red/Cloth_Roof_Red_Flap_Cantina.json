@@ -39,7 +39,7 @@
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks",
-        "ItemId": "Cloth_Roof_Red_Flap"
+        "ItemId": "Cloth_Roof_Red_Flap_Cantina"
       }
     },
     "BlockParticleSetId": "Grass",

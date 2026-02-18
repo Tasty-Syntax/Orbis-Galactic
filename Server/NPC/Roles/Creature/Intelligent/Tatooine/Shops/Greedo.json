@@ -1,8 +1,12 @@
 {
   "Type": "Generic",
   "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Greedo",
+      "Description": "Translation key for NPC name display"
+    },
     "Invulnerable": {
-      "Value": false,
+      "Value": true,
       "Description": "Whether this NPC is invulnerable."
     }
   },

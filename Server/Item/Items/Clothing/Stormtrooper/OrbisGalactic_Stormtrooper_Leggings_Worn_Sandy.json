@@ -1,11 +1,11 @@
 {
   "TranslationProperties": {
-    "Name": "Stormtrooper Leggings"
+    "Name": "Worn Stormtrooper Leggings"
   },
   "Parent": "Armor_Adamantite_Legs",
   "Quality": "Rare",
   "ItemLevel": 35,
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Stormtrooper_Leggings.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Stormtrooper_Leggings_Worn_Sandy.png",
   "IconProperties": {
     "Scale": 0.5,
     "Rotation": [

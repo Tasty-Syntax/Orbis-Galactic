@@ -3,22 +3,6 @@
     "Name": "Imperial Floor Pattern Inverted Arrow Down"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Imperial_Panel_Gray1.png",
-  "Recipe": {
-    "Input": [
-      {
-        "Quantity": 2,
-        "ResourceTypeId": "Rock_Marble"
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Furnace",
-        "Type": "Processing"
-      }
-    ],
-    "OutputQuantity": 1,
-    "TimeSeconds": 0
-  },
   "BlockType": {
     "Gathering": {
       "Breaking": {
@@ -36,11 +20,6 @@
     "BlockSoundSetId": "Metal",
     "VariantRotation": "NESW"
   },
-  "ResourceTypes": [
-    {
-      "Id": "Rock"
-    }
-  ],
   "Tags": {
     "Type": [
       "Metal"

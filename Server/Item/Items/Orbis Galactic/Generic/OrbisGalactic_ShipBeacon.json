@@ -33,7 +33,8 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Rocks"
+        "GatherType": "Rocks",
+        "ItemId": "OrbisGalactic_ShipBeacon"
       }
     },
     "HitboxType": "Statue_Full",
