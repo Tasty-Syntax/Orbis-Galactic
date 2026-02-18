@@ -113,19 +113,5 @@
       },
       "Variant": true
     }
-  },
-  "Interactions": {
-    "Secondary": {
-      "Interactions": [
-        {
-          "Type": "RunRootInteraction",
-          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue",
-          "RunTime": 0
-        },
-        {
-          "Type": "OrbisGalactic_Lightsaber_Interaction"
-        }
-      ]
-    }
   }
 }
