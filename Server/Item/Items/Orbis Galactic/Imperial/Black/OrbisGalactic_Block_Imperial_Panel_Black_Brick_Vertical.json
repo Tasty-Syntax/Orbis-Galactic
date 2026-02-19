@@ -23,7 +23,6 @@
   "BlockType": {
     "Gathering": {
       "Breaking": {
-        "ItemId": "Rock_Marble_Cobble",
         "GatherType": "Rocks"
       }
     },

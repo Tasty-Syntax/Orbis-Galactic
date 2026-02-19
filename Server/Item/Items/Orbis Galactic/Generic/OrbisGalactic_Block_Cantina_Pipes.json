@@ -22,7 +22,7 @@
   "BlockType": {
     "Gathering": {
       "Breaking": {
-        "ItemId": "Rock_Marble_Cobble",
+        "ItemId": "OrbisGalactic_Block_Cantina_Pipes",
         "GatherType": "Rocks"
       }
     },

@@ -14,7 +14,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Jawa.name",
+      "Value": "Cantina Trumpet Player",
       "Description": "Translation key for NPC name display"
     }
   }

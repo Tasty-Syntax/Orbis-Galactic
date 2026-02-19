@@ -169,7 +169,7 @@
                   "orientation": {"x": 0.02171, "y": 0.00276, "z": -0.12628, "w": 0.99175},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": 0, "y": 6, "z": 0},
+                    "offset": {"x": -0.25036, "y": 6.96716, "z": -0.04376},
                     "stretch": {"x": 1, "y": 1, "z": 1.1},
                     "settings": {
                       "isPiece": false,
@@ -220,7 +220,7 @@
                   "orientation": {"x": 0.02171, "y": -0.00276, "z": 0.12628, "w": 0.99175},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": 0, "y": 6, "z": 0},
+                    "offset": {"x": 0.25036, "y": 6.96716, "z": -0.04376},
                     "stretch": {"x": -1, "y": 1, "z": 1.1},
                     "settings": {
                       "isPiece": false,
@@ -271,30 +271,30 @@
                   "orientation": {"x": 0.03823, "y": 0, "z": 0, "w": 0.99927},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "offset": {"x": 0, "y": 0.1, "z": -1},
                     "stretch": {"x": 0.98689, "y": 1.22018, "z": 1},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 30, "y": 18, "z": 26}
+                      "size": {"x": 30, "y": 19, "z": 26}
                     },
                     "textureLayout": {
                       "back": {
-                        "offset": {"x": 30, "y": 26},
+                        "offset": {"x": 30, "y": 25},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
                       "right": {
-                        "offset": {"x": 60, "y": 26},
+                        "offset": {"x": 60, "y": 25},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
                       "front": {
-                        "offset": {"x": 0, "y": 26},
+                        "offset": {"x": 0, "y": 25},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
                       "left": {
-                        "offset": {"x": 86, "y": 26},
+                        "offset": {"x": 86, "y": 25},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       },
@@ -304,9 +304,9 @@
                         "angle": 0
                       },
                       "bottom": {
-                        "offset": {"x": 30, "y": 0},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
+                        "offset": {"x": 58, "y": 27},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 270
                       }
                     },
                     "unwrapMode": "custom",
@@ -318,7 +318,7 @@
                     {
                       "id": "9",
                       "name": "BackPanel--C1",
-                      "position": {"x": 0, "y": 0.4, "z": -1},
+                      "position": {"x": 0, "y": 0.3, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "box",
@@ -378,7 +378,7 @@
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "box",
-                "offset": {"x": 0, "y": 0, "z": 0},
+                "offset": {"x": 0, "y": -1.1, "z": 0},
                 "stretch": {"x": 1.06, "y": 1.06, "z": 1.14951},
                 "settings": {
                   "isPiece": false,
@@ -415,15 +415,15 @@
                 {
                   "id": "11",
                   "name": "Belt--C1",
-                  "position": {"x": 0.5, "y": 0.4, "z": 0.5},
+                  "position": {"x": 0.5, "y": 1.5, "z": 0.5},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": -0.5, "y": -5.5, "z": -0.5},
+                    "offset": {"x": -0.5, "y": -6, "z": -0.5},
                     "stretch": {"x": 1.06, "y": 1.06, "z": 1.14951},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 27, "y": 3, "z": 19},
+                      "size": {"x": 27, "y": 4, "z": 19},
                       "isStaticBox": true
                     },
                     "textureLayout": {
@@ -466,8 +466,112 @@
                 },
                 {
                   "id": "12",
-                  "name": "BeltPoutches--C2",
-                  "position": {"x": 0.5, "y": 0.1, "z": 1.2},
+                  "name": "Belt--C2",
+                  "position": {"x": 0.5, "y": -2.5, "z": 0.1},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": -0.5, "y": -6, "z": -0.5},
+                    "stretch": {"x": 1.06, "y": 1.06, "z": 1.14951},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 25, "y": 2, "z": 17},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 0, "y": 81},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 8, "y": 81},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 0, "y": 81},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 27, "y": 81},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 0, "y": 84},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 66, "y": 20},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "13",
+                  "name": "Belt--C3",
+                  "position": {"x": 0.5, "y": 14.6, "z": 1},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": -0.5, "y": -6, "z": -0.5},
+                    "stretch": {"x": 1.06, "y": 1.06, "z": 1.14951},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 25, "y": 2, "z": 17},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 0, "y": 81},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 8, "y": 81},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 0, "y": 81},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 27, "y": 81},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 0, "y": 84},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 0, "y": 103},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "14",
+                  "name": "BeltPoutches--C4",
+                  "position": {"x": 0.5, "y": 1.2, "z": 1.2},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "box",
@@ -517,9 +621,9 @@
                   }
                 },
                 {
-                  "id": "13",
-                  "name": "cube--C3",
-                  "position": {"x": 0, "y": -5.1, "z": -13},
+                  "id": "15",
+                  "name": "cube--C5",
+                  "position": {"x": 0, "y": -4, "z": -13},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "box",
@@ -573,7 +677,7 @@
           ]
         },
         {
-          "id": "14",
+          "id": "16",
           "name": "R-Arm",
           "position": {"x": -17, "y": 24, "z": -1},
           "orientation": {"x": 0.00638, "y": -0.06071, "z": -0.10433, "w": 0.99267},
@@ -592,7 +696,7 @@
           },
           "children": [
             {
-              "id": "15",
+              "id": "17",
               "name": "R-ShoulderWoodenArmor",
               "position": {"x": -4.243, "y": 5.777, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": 0.17643, "w": 0.98431},
@@ -611,17 +715,17 @@
               },
               "children": [
                 {
-                  "id": "16",
+                  "id": "18",
                   "name": "R-ShoulderWoodenArmor--C1",
                   "position": {"x": 0, "y": 0, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": -0.04362, "w": 0.99905},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "offset": {"x": 0.5, "y": 0, "z": 0},
                     "stretch": {"x": -0.85, "y": 0.85, "z": 0.95},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 16, "y": 16, "z": 22},
+                      "size": {"x": 15, "y": 16, "z": 22},
                       "isStaticBox": true
                     },
                     "textureLayout": {
@@ -636,22 +740,22 @@
                         "angle": 270
                       },
                       "front": {
-                        "offset": {"x": 124, "y": 0},
+                        "offset": {"x": 123, "y": 0},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       },
                       "left": {
-                        "offset": {"x": 92, "y": 16},
+                        "offset": {"x": 85, "y": 4},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
                       "top": {
-                        "offset": {"x": 96, "y": 71},
+                        "offset": {"x": 95, "y": 71},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       },
                       "bottom": {
-                        "offset": {"x": 34, "y": 20},
+                        "offset": {"x": 33, "y": 21},
                         "mirror": {"x": false, "y": false},
                         "angle": 270
                       }
@@ -663,41 +767,41 @@
                   }
                 },
                 {
-                  "id": "17",
+                  "id": "19",
                   "name": "R-ShoulderWoodenArmor",
                   "position": {"x": -0.28011, "y": -6.51465, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": -0.07581, "w": 0.99712},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "offset": {"x": 0.5, "y": 0, "z": 0},
                     "stretch": {"x": -0.77798, "y": 0.68271, "z": 0.80173},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 16, "y": 16, "z": 23}
+                      "size": {"x": 15, "y": 16, "z": 23}
                     },
                     "textureLayout": {
                       "back": {
-                        "offset": {"x": 96, "y": 101},
+                        "offset": {"x": 97, "y": 93},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
                       "right": {
-                        "offset": {"x": 112, "y": 94},
-                        "mirror": {"x": true, "y": false},
-                        "angle": 270
+                        "offset": {"x": 128, "y": 93},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 180
                       },
                       "front": {
-                        "offset": {"x": 73, "y": 101},
+                        "offset": {"x": 72, "y": 93},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       },
                       "left": {
-                        "offset": {"x": 73, "y": 101},
+                        "offset": {"x": 73, "y": 93},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
                       "bottom": {
-                        "offset": {"x": 112, "y": 71},
+                        "offset": {"x": 112, "y": 70},
                         "mirror": {"x": false, "y": true},
                         "angle": 270
                       }
@@ -706,14 +810,110 @@
                     "visible": true,
                     "doubleSided": false,
                     "shadingMode": "flat"
-                  }
+                  },
+                  "children": [
+                    {
+                      "id": "20",
+                      "name": "R-ShoulderWoodenArmor--C1",
+                      "position": {"x": -0.5, "y": -4, "z": 0},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0.5, "y": -1.5, "z": 0},
+                        "stretch": {"x": -0.77798, "y": 0.68271, "z": 0.80173},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 13, "y": 19, "z": 17},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 27, "y": 109},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 40, "y": 127},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 19, "y": 104},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 30, "y": 109},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 46, "y": 125},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 270
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "21",
+                      "name": "R-ShoulderWoodenArmor--C2",
+                      "position": {"x": 0.5, "y": 4, "z": 0},
+                      "orientation": {"x": 0.70694, "y": -0.70694, "z": -0.01543, "w": 0.01543},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": -0.60648, "y": -7.86289, "z": 0.1891},
+                        "stretch": {"x": -0.77798, "y": 0.68271, "z": 0.80173},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 13, "y": 11, "z": 17},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 0, "y": 116},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 28, "y": 116},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 13, "y": 105},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 27, "y": 117},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 29, "y": 118},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 270
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "18",
+          "id": "22",
           "name": "L-Arm",
           "position": {"x": 17, "y": 24, "z": -1},
           "orientation": {"x": 0.00638, "y": 0.06071, "z": 0.10433, "w": 0.99267},
@@ -732,7 +932,7 @@
           },
           "children": [
             {
-              "id": "19",
+              "id": "23",
               "name": "L-ShoulderWoodenArmor",
               "position": {"x": 4.243, "y": 5.777, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": -0.17643, "w": 0.98431},
@@ -751,22 +951,22 @@
               },
               "children": [
                 {
-                  "id": "20",
+                  "id": "24",
                   "name": "L-ShoulderWoodenArmor--C1",
                   "position": {"x": 0, "y": 0, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0.04362, "w": 0.99905},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "offset": {"x": -0.5, "y": 0, "z": 0},
                     "stretch": {"x": 0.85, "y": 0.85, "z": 0.95},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 16, "y": 16, "z": 22},
+                      "size": {"x": 15, "y": 16, "z": 22},
                       "isStaticBox": true
                     },
                     "textureLayout": {
                       "back": {
-                        "offset": {"x": 108, "y": 0},
+                        "offset": {"x": 109, "y": 0},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
@@ -781,7 +981,7 @@
                         "angle": 0
                       },
                       "left": {
-                        "offset": {"x": 92, "y": 16},
+                        "offset": {"x": 77, "y": 0},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
@@ -803,36 +1003,36 @@
                   }
                 },
                 {
-                  "id": "21",
+                  "id": "25",
                   "name": "L-ShoulderWoodenArmor",
                   "position": {"x": 0.28011, "y": -6.51465, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0.07581, "w": 0.99712},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "offset": {"x": -0.5, "y": 0, "z": 0},
                     "stretch": {"x": 0.77798, "y": 0.68271, "z": 0.80173},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 16, "y": 16, "z": 23}
+                      "size": {"x": 15, "y": 16, "z": 23}
                     },
                     "textureLayout": {
                       "back": {
-                        "offset": {"x": 96, "y": 101},
+                        "offset": {"x": 98, "y": 93},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
                       "right": {
-                        "offset": {"x": 112, "y": 94},
-                        "mirror": {"x": true, "y": false},
-                        "angle": 270
+                        "offset": {"x": 128, "y": 93},
+                        "mirror": {"x": false, "y": true},
+                        "angle": 180
                       },
                       "front": {
-                        "offset": {"x": 73, "y": 101},
+                        "offset": {"x": 72, "y": 93},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       },
                       "left": {
-                        "offset": {"x": 89, "y": 55},
+                        "offset": {"x": 74, "y": 93},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       },
@@ -846,7 +1046,103 @@
                     "visible": true,
                     "doubleSided": false,
                     "shadingMode": "flat"
-                  }
+                  },
+                  "children": [
+                    {
+                      "id": "26",
+                      "name": "L-ShoulderWoodenArmor--C1",
+                      "position": {"x": 0.5, "y": -4, "z": 0},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": -0.5, "y": -1.5, "z": 0},
+                        "stretch": {"x": 0.77798, "y": 0.68271, "z": 0.80173},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 13, "y": 19, "z": 17},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 1, "y": 109},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 39, "y": 128},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 31, "y": 109},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 32, "y": 109},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 18, "y": 120},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 270
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "27",
+                      "name": "L-ShoulderWoodenArmor--C2",
+                      "position": {"x": -0.5, "y": -10, "z": 0},
+                      "orientation": {"x": 0.70694, "y": 0.70694, "z": 0.01543, "w": 0.01543},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 14.50724, "y": -7.97439, "z": -0.22667},
+                        "stretch": {"x": 0.77798, "y": 0.68271, "z": 0.80173},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 13, "y": 11, "z": 17},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "back": {
+                            "offset": {"x": 31, "y": 117},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "right": {
+                            "offset": {"x": 16, "y": 120},
+                            "mirror": {"x": false, "y": true},
+                            "angle": 0
+                          },
+                          "front": {
+                            "offset": {"x": 13, "y": 117},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 36, "y": 116},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          },
+                          "bottom": {
+                            "offset": {"x": 51, "y": 115},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
+                      }
+                    }
+                  ]
                 }
               ]
             }

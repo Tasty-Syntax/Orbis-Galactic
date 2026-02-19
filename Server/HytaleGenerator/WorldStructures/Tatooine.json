@@ -34,26 +34,27 @@
     "Type": "Imported",
     "Name": "Biome-Map"
   },
-  "ContentFields": [
+  "Framework": [
     {
-      "Type": "BaseHeight",
-      "Name": "Base",
-      "Y": 110
-    },
-    {
-      "Type": "BaseHeight",
-      "Name": "Shore",
-      "Y": 110
-    },
-    {
-      "Type": "BaseHeight",
-      "Name": "Water",
-      "Y": 73
-    },
-    {
-      "Type": "BaseHeight",
-      "Name": "Bedrock",
-      "Y": 20
+      "Type": "DecimalConstants",
+      "Entries": [
+        {
+          "Name": "Base",
+          "Value": 110
+        },
+        {
+          "Name": "Shore",
+          "Value": 110
+        },
+        {
+          "Name": "Water",
+          "Value": 73
+        },
+        {
+          "Name": "Bedrock",
+          "Value": 20
+        }
+      ]
     }
   ]
 }

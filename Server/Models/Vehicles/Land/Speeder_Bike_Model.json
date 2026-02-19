@@ -142,14 +142,14 @@
       "TrailId": "Bear_Claw",
       "PositionOffset": {
         "X": -0.4,
-        "Z": -1.45
+        "Z": -0.75
       }
     },
     {
       "TrailId": "Bear_Claw",
       "PositionOffset": {
         "X": 0.4,
-        "Z": -1.45
+        "Z": -0.75
       }
     }
   ]

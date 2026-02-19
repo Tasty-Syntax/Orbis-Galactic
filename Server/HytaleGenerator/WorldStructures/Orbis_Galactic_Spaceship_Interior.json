@@ -5,24 +5,27 @@
   "BiomeTransitions": [],
   "DefaultTransitionDistance": 128,
   "Density": {
-    "Type" : "Imported",
-    "Name" : "Biome-Map"
+    "Type": "Imported",
+    "Name": "Biome-Map"
   },
-  "ContentFields" : [
+
+  "Framework": [
     {
-      "Type" : "BaseHeight",
-      "Name" : "Base",
-      "Y" : 100
-    },
-    {
-      "Type" : "BaseHeight",
-      "Name" : "Water",
-      "Y" : 100
-    },
-    {
-      "Type" : "BaseHeight",
-      "Name" : "Bedrock",
-      "Y" : 0
+      "Type": "DecimalConstants",
+      "Entries": [
+        {
+          "Name": "Base",
+          "Value": 100
+        },
+        {
+          "Name": "Water",
+          "Value": 100
+        },
+        {
+          "Name": "Bedrock",
+          "Value": 20
+        }
+      ]
     }
   ]
 }

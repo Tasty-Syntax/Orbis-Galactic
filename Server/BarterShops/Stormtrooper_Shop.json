@@ -48,6 +48,47 @@
       "Output": {
         "ItemId": "OrbisGalactic_Stormtrooper_Gloves"
       }
+    },
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+          "Quantity": 1
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Helmet_Worn_Sandy"
+      }
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Chest_Worn_Sandy"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold"
+        }
+      ]
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Leggings_Worn_Sandy"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold"
+        }
+      ]
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_Stormtrooper_Gloves_Worn_Sandy"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Galactic_Credit_Gold"
+        }
+      ]
     }
   ]
 }

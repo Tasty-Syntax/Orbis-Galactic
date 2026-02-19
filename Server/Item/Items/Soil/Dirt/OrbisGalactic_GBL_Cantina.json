@@ -20,7 +20,8 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Soils"
+        "GatherType": "Rocks",
+        "ItemId": "OrbisGalactic_GBL_Cantina"
       }
     },
     "BlockParticleSetId": "Dirt",

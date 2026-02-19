@@ -13,7 +13,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "Viluron",
+      "Value": "PeterMitDemMeter",
       "Description": "Translation key for NPC name display"
     }
   }

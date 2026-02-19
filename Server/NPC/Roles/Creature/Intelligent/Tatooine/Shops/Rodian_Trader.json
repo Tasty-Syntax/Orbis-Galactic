@@ -1,6 +1,10 @@
 {
   "Type": "Generic",
   "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Rodian Trader",
+      "Description": "Translation key for NPC name display"
+    },
     "Invulnerable": {
       "Value": true,
       "Description": "Whether this NPC is invulnerable."
