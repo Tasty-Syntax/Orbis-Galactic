@@ -24,7 +24,9 @@
         },
         "Next": {
           "Type": "Simple",
-          "Next": "Interaction_Force_Jump_Apply"
+          "Next": {
+            "Type": "OrbisGalactic_ForceJump_Interaction"
+          }
         }
       }
     }
