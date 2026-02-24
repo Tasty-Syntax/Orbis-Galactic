@@ -1,5 +1,4 @@
 {
-  "Icon": "Icons/ItemsGenerated/Force_Push.png",
   "Quality": "Template",
   "ItemLevel": 40,
   "Categories": [
@@ -36,14 +35,14 @@
   },
   "IconProperties": {
     "Scale": 0.4,
-    "Translation": [
-      -25,
-      -25
-    ],
     "Rotation": [
       315,
       270,
       0
+    ],
+    "Translation": [
+      -25,
+      -25
     ]
   },
   "Tags": {
@@ -51,5 +50,6 @@
       "Tool"
     ]
   },
-  "MaxStack": 1
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/Force_Push.png"
 }

@@ -4,7 +4,7 @@
     "Name": "server.items.OrbisGalactic_ForceFocus_Lightning.name",
     "Description": "server.items.OrbisGalactic_ForceFocus_Lightning.description"
   },
-  "Icon": "Icons/ItemsGenerated/Force_Push.png",
+  "Icon": "Icons/ItemsGenerated/Force_Lightning.png",
   "Quality": "Rare",
   "InteractionVars": {
     "Force_Power": {
