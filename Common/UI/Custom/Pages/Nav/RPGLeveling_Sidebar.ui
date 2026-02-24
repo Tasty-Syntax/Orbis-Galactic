@@ -1,0 +1,19 @@
+$C = "../../Common.ui";
+
+// TextButton style for sidebar tabs (no MenuItem = no built-in focus underline)
+@SidebarButtonStyle = TextButtonStyle(
+  Default: (Background: #0a0f14, LabelStyle: (FontSize: 13, TextColor: #8a9aaa, RenderBold: false)),
+  Hovered: (Background: #1a2332(0.5), LabelStyle: (FontSize: 13, TextColor: #ffffff, RenderBold: false)),
+  Pressed: (Background: #1a2332(0.7), LabelStyle: (FontSize: 13, TextColor: #ffffff, RenderBold: false)),
+  Disabled: (Background: #0a0f14, LabelStyle: (FontSize: 13, TextColor: #5a6570, RenderBold: false)),
+  Sounds: $C.@ButtonSounds,
+);
+
+// Focused/Active button style for the current tab
+@SidebarButtonFocusedStyle = TextButtonStyle(
+  Default: (Background: #4a7bc8, LabelStyle: (FontSize: 13, TextColor: #ffffff, RenderBold: true)),
+  Hovered: (Background: #5a8bd8, LabelStyle: (FontSize: 13, TextColor: #ffffff, RenderBold: true)),
+  Pressed: (Background: #3a6bb8, LabelStyle: (FontSize: 13, TextColor: #ffffff, RenderBold: true)),
+  Disabled: (Background: #3a5f9f, LabelStyle: (FontSize: 13, TextColor: #b0c0d0, RenderBold: true)),
+  Sounds: $C.@ButtonSounds,
+);

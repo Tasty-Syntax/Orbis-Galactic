@@ -1,0 +1,48 @@
+$C = "../Common.ui";
+Group #AlignmentPanel {
+  LayoutMode: Top;
+  Anchor: (Width: 500, Height: 300);
+  Background: (TexturePath: "SPACE.png");
+  Label #AlignmentPanelLabel {
+    Anchor: (Top: 0, Left: 50, Width: 500, Height: 60);
+    Style: (TextColor: #ffffff, FontSize: 55);
+    Text: "Force Alignment";
+  }
+  Group #LightForceImage {
+    Anchor: (Top: 0, Left: -20, Width: 500, Height: 140);
+    AssetImage #AlignmentLightIcon {
+      Anchor: (Top: 20, Left: 410, Width: 110, Height: 110);
+        AssetPath: "UI/Custom/Pages/LightSideIcon.png";
+    }
+  }
+  Group #DarkForceImage {
+    Anchor: (Top: 0, Left: 20, Width: 500, Height: 140);
+    AssetImage #AlignmentLightIcon {
+      Anchor: (Top: -120, Left: 0, Width: 110, Height: 110);
+        AssetPath: "UI/Custom/Pages/DarkSideIcon.png";
+    }
+  }
+   Group {
+    LayoutMode: Top;
+    FlexWeight: 1;
+
+    Group #PlayerHeaderProgressBarContainer {
+      Anchor: (Top: -120, Width: 450, Height: 18);
+      Background: "FA_BG.png";
+
+      FloatSlider  #PlayerHeaderProgressBar {
+        Anchor: (Width: 450, Height: 18);
+        Style: SliderStyle(
+        Background: #000000(0),
+        Handle: "LightsaberCursor.png",
+        HandleWidth: 8,
+        HandleHeight: 64
+      );
+        Background: #000000(1);
+        Value: 50;
+        Min: 0;
+        Max: 100;
+      }
+    }
+  }
+}
