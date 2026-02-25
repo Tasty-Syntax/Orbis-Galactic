@@ -21,7 +21,11 @@
   },
   "HitEntity": {
     "Interactions": [
-      "Interaction_Force_Push_Knockback3"
+      {
+        "Type": "OrbisGalactic_ForcePush_Interaction",
+        "Strength": 90,
+        "Liftfactor": 25
+      }
     ]
   },
   "Next": {
