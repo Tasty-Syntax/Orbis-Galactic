@@ -21,7 +21,10 @@
   },
   "HitEntity": {
     "Interactions": [
-      "Interaction_Force_Pull_Knockback2"
+      {
+        "Type": "OrbisGalactic_ForcePull_Interaction",
+        "Stage": 1
+      }
     ]
   },
   "Next": {

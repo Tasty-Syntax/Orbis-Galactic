@@ -19,13 +19,16 @@
       "Block_Break_Adventure"
     ]
   },
-  "HitEntity": {
-    "Interactions": [
-      "Interaction_Force_Pull_Knockback1"
-    ]
-  },
   "Next": {
     "Type": "Simple",
     "RunTime": 0.333
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "OrbisGalactic_ForcePull_Interaction",
+        "Stage": 0
+      }
+    ]
   }
 }
