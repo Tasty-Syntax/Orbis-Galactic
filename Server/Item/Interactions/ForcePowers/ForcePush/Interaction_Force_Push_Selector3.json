@@ -23,8 +23,9 @@
     "Interactions": [
       {
         "Type": "OrbisGalactic_ForcePush_Interaction",
-        "Strength": 90,
-        "Liftfactor": 25
+        "Strength": 30,
+        "Liftfactor": 10,
+        "Stage": 2
       }
     ]
   },
