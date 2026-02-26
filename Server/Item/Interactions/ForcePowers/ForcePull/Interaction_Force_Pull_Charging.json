@@ -10,6 +10,10 @@
       "StatModifiers": {
         "Stamina": -1,
         "StaminaRegenDelay": -1.2
+      },
+      "Effects": {
+        "WorldSoundEventId": "SFX_Flame_Build",
+        "LocalSoundEventId": "SFX_Flame_Build"
       }
     },
     "0.6": {
@@ -18,6 +22,10 @@
       "StatModifiers": {
         "Stamina": -3,
         "StaminaRegenDelay": -1.2
+      },
+      "Effects": {
+        "WorldSoundEventId": "SFX_Flame_Build",
+        "LocalSoundEventId": "SFX_Flame_Build"
       }
     },
     "1.2": {
@@ -26,6 +34,10 @@
       "StatModifiers": {
         "StaminaRegenDelay": -1.2,
         "Stamina": -5
+      },
+      "Effects": {
+        "WorldSoundEventId": "SFX_Flame_Build",
+        "LocalSoundEventId": "SFX_Flame_Build"
       }
     }
   }
