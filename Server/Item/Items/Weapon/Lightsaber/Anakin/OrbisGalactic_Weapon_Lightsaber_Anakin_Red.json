@@ -109,6 +109,26 @@
               }
             }
           ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "OutboundSeconds": 0.5,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 5,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ImpactSfxId": "SFX_Staff_Flame_Fireball_Impact",
+              "ImpactParticleId": "Gun_Impact",
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "ModelRef": "MA_Lightsaber_Throw_Anakin_Red"
+            }
+          ]
         }
       }
     }
