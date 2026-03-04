@@ -1,0 +1,16 @@
+{
+  "Parent": "OrbisGalactic_ForceFocus_Template",
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_ForceFocus_Pull.name",
+    "Description": "server.items.OrbisGalactic_ForceFocus_Pull.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Force_Pull.png",
+  "Quality": "Rare",
+  "InteractionVars": {
+    "Force_Power": {
+      "Interactions": [
+        "Interaction_Force_Pull_Charging"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.083,
+  "Effects": {
+    "CameraEffect": "Shield_Bash"
+  },
+  "Selector": {
+    "Id": "Stab",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.5,
+    "ExtendLeft": 3,
+    "ExtendRight": 3,
+    "ExtendBottom": 0.5,
+    "StartDistance": 0.5,
+    "EndDistance": 30
+  },
+  "HitBlock": {
+    "Interactions": [
+      "Block_Break_Adventure"
+    ]
+  },
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.333
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "OrbisGalactic_ForcePull_Interaction",
+        "Stage": 0
+      }
+    ]
+  }
+}
