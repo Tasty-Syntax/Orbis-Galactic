@@ -1,0 +1,32 @@
+{
+  "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+  "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Green.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.05,
+      "Y": 0.05,
+      "Z": 0.05
+    },
+    "Min": {
+      "X": -0.05,
+      "Y": -0.05,
+      "Z": -0.05
+    }
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "Light": {
+    "Color": "#1c0"
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Items/Animations/BoomerangTest_Idle.blockyanim",
+          "Looping": true,
+          "SoundEventId": "SFX_LightsaberThrow_Loop"
+        }
+      ]
+    }
+  }
+}

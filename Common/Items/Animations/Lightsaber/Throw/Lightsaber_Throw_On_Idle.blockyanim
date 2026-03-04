@@ -1,0 +1,30 @@
+{
+  "formatVersion": 1,
+  "duration": 18,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "R-Attachment": {
+      "position": [],
+      "orientation": [
+        {
+          "time": 0,
+          "delta": {"x": -0.70711, "y": 0, "z": 0, "w": 0.70711},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 8,
+          "delta": {"x": 0, "y": -0.70711, "z": -0.70711, "w": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 15,
+          "delta": {"x": 0.70442, "y": -0.06163, "z": -0.06163, "w": -0.70442},
+          "interpolationType": "linear"
+        }
+      ],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    }
+  }
+}

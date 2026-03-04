@@ -1,36 +1,36 @@
 {
-  "Group": "TastySyntax",
-  "Name": "OrbisGalactic",
-  "Version": "1.4.1",
-  "Description": "A star wars mod for Hytale.",
-  "Authors": [
-    {
-      "Name": "Cerzix",
-      "Email": "",
-      "Url": "https://github.com/Cerzix"
-    },
-    {
-      "Name": "Viluron",
-      "Email": "",
-      "Url": "https://github.com/Viluron"
-    },
-    {
-      "Name": "Nelayx",
-      "Email": "",
-      "Url": "https://github.com/Nelayx"
-    },
-    {
-      "Name": "Holag",
-      "Email": "",
-      "Url": "https://github.com/xHolagx"
-    }
-  ],
-  "Website": "https://github.com/Tasty-Syntax/Orbis-Galactic",
-  "Dependencies": {},
-  "OptionalDependencies": {},
-  "LoadBefore": {},
-  "DisabledByDefault": false,
-  "IncludesAssetPack": false,
-  "SubPlugins": [],
-  "ServerVersion": "2026.02.19-1a311a592"
+    "Group": "TastySyntax",
+    "Name": "OrbisGalactic",
+    "Version": "1.4.1",
+    "Description": "A star wars mod for Hytale.",
+    "Authors": [
+        {
+            "Name": "Cerzix",
+            "Email": "",
+            "Url": "https://github.com/Cerzix"
+        },
+        {
+            "Name": "Viluron",
+            "Email": "",
+            "Url": "https://github.com/Viluron"
+        },
+        {
+            "Name": "Nelayx",
+            "Email": "",
+            "Url": "https://github.com/Nelayx"
+        },
+        {
+            "Name": "Holag",
+            "Email": "",
+            "Url": "https://github.com/xHolagx"
+        }
+    ],
+    "Website": "https://github.com/Tasty-Syntax/Orbis-Galactic",
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "LoadBefore": {},
+    "DisabledByDefault": false,
+    "IncludesAssetPack": false,
+    "SubPlugins": [],
+    "ServerVersion": "2026.02.19-1a311a592"
 }
