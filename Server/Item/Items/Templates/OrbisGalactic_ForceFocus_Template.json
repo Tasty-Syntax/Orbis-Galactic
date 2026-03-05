@@ -48,7 +48,8 @@
   "Tags": {
     "Type": [
       "Tool"
-    ]
+    ],
+    "ForceFocus": []
   },
   "MaxStack": 1,
   "Icon": "Icons/ItemsGenerated/Force_Push.png"

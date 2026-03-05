@@ -34,7 +34,14 @@
     "Ability1": "Root_Weapon_Daggers_Signature_Razorstrike",
     "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Separate",
     "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+    "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+        }
+      ]
+    }
   },
   "Tags": {
     "Type": [

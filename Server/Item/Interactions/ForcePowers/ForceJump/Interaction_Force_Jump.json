@@ -11,7 +11,6 @@
         "Stamina": -7
       },
       "Effects": {
-        "ItemAnimationId": "GuardBash",
         "WorldSoundEventId": "SFX_Battleaxe_T1_Shove",
         "LocalSoundEventId": "SFX_Battleaxe_T1_Shove_Local"
       },
