@@ -1,0 +1,31 @@
+$Common = "../Common.ui";
+
+Group {
+    Anchor: (Full: 0);
+    LayoutMode: Full;
+
+    Group {
+        Anchor: (Top: 50, Left: 0, Right: 0, Height: 100);
+        LayoutMode: CenterMiddle;
+        $Common.@TextButton #StanceButton { @Text = "Stance"; Anchor: (Width: 150); Padding: (Right: 10); }
+        $Common.@TextButton #ColorButton  { @Text = "Color";  Anchor: (Width: 150); Padding: (Right: 10); }
+        $Common.@TextButton #HiltButton   { @Text = "Hilt";   Anchor: (Width: 150); }
+    }
+
+    Group {
+        Anchor: (Bottom: 50, Left: 0, Right: 0, Height: 100);
+        LayoutMode: CenterMiddle;
+        $Common.@TextButton #Blue   { @Text = "Blue";   Anchor: (Width: 100); Padding: (Right: 5); }
+        $Common.@TextButton #Gold   { @Text = "Gold";   Anchor: (Width: 100); Padding: (Right: 5); }
+        $Common.@TextButton #Green  { @Text = "Green";  Anchor: (Width: 100); Padding: (Right: 5); }
+        $Common.@TextButton #Orange { @Text = "Orange"; Anchor: (Width: 100); Padding: (Right: 5); }
+        $Common.@TextButton #Purple { @Text = "Purple"; Anchor: (Width: 100); Padding: (Right: 5); }
+        $Common.@TextButton #Red    { @Text = "Red";    Anchor: (Width: 100); Padding: (Right: 5); }
+        $Common.@TextButton #White  { @Text = "White";  Anchor: (Width: 100); }
+    }
+           Group {
+                Anchor: (Bottom: 200, Left: 0, Right: 0, Height: 100);
+                LayoutMode: CenterMiddle;
+                $Common.@TextButton #FinishCrafting   { @Text = "Build saber";   Anchor: (Width: 200, Height: 60); }
+            }
+}

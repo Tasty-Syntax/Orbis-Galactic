@@ -1,0 +1,88 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Human_Ruins_Desk.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Set": "Furniture_Human_Ruins",
+  "IconProperties": {
+    "Rotation": [
+      23.625,
+      45,
+      22.5
+    ],
+    "Scale": 0.35,
+    "Translation": [
+      10.8,
+      -9.6
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/Human_Ruins/Counter.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Human_Ruins/Counter_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "Desk",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Wood",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OrbisGalactic_OpenSaberWorkbench"
+          }
+        ]
+      }
+    }
+  },
+  "Model": "Blocks/Decorative_Sets/Tavern/Table.blockymodel",
+  "Texture": "Blocks/Decorative_Sets/Tavern/Table_Texture.png",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Furniture_Human_Ruins_Desk.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

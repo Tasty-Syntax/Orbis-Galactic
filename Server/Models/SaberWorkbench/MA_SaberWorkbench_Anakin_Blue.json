@@ -1,0 +1,33 @@
+{
+  "Parent": "Player_NPC_Template",
+  "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Blue.png",
+  "CrouchOffset": -0.2,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1.4,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Jawa_Model.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -44
+    ]
+  },
+  "MinScale": 2.5,
+  "MaxScale": 3
+}
