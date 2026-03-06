@@ -2,7 +2,7 @@
   "TranslationProperties": {
     "Name": "Mos Eisley 4 Pipe Bend"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Mos_Eisley_Pipe_Bend.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Mos_Eisley_Four_Pipe_Bend.png",
   "Recipe": {
     "Input": [
       {
@@ -47,7 +47,10 @@
         "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Pipe_Texture.png"
       }
     ],
-    "VariantRotation": "All"
+    "VariantRotation": "DoublePipe",
+    "FlipType": "Symmetric",
+    "RotationYawPlacementOffset": "Ninety",
+    "RandomRotation": "None"
   },
   "ResourceTypes": [
     {
@@ -71,8 +74,8 @@
       22.5
     ],
     "Translation": [
-      -6,
-      -17
+      1,
+      -11
     ]
   },
   "Categories": [
