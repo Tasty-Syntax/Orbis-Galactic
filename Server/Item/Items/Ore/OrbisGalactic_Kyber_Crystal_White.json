@@ -1,8 +1,8 @@
 {
   "Parent": "OrbisGalactic_Kyber_Crystal_Template",
   "TranslationProperties": {
-    "Description": "server.items.Ore_Kyber_Crystal_Multicolor.description",
-    "Name": "server.items.Ore_Kyber_Crystal_Multicolor.name"
+    "Description": "server.items.Ore_Kyber_Crystal_White.description",
+    "Name": "server.items.Ore_Kyber_Crystal_White.name"
   },
   "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Rainbow.png",
   "Icon": "Icons/ItemsGenerated/OreGalactic_Kyber_Crystal_Multicolor.png",

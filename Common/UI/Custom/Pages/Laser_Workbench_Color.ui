@@ -1,31 +1,66 @@
 $Common = "../Common.ui";
 
 Group {
-    Anchor: (Full: 0);
-    LayoutMode: Full;
+  Anchor: (Full: 0);
+  LayoutMode: Full;
 
-    Group {
-        Anchor: (Top: 50, Left: 0, Right: 0, Height: 100);
-        LayoutMode: CenterMiddle;
-        $Common.@TextButton #StanceButton { @Text = "Stance"; Anchor: (Width: 150); Padding: (Right: 10); }
-        $Common.@TextButton #ColorButton  { @Text = "Color";  Anchor: (Width: 150); Padding: (Right: 10); }
-        $Common.@TextButton #HiltButton   { @Text = "Hilt";   Anchor: (Width: 150); }
-    }
+  Group {
+    Anchor: (Top: 50, Left: 0, Right: 0, Height: 100);
+    LayoutMode: CenterMiddle;
+    $Common.@TextButton #StanceButton { @Text = "Stance"; Anchor: (Width: 150); Padding: (Right: 10); }
+    $Common.@TextButton #ColorButton { @Text = "Color";  Anchor: (Width: 150); Padding: (Right: 10); }
+    $Common.@TextButton #HiltButton { @Text = "Hilt";   Anchor: (Width: 150); }
+  }
 
-    Group {
-        Anchor: (Bottom: 50, Left: 0, Right: 0, Height: 100);
-        LayoutMode: CenterMiddle;
-        $Common.@TextButton #Blue   { @Text = "Blue";   Anchor: (Width: 100); Padding: (Right: 5); }
-        $Common.@TextButton #Gold   { @Text = "Gold";   Anchor: (Width: 100); Padding: (Right: 5); }
-        $Common.@TextButton #Green  { @Text = "Green";  Anchor: (Width: 100); Padding: (Right: 5); }
-        $Common.@TextButton #Orange { @Text = "Orange"; Anchor: (Width: 100); Padding: (Right: 5); }
-        $Common.@TextButton #Purple { @Text = "Purple"; Anchor: (Width: 100); Padding: (Right: 5); }
-        $Common.@TextButton #Red    { @Text = "Red";    Anchor: (Width: 100); Padding: (Right: 5); }
-        $Common.@TextButton #White  { @Text = "White";  Anchor: (Width: 100); }
+  Group {
+    Anchor: (Full: 0, Right: 500, Bottom: 100);
+    LayoutMode: CenterMiddle;
+    //    ItemSlot  #SaberSlot {
+    //      Anchor: (Width: 80, Height: 80);
+    //    }
+    ItemGrid #SaberSlot {
+      //Anchor: (Width: 300, Height: 300);
+      SlotsPerRow: 1;
+      Style: (
+        SlotSize: 64,
+        SlotIconSize: 64,
+        SlotSpacing: 0,
+        SlotBackground: "../Common/BlockSelectorSlotBackground.png"
+      );
     }
-           Group {
-                Anchor: (Bottom: 200, Left: 0, Right: 0, Height: 100);
-                LayoutMode: CenterMiddle;
-                $Common.@TextButton #FinishCrafting   { @Text = "Build saber";   Anchor: (Width: 200, Height: 60); }
-            }
+  }
+  Group {
+    Anchor: (Full: 0, Left: 500, Top: 100);
+    LayoutMode: CenterMiddle;
+    //    ItemSlot #CrystalSlot {
+    //      Anchor: (Width: 80, Height: 80);
+    //    }
+    ItemGrid #CrystalSlot {
+      //Anchor: (Width: 300, Height: 300);
+      SlotsPerRow: 1;
+      Style: (
+        SlotSize: 64,
+        SlotIconSize: 64,
+        SlotSpacing: 0,
+        SlotBackground: "../Common/BlockSelectorSlotBackground.png"
+      );
+    }
+  }
+
+  Group {
+    Anchor: (Bottom: 300, Left: 0, Right: 0, Height: 100);
+    LayoutMode: CenterMiddle;
+    Button #Blue   { Background: #15fdff; Anchor: (Width: 60, Height: 60); Padding: (Right: 10); }
+    Button #Gold   { Background: #FFD700; Anchor: (Width: 60, Height: 60); Padding: (Right: 10); }
+    Button #Green  { Background: #00FF00; Anchor: (Width: 60, Height: 60); Padding: (Right: 10); }
+    Button #Orange { Background: #FFA500; Anchor: (Width: 60, Height: 60); Padding: (Right: 10); }
+    Button #Purple { Background: #800080; Anchor: (Width: 60, Height: 60); Padding: (Right: 10); }
+    Button #Red    { Background: #FF0000; Anchor: (Width: 60, Height: 60); Padding: (Right: 10); }
+    Button #White  { Background: #FFFFFF; Anchor: (Width: 60, Height: 60); }
+  }
+  Group {
+    Anchor: (Bottom: 200, Left: 0, Right: 0, Height: 100);
+    LayoutMode: CenterMiddle;
+    $Common.@TextButton #FinishCrafting { @Text = "Build saber";   Anchor: (Width: 200, Height: 60); }
+  }
 }
