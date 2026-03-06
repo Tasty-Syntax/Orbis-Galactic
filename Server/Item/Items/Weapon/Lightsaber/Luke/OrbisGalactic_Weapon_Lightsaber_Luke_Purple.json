@@ -116,7 +116,7 @@
           "ReturnSpeedMultiplier": 8,
           "OutboundSeconds": 0.5,
           "MaxReturnSpeed": 30,
-          "ImpactDamage": 5,
+          "ImpactDamage": 10,
           "Effects": {
             "WorldSoundEventId": "SFX_Lightsaber_Throw",
             "LocalSoundEventId": "SFX_Lightsaber_Throw"
