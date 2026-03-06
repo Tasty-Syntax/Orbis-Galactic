@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -35,38 +33,23 @@
   },
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      333,
-      224,
-      40
-    ],
-    "Translation": [
-      -46,
-      -44
-    ]
+    "Rotation": [333, 224, 40],
+    "Translation": [-46, -44]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Luke_Purple.png",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Blue"]
     },
     "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Blue"]
     },
     "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"]
     },
     "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Blue"]
     }
   },
   "State": {
@@ -123,6 +106,30 @@
         },
         {
           "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_ThrowLightsaber",
+          "ReturnSpeedMultiplier": 8,
+          "OutboundSeconds": 0.5,
+          "MaxReturnSpeed": 30,
+          "ImpactDamage": 5,
+          "Effects": {
+            "WorldSoundEventId": "SFX_Lightsaber_Throw",
+            "LocalSoundEventId": "SFX_Lightsaber_Throw"
+          },
+          "MaxLifetimeSeconds": 5,
+          "ImpactSfxId": "SFX_Staff_Flame_Fireball_Impact",
+          "ImpactParticleId": "Gun_Impact",
+          "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+          "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+          "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Purple.png",
+          "Light": {
+            "Color": "#71a"
+          }
         }
       ]
     }
