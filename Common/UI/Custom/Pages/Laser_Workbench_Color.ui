@@ -13,7 +13,7 @@ Group {
   }
 
   Group {
-    Anchor: (Full: 0, Right: 500, Bottom: 100);
+    Anchor: (Full: 0, Right: 500, Top: 100);
     LayoutMode: CenterMiddle;
     //    ItemSlot  #SaberSlot {
     //      Anchor: (Width: 80, Height: 80);
