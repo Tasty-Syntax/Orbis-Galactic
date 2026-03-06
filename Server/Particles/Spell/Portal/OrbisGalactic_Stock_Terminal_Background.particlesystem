@@ -1,0 +1,15 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "OrbisGalactic_Square_Stock_Terminal",
+      "PositionOffset": {
+        "Y": 0.88,
+        "Z": 0,
+        "X": 0.0
+      },
+      "TotalSpawners": 1,
+      "MaxConcurrent": 1
+    }
+  ],
+  "IsImportant": true
+}
