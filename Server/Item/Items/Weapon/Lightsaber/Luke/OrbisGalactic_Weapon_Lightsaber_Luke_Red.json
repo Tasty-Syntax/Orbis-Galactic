@@ -45,7 +45,7 @@
       -44
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Red.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Luke_Red.png",
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {

@@ -32,7 +32,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_White.png",
   "IconProperties": {
     "Scale": 0.3,
     "Rotation": [333, 224, 40],
@@ -80,7 +80,7 @@
       "Set": "",
       "Quality": "Epic",
       "Variant": true,
-      "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
+      "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_White.png",
       "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim"
     }
   }

@@ -37,7 +37,7 @@
     "Translation": [-82, -75]
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_White.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Single_White.png",
   "State": {
     "On": {
       "Variant": true,
