@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "cube",
-      "position": {"x": 0, "y": 0, "z": 0},
+      "position": {"x": 0, "y": 0, "z": -1},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
@@ -159,7 +159,7 @@
     {
       "id": "4",
       "name": "cube",
-      "position": {"x": 0, "y": 0, "z": 0},
+      "position": {"x": 0, "y": 0, "z": -1},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",

@@ -66,15 +66,15 @@
   },
   "Parent": "OrbisGalactic_Block_Imperial_Pattern_Template",
   "IconProperties": {
-    "Scale": 0.7,
+    "Scale": 0.6,
     "Rotation": [
       24,
       45,
       22.5
     ],
     "Translation": [
-      -6,
-      -17
+      -1,
+      -13
     ]
   },
   "Categories": [
