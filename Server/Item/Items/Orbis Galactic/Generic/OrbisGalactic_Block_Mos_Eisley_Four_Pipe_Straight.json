@@ -47,7 +47,7 @@
         "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Pipe_Texture.png"
       }
     ],
-    "VariantRotation": "All",
+    "VariantRotation": "DoublePipe",
     "FlipType": "Orthogonal",
     "RotationYawPlacementOffset": "None"
   },
