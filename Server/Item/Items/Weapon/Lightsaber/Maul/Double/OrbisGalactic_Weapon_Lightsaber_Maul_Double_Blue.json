@@ -109,9 +109,24 @@
               }
             }
           ]
+        },
+        "Ability3": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Split",
+              "RunTime": 0
+            },
+            {
+              "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+              "Effects": {}
+            }
+          ]
         }
       }
-    }
+    },
+    "On_Seperate": "*OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Blue_State_On",
+    "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Blue"
   },
   "Interactions": {
     "Ability2": {
@@ -123,6 +138,19 @@
         },
         {
           "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "RunRootInteraction",
+          "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Combine",
+          "RunTime": 0
+        },
+        {
+          "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+          "Effects": {}
         }
       ]
     }

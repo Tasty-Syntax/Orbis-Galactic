@@ -1,0 +1,17 @@
+{
+  "Interactions": [
+    {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
+            "ItemAnimationId": "OrbisGalactic_Lightsaber_Double_Split"
+          }
+        }
+      ]
+    },
+    "Interaction_Lightsaber_Double_Switch"
+  ]
+}

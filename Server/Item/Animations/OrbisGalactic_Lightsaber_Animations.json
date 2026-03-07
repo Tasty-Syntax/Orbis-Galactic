@@ -38,6 +38,18 @@
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Luke_Ignite.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Luke_Ignite.blockyanim",
       "Speed": 0.25
+    },
+    "OrbisGalactic_Lightsaber_Double_Combine": {
+      "FirstPerson": "Characters/Animations/Items/Lightsaber/ZUSAMMEN.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Lightsaber/ZUSAMMEN.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
+      "Speed": 0.25
+    },
+    "OrbisGalactic_Lightsaber_Double_Split": {
+      "FirstPerson": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
+      "Speed": 0.25
     }
   },
   "WiggleWeights": {

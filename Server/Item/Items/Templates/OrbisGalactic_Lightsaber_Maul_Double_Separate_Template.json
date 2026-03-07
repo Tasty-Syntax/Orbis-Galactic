@@ -10,29 +10,42 @@
   "Quality": "Template",
   "ItemSoundSetId": "ISS_Items_Gadget",
   "ItemLevel": 30,
-  "Categories": ["OrbisGalactic.Sabers"],
+  "Categories": [
+    "OrbisGalactic.Sabers"
+  ],
   "IconProperties": {
     "Scale": 0.4,
-    "Rotation": [45, 90, 0],
-    "Translation": [-19.2, -21]
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -19.2,
+      -21
+    ]
   },
   "Utility": {
     "Compatible": false
   },
   "Interactions": {
-    "Primary": "Root_Weapon_Daggers_Lightsaber_Primary",
     "Secondary": "Root_Weapon_Daggers_Secondary_Guard",
-    "Ability1": "Root_Weapon_Daggers_Signature_Razorstrike",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Separate",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+    "Ability1": "Root_Weapon_Daggers_Signature_Razorstrike"
   },
   "Tags": {
-    "Type": ["Weapon"],
-    "Family": ["Dagger"]
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Dagger"
+    ],
+    "DoubleLightsaberItem": [],
+    "LightsaberItem": []
   },
   "Weapon": {
-    "EntityStatsToClear": ["SignatureEnergy"],
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ],
     "StatModifiers": {
       "SignatureEnergy": [
         {
@@ -46,7 +59,10 @@
   "ItemAppearanceConditions": {
     "SignatureEnergy": [
       {
-        "Condition": [100, 100],
+        "Condition": [
+          100,
+          100
+        ],
         "ConditionValueType": "Percent",
         "Particles": [
           {
@@ -138,7 +154,7 @@
       }
     ]
   },
-  "MaxDurability": 80,
+  "MaxDurability": 150,
   "DurabilityLossOnHit": 0.1,
   "InteractionVars": {
     "Swing_Left_Damage": {
@@ -155,7 +171,9 @@
       ]
     },
     "Swing_Left_Effect": {
-      "Interactions": ["Weapon_Daggers_Primary_Swing_Left_Custom"]
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Left_Custom"
+      ]
     },
     "Swing_Right_Damage": {
       "Interactions": [
@@ -171,7 +189,9 @@
       ]
     },
     "Swing_Right_Effect": {
-      "Interactions": ["Weapon_Daggers_Primary_Swing_Right_Custom"]
+      "Interactions": [
+        "Weapon_Daggers_Primary_Swing_Right_Custom"
+      ]
     },
     "Stab_Left_Damage": {
       "Interactions": [
@@ -187,7 +207,9 @@
       ]
     },
     "Stab_Left_Effect": {
-      "Interactions": ["Weapon_Daggers_Primary_Stab_Left_Custom"]
+      "Interactions": [
+        "Weapon_Daggers_Primary_Stab_Left_Custom"
+      ]
     },
     "Stab_Right_Damage": {
       "Interactions": [
@@ -203,7 +225,9 @@
       ]
     },
     "Stab_Right_Effect": {
-      "Interactions": ["Weapon_Daggers_Primary_Stab_Right_Custom"]
+      "Interactions": [
+        "Weapon_Daggers_Primary_Stab_Right_Custom"
+      ]
     },
     "Pounce_Sweep_Damage": {
       "Interactions": [
@@ -286,9 +310,11 @@
       ]
     },
     "Pounce_Sweep_Effect": {
-      "Interactions": ["Weapon_Daggers_Primary_Pounce_Sweep_Effect_Custom"]
+      "Interactions": [
+        "Weapon_Daggers_Primary_Pounce_Sweep_Effect_Custom"
+      ]
     },
     "Pounce_Stab_Effect": {}
   },
-  "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim"
+  "Animation": "Items/Animations/Lightsaber/Lightsaber_Off.blockyanim"
 }

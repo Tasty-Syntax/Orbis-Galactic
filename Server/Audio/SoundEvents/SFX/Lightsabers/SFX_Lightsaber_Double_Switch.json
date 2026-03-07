@@ -1,0 +1,19 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Lightsaber_Double_Switch.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1.776,
+        "MaxPitch": 1.152,
+        "MinVolume": -3.6,
+        "MaxVolume": 1.4
+      }
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons",
+  "PreventSoundInterruption": false,
+  "Parent": "SFX_Attn_Moderate",
+  "StartAttenuationDistance": 4
+}
