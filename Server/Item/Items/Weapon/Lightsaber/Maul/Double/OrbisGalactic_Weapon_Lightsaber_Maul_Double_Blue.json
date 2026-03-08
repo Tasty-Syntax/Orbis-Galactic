@@ -113,13 +113,36 @@
         "Ability3": {
           "Interactions": [
             {
-              "Type": "RunRootInteraction",
-              "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Split",
-              "RunTime": 0
-            },
-            {
-              "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
-              "Effects": {}
+              "Type": "Charging",
+              "Next": {
+                "0": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "RunRootInteraction",
+                      "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                      "RunTime": 0
+                    },
+                    {
+                      "Type": "OrbisGalactic_Lightsaber_Interaction"
+                    }
+                  ]
+                },
+                "0.5": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "RunRootInteraction",
+                      "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Combine",
+                      "RunTime": 0
+                    },
+                    {
+                      "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                      "Effects": {}
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -144,13 +167,36 @@
     "Ability3": {
       "Interactions": [
         {
-          "Type": "RunRootInteraction",
-          "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Combine",
-          "RunTime": 0
-        },
-        {
-          "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
-          "Effects": {}
+          "Type": "Charging",
+          "Next": {
+            "0": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "RunRootInteraction",
+                  "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                  "RunTime": 0
+                },
+                {
+                  "Type": "OrbisGalactic_Lightsaber_Interaction"
+                }
+              ]
+            },
+            "0.5": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "RunRootInteraction",
+                  "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Combine",
+                  "RunTime": 0
+                },
+                {
+                  "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                  "Effects": {}
+                }
+              ]
+            }
+          }
         }
       ]
     }
