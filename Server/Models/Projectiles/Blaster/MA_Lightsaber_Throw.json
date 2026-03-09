@@ -3,14 +3,14 @@
   "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Blue.png",
   "HitBox": {
     "Max": {
-      "X": 0.05,
-      "Y": 0.05,
-      "Z": 0.05
+      "X": 0.4,
+      "Y": 0.25,
+      "Z": 0.4
     },
     "Min": {
-      "X": -0.05,
-      "Y": -0.05,
-      "Z": -0.05
+      "X": -0.4,
+      "Y": 0,
+      "Z": -0.4
     }
   },
   "MinScale": 1,
