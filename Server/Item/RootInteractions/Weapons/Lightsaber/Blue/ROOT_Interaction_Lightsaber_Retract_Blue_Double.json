@@ -1,0 +1,26 @@
+{
+  "Interactions": [
+    {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Lightsaber_Animations",
+            "ItemAnimationId": "OrbisGalactic_Lightsaber_Retract_Double"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Simple",
+      "$Comment": "Length of Effect",
+      "RunTime": 0.3,
+      "Effects": {
+        "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip_Blue_Local",
+        "WaitForAnimationToFinish": true
+      },
+      "CancelOnItemChange": true
+    }
+  ]
+}

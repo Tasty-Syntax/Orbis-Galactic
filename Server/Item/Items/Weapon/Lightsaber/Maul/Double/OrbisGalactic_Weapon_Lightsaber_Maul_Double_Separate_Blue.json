@@ -48,7 +48,7 @@
   },
   "Scale": 0.5,
   "Interactions": {
-    "Ability3": {
+    "Ability2": {
       "Interactions": [
         {
           "Type": "Charging",
@@ -58,7 +58,7 @@
               "Interactions": [
                 {
                   "Type": "RunRootInteraction",
-                  "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                  "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Separate",
                   "RunTime": 0
                 },
                 {
@@ -81,19 +81,6 @@
               ]
             }
           }
-        }
-      ]
-    },
-    "Ability2": {
-      "Interactions": [
-        {
-          "Type": "RunRootInteraction",
-          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-          "RunTime": 0
-        },
-        {
-          "Type": "OrbisGalactic_Lightsaber_Interaction",
-          "Effects": {}
         }
       ]
     }

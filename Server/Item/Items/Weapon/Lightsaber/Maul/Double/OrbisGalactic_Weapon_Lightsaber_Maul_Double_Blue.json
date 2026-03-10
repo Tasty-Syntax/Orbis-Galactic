@@ -102,17 +102,6 @@
         "Ability2": {
           "Interactions": [
             {
-              "Type": "RunRootInteraction",
-              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-              "Effects": {
-                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
-              }
-            }
-          ]
-        },
-        "Ability3": {
-          "Interactions": [
-            {
               "Type": "Charging",
               "Next": {
                 "0": {
@@ -120,7 +109,7 @@
                   "Interactions": [
                     {
                       "Type": "RunRootInteraction",
-                      "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                      "RootInteraction": "ROOT_Interaction_Lightsaber_Retract_Blue_Double",
                       "RunTime": 0
                     },
                     {
@@ -153,18 +142,6 @@
   },
   "Interactions": {
     "Ability2": {
-      "Interactions": [
-        {
-          "Type": "RunRootInteraction",
-          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-          "RunTime": 0
-        },
-        {
-          "Type": "OrbisGalactic_Lightsaber_Interaction"
-        }
-      ]
-    },
-    "Ability3": {
       "Interactions": [
         {
           "Type": "Charging",
