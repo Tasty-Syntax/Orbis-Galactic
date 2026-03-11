@@ -1,0 +1,53 @@
+$Common = "../Common.ui";
+
+Group {
+    Anchor: (Height: 150, Left: 10, Right: 10, Bottom: 10);
+    LayoutMode: Left;
+    Padding: (Full: 15);
+    Background: #000000(0.6); // Semi-transparent black background [9]
+
+    // Big Avatar Icon
+    AssetImage #Avatar {
+        Anchor: (Width: 120, Height: 120);
+        // TexturePath will be set via Java [10]
+    }
+
+    // Text Information Column
+    Group #Container {
+        FlexWeight: 1; // Takes up remaining horizontal space [11]
+        LayoutMode: Top;
+        Padding: (Left: 20);
+
+        Label #TargetName {
+            Text: "Name";
+            Style: (FontSize: 32);
+        }
+        Label #PlanetName {
+            Text: "Planet";
+            Style: (FontSize: 22, TextColor: #AAAAAA);
+        }
+        Label #Coordinates {
+            Text: "0, 0, 0";
+            Style: (FontSize: 18, FontName: "Mono"); // Mono font for coordinates [12]
+        }
+    }
+
+    // Reward Column
+    Group #Reward {
+        Anchor: (Width: 150);
+        LayoutMode: CenterMiddle;
+        Label #RewardValue {
+            Text: "0G";
+            Style: (FontSize: 28, TextColor: #FFD700); // Gold color for rewards
+        }
+    }
+
+    Group #ActionColumn {
+        Anchor: (Width: 160);
+        LayoutMode: CenterMiddle;
+        $Common.@TextButton #AcceptButton {
+            @Text = "Accept";
+            Anchor: (Width: 130, Height: 50);
+        }
+    }
+}

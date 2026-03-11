@@ -1,0 +1,27 @@
+$Common = "../Common.ui";
+
+// Main Board Layout
+Group {
+    Anchor: (Full: 0);
+    LayoutMode: CenterMiddle;
+
+    Group #MainPanel {
+        Background: #1a1a1a(0.95);
+        Anchor: (Width: 1000, Height: 750);
+        LayoutMode: Top;
+
+        Label {
+            Text: "GALACTIC BOUNTY BOARD";
+            Style: (FontSize: 48, Alignment: Center, FontName: "Secondary");
+            Anchor: (Height: 100);
+        }
+
+        // List container where Java will inject the 3 components
+        Group #BountyList {
+            FlexWeight: 1;
+            LayoutMode: TopScrolling;
+            ScrollbarStyle: $Common.@DefaultScrollbarStyle;
+            Padding: (Full: 20);
+        }
+    }
+}
