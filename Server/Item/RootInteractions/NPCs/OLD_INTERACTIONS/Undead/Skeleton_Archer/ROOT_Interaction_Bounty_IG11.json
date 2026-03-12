@@ -1,0 +1,30 @@
+{
+  "Tags": {
+    "Attack": [
+      "Ranged"
+    ]
+  },
+  "Cooldown": {
+    "SkipCooldownReset": false
+  },
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "Tags": {
+        "AimingReference": [],
+        "Attack": [
+          "Ranged"
+        ]
+      },
+      "RunTime": 0,
+      "Effects": {
+        "ItemPlayerAnimationsId": "Blaster",
+        "ItemAnimationId": "Shoot",
+        "WorldSoundEventId": "SFX_Blaster_Shoot_Red"
+      },
+      "Next": {
+        "Type": "OrbisGalactic_BossShoot"
+      }
+    }
+  ]
+}
