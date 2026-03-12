@@ -1,0 +1,25 @@
+{
+	"Parent": "OrbisGalactic_ForceFocus_Template",
+	"TranslationProperties": {
+		"Name": "server.items.OrbisGalactic_ForceFocus_Push.name",
+		"Description": "server.items.OrbisGalactic_ForceFocus_Push.description"
+	},
+	"Icon": "Icons/ItemsGenerated/Force_Push.png",
+	"Quality": "Rare",
+	"InteractionVars": {
+		"Force_Power": {
+			"Interactions": [
+				{
+					"Type": "OrbisGalacitc_BleedCrystal_Interaction",
+					"Next": {
+						"1": {
+							"Type": "SendMessage",
+							"Message": "Success"
+						}
+					}
+				}
+			],
+			"RequireNewClick": true
+		}
+	}
+}
