@@ -1,0 +1,69 @@
+{
+  "Spawners": [
+    {
+      "$Comment": "Start delay here is the start of stage 1. Lifespan Min/Max is how long the stage lasts",
+      "SpawnerId": "ParticleSpawner_Stick_Charging_Sparks_Yellow",
+      "LifeSpan": {
+        "Min": 0.1,
+        "Max": 0.1
+      }
+    },
+    {
+      "$Comment": "Start delay here is the start of stage 1. Lifespan Min/Max is how long the stage lasts",
+      "SpawnerId": "ParticleSpawner_Circles_Yellow",
+      "SpawnRate": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "MaxConcurrent": 4,
+      "LifeSpan": {
+        "Min": 0.1,
+        "Max": 0.1
+      }
+    },
+    {
+      "$Comment": "Start delay here is the start of stage 2. Lifespan Min/Max is how long the stage lasts",
+      "SpawnerId": "ParticleSpawner_Stick_Charging_Sparks_Orange",
+      "LifeSpan": {
+        "Min": 0.1,
+        "Max": 0.1
+      }
+    },
+    {
+      "$Comment": "Start delay here is the start of stage 2. Lifespan Min/Max is how long the stage lasts",
+      "SpawnerId": "ParticleSpawner_Circles_Orange",
+      "SpawnRate": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "MaxConcurrent": 4,
+      "LifeSpan": {
+        "Min": 0.1,
+        "Max": 0.1
+      }
+    },
+    {
+      "$Comment": "Start delay here is the start of stage 3. Lifespan Min/Max is how long the stage lasts",
+      "SpawnerId": "ParticleSpawner_Stick_Charging_Sparks_Red",
+      "LifeSpan": {
+        "Min": 0.1,
+        "Max": 0.1
+      }
+    },
+    {
+      "$Comment": "Start delay here is the start of stage 3. Lifespan Min/Max is high to account for possibly holding the attack",
+      "SpawnerId": "ParticleSpawner_Circles_Red",
+      "SpawnRate": {
+        "Min": 2.0,
+        "Max": 3.0
+      },
+      "MaxConcurrent": 4,
+      "LifeSpan": {
+        "Min": 0.1,
+        "Max": 0.1
+      }
+    }
+  ],
+  "BoundingRadius": 10,
+  "LifeSpan": 3
+}

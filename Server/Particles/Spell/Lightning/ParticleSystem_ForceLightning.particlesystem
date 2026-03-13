@@ -1,7 +1,7 @@
 {
   "Spawners": [
     {
-      "SpawnerId": "Force_Lightning_Trail",
+      "SpawnerId": "ParticleSpawner_Force_Lightning_Trail",
       "PositionOffset": {
         "X": 0,
         "Y": 0,
