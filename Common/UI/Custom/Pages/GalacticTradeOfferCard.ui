@@ -1,5 +1,5 @@
   Button {
-    Anchor: (Width: 220, Height: 240);
+    Anchor: (Width: 220, Height: 280);
     Padding: (Full: 0);
     LayoutMode: Top;
     Style: (
@@ -15,12 +15,12 @@
     );
 
     Group {
-      Anchor: (Height: 5, Horizontal: 0, Top: 0);
+      Anchor: (Height: 3, Horizontal: 0, Top: 0);
       LayoutMode: Full;
 
       Group #Accent {
         Anchor: (Full: 0);
-        Background: #8b99aa;
+        Background: #243444;
       }
     }
 
@@ -34,20 +34,8 @@
       }
     }
 
-    Label #Trend {
-      Anchor: (Top: 12, Height: 18);
-      Style: (
-        FontSize: 11,
-        RenderBold: true,
-        RenderUppercase: true,
-        TextColor: #9caec0,
-        HorizontalAlignment: End
-      );
-      Text: "";
-    }
-
     Label #Name {
-      Anchor: (Top: 6, Height: 46);
+      Anchor: (Top: 18, Height: 58);
       Style: (
         FontSize: 15,
         RenderBold: true,
@@ -59,14 +47,61 @@
       Text: "";
     }
 
-    Label #Price {
-      Anchor: (Top: 6, Height: 24);
-      Style: (FontSize: 18, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, TextColor: #dfe4ea);
+        Group #Price {
+      Anchor: (Top: 8, Width: 156, Height: 24, Horizontal: 0);
+      LayoutMode: Left;
+
+      Group {
+        FlexWeight: 1;
+      }
+
+      Label #GoldCount {
+        Anchor: (Width: 34);
+        Style: (FontSize: 18, RenderBold: true, HorizontalAlignment: End, VerticalAlignment: Center, TextColor: #dfe4ea);
+        Text: "0";
+      }
+
+      ItemIcon #GoldIcon {
+        Anchor: (Width: 16, Height: 16, Vertical: 0.5);
+      }
+
+      Group {
+        Anchor: (Width: 10);
+      }
+
+      Label #SilverCount {
+        Anchor: (Width: 26);
+        Style: (FontSize: 18, RenderBold: true, HorizontalAlignment: End, VerticalAlignment: Center, TextColor: #dfe4ea);
+        Text: "0";
+      }
+
+      ItemIcon #SilverIcon {
+        Anchor: (Width: 16, Height: 16, Vertical: 0.5);
+      }
+
+      Group {
+        FlexWeight: 1;
+      }
+    }
+
+
+    Label #ChangeUp {
+      Visible: false;
+      Anchor: (Top: 6, Height: 20);
+      Style: (FontSize: 13, HorizontalAlignment: Center, VerticalAlignment: Center, TextColor: #4dcb71);
       Text: "";
     }
 
-    Label #Change {
-      Anchor: (Top: 2, Height: 20);
+    Label #ChangeDown {
+      Visible: false;
+      Anchor: (Top: 6, Height: 20);
+      Style: (FontSize: 13, HorizontalAlignment: Center, VerticalAlignment: Center, TextColor: #d55353);
+      Text: "";
+    }
+
+    Label #ChangeFlat {
+      Visible: false;
+      Anchor: (Top: 6, Height: 20);
       Style: (FontSize: 13, HorizontalAlignment: Center, VerticalAlignment: Center, TextColor: #9caec0);
       Text: "";
     }

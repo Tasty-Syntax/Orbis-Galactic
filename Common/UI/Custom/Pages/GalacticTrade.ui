@@ -4,7 +4,7 @@
 
   $C.@DecoratedContainer {
     @CloseButton = true;
-    Anchor: (Width: 980, Height: 720);
+    Anchor: (Width: 920, Height: 700);
 
     #Title {
       Group {
@@ -42,8 +42,67 @@
           Text: "";
         }
 
+        Group {
+          Anchor: (Width: 14);
+        }
+
+        Group #WalletInfo {
+          Anchor: (Width: 212, Height: 28);
+          LayoutMode: Left;
+
+          Label {
+            Anchor: (Width: 46);
+            Style: (
+              FontSize: 13,
+              TextColor: #c8d7e4,
+              VerticalAlignment: Center
+            );
+            Text: "Wallet";
+          }
+
+          Group {
+            Anchor: (Width: 10);
+          }
+
+          ItemIcon #WalletGoldIcon {
+            Anchor: (Width: 20, Height: 20, Vertical: 0.5);
+          }
+
+          Label #WalletGoldCount {
+            Anchor: (Width: 40);
+            TooltipText: "";
+            TextTooltipStyle: $C.@DefaultTextTooltipStyle;
+            TextTooltipShowDelay: 0.1;
+            Style: (
+              FontSize: 13,
+              TextColor: #c8d7e4,
+              VerticalAlignment: Center,
+              HorizontalAlignment: Start
+            );
+            Text: "0";
+          }
+
+          ItemIcon #WalletSilverIcon {
+            Anchor: (Left: 6, Width: 20, Height: 20, Vertical: 0.5);
+          }
+
+          Label #WalletSilverCount {
+            Anchor: (Width: 40);
+            TooltipText: "";
+            TextTooltipStyle: $C.@DefaultTextTooltipStyle;
+            TextTooltipShowDelay: 0.1;
+            Style: (
+              FontSize: 13,
+              TextColor: #c8d7e4,
+              VerticalAlignment: Center,
+              HorizontalAlignment: Start
+            );
+            Text: "0";
+          }
+        }
+
         Label #RefreshInfo {
-          Anchor: (Width: 320);
+          Anchor: (Width: 220);
           Style: (
             FontSize: 13,
             TextColor: #9aafbf,
@@ -53,14 +112,6 @@
           Text: "";
         }
 
-        Group {
-          Anchor: (Width: 12);
-        }
-
-        $C.@SecondaryTextButton #BtnRefresh {
-          Text: "Refresh";
-          Anchor: (Width: 132);
-        }
       }
 
       Group #GridFrame {
@@ -83,11 +134,11 @@
 
         Group #EmptyState {
           Visible: false;
-          LayoutMode: CenterMiddle;
+          LayoutMode: Top;
           Anchor: (Full: 0);
 
           Group {
-            Anchor: (Width: 380, Height: 160);
+            Anchor: (Top: 28, Width: 380, Height: 160, Horizontal: 0);
             Background: (TexturePath: "../Common/ContainerPanelPatch.png", Border: 8);
             LayoutMode: CenterMiddle;
             Padding: (Horizontal: 20);
