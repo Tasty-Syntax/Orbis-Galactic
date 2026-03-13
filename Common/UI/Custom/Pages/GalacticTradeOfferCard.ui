@@ -1,10 +1,7 @@
-Group {
-  Anchor: (Width: 220, Height: 240);
-
-  Button #CardButton {
-    Anchor: (Full: 0);
+  Button {
+    Anchor: (Width: 220, Height: 240);
+    Padding: (Full: 0);
     LayoutMode: Top;
-    Padding: (Full: 10);
     Style: (
       Default: (
         Background: #101922
@@ -21,20 +18,7 @@ Group {
       Anchor: (Height: 5, Horizontal: 0, Top: 0);
       LayoutMode: Full;
 
-      Group #AccentUp {
-        Visible: false;
-        Anchor: (Full: 0);
-        Background: #4dcb71;
-      }
-
-      Group #AccentDown {
-        Visible: false;
-        Anchor: (Full: 0);
-        Background: #d55353;
-      }
-
-      Group #AccentFlat {
-        Visible: false;
+      Group #Accent {
         Anchor: (Full: 0);
         Background: #8b99aa;
       }
@@ -72,25 +56,18 @@ Group {
         VerticalAlignment: Center,
         Wrap: true
       );
+      Text: "";
     }
 
     Label #Price {
       Anchor: (Top: 6, Height: 24);
-      Style: (
-        FontSize: 18,
-        RenderBold: true,
-        HorizontalAlignment: Center,
-        VerticalAlignment: Center
-      );
+      Style: (FontSize: 18, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, TextColor: #dfe4ea);
+      Text: "";
     }
 
     Label #Change {
       Anchor: (Top: 2, Height: 20);
-      Style: (
-        FontSize: 13,
-        HorizontalAlignment: Center,
-        VerticalAlignment: Center
-      );
+      Style: (FontSize: 13, HorizontalAlignment: Center, VerticalAlignment: Center, TextColor: #9caec0);
+      Text: "";
     }
   }
-}

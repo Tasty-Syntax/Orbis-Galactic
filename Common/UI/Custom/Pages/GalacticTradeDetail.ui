@@ -1,372 +1,410 @@
-$C = "../Common.ui";
+  $C = "../Common.ui";
 
-$C.@PageOverlay {}
+  $C.@PageOverlay {}
 
-$C.@DecoratedContainer {
-  @CloseButton = true;
-  Anchor: (Width: 920, Height: 700);
+  $C.@DecoratedContainer {
+    @CloseButton = true;
+    Anchor: (Width: 920, Height: 700);
 
-  #Title {
-    Group {
-      LayoutMode: Left;
-
-      $C.@Title {
-        @Text = "Market Offer";
-      }
-    }
-  }
-
-  #Content {
-    LayoutMode: Top;
-    Padding: (Horizontal: 12, Top: 10, Bottom: 14);
-
-    Group #TopBar {
-      Anchor: (Height: 44);
-      LayoutMode: Left;
-
-      $C.@SecondaryTextButton #BtnBack {
-        Text: "Back";
-        Anchor: (Width: 120);
-      }
-
+    #Title {
       Group {
-        FlexWeight: 1;
-      }
+        LayoutMode: Left;
 
-      Label #RefreshInfo {
-        Anchor: (Width: 320);
-        Style: (
-          FontSize: 13,
-          TextColor: #9aafbf,
-          VerticalAlignment: Center,
-          HorizontalAlignment: End
-        );
-        Text: "";
-      }
-
-      Group {
-        Anchor: (Width: 12);
-      }
-
-      $C.@SecondaryTextButton #BtnRefresh {
-        Text: "Refresh";
-        Anchor: (Width: 132);
+        $C.@Title {
+          @Text = "Market Offer";
+        }
       }
     }
 
-    Group {
-      Anchor: (Top: 10);
-      FlexWeight: 1;
-      LayoutMode: Left;
+    #Content {
+      LayoutMode: Top;
+      Padding: (Horizontal: 12, Top: 10, Bottom: 14);
 
-      Group #ItemPanel {
-        Anchor: (Width: 300);
-        LayoutMode: Top;
-        Background: (TexturePath: "../Common/ContainerPatch.png", Border: 23);
-        Padding: (Full: 18);
+      Group #TopBar {
+        Anchor: (Height: 44);
+        LayoutMode: Left;
+
+        $C.@SecondaryTextButton #BtnBack {
+          Text: "Back";
+          Anchor: (Width: 120);
+        }
 
         Group {
-          Anchor: (Width: 220, Height: 220, Horizontal: 0);
-          LayoutMode: CenterMiddle;
-          Background: #0d141b;
-
-          ItemIcon #DetailIcon {
-            Anchor: (Width: 120, Height: 120);
-          }
+          FlexWeight: 1;
         }
 
-        Label #ItemName {
-          Anchor: (Top: 18, Height: 50);
-          Style: (
-            FontSize: 22,
-            RenderBold: true,
-            TextColor: #e4e7eb,
-            HorizontalAlignment: Center,
-            VerticalAlignment: Center,
-            Wrap: true
-          );
-        }
-
-        Label #ItemId {
-          Anchor: (Top: 8, Height: 18);
-          Style: (
-            FontSize: 12,
-            TextColor: #8ea1b3,
-            HorizontalAlignment: Center
-          );
-          Text: "";
-        }
-
-        Label #CurrentPrice {
-          Anchor: (Top: 18, Height: 28);
-          Style: (
-            FontSize: 24,
-            RenderBold: true,
-            HorizontalAlignment: Center
-          );
-        }
-
-        Label #CurrentChange {
-          Anchor: (Top: 4, Height: 20);
-          Style: (
-            FontSize: 14,
-            HorizontalAlignment: Center
-          );
-        }
-
-        Label #BasePrice {
-          Anchor: (Top: 18, Height: 18);
+        Label #RefreshInfo {
+          Anchor: (Width: 320);
           Style: (
             FontSize: 13,
-            TextColor: #a8b4c0,
-            HorizontalAlignment: Center
+            TextColor: #9aafbf,
+            VerticalAlignment: Center,
+            HorizontalAlignment: End
           );
           Text: "";
         }
 
-        Label #MarketTrend {
-          Anchor: (Top: 4, Height: 20);
-          Style: (
-            FontSize: 14,
-            HorizontalAlignment: Center
-          );
+        Group {
+          Anchor: (Width: 12);
+        }
+
+        $C.@SecondaryTextButton #BtnRefresh {
+          Text: "Refresh";
+          Anchor: (Width: 132);
         }
       }
 
       Group {
-        Anchor: (Width: 12);
-      }
-
-      Group #GraphPanel {
+        Anchor: (Top: 10);
         FlexWeight: 1;
-        LayoutMode: Top;
-        Background: (TexturePath: "../Common/ContainerPatch.png", Border: 23);
-        Padding: (Full: 18);
+        LayoutMode: Left;
 
-        Label {
-          Anchor: (Height: 22);
-          Text: "Price history";
-          Style: (
-            FontSize: 18,
-            RenderBold: true,
-            TextColor: #dde2e8
-          );
-        }
+        Group #ItemPanel {
+          Anchor: (Width: 300);
+          LayoutMode: Top;
+          Background: (TexturePath: "../Common/ContainerPatch.png", Border: 23);
+          Padding: (Full: 18);
 
-        Label {
-          Anchor: (Top: 4, Height: 18);
-          Text: "Last 5 market updates";
-          Style: (
-            FontSize: 12,
-            TextColor: #8ea1b3
-          );
+          Group {
+            Anchor: (Width: 220, Height: 220, Horizontal: 0);
+            LayoutMode: CenterMiddle;
+            Background: #0d141b;
+
+            ItemIcon #DetailIcon {
+              Anchor: (Width: 120, Height: 120);
+            }
+          }
+
+          Label #ItemName {
+            Anchor: (Top: 18, Height: 50);
+            Style: (
+              FontSize: 22,
+              RenderBold: true,
+              TextColor: #e4e7eb,
+              HorizontalAlignment: Center,
+              VerticalAlignment: Center,
+              Wrap: true
+            );
+          }
+
+          Label #ItemId {
+            Anchor: (Top: 8, Height: 18);
+            Style: (
+              FontSize: 12,
+              TextColor: #8ea1b3,
+              HorizontalAlignment: Center
+            );
+            Text: "";
+          }
+
+          Label #CurrentPriceUp {
+            Visible: false;
+            Anchor: (Top: 18, Height: 28);
+            Style: (FontSize: 24, RenderBold: true, HorizontalAlignment: Center, TextColor: #4dcb71);
+            Text: "";
+          }
+
+          Label #CurrentPriceDown {
+            Visible: false;
+            Anchor: (Top: 18, Height: 28);
+            Style: (FontSize: 24, RenderBold: true, HorizontalAlignment: Center, TextColor: #d55353);
+            Text: "";
+          }
+
+          Label #CurrentPriceFlat {
+            Visible: false;
+            Anchor: (Top: 18, Height: 28);
+            Style: (FontSize: 24, RenderBold: true, HorizontalAlignment: Center, TextColor: #dfe4ea);
+            Text: "";
+          }
+
+          Label #CurrentChangeUp {
+            Visible: false;
+            Anchor: (Top: 4, Height: 20);
+            Style: (FontSize: 14, HorizontalAlignment: Center, TextColor: #4dcb71);
+            Text: "";
+          }
+
+          Label #CurrentChangeDown {
+            Visible: false;
+            Anchor: (Top: 4, Height: 20);
+            Style: (FontSize: 14, HorizontalAlignment: Center, TextColor: #d55353);
+            Text: "";
+          }
+
+          Label #CurrentChangeFlat {
+            Visible: false;
+            Anchor: (Top: 4, Height: 20);
+            Style: (FontSize: 14, HorizontalAlignment: Center, TextColor: #9caec0);
+            Text: "";
+          }
+
+          Label #BasePrice {
+            Anchor: (Top: 18, Height: 18);
+            Style: (
+              FontSize: 13,
+              TextColor: #a8b4c0,
+              HorizontalAlignment: Center
+            );
+            Text: "";
+          }
+
+          Label #MarketTrendUp {
+            Visible: false;
+            Anchor: (Top: 4, Height: 20);
+            Style: (FontSize: 14, HorizontalAlignment: Center, TextColor: #4dcb71);
+            Text: "";
+          }
+
+          Label #MarketTrendDown {
+            Visible: false;
+            Anchor: (Top: 4, Height: 20);
+            Style: (FontSize: 14, HorizontalAlignment: Center, TextColor: #d55353);
+            Text: "";
+          }
+
+          Label #MarketTrendFlat {
+            Visible: false;
+            Anchor: (Top: 4, Height: 20);
+            Style: (FontSize: 14, HorizontalAlignment: Center, TextColor: #9caec0);
+            Text: "";
+          }
         }
 
         Group {
-          Anchor: (Top: 18, Height: 280);
-          LayoutMode: Left;
+          Anchor: (Width: 12);
+        }
 
-          Group #GraphColumn0 {
-            Anchor: (Width: 96, Height: 280);
-            LayoutMode: Top;
+        Group #GraphPanel {
+          FlexWeight: 1;
+          LayoutMode: Top;
+          Background: (TexturePath: "../Common/ContainerPatch.png", Border: 23);
+          Padding: (Full: 18);
 
-            Label #Price {
-              Anchor: (Height: 18);
-              Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
-              Text: "";
-            }
-
-            Group {
-              Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-              Background: #0d141b;
-
-              Group #FillUp {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #4dcb71;
-              }
-
-              Group #FillDown {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #d55353;
-              }
-
-              Group #FillFlat {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #8b99aa;
-              }
-            }
-
-            Label #Step {
-              Anchor: (Top: 10, Height: 18);
-              Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-              Text: "";
-            }
+          Label {
+            Anchor: (Height: 22);
+            Text: "Price history";
+            Style: (
+              FontSize: 18,
+              RenderBold: true,
+              TextColor: #dde2e8
+            );
           }
 
-          Group #GraphColumn1 {
-            Anchor: (Width: 96, Height: 280);
-            LayoutMode: Top;
-
-            Label #Price {
-              Anchor: (Height: 18);
-              Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
-              Text: "";
-            }
-
-            Group {
-              Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-              Background: #0d141b;
-
-              Group #FillUp {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #4dcb71;
-              }
-
-              Group #FillDown {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #d55353;
-              }
-
-              Group #FillFlat {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #8b99aa;
-              }
-            }
-
-            Label #Step {
-              Anchor: (Top: 10, Height: 18);
-              Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-              Text: "";
-            }
+          Label {
+            Anchor: (Top: 4, Height: 18);
+            Text: "Last 5 market updates";
+            Style: (
+              FontSize: 12,
+              TextColor: #8ea1b3
+            );
           }
 
-          Group #GraphColumn2 {
-            Anchor: (Width: 96, Height: 280);
-            LayoutMode: Top;
+          Group {
+            Anchor: (Top: 18, Height: 280);
+            LayoutMode: Left;
 
-            Label #Price {
-              Anchor: (Height: 18);
-              Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
-              Text: "";
-            }
+            Group #GraphColumn0 {
+              Anchor: (Width: 96, Height: 280);
+              LayoutMode: Top;
 
-            Group {
-              Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-              Background: #0d141b;
-
-              Group #FillUp {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #4dcb71;
+              Label #Price {
+                Anchor: (Height: 18);
+                Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
+                Text: "";
               }
 
-              Group #FillDown {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #d55353;
+              Group {
+                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
+                Background: #0d141b;
+
+                Group #FillUp {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #4dcb71;
+                }
+
+                Group #FillDown {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #d55353;
+                }
+
+                Group #FillFlat {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #8b99aa;
+                }
               }
 
-              Group #FillFlat {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #8b99aa;
-              }
-            }
-
-            Label #Step {
-              Anchor: (Top: 10, Height: 18);
-              Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-              Text: "";
-            }
-          }
-
-          Group #GraphColumn3 {
-            Anchor: (Width: 96, Height: 280);
-            LayoutMode: Top;
-
-            Label #Price {
-              Anchor: (Height: 18);
-              Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
-              Text: "";
-            }
-
-            Group {
-              Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-              Background: #0d141b;
-
-              Group #FillUp {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #4dcb71;
-              }
-
-              Group #FillDown {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #d55353;
-              }
-
-              Group #FillFlat {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #8b99aa;
+              Label #Step {
+                Anchor: (Top: 10, Height: 18);
+                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
+                Text: "";
               }
             }
 
-            Label #Step {
-              Anchor: (Top: 10, Height: 18);
-              Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-              Text: "";
-            }
-          }
+            Group #GraphColumn1 {
+              Anchor: (Width: 96, Height: 280);
+              LayoutMode: Top;
 
-          Group #GraphColumn4 {
-            Anchor: (Width: 96, Height: 280);
-            LayoutMode: Top;
-
-            Label #Price {
-              Anchor: (Height: 18);
-              Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
-              Text: "";
-            }
-
-            Group {
-              Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-              Background: #0d141b;
-
-              Group #FillUp {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #4dcb71;
+              Label #Price {
+                Anchor: (Height: 18);
+                Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
+                Text: "";
               }
 
-              Group #FillDown {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #d55353;
+              Group {
+                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
+                Background: #0d141b;
+
+                Group #FillUp {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #4dcb71;
+                }
+
+                Group #FillDown {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #d55353;
+                }
+
+                Group #FillFlat {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #8b99aa;
+                }
               }
 
-              Group #FillFlat {
-                Visible: false;
-                Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
-                Background: #8b99aa;
+              Label #Step {
+                Anchor: (Top: 10, Height: 18);
+                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
+                Text: "";
               }
             }
 
-            Label #Step {
-              Anchor: (Top: 10, Height: 18);
-              Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-              Text: "";
+            Group #GraphColumn2 {
+              Anchor: (Width: 96, Height: 280);
+              LayoutMode: Top;
+
+              Label #Price {
+                Anchor: (Height: 18);
+                Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
+                Text: "";
+              }
+
+              Group {
+                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
+                Background: #0d141b;
+
+                Group #FillUp {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #4dcb71;
+                }
+
+                Group #FillDown {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #d55353;
+                }
+
+                Group #FillFlat {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #8b99aa;
+                }
+              }
+
+              Label #Step {
+                Anchor: (Top: 10, Height: 18);
+                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
+                Text: "";
+              }
+            }
+
+            Group #GraphColumn3 {
+              Anchor: (Width: 96, Height: 280);
+              LayoutMode: Top;
+
+              Label #Price {
+                Anchor: (Height: 18);
+                Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
+                Text: "";
+              }
+
+              Group {
+                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
+                Background: #0d141b;
+
+                Group #FillUp {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #4dcb71;
+                }
+
+                Group #FillDown {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #d55353;
+                }
+
+                Group #FillFlat {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #8b99aa;
+                }
+              }
+
+              Label #Step {
+                Anchor: (Top: 10, Height: 18);
+                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
+                Text: "";
+              }
+            }
+
+            Group #GraphColumn4 {
+              Anchor: (Width: 96, Height: 280);
+              LayoutMode: Top;
+
+              Label #Price {
+                Anchor: (Height: 18);
+                Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: Center);
+                Text: "";
+              }
+
+              Group {
+                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
+                Background: #0d141b;
+
+                Group #FillUp {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #4dcb71;
+                }
+
+                Group #FillDown {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #d55353;
+                }
+
+                Group #FillFlat {
+                  Visible: false;
+                  Anchor: (Left: 12, Right: 12, Bottom: 10, Height: 20);
+                  Background: #8b99aa;
+                }
+              }
+
+              Label #Step {
+                Anchor: (Top: 10, Height: 18);
+                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
+                Text: "";
+              }
             }
           }
         }
       }
     }
   }
-}
