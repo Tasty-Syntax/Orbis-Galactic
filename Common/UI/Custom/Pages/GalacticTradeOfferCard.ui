@@ -1,0 +1,96 @@
+Group {
+  Anchor: (Width: 220, Height: 240);
+
+  Button #CardButton {
+    Anchor: (Full: 0);
+    LayoutMode: Top;
+    Padding: (Full: 10);
+    Style: (
+      Default: (
+        Background: #101922
+      ),
+      Hovered: (
+        Background: #172433
+      ),
+      Pressed: (
+        Background: #0c141d
+      )
+    );
+
+    Group {
+      Anchor: (Height: 5, Horizontal: 0, Top: 0);
+      LayoutMode: Full;
+
+      Group #AccentUp {
+        Visible: false;
+        Anchor: (Full: 0);
+        Background: #4dcb71;
+      }
+
+      Group #AccentDown {
+        Visible: false;
+        Anchor: (Full: 0);
+        Background: #d55353;
+      }
+
+      Group #AccentFlat {
+        Visible: false;
+        Anchor: (Full: 0);
+        Background: #8b99aa;
+      }
+    }
+
+    Group {
+      Anchor: (Top: 10, Width: 200, Height: 104);
+      LayoutMode: CenterMiddle;
+      Background: #0b1118;
+
+      ItemIcon #Icon {
+        Anchor: (Width: 80, Height: 80);
+      }
+    }
+
+    Label #Trend {
+      Anchor: (Top: 12, Height: 18);
+      Style: (
+        FontSize: 11,
+        RenderBold: true,
+        RenderUppercase: true,
+        TextColor: #9caec0,
+        HorizontalAlignment: End
+      );
+      Text: "";
+    }
+
+    Label #Name {
+      Anchor: (Top: 6, Height: 46);
+      Style: (
+        FontSize: 15,
+        RenderBold: true,
+        TextColor: #e1e5ea,
+        HorizontalAlignment: Center,
+        VerticalAlignment: Center,
+        Wrap: true
+      );
+    }
+
+    Label #Price {
+      Anchor: (Top: 6, Height: 24);
+      Style: (
+        FontSize: 18,
+        RenderBold: true,
+        HorizontalAlignment: Center,
+        VerticalAlignment: Center
+      );
+    }
+
+    Label #Change {
+      Anchor: (Top: 2, Height: 20);
+      Style: (
+        FontSize: 13,
+        HorizontalAlignment: Center,
+        VerticalAlignment: Center
+      );
+    }
+  }
+}
