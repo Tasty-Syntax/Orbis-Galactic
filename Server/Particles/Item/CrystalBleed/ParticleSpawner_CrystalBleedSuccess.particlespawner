@@ -1,0 +1,87 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": true,
+  "LightInfluence": 0.7,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 100,
+  "ParticleLifeSpan": {
+    "Min": 0.2,
+    "Max": 0.5
+  },
+  "SpawnRate": {
+    "Min": 50,
+    "Max": 100
+  },
+  "InitialVelocity": {
+    "Yaw": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Pitch": {
+      "Min": -0.5,
+      "Max": 0.5
+    },
+    "Speed": {
+      "Max": 3
+    }
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Spark.png",
+    "FrameSize": {
+      "Width": 64,
+      "Height": 64
+    },
+    "ScaleRatioConstraint": "Preserved",
+    "UVOption": "None",
+    "InitialAnimationFrame": {
+      "Rotation": {
+        "X": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Y": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Z": {
+          "Min": 0,
+          "Max": 0
+        }
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.25,
+          "Max": 0.25
+        },
+        "Y": {
+          "Min": 0.25,
+          "Max": 0.25
+        }
+      },
+      "Opacity": 1,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    },
+    "UseSpriteBlending": true,
+    "CollisionAnimationFrame": {
+      "Opacity": 0.588
+    },
+    "Animation": {
+      "0": {}
+    },
+    "SoftParticles": "Disable"
+  },
+  "Shape": "Sphere",
+  "SpawnBurst": true,
+  "LifeSpan": 0.1,
+  "ParticleCollision": {
+    "Action": "Expire",
+    "BlockType": "Solid"
+  },
+  "ParticleRotateWithSpawner": false,
+  "UseEmitDirection": true
+}
