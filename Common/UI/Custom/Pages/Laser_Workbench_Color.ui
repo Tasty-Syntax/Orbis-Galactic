@@ -30,6 +30,14 @@ Group {
     }
   }
   Group {
+    Anchor: (Full: 0, Right: 500, Top: 185);
+    LayoutMode: CenterMiddle;
+    Label #SaberCountText {
+      Text: "Owned: 0";
+      Style: (FontSize: 20, Alignment: Center);
+    }
+  }
+  Group {
     Anchor: (Full: 0, Left: 500, Top: 100);
     LayoutMode: CenterMiddle;
     //    ItemSlot #CrystalSlot {
@@ -44,6 +52,14 @@ Group {
         SlotSpacing: 0,
         SlotBackground: "../Common/BlockSelectorSlotBackground.png"
       );
+    }
+  }
+  Group {
+    Anchor: (Full: 0, Left: 500, Top: 185);
+    LayoutMode: CenterMiddle;
+    Label #CrystalCountText {
+      Text: "Owned: 0";
+      Style: (FontSize: 20, Alignment: Center);
     }
   }
 
@@ -62,5 +78,46 @@ Group {
     Anchor: (Bottom: 200, Left: 0, Right: 0, Height: 100);
     LayoutMode: CenterMiddle;
     $Common.@TextButton #FinishCrafting { @Text = "Build saber";   Anchor: (Width: 200, Height: 60); }
+  }
+  Group #CraftingProgressGroup {
+    Visible: false;
+    Anchor: (Bottom: 105, Left: 0, Right: 0, Height: 90);
+
+    Group {
+      Anchor: (Top: 0, Left: 0, Right: 0, Height: 30);
+      LayoutMode: CenterMiddle;
+      Label #CraftingProgressText {
+        Text: "Crafting... 0%";
+        Style: (FontSize: 22, Alignment: Center);
+      }
+    }
+
+    Group {
+      Anchor: (Bottom: 0, Left: 0, Right: 0, Height: 28);
+      LayoutMode: CenterMiddle;
+
+      Group {
+        Anchor: (Width: 360, Height: 20);
+        Background: "../Common/ProgressBar.png";
+        Padding: (Full: 4);
+
+        ProgressBar #CraftingProgressBar {
+          Value: 0.0;
+          BarTexturePath: "../Common/ProgressBarFill.png";
+          EffectTexturePath: "../Common/ProgressBarEffect.png";
+          EffectWidth: 102;
+          EffectHeight: 58;
+          EffectOffset: 74;
+        }
+      }
+    }
+  }
+  Group {
+    Anchor: (Bottom: 150, Left: 0, Right: 0, Height: 28);
+    LayoutMode: CenterMiddle;
+    Label #InfoText {
+      Text: "";
+      Style: (FontSize: 20, Alignment: Center);
+    }
   }
 }
