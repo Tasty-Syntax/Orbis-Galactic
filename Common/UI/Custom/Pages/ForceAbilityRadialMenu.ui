@@ -1,0 +1,72 @@
+Group #Root {
+  Anchor: (Full: 1);
+
+  Group #Wheel {
+    Anchor: (Width: 760, Height: 760);
+
+    Group #CenterCore {
+      Anchor: (Width: 220, Height: 220, Left: 270, Top: 270);
+      Background: #111827(0.96);
+    }
+
+    Group #JumpCard {
+      Anchor: (Width: 220, Height: 110, Left: 270, Top: 150);
+      Background: #1D4ED8(0.92);
+
+      Button #BtnJump {
+        Anchor: (Full: 1);
+      }
+
+      Label {
+        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
+        Text: "Force Jump";
+        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #EFF6FF);
+      }
+    }
+
+    Group #PullCard {
+      Anchor: (Width: 220, Height: 110, Left: 40, Top: 325);
+      Background: #0F766E(0.92);
+
+      Button #BtnPull {
+        Anchor: (Full: 1);
+      }
+
+      Label {
+        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
+        Text: "Force Pull";
+        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #ECFEFF);
+      }
+    }
+
+    Group #PushCard {
+      Anchor: (Width: 220, Height: 110, Left: 500, Top: 325);
+      Background: #B45309(0.92);
+
+      Button #BtnPush {
+        Anchor: (Full: 1);
+      }
+
+      Label {
+        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
+        Text: "Force Push";
+        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #FFF7ED);
+      }
+    }
+
+    Group #LightningCard {
+      Anchor: (Width: 220, Height: 110, Left: 270, Bottom: 150);
+      Background: #7C3AED(0.92);
+
+      Button #BtnLightning {
+        Anchor: (Full: 1);
+      }
+
+      Label {
+        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
+        Text: "Force Lightning";
+        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #F5F3FF);
+      }
+    }
+  }
+}
