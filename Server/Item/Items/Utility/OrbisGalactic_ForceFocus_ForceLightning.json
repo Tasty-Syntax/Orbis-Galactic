@@ -14,7 +14,7 @@
     }
   },
   "Interactions": {
-    "Secondary": {
+    "Ability3": {
       "Interactions": [
         {
           "Type": "StatsCondition",

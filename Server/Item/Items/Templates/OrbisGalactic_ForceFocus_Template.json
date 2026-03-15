@@ -9,7 +9,7 @@
   },
   "Reticle": "DefaultMelee",
   "Interactions": {
-    "Secondary": {
+    "Ability3": {
       "Interactions": [
         {
           "Type": "StatsCondition",
@@ -29,6 +29,13 @@
               }
             ]
           }
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_OpenForceAbilityMenu_Interaction"
         }
       ]
     }
