@@ -13,21 +13,17 @@
       {
         "Id": "Builders",
         "Type": "StructuralCrafting",
-        "Categories": [
-          "Roof"
-        ]
+        "Categories": ["Roof"]
       }
     ],
     "OutputQuantity": 1,
     "TimeSeconds": 0
   },
-  "Categories": [
-    "Blocks.Structural"
-  ],
+  "Categories": ["Blocks.Structural"],
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Structures/Roofs/Tent_Roof_Vertical.blockymodel",
+    "CustomModel": "Blocks/Structures/Roofs/Cloth_Roof_Vertical.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Structures/Tents/Black_Mythosaur_Top_Left.png",
@@ -46,9 +42,7 @@
     },
     "BlockParticleSetId": "Grass",
     "Supporting": {
-      "North": [
-        {}
-      ]
+      "North": [{}]
     },
     "BlockSoundSetId": "Cloth",
     "ParticleColor": "#7d332d"
@@ -56,23 +50,12 @@
   "PlayerAnimationsId": "Block",
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      19,
-      -39
-    ]
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [19, -39]
   },
   "Tags": {
-    "Type": [
-      "Cloth"
-    ],
-    "SubType": [
-      "Roof"
-    ]
+    "Type": ["Cloth"],
+    "SubType": ["Roof"]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
   "Icon": "Icons/ItemsGenerated/Cloth_Roof_Black_Vertical_Mythosaur_Top_Left.png"
