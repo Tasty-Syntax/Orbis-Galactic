@@ -27,10 +27,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Tatooine/Mos Eisley/Tent_Roof_Vertical_Custom.blockymodel",
+    "CustomModel": "Blocks/Structures/Tents/Cloth_Roof_Vertical_Branded.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Tatooine/Mos Eisley/Branded_Red.png",
+        "Texture": "Blocks/Structures/Tents/Tent_Red.png",
         "Weight": 0
       }
     ],

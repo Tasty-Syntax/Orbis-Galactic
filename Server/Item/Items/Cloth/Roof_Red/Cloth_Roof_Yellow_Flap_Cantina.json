@@ -13,16 +13,20 @@
       {
         "Id": "Builders",
         "Type": "StructuralCrafting",
-        "Categories": ["Roof"]
+        "Categories": [
+          "Roof"
+        ]
       }
     ],
     "OutputQuantity": 1,
     "TimeSeconds": 0
   },
-  "Categories": ["Blocks.Structural"],
+  "Categories": [
+    "Blocks.Structural"
+  ],
   "BlockType": {
     "DrawType": "Model",
-    "CustomModel": "Blocks/Tatooine/Mos Eisley/Tent_Roof_Vertical_Flap.blockymodel",
+    "CustomModel": "Blocks/Structures/Roofs/Cloth_Roof_Vertical_Flap.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Structures/Roofs/Cloth_Roof_Textures/Tent_Yellow.png",
@@ -53,13 +57,24 @@
   "PlayerAnimationsId": "Block",
   "IconProperties": {
     "Scale": 0.72,
-    "Rotation": [22.5, 45, 22.5],
-    "Translation": [9.9, -18.9]
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      9.9,
+      -18.9
+    ]
   },
   "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Flap_Cantina.png",
   "Tags": {
-    "Type": ["Cloth"],
-    "SubType": ["Roof"]
+    "Type": [
+      "Cloth"
+    ],
+    "SubType": [
+      "Roof"
+    ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth"
 }
