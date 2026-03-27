@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Black Cloth Roof - Corner"
+    "Name": "Black Cloth Roof Flap - Corner"
   },
   "Recipe": {
     "Input": [
@@ -27,10 +27,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Structures/Tents/Tent_Roof_Flap_Corner.blockymodel",
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Cloth_Roof_Corner_Flap.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tents/Black.png",
+        "Texture": "Blocks/Structures/Tents/Tent_Black.png",
         "Weight": 0
       }
     ],

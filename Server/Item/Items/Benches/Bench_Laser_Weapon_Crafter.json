@@ -3,9 +3,8 @@
     "Name": "server.items.Bench_Bench_Laser_Weapon_Crafter.name",
     "Description": "server.items.Bench_Bench_Laser_Weapon_Crafter.description"
   },
-  "Categories": [
-    "OrbisGalactic.Misc"
-  ],
+  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png",
+  "Categories": ["OrbisGalactic.Misc"],
   "Recipe": {
     "TimeSeconds": 4,
     "Input": [
@@ -25,9 +24,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Workbench_Crafting"
-        ],
+        "Categories": ["Workbench_Crafting"],
         "Id": "Workbench",
         "RequiredTierLevel": 2
       }
@@ -38,10 +35,20 @@
     "DrawType": "Model",
     "Opacity": "Transparent",
     "CustomModel": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.png",
+        "Weight": 1
+      }
+    ],
     "VariantRotation": "NESW",
     "HitboxType": "Bench_Weapon",
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
     "State": {
-      "Id": "crafting",
       "Definitions": {
         "CraftCompleted": {
           "CustomModelAnimation": "Blocks/Benches/Weapon_Crafting.blockyanim",
@@ -54,11 +61,7 @@
     },
     "Gathering": {
       "Breaking": {
-        "DropList": {
-          "Type": "Single"
-        },
-        "GatherType": "Benches",
-        "ItemId": "Bench_Laser_Weapon_Crafter"
+        "GatherType": "Benches"
       }
     },
     "Bench": {
@@ -122,37 +125,18 @@
         }
       ]
     },
-    "BlockSoundSetId": "Stone",
-    "CustomModelTexture": [
-      {
-        "Texture": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.png",
-        "Weight": 1
-      }
-    ],
-    "Light": {
-      "Color": "#134"
-    }
+    "BlockSoundSetId": "Stone"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
     "Scale": 0.4,
-    "Rotation": [
-      21,
-      32,
-      19
-    ],
-    "Translation": [
-      14,
-      -13
-    ]
+    "Rotation": [21, 32, 19],
+    "Translation": [14, -13]
   },
   "Tags": {
-    "Type": [
-      "Bench"
-    ]
+    "Type": ["Bench"]
   },
   "MaxStack": 1,
   "ItemLevel": 2,
-  "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png"
+  "ItemSoundSetId": "ISS_Blocks_Wood"
 }
