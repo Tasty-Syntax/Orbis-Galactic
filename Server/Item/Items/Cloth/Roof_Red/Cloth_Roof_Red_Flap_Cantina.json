@@ -26,10 +26,10 @@
   ],
   "BlockType": {
     "DrawType": "Model",
-    "CustomModel": "Blocks/Tatooine/Mos Eisley/Tent_Roof_Vertical_Flap.blockymodel",
+    "CustomModel": "Blocks/Structures/Roofs/Cloth_Roof_Vertical_Flap.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Roofs/Tent_Roof_Diagonal_Textures/Red.png",
+        "Texture": "Blocks/Structures/Roofs/Cloth_Roof_Textures/Tent_Red.png",
         "Weight": 1
       }
     ],
