@@ -1,0 +1,30 @@
+{
+  "DisplayNameKey": "Holocron Builder",
+  "RestockHour": 6,
+  "Trades": [
+    {
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_ForceHolocron_Broken",
+          "Quantity": 1
+        },
+        {
+          "ItemId": "OrbisGalactic_PowerCell",
+          "Quantity": 1
+        },
+        {
+          "ItemId": "OrbisGalactic_MemoryCrystal",
+          "Quantity": 1
+        }
+      ],
+      "Output": {
+        "ItemId": "OrbisGalactic_ForceHolocron",
+        "Quantity": 1
+      },
+      "Stock": 10
+    }
+  ],
+  "RefreshInterval": {
+    "Days": 1
+  }
+}

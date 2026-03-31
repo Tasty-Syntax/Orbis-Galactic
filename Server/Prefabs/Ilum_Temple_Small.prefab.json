@@ -47161,5 +47161,178 @@
       "z": 11,
       "name": "Rock_Stone"
     }
+  ],
+  "entities": [
+    {
+      "Components": {
+        "UtilityInventory": {
+          "Inventory": {
+            "Id": "Empty"
+          },
+          "ActiveSlot": -1
+        },
+        "EffectController": {},
+        "DisplayName": {
+          "DisplayName": {
+            "MessageId": "Barkeep",
+            "Bold": null,
+            "Italic": null,
+            "Monospace": null,
+            "Underline": null
+          }
+        },
+        "UIComponentList": {},
+        "HotbarInventory": {
+          "Inventory": {
+            "Id": "Simple",
+            "Capacity": 3,
+            "Items": {}
+          },
+          "ActiveSlot": 0
+        },
+        "Transform": {
+          "Position": {
+            "X": -21.448625087738037,
+            "Y": -10.959735870361328,
+            "Z": 10.49151611328125
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.4444706439971924,
+            "Roll": 0.0
+          }
+        },
+        "StorageInventory": {
+          "Inventory": {
+            "Id": "Empty"
+          }
+        },
+        "Velocity": {
+          "Velocity": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "PrefabCopyable": {},
+        "Interactions": {
+          "Interactions": {
+            "Use": "*UseNPC"
+          }
+        },
+        "Invulnerable": {},
+        "Model": {
+          "Model": {
+            "Id": "Rodian_Blue_Trader_Model",
+            "Scale": 1.2000000476837158,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "RQ+buvs9MMKEQ7UwOGgwkQ==",
+            "$type": "04"
+          }
+        },
+        "EntityStats": {
+          "Version": 5,
+          "Stats": {
+            "Oxygen": {
+              "Id": "Oxygen",
+              "Value": 100.0
+            },
+            "Mana": {
+              "Id": "Mana",
+              "Value": 0.0
+            },
+            "Health": {
+              "Id": "Health",
+              "Value": 74.0,
+              "Modifiers": {
+                "NPC_Max": {
+                  "Id": "Static",
+                  "CalculationType": "Additive",
+                  "Amount": -26.0
+                }
+              }
+            },
+            "GlidingActive": {
+              "Id": "GlidingActive",
+              "Value": 0.0
+            },
+            "Immunity": {
+              "Id": "Immunity",
+              "Value": 0.0
+            },
+            "SignatureCharges": {
+              "Id": "SignatureCharges",
+              "Value": 0.0
+            },
+            "Stamina": {
+              "Id": "Stamina",
+              "Value": 10.0
+            },
+            "Ammo": {
+              "Id": "Ammo",
+              "Value": 0.0
+            },
+            "Unknown": {
+              "Id": "Unknown",
+              "Value": 0.0
+            },
+            "SignatureEnergy": {
+              "Id": "SignatureEnergy",
+              "Value": 0.0
+            },
+            "DeployablePreview": {
+              "Id": "DeployablePreview",
+              "Value": 0.0
+            },
+            "StaminaRegenDelay": {
+              "Id": "StaminaRegenDelay",
+              "Value": 0.0
+            },
+            "MagicCharges": {
+              "Id": "MagicCharges",
+              "Value": 0.0
+            }
+          }
+        },
+        "NPC": {
+          "Version": 5,
+          "UUID": {
+            "$binary": "RQ+buvs9MMKEQ7UwOGgwkQ==",
+            "$type": "04"
+          },
+          "Inventory": {
+            "Version": 4,
+            "ActiveHotbarSlot": 0,
+            "ActiveToolsSlot": -1,
+            "ActiveUtilitySlot": -1
+          },
+          "HvrPhs": 0.0,
+          "HvrHght": 0.0,
+          "MdlScl": 1.2000000476837158,
+          "SpawnInstant": "0001-01-01T12:00:00Z",
+          "WorldgenId": 0,
+          "PathManager": {},
+          "RoleName": "Holocron_Builder_Trader"
+        },
+        "ArmorInventory": {
+          "Inventory": {
+            "Id": "Simple",
+            "Capacity": 4,
+            "Items": {}
+          }
+        },
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": -1.4444706439971924,
+            "Roll": 0.0
+          }
+        }
+      }
+    }
   ]
 }

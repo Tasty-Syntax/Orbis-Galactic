@@ -6,66 +6,118 @@ Group #Root {
 
     Group #CenterCore {
       Anchor: (Width: 220, Height: 220, Left: 270, Top: 270);
-      Background: #111827(0.96);
+      Background: #94A3B8(0.40);
+      Padding: (Full: 3);
+
+      Group {
+        Anchor: (Full: 0);
+        Background: #111827(0.96);
+
+        Label #AbilityNameText {
+          Anchor: (Left: 10, Right: 10, Top: 70, Height: 80);
+          Text: "";
+          Style: (FontSize: 22, Alignment: Center, FontName: "Secondary", TextColor: #EFF6FF);
+        }
+      }
     }
 
     Group #JumpCard {
-      Anchor: (Width: 220, Height: 110, Left: 270, Top: 150);
-      Background: #1D4ED8(0.92);
+      Anchor: (Width: 180, Height: 180, Left: 290, Top: 95);
+      Background: #99F6E4(0.44);
+      Padding: (Full: 3);
 
-      Button #BtnJump {
-        Anchor: (Full: 1);
-      }
+      Group {
+        Anchor: (Full: 0);
+        Background: #0F766E(0.92);
 
-      Label {
-        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
-        Text: "Force Jump";
-        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #EFF6FF);
+        Button #BtnJump {
+          Anchor: (Full: 1);
+        }
+
+        Group {
+          Anchor: (Full: 1);
+          LayoutMode: CenterMiddle;
+
+          Group {
+            Anchor: (Width: 72, Height: 72);
+            Background: (TexturePath: "Icons/Force_Jump.png");
+          }
+        }
       }
     }
 
     Group #PullCard {
-      Anchor: (Width: 220, Height: 110, Left: 40, Top: 325);
-      Background: #0F766E(0.92);
+      Anchor: (Width: 180, Height: 180, Left: 95, Top: 290);
+      Background: #99F6E4(0.44);
+      Padding: (Full: 3);
 
-      Button #BtnPull {
-        Anchor: (Full: 1);
-      }
+      Group {
+        Anchor: (Full: 0);
+        Background: #0F766E(0.92);
 
-      Label {
-        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
-        Text: "Force Pull";
-        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #ECFEFF);
+        Button #BtnPull {
+          Anchor: (Full: 1);
+        }
+
+        Group {
+          Anchor: (Full: 1);
+          LayoutMode: CenterMiddle;
+
+          Group {
+            Anchor: (Width: 72, Height: 72);
+            Background: (TexturePath: "Icons/Force_Pull.png");
+          }
+        }
       }
     }
 
     Group #PushCard {
-      Anchor: (Width: 220, Height: 110, Left: 500, Top: 325);
-      Background: #B45309(0.92);
+      Anchor: (Width: 180, Height: 180, Left: 485, Top: 290);
+      Background: #99F6E4(0.44);
+      Padding: (Full: 3);
 
-      Button #BtnPush {
-        Anchor: (Full: 1);
-      }
+      Group {
+        Anchor: (Full: 0);
+        Background: #0F766E(0.92);
 
-      Label {
-        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
-        Text: "Force Push";
-        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #FFF7ED);
+        Button #BtnPush {
+          Anchor: (Full: 1);
+        }
+
+        Group {
+          Anchor: (Full: 1);
+          LayoutMode: CenterMiddle;
+
+          Group {
+            Anchor: (Width: 72, Height: 72);
+            Background: (TexturePath: "Icons/Force_Push.png");
+          }
+        }
       }
     }
 
     Group #LightningCard {
-      Anchor: (Width: 220, Height: 110, Left: 270, Bottom: 150);
-      Background: #7C3AED(0.92);
+      Anchor: (Width: 180, Height: 180, Left: 290, Bottom: 95);
+      Background: #99F6E4(0.44);
+      Padding: (Full: 3);
 
-      Button #BtnLightning {
-        Anchor: (Full: 1);
-      }
+      Group {
+        Anchor: (Full: 0);
+        Background: #0F766E(0.92);
 
-      Label {
-        Anchor: (Top: 18, Left: 16, Right: 16, Height: 30);
-        Text: "Force Lightning";
-        Style: (FontSize: 24, Alignment: Center, FontName: "Secondary", TextColor: #F5F3FF);
+        Button #BtnLightning {
+          Anchor: (Full: 1);
+        }
+
+        Group {
+          Anchor: (Full: 1);
+          LayoutMode: CenterMiddle;
+
+          Group {
+            Anchor: (Width: 72, Height: 72);
+            Background: (TexturePath: "Icons/Force_Lightning.png");
+          }
+        }
       }
     }
   }

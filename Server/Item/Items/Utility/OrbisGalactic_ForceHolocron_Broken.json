@@ -1,9 +1,9 @@
 {
   "TranslationProperties": {
-    "Name": "Force Holocron"
+    "Name": "Broken Force Holocron"
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_ForceHolocron.png",
-  "Quality": "Epic",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_ForceHolocron_Broken.png",
+  "Quality": "Rare",
   "Interactions": {
     "Secondary": {
       "Interactions": [
@@ -32,10 +32,10 @@
   ],
   "Scale": 0.5,
   "BlockType": {
-    "CustomModel": "Items/Utility/Holocron.blockymodel",
+    "CustomModel": "Items/Utility/Holocron_Broken.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Utility/Holocron_Texture.png"
+        "Texture": "Items/Utility/Holocron_Broken_Texture.png"
       }
     ],
     "Material": "Solid",
