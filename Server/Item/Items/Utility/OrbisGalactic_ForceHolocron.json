@@ -1,0 +1,18 @@
+{
+	"Parent": "OrbisGalactic_ForceFocus_Template",
+	"TranslationProperties": {
+		"Name": "server.items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.name",
+		"Description": "server.items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.description"
+	},
+	"Icon": "Icons/ItemsGenerated/OrbisGalactic_Holocron.png",
+	"Quality": "Rare",
+	"Interactions": {
+		"Secondary": {
+			"Interactions": [
+				{
+					"Type": "OrbisGalactic_OpenForceAbilityMenu_Interaction"
+				}
+			]
+		}
+	}
+}
