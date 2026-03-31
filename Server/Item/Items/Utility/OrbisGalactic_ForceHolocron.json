@@ -1,10 +1,8 @@
 {
-	"Parent": "OrbisGalactic_ForceFocus_Template",
 	"TranslationProperties": {
-		"Name": "server.items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.name",
-		"Description": "server.items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.description"
+		"Name": "Force Holocron"
 	},
-	"Icon": "Icons/ItemsGenerated/OrbisGalactic_Holocron.png",
+	"Icon": "Icons/ItemsGenerated/OrbisGalactic_ForceHolocron.png",
 	"Quality": "Rare",
 	"Interactions": {
 		"Secondary": {
@@ -14,5 +12,28 @@
 				}
 			]
 		}
+	},
+	"Model": "Items/Utility/Holocron.blockymodel",
+	"Texture": "Items/Utility/Holocon_Texture.png",
+	"IconProperties": {
+		"Scale": 0.58823,
+		"Rotation": [22.5, 45, 22.5],
+		"Translation": [0, -13.5]
+	},
+	"Scale": 0.5,
+	"BlockType": {
+		"CustomModel": "Items/Utility/Holocron.blockymodel",
+		"CustomModelTexture": [
+			{
+				"Texture": "Items/Utility/Holocon_Texture.png"
+			}
+		],
+		"Material": "Solid",
+		"DrawType": "Model"
+	},
+	"Parent": "Soil_Dirt",
+	"Tags": {
+		"Type": ["Tool"],
+		"ForceFocus": []
 	}
 }
