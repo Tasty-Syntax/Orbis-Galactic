@@ -1,0 +1,138 @@
+{
+  "TranslationProperties": {
+    "Name": "Mos Eisley Bookshelf"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Set": "Furniture_Ancient",
+  "Icon": "Icons/ItemsGenerated/Furniture_Ancient_Bookshelf.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.5,
+    "Translation": [
+      -1,
+      -13
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Blackwood_Deadwood"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Bookshelf"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/Decorative_Sets/MosEisley/MosEisley_Bookshelf.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/MosEisley/MosEisley_Bookshelf_Texture.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "Blocks/Decorative_Sets/MosEisley/MosEisley_Bookshelf_Texture2.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "Blocks/Decorative_Sets/MosEisley/MosEisley_Bookshelf_Texture3.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "Blocks/Decorative_Sets/MosEisley/MosEisley_Bookshelf_Texture4.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "Blocks/Decorative_Sets/MosEisley/MosEisley_Bookshelf_Texture5.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "Blocks/Decorative_Sets/MosEisley/MosEisley_Bookshelf_Texture6.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "ParticleColor": "#4e462c",
+    "MaxSupportDistance": 8,
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Shelf",
+          "Support": "Ignored"
+        },
+        {
+          "FaceType": "Shelf",
+          "SelfFaceType": "Shelf"
+        }
+      ],
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "HitboxType": "Block_Vertical_Seven_Eighth"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}
