@@ -1,0 +1,120 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 5,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Potion_Empty_Small",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Potion_Health_Lesser",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "Ingredient_Charcoal",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Food_Wildmeat_Cooked",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Food_Bread",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 3,
+            "Item": {
+              "ItemId": "Ingredient_Spices",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Ingredient_Salt",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 0,
+        "RollsMax": 1,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForcePush_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForcePull_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 1,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForceLightning_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 1,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForceJump_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

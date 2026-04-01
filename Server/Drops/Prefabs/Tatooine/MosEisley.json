@@ -1,0 +1,127 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 4,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Deco_Book_Pile_Large",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Deco_Book_Pile_Small",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Furniture_Ancient_Candle",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Furniture_Village_Bookcase",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 2,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Deco_SpiderWeb",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Deco_SpiderWeb_Full",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Furniture_Crude_Shelf",
+              "QuantityMin": 1,
+              "QuantityMax": 3
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 0,
+        "RollsMax": 1,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForcePush_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForcePull_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 1,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForceLightning_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 1,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForceJump_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

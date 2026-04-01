@@ -9428,7 +9428,20 @@
       "x": -20,
       "y": -11,
       "z": -1,
-      "name": "Empty"
+      "name": "Block_Spawner_Block",
+      "components": {
+        "Components": {
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "xgHY4EUaTAql0bOeHC91yw==",
+              "$type": "04"
+            }
+          },
+          "BlockSpawner": {
+            "BlockSpawnerId": "Temple_Small_Chest"
+          }
+        }
+      }
     },
     {
       "x": -20,
@@ -47230,7 +47243,7 @@
         },
         "UUID": {
           "UUID": {
-            "$binary": "RQ+buvs9MMKEQ7UwOGgwkQ==",
+            "$binary": "Bx+1RnFbOqel9rfwDwWZcQ==",
             "$type": "04"
           }
         },
@@ -47301,7 +47314,7 @@
         "NPC": {
           "Version": 5,
           "UUID": {
-            "$binary": "RQ+buvs9MMKEQ7UwOGgwkQ==",
+            "$binary": "s9xTYx70O/yxr+thA3AM6g==",
             "$type": "04"
           },
           "Inventory": {

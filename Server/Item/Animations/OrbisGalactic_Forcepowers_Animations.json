@@ -30,5 +30,6 @@
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning_Fps.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
     }
-  }
+  },
+  "Parent": "Item"
 }
