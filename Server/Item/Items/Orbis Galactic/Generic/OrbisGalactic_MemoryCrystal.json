@@ -1,51 +1,62 @@
 {
-	"Model": "Items/Ingredients/Spice.blockymodel",
-	"Texture": "Items/Ingredients/Holocron/Powercell_Texture.png",
-	"Categories": ["OrbisGalactic.Misc"],
-	"TranslationProperties": {
-		"Name": "Memory Crystal",
-		"Description": "A crystal containing secrets about the Force. Used to fix a broken Holocron"
-	},
-	"UsePlayerAnimations": true,
-	"PlayerAnimationsId": "Item",
-	"Scale": 0.75,
-	"Icon": "Icons/ItemsGenerated/OrbisGalactic_MemoryCrystal.png",
-	"IconProperties": {
-		"Scale": 0.8,
-		"Rotation": [293, 123, 34],
-		"Translation": [2, -1]
-	},
-	"ItemSoundSetId": "ISS_Items_Gems",
-	"Quality": "Rare",
-	"Recipe": {
-		"Input": [
-			{
-				"ItemId": "Ingredient_Fire_Essence",
-				"Quantity": 50
-			},
-			{
-				"ItemId": "Ingredient_Ice_Essence",
-				"Quantity": 50
-			},
-			{
-				"ItemId": "Ingredient_Life_Essence",
-				"Quantity": 50
-			},
-			{
-				"ItemId": "Ingredient_Void_Essence",
-				"Quantity": 50
-			},
-			{
-				"ItemId": "Ingredient_Water_Essence",
-				"Quantity": 50
-			}
-		],
-		"BenchRequirement": [
-			{
-				"Id": "Arcanebench",
-				"Categories": ["Arcane_Misc"]
-			}
-		]
-	},
-	"SubCategory": "Force Power"
+  "Model": "Items/Ingredients/Holocron/MemoryCrystal.blockymodel",
+  "Texture": "Items/Ingredients/Holocron/MemoryCrystal_Texture.png",
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ],
+  "TranslationProperties": {
+    "Name": "Memory Crystal",
+    "Description": "A crystal containing secrets about the Force. Used to fix a broken Holocron"
+  },
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": "Item",
+  "Scale": 1,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_MemoryCrystal.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      293,
+      123,
+      34
+    ],
+    "Translation": [
+      4,
+      -4
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "Quality": "Rare",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Water_Essence",
+        "Quantity": 50
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ]
+  },
+  "SubCategory": "Force Power"
 }
