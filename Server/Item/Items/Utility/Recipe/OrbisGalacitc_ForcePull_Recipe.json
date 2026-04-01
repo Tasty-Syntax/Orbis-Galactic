@@ -3,7 +3,7 @@
 		"Name": "Force Pull Training"
 	},
 	"Icon": "Icons/ItemsGenerated/Recipe_Page.png",
-	"Categories": ["Items.Recipes"],
+	"Categories": ["OrbisGalactic.Misc"],
 	"PlayerAnimationsId": "Item",
 	"Model": "Items/Consumables/Recipes/Recipe.blockymodel",
 	"Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
@@ -29,5 +29,6 @@
 	},
 	"Tags": {
 		"Type": ["Recipe"]
-	}
+	},
+	"SubCategory": "Force Power"
 }

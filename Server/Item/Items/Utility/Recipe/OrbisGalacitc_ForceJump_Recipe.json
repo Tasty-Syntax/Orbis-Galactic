@@ -3,7 +3,6 @@
 		"Name": "Force Jump Training"
 	},
 	"Icon": "Icons/ItemsGenerated/Recipe_Page.png",
-	"Categories": ["Items.Recipes"],
 	"PlayerAnimationsId": "Item",
 	"Model": "Items/Consumables/Recipes/Recipe.blockymodel",
 	"Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
@@ -29,5 +28,7 @@
 	},
 	"Tags": {
 		"Type": ["Recipe"]
-	}
+	},
+	"Categories": ["OrbisGalactic.Misc"],
+	"SubCategory": "Force Power"
 }
