@@ -12,9 +12,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -25,7 +23,7 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Multicolor",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_White",
         "Quantity": 1
       },
       {
@@ -34,18 +32,11 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_White.png",
   "IconProperties": {
     "Scale": 0.3,
-    "Rotation": [
-      333,
-      224,
-      40
-    ],
-    "Translation": [
-      -46,
-      -44
-    ]
+    "Rotation": [333, 224, 40],
+    "Translation": [-46, -44]
   },
   "State": {
     "On": {
@@ -89,7 +80,7 @@
       "Set": "",
       "Quality": "Epic",
       "Variant": true,
-      "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
+      "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_White.png",
       "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim"
     }
   }

@@ -1,0 +1,88 @@
+{
+  "TranslationProperties": {
+    "Name": "Saber Forge"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Set": "Furniture_Human_Ruins",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      23.625,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -13,
+      -15
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Laser Weapon Bench/Lightsaber_Forge.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Laser Weapon Bench/Lightsaber_Forge.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "BB_SaberForge",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Wood",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OrbisGalactic_OpenSaberWorkbench"
+          }
+        ]
+      }
+    }
+  },
+  "Model": "Blocks/Laser Weapon Bench/Lightsaber_Forge.blockymodel",
+  "Texture": "Blocks/Decorative_Sets/Tavern/Table_Texture.png",
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_SaberWorkbench.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

@@ -33,7 +33,6 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Blue.png",
   "IconProperties": {
     "Scale": 0.1,
     "Rotation": [
@@ -127,5 +126,6 @@
         }
       ]
     }
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Blue.png"
 }
