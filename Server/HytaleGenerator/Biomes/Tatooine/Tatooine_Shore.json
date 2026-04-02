@@ -1698,6 +1698,30 @@
 					"$x":	-32,
 					"$y":	1023
 				}
+			},
+			"Constant.EnvironmentProvider":	{
+				"$Position":	{
+					"$x":	-1657,
+					"$y":	-3641
+				}
+			},
+			"DensityDelimited.EnvironmentProvider":	{
+				"$Position":	{
+					"$x":	-2871,
+					"$y":	-3679
+				}
+			},
+			"Delimiter.DensityDelimited.EnvironmentProvider":	{
+				"$Position":	{
+					"$x":	-2102,
+					"$y":	-3640
+				}
+			},
+			"Decimal.Range":	{
+				"$Position":	{
+					"$x":	-1655,
+					"$y":	-3457
+				}
 			}
 		},
 		"$FloatingNodes":	[{
@@ -2094,6 +2118,22 @@
 				"Type":	"Occurrence",
 				"Skip":	false,
 				"Seed":	"A"
+			}, {
+				"$NodeId":	"DensityDelimited.EnvironmentProvider-eb7ae066-b18d-455f-af7f-b063c0a84571",
+				"Type":	"DensityDelimited",
+				"Delimiters":	[{
+						"$NodeId":	"Delimiter.DensityDelimited.EnvironmentProvider-36b15507-7e46-4b2f-8f2c-cc3551d843b0",
+						"Environment":	{
+							"$NodeId":	"Constant.EnvironmentProvider-fbc5062e-d3c9-43ca-9849-fb306f11d34e",
+							"Type":	"Constant",
+							"Environment":	"Unknown"
+						},
+						"Range":	{
+							"$NodeId":	"Decimal.Range-66bbc2e1-4f2c-408b-9087-eb363813608e",
+							"MinInclusive":	0,
+							"MaxExclusive":	1
+						}
+					}]
 			}],
 		"$Links":	{
 		},

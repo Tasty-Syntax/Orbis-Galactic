@@ -72,6 +72,30 @@
             }
           ]
         },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "OutboundSeconds": 0.5,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ImpactSfxId": "SFX_Staff_Flame_Fireball_Impact",
+              "ImpactParticleId": "Gun_Impact",
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_White.png",
+              "Light": {
+                "Color": "#666"
+              }
+            }
+          ]
+        },
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
         "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
         "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",

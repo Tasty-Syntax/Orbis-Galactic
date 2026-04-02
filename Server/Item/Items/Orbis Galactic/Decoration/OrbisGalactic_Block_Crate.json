@@ -1,0 +1,48 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Lime_Stalactite_Small.name"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Crate.png",
+  "Set": "Rock_Lime",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Wood_Hardwood_Planks.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "Quality": 1,
+        "ItemId": "Rock_Lime_Cobble",
+        "GatherType": "Rocks"
+      }
+    },
+    "RandomRotation": "YawStep90",
+    "ParticleColor": "#674100",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Damageable_Crate.blockymodel",
+    "HitboxType": "Crate_BoundingBox"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Lime"
+    ]
+  },
+  "Parent": "Wood_Redwood_Planks",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
