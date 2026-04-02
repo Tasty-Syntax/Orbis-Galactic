@@ -29,6 +29,14 @@
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning_Fps.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
+    },
+    "Force_Push": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Cast.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Cast_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Cast_FPS.blockyanim"
     }
   },
   "Parent": "Item"

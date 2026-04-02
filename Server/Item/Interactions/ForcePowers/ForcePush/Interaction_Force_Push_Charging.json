@@ -13,7 +13,9 @@
       },
       "Effects": {
         "WorldSoundEventId": "SFX_Flame_Build",
-        "LocalSoundEventId": "SFX_Flame_Build"
+        "LocalSoundEventId": "SFX_Flame_Build",
+        "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+        "ItemAnimationId": "Force_Push"
       }
     },
     "0.6": {
@@ -40,5 +42,9 @@
         "LocalSoundEventId": "SFX_Flame_Build"
       }
     }
+  },
+  "Effects": {
+    "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+    "ItemAnimationId": "Force_Push"
   }
 }
