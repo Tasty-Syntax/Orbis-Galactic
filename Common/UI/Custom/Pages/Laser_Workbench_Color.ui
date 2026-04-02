@@ -239,7 +239,7 @@ Group #Root {
         Anchor: (Full: 0);
         Background: #101923(0.84);
 
-        Group {
+        Group #BladeColorTitleGroup {
           Anchor: (Top: 12, Left: 0, Right: 0, Height: 28);
           LayoutMode: CenterMiddle;
 
@@ -249,7 +249,7 @@ Group #Root {
           }
         }
 
-        Group {
+        Group #ColorButtonsGroup {
           Anchor: (Bottom: 25, Left: 0, Right: 0, Height: 64);
           LayoutMode: CenterMiddle;
 
@@ -294,6 +294,41 @@ Group #Root {
             Style: @WhiteSwatch;
           }
         }
+
+        Group #CraftingProgressGroup {
+          Visible: false;
+          Anchor: (Bottom: 16, Left: 0, Right: 0, Height: 72);
+
+          Group {
+            Anchor: (Top: 0, Left: 0, Right: 0, Height: 26);
+            LayoutMode: CenterMiddle;
+
+            Label #CraftingProgressText {
+              Text: "Crafting... 0%";
+              Style: (FontSize: 20, Alignment: Center);
+            }
+          }
+
+          Group {
+            Anchor: (Bottom: 0, Left: 0, Right: 0, Height: 28);
+            LayoutMode: CenterMiddle;
+
+            Group {
+              Anchor: (Width: 420, Height: 20);
+              Background: "../Common/ProgressBar.png";
+              Padding: (Full: 4);
+
+              ProgressBar #CraftingProgressBar {
+                Value: 0.0;
+                BarTexturePath: "../Common/ProgressBarFill.png";
+                EffectTexturePath: "../Common/ProgressBarEffect.png";
+                EffectWidth: 102;
+                EffectHeight: 58;
+                EffectOffset: 74;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -327,38 +362,4 @@ Group #Root {
     }
   }
 
-  Group #CraftingProgressGroup {
-    Visible: false;
-    Anchor: (Bottom: 32, Left: 0, Right: 0, Height: 72);
-
-    Group {
-      Anchor: (Top: 0, Left: 0, Right: 0, Height: 26);
-      LayoutMode: CenterMiddle;
-
-      Label #CraftingProgressText {
-        Text: "Crafting... 0%";
-        Style: (FontSize: 20, Alignment: Center);
-      }
-    }
-
-    Group {
-      Anchor: (Bottom: 0, Left: 0, Right: 0, Height: 28);
-      LayoutMode: CenterMiddle;
-
-      Group {
-        Anchor: (Width: 420, Height: 20);
-        Background: "../Common/ProgressBar.png";
-        Padding: (Full: 4);
-
-        ProgressBar #CraftingProgressBar {
-          Value: 0.0;
-          BarTexturePath: "../Common/ProgressBarFill.png";
-          EffectTexturePath: "../Common/ProgressBarEffect.png";
-          EffectWidth: 102;
-          EffectHeight: 58;
-          EffectOffset: 74;
-        }
-      }
-    }
-  }
 }
