@@ -31,7 +31,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Cantina_Lamp.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_BountyBoard.png",
   "IconProperties": {
     "Scale": 0.5,
     "Rotation": [
@@ -40,10 +40,23 @@
       11
     ],
     "Translation": [
-      1,
+      11,
       -16
     ]
   },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Lumberjack"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture.png",
+  "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
+  "Model": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel",
+  "Set": "Cantina",
   "BlockType": {
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
@@ -55,7 +68,7 @@
         "ItemId": "OrbisGalactic_Block_Cantina_Lamp_Wall"
       }
     },
-    "Material": "Solid",
+    "Material": "Empty",
     "Opacity": "Solid",
     "ParticleColor": "#575757",
     "Interactions": {
@@ -106,24 +119,20 @@
     "CubeShadingMode": "Standard",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture_Off.png"
+        "Texture": "Blocks/Bounty/Bounty_Board_Texture.png"
       }
     ],
-    "InteractionHitboxType": "Block_Full",
+    "InteractionHitboxType": "OrbisGalactic_BountyBoard_Hitbox",
     "Looping": true,
-    "CustomModel": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel"
-  },
-  "Tags": {
-    "Type": [
-      "Furniture"
-    ],
-    "Family": [
-      "Lumberjack"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Items_Metal",
-  "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture.png",
-  "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "Model": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel",
-  "Set": "Cantina"
+    "CustomModel": "Blocks/Bounty/Bounty_Board.blockymodel",
+    "SupportsRequiredFor": "All",
+    "Support": {
+      "All": [
+        {
+          "Support": "Ignored"
+        }
+      ]
+    },
+    "HitboxType": "OrbisGalactic_BountyBoard_Hitbox"
+  }
 }
