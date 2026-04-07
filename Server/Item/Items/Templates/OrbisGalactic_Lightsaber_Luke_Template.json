@@ -269,5 +269,6 @@
     "Compatible": false
   },
   "Quality": "Template",
-  "Animation": "Items/Animations/Lightsaber/Lightsaber_Off.blockyanim"
+  "Animation": "Items/Animations/Lightsaber/Lightsaber_Off.blockyanim",
+  "Scale": 0.5
 }

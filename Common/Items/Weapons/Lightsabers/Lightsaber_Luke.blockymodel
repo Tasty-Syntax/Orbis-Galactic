@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "R-Attachment",
-      "position": {"x": 0, "y": 26.05087, "z": 0},
+      "position": {"x": 0, "y": 14.05087, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "none",
@@ -22,7 +22,7 @@
         {
           "id": "2",
           "name": "Hilt",
-          "position": {"x": 2.64622, "y": -16, "z": -6.30684},
+          "position": {"x": 2.64622, "y": -4, "z": -6.30684},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
@@ -1115,7 +1115,7 @@
         {
           "id": "23",
           "name": "Blade",
-          "position": {"x": -0.25, "y": 133.89826, "z": -0.25},
+          "position": {"x": -0.25, "y": 145.89826, "z": -0.25},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
