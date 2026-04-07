@@ -1658,17 +1658,17 @@
                     "angle": 0
                   },
                   "right": {
-                    "offset": {"x": 20, "y": 0},
+                    "offset": {"x": 0, "y": 0},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
                   "front": {
-                    "offset": {"x": 40, "y": 0},
+                    "offset": {"x": 0, "y": 0},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
                   "left": {
-                    "offset": {"x": 60, "y": 0},
+                    "offset": {"x": 0, "y": 0},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
