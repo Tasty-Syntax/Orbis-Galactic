@@ -12,8 +12,8 @@ items.Ore_Kyber_Crystal_Purple.name=Purple Kyber Crystal
 items.Ore_Kyber_Crystal_Purple.description=A deep violet crystal shimmering with conflicting energies. Its hum carries both serenity and intensity, balanced on a razor’s edge between control and aggression.
 items.Ore_Kyber_Crystal_Orange.name=Orange Kyber Crystal
 items.Ore_Kyber_Crystal_Orange.description=A warm orange crystal glowing with restrained intensity. Its hum feels deliberate and measured, resonating with adaptability, ambition, and pragmatic balance. The Force within is neither rigid nor wild, but shaped by personal will and unconventional purpose.
-items.Ore_Kyber_Crystal_Multicolor.name=White Kyber Crystal
-items.Ore_Kyber_Crystal_Multicolor.description=A rare prismatic crystal refracting shifting hues of cyan, magenta, and yellow within its core. Its hum is calm and perfectly unified, as if multiple resonances have been fused into a single, coherent harmony. The Force within feels balanced and self-determined, free from corruption and rigid doctrine alike.
+items.Ore_Kyber_Crystal_White.name=White Kyber Crystal
+items.Ore_Kyber_Crystal_White.description=A rare prismatic crystal refracting shifting hues of cyan, magenta, and yellow within its core. Its hum is calm and perfectly unified, as if multiple resonances have been fused into a single, coherent harmony. The Force within feels balanced and self-determined, free from corruption and rigid doctrine alike.
 
 # --- Blocks
 items.Ore_Kyber_Stone.name=Kyber Crystal Ore - Stone

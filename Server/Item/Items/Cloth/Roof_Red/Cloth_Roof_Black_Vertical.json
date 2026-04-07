@@ -27,10 +27,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Structures/Roofs/Tent_Roof_Vertical.blockymodel",
+    "CustomModel": "Blocks/Structures/Roofs/Cloth_Roof_Vertical.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tents/Black.png",
+        "Texture": "Blocks/Structures/Tents/Tent_Black.png",
         "Weight": 0
       }
     ],

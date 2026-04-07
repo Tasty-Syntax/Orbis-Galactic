@@ -18,6 +18,9 @@
   "IsObjectiveMarkersEnabled": true,
   "IsAllNPCFrozen": false,
   "IsSavingPlayers": true,
+  "WorldMap": {
+    "Type": "Disabled"
+  },
   "SpawnProvider": {
     "Id": "Global",
     "SpawnPoint": {
@@ -30,8 +33,9 @@
     }
   },
   "WorldGen": {
-    "Type": "HytaleGenerator",
-    "WorldStructure": "Orbis_Galactic_Spaceship_Interior"
+    "Type": "Void",
+    "Tint": "#5b9e28",
+    "Environment": "Env_OrbisGalactic_Spaceship"
   },
   "IsSpawnMarkersEnabled": true,
   "DeleteOnRemove": false,

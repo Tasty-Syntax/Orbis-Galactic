@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Lightsaber_Throw_loop.ogg"
+      ],
+      "Looping": true,
+      "Volume": 5.16
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons",
+  "PreventSoundInterruption": false,
+  "Parent": "SFX_Attn_Moderate"
+}
