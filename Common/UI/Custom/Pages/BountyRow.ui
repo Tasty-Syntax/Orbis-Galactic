@@ -7,9 +7,9 @@ Group {
     Background: #000000(0.6); // Semi-transparent black background [9]
 
     // Big Avatar Icon
-    AssetImage #Avatar {
+    Group #Avatar {
         Anchor: (Width: 120, Height: 120);
-        // TexturePath will be set via Java [10]
+        Background: (TexturePath: "galaxy.png");
     }
 
     // Text Information Column
@@ -34,11 +34,36 @@ Group {
 
     // Reward Column
     Group #Reward {
-        Anchor: (Width: 150);
+        Anchor: (Width: 220);
         LayoutMode: CenterMiddle;
-        Label #RewardValue {
-            Text: "0G";
-            Style: (FontSize: 28, TextColor: #FFD700); // Gold color for rewards
+
+        Group {
+            Anchor: (Width: 180, Height: 36);
+            LayoutMode: Left;
+
+            Label #RewardLabel {
+                Anchor: (Width: 90, Height: 30);
+                Text: "Reward";
+                Style: (FontSize: 22, TextColor: #AAAAAA);
+            }
+
+            ItemSlot #GoldSlot {
+                Anchor: (Width: 36, Height: 36);
+                ItemId: "OrbisGalactic_Galactic_Credit_Gold";
+                Quantity: 0;
+                ShowQuantity: true;
+            }
+
+            Group {
+                Anchor: (Width: 8, Height: 36);
+            }
+
+            ItemSlot #SilverSlot {
+                Anchor: (Width: 36, Height: 36);
+                ItemId: "OrbisGalactic_Galactic_Credit_Silver";
+                Quantity: 0;
+                ShowQuantity: true;
+            }
         }
     }
 

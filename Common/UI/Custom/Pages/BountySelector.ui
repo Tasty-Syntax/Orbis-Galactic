@@ -6,7 +6,7 @@ Group {
     LayoutMode: CenterMiddle;
 
     Group #MainPanel {
-        Background: #1a1a1a(0.95);
+        Background: (TexturePath: "Bounty/background.png");
         Anchor: (Width: 1000, Height: 750);
         LayoutMode: Top;
 
