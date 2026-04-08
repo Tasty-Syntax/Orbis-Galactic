@@ -1,0 +1,116 @@
+{
+  "RenderMode": "Erosion",
+  "EmitOffset": {
+    "X": {
+      "Min": 0,
+      "Max": 0
+    },
+    "Y": {
+      "Min": 0,
+      "Max": 0.4
+    },
+    "Z": {
+      "Min": 0,
+      "Max": 0
+    }
+  },
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": true,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 0,
+  "TrailSpawnerRotationMultiplier": 0,
+  "MaxConcurrentParticles": 10,
+  "ParticleLifeSpan": {
+    "Min": 0.2,
+    "Max": 0.3
+  },
+  "SpawnRate": {
+    "Min": 20,
+    "Max": 30
+  },
+  "Particle": {
+    "Texture": "Particles/Textures/Basic/Ring3.png",
+    "FrameSize": {},
+    "ScaleRatioConstraint": "OneToOne",
+    "SoftParticles": "Disable",
+    "UVOption": "RandomFlipU",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Rotation": {
+          "X": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Y": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Z": {
+            "Min": 0,
+            "Max": 0
+          }
+        },
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Opacity": 0,
+        "Color": "#ff0606"
+      },
+      "10": {},
+      "40": {
+        "Opacity": 1
+      },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 0.1,
+            "Max": 0.1
+          }
+        },
+        "Rotation": {
+          "Z": {
+            "Min": 360,
+            "Max": 360
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.2,
+          "Max": 0.3
+        }
+      },
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Opacity": 1,
+      "Rotation": {
+        "X": {
+          "Min": 85.0,
+          "Max": 95.0
+        },
+        "Y": {
+          "Min": 80.0,
+          "Max": 100.0
+        }
+      }
+    }
+  },
+  "IntersectionHighlight": {
+    "HighlightThreshold": 1,
+    "HighlightColor": "#fa3030"
+  },
+  "IsLowRes": true
+}

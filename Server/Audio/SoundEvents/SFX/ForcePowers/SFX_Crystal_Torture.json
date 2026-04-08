@@ -1,0 +1,16 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Forcepowers/Crystal_Torture.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1,
+        "MaxPitch": 1
+      },
+      "Looping": false,
+      "Volume": 10
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons"
+}

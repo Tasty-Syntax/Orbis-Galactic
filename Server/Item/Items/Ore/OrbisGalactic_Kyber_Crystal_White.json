@@ -54,5 +54,16 @@
       -4,
       -22
     ]
+  },
+  "BlockType": {
+    "CustomModel": "Resources/Ingredients/Kyber Crystal/Kyber_Ore_Large.blockymodel",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Rainbow.png"
+      }
+    ],
+    "ParticleColor": "#ffffff"
   }
 }

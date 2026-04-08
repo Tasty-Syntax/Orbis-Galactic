@@ -1,31 +1,27 @@
 {
-  "Parent": "OrbisGalactic_Kyber_Crystal_Template",
-  "TranslationProperties": {
-    "Description": "server.items.Ore_Kyber_Crystal_Clear.description",
-    "Name": "server.items.Ore_Kyber_Crystal_Clear.name"
-  },
-  "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Colorless.png",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_Clear.png",
-  "Light": {
-    "Color": "#555"
-  },
-  "Particles": [
-    {
-      "SystemId": "Block_Gem_Sparks",
-      "Color": "#ffffff"
-    }
-  ],
-  "Quality": "Epic",
-  "IconProperties": {
-    "Scale": 0.5,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Translation": [
-      -4,
-      -22
-    ]
-  }
+	"Parent": "OrbisGalactic_Kyber_Crystal_Template",
+	"TranslationProperties": {
+		"Description": "server.items.Ore_Kyber_Crystal_Clear.description",
+		"Name": "server.items.Ore_Kyber_Crystal_Clear.name"
+	},
+	"Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Colorless.png",
+	"Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_Clear.png",
+	"Light": {
+		"Color": "#555"
+	},
+	"Particles": [
+		{
+			"SystemId": "Block_Gem_Sparks",
+			"Color": "#ffffff"
+		}
+	],
+	"Quality": "Epic",
+	"IconProperties": {
+		"Scale": 0.5,
+		"Rotation": [22.5, 45, 22.5],
+		"Translation": [-4, -22]
+	},
+	"Tags": {
+		"KyberCrystal": ["bleedable"]
+	}
 }

@@ -18,6 +18,13 @@
           "Type": "OrbisGalactic_Lightsaber_Interaction"
         }
       ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+        }
+      ]
     }
   },
   "InteractionVars": {

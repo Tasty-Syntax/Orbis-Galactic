@@ -51,6 +51,9 @@
       }
     }
   ],
-  "Scale": 0.35,
-  "Quality": "Template"
+  "Quality": "Template",
+  "BlockType": {
+    "CustomModelScale": 0.3,
+    "Parent": "Rock_Gem_Diamond"
+  }
 }

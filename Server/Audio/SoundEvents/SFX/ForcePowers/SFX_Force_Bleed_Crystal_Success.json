@@ -1,0 +1,18 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Forcepowers/Bleed_Crystal_Success.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1,
+        "MaxPitch": 1,
+        "MaxVolume": 3.76,
+        "MinVolume": 0
+      },
+      "Looping": false
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons",
+  "Parent": "SFX_Attn_Moderate"
+}

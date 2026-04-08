@@ -22435,7 +22435,20 @@
       "x": 17,
       "y": -1,
       "z": -2,
-      "name": "Empty"
+      "name": "Block_Spawner_Block",
+      "components": {
+        "Components": {
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "xgHY4EUaTAql0bOeHC91yw==",
+              "$type": "04"
+            }
+          },
+          "BlockSpawner": {
+            "BlockSpawnerId": "Yeti_Cave"
+          }
+        }
+      }
     },
     {
       "x": 17,
@@ -43229,7 +43242,7 @@
         },
         "UUID": {
           "UUID": {
-            "$binary": "dgE6okkDOVqO8m0LFwpgVQ==",
+            "$binary": "iZ4U9wIrOxWFbF+yRy4n9A==",
             "$type": "04"
           }
         },
@@ -43300,7 +43313,7 @@
         "NPC": {
           "Version": 5,
           "UUID": {
-            "$binary": "dgE6okkDOVqO8m0LFwpgVQ==",
+            "$binary": "we3VODatNlSOZuyGjJ/5JQ==",
             "$type": "04"
           },
           "Inventory": {
@@ -43312,15 +43325,15 @@
           "HvrPhs": 0.0,
           "HvrHght": 0.0,
           "MdlScl": 1.5,
-          "SpawnInstant": "0002-03-17T12:00:01.000001952Z",
+          "SpawnInstant": "0001-01-01T12:00:00Z",
           "WorldgenId": 0,
           "PathManager": {},
           "LeashPos": {
-            "X": 550.5,
-            "Y": 182.0,
-            "Z": 172.5
+            "X": 19.871828663364,
+            "Y": 56.5,
+            "Z": 21.533168896204472
           },
-          "LeashHdg": 1.601246953010559,
+          "LeashHdg": 0.6204906702041626,
           "LeashPtch": 0.0,
           "RoleName": "Yeti"
         },
@@ -43335,6 +43348,49 @@
           "Rotation": {
             "Pitch": 0.0,
             "Yaw": 0.6204906702041626,
+            "Roll": 0.0
+          }
+        }
+      }
+    },
+    {
+      "Components": {
+        "PreventItemMerging": {},
+        "Prop": {},
+        "Transform": {
+          "Position": {
+            "X": 15.04742431640625,
+            "Y": -2.535186767578125,
+            "Z": 0.1555023193359375
+          },
+          "Rotation": {
+            "Pitch": 0.8279587626457214,
+            "Yaw": 2.514725685119629,
+            "Roll": 0.0
+          }
+        },
+        "PreventPickup": {},
+        "EntityScale": {
+          "Scale": 1.0
+        },
+        "Item": {
+          "Item": {
+            "Id": "Armor_Cloth_Linen_Head",
+            "Quantity": 1,
+            "Durability": 120.0,
+            "MaxDurability": 120.0,
+            "OverrideDroppedItemAnimation": true
+          },
+          "StackDelay": 1.5,
+          "PickupDelay": 0.5,
+          "PickupThrottle": 0.0,
+          "RemovedByPlayerPickup": false
+        },
+        "PrefabCopyable": {},
+        "HeadRotation": {
+          "Rotation": {
+            "Pitch": 0.8279587626457214,
+            "Yaw": 2.514725685119629,
             "Roll": 0.0
           }
         }
@@ -43364,7 +43420,7 @@
         },
         "UUID": {
           "UUID": {
-            "$binary": "cph+bw1COKiblOx0s7wyuQ==",
+            "$binary": "Kn5PI393Nim7mhKHj/i7pg==",
             "$type": "04"
           }
         },
@@ -43417,49 +43473,6 @@
             "Pitch": 0.0,
             "Yaw": 1.1067728996276855,
             "Roll": -2.6712121963500977
-          }
-        }
-      }
-    },
-    {
-      "Components": {
-        "PreventItemMerging": {},
-        "Prop": {},
-        "Transform": {
-          "Position": {
-            "X": 15.04742431640625,
-            "Y": -2.535186767578125,
-            "Z": 0.1555023193359375
-          },
-          "Rotation": {
-            "Pitch": 0.8279587626457214,
-            "Yaw": 2.514725685119629,
-            "Roll": 0.0
-          }
-        },
-        "PreventPickup": {},
-        "EntityScale": {
-          "Scale": 1.0
-        },
-        "Item": {
-          "Item": {
-            "Id": "Armor_Cloth_Linen_Head",
-            "Quantity": 1,
-            "Durability": 120.0,
-            "MaxDurability": 120.0,
-            "OverrideDroppedItemAnimation": true
-          },
-          "StackDelay": 1.5,
-          "PickupDelay": 0.5,
-          "PickupThrottle": 0.0,
-          "RemovedByPlayerPickup": false
-        },
-        "PrefabCopyable": {},
-        "HeadRotation": {
-          "Rotation": {
-            "Pitch": 0.8279587626457214,
-            "Yaw": 2.514725685119629,
-            "Roll": 0.0
           }
         }
       }

@@ -1,0 +1,152 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 3,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 20,
+            "Item": {
+              "ItemId": "Ore_Silver",
+              "QuantityMin": 5,
+              "QuantityMax": 7
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Ore_Mithril",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 2,
+            "Item": {
+              "ItemId": "Ore_Prisma",
+              "QuantityMin": 1,
+              "QuantityMax": 2
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "Ore_Adamantite",
+              "QuantityMin": 3,
+              "QuantityMax": 5
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 3,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 5,
+            "Item": {
+              "ItemId": "OrbisGalactic_Galactic_Credit_Gold",
+              "QuantityMin": 1,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 95,
+            "Item": {
+              "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+              "QuantityMin": 2,
+              "QuantityMax": 7
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 0,
+        "RollsMax": 1,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 33,
+            "Item": {
+              "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 33,
+            "Item": {
+              "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 33,
+            "Item": {
+              "ItemId": "OrbisGalactic_Lightsaber_Hilt_Maul",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 0,
+        "RollsMax": 1,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 20,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForcePush_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 20,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForcePull_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 10,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForceLightning_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          },
+          {
+            "Type": "Single",
+            "Weight": 15,
+            "Item": {
+              "ItemId": "OrbisGalacitc_ForceJump_Recipe",
+              "QuantityMin": 0,
+              "QuantityMax": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

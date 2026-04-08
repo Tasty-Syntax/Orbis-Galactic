@@ -28,23 +28,28 @@
     "BenchRequirement": [
       {
         "Id": "Arcanebench",
-        "Categories": [
-          "Arcane_Misc"
-        ]
+        "Categories": ["Arcane_Misc"]
       }
     ]
   },
   "Quality": "Epic",
   "IconProperties": {
     "Scale": 0.5,
-    "Rotation": [
-      22.5,
-      45,
-      22.5
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [-4, -22]
+  },
+  "Tags": {
+    "KyberCrystal": ["healable"]
+  },
+  "BlockType": {
+    "CustomModel": "Resources/Ingredients/Kyber Crystal/Kyber_Ore_Large.blockymodel",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Red.png"
+      }
     ],
-    "Translation": [
-      -4,
-      -22
-    ]
+    "ParticleColor": "#fd4040"
   }
 }
