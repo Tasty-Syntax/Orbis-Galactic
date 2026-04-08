@@ -7,7 +7,7 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": 0, "y": -52, "z": 0},
+          "delta": {"x": 0, "y": -100, "z": 0},
           "interpolationType": "linear"
         },
         {

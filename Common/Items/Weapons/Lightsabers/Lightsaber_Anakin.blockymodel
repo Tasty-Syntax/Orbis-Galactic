@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "R-Attachment",
-      "position": {"x": 0, "y": 30, "z": 0},
+      "position": {"x": 0, "y": 27, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "none",
@@ -22,7 +22,7 @@
         {
           "id": "2",
           "name": "Handle",
-          "position": {"x": 2, "y": 2, "z": 2},
+          "position": {"x": 2, "y": 5, "z": 2},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
