@@ -1,0 +1,27 @@
+$Common = "Common.ui";
+
+Group {
+    // Parent container centered horizontally at the top of the screen
+    LayoutMode: Center; 
+    Anchor: (Top: 40, Width: 600, Height: 100); // 40px from top, 600px wide [4]
+
+    // Vertical stack for the name and bar
+    Group #AlignmentStack {
+        LayoutMode: Top; // Stacks children from top to bottom [2]
+        Anchor: (Full: 0); // Stretches to fill the 600px parent [4]
+
+        Label #BossName {
+            Anchor: (Height: 30, Bottom: 5); // Fixed height with 5px gap below it [2, 5]
+            Style: (FontSize: 24, HorizontalAlignment: Center); // Centers text inside label [6]
+            Text: "Boss Name";
+        }
+
+        ProgressBar #HealthBar {
+            // Centers the bar within the 600px stack
+            Anchor: (Width: 500, Height: 22); 
+            Value: 1.0;        
+BarTexturePath: "XPFill.png";
+EffectTexturePath: "XPEffect.png";
+        }
+    }
+}
