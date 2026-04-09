@@ -30,13 +30,26 @@
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Retract_Double.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Retract_Double.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Retract_Double.blockyanim",
-      "Speed": 0.2,
-      "ClipsGeometry": true
+      "Speed": 0.4,
+      "ClipsGeometry": false,
+      "KeepPreviousFirstPersonAnimation": true
     },
     "OrbisGalactic_Lightsaber_Luke_Ignite": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Luke_Ignite.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Luke_Ignite.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Longsword/Lightsaber_Luke_Ignite.blockyanim",
+      "Speed": 0.25
+    },
+    "OrbisGalactic_Lightsaber_Double_Combine": {
+      "FirstPerson": "Characters/Animations/Items/Lightsaber/ZUSAMMEN.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Lightsaber/ZUSAMMEN.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
+      "Speed": 0.25
+    },
+    "OrbisGalactic_Lightsaber_Double_Split": {
+      "FirstPerson": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Lightsaber/AUSEINANDER.blockyanim",
       "Speed": 0.25
     }
   },
