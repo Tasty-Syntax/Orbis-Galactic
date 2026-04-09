@@ -1,0 +1,25 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.083,
+  "Selector": {
+    "Id": "Stab",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.5,
+    "ExtendLeft": 2,
+    "ExtendRight": 2,
+    "ExtendBottom": 0.5,
+    "StartDistance": 0.5,
+    "EndDistance": 8
+  },
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.2
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "OrbisGalactic_R2_FollowToggle_Interaction"
+      }
+    ]
+  }
+}
