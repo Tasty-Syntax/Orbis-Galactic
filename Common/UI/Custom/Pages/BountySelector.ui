@@ -7,7 +7,7 @@ Group {
 
     Group #MainPanel {
         Background: (TexturePath: "Bounty/background.png");
-        Anchor: (Width: 1000, Height: 750);
+        Anchor: (Width: 1224, Height: 720);
         LayoutMode: Top;
 
         Label {
@@ -16,7 +16,6 @@ Group {
             Anchor: (Height: 100);
         }
 
-        // List container where Java will inject the 3 components
         Group #BountyList {
             FlexWeight: 1;
             LayoutMode: TopScrolling;

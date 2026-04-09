@@ -42,10 +42,10 @@
       0,
       24
     ],
-    "DropList": "Drop_Bounty",
+    "DropList": "Drop_Cad_Bane_Bounty",
     "Appearance": "MA_Bossfight_Bounty_CadBane",
     "Weapons": [
-      "OrbisGalactic_Weapon_Blaster_DC15A"
+      "OrbisGalactic_Weapon_Blaster_RA4C"
     ],
     "AttackPauseRange": [
       0,
@@ -71,7 +71,7 @@
     "WanderRadius": {
       "Compute": "WanderRadius"
     },
-    "Attack": "ROOT_Interaction_Bounty_IG11",
+    "Attack": "ROOT_Interaction_Bounty_CadBane",
     "CombatBackOffAfterAttack": false,
     "AttackDistance": 50,
     "CombatFleeIfTooCloseDistance": 10,

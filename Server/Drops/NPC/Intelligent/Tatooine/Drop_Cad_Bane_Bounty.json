@@ -1,0 +1,25 @@
+{
+  "Container": {
+    "Type": "Choice",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "OrbisGalactic_ForceHolocron_Broken",
+          "QuantityMin": 0,
+          "QuantityMax": 1
+        },
+        "Weight": 50
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "OrbisGalactic_Weapon_Blaster_RA4C",
+          "QuantityMin": 0,
+          "QuantityMax": 1
+        },
+        "Weight": 50
+      }
+    ]
+  }
+}

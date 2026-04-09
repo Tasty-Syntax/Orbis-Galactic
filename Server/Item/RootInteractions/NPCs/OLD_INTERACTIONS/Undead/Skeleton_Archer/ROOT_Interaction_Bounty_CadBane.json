@@ -25,7 +25,8 @@
       "Next": {
         "Type": "OrbisGalactic_BossShoot",
         "ImpactDamage": 10,
-        "BulletSpread": 0.01
+        "BulletSpread": 0.01,
+        "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_RA4C"
       }
     }
   ]

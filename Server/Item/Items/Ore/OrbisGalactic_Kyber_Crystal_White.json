@@ -1,35 +1,47 @@
 {
-	"Parent": "OrbisGalactic_Kyber_Crystal_Template",
-	"TranslationProperties": {
-		"Description": "server.items.Ore_Kyber_Crystal_White.description",
-		"Name": "server.items.Ore_Kyber_Crystal_White.name"
-	},
-	"Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Colorless.png",
-	"Light": {
-		"Color": "#650"
-	},
-	"Particles": [
-		{
-			"SystemId": "Block_Gem_Sparks",
-			"Color": "#d9bd42"
-		}
-	],
-	"Quality": "Epic",
-	"IconProperties": {
-		"Scale": 0.5,
-		"Rotation": [22.5, 45, 22.5],
-		"Translation": [-4, -22]
-	},
-	"BlockType": {
-		"CustomModel": "Resources/Ingredients/Kyber Crystal/Kyber_Ore_Large.blockymodel",
-		"DrawType": "Model",
-		"Material": "Solid",
-		"CustomModelTexture": [
-			{
-				"Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Colorless.png"
-			}
-		],
-		"ParticleColor": "#ffffff"
-	},
-	"Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_White.png"
+  "Parent": "OrbisGalactic_Kyber_Crystal_Template",
+  "TranslationProperties": {
+    "Description": "server.items.Ore_Kyber_Crystal_White.description",
+    "Name": "server.items.Ore_Kyber_Crystal_White.name"
+  },
+  "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Colorless.png",
+  "Light": {
+    "Color": "#650"
+  },
+  "Particles": [
+    {
+      "SystemId": "Block_Gem_Sparks",
+      "Color": "#d9bd42"
+    }
+  ],
+  "Quality": "Epic",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -4,
+      -22
+    ]
+  },
+  "BlockType": {
+    "CustomModel": "Resources/Ingredients/Kyber Crystal/Kyber_Ore_Large.blockymodel",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Ingredients/Kyber Crystal/Kyber_Crystal_Colorless.png"
+      }
+    ],
+    "ParticleColor": "#ffffff"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Kyber_Crystal_White.png",
+  "Tags": {
+    "KyberCrystal": [
+      "bleedable"
+    ]
+  }
 }
