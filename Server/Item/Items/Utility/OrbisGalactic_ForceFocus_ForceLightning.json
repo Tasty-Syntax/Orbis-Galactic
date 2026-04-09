@@ -11,15 +11,21 @@
       "Interactions": [
         {
           "Type": "OrbisGalacitc_ForceBleedAndLightning_Interaction",
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "ParticleSystem_ForceLightning",
+                "TargetEntityPart": "Entity",
+                "DetachedFromModel": false
+              }
+            ],
+            "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+            "ItemAnimationId": "Force_Lightning"
+          },
           "Next": {
             "3": {
               "Type": "Simple"
             }
-          },
-          "Effects": {
-            "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
-            "ItemAnimationId": "Force_Lightning",
-            "ClearAnimationOnFinish": false
           }
         }
       ]

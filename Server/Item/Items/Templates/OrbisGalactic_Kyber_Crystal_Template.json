@@ -55,5 +55,10 @@
   "BlockType": {
     "CustomModelScale": 0.3,
     "Parent": "Rock_Gem_Diamond"
-  }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "KyberCrystal"
+    }
+  ]
 }

@@ -67,14 +67,6 @@
   },
   "Model": "Blocks/Laser Weapon Bench/Lightsaber_Forge.blockymodel",
   "Texture": "Blocks/Decorative_Sets/Tavern/Table_Texture.png",
-  "ResourceTypes": [
-    {
-      "Id": "Fuel"
-    },
-    {
-      "Id": "Charcoal"
-    }
-  ],
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_SaberWorkbench.png",
   "Tags": {
     "Type": [
@@ -84,5 +76,32 @@
       "Human"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Wood"
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "KyberCrystal"
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 10
+      },
+      {
+        "Quantity": 15,
+        "ItemId": "Ingredient_Bar_Iron"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  }
 }
