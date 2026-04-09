@@ -115,6 +115,10 @@ items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_White.description=A 
 items.OrbisGalactic_Weapon_DC15A.name=DC-15A
 items.OrbisGalactic_Weapon_DC15A.description=The standard issue blaster rifle for clone troopers.
 
+items.OrbisGalactic_Weapon_RA4C.name=RA-4c
+items.OrbisGalactic_Weapon_RA4C.description=An Old Republic-era sidearm prized for its sleek design and ease of modification, the RA-4c was unpopular with the military but found lasting appeal among civilians. This heavily modified unit delivers increased power at the cost of excessive heat, causing visible wear and reduced collector value.
+
+
 items.OrbisGalactic_Weapon_Cycler_Rifle.name=Cycler Rifle
 items.OrbisGalactic_Weapon_Cycler_Rifle.description=A long range high velocity blaster rifle often used by Tusken Raiders.
 

@@ -28,7 +28,8 @@
     "Force_Lightning": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning_Fps.blockyanim",
-      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning_Moving.blockyanim"
     },
     "Force_Push": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Cast.blockyanim",

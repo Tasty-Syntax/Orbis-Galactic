@@ -2,16 +2,16 @@
   "Model": "Items/Weapons/Blaster_RA4C/RA-4C.blockymodel",
   "Texture": "Items/Weapons/Blaster_RA4C/RA-4C_Texture.png",
   "Parent": "OrbisGalactic_Blaster_Template",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_DC15A.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_RA4C.png",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.15,
     "Rotation": [
       336,
-      124,
-      25
+      114,
+      20
     ],
     "Translation": [
-      -16,
+      63,
       -27
     ]
   },
@@ -34,8 +34,8 @@
     }
   },
   "TranslationProperties": {
-    "Name": "server.items.OrbisGalactic_Weapon_DC15A.name",
-    "Description": "server.items.OrbisGalactic_Weapon_DC15A.description"
+    "Name": "server.items.OrbisGalactic_Weapon_RA4C.name",
+    "Description": "server.items.OrbisGalactic_Weapon_RA4C.description"
   },
   "Quality": "Rare",
   "Categories": [
