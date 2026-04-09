@@ -20,11 +20,16 @@
       "Interactions": [
         {
           "Type": "OrbisGalactic_ShootBlaster",
-          "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_DC15A",
-          "ImpactDamage": 15,
+          "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_RA4C",
+          "ImpactDamage": 7,
           "RunTime": 0,
-          "BulletSpread": 0.02
+          "BulletSpread": 0.01
         }
+      ]
+    },
+    "Interaction_Blaster_Shoot_SFX": {
+      "Interactions": [
+        "Interaction_Blaster_Shoot_SFX_RA4C"
       ]
     }
   },
@@ -36,6 +41,7 @@
   "Categories": [
     "OrbisGalactic.Blasters"
   ],
-  "Scale": 0.4,
-  "PlayerAnimationsId": "BlasterRA4C"
+  "Scale": 0.3,
+  "PlayerAnimationsId": "BlasterRA4C",
+  "ClipsGeometry": false
 }

@@ -1,60 +1,60 @@
 {
   "Animations": {
     "Idle": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Idle_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.5,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Idle.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "Walk": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_FPS.blockyanim",
-      "Speed": 1.0,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Walk_FPS.blockyanim",
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "WalkBackward": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_Backward_FPS.blockyanim",
-      "Speed": 1.0,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_Backward.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Walk_FPS.blockyanim",
+      "Speed": 0.8,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "Run": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run_FPS.blockyanim",
-      "Speed": 0.9,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Walk_FPS.blockyanim",
+      "Speed": 1.3,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "RunBackward": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run_Backward_FPS.blockyanim",
-      "Speed": 0.9,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run_Backward.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Walk_FPS.blockyanim",
+      "Speed": 1.3,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "Sprint": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Sprint_FPS.blockyanim",
-      "Speed": 2,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Sprint.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Walk_FPS.blockyanim",
+      "Speed": 2.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "Crouch": {
       "BlendingDuration": 0.1,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.5,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Crouch.blockyanim",
       "Looping": true
     },
     "CrouchWalk": {
       "BlendingDuration": 0.1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Crouch.blockyanim",
       "Speed": 0.8,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Walk_FPS.blockyanim",
       "Looping": true
     },
     "CrouchWalkBackward": {
       "BlendingDuration": 0.1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk_Backward.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Crouch.blockyanim",
       "Speed": 0.8,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Crouch_Walk_Backward_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Walk_FPS.blockyanim",
       "Looping": true
     },
     "Jump": {
@@ -91,108 +91,108 @@
     },
     "FlyIdle": {
       "Speed": 0.5,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly_Idle.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly_Idle_FPS.blockyanim"
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim"
     },
     "Fly": {
       "Looping": true,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly_FPS.blockyanim"
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim"
     },
     "FlyBackward": {
       "Looping": true,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly_Backward.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly_Backward_FPS.blockyanim"
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim"
     },
     "FlyFast": {
       "Looping": true,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly_Fast.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Fly/Fly_Fast_FPS.blockyanim"
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim"
     },
     "SwimIdle": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Idle_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Idle.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "Swim": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.6,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "SwimBackward": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Backward_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Backward.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "SwimFast": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Fast_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.6,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Fast.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "SwimJump": {
       "BlendingDuration": 0.1,
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Jump_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.8,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Jump.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": false
     },
     "SwimFloat": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Float_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Float.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "SwimSink": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Sink_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Sink.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "SwimDive": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Dive_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.6,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Dive.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "SwimDiveBackward": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Dive_Backward_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 1,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Dive_Backward.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "SwimDiveFast": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Dive_Fast_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.6,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Swim/Swim_Dive_Fast.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "FluidIdle": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Idle_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.3,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Idle.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "FluidWalk": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.6,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "FluidWalkBackward": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_Backward_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.6,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Walk_Backward.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "FluidRun": {
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run_FPS.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle_FPS.blockyanim",
       "Speed": 0.6,
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Run.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Idle.blockyanim",
       "Looping": true
     },
     "ClimbIdle": {
@@ -231,39 +231,13 @@
       "Speed": 1,
       "BlendingDuration": 0.1
     },
-    "Shoot": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot/Shoot.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot/Shoot_Moving.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot/Shoot_FPS.blockyanim",
-      "Speed": 1,
-      "BlendingDuration": 0,
-      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
-    },
-    "ShootFlintlockCharging": {
-      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock_Charged/Shoot_Flintlock_Charging.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock_Charged/Shoot_Flintlock_Charging_Moving.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock_Charged/Shoot_Flintlock_Charging_FPS.blockyanim",
-      "Speed": 1
-    },
-    "ShootFlintlockCharged": {
-      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock_Charged/Shoot_Flintlock_Charged.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock_Charged/Shoot_Flintlock_Charged_Moving.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock_Charged/Shoot_Flintlock_Charged_FPS.blockyanim",
-      "BlendingDuration": 0
-    },
-    "ShootFlintlock": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock/Shoot_Flintlock.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock/Shoot_Flintlock_Moving.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Shoot_Flintlock/Shoot_Flintlock_FPS.blockyanim"
-    },
     "GuardBash": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Guard_Bash/Guard_Bash.blockyanim",
-      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Guard_Bash/Guard_Bash_Moving.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Rifle/Attacks/Guard_Bash/Guard_Bash_FPS.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Guard_Bash.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Guard_Bash_FPS.blockyanim",
       "Looping": false,
-      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim"
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "KeepPreviousFirstPersonAnimation": false,
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/Guard_Bash_Moving.blockyanim"
     }
   },
   "Camera": {

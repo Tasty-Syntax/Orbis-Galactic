@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Blaster/BlasterShot_Pistol_Blue.ogg"
+      ],
+      "RandomSettings": {
+        "MaxPitch": 1.104,
+        "MinPitch": -1.392
+      }
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons"
+}
