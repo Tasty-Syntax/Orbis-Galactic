@@ -16,20 +16,16 @@
   },
   "DefaultAttachments": [
     {
-      "Model": "Cosmetics/Pants/Short_Bermuda_Belted.blockymodel",
-      "Texture": "Cosmetics/Pants/Short_Bermuda_Belted_Textures/Merchant_Belted_Pants_Orange.png"
+      "Model": "Items/Armors/Robes/Jedi_Pants.blockymodel",
+      "Texture": "Items/Armors/Robes/Jedi_Pants.png"
     },
     {
-      "Model": "Cosmetics/Overtops/Merchant_Dress.blockymodel",
-      "Texture": "Cosmetics/Overtops/Merchant_Dress_Texture/Merchant_Dress_Orange.png"
-    },
-    {
-      "Model": "Cosmetics/Shoes/BasicSlipons.blockymodel",
-      "Texture": "Cosmetics/Shoes/BasicSlipons_Textures/CoolGaia_Slipons_Texture.png"
+      "Model": "Items/Armors/Robes/Jedi_Robes.blockymodel",
+      "Texture": "Items/Armors/Robes/Jedi_Robes.png"
     },
     {
       "Model": "Characters/Body_Attachments/Eyes/Eyes_Fullbright_Pupil.blockymodel",
-      "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Cat_Eye.png",
+      "Texture": "Characters/Body_Attachments/Eyes/Eyes_Textures/Plain_Square.png",
       "GradientSet": "Hair",
       "GradientId": "Blue"
     },
@@ -43,7 +39,15 @@
       "Model": "Characters/Body_Attachments/Mouths/Mouth1.blockymodel",
       "Texture": "Characters/Body_Attachments/Mouths/Mouth1_Textures/Thin_Lips.png",
       "GradientSet": "Skin",
-      "GradientId": "03"
+      "GradientId": "01"
+    },
+    {
+      "Model": "Cosmetics/Undertops/BasicUndertop.blockymodel",
+      "Texture": "Cosmetics/Undertops/Top_Textures/Mercenary_Top.png"
+    },
+    {
+      "Model": "Cosmetics/Pants/Pants_Slim.blockymodel",
+      "Texture": "Cosmetics/Pants/LeatherPant_Texture.png"
     }
   ],
   "Icon": "Icons/ModelsGenerated/Rodian_Blue_Model.png",
@@ -59,13 +63,13 @@
       -64
     ]
   },
-  "MinScale": 1.2,
-  "MaxScale": 1.2,
+  "MinScale": 1,
+  "MaxScale": 1,
   "AnimationSets": {
     "Idle": {
       "Animations": [
         {
-          "Animation": "NPC/Human/Animations/Idle3.blockyanim",
+          "Animation": "NPC/Human/Animations/Idle4.blockyanim",
           "Looping": true,
           "Speed": 0.5
         }
@@ -1271,7 +1275,5 @@
     }
   },
   "Model": "Characters/Player_With_Face.blockymodel",
-  "Texture": "Characters/Player_Textures/Player_Greyscale.png",
-  "GradientSet": "Skin",
-  "GradientId": "03"
+  "Texture": "Characters/Player_Textures/Outlander_1.png"
 }

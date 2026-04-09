@@ -9,7 +9,7 @@
   "StartState": "Idle",
   "DefaultNPCAttitude": "Ignore",
   "DefaultPlayerAttitude": "Neutral",
-  "Appearance": "Rodian_Blue_Trader_Model",
+  "Appearance": "Ancient_Jedi_Model",
   "DropList": "Drop_Jawa",
   "MaxHealth": 74,
   "DisableDamageGroups": [
