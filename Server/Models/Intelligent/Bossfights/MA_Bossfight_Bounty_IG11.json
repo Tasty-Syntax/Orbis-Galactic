@@ -53,7 +53,7 @@
     "Idle": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Default/Idle.blockyanim",
+          "Animation": "NPC/Intelligent/Droids/Animations/IG_11_Idle.blockyanim",
           "Looping": true,
           "Speed": 0.5
         }
@@ -62,8 +62,8 @@
     "Walk": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Default/Walk.blockyanim",
-          "Speed": 1.0,
+          "Animation": "NPC/Intelligent/Droids/Animations/IG_11_Walk.blockyanim",
+          "Speed": 1,
           "FootstepIntervals": [
             25,
             75
@@ -86,8 +86,8 @@
     "Run": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Default/Run.blockyanim",
-          "Speed": 0.9,
+          "Animation": "NPC/Intelligent/Droids/Animations/IG_11_Walk.blockyanim",
+          "Speed": 1.2,
           "FootstepIntervals": [
             25,
             75
@@ -1262,6 +1262,13 @@
         {
           "Animation": "NPC/Intelligent/Klops/Animations/Default/Alerted.blockyanim",
           "Looping": false
+        }
+      ]
+    },
+    "Attack": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Droids/Animations/IG_11_Attack.blockyanim"
         }
       ]
     }

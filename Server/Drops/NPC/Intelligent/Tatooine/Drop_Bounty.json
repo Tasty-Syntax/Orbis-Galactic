@@ -5,10 +5,11 @@
       {
         "Type": "Single",
         "Item": {
-          "ItemId": "OrbisGalactic_Galactic_Credit_Silver",
+          "ItemId": "OrbisGalactic_ForceHolocron_Broken",
           "QuantityMin": 0,
-          "QuantityMax": 2
-        }
+          "QuantityMax": 1
+        },
+        "Weight": 50
       }
     ]
   }

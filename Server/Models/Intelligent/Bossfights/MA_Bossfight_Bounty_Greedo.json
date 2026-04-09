@@ -1,6 +1,6 @@
 {
   "Model": "NPC/Intelligent/Tatooine/Greedo/Greedo.blockymodel",
-  "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo_Olive.png",
+  "Texture": "NPC/Intelligent/Tatooine/Greedo/Greedo.png",
   "EyeHeight": 1.65,
   "MaxScale": 1,
   "MinScale": 1,

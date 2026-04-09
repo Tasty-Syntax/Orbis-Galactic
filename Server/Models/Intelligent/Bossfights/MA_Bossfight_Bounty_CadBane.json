@@ -1264,6 +1264,13 @@
           "Looping": false
         }
       ]
+    },
+    "SpinShoot": {
+      "Animations": [
+        {
+          "Animation": "NPC/Intelligent/Bossfights/CadBane/Animations/CadBane_Spin_Attack.blockyanim"
+        }
+      ]
     }
   }
 }

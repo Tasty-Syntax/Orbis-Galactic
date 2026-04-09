@@ -28,6 +28,9 @@
                 "Var": "Force_Power"
               }
             ]
+          },
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations"
           }
         }
       ]

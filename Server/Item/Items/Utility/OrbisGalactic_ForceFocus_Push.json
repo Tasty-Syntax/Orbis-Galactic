@@ -11,6 +11,19 @@
       "Interactions": [
         "Interaction_Force_Push_Charging"
       ]
+    },
+    "Item_Anim": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemAnimationId": "Force_Push",
+            "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations"
+          }
+        }
+      ]
     }
-  }
+  },
+  "PlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+  "UsePlayerAnimations": true
 }
