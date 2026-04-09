@@ -1,134 +1,151 @@
 {
-	"TranslationProperties": {
-		"Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Red.name",
-		"Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Red.description"
-	},
-	"Quality": "Epic",
-	"Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Red.png",
-	"Recipe": {
-		"TimeSeconds": 4.5,
-		"KnowledgeRequired": false,
-		"BenchRequirement": [
-			{
-				"Type": "Crafting",
-				"Categories": ["Lightsabers_Single"],
-				"Id": "Bench_Laser_Weapon_Crafter",
-				"RequiredTierLevel": 1
-			}
-		],
-		"Input": [
-			{
-				"ItemId": "Ingredient_Fire_Essence",
-				"Quantity": 5
-			},
-			{
-				"ItemId": "OrbisGalactic_Kyber_Crystal_Red",
-				"Quantity": 1
-			},
-			{
-				"ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
-				"Quantity": 1
-			}
-		]
-	},
-	"IconProperties": {
-		"Scale": 0.3,
-		"Rotation": [333, 224, 40],
-		"Translation": [-46, -44]
-	},
-	"Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Luke_Red.png",
-	"Parent": "OrbisGalactic_Lightsaber_Luke_Template",
-	"InteractionVars": {
-		"Lightsaber_Swing_Left_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Red"]
-		},
-		"Lightsaber_Swing_Right_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Red"]
-		},
-		"Lightsaber_Swing_Up_Left_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Red"]
-		},
-		"Lightsaber_Stab_Charged_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Red"]
-		}
-	},
-	"State": {
-		"On": {
-			"Variant": true,
-			"Quality": "Epic",
-			"Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
-			"Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Red.png",
-			"Light": {
-				"Color": "#700"
-			},
-			"Trails": [
-				{
-					"TargetEntityPart": "PrimaryItem",
-					"TargetNodeName": "Blade",
-					"TrailId": "Lightsaber_Trail_Red",
-					"PositionOffset": {
-						"Y": 0,
-						"Z": 0.0
-					},
-					"RotationOffset": {
-						"Roll": 0
-					}
-				}
-			],
-			"Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
-			"Interactions": {
-				"Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
-				"Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-				"SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red",
-				"SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Red",
-				"Held": "ROOT_Interaction_Lightsaber_Idle_Red",
-				"Ability2": {
-					"Interactions": [
-						{
-							"Type": "RunRootInteraction",
-							"RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-							"Effects": {
-								"WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Red_Local"
-							}
-						}
-					]
-				},
-				"Ability1": {
-					"Interactions": [
-						{
-							"Type": "OrbisGalactic_ThrowLightsaber",
-							"ReturnSpeedMultiplier": 8,
-							"MaxReturnSpeed": 30,
-							"ImpactDamage": 10,
-							"Effects": {
-								"WorldSoundEventId": "SFX_Lightsaber_Throw",
-								"LocalSoundEventId": "SFX_Lightsaber_Throw"
-							},
-							"MaxLifetimeSeconds": 5,
-							"ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
-							"Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
-							"Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Red.png",
-							"Light": {
-								"Color": "#f70"
-							}
-						}
-					]
-				}
-			}
-		}
-	},
-	"Interactions": {
-		"Ability2": {
-			"Interactions": [
-				{
-					"Type": "RunRootInteraction",
-					"RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Red",
-					"RunTime": 0
-				},
-				{
-					"Type": "OrbisGalactic_Lightsaber_Interaction"
-				}
-			]
-		}
-	}
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Red.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Luke_Red.description"
+  },
+  "Quality": "Epic",
+  "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Red.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Single"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Red",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Luke",
+        "Quantity": 1
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Luke_Red.png",
+  "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Red"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Red"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Red"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Red"
+      ]
+    }
+  },
+  "State": {
+    "On": {
+      "Variant": true,
+      "Quality": "Epic",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Red.png",
+      "Light": {
+        "Color": "#700"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_Red",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Red",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Red",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Red",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Red",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Red_Local"
+              }
+            }
+          ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Red.png",
+              "Light": {
+                "Color": "#f70"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Interactions": {
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "RunRootInteraction",
+          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Red",
+          "RunTime": 0
+        },
+        {
+          "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
+    }
+  }
 }

@@ -1,121 +1,138 @@
 {
-	"Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
-	"TranslationProperties": {
-		"Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Gold.name",
-		"Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Gold.description"
-	},
-	"Quality": "Epic",
-	"ItemLevel": 40,
-	"Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
-	"Recipe": {
-		"TimeSeconds": 4.5,
-		"KnowledgeRequired": false,
-		"BenchRequirement": [
-			{
-				"Type": "Crafting",
-				"Categories": ["Lightsabers_Single"],
-				"Id": "Bench_Laser_Weapon_Crafter",
-				"RequiredTierLevel": 1
-			}
-		],
-		"Input": [
-			{
-				"Quantity": 5,
-				"ItemId": "Ingredient_Fire_Essence"
-			},
-			{
-				"ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
-				"Quantity": 1
-			},
-			{
-				"ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
-				"Quantity": 1
-			}
-		]
-	},
-	"Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Gold.png",
-	"IconProperties": {
-		"Scale": 0.3,
-		"Rotation": [333, 224, 40],
-		"Translation": [-46, -44]
-	},
-	"InteractionVars": {
-		"Lightsaber_Swing_Left_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Default"]
-		},
-		"Lightsaber_Swing_Right_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Default"]
-		},
-		"Lightsaber_Swing_Up_Left_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Default"]
-		},
-		"Lightsaber_Stab_Charged_Effect": {
-			"Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Default"]
-		}
-	},
-	"State": {
-		"On": {
-			"Variant": true,
-			"Quality": "Epic",
-			"Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
-			"Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
-			"Light": {
-				"Color": "#761"
-			},
-			"Trails": [
-				{
-					"TargetEntityPart": "PrimaryItem",
-					"TargetNodeName": "Blade",
-					"TrailId": "Lightsaber_Trail_Gold",
-					"PositionOffset": {
-						"Y": 0,
-						"Z": 0.0
-					},
-					"RotationOffset": {
-						"Roll": 0
-					}
-				}
-			],
-			"Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
-			"Interactions": {
-				"Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
-				"Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-				"SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
-				"SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-				"Held": "ROOT_Interaction_Lightsaber_Idle_Default",
-				"Ability2": {
-					"Interactions": [
-						{
-							"Type": "RunRootInteraction",
-							"RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-							"Effects": {
-								"WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
-							}
-						}
-					]
-				},
-				"Ability1": {
-					"Interactions": [
-						{
-							"Type": "OrbisGalactic_ThrowLightsaber",
-							"ReturnSpeedMultiplier": 8,
-							"MaxReturnSpeed": 30,
-							"ImpactDamage": 10,
-							"Effects": {
-								"WorldSoundEventId": "SFX_Lightsaber_Throw",
-								"LocalSoundEventId": "SFX_Lightsaber_Throw"
-							},
-							"MaxLifetimeSeconds": 5,
-							"ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
-							"Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
-							"Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
-							"Light": {
-								"Color": "#761"
-							}
-						}
-					]
-				}
-			}
-		}
-	}
+  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Gold.name",
+    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Gold.description"
+  },
+  "Quality": "Epic",
+  "ItemLevel": 40,
+  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Lightsabers_Single"
+        ],
+        "Id": "Bench_Laser_Weapon_Crafter",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "Input": [
+      {
+        "Quantity": 5,
+        "ItemId": "Ingredient_Fire_Essence"
+      },
+      {
+        "ItemId": "OrbisGalactic_Kyber_Crystal_Gold",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+        "Quantity": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Gold.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      333,
+      224,
+      40
+    ],
+    "Translation": [
+      -46,
+      -44
+    ]
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Default"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Default"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Default"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Default"
+      ]
+    }
+  },
+  "State": {
+    "On": {
+      "Variant": true,
+      "Quality": "Epic",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
+      "Light": {
+        "Color": "#761"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_Gold",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "RunRootInteraction",
+              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+              }
+            }
+          ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Gold.png",
+              "Light": {
+                "Color": "#761"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
 }
