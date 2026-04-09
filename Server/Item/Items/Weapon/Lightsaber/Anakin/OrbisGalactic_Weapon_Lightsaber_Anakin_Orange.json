@@ -1,109 +1,106 @@
 {
-  "Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
-  "TranslationProperties": {
-    "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Orange.name",
-    "Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Orange.description"
-  },
-  "Quality": "Epic",
-  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Orange.png",
-  "Recipe": {
-    "TimeSeconds": 4.5,
-    "KnowledgeRequired": false,
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Categories": ["Lightsabers_Single"],
-        "Id": "Bench_Laser_Weapon_Crafter",
-        "RequiredTierLevel": 1
-      }
-    ],
-    "Input": [
-      {
-        "ItemId": "Ingredient_Fire_Essence",
-        "Quantity": 5
-      },
-      {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Orange",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
-        "Quantity": 1
-      }
-    ]
-  },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Orange.png",
-  "IconProperties": {
-    "Scale": 0.3,
-    "Rotation": [333, 224, 40],
-    "Translation": [-46, -44]
-  },
-  "State": {
-    "On": {
-      "Variant": true,
-      "Quality": "Epic",
-      "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
-      "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Orange.png",
-      "Light": {
-        "Color": "#750"
-      },
-      "Trails": [
-        {
-          "TargetEntityPart": "PrimaryItem",
-          "TargetNodeName": "Blade",
-          "TrailId": "Lightsaber_Trail_Orange",
-          "PositionOffset": {
-            "Y": 0,
-            "Z": 0.0
-          },
-          "RotationOffset": {
-            "Roll": 0
-          }
-        }
-      ],
-      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
-      "Interactions": {
-        "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
-        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
-        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-        "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
-        "Ability2": {
-          "Interactions": [
-            {
-              "Type": "RunRootInteraction",
-              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-              "Effects": {
-                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
-              }
-            }
-          ]
-        },
-        "Ability1": {
-          "Interactions": [
-            {
-              "Type": "OrbisGalactic_ThrowLightsaber",
-              "ReturnSpeedMultiplier": 8,
-              "OutboundSeconds": 0.5,
-              "MaxReturnSpeed": 30,
-              "ImpactDamage": 10,
-              "Effects": {
-                "WorldSoundEventId": "SFX_Lightsaber_Throw",
-                "LocalSoundEventId": "SFX_Lightsaber_Throw"
-              },
-              "MaxLifetimeSeconds": 5,
-              "ImpactSfxId": "SFX_Staff_Flame_Fireball_Impact",
-              "ImpactParticleId": "Gun_Impact",
-              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
-              "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
-              "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Orange.png",
-              "Light": {
-                "Color": "#f70"
-              }
-            }
-          ]
-        }
-      }
-    }
-  }
+	"Parent": "OrbisGalactic_Lightsaber_Anakin_Template",
+	"TranslationProperties": {
+		"Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Orange.name",
+		"Description": "server.items.OrbisGalactic_Weapon_Lightsaber_Anakin_Orange.description"
+	},
+	"Quality": "Epic",
+	"Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Orange.png",
+	"Recipe": {
+		"TimeSeconds": 4.5,
+		"KnowledgeRequired": false,
+		"BenchRequirement": [
+			{
+				"Type": "Crafting",
+				"Categories": ["Lightsabers_Single"],
+				"Id": "Bench_Laser_Weapon_Crafter",
+				"RequiredTierLevel": 1
+			}
+		],
+		"Input": [
+			{
+				"ItemId": "Ingredient_Fire_Essence",
+				"Quantity": 5
+			},
+			{
+				"ItemId": "OrbisGalactic_Kyber_Crystal_Orange",
+				"Quantity": 1
+			},
+			{
+				"ItemId": "OrbisGalactic_Lightsaber_Hilt_Anakin",
+				"Quantity": 1
+			}
+		]
+	},
+	"Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Orange.png",
+	"IconProperties": {
+		"Scale": 0.3,
+		"Rotation": [333, 224, 40],
+		"Translation": [-46, -44]
+	},
+	"State": {
+		"On": {
+			"Variant": true,
+			"Quality": "Epic",
+			"Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+			"Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Orange.png",
+			"Light": {
+				"Color": "#750"
+			},
+			"Trails": [
+				{
+					"TargetEntityPart": "PrimaryItem",
+					"TargetNodeName": "Blade",
+					"TrailId": "Lightsaber_Trail_Orange",
+					"PositionOffset": {
+						"Y": 0,
+						"Z": 0.0
+					},
+					"RotationOffset": {
+						"Roll": 0
+					}
+				}
+			],
+			"Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
+			"Interactions": {
+				"Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
+				"Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+				"SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
+				"SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
+				"Held": "ROOT_Interaction_Lightsaber_Idle_Default",
+				"Ability2": {
+					"Interactions": [
+						{
+							"Type": "RunRootInteraction",
+							"RootInteraction": "OrbisGalactic_Lightsaber_Activate",
+							"Effects": {
+								"WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+							}
+						}
+					]
+				},
+				"Ability1": {
+					"Interactions": [
+						{
+							"Type": "OrbisGalactic_ThrowLightsaber",
+							"ReturnSpeedMultiplier": 8,
+							"MaxReturnSpeed": 30,
+							"ImpactDamage": 10,
+							"Effects": {
+								"WorldSoundEventId": "SFX_Lightsaber_Throw",
+								"LocalSoundEventId": "SFX_Lightsaber_Throw"
+							},
+							"MaxLifetimeSeconds": 5,
+							"ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+							"Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+							"Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Orange.png",
+							"Light": {
+								"Color": "#f70"
+							}
+						}
+					]
+				}
+			}
+		}
+	}
 }
