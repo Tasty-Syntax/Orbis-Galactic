@@ -52,5 +52,9 @@
   },
   "ItemSoundSetId": "ISS_Armor_Leather",
   "Icon": "Icons/ItemsGenerated/Sith_Robes.png",
-  "MaxDurability": 999
+  "MaxDurability": 999,
+  "Categories": [
+    "OrbisGalactic.Clothes"
+  ],
+  "SubCategory": "Sith"
 }

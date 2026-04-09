@@ -41,5 +41,9 @@
   },
   "MaxDurability": 120,
   "ItemSoundSetId": "ISS_Armor_Leather",
-  "Icon": "Icons/ItemsGenerated/Jedi_Pants.png"
+  "Icon": "Icons/ItemsGenerated/Jedi_Pants.png",
+  "Categories": [
+    "OrbisGalactic.Clothes"
+  ],
+  "SubCategory": "Jedi"
 }
