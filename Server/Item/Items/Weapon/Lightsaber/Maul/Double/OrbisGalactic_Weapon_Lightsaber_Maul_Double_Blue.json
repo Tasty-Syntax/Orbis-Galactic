@@ -120,11 +120,7 @@
                 "0.5": {
                   "Type": "Serial",
                   "Interactions": [
-                    {
-                      "Type": "RunRootInteraction",
-                      "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Combine",
-                      "RunTime": 0
-                    },
+                    "Interaction_Lightsaber_Double_Switch",
                     {
                       "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
                       "Effects": {}
@@ -162,11 +158,7 @@
             "0.5": {
               "Type": "Serial",
               "Interactions": [
-                {
-                  "Type": "RunRootInteraction",
-                  "RootInteraction": "ROOT_Interaction_Lightsaber_Double_Combine",
-                  "RunTime": 0
-                },
+                "Interaction_Lightsaber_Double_Switch",
                 {
                   "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
                   "Effects": {}
