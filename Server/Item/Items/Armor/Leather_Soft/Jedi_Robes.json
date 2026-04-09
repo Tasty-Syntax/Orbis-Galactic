@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "Jedi Robes"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "IconProperties": {
+    "Scale": 0.43,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -63
+    ]
+  },
+  "Model": "Items/Armors/Robes/Jedi_Robes.blockymodel",
+  "Texture": "Items/Armors/Robes/Jedi_Robes.png",
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop"
+    ],
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 50,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.2,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Leather"
+    ]
+  },
+  "MaxDurability": 120,
+  "ItemSoundSetId": "ISS_Armor_Leather",
+  "Icon": "Icons/ItemsGenerated/Jedi_Robes.png"
+}
