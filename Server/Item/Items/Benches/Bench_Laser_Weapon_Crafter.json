@@ -111,5 +111,6 @@
   },
   "MaxStack": 1,
   "ItemLevel": 2,
-  "ItemSoundSetId": "ISS_Blocks_Wood"
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "SubCategory": "Benches"
 }

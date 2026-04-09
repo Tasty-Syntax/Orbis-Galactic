@@ -4,7 +4,7 @@
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Furniture.Lighting"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "Set": "Furniture_Temple_Light",
   "Recipe": {
@@ -32,7 +32,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Furniture_Temple_Light_Brazier.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Ilum_Temple_Light.png",
   "BlockType": {
     "BlockParticleSetId": "Stone",
     "CustomModel": "Blocks/Decorative_Sets/Temple_Light/Brazier.blockymodel",
@@ -114,5 +114,17 @@
       "Temple"
     ]
   },
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
 }

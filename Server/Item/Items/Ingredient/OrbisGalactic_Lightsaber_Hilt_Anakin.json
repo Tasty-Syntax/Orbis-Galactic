@@ -4,14 +4,23 @@
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Hilt_Anakin.png",
   "IconProperties": {
     "Scale": 0.8,
-    "Rotation": [0, 203, 47],
-    "Translation": [-15, -16]
+    "Rotation": [
+      0,
+      203,
+      47
+    ],
+    "Translation": [
+      -15,
+      -16
+    ]
   },
   "Recipe": {
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Weapon_Parts"],
+        "Categories": [
+          "Weapon_Parts"
+        ],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -36,5 +45,7 @@
   "ItemLevel": 10,
   "Quality": "Common",
   "PlayerAnimationsId": "Item",
-  "Categories": ["OrbisGalactic.Misc"]
+  "Categories": [
+    "OrbisGalactic.Ingredients"
+  ]
 }

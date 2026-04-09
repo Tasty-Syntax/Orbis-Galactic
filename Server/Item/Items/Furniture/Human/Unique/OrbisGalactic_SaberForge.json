@@ -4,7 +4,7 @@
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "Furniture.Furniture"
+    "OrbisGalactic.Misc"
   ],
   "Set": "Furniture_Human_Ruins",
   "IconProperties": {
@@ -103,5 +103,6 @@
         "RequiredTierLevel": 2
       }
     ]
-  }
+  },
+  "SubCategory": "Benches"
 }

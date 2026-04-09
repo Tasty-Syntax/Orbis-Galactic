@@ -3,14 +3,23 @@
   "Texture": "Items/Ingredients/Lightsaber Grips/Luke_Lightsaber_Hilt.png",
   "IconProperties": {
     "Scale": 1,
-    "Rotation": [0, 203, 47],
-    "Translation": [-12, -12]
+    "Rotation": [
+      0,
+      203,
+      47
+    ],
+    "Translation": [
+      -12,
+      -12
+    ]
   },
   "Recipe": {
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": ["Weapon_Parts"],
+        "Categories": [
+          "Weapon_Parts"
+        ],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -36,5 +45,7 @@
   "Quality": "Common",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Hilt_Luke.png",
   "PlayerAnimationsId": "Item",
-  "Categories": ["OrbisGalactic.Misc"]
+  "Categories": [
+    "OrbisGalactic.Ingredients"
+  ]
 }

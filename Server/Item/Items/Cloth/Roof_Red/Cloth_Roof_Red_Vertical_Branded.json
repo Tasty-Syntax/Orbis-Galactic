@@ -22,7 +22,7 @@
     "TimeSeconds": 0
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "BlockType": {
     "Material": "Solid",
@@ -76,5 +76,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
-  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Vertical_Branded.png"
+  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Vertical_Branded.png",
+  "SubCategory": "Cloth"
 }

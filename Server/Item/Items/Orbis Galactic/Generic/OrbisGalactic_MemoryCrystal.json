@@ -2,7 +2,7 @@
   "Model": "Items/Ingredients/Holocron/MemoryCrystal.blockymodel",
   "Texture": "Items/Ingredients/Holocron/MemoryCrystal_Texture.png",
   "Categories": [
-    "OrbisGalactic.Misc"
+    "OrbisGalactic.Ingredients"
   ],
   "TranslationProperties": {
     "Name": "Memory Crystal",
@@ -57,6 +57,5 @@
         ]
       }
     ]
-  },
-  "SubCategory": "Force Power"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Rock_Lime_Stalactite_Small.name"
+    "Name": "Wooden Crate"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Block_Crate.png",
   "Set": "Rock_Lime",
@@ -44,5 +44,9 @@
       0,
       -13.5
     ]
-  }
+  },
+  "Categories": [
+    "OrbisGalactic.Blocks"
+  ],
+  "SubCategory": ""
 }

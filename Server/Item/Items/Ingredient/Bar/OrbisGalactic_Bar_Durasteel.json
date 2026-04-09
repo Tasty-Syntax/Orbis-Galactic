@@ -4,7 +4,7 @@
     "Description": "The most commonly used metal alloy in the galaxy."
   },
   "Categories": [
-    "Items.Ingredients"
+    "OrbisGalactic.Ingredients"
   ],
   "Recipe": {
     "Input": [

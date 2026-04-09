@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "Long Cantina Lamp"
+    "Name": "Bounty Board"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "OrbisGalactic.Blocks"
+    "OrbisGalactic.Misc"
   ],
   "Recipe": {
     "Input": [
@@ -134,5 +134,6 @@
       ]
     },
     "HitboxType": "OrbisGalactic_BountyBoard_Hitbox"
-  }
+  },
+  "SubCategory": "Benches"
 }

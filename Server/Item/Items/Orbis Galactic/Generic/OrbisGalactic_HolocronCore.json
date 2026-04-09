@@ -2,7 +2,7 @@
   "Model": "Items/Ingredients/Holocron/HolocronCore.blockymodel",
   "Texture": "Items/Ingredients/Holocron/HolocronCore_Texture.png",
   "Categories": [
-    "OrbisGalactic.Misc"
+    "OrbisGalactic.Ingredients"
   ],
   "TranslationProperties": {
     "Name": "Holocron Core",
@@ -25,6 +25,5 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Gems",
-  "Quality": "Rare",
-  "SubCategory": "Force Power"
+  "Quality": "Rare"
 }

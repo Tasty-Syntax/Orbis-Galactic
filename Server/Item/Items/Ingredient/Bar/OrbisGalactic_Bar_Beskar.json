@@ -35,5 +35,6 @@
     "ParticleSystemId": null
   },
   "ItemSoundSetId": "ISS_Items_Ingots",
-  "DropOnDeath": true
+  "DropOnDeath": true,
+  "Quality": "Developer"
 }
