@@ -15,6 +15,11 @@
             "3": {
               "Type": "Simple"
             }
+          },
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+            "ItemAnimationId": "Force_Lightning",
+            "ClearAnimationOnFinish": false
           }
         }
       ]

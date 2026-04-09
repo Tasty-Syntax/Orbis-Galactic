@@ -12,7 +12,11 @@
       },
       "Effects": {
         "WorldSoundEventId": "SFX_Battleaxe_T1_Shove",
-        "LocalSoundEventId": "SFX_Battleaxe_T1_Shove_Local"
+        "LocalSoundEventId": "SFX_Battleaxe_T1_Shove_Local",
+        "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+        "ItemAnimationId": "Force_Jump",
+        "ClearAnimationOnFinish": true,
+        "WaitForAnimationToFinish": true
       },
       "RunTime": 0.167,
       "Next": {
@@ -24,7 +28,8 @@
         "Next": {
           "Type": "Simple",
           "Next": {
-            "Type": "OrbisGalactic_ForceJump_Interaction"
+            "Type": "OrbisGalactic_ForceJump_Interaction",
+            "RunTime": 1
           }
         }
       }

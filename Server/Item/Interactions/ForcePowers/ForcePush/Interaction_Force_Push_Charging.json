@@ -15,7 +15,9 @@
         "WorldSoundEventId": "SFX_Flame_Build",
         "LocalSoundEventId": "SFX_Flame_Build",
         "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
-        "ItemAnimationId": "Force_Push"
+        "ItemAnimationId": "Force_Push_Hit",
+        "ClearAnimationOnFinish": false,
+        "WaitForAnimationToFinish": true
       }
     },
     "0.6": {
@@ -27,7 +29,11 @@
       },
       "Effects": {
         "WorldSoundEventId": "SFX_Flame_Build",
-        "LocalSoundEventId": "SFX_Flame_Build"
+        "LocalSoundEventId": "SFX_Flame_Build",
+        "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+        "ItemAnimationId": "Force_Push_Hit",
+        "ClearAnimationOnFinish": false,
+        "WaitForAnimationToFinish": true
       }
     },
     "1.2": {
@@ -39,12 +45,17 @@
       },
       "Effects": {
         "WorldSoundEventId": "SFX_Flame_Build",
-        "LocalSoundEventId": "SFX_Flame_Build"
+        "LocalSoundEventId": "SFX_Flame_Build",
+        "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
+        "ItemAnimationId": "Force_Push_Hit",
+        "ClearAnimationOnFinish": false,
+        "WaitForAnimationToFinish": true
       }
     }
   },
   "Effects": {
     "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
-    "ItemAnimationId": "Force_Push"
+    "ItemAnimationId": "Force_Push",
+    "ClearAnimationOnFinish": true
   }
 }
