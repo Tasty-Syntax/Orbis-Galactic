@@ -1,6 +1,6 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Intelligent",
+  "Reference": "Template_Intelligent_Bossfight",
   "Parameters": {
     "WanderRadius": {
       "Value": 3,
@@ -24,6 +24,10 @@
     "ApplySeparation": {
       "Value": false,
       "Description": "When set to false, NPCs wont try to avoid each other or player, it can lead to them stacking together, but can help to avoid jerky-like movemenet in enclosed space."
+    },
+    "HealOnReturnHome": {
+      "Value": false,
+      "Description": "Bosses should not refill health when they reset back home."
     },
     "NameTranslationKey": {
       "Value": "Stormtrooper",
@@ -80,6 +84,9 @@
     "LeashMinPlayerDistance": 50,
     "ApplySeparation": {
       "Compute": "ApplySeparation"
+    },
+    "HealOnReturnHome": {
+      "Compute": "HealOnReturnHome"
     },
     "BreathesInWater": true,
     "NameTranslationKey": {
