@@ -1,0 +1,7 @@
+{
+	"Reference": "OrbisGalactic_NPC_R2",
+	"Type": "Variant",
+	"Modify": {
+		"Appearance": "OrbisGalactic_Model_R2_Red"
+	}
+}
