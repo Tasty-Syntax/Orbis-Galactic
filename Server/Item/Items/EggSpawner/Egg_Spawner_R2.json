@@ -18,32 +18,7 @@
 						"Type": "ModifyInventory",
 						"AdjustHeldItemQuantity": -1
 					},
-					"WeightedEntityIds": [
-						{
-							"Id": "OrbisGalactic_NPC_R2",
-							"Weight": 35
-						},
-						{
-							"Id": "OrbisGalactic_NPC_R2_Green",
-							"Weight": 15
-						},
-						{
-							"Id": "OrbisGalactic_NPC_R2_Black",
-							"Weight": 15
-						},
-						{
-							"Id": "OrbisGalactic_NPC_R2_Purple",
-							"Weight": 15
-						},
-						{
-							"Id": "OrbisGalactic_NPC_R2_Red",
-							"Weight": 15
-						},
-						{
-							"Id": "OrbisGalactic_NPC_R2_Yellow",
-							"Weight": 15
-						}
-					]
+					"EntityId": "OrbisGalactic_NPC_R2"
 				}
 			]
 		}
