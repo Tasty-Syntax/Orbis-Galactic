@@ -2981,16 +2981,16 @@
 											"$NodeId":	"BlockSet.BlockMask-d5e26e43-70db-48f6-86ca-dc7d26de18aa",
 											"Inclusive":	true,
 											"Materials":	[{
+													"$NodeId":	"Material-2d06146d-1cf7-4910-8d70-0c13d2e1ef52",
+													"Solid":	"Soil_Sand_White",
+													"SolidBottomUp":	false
+												}, {
 													"$NodeId":	"Material-bcc9ce0a-d181-4289-97b7-4a6d45fdcbbe",
 													"Solid":	"Soil_Clay_Orange",
 													"SolidBottomUp":	false
 												}, {
 													"$NodeId":	"Material-55052a61-6fc4-40b7-9f16-261ee17e04fc",
 													"Solid":	"Empty",
-													"SolidBottomUp":	false
-												}, {
-													"$NodeId":	"Material-2d06146d-1cf7-4910-8d70-0c13d2e1ef52",
-													"Solid":	"Soil_Sand_White",
 													"SolidBottomUp":	false
 												}]
 										}
@@ -6544,8 +6544,8 @@
 			},
 			"Material-bcc9ce0a-d181-4289-97b7-4a6d45fdcbbe":	{
 				"$Position":	{
-					"$x":	15294,
-					"$y":	22692
+					"$x":	15195,
+					"$y":	22683
 				}
 			},
 			"Material-55052a61-6fc4-40b7-9f16-261ee17e04fc":	{
@@ -6556,8 +6556,8 @@
 			},
 			"Material-2d06146d-1cf7-4910-8d70-0c13d2e1ef52":	{
 				"$Position":	{
-					"$x":	15213,
-					"$y":	23008
+					"$x":	15221,
+					"$y":	22459
 				}
 			},
 			"BlockSet.Pattern-76f3fe8a-1762-4014-a4e7-8656ea7ec557":	{
