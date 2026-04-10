@@ -35,7 +35,7 @@ Group #Root {
         Padding: (Top: 60);
 
         Button #BtnTravelToOverworld {
-          Anchor: (Width: 104, Height: 145);
+          Anchor: (Right: -50, Width: 104, Height: 145);
           Style: ButtonStyle(
             Default: (Background: PatchStyle(TexturePath: "PlanetIcons/overworld_normal.png", Anchor: (Width: 104, Height: 145))),
             Hovered: (Background: PatchStyle(TexturePath: "PlanetIcons/overworld_active.png", Anchor: (Width: 104, Height: 145))),
@@ -151,11 +151,6 @@ Group #Root {
       Group #ColSoon5 {
         Anchor: (Width: 104, Height: 950);
         Padding: (Top: 400);
-
-        Button #BtnSoon5 {
-           Anchor: (Width: 104, Height: 145);
-          Style: @ButtonSoon;
-        }
       }
 
       // Spacer

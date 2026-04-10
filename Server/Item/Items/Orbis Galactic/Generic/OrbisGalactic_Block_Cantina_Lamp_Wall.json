@@ -127,5 +127,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Texture": "Blocks/Tatooine/Mos Eisley/Rock_Cantina_Light_Off.png",
-  "Parent": "OrbisGalactic_Block_Imperial_Light_Template"
+  "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
+  "SubCategory": "Lamp"
 }

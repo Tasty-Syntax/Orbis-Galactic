@@ -1,0 +1,63 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Containers": [
+          {
+            "Type": "Choice",
+            "RollsMin": 1,
+            "RollsMax": 1,
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Kyber_Crystal_Blue"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Kyber_Crystal_Gold"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Kyber_Crystal_Green"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Kyber_Crystal_Multicolor"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Kyber_Crystal_Orange"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Kyber_Crystal_Purple"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "OrbisGalactic_Kyber_Crystal_Red"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

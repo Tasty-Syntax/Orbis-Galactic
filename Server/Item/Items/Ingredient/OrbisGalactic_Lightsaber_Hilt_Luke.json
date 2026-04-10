@@ -43,9 +43,9 @@
   "MaxStack": 1,
   "ItemLevel": 10,
   "Quality": "Common",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Luke.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Hilt_Luke.png",
   "PlayerAnimationsId": "Item",
   "Categories": [
-    "OrbisGalactic.Misc"
+    "OrbisGalactic.Ingredients"
   ]
 }

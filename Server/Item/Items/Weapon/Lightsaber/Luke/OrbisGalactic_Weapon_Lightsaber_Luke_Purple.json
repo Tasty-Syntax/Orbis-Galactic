@@ -92,7 +92,7 @@
           }
         }
       ],
-      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -123,6 +123,27 @@
         },
         {
           "Type": "OrbisGalactic_Lightsaber_Interaction"
+        }
+      ]
+    },
+    "Ability1": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_ThrowLightsaber",
+          "ReturnSpeedMultiplier": 8,
+          "MaxReturnSpeed": 30,
+          "ImpactDamage": 10,
+          "Effects": {
+            "WorldSoundEventId": "SFX_Lightsaber_Throw",
+            "LocalSoundEventId": "SFX_Lightsaber_Throw"
+          },
+          "MaxLifetimeSeconds": 5,
+          "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+          "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+          "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Purple.png",
+          "Light": {
+            "Color": "#71a"
+          }
         }
       ]
     }

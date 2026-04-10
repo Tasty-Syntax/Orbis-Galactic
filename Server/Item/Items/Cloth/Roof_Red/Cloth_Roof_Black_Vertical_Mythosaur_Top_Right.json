@@ -22,15 +22,15 @@
     "TimeSeconds": 0
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Structures/Roofs/Tent_Roof_Vertical.blockymodel",
+    "CustomModel": "Blocks/Structures/Tents/Cloth_Roof_Vertical_Mythosaur.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tents/Black_Mythosaur_Top_Right.png",
+        "Texture": "Blocks/Structures/Tents/Tent_Black_Top_Right.png",
         "Weight": 0
       }
     ],
@@ -75,5 +75,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
-  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Black_Vertical_Mythosaur_Top_Right.png"
+  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Black_Vertical_Mythosaur_Top_Right.png",
+  "SubCategory": "Cloth"
 }

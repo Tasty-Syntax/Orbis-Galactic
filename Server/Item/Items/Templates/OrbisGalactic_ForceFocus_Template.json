@@ -1,0 +1,70 @@
+{
+  "Quality": "Template",
+  "ItemLevel": 40,
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ],
+  "Utility": {
+    "Usable": true
+  },
+  "Reticle": "DefaultMelee",
+  "Interactions": {
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "StatsCondition",
+          "Costs": {
+            "Stamina": 0.1
+          },
+          "Next": {
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "EffectId": "Stamina_Broken_Immune"
+              },
+              {
+                "Type": "Replace",
+                "Var": "Force_Power"
+              }
+            ]
+          },
+          "Effects": {
+            "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations"
+          }
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_OpenForceAbilityMenu_Interaction"
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      315,
+      270,
+      0
+    ],
+    "Translation": [
+      -25,
+      -25
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Tool"
+    ],
+    "ForceFocus": []
+  },
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/Force_Push.png",
+  "SubCategory": "Force Power",
+  "Model": "Items/Utility/Holocron.blockymodel",
+  "Texture": "Items/Utility/Holocron_Texture.png",
+  "Scale": 0.5
+}

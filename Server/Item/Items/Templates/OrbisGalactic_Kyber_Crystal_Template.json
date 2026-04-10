@@ -4,7 +4,7 @@
     "Name": "server.items.Ore_Kyber_Crystal_Blue.name"
   },
   "Categories": [
-    "OrbisGalactic.Misc"
+    "OrbisGalactic.Ingredients"
   ],
   "Model": "Resources/Ingredients/Kyber Crystal/Kyber_Ore_Large.blockymodel",
   "ItemLevel": 10,
@@ -51,6 +51,14 @@
       }
     }
   ],
-  "Scale": 0.35,
-  "Quality": "Template"
+  "Quality": "Template",
+  "BlockType": {
+    "CustomModelScale": 0.3,
+    "Parent": "Rock_Gem_Diamond"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "KyberCrystal"
+    }
+  ]
 }

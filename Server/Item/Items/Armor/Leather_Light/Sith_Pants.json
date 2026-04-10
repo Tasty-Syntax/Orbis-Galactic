@@ -1,0 +1,49 @@
+{
+  "TranslationProperties": {
+    "Name": "Sith Pants"
+  },
+  "Parent": "Armor_Iron_Legs",
+  "Quality": "Common",
+  "ItemLevel": 15,
+  "IconProperties": {
+    "Scale": 0.445,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0.6,
+      -22.8
+    ]
+  },
+  "Model": "Items/Armors/Robes/Jedi_Pants.blockymodel",
+  "Texture": "Items/Armors/Robes/Sith_Pants.png",
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.5,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Leather"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Leather",
+  "Icon": "Icons/ItemsGenerated/Sith_Pants.png",
+  "MaxDurability": 999,
+  "Categories": [
+    "OrbisGalactic.Clothes"
+  ],
+  "SubCategory": "Sith"
+}

@@ -3,6 +3,7 @@
     "Name": "server.items.Bench_Bench_Laser_Weapon_Crafter.name",
     "Description": "server.items.Bench_Bench_Laser_Weapon_Crafter.description"
   },
+  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png",
   "Categories": [
     "OrbisGalactic.Misc"
   ],
@@ -10,11 +11,7 @@
     "TimeSeconds": 4,
     "Input": [
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Clear",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Fire_Essence",
+        "ItemId": "OrbisGalactic_Bar_Durasteel",
         "Quantity": 10
       },
       {
@@ -38,10 +35,20 @@
     "DrawType": "Model",
     "Opacity": "Transparent",
     "CustomModel": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.png",
+        "Weight": 1
+      }
+    ],
     "VariantRotation": "NESW",
     "HitboxType": "Bench_Weapon",
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
     "State": {
-      "Id": "crafting",
       "Definitions": {
         "CraftCompleted": {
           "CustomModelAnimation": "Blocks/Benches/Weapon_Crafting.blockyanim",
@@ -54,11 +61,7 @@
     },
     "Gathering": {
       "Breaking": {
-        "DropList": {
-          "Type": "Single"
-        },
-        "GatherType": "Benches",
-        "ItemId": "Bench_Laser_Weapon_Crafter"
+        "GatherType": "Benches"
       }
     },
     "Bench": {
@@ -73,45 +76,9 @@
           "Id": "Weapon_Parts",
           "Name": "Weapon Parts",
           "Icon": "Icons/CraftingCategories/Laser_Parts_Crafting_Icon.png"
-        },
-        {
-          "Id": "Lightsabers_Single",
-          "Icon": "Icons/CraftingCategories/Single_Saber_Crafting_Icon.png",
-          "Name": "Lightsabers (Single)"
-        },
-        {
-          "Id": "Lightsabers_Double",
-          "Name": "Lightsabers (Double)",
-          "Icon": "Icons/CraftingCategories/Double_Saber_Crafting_Icon.png"
         }
       ],
-      "Id": "Bench_Laser_Weapon_Crafter",
-      "TierLevels": [
-        {
-          "UpgradeRequirement": {
-            "Material": [
-              {
-                "ItemId": "Ingredient_Bar_Thorium",
-                "Quantity": 25
-              },
-              {
-                "ItemId": "Ingredient_Bar_Cobalt",
-                "Quantity": 25
-              },
-              {
-                "ItemId": "Ingredient_Fire_Essence",
-                "Quantity": 20
-              },
-              {
-                "ItemId": "OrbisGalactic_Kyber_Crystal_Clear",
-                "Quantity": 5
-              }
-            ],
-            "TimeSeconds": 3
-          },
-          "CraftingTimeReductionModifier": 0.15
-        }
-      ]
+      "Id": "Bench_Laser_Weapon_Crafter"
     },
     "BlockParticleSetId": "Stone",
     "ParticleColor": "#5C583E",
@@ -122,16 +89,7 @@
         }
       ]
     },
-    "BlockSoundSetId": "Stone",
-    "CustomModelTexture": [
-      {
-        "Texture": "Blocks/Laser Weapon Bench/Laser_Weapon_Bench.png",
-        "Weight": 1
-      }
-    ],
-    "Light": {
-      "Color": "#134"
-    }
+    "BlockSoundSetId": "Stone"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
@@ -154,5 +112,5 @@
   "MaxStack": 1,
   "ItemLevel": 2,
   "ItemSoundSetId": "ISS_Blocks_Wood",
-  "Icon": "Icons/ItemsGenerated/Bench_Laser_Weapon_Crafter.png"
+  "SubCategory": "Benches"
 }

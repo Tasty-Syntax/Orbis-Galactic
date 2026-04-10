@@ -5,7 +5,7 @@
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "OrbisGalactic.Blocks"
+    "OrbisGalactic.Misc"
   ],
   "IconProperties": {
     "Scale": 0.2,
@@ -79,7 +79,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
+        "ItemId": "OrbisGalactic_Bar_Durasteel",
         "Quantity": 8
       },
       {
@@ -101,5 +101,6 @@
       }
     ],
     "TimeSeconds": 5
-  }
+  },
+  "SubCategory": "Benches"
 }

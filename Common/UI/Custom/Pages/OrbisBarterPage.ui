@@ -1,0 +1,68 @@
+$C = "../Common.ui";
+
+$C.@PageOverlay {}
+
+$C.@DecoratedContainer {
+  Anchor: (Width: 820, Height: 540);
+
+  #Title {
+    Group {
+      Anchor: (Full: 1);
+      LayoutMode: Full;
+
+      Label #ShopTitle {
+        Style: (
+          ...$C.@TitleStyle,
+          HorizontalAlignment: Center,
+          TextColor: #F1D7A8,
+        );
+        Padding: (Horizontal: 19);
+      }
+    }
+  }
+
+  #Content {
+    LayoutMode: Top;
+    Padding: (Horizontal: 10);
+
+    Group #TradeGridContainer {
+      FlexWeight: 1;
+      LayoutMode: TopScrolling;
+      ScrollbarStyle: $C.@DefaultScrollbarStyle;
+      Padding: (Top: 10, Left: 8, Right: 8);
+
+      Group #TradeGrid {
+        LayoutMode: Top;
+      }
+    }
+
+    Group #Footer {
+      Anchor: (Height: 40);
+      LayoutMode: Top;
+      Padding: (Horizontal: -2);
+
+      Group #FooterDivider {
+        Anchor: (Height: 2);
+        Background: #19252F;
+      }
+
+      Group #FooterContent {
+        FlexWeight: 1;
+        LayoutMode: CenterMiddle;
+        Padding: (Bottom: 6);
+
+        Label #RefreshTimer {
+          Style: (
+            FontSize: 14,
+            TextColor: #7CAACC,
+            HorizontalAlignment: Center,
+            VerticalAlignment: Center,
+          );
+          Text: "";
+        }
+      }
+    }
+  }
+}
+
+$C.@BackButton {}

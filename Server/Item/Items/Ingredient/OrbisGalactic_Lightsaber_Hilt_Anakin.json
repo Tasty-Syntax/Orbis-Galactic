@@ -1,7 +1,7 @@
 {
   "Model": "Items/Ingredients/Lightsaber Grips/Lightsaber_Grip_Anakin.blockymodel",
   "Texture": "Items/Ingredients/Lightsaber Grips/Anakin_Lightsaber_Hilt.png",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Anakin.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Hilt_Anakin.png",
   "IconProperties": {
     "Scale": 0.8,
     "Rotation": [
@@ -46,6 +46,6 @@
   "Quality": "Common",
   "PlayerAnimationsId": "Item",
   "Categories": [
-    "OrbisGalactic.Misc"
+    "OrbisGalactic.Ingredients"
   ]
 }

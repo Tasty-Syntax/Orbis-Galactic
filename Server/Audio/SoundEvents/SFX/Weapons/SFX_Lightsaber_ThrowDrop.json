@@ -1,0 +1,20 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Weapons/Lightsaber/Lightsaber_ThrowDrop.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": 0,
+        "MaxPitch": 0.528,
+        "MinPitch": -1.056,
+        "MaxVolume": 0
+      }
+    }
+  ],
+  "AudioCategory": "AudioCat_Weapons",
+  "PreventSoundInterruption": false,
+  "Parent": "SFX_Attn_Loud",
+  "MaxDistance": 32,
+  "StartAttenuationDistance": 4
+}

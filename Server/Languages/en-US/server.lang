@@ -12,8 +12,9 @@ items.Ore_Kyber_Crystal_Purple.name=Purple Kyber Crystal
 items.Ore_Kyber_Crystal_Purple.description=A deep violet crystal shimmering with conflicting energies. Its hum carries both serenity and intensity, balanced on a razor’s edge between control and aggression.
 items.Ore_Kyber_Crystal_Orange.name=Orange Kyber Crystal
 items.Ore_Kyber_Crystal_Orange.description=A warm orange crystal glowing with restrained intensity. Its hum feels deliberate and measured, resonating with adaptability, ambition, and pragmatic balance. The Force within is neither rigid nor wild, but shaped by personal will and unconventional purpose.
-items.Ore_Kyber_Crystal_Multicolor.name=White Kyber Crystal
-items.Ore_Kyber_Crystal_Multicolor.description=A rare prismatic crystal refracting shifting hues of cyan, magenta, and yellow within its core. Its hum is calm and perfectly unified, as if multiple resonances have been fused into a single, coherent harmony. The Force within feels balanced and self-determined, free from corruption and rigid doctrine alike.
+items.Ore_Kyber_Crystal_White.name=White Kyber Crystal
+items.Ore_Kyber_Crystal_White.description=A rare prismatic crystal refracting shifting hues of cyan, magenta, and yellow within its core. Its hum is calm and perfectly unified, as if multiple resonances have been fused into a single, coherent harmony. The Force within feels balanced and self-determined, free from corruption and rigid doctrine alike.
+resourceType.KyberCrystal.name=Any Kyber Crystal
 
 # --- Blocks
 items.Ore_Kyber_Stone.name=Kyber Crystal Ore - Stone
@@ -21,7 +22,7 @@ items.Ore_Kyber_Basalt.name=Kyber Crystal Ore - Basalt
 items.Ore_Kyber_Slate.name=Kyber Crystal Ore - Slate
 items.Ore_Kyber_Shale.name=Kyber Crystal Ore - Shale
 items.Ore_Kyber_Volcanic.name=Kyber Crystal Ore - Volcanic
-items.Bench_Bench_Laser_Weapon_Crafter.name=Laser Weapon Bench
+items.Bench_Bench_Laser_Weapon_Crafter.name=Saber Hilt Bench
 items.Bench_Bench_Laser_Weapon_Crafter.description=A workstation to manufacture laser-based weaponry.
 items.Ship_Call_Beacon.name=Ship Call Beacon
 items.Ship_Call_Beacon.description=Place this to call your personal spaceship. IMPORTANT: A free space of 17x5x5 blocks in front of the beacon is required!
@@ -114,6 +115,10 @@ items.OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separated_White.description=A 
 items.OrbisGalactic_Weapon_DC15A.name=DC-15A
 items.OrbisGalactic_Weapon_DC15A.description=The standard issue blaster rifle for clone troopers.
 
+items.OrbisGalactic_Weapon_RA4C.name=RA-4c
+items.OrbisGalactic_Weapon_RA4C.description=An Old Republic-era sidearm prized for its sleek design and ease of modification, the RA-4c was unpopular with the military but found lasting appeal among civilians. This heavily modified unit delivers increased power at the cost of excessive heat, causing visible wear and reduced collector value.
+
+
 items.OrbisGalactic_Weapon_Cycler_Rifle.name=Cycler Rifle
 items.OrbisGalactic_Weapon_Cycler_Rifle.description=A long range high velocity blaster rifle often used by Tusken Raiders.
 
@@ -150,3 +155,15 @@ items.OrbisGalactic_Speeder_Bike.name= Speeder Bike
 items.OrbisGalactic_Speeder_Bike.description= A speeder bike, perfect to optimize planetary travel time. (Rightclick to deploy!)
 items.OrbisGalactic_Scrap_Metal.name= Scrap Metal
 items.OrbisGalactic_Scrap_Metal.description= Some scrap metal. A Jawa might see value in this.
+
+# --- Force Power Items ---
+items.OrbisGalactic_ForceFocus_Push.name=Force Push
+items.OrbisGalactic_ForceFocus_Push.description=Force Push
+items.OrbisGalactic_ForceFocus_Jump.name=Force Jump
+items.OrbisGalactic_ForceFocus_Jump.description=Force Jump
+items.OrbisGalactic_ForceFocus_Pull.name=Force Pull
+items.OrbisGalactic_ForceFocus_Pull.description=Force Pull
+items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.name=Force Infuse Crystal
+items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.description=Pour your force into the Kybercrystal to corrupt it or heal it from corruption
+items.OrbisGalactic_ForceFocus_Lightning.name=Force Lighting
+items.OrbisGalactic_ForceFocus_Lightning.description=Shoot lightning from your hands

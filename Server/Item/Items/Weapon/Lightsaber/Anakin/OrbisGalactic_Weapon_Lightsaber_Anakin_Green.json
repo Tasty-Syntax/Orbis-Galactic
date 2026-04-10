@@ -34,7 +34,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Green.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_Green.png",
   "IconProperties": {
     "Scale": 0.3,
     "Rotation": [
@@ -92,7 +92,7 @@
           }
         }
       ],
-      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Green",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -106,6 +106,27 @@
               "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
               "Effects": {
                 "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Green_Local"
+              }
+            }
+          ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Green.png",
+              "Light": {
+                "Color": "#060"
               }
             }
           ]

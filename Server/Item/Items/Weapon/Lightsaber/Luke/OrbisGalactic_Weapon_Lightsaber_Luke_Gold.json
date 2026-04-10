@@ -46,7 +46,7 @@
     ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Luke_Gold.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Luke_Gold.png",
   "State": {
     "On": {
       "Variant": true,
@@ -70,7 +70,7 @@
           }
         }
       ],
-      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
         "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
@@ -84,6 +84,27 @@
               "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
               "Effects": {
                 "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+              }
+            }
+          ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Gold.png",
+              "Light": {
+                "Color": "#761"
               }
             }
           ]

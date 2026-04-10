@@ -104,5 +104,6 @@
   },
   "DisplayEntityStatsHUD": [
     "Idle"
-  ]
+  ],
+  "SubCategory": "Benches"
 }

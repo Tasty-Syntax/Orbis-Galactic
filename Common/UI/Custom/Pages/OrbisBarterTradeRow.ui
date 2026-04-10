@@ -1,0 +1,305 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Width: 784, Height: 124);
+  Padding: (Horizontal: 6, Vertical: 4);
+
+  ItemSlotButton #TradeButton {
+    Anchor: (Full: 0);
+    LayoutMode: Full;
+    Padding: 2;
+    Style: (
+      Default: (
+        Background: #4B3423,
+      ),
+      Hovered: (
+        Background: #A87534,
+      ),
+      Pressed: (
+        Background: #835A2A,
+      ),
+      Disabled: (
+        Background: #241914,
+      ),
+      Sounds: $C.@ButtonSounds,
+    );
+
+    Group #RowContent {
+      Anchor: (Full: 0);
+      LayoutMode: Left;
+      Background: #141B22;
+      Padding: (Left: 12, Right: 12, Top: 8, Bottom: 8);
+
+      Group #OutputSection {
+        Anchor: (Width: 176, Height: 96);
+        LayoutMode: CenterMiddle;
+        Background: #1A140F;
+        Padding: (Left: 12, Right: 12, Top: 12, Bottom: 12);
+
+        Group #OutputSlotContainer {
+          Anchor: (Width: 68, Height: 68);
+
+          Group #OutputSlotBorder {
+            Anchor: (Full: 0);
+            Background: #26323F;
+            Padding: 2;
+
+            ItemSlot #OutputSlot {
+              Anchor: (Full: 0);
+              ShowQualityBackground: true;
+            }
+          }
+
+          Label #OutputQuantity {
+            Anchor: (Right: 8, Bottom: 5);
+            Style: (
+              FontSize: 14,
+              TextColor: #FFFFFF,
+              HorizontalAlignment: End,
+              VerticalAlignment: End,
+              RenderBold: true,
+            );
+          }
+        }
+      }
+
+      Group {
+        Anchor: (Width: 12, Height: 96);
+      }
+
+      Group #CostSection {
+        Anchor: (Width: 360, Height: 96);
+        LayoutMode: Top;
+        Background: #10161C;
+        Padding: (Left: 10, Right: 10, Top: 10, Bottom: 10);
+
+        Label #CostLabel {
+          Anchor: (Height: 16);
+          Text: %server.barter.customUI.barterPage.cost;
+          Style: (
+            FontSize: 11,
+            TextColor: #8895A0,
+            HorizontalAlignment: Start,
+            VerticalAlignment: Center,
+          );
+        }
+
+        Group #CostRow {
+          Anchor: (Height: 56);
+          LayoutMode: Left;
+          Padding: (Top: 8);
+
+          Group #InputSlotContainer0 {
+            Anchor: (Width: 110, Height: 48);
+            LayoutMode: Top;
+            Padding: (Right: 6);
+            Visible: false;
+
+            Group {
+              Anchor: (Height: 42);
+              LayoutMode: CenterMiddle;
+
+              Group #InputSlotBorder0 {
+                Anchor: (Width: 42, Height: 42);
+                Background: #2F5541;
+                Padding: 2;
+
+                ItemSlot #InputSlot0 {
+                  Anchor: (Full: 0);
+                  ShowQualityBackground: true;
+                }
+
+                Label #InputQuantity0 {
+                  Anchor: (Right: 5, Bottom: 4);
+                  Style: (
+                    FontSize: 10,
+                    TextColor: #FFFFFF,
+                    HorizontalAlignment: End,
+                    VerticalAlignment: End,
+                    RenderBold: true,
+                  );
+                }
+              }
+            }
+
+            Label #InputOwned0 {
+              Anchor: (Height: 12);
+              Style: (
+                FontSize: 9,
+                TextColor: #A7D9AE,
+                HorizontalAlignment: Center,
+                VerticalAlignment: Center,
+              );
+              Text: "";
+            }
+          }
+
+          Group #InputSlotContainer1 {
+            Anchor: (Width: 110, Height: 48);
+            LayoutMode: Top;
+            Padding: (Right: 6);
+            Visible: false;
+
+            Group {
+              Anchor: (Height: 42);
+              LayoutMode: CenterMiddle;
+
+              Group #InputSlotBorder1 {
+                Anchor: (Width: 42, Height: 42);
+                Background: #2F5541;
+                Padding: 2;
+
+                ItemSlot #InputSlot1 {
+                  Anchor: (Full: 0);
+                  ShowQualityBackground: true;
+                }
+
+                Label #InputQuantity1 {
+                  Anchor: (Right: 5, Bottom: 4);
+                  Style: (
+                    FontSize: 10,
+                    TextColor: #FFFFFF,
+                    HorizontalAlignment: End,
+                    VerticalAlignment: End,
+                    RenderBold: true,
+                  );
+                }
+              }
+            }
+
+            Label #InputOwned1 {
+              Anchor: (Height: 12);
+              Style: (
+                FontSize: 9,
+                TextColor: #A7D9AE,
+                HorizontalAlignment: Center,
+                VerticalAlignment: Center,
+              );
+              Text: "";
+            }
+          }
+
+          Group #InputSlotContainer2 {
+            Anchor: (Width: 110, Height: 48);
+            LayoutMode: Top;
+            Visible: false;
+
+            Group {
+              Anchor: (Height: 42);
+              LayoutMode: CenterMiddle;
+
+              Group #InputSlotBorder2 {
+                Anchor: (Width: 42, Height: 42);
+                Background: #2F5541;
+                Padding: 2;
+
+                ItemSlot #InputSlot2 {
+                  Anchor: (Full: 0);
+                  ShowQualityBackground: true;
+                }
+
+                Label #InputQuantity2 {
+                  Anchor: (Right: 5, Bottom: 4);
+                  Style: (
+                    FontSize: 10,
+                    TextColor: #FFFFFF,
+                    HorizontalAlignment: End,
+                    VerticalAlignment: End,
+                    RenderBold: true,
+                  );
+                }
+              }
+            }
+
+            Label #InputOwned2 {
+              Anchor: (Height: 12);
+              Style: (
+                FontSize: 9,
+                TextColor: #A7D9AE,
+                HorizontalAlignment: Center,
+                VerticalAlignment: Center,
+              );
+              Text: "";
+            }
+          }
+        }
+      }
+
+      Group {
+        Anchor: (Width: 12, Height: 96);
+      }
+
+      Group #StatusSection {
+        Anchor: (Width: 152, Height: 96);
+        LayoutMode: Top;
+        Background: #1B1511;
+        Padding: (Left: 12, Right: 12, Top: 8, Bottom: 8);
+
+        Label {
+          Anchor: (Height: 16);
+          Text: "Availability";
+          Style: (
+            FontSize: 11,
+            TextColor: #D9B98A,
+            HorizontalAlignment: Start,
+            VerticalAlignment: Center,
+            RenderBold: true,
+          );
+        }
+
+        Group {
+          Anchor: (Height: 6);
+        }
+
+        Group {
+          Anchor: (Height: 20);
+          Background: #2C2017;
+          Padding: (Horizontal: 8, Vertical: 4);
+
+          Label #Stock {
+            Anchor: (Full: 0);
+            Style: (
+              FontSize: 11,
+              TextColor: #C1CCD6,
+              HorizontalAlignment: Start,
+              VerticalAlignment: Center,
+            );
+          }
+        }
+
+        Group {
+          Anchor: (Height: 6);
+        }
+
+        Label {
+          Anchor: (Height: 20);
+          Text: "Click to purchase";
+          Style: (
+            FontSize: 10,
+            TextColor: #B59A79,
+            HorizontalAlignment: Start,
+            VerticalAlignment: Center,
+          );
+        }
+      }
+    }
+
+    Group #OutOfStockOverlay {
+      Anchor: (Full: 0);
+      Background: #090D11(0.80);
+      LayoutMode: CenterMiddle;
+      Visible: false;
+
+      Label #OutOfStockLabel {
+        Style: (
+          FontSize: 13,
+          TextColor: #CC6E5E,
+          HorizontalAlignment: Center,
+          VerticalAlignment: Center,
+          RenderBold: true,
+        );
+        Text: %server.barter.customUI.barterPage.noStock;
+      }
+    }
+  }
+}

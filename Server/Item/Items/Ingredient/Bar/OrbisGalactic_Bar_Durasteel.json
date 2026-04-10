@@ -4,13 +4,13 @@
     "Description": "The most commonly used metal alloy in the galaxy."
   },
   "Categories": [
-    "Items.Ingredients"
+    "OrbisGalactic.Ingredients"
   ],
   "Recipe": {
     "Input": [
       {
         "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
+        "Quantity": 3
       },
       {
         "ItemId": "Ingredient_Charcoal"
@@ -19,14 +19,11 @@
     "BenchRequirement": [
       {
         "Type": "Processing",
-        "Id": "Bench_Alloy_Furnace",
-        "Categories": [
-          ""
-        ]
+        "Id": "Furnace"
       }
     ],
     "OutputQuantity": 1,
-    "TimeSeconds": 14
+    "TimeSeconds": 30
   },
   "Model": "Resources/Materials/Ingot.blockymodel",
   "Texture": "Resources/ItemTextures/Durasteel_Bar_Texture.png",

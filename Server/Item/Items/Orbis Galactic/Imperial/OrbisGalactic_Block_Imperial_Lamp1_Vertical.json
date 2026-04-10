@@ -124,5 +124,6 @@
   "ItemSoundSetId": "ISS_Items_Metal",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
   "MaxStack": 1,
-  "Set": "Imperial"
+  "Set": "Imperial",
+  "SubCategory": "Lamp"
 }

@@ -22,14 +22,14 @@
     "TimeSeconds": 0
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "BlockType": {
     "DrawType": "Model",
-    "CustomModel": "Blocks/Tatooine/Mos Eisley/Tent_Roof_Vertical_Flap.blockymodel",
+    "CustomModel": "Blocks/Structures/Roofs/Cloth_Roof_Vertical_Flap.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Roofs/Tent_Roof_Diagonal_Textures/Yellow.png",
+        "Texture": "Blocks/Structures/Roofs/Cloth_Roof_Textures/Tent_Yellow.png",
         "Weight": 1
       }
     ],
@@ -67,7 +67,7 @@
       -18.9
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Flap_Cantina.png",
+  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Yellow_Flap_Cantina.png",
   "Tags": {
     "Type": [
       "Cloth"
@@ -76,5 +76,6 @@
       "Roof"
     ]
   },
-  "ItemSoundSetId": "ISS_Items_Cloth"
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "SubCategory": "Cloth"
 }

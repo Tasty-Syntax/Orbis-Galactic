@@ -1,0 +1,365 @@
+$Common = "../Common.ui";
+
+@BlueSwatch = ButtonStyle(
+  Default: (Background: #15fdff),
+  Hovered: (Background: #7efeff),
+  Pressed: (Background: #0ec9cb),
+  Disabled: (Background: #25585c)
+);
+
+@GoldSwatch = ButtonStyle(
+  Default: (Background: #ffd700),
+  Hovered: (Background: #ffe669),
+  Pressed: (Background: #c9a900),
+  Disabled: (Background: #5c5325)
+);
+
+@GreenSwatch = ButtonStyle(
+  Default: (Background: #00ff66),
+  Hovered: (Background: #68ff9f),
+  Pressed: (Background: #00c24d),
+  Disabled: (Background: #255c3a)
+);
+
+@OrangeSwatch = ButtonStyle(
+  Default: (Background: #ff9f1c),
+  Hovered: (Background: #ffbe68),
+  Pressed: (Background: #d47d00),
+  Disabled: (Background: #5f4525)
+);
+
+@PurpleSwatch = ButtonStyle(
+  Default: (Background: #9b5cff),
+  Hovered: (Background: #be96ff),
+  Pressed: (Background: #6d2cd6),
+  Disabled: (Background: #42305c)
+);
+
+@RedSwatch = ButtonStyle(
+  Default: (Background: #ff4d5f),
+  Hovered: (Background: #ff8a96),
+  Pressed: (Background: #cf2637),
+  Disabled: (Background: #5c2a31)
+);
+
+@WhiteSwatch = ButtonStyle(
+  Default: (Background: #f6fbff),
+  Hovered: (Background: #ffffff),
+  Pressed: (Background: #dce6ef),
+  Disabled: (Background: #5d666e)
+);
+
+Group #Root {
+  Anchor: (Full: 0);
+
+  Group {
+    Anchor: (Full: 0);
+    Background: #02060a(0.20);
+  }
+
+  Group {
+    Anchor: (Top: 0, Left: 0, Right: 0, Height: 170);
+    Background: #07111a(0.16);
+  }
+
+  Group {
+    Anchor: (Bottom: 0, Left: 0, Right: 0, Height: 320);
+    Background: #03080e(0.10);
+  }
+
+  Group {
+    Anchor: (Top: 42, Left: 0, Right: 0, Height: 86);
+    LayoutMode: CenterMiddle;
+
+    Group {
+      Anchor: (Width: 700, Height: 66);
+      Background: #7b8da2(0.34);
+      Padding: (Full: 2);
+
+      Group {
+        Anchor: (Full: 0);
+        Background: #0f1822(0.92);
+
+        Group {
+          Anchor: (Left: 0, Top: 0, Bottom: 0, Width: 232);
+          Padding: (Top: 6, Left: 6, Bottom: 6, Right: 3);
+
+          $Common.@TextButton #HiltButton { @Text = "HILT"; Anchor: (Full: 0); }
+
+          Group #HiltTabIndicator {
+            Visible: false;
+            Anchor: (Left: 42, Right: 39, Bottom: 7, Height: 4);
+            Background: #8dd8ff;
+          }
+        }
+
+        Group {
+          Anchor: (Left: 232, Top: 14, Width: 1, Height: 38);
+          Background: #a8b8ca(0.34);
+        }
+
+        Group {
+          Anchor: (Left: 233, Top: 0, Bottom: 0, Width: 232);
+          Padding: (Top: 6, Left: 3, Bottom: 6, Right: 3);
+
+          $Common.@TextButton #ColorButton { @Text = "COLOR"; Anchor: (Full: 0); }
+
+          Group #ColorTabIndicator {
+            Visible: false;
+            Anchor: (Left: 39, Right: 39, Bottom: 7, Height: 4);
+            Background: #8dd8ff;
+          }
+        }
+
+        Group {
+          Anchor: (Left: 465, Top: 14, Width: 1, Height: 38);
+          Background: #a8b8ca(0.34);
+        }
+
+        Group {
+          Anchor: (Left: 466, Top: 0, Bottom: 0, Width: 232);
+          Padding: (Top: 6, Left: 3, Bottom: 6, Right: 6);
+
+          $Common.@TextButton #StanceButton { @Text = "STANCE"; Anchor: (Full: 0); }
+
+          Group #StanceTabIndicator {
+            Visible: false;
+            Anchor: (Left: 39, Right: 42, Bottom: 7, Height: 4);
+            Background: #8dd8ff;
+          }
+        }
+      }
+    }
+  }
+
+  Group {
+    Anchor: (Right: 300, Top: 392, Width: 240, Height: 248);
+    Background: #6c8098(0.40);
+    Padding: (Full: 3);
+
+    Group {
+      Anchor: (Full: 0);
+      Background: #101820(0.86);
+      Padding: (Full: 12);
+
+      Group {
+        Anchor: (Left: 0, Right: 0, Top: 8, Height: 34);
+        LayoutMode: CenterMiddle;
+
+        Label {
+          Text: "Kyber Crystals";
+          Style: (FontSize: 26, Alignment: Center);
+        }
+      }
+
+      Group {
+        Anchor: (Top: 58, Left: 0, Right: 0, Height: 98);
+        LayoutMode: CenterMiddle;
+
+        ItemGrid #CrystalSlot {
+          SlotsPerRow: 1;
+          Style: (
+            SlotSize: 82,
+            SlotIconSize: 76,
+            SlotSpacing: 0,
+            SlotBackground: "../Common/BlockSelectorSlotBackground.png"
+          );
+        }
+      }
+
+      Group {
+        Anchor: (Bottom: 36, Left: 0, Right: 0, Height: 36);
+        LayoutMode: CenterMiddle;
+
+        Label #CrystalCountText {
+          Text: "Owned: 0";
+          Style: (FontSize: 22, Alignment: Center);
+        }
+      }
+    }
+  }
+
+  Group {
+    Anchor: (Left: 300, Top: 392, Width: 240, Height: 248);
+    Background: #6c8098(0.40);
+    Padding: (Full: 3);
+
+    Group {
+      Anchor: (Full: 0);
+      Background: #101820(0.86);
+      Padding: (Full: 12);
+
+      Group {
+        Anchor: (Left: 0, Right: 0, Top: 8, Height: 34);
+        LayoutMode: CenterMiddle;
+
+        Label {
+          Text: "Hilt Components";
+          Style: (FontSize: 26, Alignment: Center);
+        }
+      }
+
+      Group {
+        Anchor: (Top: 58, Left: 0, Right: 0, Height: 98);
+        LayoutMode: CenterMiddle;
+
+        ItemGrid #SaberSlot {
+          SlotsPerRow: 1;
+          Style: (
+            SlotSize: 82,
+            SlotIconSize: 76,
+            SlotSpacing: 0,
+            SlotBackground: "../Common/BlockSelectorSlotBackground.png"
+          );
+        }
+      }
+
+      Group {
+        Anchor: (Bottom: 36, Left: 0, Right: 0, Height: 36);
+        LayoutMode: CenterMiddle;
+
+        Label #SaberCountText {
+          Text: "Owned: 0";
+          Style: (FontSize: 22, Alignment: Center);
+        }
+      }
+    }
+  }
+
+  Group {
+    Anchor: (Bottom: 252, Left: 0, Right: 0, Height: 134);
+    LayoutMode: CenterMiddle;
+
+    Group {
+      Anchor: (Width: 700, Height: 160);
+      Background: #7b8da2(0.32);
+      Padding: (Full: 2);
+
+      Group {
+        Anchor: (Full: 0);
+        Background: #101923(0.84);
+
+        Group #BladeColorTitleGroup {
+          Anchor: (Top: 12, Left: 0, Right: 0, Height: 28);
+          LayoutMode: CenterMiddle;
+
+          Label {
+            Text: "BLADE COLOR";
+            Style: (FontSize: 22, Alignment: Center);
+          }
+        }
+
+        Group #ColorButtonsGroup {
+          Anchor: (Bottom: 25, Left: 0, Right: 0, Height: 64);
+          LayoutMode: CenterMiddle;
+
+          Button #Blue {
+            Anchor: (Width: 64, Height: 64);
+            Padding: (Right: 12);
+            Style: @BlueSwatch;
+          }
+
+          Button #Gold {
+            Anchor: (Width: 64, Height: 64);
+            Padding: (Right: 12);
+            Style: @GoldSwatch;
+          }
+
+          Button #Green {
+            Anchor: (Width: 64, Height: 64);
+            Padding: (Right: 12);
+            Style: @GreenSwatch;
+          }
+
+          Button #Orange {
+            Anchor: (Width: 64, Height: 64);
+            Padding: (Right: 12);
+            Style: @OrangeSwatch;
+          }
+
+          Button #Purple {
+            Anchor: (Width: 64, Height: 64);
+            Padding: (Right: 12);
+            Style: @PurpleSwatch;
+          }
+
+          Button #Red {
+            Anchor: (Width: 64, Height: 64);
+            Padding: (Right: 12);
+            Style: @RedSwatch;
+          }
+
+          Button #White {
+            Anchor: (Width: 64, Height: 64);
+            Style: @WhiteSwatch;
+          }
+        }
+
+        Group #CraftingProgressGroup {
+          Visible: false;
+          Anchor: (Bottom: 16, Left: 0, Right: 0, Height: 72);
+
+          Group {
+            Anchor: (Top: 0, Left: 0, Right: 0, Height: 26);
+            LayoutMode: CenterMiddle;
+
+            Label #CraftingProgressText {
+              Text: "Crafting... 0%";
+              Style: (FontSize: 20, Alignment: Center);
+            }
+          }
+
+          Group {
+            Anchor: (Bottom: 0, Left: 0, Right: 0, Height: 28);
+            LayoutMode: CenterMiddle;
+
+            Group {
+              Anchor: (Width: 420, Height: 20);
+              Background: "../Common/ProgressBar.png";
+              Padding: (Full: 4);
+
+              ProgressBar #CraftingProgressBar {
+                Value: 0.0;
+                BarTexturePath: "../Common/ProgressBarFill.png";
+                EffectTexturePath: "../Common/ProgressBarEffect.png";
+                EffectWidth: 102;
+                EffectHeight: 58;
+                EffectOffset: 74;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  Group {
+    Anchor: (Bottom: 146, Left: 0, Right: 0, Height: 96);
+    LayoutMode: CenterMiddle;
+
+    Group {
+      Anchor: (Width: 366, Height: 82);
+      Background: #94b7ff(0.50);
+      Padding: (Full: 3);
+
+      Group {
+        Anchor: (Full: 0);
+        Background: #0d2d65(0.72);
+        Padding: (Full: 5);
+
+        $Common.@TextButton #FinishCrafting { @Text = "BUILD SABER"; Anchor: (Full: 0); }
+      }
+    }
+  }
+
+  Group {
+    Anchor: (Top: 300, Left: 0, Right: 0, Height: 28);
+    LayoutMode: CenterMiddle;
+
+    Label #InfoText {
+      Text: "";
+      Style: (FontSize: 20, Alignment: Center);
+    }
+  }
+
+}

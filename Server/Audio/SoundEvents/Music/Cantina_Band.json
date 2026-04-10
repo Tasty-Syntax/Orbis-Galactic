@@ -7,13 +7,13 @@
       ],
       "Looping": true,
       "RoundRobinHistorySize": 1,
-      "Volume": 4.28
+      "Volume": 10
     }
   ],
-  "MaxDistance": 46,
   "MaxInstance": 1,
+  "AudioCategory": "AudioCat_Music",
+  "Parent": "SFX_Attn_Loud",
   "StartAttenuationDistance": 15,
-  "AmbientDuckingVolume": -5,
-  "MusicDuckingVolume": -30,
-  "AudioCategory": "AudioCat_Music"
+  "MaxDistance": 46,
+  "MusicDuckingVolume": -30
 }

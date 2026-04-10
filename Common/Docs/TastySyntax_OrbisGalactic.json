@@ -1,0 +1,21 @@
+{
+  "documentations": [
+    {
+      "group": "TastySyntax",
+      "id": "OrbisGalacticDocs",
+      "name": "My cool OrbisGalactic documentation",
+      "enabled": true,
+      "sortIndex": 300,
+      "topics": [
+        {
+          "file": "index.md",
+          "subTopics": [
+            {
+              "file": "tutorial/first-steps.md"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

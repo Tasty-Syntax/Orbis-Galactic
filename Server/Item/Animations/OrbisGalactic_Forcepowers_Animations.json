@@ -1,0 +1,63 @@
+{
+  "WiggleWeights": {
+    "Pitch": 2.5,
+    "PitchDeceleration": 0.1,
+    "Roll": 0.1,
+    "RollDeceleration": 0.1,
+    "X": 2.5,
+    "XDeceleration": 0.1,
+    "Y": 0.1,
+    "YDeceleration": 0.1,
+    "Z": 0.1,
+    "ZDeceleration": 0.1
+  },
+  "Camera": {
+    "Pitch": {
+      "TargetNodes": [
+        "Head",
+        "RShoulder"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  },
+  "Animations": {
+    "Force_Lightning": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning_Fps.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Lightning_Moving.blockyanim"
+    },
+    "Force_Push": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Cast.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Cast_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "KeepPreviousFirstPersonAnimation": true,
+      "Speed": 1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Cast_FPS.blockyanim"
+    },
+    "Force_Push_Hit": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Hit.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Hit_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Push/Force_Push_Hit_FPS.blockyanim"
+    },
+    "Force_Pull": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Pull/Force_Pull_Cast.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Pull/Force_Pull_Cast_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Pull/Force_Pull_Cast_FPS.blockyanim"
+    },
+    "Force_Pull_Hit": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Pull/Force_Pull_Hit.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Pull/Force_Pull_Hit_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Pull/Force_Pull_Hit_FPS.blockyanim"
+    },
+    "Force_Jump": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Jump/Saber_AOE_Charge.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Force_Powers/Force_Jump/Saber_AOE_Charge_FPS.blockyanim"
+    }
+  },
+  "Parent": "Item"
+}

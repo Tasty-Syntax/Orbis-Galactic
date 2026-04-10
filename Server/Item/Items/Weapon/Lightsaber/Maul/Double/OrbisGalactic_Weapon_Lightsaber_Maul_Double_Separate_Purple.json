@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Split"
-        ],
+        "Categories": ["Lightsabers_Split"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 2
       }
@@ -33,21 +31,14 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Purple.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Purple.png",
   "Light": {
     "Color": "#71a"
   },
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [
-      344,
-      360,
-      316
-    ],
-    "Translation": [
-      -76,
-      -76
-    ]
+    "Rotation": [344, 360, 316],
+    "Translation": [-76, -76]
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
   "Scale": 0.5,
