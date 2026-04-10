@@ -11,7 +11,7 @@
         LayoutMode: Left;
 
         $C.@Title {
-          @Text = "Galactic Market";
+          @Text = "Price History";
         }
       }
     }
@@ -26,16 +26,24 @@
         Background: (TexturePath: "../Common/ContainerPanelPatch.png", Border: 8);
         Padding: (Horizontal: 14, Vertical: 10);
 
-        $C.@TextField #SearchInput {
-          @Anchor = (Width: 240, Right: 12);
-          PlaceholderText: "Search market";
+        $C.@SecondaryTextButton #BtnBackToMarket {
+          Text: "Back";
+          Anchor: (Width: 120);
         }
 
-        Label #ResultSummary {
-          Visible: false;
-          Anchor: (Width: 1, Height: 1);
+        Group {
+          Anchor: (Width: 14);
+        }
+
+        $C.@TextField #DatabaseSearchInput {
+          @Anchor = (Width: 260, Right: 12);
+          PlaceholderText: "Search price history";
+        }
+
+        Label #DatabaseSummary {
+          FlexWeight: 1;
           Style: (
-            FontSize: 14,
+            FontSize: 17,
             RenderBold: true,
             TextColor: #d6d8db,
             VerticalAlignment: Center
@@ -43,80 +51,8 @@
           Text: "";
         }
 
-        Group {
-          Anchor: (Width: 10);
-        }
-
-        $C.@SecondaryTextButton #BtnOpenDatabase {
-          Text: "History";
-          Anchor: (Width: 110);
-        }
-
-        Group {
-          Anchor: (Width: 10);
-        }
-
-        Group {
-          FlexWeight: 1;
-        }
-
-        Group #WalletInfo {
-          Anchor: (Width: 168, Height: 28);
-          LayoutMode: Left;
-
-          Label {
-            Anchor: (Width: 46);
-            Style: (
-              FontSize: 13,
-              TextColor: #c8d7e4,
-              VerticalAlignment: Center
-            );
-            Text: "Wallet";
-          }
-
-          Group {
-            Anchor: (Width: 10);
-          }
-
-          ItemIcon #WalletGoldIcon {
-            Anchor: (Width: 20, Height: 20, Vertical: 0.5);
-          }
-
-          Label #WalletGoldCount {
-            Anchor: (Width: 40);
-            TooltipText: "";
-            TextTooltipStyle: $C.@DefaultTextTooltipStyle;
-            TextTooltipShowDelay: 0.1;
-            Style: (
-              FontSize: 13,
-              TextColor: #c8d7e4,
-              VerticalAlignment: Center,
-              HorizontalAlignment: Start
-            );
-            Text: "0";
-          }
-
-          ItemIcon #WalletSilverIcon {
-            Anchor: (Left: 6, Width: 20, Height: 20, Vertical: 0.5);
-          }
-
-          Label #WalletSilverCount {
-            Anchor: (Width: 40);
-            TooltipText: "";
-            TextTooltipStyle: $C.@DefaultTextTooltipStyle;
-            TextTooltipShowDelay: 0.1;
-            Style: (
-              FontSize: 13,
-              TextColor: #c8d7e4,
-              VerticalAlignment: Center,
-              HorizontalAlignment: Start
-            );
-            Text: "0";
-          }
-        }
-
         Label #RefreshInfo {
-          Anchor: (Width: 158);
+          Anchor: (Width: 220);
           Style: (
             FontSize: 13,
             TextColor: #9aafbf,
@@ -126,6 +62,35 @@
           Text: "";
         }
 
+        Group #WalletInfo {
+          Visible: false;
+          Anchor: (Width: 1, Height: 1);
+          LayoutMode: Left;
+
+          ItemIcon #WalletGoldIcon {
+            Anchor: (Width: 1, Height: 1);
+          }
+
+          Label #WalletGoldCount {
+            Anchor: (Width: 1, Height: 1);
+            TooltipText: "";
+            TextTooltipStyle: $C.@DefaultTextTooltipStyle;
+            TextTooltipShowDelay: 0.1;
+            Text: "0";
+          }
+
+          ItemIcon #WalletSilverIcon {
+            Anchor: (Width: 1, Height: 1);
+          }
+
+          Label #WalletSilverCount {
+            Anchor: (Width: 1, Height: 1);
+            TooltipText: "";
+            TextTooltipStyle: $C.@DefaultTextTooltipStyle;
+            TextTooltipShowDelay: 0.1;
+            Text: "0";
+          }
+        }
       }
 
       Group #MarketEventPopup {
@@ -184,37 +149,62 @@
         }
       }
 
-      Group #GridFrame {
+      Group #DatabaseFrame {
         FlexWeight: 1;
         Anchor: (Top: 12);
         Background: (TexturePath: "../Common/ContainerPatch.png", Border: 23);
         Padding: (Full: 12);
         LayoutMode: Top;
 
-        Group #OfferGridScroller {
+        Group #DatabaseResultScroller {
           FlexWeight: 1;
           LayoutMode: TopScrolling;
           ScrollbarStyle: $C.@DefaultScrollbarStyle;
           Padding: (Right: 6);
 
-          Group #OfferGrid {
-            LayoutMode: LeftCenterWrap;
+          Group #DatabaseResultList {
+            LayoutMode: Top;
           }
         }
 
-        Group #EmptyState {
+        Group #DatabaseLoadingState {
           Visible: false;
           LayoutMode: Top;
           Anchor: (Full: 0);
 
           Group {
-            Anchor: (Top: 28, Width: 380, Height: 160, Horizontal: 0);
+            Anchor: (Top: 28, Width: 420, Height: 160, Horizontal: 0);
             Background: (TexturePath: "../Common/ContainerPanelPatch.png", Border: 8);
             LayoutMode: CenterMiddle;
             Padding: (Horizontal: 20);
 
-            Label {
-              Text: "No market offers match your search.";
+            Label #DatabaseLoadingText {
+              Text: "";
+              Style: (
+                FontSize: 18,
+                RenderBold: true,
+                TextColor: #c5ccd5,
+                HorizontalAlignment: Center,
+                VerticalAlignment: Center,
+                Wrap: true
+              );
+            }
+          }
+        }
+
+        Group #DatabaseEmptyState {
+          Visible: false;
+          LayoutMode: Top;
+          Anchor: (Full: 0);
+
+          Group {
+            Anchor: (Top: 28, Width: 420, Height: 160, Horizontal: 0);
+            Background: (TexturePath: "../Common/ContainerPanelPatch.png", Border: 8);
+            LayoutMode: CenterMiddle;
+            Padding: (Horizontal: 20);
+
+            Label #DatabaseEmptyText {
+              Text: "";
               Style: (
                 FontSize: 18,
                 RenderBold: true,

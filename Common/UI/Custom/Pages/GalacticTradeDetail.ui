@@ -1,4 +1,4 @@
-$C = "../Common.ui";
+  $C = "../Common.ui";
 
   $C.@PageOverlay {}
 
@@ -552,7 +552,7 @@ $C = "../Common.ui";
           Anchor: (Width: 12);
         }
 
-                Group #GraphPanel {
+        Group #GraphPanel {
           FlexWeight: 1;
           LayoutMode: Top;
           Background: (TexturePath: "../Common/ContainerPatch.png", Border: 23);
@@ -582,15 +582,15 @@ $C = "../Common.ui";
             LayoutMode: CenterMiddle;
 
             Group {
-              Anchor: (Width: 560, Height: 280);
+              Anchor: (Width: 512, Height: 280);
               LayoutMode: Left;
 
               Group #GraphColumn0 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
 
                   Group { FlexWeight: 1; }
@@ -603,9 +603,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -617,11 +617,11 @@ $C = "../Common.ui";
               }
 
               Group #GraphColumn1 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
                   Group { FlexWeight: 1; }
                   Label #GoldCount { Anchor: (Width: 16); Style: (FontSize: 12, TextColor: #cfd8e2, HorizontalAlignment: End, VerticalAlignment: Center); Text: "0"; }
@@ -633,9 +633,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -647,11 +647,11 @@ $C = "../Common.ui";
               }
 
               Group #GraphColumn2 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
                   Group { FlexWeight: 1; }
                   Label #GoldCount { Anchor: (Width: 16); Style: (FontSize: 12, TextColor: #cfd8e2, HorizontalAlignment: End, VerticalAlignment: Center); Text: "0"; }
@@ -663,9 +663,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -677,11 +677,11 @@ $C = "../Common.ui";
               }
 
               Group #GraphColumn3 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
                   Group { FlexWeight: 1; }
                   Label #GoldCount { Anchor: (Width: 16); Style: (FontSize: 12, TextColor: #cfd8e2, HorizontalAlignment: End, VerticalAlignment: Center); Text: "0"; }
@@ -693,9 +693,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -707,11 +707,11 @@ $C = "../Common.ui";
               }
 
               Group #GraphColumn4 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
                   Group { FlexWeight: 1; }
                   Label #GoldCount { Anchor: (Width: 16); Style: (FontSize: 12, TextColor: #cfd8e2, HorizontalAlignment: End, VerticalAlignment: Center); Text: "0"; }
@@ -723,9 +723,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -737,11 +737,11 @@ $C = "../Common.ui";
               }
 
               Group #GraphColumn5 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
                   Group { FlexWeight: 1; }
                   Label #GoldCount { Anchor: (Width: 16); Style: (FontSize: 12, TextColor: #cfd8e2, HorizontalAlignment: End, VerticalAlignment: Center); Text: "0"; }
@@ -753,9 +753,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -767,11 +767,11 @@ $C = "../Common.ui";
               }
 
               Group #GraphColumn6 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
                   Group { FlexWeight: 1; }
                   Label #GoldCount { Anchor: (Width: 16); Style: (FontSize: 12, TextColor: #cfd8e2, HorizontalAlignment: End, VerticalAlignment: Center); Text: "0"; }
@@ -783,9 +783,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -797,11 +797,11 @@ $C = "../Common.ui";
               }
 
               Group #GraphColumn7 {
-                Anchor: (Width: 70, Height: 280);
+                Anchor: (Width: 64, Height: 280);
                 LayoutMode: Top;
 
                 Group #Amount {
-                  Anchor: (Width: 68, Height: 18, Horizontal: 0);
+                  Anchor: (Width: 62, Height: 18, Horizontal: 0);
                   LayoutMode: Left;
                   Group { FlexWeight: 1; }
                   Label #GoldCount { Anchor: (Width: 16); Style: (FontSize: 12, TextColor: #cfd8e2, HorizontalAlignment: End, VerticalAlignment: Center); Text: "0"; }
@@ -813,9 +813,9 @@ $C = "../Common.ui";
                 }
 
                 Group {
-                  Anchor: (Top: 8, Width: 54, Height: 170, Horizontal: 0);
+                  Anchor: (Top: 8, Width: 48, Height: 170, Horizontal: 0);
                   Background: #111923;
-                  Group { Anchor: (Left: 6, Right: 6, Bottom: 18, Height: 2); Background: #334557; }
+                  Group { Anchor: (Left: 6, Right: 6, Bottom: 84, Height: 2); Background: #334557; }
                   Group #BarUp { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #4dcb71; }
                   Group #BarDown { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #d55353; }
                   Group #BarFlat { Visible: false; Anchor: (Left: 12, Right: 12, Bottom: 18, Height: 20); Background: #8b99aa; }
@@ -824,426 +824,6 @@ $C = "../Common.ui";
                 Label #DeltaUp { Visible: false; Anchor: (Top: 10, Height: 18); Style: (FontSize: 12, TextColor: #4dcb71, HorizontalAlignment: Center); Text: ""; }
                 Label #DeltaDown { Visible: false; Anchor: (Top: 10, Height: 18); Style: (FontSize: 12, TextColor: #d55353, HorizontalAlignment: Center); Text: ""; }
                 Label #DeltaFlat { Visible: false; Anchor: (Top: 10, Height: 18); Style: (FontSize: 12, TextColor: #9caec0, HorizontalAlignment: Center); Text: ""; }
-              }
-          }
-        }
-
-
-          Label {
-            Anchor: (Top: 4, Height: 18);
-            Text: "Previous market values";
-            Style: (
-              FontSize: 12,
-              TextColor: #8ea1b3
-            );
-          }
-
-          Group {
-            Anchor: (Top: 18, Height: 280);
-            LayoutMode: Left;
-
-            Group #GraphColumn0 {
-              Anchor: (Width: 96, Height: 280);
-              LayoutMode: Top;
-
-              Group #Price {
-                Anchor: (Width: 86, Height: 18, Horizontal: 0);
-                LayoutMode: Left;
-
-                Label #GoldCount {
-                  Anchor: (Width: 20);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #GoldIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-
-                Group {
-                  Anchor: (Width: 4);
-                }
-
-                Label #SilverCount {
-                  Anchor: (Width: 14);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #SilverIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-              }
-
-              Group {
-                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-                Background: #0d141b;
-
-                Group #WickUp {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #4dcb71;
-                }
-
-                Group #WickDown {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #d55353;
-                }
-
-                Group #WickFlat {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #8b99aa;
-                }
-
-                Group #BodyUp {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #4dcb71;
-                }
-
-                Group #BodyDown {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #d55353;
-                }
-
-                Group #BodyFlat {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #8b99aa;
-                }
-              }
-
-              Label #Step {
-                Anchor: (Top: 10, Height: 18);
-                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-                Text: "";
-              }
-            }
-
-            Group #GraphColumn1 {
-              Anchor: (Width: 96, Height: 280);
-              LayoutMode: Top;
-
-              Group #Price {
-                Anchor: (Width: 86, Height: 18, Horizontal: 0);
-                LayoutMode: Left;
-
-                Label #GoldCount {
-                  Anchor: (Width: 20);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #GoldIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-
-                Group {
-                  Anchor: (Width: 4);
-                }
-
-                Label #SilverCount {
-                  Anchor: (Width: 14);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #SilverIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-              }
-
-              Group {
-                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-                Background: #0d141b;
-
-                Group #WickUp {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #4dcb71;
-                }
-
-                Group #WickDown {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #d55353;
-                }
-
-                Group #WickFlat {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #8b99aa;
-                }
-
-                Group #BodyUp {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #4dcb71;
-                }
-
-                Group #BodyDown {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #d55353;
-                }
-
-                Group #BodyFlat {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #8b99aa;
-                }
-              }
-
-              Label #Step {
-                Anchor: (Top: 10, Height: 18);
-                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-                Text: "";
-              }
-            }
-
-            Group #GraphColumn2 {
-              Anchor: (Width: 96, Height: 280);
-              LayoutMode: Top;
-
-              Group #Price {
-                Anchor: (Width: 86, Height: 18, Horizontal: 0);
-                LayoutMode: Left;
-
-                Label #GoldCount {
-                  Anchor: (Width: 20);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #GoldIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-
-                Group {
-                  Anchor: (Width: 4);
-                }
-
-                Label #SilverCount {
-                  Anchor: (Width: 14);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #SilverIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-              }
-
-              Group {
-                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-                Background: #0d141b;
-
-                Group #WickUp {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #4dcb71;
-                }
-
-                Group #WickDown {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #d55353;
-                }
-
-                Group #WickFlat {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #8b99aa;
-                }
-
-                Group #BodyUp {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #4dcb71;
-                }
-
-                Group #BodyDown {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #d55353;
-                }
-
-                Group #BodyFlat {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #8b99aa;
-                }
-              }
-
-              Label #Step {
-                Anchor: (Top: 10, Height: 18);
-                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-                Text: "";
-              }
-            }
-
-            Group #GraphColumn3 {
-              Anchor: (Width: 96, Height: 280);
-              LayoutMode: Top;
-
-              Group #Price {
-                Anchor: (Width: 86, Height: 18, Horizontal: 0);
-                LayoutMode: Left;
-
-                Label #GoldCount {
-                  Anchor: (Width: 20);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #GoldIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-
-                Group {
-                  Anchor: (Width: 4);
-                }
-
-                Label #SilverCount {
-                  Anchor: (Width: 14);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #SilverIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-              }
-
-              Group {
-                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-                Background: #0d141b;
-
-                Group #WickUp {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #4dcb71;
-                }
-
-                Group #WickDown {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #d55353;
-                }
-
-                Group #WickFlat {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #8b99aa;
-                }
-
-                Group #BodyUp {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #4dcb71;
-                }
-
-                Group #BodyDown {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #d55353;
-                }
-
-                Group #BodyFlat {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #8b99aa;
-                }
-              }
-
-              Label #Step {
-                Anchor: (Top: 10, Height: 18);
-                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-                Text: "";
-              }
-            }
-
-            Group #GraphColumn4 {
-              Anchor: (Width: 96, Height: 280);
-              LayoutMode: Top;
-
-              Group #Price {
-                Anchor: (Width: 86, Height: 18, Horizontal: 0);
-                LayoutMode: Left;
-
-                Label #GoldCount {
-                  Anchor: (Width: 20);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #GoldIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-
-                Group {
-                  Anchor: (Width: 4);
-                }
-
-                Label #SilverCount {
-                  Anchor: (Width: 14);
-                  Style: (FontSize: 12, TextColor: #a8b4c0, HorizontalAlignment: End, VerticalAlignment: Center);
-                  Text: "0";
-                }
-
-                ItemIcon #SilverIcon {
-                  Anchor: (Width: 12, Height: 12, Vertical: 0.5);
-                }
-              }
-
-              Group {
-                Anchor: (Top: 8, Width: 64, Height: 180, Horizontal: 0);
-                Background: #0d141b;
-
-                Group #WickUp {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #4dcb71;
-                }
-
-                Group #WickDown {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #d55353;
-                }
-
-                Group #WickFlat {
-                  Visible: false;
-                  Anchor: (Left: 30, Right: 30, Bottom: 10, Height: 18);
-                  Background: #8b99aa;
-                }
-
-                Group #BodyUp {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #4dcb71;
-                }
-
-                Group #BodyDown {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #d55353;
-                }
-
-                Group #BodyFlat {
-                  Visible: false;
-                  Anchor: (Left: 23, Right: 23, Bottom: 10, Height: 14);
-                  Background: #8b99aa;
-                }
-              }
-
-              Label #Step {
-                Anchor: (Top: 10, Height: 18);
-                Style: (FontSize: 12, TextColor: #c4ccd6, HorizontalAlignment: Center);
-                Text: "";
               }
             }
           }
