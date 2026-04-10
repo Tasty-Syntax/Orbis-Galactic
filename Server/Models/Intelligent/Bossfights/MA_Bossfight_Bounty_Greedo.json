@@ -1265,5 +1265,23 @@
         }
       ]
     }
-  }
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "Cosmetics/Pants/Pants_Asymetrical.blockymodel",
+      "Texture": "Cosmetics/Pants/Pants_Asymetrical_Textures/Explorer_Greyscale.png"
+    },
+    {
+      "Model": "Cosmetics/Overtops/CollaredJacket.blockymodel",
+      "Texture": "Cosmetics/Overtops/CollaredJacket_Texture/TopBomber_Texture.png"
+    },
+    {
+      "Model": "Cosmetics/Shoes/HeavyBoots.blockymodel",
+      "Texture": "Cosmetics/Shoes/HeavyBoots_Textures/Worker_Greyscale.png"
+    },
+    {
+      "Model": "Cosmetics/Undertops/LongSleeveShirt.blockymodel",
+      "Texture": "Cosmetics/Undertops/LongSleeveShirt_Textures/Goldtrim_Greyscale.png"
+    }
+  ]
 }

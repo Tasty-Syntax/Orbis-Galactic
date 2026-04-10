@@ -13,8 +13,8 @@
       "Z": -0.4
     }
   },
-  "MinScale": 1,
-  "MaxScale": 1,
+  "MinScale": 0.5,
+  "MaxScale": 0.5,
   "Light": {
     "Color": "#07c"
   },

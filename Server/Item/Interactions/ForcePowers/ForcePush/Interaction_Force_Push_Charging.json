@@ -17,7 +17,7 @@
         "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
         "ItemAnimationId": "Force_Push_Hit",
         "ClearAnimationOnFinish": false,
-        "WaitForAnimationToFinish": true
+        "WaitForAnimationToFinish": false
       }
     },
     "0.6": {
@@ -33,7 +33,7 @@
         "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
         "ItemAnimationId": "Force_Push_Hit",
         "ClearAnimationOnFinish": false,
-        "WaitForAnimationToFinish": true
+        "WaitForAnimationToFinish": false
       }
     },
     "1.2": {
@@ -49,7 +49,7 @@
         "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations",
         "ItemAnimationId": "Force_Push_Hit",
         "ClearAnimationOnFinish": false,
-        "WaitForAnimationToFinish": true
+        "WaitForAnimationToFinish": false
       }
     }
   },
