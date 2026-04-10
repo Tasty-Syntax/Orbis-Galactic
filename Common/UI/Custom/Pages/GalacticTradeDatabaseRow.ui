@@ -1,0 +1,148 @@
+  Group {
+    Anchor: (Height: 86);
+    LayoutMode: Left;
+    Background: #101922;
+    Padding: (Horizontal: 12, Vertical: 10);
+
+    Group {
+      Anchor: (Width: 64, Height: 64);
+      LayoutMode: CenterMiddle;
+      Background: #0b1118;
+
+      ItemIcon #Icon {
+        Anchor: (Width: 56, Height: 56);
+      }
+    }
+
+    Group {
+      Anchor: (Width: 14);
+    }
+
+    Group {
+      FlexWeight: 1;
+      LayoutMode: Top;
+
+      Label #Name {
+        Anchor: (Height: 22);
+        Style: (
+          FontSize: 16,
+          RenderBold: true,
+          TextColor: #e1e5ea,
+          VerticalAlignment: Center
+        );
+        Text: "";
+      }
+
+      Label #ItemId {
+        Anchor: (Top: 2, Height: 18);
+        Style: (
+          FontSize: 12,
+          TextColor: #8ea1b3,
+          VerticalAlignment: Center
+        );
+        Text: "";
+      }
+
+      Label #HistoryCount {
+        Anchor: (Top: 6, Height: 18);
+        Style: (
+          FontSize: 12,
+          TextColor: #9caec0,
+          VerticalAlignment: Center
+        );
+        Text: "";
+      }
+    }
+
+    Group {
+      Anchor: (Width: 18);
+    }
+
+    Group {
+      Anchor: (Width: 130);
+      LayoutMode: Top;
+
+      Label {
+        Anchor: (Height: 16);
+        Style: (FontSize: 11, TextColor: #8ea1b3, HorizontalAlignment: Center, RenderUppercase: true);
+        Text: "Current";
+      }
+
+      Group #CurrentPrice {
+        Anchor: (Top: 4, Width: 126, Height: 20, Horizontal: 0);
+        LayoutMode: Left;
+
+        Group { FlexWeight: 1; }
+        Label #GoldCount { Anchor: (Width: 26); Style: (FontSize: 15, RenderBold: true, HorizontalAlignment: End, VerticalAlignment: Center, TextColor: #dfe4ea); Text: "0"; }
+        ItemIcon #GoldIcon { Anchor: (Width: 14, Height: 14, Vertical: 0.5); }
+        Group { Anchor: (Width: 8); }
+        Label #SilverCount { Anchor: (Width: 20); Style: (FontSize: 15, RenderBold: true, HorizontalAlignment: End, VerticalAlignment: Center, TextColor: #dfe4ea); Text: "0"; }
+        ItemIcon #SilverIcon { Anchor: (Width: 14, Height: 14, Vertical: 0.5); }
+        Group { FlexWeight: 1; }
+      }
+    }
+
+    Group {
+      Anchor: (Width: 12);
+    }
+
+    Group {
+      Anchor: (Width: 130);
+      LayoutMode: Top;
+
+      Label {
+        Anchor: (Height: 16);
+        Style: (FontSize: 11, TextColor: #8ea1b3, HorizontalAlignment: Center, RenderUppercase: true);
+        Text: "Base";
+      }
+
+      Group #BasePrice {
+        Anchor: (Top: 4, Width: 126, Height: 20, Horizontal: 0);
+        LayoutMode: Left;
+
+        Group { FlexWeight: 1; }
+        Label #GoldCount { Anchor: (Width: 26); Style: (FontSize: 15, RenderBold: true, HorizontalAlignment: End, VerticalAlignment: Center, TextColor: #b9c4cf); Text: "0"; }
+        ItemIcon #GoldIcon { Anchor: (Width: 14, Height: 14, Vertical: 0.5); }
+        Group { Anchor: (Width: 8); }
+        Label #SilverCount { Anchor: (Width: 20); Style: (FontSize: 15, RenderBold: true, HorizontalAlignment: End, VerticalAlignment: Center, TextColor: #b9c4cf); Text: "0"; }
+        ItemIcon #SilverIcon { Anchor: (Width: 14, Height: 14, Vertical: 0.5); }
+        Group { FlexWeight: 1; }
+      }
+    }
+
+    Group {
+      Anchor: (Width: 12);
+    }
+
+    Group {
+      Anchor: (Width: 92);
+      LayoutMode: Top;
+
+      Label {
+        Anchor: (Height: 16);
+        Style: (FontSize: 11, TextColor: #8ea1b3, HorizontalAlignment: Center, RenderUppercase: true);
+        Text: "Last Tick";
+      }
+
+      Label #LastChangeUp {
+        Visible: false;
+        Anchor: (Top: 6, Height: 18);
+        Style: (FontSize: 13, TextColor: #4dcb71, HorizontalAlignment: Center, RenderBold: true);
+        Text: "";
+      }
+
+      Label #LastChangeDown {
+        Visible: false;
+        Anchor: (Top: 6, Height: 18);
+        Style: (FontSize: 13, TextColor: #d55353, HorizontalAlignment: Center, RenderBold: true);
+        Text: "";
+      }
+
+      Label #LastChangeFlat {
+        Visible: false;
+        Anchor: (Top: 6, Height: 18);
+        Style: (FontSize: 13, TextColor: #9caec0, HorizontalAlignment: Center, RenderBold: true);
+        Text: "";
+      }
+    }
+  }
