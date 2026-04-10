@@ -37181,30 +37181,6 @@
     },
     {
       "x": -8,
-      "y": 3,
-      "z": -1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 991,
-      "rotation": 1
-    },
-    {
-      "x": -8,
-      "y": 4,
-      "z": -1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 2015,
-      "rotation": 1
-    },
-    {
-      "x": -8,
-      "y": 5,
-      "z": -1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 3039,
-      "rotation": 1
-    },
-    {
-      "x": -8,
       "y": 6,
       "z": -1,
       "name": "Rock_Shale_Brick_Smooth",
@@ -37321,30 +37297,6 @@
       "y": 2,
       "z": 0,
       "name": "Rock_Shale_Cobble"
-    },
-    {
-      "x": -8,
-      "y": 3,
-      "z": 0,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 1023,
-      "rotation": 1
-    },
-    {
-      "x": -8,
-      "y": 4,
-      "z": 0,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 2047,
-      "rotation": 1
-    },
-    {
-      "x": -8,
-      "y": 5,
-      "z": 0,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 3071,
-      "rotation": 1
     },
     {
       "x": -8,
@@ -37473,30 +37425,6 @@
       "y": 2,
       "z": 1,
       "name": "Rock_Shale_Cobble"
-    },
-    {
-      "x": -8,
-      "y": 3,
-      "z": 1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 31,
-      "rotation": 1
-    },
-    {
-      "x": -8,
-      "y": 4,
-      "z": 1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 1055,
-      "rotation": 1
-    },
-    {
-      "x": -8,
-      "y": 5,
-      "z": 1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
-      "filler": 2079,
-      "rotation": 1
     },
     {
       "x": -8,
@@ -39344,7 +39272,7 @@
       "x": -7,
       "y": 3,
       "z": -1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 960,
       "rotation": 1
     },
@@ -39352,7 +39280,7 @@
       "x": -7,
       "y": 4,
       "z": -1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 1984,
       "rotation": 1
     },
@@ -39360,7 +39288,7 @@
       "x": -7,
       "y": 5,
       "z": -1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 3008,
       "rotation": 1
     },
@@ -39486,7 +39414,7 @@
       "x": -7,
       "y": 3,
       "z": 0,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 992,
       "rotation": 1
     },
@@ -39494,7 +39422,7 @@
       "x": -7,
       "y": 4,
       "z": 0,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 2016,
       "rotation": 1
     },
@@ -39502,7 +39430,7 @@
       "x": -7,
       "y": 5,
       "z": 0,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 3040,
       "rotation": 1
     },
@@ -39634,14 +39562,14 @@
       "x": -7,
       "y": 3,
       "z": 1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "rotation": 1
     },
     {
       "x": -7,
       "y": 4,
       "z": 1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 1024,
       "rotation": 1
     },
@@ -39649,7 +39577,7 @@
       "x": -7,
       "y": 5,
       "z": 1,
-      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_OpenDoorOut",
+      "name": "*Furniture_Temple_Dark_Door_Medium_State_Definitions_CloseDoorOut",
       "filler": 2048,
       "rotation": 1
     },
@@ -47205,13 +47133,13 @@
         },
         "Transform": {
           "Position": {
-            "X": -21.448625087738037,
-            "Y": -10.959735870361328,
-            "Z": 10.49151611328125
+            "X": -21.48517417907715,
+            "Y": -10.897319793701172,
+            "Z": 10.4774169921875
           },
           "Rotation": {
             "Pitch": 0.0,
-            "Yaw": -1.4444706439971924,
+            "Yaw": -1.5616446733474731,
             "Roll": 0.0
           }
         },
@@ -47236,14 +47164,14 @@
         "Invulnerable": {},
         "Model": {
           "Model": {
-            "Id": "Rodian_Blue_Trader_Model",
-            "Scale": 1.2000000476837158,
+            "Id": "Ancient_Jedi_Model",
+            "Scale": 1.0,
             "Static": false
           }
         },
         "UUID": {
           "UUID": {
-            "$binary": "Bx+1RnFbOqel9rfwDwWZcQ==",
+            "$binary": "nvRfqFYbOM6N3QGWHbVCkw==",
             "$type": "04"
           }
         },
@@ -47314,7 +47242,7 @@
         "NPC": {
           "Version": 5,
           "UUID": {
-            "$binary": "s9xTYx70O/yxr+thA3AM6g==",
+            "$binary": "nvRfqFYbOM6N3QGWHbVCkw==",
             "$type": "04"
           },
           "Inventory": {
@@ -47325,7 +47253,7 @@
           },
           "HvrPhs": 0.0,
           "HvrHght": 0.0,
-          "MdlScl": 1.2000000476837158,
+          "MdlScl": 1.0,
           "SpawnInstant": "0001-01-01T12:00:00Z",
           "WorldgenId": 0,
           "PathManager": {},
@@ -47341,7 +47269,7 @@
         "HeadRotation": {
           "Rotation": {
             "Pitch": 0.0,
-            "Yaw": -1.4444706439971924,
+            "Yaw": -1.5616446733474731,
             "Roll": 0.0
           }
         }
