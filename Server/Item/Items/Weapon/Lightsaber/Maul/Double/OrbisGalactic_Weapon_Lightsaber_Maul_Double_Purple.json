@@ -48,50 +48,6 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
-  "State": {
-    "On": {
-      "Variant": true,
-      "Quality": "Epic",
-      "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
-      "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Purple.png",
-      "Light": {
-        "Color": "#71a"
-      },
-      "Trails": [
-        {
-          "TargetEntityPart": "PrimaryItem",
-          "TargetNodeName": "Blade",
-          "PositionOffset": {
-            "Y": 0,
-            "Z": 0.0
-          },
-          "RotationOffset": {
-            "Roll": 0
-          },
-          "TrailId": "Lightsaber_Trail_Purple"
-        }
-      ],
-      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
-      "Interactions": {
-        "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
-        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
-        "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
-        "Ability2": {
-          "Interactions": [
-            {
-              "Type": "RunRootInteraction",
-              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-              "Effects": {
-                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
-              }
-            }
-          ]
-        }
-      }
-    }
-  },
   "Interactions": {
     "Ability2": {
       "Interactions": [
@@ -105,5 +61,72 @@
         }
       ]
     }
+  },
+  "State": {
+    "On": {
+      "Variant": true,
+      "Quality": "Epic",
+      "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
+      "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Purple.png",
+      "Light": {
+        "Color": "#71a"
+      },
+      "Trails": [
+        {
+          "TargetEntityPart": "PrimaryItem",
+          "TargetNodeName": "Blade",
+          "TrailId": "Lightsaber_Trail_Blue",
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0.0
+          },
+          "RotationOffset": {
+            "Roll": 0
+          }
+        }
+      ],
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
+      "Interactions": {
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
+        "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
+        "Ability2": {
+          "Interactions": [
+            {
+              "Type": "Charging",
+              "Next": {
+                "0": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "RunRootInteraction",
+                      "RootInteraction": "ROOT_Interaction_Lightsaber_Retract_Blue_Double",
+                      "RunTime": 0
+                    },
+                    {
+                      "Type": "OrbisGalactic_Lightsaber_Interaction"
+                    }
+                  ]
+                },
+                "0.5": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    "Interaction_Lightsaber_Double_Switch",
+                    {
+                      "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                      "Effects": {}
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "On_Seperate": "*OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Purple_State_On",
+    "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Purple"
   }
 }
