@@ -96,8 +96,32 @@
       "Quality": "Epic",
       "Light": {
         "Color": "#166"
+      },
+      "InteractionVars": {
+        "Lightsaber_Sound": {
+          "Interactions": [
+            {
+              "Type": "Simple",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
+              }
+            }
+          ]
+        }
       }
     },
     "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Blue"
+  },
+  "InteractionVars": {
+    "Lightsaber_Sound": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip_Blue_Local"
+          }
+        }
+      ]
+    }
   }
 }

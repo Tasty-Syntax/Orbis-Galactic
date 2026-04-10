@@ -65,6 +65,18 @@
       "Quality": "Epic",
       "Light": {
         "Color": "#fff"
+      },
+      "InteractionVars": {
+        "Lightsaber_Sound": {
+          "Interactions": [
+            {
+              "Type": "Simple",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+              }
+            }
+          ]
+        }
       }
     },
     "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_White"
@@ -98,6 +110,18 @@
                 }
               ]
             }
+          }
+        }
+      ]
+    }
+  },
+  "InteractionVars": {
+    "Lightsaber_Sound": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip_Default_Local"
           }
         }
       ]

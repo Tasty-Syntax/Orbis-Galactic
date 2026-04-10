@@ -110,7 +110,10 @@
                     {
                       "Type": "RunRootInteraction",
                       "RootInteraction": "ROOT_Interaction_Lightsaber_Retract_Blue_Double",
-                      "RunTime": 0
+                      "RunTime": 0,
+                      "Effects": {
+                        "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
+                      }
                     },
                     {
                       "Type": "OrbisGalactic_Lightsaber_Interaction"
