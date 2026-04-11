@@ -27,11 +27,7 @@
     },
     "Gathering": {
       "Breaking": {
-        "DropList": {
-          "Type": "Single"
-        },
-        "GatherType": "Benches",
-        "ItemId": "Bench_Laser_Weapon_Crafter"
+        "GatherType": "Benches"
       }
     },
     "Support": {
@@ -83,5 +79,6 @@
   "ItemLevel": 2,
   "ItemSoundSetId": "ISS_Blocks_Wood",
   "Scale": 0.5,
-  "Icon": "Icons/ItemsGenerated/Bench_Galactic_Trade_Terminal.png"
+  "Icon": "Icons/ItemsGenerated/Bench_Galactic_Trade_Terminal.png",
+  "SubCategory": "Benches"
 }
