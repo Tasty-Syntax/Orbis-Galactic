@@ -1,17 +1,14 @@
 {
-  "Model": "Items/Ingredients/Lightsaber Grips/Lightsaber_Grip_Anakin.blockymodel",
-  "Texture": "Items/Ingredients/Lightsaber Grips/Anakin_Lightsaber_Hilt.png",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Hilt_Anakin.png",
   "IconProperties": {
-    "Scale": 0.8,
+    "Scale": 0.3,
     "Rotation": [
-      0,
-      203,
-      47
+      37,
+      129,
+      15
     ],
     "Translation": [
-      -15,
-      -16
+      -28,
+      -35
     ]
   },
   "Recipe": {
@@ -47,5 +44,9 @@
   "PlayerAnimationsId": "Item",
   "Categories": [
     "OrbisGalactic.Ingredients"
-  ]
+  ],
+  "Model": "Items/Ingredients/Lightsaber Grips/Lightsaber_Grip_Anakin.blockymodel",
+  "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Blue.png",
+  "Scale": 0.5,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Anakin.png"
 }
