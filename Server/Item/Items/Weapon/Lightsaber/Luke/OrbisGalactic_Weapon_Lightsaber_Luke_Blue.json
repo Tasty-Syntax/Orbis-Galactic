@@ -35,9 +35,9 @@
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Luke_Blue.png",
   "IconProperties": {
-    "Scale": 0.1,
+    "Scale": 0.18,
     "Rotation": [
-      336,
+      333,
       224,
       40
     ],
@@ -126,7 +126,7 @@
               "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
               "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Blue.png",
               "Light": {
-                "Color": "#4df"
+                "Color": "#267"
               }
             }
           ]

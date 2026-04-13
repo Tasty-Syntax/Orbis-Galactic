@@ -37,6 +37,43 @@
           "Type": "OrbisGalactic_TriggerForcePower_Interaction"
         }
       ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "Next": {
+            "0": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "Replace",
+                  "Var": "Lightsaber_Sound",
+                  "DefaultValue": {
+                    "Interactions": [
+                      "Interaction_Lightsaber_Equip_Blue"
+                    ]
+                  },
+                  "DefaultOk": true
+                },
+                {
+                  "Type": "OrbisGalactic_Lightsaber_Interaction"
+                }
+              ]
+            },
+            "0.5": {
+              "Type": "Serial",
+              "Interactions": [
+                "Interaction_Lightsaber_Double_Switch",
+                {
+                  "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                  "Effects": {}
+                }
+              ]
+            }
+          }
+        }
+      ]
     }
   },
   "Tags": {

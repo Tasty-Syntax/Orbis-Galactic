@@ -429,7 +429,7 @@
                   LayoutMode: Left;
 
                   Label #GoldCount {
-                    Anchor: (Width: 22);
+                    Anchor: (Width: 33);
                     Style: (FontSize: 13, TextColor: #c8d7e4, HorizontalAlignment: End, VerticalAlignment: Center);
                     Text: "0";
                   }
@@ -439,7 +439,7 @@
                   }
 
                   Group {
-                    Anchor: (Width: 8);
+                    Anchor: (Width: 5);
                   }
 
                   Label #SilverCount {
@@ -485,7 +485,7 @@
                   LayoutMode: Left;
 
                   Label #GoldCount {
-                    Anchor: (Width: 22);
+                    Anchor: (Width: 33);
                     Style: (FontSize: 13, TextColor: #c8d7e4, HorizontalAlignment: End, VerticalAlignment: Center);
                     Text: "0";
                   }
@@ -495,7 +495,7 @@
                   }
 
                   Group {
-                    Anchor: (Width: 8);
+                    Anchor: (Width: 5);
                   }
 
                   Label #SilverCount {

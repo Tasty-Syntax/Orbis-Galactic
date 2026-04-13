@@ -34,15 +34,15 @@
     ]
   },
   "IconProperties": {
-    "Scale": 0.3,
+    "Scale": 0.18,
     "Rotation": [
       333,
       224,
       40
     ],
     "Translation": [
-      -46,
-      -44
+      -78,
+      -72
     ]
   },
   "Parent": "OrbisGalactic_Lightsaber_Luke_Template",

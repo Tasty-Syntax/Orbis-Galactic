@@ -44,19 +44,6 @@
         }
 
         Group {
-          Anchor: (Width: 10);
-        }
-
-        $C.@SecondaryTextButton #BtnOpenDatabase {
-          Text: "History";
-          Anchor: (Width: 110);
-        }
-
-        Group {
-          Anchor: (Width: 10);
-        }
-
-        Group {
           FlexWeight: 1;
         }
 

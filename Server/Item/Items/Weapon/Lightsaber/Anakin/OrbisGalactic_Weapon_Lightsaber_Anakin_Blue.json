@@ -125,7 +125,7 @@
               "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
               "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_Blue.png",
               "Light": {
-                "Color": "#4df"
+                "Color": "#267"
               }
             }
           ]

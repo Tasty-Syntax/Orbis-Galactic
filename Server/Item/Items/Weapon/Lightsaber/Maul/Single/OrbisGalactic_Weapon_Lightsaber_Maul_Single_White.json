@@ -78,6 +78,27 @@
               }
             }
           ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_White.png",
+              "Light": {
+                "Color": "#666"
+              }
+            }
+          ]
         }
       }
     }

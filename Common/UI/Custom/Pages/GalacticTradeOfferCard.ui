@@ -35,6 +35,7 @@
 
         ItemIcon #Icon {
           Anchor: (Full: 0);
+          HitTestVisible: false;
         }
 
         Group #EventBadge {
