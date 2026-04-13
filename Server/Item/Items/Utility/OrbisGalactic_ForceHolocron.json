@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "Force Holocron"
+    "Name": "Force Holocron",
+    "Description": "server.items.OrbisGalactic_ForceHolocron.description"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_ForceHolocron.png",
   "Quality": "Epic",

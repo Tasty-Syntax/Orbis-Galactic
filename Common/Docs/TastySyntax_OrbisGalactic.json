@@ -3,17 +3,12 @@
     {
       "group": "TastySyntax",
       "id": "OrbisGalacticDocs",
-      "name": "My cool OrbisGalactic documentation",
+      "name": "OrbisGalactic documentation",
       "enabled": true,
       "sortIndex": 300,
       "topics": [
         {
-          "file": "home.md",
-          "subTopics": [
-            {
-              "file": "tutorial/first-steps.md"
-            }
-          ]
+          "file": "home.md"
         },
         {
           "file": "space-travel/space-travel.md",

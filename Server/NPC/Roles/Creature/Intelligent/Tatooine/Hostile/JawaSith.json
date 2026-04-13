@@ -16,7 +16,7 @@
             "Parent": "NPC_Attack_Melee_Damage",
             "DamageCalculator": {
               "BaseDamage": {
-                "Physical": 60
+                "Physical": 40
               }
             }
           }

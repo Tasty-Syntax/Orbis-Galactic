@@ -1,6 +1,7 @@
 {
 	"TranslationProperties": {
-		"Name": "Force Lightning Training"
+		"Name": "Force Lightning Training",
+		"Description": "A forbidden training page that teaches you how to channel Force lightning."
 	},
 	"Icon": "Icons/ItemsGenerated/Recipe_Page.png",
 	"Categories": ["OrbisGalactic.Misc"],

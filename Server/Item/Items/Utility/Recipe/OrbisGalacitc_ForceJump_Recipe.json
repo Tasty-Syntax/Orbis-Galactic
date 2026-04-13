@@ -1,6 +1,7 @@
 {
 	"TranslationProperties": {
-		"Name": "Force Jump Training"
+		"Name": "Force Jump Training",
+		"Description": "A training page that teaches you how to leap with the Force."
 	},
 	"Icon": "Icons/ItemsGenerated/Recipe_Page.png",
 	"PlayerAnimationsId": "Item",

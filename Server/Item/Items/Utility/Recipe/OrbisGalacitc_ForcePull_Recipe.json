@@ -1,6 +1,7 @@
 {
 	"TranslationProperties": {
-		"Name": "Force Pull Training"
+		"Name": "Force Pull Training",
+		"Description": "A training page that teaches you how to draw targets in with the Force."
 	},
 	"Icon": "Icons/ItemsGenerated/Recipe_Page.png",
 	"Categories": ["OrbisGalactic.Misc"],

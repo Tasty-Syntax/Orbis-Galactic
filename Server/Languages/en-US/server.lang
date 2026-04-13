@@ -156,15 +156,16 @@ items.OrbisGalactic_Speeder_Bike.name= Speeder Bike
 items.OrbisGalactic_Speeder_Bike.description= A speeder bike, perfect to optimize planetary travel time. (Rightclick to deploy!)
 items.OrbisGalactic_Scrap_Metal.name= Scrap Metal
 items.OrbisGalactic_Scrap_Metal.description= Some scrap metal. A Jawa might see value in this.
+items.OrbisGalactic_ForceHolocron.description=An ancient holocron that stores knowledge of learned Force abilities. \n\n<b><color is="#7da6e9">Right click</color> <color is="#ffffff">Select force ability</color></b>\n<b><color is="#27df3d">Ability 3 Key <color is="#ffffff">Cast force ability</color></b>
 
 # --- Force Power Items ---
 items.OrbisGalactic_ForceFocus_Push.name=Force Push
-items.OrbisGalactic_ForceFocus_Push.description=Force Push
+items.OrbisGalactic_ForceFocus_Push.description=Release a burst of Force energy that sends targets flying backward.
 items.OrbisGalactic_ForceFocus_Jump.name=Force Jump
-items.OrbisGalactic_ForceFocus_Jump.description=Force Jump
+items.OrbisGalactic_ForceFocus_Jump.description=Use the Force to launch yourself high into the air.
 items.OrbisGalactic_ForceFocus_Pull.name=Force Pull
-items.OrbisGalactic_ForceFocus_Pull.description=Force Pull
+items.OrbisGalactic_ForceFocus_Pull.description=Draw a target toward you with a focused pull through the Force.
 items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.name=Force Infuse Crystal
 items.OrbisGalactic_ForceFocus_ForceInfuseCrystal.description=Pour your force into the Kybercrystal to corrupt it or heal it from corruption
 items.OrbisGalactic_ForceFocus_Lightning.name=Force Lighting
-items.OrbisGalactic_ForceFocus_Lightning.description=Shoot lightning from your hands
+items.OrbisGalactic_ForceFocus_Lightning.description=Channel crackling Force lightning through your hands.
