@@ -28,7 +28,11 @@
         "Quantity": 10
       },
       {
-        "ItemId": "Ingredient_Bar_Silver",
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "OrbisGalactic_Bar_Durasteel",
         "Quantity": 10
       }
     ]

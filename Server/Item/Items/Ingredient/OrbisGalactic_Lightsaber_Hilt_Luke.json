@@ -1,6 +1,6 @@
 {
   "IconProperties": {
-    "Scale": 0.3,
+    "Scale": 0.4,
     "Rotation": [
       0,
       203,
@@ -28,8 +28,12 @@
         "Quantity": 10
       },
       {
-        "ItemId": "Ingredient_Bar_Silver",
-        "Quantity": 10
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "OrbisGalactic_Bar_Durasteel",
+        "Quantity": 6
       }
     ]
   },
