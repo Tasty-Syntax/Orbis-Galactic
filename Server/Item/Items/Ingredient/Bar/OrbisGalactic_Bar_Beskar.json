@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "Beskar Ingot"
+    "Name": "Beskar Ingot",
+    "Description": "A rare forged metal used in advanced Mandalorian equipment."
   },
   "Categories": [
     "Items.Ingredients"

@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
     "Name": "Durasteel Ingot",
-    "Description": "The most commonly used metal alloy in the galaxy."
+    "Description": "The most commonly used metal alloy in the galaxy. Smelt 3 Iron Bars with 1 Charcoal in a Furnace."
   },
   "Categories": [
     "OrbisGalactic.Ingredients"

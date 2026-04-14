@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "Saber Forge"
+    "Name": "Saber Forge",
+    "Description": "Used to assemble and refine lightsabers."
   },
   "PlayerAnimationsId": "Block",
   "Categories": [

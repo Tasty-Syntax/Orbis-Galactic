@@ -92,60 +92,12 @@
     {
       "x": -1,
       "y": -1,
-      "z": -8,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": -1,
-      "y": 0,
-      "z": -8,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": -1,
-      "z": -7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": -1,
-      "y": 0,
-      "z": -7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": -1,
-      "z": -6,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": -1,
-      "y": 0,
-      "z": -6,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
-      "z": -6,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": -1,
       "z": -5,
       "name": "Rock_Sandstone"
     },
     {
       "x": -1,
       "y": 0,
-      "z": -5,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
       "z": -5,
       "name": "Soil_Sand_White"
     },
@@ -158,12 +110,6 @@
     {
       "x": -1,
       "y": 0,
-      "z": -4,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
       "z": -4,
       "name": "Soil_Sand_White"
     },
@@ -176,12 +122,6 @@
     {
       "x": -1,
       "y": 0,
-      "z": -3,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
       "z": -3,
       "name": "Soil_Sand_White"
     },
@@ -194,12 +134,6 @@
     {
       "x": -1,
       "y": 0,
-      "z": -2,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
       "z": -2,
       "name": "Soil_Sand_White"
     },
@@ -212,12 +146,6 @@
     {
       "x": -1,
       "y": 0,
-      "z": -1,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
       "z": -1,
       "name": "Soil_Sand_White"
     },
@@ -230,12 +158,6 @@
     {
       "x": -1,
       "y": 0,
-      "z": 0,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
       "z": 0,
       "name": "Soil_Sand_White"
     },
@@ -248,12 +170,6 @@
     {
       "x": -1,
       "y": 0,
-      "z": 1,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
       "z": 1,
       "name": "Soil_Sand_White"
     },
@@ -289,12 +205,6 @@
     },
     {
       "x": -1,
-      "y": 1,
-      "z": 3,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
       "y": -1,
       "z": 4,
       "name": "Rock_Sandstone"
@@ -325,12 +235,6 @@
     },
     {
       "x": -1,
-      "y": 1,
-      "z": 5,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
       "y": -1,
       "z": 6,
       "name": "Rock_Sandstone"
@@ -339,48 +243,6 @@
       "x": -1,
       "y": 0,
       "z": 6,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
-      "z": 6,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": -1,
-      "z": 7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": -1,
-      "y": 0,
-      "z": 7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
-      "z": 7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": -1,
-      "z": 8,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": -1,
-      "y": 0,
-      "z": 8,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": -1,
-      "y": 1,
-      "z": 8,
       "name": "Soil_Sand_White"
     },
     {
@@ -487,12 +349,6 @@
     },
     {
       "x": 0,
-      "y": 1,
-      "z": -10,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
       "y": -1,
       "z": -9,
       "name": "Rock_Sandstone"
@@ -505,12 +361,6 @@
     },
     {
       "x": 0,
-      "y": 1,
-      "z": -9,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
       "y": -1,
       "z": -8,
       "name": "Rock_Sandstone"
@@ -518,12 +368,6 @@
     {
       "x": 0,
       "y": 0,
-      "z": -8,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": 1,
       "z": -8,
       "name": "Soil_Sand_White"
     },
@@ -536,12 +380,6 @@
     {
       "x": 0,
       "y": 0,
-      "z": -7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": 1,
       "z": -7,
       "name": "Soil_Sand_White"
     },
@@ -554,12 +392,6 @@
     {
       "x": 0,
       "y": 0,
-      "z": -6,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": 1,
       "z": -6,
       "name": "Soil_Sand_White"
     },
@@ -572,12 +404,6 @@
     {
       "x": 0,
       "y": 0,
-      "z": -5,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": 1,
       "z": -5,
       "name": "Soil_Sand_White"
     },
@@ -615,13 +441,7 @@
       "x": 0,
       "y": 1,
       "z": -3,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": 2,
-      "z": -3,
-      "name": "Rock_Sandstone_White_Brick_Smooth_Half"
+      "name": "Rock_Sandstone_White_Brick_Smooth"
     },
     {
       "x": 0,
@@ -639,13 +459,13 @@
       "x": 0,
       "y": 0,
       "z": -2,
-      "name": "Soil_Sand_White"
+      "name": "Rock_Sandstone_White_Brick_Smooth"
     },
     {
       "x": 0,
       "y": 1,
       "z": -2,
-      "name": "Rock_Sandstone_White_Brick_Smooth"
+      "name": "Empty"
     },
     {
       "x": 0,
@@ -675,7 +495,7 @@
       "x": 0,
       "y": 1,
       "z": -1,
-      "name": "Rock_Sandstone_White_Brick_Smooth"
+      "name": "Soil_Sand_White"
     },
     {
       "x": 0,
@@ -703,12 +523,6 @@
     },
     {
       "x": 0,
-      "y": 1,
-      "z": 0,
-      "name": "Rock_Sandstone_White_Brick_Smooth"
-    },
-    {
-      "x": 0,
       "y": 2,
       "z": 0,
       "name": "Empty"
@@ -735,7 +549,7 @@
       "x": 0,
       "y": 1,
       "z": 1,
-      "name": "Rock_Sandstone_White_Brick_Smooth"
+      "name": "Empty"
     },
     {
       "x": 0,
@@ -766,12 +580,6 @@
       "y": 1,
       "z": 2,
       "name": "Rock_Sandstone_White_Brick_Smooth"
-    },
-    {
-      "x": 0,
-      "y": 2,
-      "z": 2,
-      "name": "Rock_Sandstone_White_Brick_Smooth_Half"
     },
     {
       "x": 0,
@@ -861,30 +669,6 @@
       "x": 0,
       "y": 0,
       "z": 7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": 1,
-      "z": 7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": -1,
-      "z": 8,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 0,
-      "y": 0,
-      "z": 8,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 0,
-      "y": 1,
-      "z": 8,
       "name": "Soil_Sand_White"
     },
     {
@@ -1033,12 +817,6 @@
     },
     {
       "x": 1,
-      "y": 1,
-      "z": -8,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 1,
       "y": -1,
       "z": -7,
       "name": "Rock_Sandstone"
@@ -1046,12 +824,6 @@
     {
       "x": 1,
       "y": 0,
-      "z": -7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 1,
-      "y": 1,
       "z": -7,
       "name": "Soil_Sand_White"
     },
@@ -1155,7 +927,7 @@
       "x": 1,
       "y": 1,
       "z": -2,
-      "name": "Rock_Sandstone_White_Brick_Smooth"
+      "name": "Rock_Sandstone_White_Brick_Smooth_Half"
     },
     {
       "x": 1,
@@ -1239,13 +1011,13 @@
       "x": 1,
       "y": 0,
       "z": 1,
-      "name": "Soil_Sand_White"
+      "name": "Rock_Sandstone_White_Brick_Smooth"
     },
     {
       "x": 1,
       "y": 1,
       "z": 1,
-      "name": "Rock_Sandstone_White_Brick_Smooth"
+      "name": "Rock_Sandstone_White_Brick_Smooth_Half"
     },
     {
       "x": 1,
@@ -1382,12 +1154,6 @@
     },
     {
       "x": 1,
-      "y": 1,
-      "z": 7,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 1,
       "y": -1,
       "z": 8,
       "name": "Rock_Sandstone"
@@ -1395,12 +1161,6 @@
     {
       "x": 1,
       "y": 0,
-      "z": 8,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 1,
-      "y": 1,
       "z": 8,
       "name": "Soil_Sand_White"
     },
@@ -1923,12 +1683,6 @@
     {
       "x": 2,
       "y": 0,
-      "z": 8,
-      "name": "Soil_Sand_White"
-    },
-    {
-      "x": 2,
-      "y": 1,
       "z": 8,
       "name": "Soil_Sand_White"
     },
@@ -120908,7 +120662,7 @@
         },
         "UUID": {
           "UUID": {
-            "$binary": "V5x2vZ7FP8KkCGMAW6fVRg==",
+            "$binary": "qMKSClN/P+6Z21CnGV7tvQ==",
             "$type": "04"
           }
         },
@@ -120979,7 +120733,7 @@
         "NPC": {
           "Version": 5,
           "UUID": {
-            "$binary": "yIebIteTMQy+Jnm3kR4EaQ==",
+            "$binary": "BlcOKXbAMQukr2tbRra12w==",
             "$type": "04"
           },
           "Inventory": {
