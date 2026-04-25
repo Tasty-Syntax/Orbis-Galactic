@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
     "Name": "Broken Force Holocron",
-    "Description": "A damaged holocron with a fractured core, still faintly resonating with the Force."
+    "Description": "server.items.OrbisGalactic_ForceHolocronBroken.description"
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_ForceHolocron_Broken.png",
   "Quality": "Rare",

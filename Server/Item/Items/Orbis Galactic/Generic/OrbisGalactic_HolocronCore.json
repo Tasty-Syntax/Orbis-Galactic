@@ -6,7 +6,7 @@
   ],
   "TranslationProperties": {
     "Name": "Holocron Core",
-    "Description": "A new holocron core used for fixing a broken holocron."
+    "Description": "server.items.OrbisGalactic_HolocronCore.description"
   },
   "UsePlayerAnimations": true,
   "PlayerAnimationsId": "Item",

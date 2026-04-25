@@ -6,7 +6,7 @@
   ],
   "TranslationProperties": {
     "Name": "Memory Crystal",
-    "Description": "A crystal containing secrets about the Force. Used to fix a broken Holocron"
+    "Description": "server.items.OrbisGalactic_MemoryCrystal.description"
   },
   "UsePlayerAnimations": true,
   "PlayerAnimationsId": "Item",
