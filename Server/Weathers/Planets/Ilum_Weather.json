@@ -349,23 +349,23 @@
     },
     {
       "Hour": 12,
-      "Value": 0.3
+      "Value": 0.05
     },
     {
       "Hour": 13,
-      "Value": 0.3
+      "Value": 0.05
     },
     {
       "Hour": 14,
-      "Value": 0.3
+      "Value": 0.05
     },
     {
       "Hour": 15,
-      "Value": 0.4
+      "Value": 0.05
     },
     {
       "Hour": 16,
-      "Value": 0.5
+      "Value": 0.05
     },
     {
       "Hour": 19,
@@ -377,6 +377,10 @@
     },
     {
       "Hour": 18,
+      "Value": 0.4
+    },
+    {
+      "Hour": 17,
       "Value": 0.4
     }
   ],
@@ -464,6 +468,10 @@
     {
       "Hour": 23,
       "Value": 12
+    },
+    {
+      "Hour": 14,
+      "Value": 1
     }
   ],
   "ColorFilters": [
