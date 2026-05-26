@@ -67,8 +67,6 @@
       "Texture": "Items/Armors/Stormtrooper/LongDetailGloves_Stormtrooper_Texture.png"
     }
   ],
-  "GradientSet": "Skin",
-  "GradientId": "04",
   "RandomAttachmentSets": {
     "Helmet": {
       "Stormtrooper_Helmet": {
@@ -88,5 +86,7 @@
         }
       ]
     }
-  }
+  },
+  "GradientId": "04",
+  "GradientSet": "Skin"
 }

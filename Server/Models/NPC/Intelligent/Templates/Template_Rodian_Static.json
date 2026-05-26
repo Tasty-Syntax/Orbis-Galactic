@@ -147,6 +147,15 @@
         "Max": 1,
         "Min": 0
       }
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Flavor/Sit.blockyanim",
+          "Looping": true,
+          "Speed": 0.5
+        }
+      ]
     }
   }
 }

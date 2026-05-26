@@ -13,7 +13,8 @@
         "Quantity": 3
       },
       {
-        "ItemId": "Ingredient_Charcoal"
+        "ItemId": "Soil_Ash",
+        "Quantity": 3
       }
     ],
     "BenchRequirement": [

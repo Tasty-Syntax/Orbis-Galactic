@@ -1272,6 +1272,15 @@
           "Looping": true
         }
       ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Human/Animations/Idle4.blockyanim",
+          "Looping": true,
+          "Speed": 0.5
+        }
+      ]
     }
   },
   "Model": "Characters/Player_With_Face.blockymodel",
