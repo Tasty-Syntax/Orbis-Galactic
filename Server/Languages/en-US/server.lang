@@ -159,6 +159,7 @@ items.OrbisGalactic_Scrap_Metal.description= Some scrap metal. A Jawa might see 
 items.OrbisGalactic_ForceHolocron.description=An ancient holocron that stores knowledge of learned Force abilities. \n\n<b><color is="#7da6e9">Right click</color> <color is="#ffffff">Select force ability</color></b>\n<b><color is="#27df3d">Ability 3 Key <color is="#ffffff">Cast force ability</color></b>
 items.OrbisGalactic_ForceHolocronBroken.description=A damaged holocron with a fractured core, still faintly resonating with the Force.
 items.OrbisGalactic_MemoryCrystal.description=A crystal containing secrets about the Force. Used to fix a broken Holocron
+items.OrbisGalactic_HolocronCore.description=A new holocron core used for fixing a broken holocron.
 
 # --- Force Power Items ---
 items.OrbisGalactic_ForceFocus_Push.name=Force Push
