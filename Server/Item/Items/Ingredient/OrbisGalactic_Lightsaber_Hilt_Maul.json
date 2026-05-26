@@ -29,7 +29,7 @@
         "Quantity": 10
       },
       {
-        "ItemId": "Ingredient_Bar_Silver",
+        "ItemId": "OrbisGalactic_Bar_Durasteel",
         "Quantity": 10
       }
     ]
@@ -42,10 +42,10 @@
   "MaxStack": 1,
   "ItemLevel": 10,
   "Quality": "Common",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Hilt_Maul.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Hilt_Maul.png",
   "PlayerAnimationsId": "Item",
   "Scale": 0.5,
   "Categories": [
-    "OrbisGalactic.Misc"
+    "OrbisGalactic.Ingredients"
   ]
 }

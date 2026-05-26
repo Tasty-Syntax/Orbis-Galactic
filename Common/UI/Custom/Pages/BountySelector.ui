@@ -1,0 +1,26 @@
+$Common = "../Common.ui";
+
+// Main Board Layout
+Group {
+    Anchor: (Full: 0);
+    LayoutMode: CenterMiddle;
+
+    Group #MainPanel {
+        Background: (TexturePath: "Bounty/background.png");
+        Anchor: (Width: 1224, Height: 720);
+        LayoutMode: Top;
+
+        Label {
+            Text: "GALACTIC BOUNTY BOARD";
+            Style: (FontSize: 48, Alignment: Center, FontName: "Secondary");
+            Anchor: (Height: 100);
+        }
+
+        Group #BountyList {
+            FlexWeight: 1;
+            LayoutMode: TopScrolling;
+            ScrollbarStyle: $Common.@DefaultScrollbarStyle;
+            Padding: (Full: 20);
+        }
+    }
+}

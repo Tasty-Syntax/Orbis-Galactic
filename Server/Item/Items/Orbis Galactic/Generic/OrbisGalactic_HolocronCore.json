@@ -1,0 +1,29 @@
+{
+  "Model": "Items/Ingredients/Holocron/HolocronCore.blockymodel",
+  "Texture": "Items/Ingredients/Holocron/HolocronCore_Texture.png",
+  "Categories": [
+    "OrbisGalactic.Ingredients"
+  ],
+  "TranslationProperties": {
+    "Name": "Holocron Core",
+    "Description": "server.items.OrbisGalactic_HolocronCore.description"
+  },
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": "Item",
+  "Scale": 1,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_HolocronCore.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      272,
+      140,
+      29
+    ],
+    "Translation": [
+      2,
+      -1
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "Quality": "Rare"
+}

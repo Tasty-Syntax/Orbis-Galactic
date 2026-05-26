@@ -39,6 +39,17 @@
       "Output": {
         "ItemId": "OrbisGalactic_Galactic_Credit_Silver"
       }
+    },
+    {
+      "Output": {
+        "ItemId": "OrbisGalactic_R2D2_Coloring_Tool"
+      },
+      "Input": [
+        {
+          "ItemId": "OrbisGalactic_Scrap_Metal",
+          "Quantity": 47
+        }
+      ]
     }
   ]
 }

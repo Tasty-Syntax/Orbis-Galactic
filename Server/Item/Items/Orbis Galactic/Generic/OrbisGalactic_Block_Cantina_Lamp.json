@@ -130,5 +130,6 @@
   "Texture": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp_Texture.png",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
   "Model": "Blocks/Tatooine/Mos Eisley/Cantina_Lamp.blockymodel",
-  "Set": "Cantina"
+  "Set": "Cantina",
+  "SubCategory": "Lamp"
 }

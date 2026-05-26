@@ -125,5 +125,6 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Parent": "OrbisGalactic_Block_Imperial_Light_Template",
-  "Set": "Jawa"
+  "Set": "Jawa",
+  "SubCategory": "Lamp"
 }

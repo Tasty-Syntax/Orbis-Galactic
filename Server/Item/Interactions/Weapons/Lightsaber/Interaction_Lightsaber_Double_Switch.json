@@ -1,0 +1,10 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.283,
+  "Effects": {
+    "WorldSoundEventId": "SFX_Lightsaber_Double_Switch",
+    "WaitForAnimationToFinish": true,
+    "LocalSoundEventId": "SFX_Lightsaber_Double_Switch"
+  }
+}

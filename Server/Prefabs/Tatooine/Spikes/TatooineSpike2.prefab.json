@@ -6,412 +6,154 @@
   "anchorZ": 0,
   "blocks": [
     {
-      "x": -10,
-      "y": -7,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -10,
+      "x": -9,
       "y": -8,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -10,
-      "y": -7,
       "z": -4,
       "name": "Rock_Sandstone_Red"
     },
     {
-      "x": -10,
-      "y": -8,
-      "z": -3,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -10,
+      "x": -9,
       "y": -7,
       "z": -3,
       "name": "Rock_Sandstone_Red_Cobble"
     },
     {
-      "x": -10,
+      "x": -9,
       "y": -6,
       "z": -3,
-      "name": "Rock_Sandstone_Red"
+      "name": "Soil_Clay_Smooth_Red"
     },
     {
-      "x": -10,
-      "y": -5,
-      "z": -3,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -10,
-      "y": -7,
+      "x": -9,
+      "y": -8,
       "z": -2,
       "name": "Rock_Sandstone_Red"
     },
     {
       "x": -9,
       "y": -7,
+      "z": -2,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -9,
+      "y": -7,
+      "z": -1,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -8,
+      "y": -11,
+      "z": -5,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -10,
+      "z": -5,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -9,
+      "z": -5,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -8,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -8,
+      "y": -8,
+      "z": -4,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -7,
+      "z": -4,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -8,
+      "y": -6,
+      "z": -4,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -8,
+      "z": -3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -8,
+      "y": -7,
+      "z": -3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -8,
+      "y": -6,
+      "z": -3,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -5,
+      "z": -3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -8,
+      "y": -8,
+      "z": -2,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -7,
+      "z": -2,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -6,
+      "z": -2,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": -8,
+      "y": -5,
+      "z": -2,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -7,
+      "z": -1,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -8,
+      "y": -5,
+      "z": -1,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -7,
+      "y": -9,
       "z": -6,
       "name": "Rock_Sandstone_Red"
     },
     {
-      "x": -9,
-      "y": -8,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -7,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -6,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -9,
-      "y": -5,
-      "z": -5,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -8,
-      "z": -4,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -7,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -6,
-      "z": -4,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -5,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -4,
-      "z": -4,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -8,
-      "z": -3,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -7,
-      "z": -3,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -6,
-      "z": -3,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -9,
-      "y": -5,
-      "z": -3,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -4,
-      "z": -3,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -9,
-      "y": -3,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -8,
-      "z": -2,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -7,
-      "z": -2,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -6,
-      "z": -2,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -9,
-      "y": -5,
-      "z": -2,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -4,
-      "z": -2,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -9,
-      "y": -3,
-      "z": -2,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -7,
-      "z": -1,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -9,
-      "y": -5,
-      "z": -1,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
+      "x": -7,
       "y": -8,
       "z": -6,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -7,
-      "z": -6,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -8,
-      "z": -5,
       "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -7,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -6,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -5,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -4,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -8,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -7,
-      "z": -4,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -6,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -5,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -4,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -3,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -8,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -7,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -6,
-      "z": -3,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -5,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -4,
-      "z": -3,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -3,
-      "z": -3,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -2,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -8,
-      "z": -2,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -7,
-      "z": -2,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -6,
-      "z": -2,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -5,
-      "z": -2,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -4,
-      "z": -2,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -3,
-      "z": -2,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -2,
-      "z": -2,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -7,
-      "z": -1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -6,
-      "z": -1,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -5,
-      "z": -1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -4,
-      "z": -1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -3,
-      "z": -1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -8,
-      "y": -2,
-      "z": -1,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -8,
-      "y": -5,
-      "z": 0,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -4,
-      "z": 0,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -8,
-      "y": -3,
-      "z": 0,
-      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -7,
@@ -421,14 +163,14 @@
     },
     {
       "x": -7,
-      "y": -6,
-      "z": -6,
-      "name": "Soil_Clay_Smooth_Red"
+      "y": -10,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -7,
-      "y": -5,
-      "z": -6,
+      "y": -9,
+      "z": -5,
       "name": "Rock_Sandstone_Red"
     },
     {
@@ -457,18 +199,6 @@
     },
     {
       "x": -7,
-      "y": -4,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -7,
-      "y": -3,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -7,
       "y": -8,
       "z": -4,
       "name": "Rock_Sandstone_Red"
@@ -488,24 +218,6 @@
     {
       "x": -7,
       "y": -5,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -7,
-      "y": -4,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -7,
-      "y": -3,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -7,
-      "y": -2,
       "z": -4,
       "name": "Rock_Sandstone_Red_Cobble"
     },
@@ -541,24 +253,6 @@
     },
     {
       "x": -7,
-      "y": -3,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -7,
-      "y": -2,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -7,
-      "y": -1,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -7,
       "y": -7,
       "z": -2,
       "name": "Rock_Sandstone_Red"
@@ -586,18 +280,6 @@
       "y": -3,
       "z": -2,
       "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -7,
-      "y": -2,
-      "z": -2,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -7,
-      "y": -1,
-      "z": -2,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -7,
@@ -632,18 +314,6 @@
     {
       "x": -7,
       "y": -3,
-      "z": -1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -7,
-      "y": -2,
-      "z": -1,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -7,
-      "y": -1,
       "z": -1,
       "name": "Rock_Sandstone_Red_Cobble"
     },
@@ -672,27 +342,15 @@
       "name": "Rock_Sandstone_Red_Cobble"
     },
     {
-      "x": -7,
-      "y": -2,
-      "z": 0,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -7,
-      "y": -5,
-      "z": 1,
+      "x": -6,
+      "y": -9,
+      "z": -6,
       "name": "Rock_Sandstone_Red_Cobble"
     },
     {
-      "x": -7,
-      "y": -4,
-      "z": 1,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -7,
-      "y": -3,
-      "z": 1,
+      "x": -6,
+      "y": -8,
+      "z": -6,
       "name": "Rock_Sandstone_Red"
     },
     {
@@ -703,15 +361,9 @@
     },
     {
       "x": -6,
-      "y": -5,
-      "z": -6,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": -4,
-      "z": -6,
-      "name": "Soil_Clay_Smooth_Red"
+      "y": -8,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -6,
@@ -730,24 +382,6 @@
       "y": -5,
       "z": -5,
       "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -6,
-      "y": -4,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": -3,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": -2,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
     },
     {
       "x": -6,
@@ -781,24 +415,6 @@
     },
     {
       "x": -6,
-      "y": -3,
-      "z": -4,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": -2,
-      "z": -4,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -6,
-      "y": -1,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -6,
       "y": -7,
       "z": -3,
       "name": "Soil_Clay_Smooth_Red"
@@ -826,24 +442,6 @@
       "y": -3,
       "z": -3,
       "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": -2,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -6,
-      "y": -1,
-      "z": -3,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -6,
-      "y": 0,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -6,
@@ -884,12 +482,6 @@
     {
       "x": -6,
       "y": -1,
-      "z": -2,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -6,
-      "y": 0,
       "z": -2,
       "name": "Rock_Sandstone_Red"
     },
@@ -940,12 +532,6 @@
       "y": -1,
       "z": -1,
       "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": 0,
-      "z": -1,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -6,
@@ -1030,18 +616,6 @@
       "y": -2,
       "z": 1,
       "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -6,
-      "y": -1,
-      "z": 1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": 0,
-      "z": 1,
-      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -6,
@@ -1050,46 +624,16 @@
       "name": "Rock_Sandstone_Red_Cobble"
     },
     {
-      "x": -6,
-      "y": -5,
-      "z": 2,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -6,
-      "y": -4,
-      "z": 2,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -6,
-      "y": -3,
-      "z": 2,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -6,
-      "y": -2,
-      "z": 2,
-      "name": "Soil_Clay_Smooth_Red"
+      "x": -5,
+      "y": -8,
+      "z": -6,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -5,
-      "y": -7,
-      "z": -6,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -5,
-      "y": -5,
-      "z": -6,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -5,
-      "y": -4,
-      "z": -6,
-      "name": "Rock_Sandstone_Red_Cobble"
+      "y": -8,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -5,
@@ -1108,24 +652,6 @@
       "y": -5,
       "z": -5,
       "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -5,
-      "y": -4,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -5,
-      "y": -3,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -5,
-      "y": -2,
-      "z": -5,
-      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -5,
@@ -1156,18 +682,6 @@
       "y": -3,
       "z": -4,
       "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -5,
-      "y": -2,
-      "z": -4,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -5,
-      "y": -1,
-      "z": -4,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -5,
@@ -1210,12 +724,6 @@
       "y": -1,
       "z": -3,
       "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -5,
-      "y": 0,
-      "z": -3,
-      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -5,
@@ -1419,6 +927,18 @@
       "x": -5,
       "y": 4,
       "z": 0,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -5,
+      "y": -10,
+      "z": 1,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -5,
+      "y": -9,
+      "z": 1,
       "name": "Rock_Sandstone_Red"
     },
     {
@@ -1597,45 +1117,27 @@
     },
     {
       "x": -5,
-      "y": -5,
-      "z": 3,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -5,
-      "y": -4,
-      "z": 3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -5,
-      "y": -3,
-      "z": 3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -5,
       "y": -2,
       "z": 3,
       "name": "Soil_Clay_Smooth_Red"
     },
     {
       "x": -4,
-      "y": -5,
-      "z": -6,
+      "y": -9,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -4,
+      "y": -8,
+      "z": -5,
       "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -4,
-      "y": -4,
-      "z": -6,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -4,
-      "y": -3,
-      "z": -6,
-      "name": "Soil_Clay_Smooth_Red"
+      "y": -7,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -4,
@@ -1658,18 +1160,6 @@
     {
       "x": -4,
       "y": -3,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -4,
-      "y": -2,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -4,
-      "y": -1,
       "z": -5,
       "name": "Soil_Clay_Smooth_Red"
     },
@@ -1708,12 +1198,6 @@
       "y": -1,
       "z": -4,
       "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": -4,
-      "y": 0,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Red"
     },
     {
       "x": -4,
@@ -2014,6 +1498,30 @@
       "y": 9,
       "z": 0,
       "name": "Rock_Sandstone"
+    },
+    {
+      "x": -4,
+      "y": -12,
+      "z": 1,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": -4,
+      "y": -11,
+      "z": 1,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": -4,
+      "y": -10,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -4,
+      "y": -9,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -4,
@@ -2134,6 +1642,18 @@
       "y": 11,
       "z": 1,
       "name": "Rock_Sandstone"
+    },
+    {
+      "x": -4,
+      "y": -10,
+      "z": 2,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -4,
+      "y": -9,
+      "z": 2,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -4,
@@ -2353,21 +1873,39 @@
     },
     {
       "x": -3,
+      "y": -7,
+      "z": -6,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -3,
       "y": -5,
       "z": -6,
       "name": "Soil_Clay_Smooth_Red"
     },
     {
       "x": -3,
-      "y": -4,
-      "z": -6,
+      "y": -10,
+      "z": -5,
       "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -3,
-      "y": -3,
-      "z": -6,
-      "name": "Soil_Clay_Smooth_Red"
+      "y": -9,
+      "z": -5,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -3,
+      "y": -8,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -3,
+      "y": -7,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -3,
@@ -2398,12 +1936,6 @@
       "y": -2,
       "z": -5,
       "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": -3,
-      "y": -1,
-      "z": -5,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -3,
@@ -3247,6 +2779,12 @@
     },
     {
       "x": -3,
+      "y": -9,
+      "z": 2,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -3,
       "y": -8,
       "z": 2,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -3409,6 +2947,12 @@
     },
     {
       "x": -3,
+      "y": -9,
+      "z": 3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -3,
       "y": -8,
       "z": 3,
       "name": "Rock_Sandstone_Red"
@@ -3721,9 +3265,15 @@
     },
     {
       "x": -2,
-      "y": -2,
-      "z": -6,
-      "name": "Soil_Clay_Smooth_Red"
+      "y": -9,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -2,
+      "y": -8,
+      "z": -5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": -2,
@@ -3770,12 +3320,6 @@
     {
       "x": -2,
       "y": 0,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": -2,
-      "y": 1,
       "z": -5,
       "name": "Soil_Clay_Smooth_Red"
     },
@@ -4927,6 +4471,12 @@
     },
     {
       "x": -2,
+      "y": -8,
+      "z": 3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -2,
       "y": -7,
       "z": 3,
       "name": "Rock_Sandstone_Red"
@@ -5062,6 +4612,12 @@
       "y": 15,
       "z": 3,
       "name": "Rock_Sandstone"
+    },
+    {
+      "x": -2,
+      "y": -10,
+      "z": 4,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -2,
@@ -5320,12 +4876,6 @@
       "y": 8,
       "z": 6,
       "name": "Rock_Sandstone"
-    },
-    {
-      "x": -1,
-      "y": -7,
-      "z": -7,
-      "name": "Soil_Clay_Smooth_Red"
     },
     {
       "x": -1,
@@ -6559,6 +6109,12 @@
     },
     {
       "x": -1,
+      "y": -9,
+      "z": 3,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -1,
       "y": -8,
       "z": 3,
       "name": "Soil_Clay_Smooth_Red"
@@ -6703,6 +6259,24 @@
     },
     {
       "x": -1,
+      "y": -11,
+      "z": 4,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -1,
+      "y": -10,
+      "z": 4,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -1,
+      "y": -9,
+      "z": 4,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -1,
       "y": -8,
       "z": 4,
       "name": "Soil_Clay_Smooth_Red"
@@ -6838,6 +6412,24 @@
       "y": 14,
       "z": 4,
       "name": "Rock_Sandstone"
+    },
+    {
+      "x": -1,
+      "y": -11,
+      "z": 5,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": -1,
+      "y": -10,
+      "z": 5,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": -1,
+      "y": -9,
+      "z": 5,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": -1,
@@ -7142,12 +6734,6 @@
     {
       "x": 0,
       "y": 3,
-      "z": -5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 0,
-      "y": 4,
       "z": -5,
       "name": "Rock_Sandstone"
     },
@@ -8383,6 +7969,12 @@
     },
     {
       "x": 0,
+      "y": -9,
+      "z": 4,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 0,
       "y": -8,
       "z": 4,
       "name": "Rock_Sandstone_Red"
@@ -8515,9 +8107,9 @@
     },
     {
       "x": 0,
-      "y": 14,
-      "z": 4,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 5,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 0,
@@ -8641,6 +8233,18 @@
     },
     {
       "x": 0,
+      "y": -10,
+      "z": 6,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 0,
+      "y": -9,
+      "z": 6,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": 0,
       "y": -8,
       "z": 6,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -8737,6 +8341,18 @@
     },
     {
       "x": 0,
+      "y": -10,
+      "z": 7,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": 0,
+      "y": -9,
+      "z": 7,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 0,
       "y": -8,
       "z": 7,
       "name": "Rock_Sandstone_Red"
@@ -8779,15 +8395,9 @@
     },
     {
       "x": 0,
-      "y": 6,
-      "z": 7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 0,
-      "y": 7,
-      "z": 7,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 8,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 0,
@@ -8935,18 +8545,6 @@
     },
     {
       "x": 1,
-      "y": 3,
-      "z": -5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
-      "y": 4,
-      "z": -5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
       "y": 5,
       "z": -5,
       "name": "Rock_Sandstone"
@@ -8968,6 +8566,18 @@
       "y": 8,
       "z": -5,
       "name": "Rock_Sandstone"
+    },
+    {
+      "x": 1,
+      "y": -10,
+      "z": -4,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 1,
+      "y": -9,
+      "z": -4,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 1,
@@ -9091,6 +8701,18 @@
     },
     {
       "x": 1,
+      "y": -10,
+      "z": -3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 1,
+      "y": -9,
+      "z": -3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 1,
       "y": -8,
       "z": -3,
       "name": "Soil_Clay_Smooth_Red"
@@ -9223,6 +8845,12 @@
     },
     {
       "x": 1,
+      "y": -8,
+      "z": -2,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 1,
       "y": -7,
       "z": -2,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -9349,12 +8977,6 @@
     },
     {
       "x": 1,
-      "y": 15,
-      "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
       "y": -6,
       "z": -1,
       "name": "Soil_Clay_Smooth_Red"
@@ -9470,12 +9092,6 @@
     {
       "x": 1,
       "y": 15,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
-      "y": 16,
       "z": -1,
       "name": "Rock_Sandstone"
     },
@@ -10225,12 +9841,6 @@
     },
     {
       "x": 1,
-      "y": 14,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
       "y": -8,
       "z": 5,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -10351,6 +9961,12 @@
     },
     {
       "x": 1,
+      "y": -9,
+      "z": 6,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 1,
       "y": -8,
       "z": 6,
       "name": "Rock_Sandstone_Red"
@@ -10483,27 +10099,9 @@
     },
     {
       "x": 1,
-      "y": 5,
-      "z": 7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
-      "y": 6,
-      "z": 7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
-      "y": 7,
-      "z": 7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 1,
-      "y": 8,
-      "z": 7,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 8,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 1,
@@ -10645,12 +10243,6 @@
     },
     {
       "x": 2,
-      "y": -3,
-      "z": -5,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": 2,
       "y": 5,
       "z": -5,
       "name": "Rock_Sandstone"
@@ -10783,6 +10375,18 @@
     },
     {
       "x": 2,
+      "y": -9,
+      "z": -3,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 2,
+      "y": -8,
+      "z": -3,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 2,
       "y": -7,
       "z": -3,
       "name": "Rock_Sandstone_Red"
@@ -10903,6 +10507,24 @@
     },
     {
       "x": 2,
+      "y": -10,
+      "z": -2,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
+      "y": -9,
+      "z": -2,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
+      "y": -8,
+      "z": -2,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 2,
       "y": -7,
       "z": -2,
       "name": "Rock_Sandstone_Red"
@@ -11023,9 +10645,15 @@
     },
     {
       "x": 2,
-      "y": 14,
-      "z": -2,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": -1,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
+      "y": -7,
+      "z": -1,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 2,
@@ -11149,9 +10777,9 @@
     },
     {
       "x": 2,
-      "y": 15,
-      "z": -1,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": 0,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 2,
@@ -11271,161 +10899,149 @@
       "x": 2,
       "y": 15,
       "z": 0,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": -7,
+      "z": 1,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 2,
+      "y": -6,
+      "z": 1,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": 2,
+      "y": -5,
+      "z": 1,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 2,
+      "y": -4,
+      "z": 1,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 1,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 1,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 13,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "z": 1,
+      "name": "Rock_Sandstone"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "z": 1,
       "name": "Rock_Sandstone"
     },
     {
       "x": 2,
       "y": 16,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": -7,
-      "z": 1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": 2,
-      "y": -6,
-      "z": 1,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": 2,
-      "y": -5,
-      "z": 1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": 2,
-      "y": -4,
-      "z": 1,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": 2,
-      "y": -3,
-      "z": 1,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": 2,
-      "y": -2,
-      "z": 1,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": 2,
-      "y": -1,
-      "z": 1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": 2,
-      "y": 0,
-      "z": 1,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": 2,
-      "y": 1,
-      "z": 1,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": 2,
-      "y": 2,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 3,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 4,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 5,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 6,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 7,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 8,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 9,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 10,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 11,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 12,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 13,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 14,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 15,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 16,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 17,
       "z": 1,
       "name": "Rock_Sandstone"
     },
@@ -11569,18 +11185,6 @@
     },
     {
       "x": 2,
-      "y": 16,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 17,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
       "y": -7,
       "z": 3,
       "name": "Soil_Clay_Smooth_Red"
@@ -11708,18 +11312,6 @@
     {
       "x": 2,
       "y": 14,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 15,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
-      "y": 16,
       "z": 3,
       "name": "Rock_Sandstone"
     },
@@ -11857,12 +11449,6 @@
     },
     {
       "x": 2,
-      "y": 14,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 2,
       "y": -8,
       "z": 5,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -11983,6 +11569,18 @@
     },
     {
       "x": 2,
+      "y": -10,
+      "z": 6,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
+      "y": -9,
+      "z": 6,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
       "y": -8,
       "z": 6,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -12091,6 +11689,12 @@
     },
     {
       "x": 2,
+      "y": -9,
+      "z": 7,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 2,
       "y": -8,
       "z": 7,
       "name": "Rock_Sandstone_Red"
@@ -12175,9 +11779,15 @@
     },
     {
       "x": 2,
-      "y": 8,
-      "z": 7,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 8,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 2,
+      "y": -8,
+      "z": 8,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 2,
@@ -12301,12 +11911,6 @@
     },
     {
       "x": 3,
-      "y": 3,
-      "z": -4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
       "y": 4,
       "z": -4,
       "name": "Rock_Sandstone"
@@ -12343,33 +11947,9 @@
     },
     {
       "x": 3,
-      "y": 10,
-      "z": -4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
       "y": -7,
       "z": -3,
       "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": 3,
-      "y": -5,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": 3,
-      "y": -4,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
-    },
-    {
-      "x": 3,
-      "y": -3,
-      "z": -3,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 3,
@@ -12571,12 +12151,6 @@
     },
     {
       "x": 3,
-      "y": 13,
-      "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
       "y": -6,
       "z": -1,
       "name": "Rock_Sandstone_Red"
@@ -12691,15 +12265,9 @@
     },
     {
       "x": 3,
-      "y": 14,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": -1,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": 0,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 3,
@@ -12811,15 +12379,21 @@
     },
     {
       "x": 3,
-      "y": 14,
-      "z": 0,
-      "name": "Rock_Sandstone"
+      "y": -10,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 3,
-      "y": 15,
-      "z": 0,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 3,
+      "y": -8,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 3,
@@ -12950,18 +12524,6 @@
     {
       "x": 3,
       "y": 14,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 16,
       "z": 1,
       "name": "Rock_Sandstone"
     },
@@ -13099,18 +12661,6 @@
     },
     {
       "x": 3,
-      "y": 15,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
       "y": -7,
       "z": 3,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -13237,24 +12787,6 @@
     },
     {
       "x": 3,
-      "y": 14,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
       "y": -7,
       "z": 4,
       "name": "Soil_Clay_Smooth_Red"
@@ -13370,18 +12902,6 @@
     {
       "x": 3,
       "y": 12,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 14,
       "z": 4,
       "name": "Rock_Sandstone"
     },
@@ -13501,9 +13021,9 @@
     },
     {
       "x": 3,
-      "y": 11,
-      "z": 5,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 6,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 3,
@@ -13615,6 +13135,36 @@
     },
     {
       "x": 3,
+      "y": -12,
+      "z": 7,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 3,
+      "y": -11,
+      "z": 7,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 3,
+      "y": -10,
+      "z": 7,
+      "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 3,
+      "y": -9,
+      "z": 7,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 3,
+      "y": -8,
+      "z": 7,
+      "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": 3,
       "y": -7,
       "z": 7,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -13700,12 +13250,6 @@
     {
       "x": 3,
       "y": 7,
-      "z": 7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 3,
-      "y": 8,
       "z": 7,
       "name": "Rock_Sandstone"
     },
@@ -13789,12 +13333,6 @@
     },
     {
       "x": 4,
-      "y": 4,
-      "z": -4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
       "y": 5,
       "z": -4,
       "name": "Rock_Sandstone"
@@ -13808,18 +13346,6 @@
     {
       "x": 4,
       "y": 7,
-      "z": -4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 8,
-      "z": -4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 9,
       "z": -4,
       "name": "Rock_Sandstone"
     },
@@ -13874,12 +13400,6 @@
     {
       "x": 4,
       "y": 10,
-      "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 11,
       "z": -3,
       "name": "Rock_Sandstone"
     },
@@ -13940,12 +13460,6 @@
     {
       "x": 4,
       "y": 11,
-      "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 12,
       "z": -2,
       "name": "Rock_Sandstone"
     },
@@ -14035,15 +13549,15 @@
     },
     {
       "x": 4,
-      "y": 13,
-      "z": -1,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 0,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 4,
-      "y": 14,
-      "z": -1,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": 0,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 4,
@@ -14125,21 +13639,15 @@
     },
     {
       "x": 4,
-      "y": 13,
-      "z": 0,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 1,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 4,
-      "y": 14,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 15,
-      "z": 0,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 4,
@@ -14269,15 +13777,9 @@
     },
     {
       "x": 4,
-      "y": 14,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 15,
-      "z": 1,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": 2,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 4,
@@ -14407,18 +13909,6 @@
     },
     {
       "x": 4,
-      "y": 14,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 15,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
       "y": -7,
       "z": 3,
       "name": "Soil_Clay_Smooth_Red"
@@ -14534,24 +14024,6 @@
     {
       "x": 4,
       "y": 12,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 13,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 14,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 15,
       "z": 3,
       "name": "Rock_Sandstone"
     },
@@ -14672,24 +14144,6 @@
     {
       "x": 4,
       "y": 11,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 12,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 13,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
-      "y": 14,
       "z": 4,
       "name": "Rock_Sandstone"
     },
@@ -14809,9 +14263,9 @@
     },
     {
       "x": 4,
-      "y": 11,
-      "z": 5,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 6,
+      "name": "Soil_Clay_Smooth_Red"
     },
     {
       "x": 4,
@@ -14917,12 +14371,6 @@
     },
     {
       "x": 4,
-      "y": 9,
-      "z": 6,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
       "y": -3,
       "z": 7,
       "name": "Soil_Clay_Smooth_Red"
@@ -14989,12 +14437,6 @@
     },
     {
       "x": 4,
-      "y": 8,
-      "z": 7,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 4,
       "y": -3,
       "z": 8,
       "name": "Rock_Sandstone_Red_Cobble"
@@ -15045,18 +14487,6 @@
       "x": 4,
       "y": 5,
       "z": 8,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 5,
-      "z": -4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 6,
-      "z": -4,
       "name": "Rock_Sandstone"
     },
     {
@@ -15103,18 +14533,6 @@
     },
     {
       "x": 5,
-      "y": 9,
-      "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 10,
-      "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
       "y": 2,
       "z": -2,
       "name": "Rock_Sandstone"
@@ -15164,12 +14582,6 @@
     {
       "x": 5,
       "y": 10,
-      "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 11,
       "z": -2,
       "name": "Rock_Sandstone"
     },
@@ -15230,24 +14642,6 @@
     {
       "x": 5,
       "y": 10,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 11,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 12,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 13,
       "z": -1,
       "name": "Rock_Sandstone"
     },
@@ -15319,27 +14713,33 @@
     },
     {
       "x": 5,
-      "y": 12,
-      "z": 0,
-      "name": "Rock_Sandstone"
+      "y": -10,
+      "z": 1,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 5,
-      "y": 13,
-      "z": 0,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 1,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 5,
-      "y": 14,
-      "z": 0,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 5,
       "y": -7,
       "z": 1,
       "name": "Rock_Sandstone_Red_Cobble"
+    },
+    {
+      "x": 5,
+      "y": -6,
+      "z": 1,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 5,
@@ -15433,15 +14833,15 @@
     },
     {
       "x": 5,
-      "y": 13,
-      "z": 1,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 2,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 5,
-      "y": 14,
-      "z": 1,
-      "name": "Rock_Sandstone"
+      "y": -8,
+      "z": 2,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 5,
@@ -15559,15 +14959,9 @@
     },
     {
       "x": 5,
-      "y": 13,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 14,
-      "z": 2,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 3,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 5,
@@ -15691,21 +15085,9 @@
     },
     {
       "x": 5,
-      "y": 12,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 13,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 14,
-      "z": 3,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 4,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 5,
@@ -15823,21 +15205,15 @@
     },
     {
       "x": 5,
-      "y": 11,
-      "z": 4,
-      "name": "Rock_Sandstone"
+      "y": -10,
+      "z": 5,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 5,
-      "y": 12,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 13,
-      "z": 4,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 5,
@@ -15949,18 +15325,6 @@
     },
     {
       "x": 5,
-      "y": 10,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
-      "y": 11,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
       "y": -3,
       "z": 6,
       "name": "Rock_Sandstone_Red"
@@ -16033,12 +15397,6 @@
     },
     {
       "x": 5,
-      "y": 9,
-      "z": 6,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 5,
       "y": -3,
       "z": 7,
       "name": "Soil_Clay_Smooth_Red"
@@ -16147,12 +15505,6 @@
     },
     {
       "x": 6,
-      "y": 3,
-      "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
       "y": 4,
       "z": -3,
       "name": "Rock_Sandstone"
@@ -16167,24 +15519,6 @@
       "x": 6,
       "y": 6,
       "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 7,
-      "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 8,
-      "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 2,
-      "z": -2,
       "name": "Rock_Sandstone"
     },
     {
@@ -16221,24 +15555,6 @@
       "x": 6,
       "y": 8,
       "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 9,
-      "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 1,
-      "z": -1,
       "name": "Rock_Sandstone"
     },
     {
@@ -16286,18 +15602,6 @@
     {
       "x": 6,
       "y": 9,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 11,
       "z": -1,
       "name": "Rock_Sandstone"
     },
@@ -16358,18 +15662,6 @@
     {
       "x": 6,
       "y": 10,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 11,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 12,
       "z": 0,
       "name": "Rock_Sandstone"
     },
@@ -16441,21 +15733,9 @@
     },
     {
       "x": 6,
-      "y": 11,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 12,
-      "z": 1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 13,
-      "z": 1,
-      "name": "Rock_Sandstone"
+      "y": -10,
+      "z": 2,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 6,
@@ -16468,6 +15748,12 @@
       "y": -6,
       "z": 2,
       "name": "Soil_Clay_Smooth_Red"
+    },
+    {
+      "x": 6,
+      "y": -5,
+      "z": 2,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 6,
@@ -16549,21 +15835,15 @@
     },
     {
       "x": 6,
-      "y": 11,
-      "z": 2,
-      "name": "Rock_Sandstone"
+      "y": -10,
+      "z": 3,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 6,
-      "y": 12,
-      "z": 2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 13,
-      "z": 2,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 3,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 6,
@@ -16681,21 +15961,15 @@
     },
     {
       "x": 6,
-      "y": 11,
-      "z": 3,
-      "name": "Rock_Sandstone"
+      "y": -10,
+      "z": 4,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 6,
-      "y": 12,
-      "z": 3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 13,
-      "z": 3,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 4,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 6,
@@ -16807,21 +16081,15 @@
     },
     {
       "x": 6,
-      "y": 10,
-      "z": 4,
-      "name": "Rock_Sandstone"
+      "y": -10,
+      "z": 5,
+      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 6,
-      "y": 11,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 12,
-      "z": 4,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 5,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 6,
@@ -16927,24 +16195,6 @@
     },
     {
       "x": 6,
-      "y": 9,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 11,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
       "y": -8,
       "z": 6,
       "name": "Rock_Sandstone_Red"
@@ -17012,18 +16262,6 @@
     {
       "x": 6,
       "y": 7,
-      "z": 6,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 8,
-      "z": 6,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 6,
-      "y": 9,
       "z": 6,
       "name": "Rock_Sandstone"
     },
@@ -17125,18 +16363,6 @@
     },
     {
       "x": 7,
-      "y": 7,
-      "z": -3,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": 2,
-      "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
       "y": 3,
       "z": -2,
       "name": "Rock_Sandstone"
@@ -17169,12 +16395,6 @@
       "x": 7,
       "y": 8,
       "z": -2,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": 1,
-      "z": -1,
       "name": "Rock_Sandstone"
     },
     {
@@ -17218,12 +16438,6 @@
       "y": 8,
       "z": -1,
       "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": 0,
-      "z": 0,
-      "name": "Soil_Clay"
     },
     {
       "x": 7,
@@ -17272,18 +16486,6 @@
       "y": 8,
       "z": 0,
       "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": 9,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": -3,
-      "z": 1,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 7,
@@ -17452,6 +16654,18 @@
       "y": 9,
       "z": 2,
       "name": "Rock_Sandstone"
+    },
+    {
+      "x": 7,
+      "y": -10,
+      "z": 3,
+      "name": "Rock_Sandstone_Red"
+    },
+    {
+      "x": 7,
+      "y": -9,
+      "z": 3,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 7,
@@ -17557,9 +16771,9 @@
     },
     {
       "x": 7,
-      "y": 9,
-      "z": 3,
-      "name": "Rock_Sandstone"
+      "y": -9,
+      "z": 4,
+      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 7,
@@ -17665,12 +16879,6 @@
     },
     {
       "x": 7,
-      "y": 9,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
       "y": -7,
       "z": 5,
       "name": "Soil_Clay_Smooth_Red"
@@ -17761,18 +16969,6 @@
     },
     {
       "x": 7,
-      "y": 8,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": 9,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
       "y": -3,
       "z": 6,
       "name": "Rock_Sandstone_Red"
@@ -17828,18 +17024,6 @@
     {
       "x": 7,
       "y": 6,
-      "z": 6,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": 7,
-      "z": 6,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 7,
-      "y": 8,
       "z": 6,
       "name": "Rock_Sandstone"
     },
@@ -17941,18 +17125,6 @@
     },
     {
       "x": 8,
-      "y": 1,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 8,
-      "y": 2,
-      "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 8,
       "y": 3,
       "z": -1,
       "name": "Rock_Sandstone"
@@ -17973,18 +17145,6 @@
       "x": 8,
       "y": 6,
       "z": -1,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 8,
-      "y": 0,
-      "z": 0,
-      "name": "Soil_Clay"
-    },
-    {
-      "x": 8,
-      "y": 1,
-      "z": 0,
       "name": "Rock_Sandstone"
     },
     {
@@ -18022,18 +17182,6 @@
       "y": 7,
       "z": 0,
       "name": "Rock_Sandstone"
-    },
-    {
-      "x": 8,
-      "y": -3,
-      "z": 1,
-      "name": "Rock_Sandstone_Red_Cobble"
-    },
-    {
-      "x": 8,
-      "y": -2,
-      "z": 1,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 8,
@@ -18367,12 +17515,6 @@
     },
     {
       "x": 8,
-      "y": 7,
-      "z": 4,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 8,
       "y": -6,
       "z": 5,
       "name": "Soil_Clay_Smooth_Red"
@@ -18446,12 +17588,6 @@
     {
       "x": 8,
       "y": 6,
-      "z": 5,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 8,
-      "y": 7,
       "z": 5,
       "name": "Rock_Sandstone"
     },
@@ -18589,24 +17725,6 @@
     },
     {
       "x": 9,
-      "y": 0,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 9,
-      "y": 1,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 9,
-      "y": 2,
-      "z": 0,
-      "name": "Rock_Sandstone"
-    },
-    {
-      "x": 9,
       "y": 3,
       "z": 0,
       "name": "Rock_Sandstone"
@@ -18628,24 +17746,6 @@
       "y": 6,
       "z": 0,
       "name": "Rock_Sandstone"
-    },
-    {
-      "x": 9,
-      "y": -3,
-      "z": 1,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": 9,
-      "y": -2,
-      "z": 1,
-      "name": "Soil_Clay_Smooth_Red"
-    },
-    {
-      "x": 9,
-      "y": -1,
-      "z": 1,
-      "name": "Rock_Sandstone_Red"
     },
     {
       "x": 9,
@@ -19096,12 +18196,6 @@
       "y": 3,
       "z": 7,
       "name": "Rock_Sandstone"
-    },
-    {
-      "x": 10,
-      "y": 0,
-      "z": 1,
-      "name": "Rock_Sandstone_Red_Cobble"
     },
     {
       "x": 10,

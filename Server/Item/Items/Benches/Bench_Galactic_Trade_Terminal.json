@@ -1,0 +1,84 @@
+{
+  "TranslationProperties": {
+    "Name": "Galactic Trade Terminal",
+    "Description": ""
+  },
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Galactic Trade Terminal/Galactic_Trade_Terminal.blockymodel",
+    "VariantRotation": "NESW",
+    "HitboxType": "GalacticTradeTerminalHitbox",
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Weapon_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Weapon_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Galactic Trade Terminal/Galactic_Trade_Terminal.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelAnimation": "Blocks/Animations/GalacticTradeTerminalIdle.blockyanim",
+    "Looping": true,
+    "CustomModelScale": 1.5,
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OrbisGalactic_GalacticTrade_Interaction"
+          }
+        ]
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      21,
+      32,
+      19
+    ],
+    "Translation": [
+      1,
+      -22
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 2,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Scale": 0.5,
+  "Icon": "Icons/ItemsGenerated/Bench_Galactic_Trade_Terminal.png",
+  "SubCategory": "Benches"
+}

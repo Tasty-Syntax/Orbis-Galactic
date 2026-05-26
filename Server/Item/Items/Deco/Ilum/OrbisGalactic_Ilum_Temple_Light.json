@@ -1,0 +1,130 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Temple_Light_Brazier.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "OrbisGalactic.Decorative Blocks"
+  ],
+  "Set": "Furniture_Temple_Light",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Rock_Marble",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Plant_Petals_Azure",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Lighting"
+        ]
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Ilum_Temple_Light.png",
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Decorative_Sets/Temple_Light/Brazier.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Ilum/Ilum_Temple_Light.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Light": {
+      "Color": "#dee"
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Particles": [
+      {
+        "SystemId": "Fire_Blue",
+        "TargetNodeName": "Flame",
+        "PositionOffset": {
+          "Y": 0.1
+        },
+        "Scale": 0.85
+      }
+    ],
+    "BlockSoundSetId": "Brazier",
+    "Looping": true,
+    "AmbientSoundEventId": "SFX_Campfire_Default_Loop",
+    "InteractionSoundEventId": "SFX_Flame_Ignite",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "Off": "default"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "AmbientSoundEventId": "SFX_Campfire_Default_Loop",
+          "InteractionSoundEventId": "SFX_Flame_Ignite"
+        },
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "InteractionSoundEventId": "SFX_Torch_Off",
+          "AmbientSoundEventId": null,
+          "BlockSoundSetId": "Stone"
+        }
+      }
+    },
+    "InteractionHint": "server.interactionHints.turnoff"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Temple"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

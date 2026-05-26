@@ -18,6 +18,13 @@
           "Type": "OrbisGalactic_Lightsaber_Interaction"
         }
       ]
+    },
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+        }
+      ]
     }
   },
   "InteractionVars": {
@@ -189,7 +196,7 @@
   },
   "Texture": "Items/Weapons/Darksaber/Darksaber.png",
   "Quality": "Legendary",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Darksaber.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Darksaber.png",
   "Scale": 0.5,
   "TranslationProperties": {
     "Name": "server.items.OrbisGalactic_Weapon_Lightsaber_Darksaber.name",
@@ -274,6 +281,28 @@
               "Effects": {
                 "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
               }
+            }
+          ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Darksaber_Throw",
+                "LocalSoundEventId": "SFX_Darksaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "Model": "Items/Weapons/Darksaber/Darksaber.blockymodel",
+              "Texture": "Items/Weapons/Darksaber/Darksaber.png",
+              "Light": {
+                "Color": "#777"
+              },
+              "ImpactDamage": 20,
+              "ReturnImpactDamage": 40,
+              "ProjectileConfigId": "Projectile_Config_Darksaber_Throw"
             }
           ]
         }

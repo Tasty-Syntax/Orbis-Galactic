@@ -1,0 +1,32 @@
+{
+  "Type": "Simple",
+  "$Comment": "Length of Effect",
+  "RunTime": 0.35,
+  "Effects": {
+    "ItemPlayerAnimationsId": {
+      "Animations": {
+        "Shoot": {
+          "FirstPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/RA-4C_Shoot.blockyanim",
+          "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Blasters/RA4C/RA-4C_Shoot.blockyanim",
+          "Speed": 1,
+          "BlendingDuration": 0.05
+        }
+      },
+      "WiggleWeights": {
+        "Pitch": 2.25,
+        "PitchDeceleration": 0.15,
+        "Roll": 0.1,
+        "RollDeceleration": 0.15,
+        "X": 2.25,
+        "XDeceleration": 0.15,
+        "Y": 0.1,
+        "YDeceleration": 0.15,
+        "Z": 0.1,
+        "ZDeceleration": 0.15
+      }
+    },
+    "ItemAnimationId": "Shoot",
+    "WorldSoundEventId": "SFX_Blaster_Shoot_Blue",
+    "LocalSoundEventId": "SFX_Blaster_Shoot_Blue"
+  }
+}

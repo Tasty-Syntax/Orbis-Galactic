@@ -22,7 +22,7 @@
     "TimeSeconds": 0
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "BlockType": {
     "DrawType": "Model",
@@ -76,5 +76,6 @@
       "Roof"
     ]
   },
-  "ItemSoundSetId": "ISS_Items_Cloth"
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "SubCategory": "Cloth"
 }

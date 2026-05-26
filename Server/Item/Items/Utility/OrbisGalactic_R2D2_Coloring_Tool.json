@@ -1,0 +1,41 @@
+{
+  "Model": "Items/Tools/Brush/Brush.blockymodel",
+  "Texture": "Items/Tools/Brush/Brush_Texture.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_R2D2_Coloring_Tool.png",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      0,
+      203,
+      47
+    ],
+    "Translation": [
+      -18,
+      -16
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "R2D2 coloring tool",
+    "Description": "Changes the color of your R2D2 when you right click a R2D2!"
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 1,
+  "ItemLevel": 10,
+  "Quality": "Common",
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Interaction_R2_Color_Cycle"
+      ]
+    },
+    "Primary": {
+      "Interactions": [
+        "Interaction_R2_Follow_Toggle"
+      ]
+    }
+  }
+}

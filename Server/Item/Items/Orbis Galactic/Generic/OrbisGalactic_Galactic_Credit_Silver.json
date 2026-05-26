@@ -2,7 +2,7 @@
   "Model": "Items/Ingredients/Credits/Credit.blockymodel",
   "Texture": "Items/Ingredients/Credits/Credit_Texture_Silver.png",
   "Categories": [
-    "Items.Ingredients"
+    "OrbisGalactic.Misc"
   ],
   "TranslationProperties": {
     "Name": "server.items.OrbisGalactic_Galactic_Credit_Silver.name",

@@ -5,7 +5,7 @@
     "Appearance": "Jawa_Model",
     "DropList": "Drop_Jawa",
     "Weapons": [
-      "OrbisGalactic_Weapon_Lightsaber_Maul_Single_Red",
+      "*OrbisGalactic_Weapon_Lightsaber_Maul_Single_Red_State_On",
       "Rubble_Stone"
     ],
     "MaxHealth": 250,
@@ -16,7 +16,7 @@
             "Parent": "NPC_Attack_Melee_Damage",
             "DamageCalculator": {
               "BaseDamage": {
-                "Physical": 60
+                "Physical": 40
               }
             }
           }

@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Purple.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Purple.png",
   "Light": {
     "Color": "#71a"
   },
@@ -51,5 +51,46 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Separate_Template",
   "Scale": 0.5,
-  "Variant": true
+  "Variant": true,
+  "State": {
+    "On_Seperate": "*OrbisGalactic_Weapon_Lightsaber_Maul_Double_Purple_State_On",
+    "On": {
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
+      "Interactions": {
+        "Primary": "Root_Weapon_Daggers_Lightsaber_Primary_Blue",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Separate",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue"
+      },
+      "Quality": "Epic",
+      "Light": {
+        "Color": "#166"
+      },
+      "InteractionVars": {
+        "Lightsaber_Sound": {
+          "Interactions": [
+            {
+              "Type": "Simple",
+              "Effects": {
+                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Red_Local"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Purple"
+  },
+  "InteractionVars": {
+    "Lightsaber_Sound": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Equip_Red_Local"
+          }
+        }
+      ]
+    }
+  }
 }

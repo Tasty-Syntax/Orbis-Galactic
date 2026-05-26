@@ -783,7 +783,8 @@
 						"Type":	"Constant",
 						"Material":	{
 							"$NodeId":	"Material-0c380a1f-cb17-466e-9bde-e932bcc641ef",
-							"Solid":	"Rock_Bedrock"
+							"Solid":	"Rock_Bedrock",
+							"SolidBottomUp":	false
 						}
 					}
 				}, {
@@ -894,7 +895,8 @@
 																	"Type":	"Constant",
 																	"Material":	{
 																		"$NodeId":	"Material-c658c786-d117-4ae0-b434-e87c30c8f841",
-																		"Solid":	"Soil_Sand_White"
+																		"Solid":	"Soil_Sand_White",
+																		"SolidBottomUp":	false
 																	}
 																}
 															}, {
@@ -906,7 +908,8 @@
 																	"Type":	"Constant",
 																	"Material":	{
 																		"$NodeId":	"Material-649d4ddc-037d-4aac-b459-0ad12ea96d19",
-																		"Solid":	"Soil_Gravel_Sand"
+																		"Solid":	"Soil_Gravel_Sand",
+																		"SolidBottomUp":	false
 																	}
 																}
 															}, {
@@ -918,7 +921,8 @@
 																	"Type":	"Constant",
 																	"Material":	{
 																		"$NodeId":	"Material-1b724857-d9b8-4163-8dc7-a0a860c7c3fa",
-																		"Solid":	"Soil_Clay_Orange"
+																		"Solid":	"Soil_Clay_Orange",
+																		"SolidBottomUp":	false
 																	}
 																}
 															}]
@@ -953,7 +957,8 @@
 									"Type":	"Constant",
 									"Material":	{
 										"$NodeId":	"Material-415b5297-9e3b-4132-9f6c-fde745d85fc4",
-										"Solid":	"Soil_Clay_Yellow"
+										"Solid":	"Soil_Clay_Yellow",
+										"SolidBottomUp":	false
 									}
 								}
 							}]
@@ -963,7 +968,8 @@
 					"Type":	"Constant",
 					"Material":	{
 						"$NodeId":	"Material-f2ef8594-add4-405c-b029-79931523cd51",
-						"Solid":	"Rock_Sandstone"
+						"Solid":	"Rock_Sandstone",
+						"SolidBottomUp":	false
 					}
 				}]
 		},
@@ -976,7 +982,8 @@
 					"Type":	"Constant",
 					"Material":	{
 						"$NodeId":	"Material-b1cd2d8b-7455-4a10-874c-12c55f11e984",
-						"Solid":	"Empty"
+						"Solid":	"Empty",
+						"SolidBottomUp":	false
 					}
 				}]
 		}

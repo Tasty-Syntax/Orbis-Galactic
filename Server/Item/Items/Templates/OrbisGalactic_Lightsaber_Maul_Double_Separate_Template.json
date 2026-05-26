@@ -3,7 +3,7 @@
     "Name": "server.items.Template_Weapon_Daggers.name"
   },
   "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Separate_Template.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Template.png",
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Right_Floating.blockyanim",
   "PlayerAnimationsId": "Daggers_Custom",
   "Reticle": "DefaultMelee",
@@ -29,12 +29,52 @@
     "Compatible": false
   },
   "Interactions": {
-    "Primary": "Root_Weapon_Daggers_Lightsaber_Primary",
     "Secondary": "Root_Weapon_Daggers_Secondary_Guard",
     "Ability1": "Root_Weapon_Daggers_Signature_Razorstrike",
-    "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Separate",
-    "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-    "Held": "ROOT_Interaction_Lightsaber_Idle_Default"
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+        }
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "Next": {
+            "0": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "Replace",
+                  "Var": "Lightsaber_Sound",
+                  "DefaultValue": {
+                    "Interactions": [
+                      "Interaction_Lightsaber_Equip_Blue"
+                    ]
+                  },
+                  "DefaultOk": true
+                },
+                {
+                  "Type": "OrbisGalactic_Lightsaber_Interaction"
+                }
+              ]
+            },
+            "0.5": {
+              "Type": "Serial",
+              "Interactions": [
+                "Interaction_Lightsaber_Double_Switch",
+                {
+                  "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                  "Effects": {}
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
   },
   "Tags": {
     "Type": [
@@ -42,7 +82,9 @@
     ],
     "Family": [
       "Dagger"
-    ]
+    ],
+    "DoubleLightsaberItem": [],
+    "LightsaberItem": []
   },
   "Weapon": {
     "EntityStatsToClear": [
@@ -156,7 +198,7 @@
       }
     ]
   },
-  "MaxDurability": 80,
+  "MaxDurability": 150,
   "DurabilityLossOnHit": 0.1,
   "InteractionVars": {
     "Swing_Left_Damage": {
@@ -318,5 +360,5 @@
     },
     "Pounce_Stab_Effect": {}
   },
-  "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim"
+  "Animation": "Items/Animations/Lightsaber/Lightsaber_Off.blockyanim"
 }

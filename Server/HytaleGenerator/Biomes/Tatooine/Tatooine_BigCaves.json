@@ -549,7 +549,8 @@
 																	"Type":	"Constant",
 																	"Material":	{
 																		"$NodeId":	"Material-3ddf4498-d99f-4dfb-bd04-a909703dff0a",
-																		"Solid":	"Soil_Sand"
+																		"Solid":	"Soil_Sand",
+																		"SolidBottomUp":	false
 																	}
 																}
 															}]
@@ -558,7 +559,8 @@
 														"Type":	"Constant",
 														"Material":	{
 															"$NodeId":	"Material-38d38e30-6e89-4f9d-9684-dd022470c80a",
-															"Solid":	"Soil_Sand_White"
+															"Solid":	"Soil_Sand_White",
+															"SolidBottomUp":	false
 														}
 													}]
 											}
@@ -591,7 +593,8 @@
 									"Type":	"Constant",
 									"Material":	{
 										"$NodeId":	"Material-e6de3ea7-8fdb-493b-9024-09874051bd64",
-										"Solid":	"Rock_Sandstone_Cobble"
+										"Solid":	"Rock_Sandstone_Cobble",
+										"SolidBottomUp":	false
 									}
 								}
 							}]
@@ -704,7 +707,8 @@
 																	"Type":	"Constant",
 																	"Material":	{
 																		"$NodeId":	"Material-67c15255-c8f9-4ea2-9c04-6f47c65b6dcf",
-																		"Solid":	"Soil_Sand_White"
+																		"Solid":	"Soil_Sand_White",
+																		"SolidBottomUp":	false
 																	}
 																}
 															}, {
@@ -716,7 +720,8 @@
 																	"Type":	"Constant",
 																	"Material":	{
 																		"$NodeId":	"Material-a18e27a8-7925-4914-857b-9372dd7ba710",
-																		"Solid":	"Rock_Sandstone_Cobble"
+																		"Solid":	"Rock_Sandstone_Cobble",
+																		"SolidBottomUp":	false
 																	}
 																}
 															}, {
@@ -728,7 +733,8 @@
 																	"Type":	"Constant",
 																	"Material":	{
 																		"$NodeId":	"Material-9b03e7b0-ff5e-4ac9-a40a-d6187df46e35",
-																		"Solid":	"Soil_Sand_Red"
+																		"Solid":	"Soil_Sand_Red",
+																		"SolidBottomUp":	false
 																	}
 																}
 															}]
@@ -743,7 +749,8 @@
 					"Type":	"Constant",
 					"Material":	{
 						"$NodeId":	"Material-9c5bb0b2-bc89-42af-b928-69ad605662a2",
-						"Solid":	"Rock_Sandstone"
+						"Solid":	"Rock_Sandstone",
+						"SolidBottomUp":	false
 					}
 				}, {
 					"$NodeId":	"SimpleHorizontalMaterialProvider-5845e21a-21b6-40f3-95b3-2dcd0f40ec85",
@@ -770,7 +777,8 @@
 									"Type":	"Constant",
 									"Material":	{
 										"$NodeId":	"Material-433be7be-2a9c-4688-8d6e-e3b10f15500d",
-										"Solid":	"Soil_Clay_Yellow"
+										"Solid":	"Soil_Clay_Yellow",
+										"SolidBottomUp":	false
 									}
 								}
 							}]
@@ -786,7 +794,8 @@
 					"Type":	"Constant",
 					"Material":	{
 						"$NodeId":	"Material-43d8316e-5c97-4107-a33f-a50aa1db5032",
-						"Solid":	"Empty"
+						"Solid":	"Empty",
+						"SolidBottomUp":	false
 					}
 				}]
 		}
@@ -921,13 +930,16 @@
 											"Inclusive":	true,
 											"Materials":	[{
 													"$NodeId":	"Material-140ab570-80c0-4f72-b9ab-7238b37d1d04",
-													"Solid":	"Rubble_Sandstone"
+													"Solid":	"Rubble_Sandstone",
+													"SolidBottomUp":	false
 												}, {
 													"$NodeId":	"Material-4bebd390-22de-4c4b-b527-5e3add4cc403",
-													"Solid":	"Empty"
+													"Solid":	"Empty",
+													"SolidBottomUp":	false
 												}, {
 													"$NodeId":	"Material-dee8ae55-d2a2-4c3d-ac1e-2a9af4ab2d58",
-													"Solid":	"Soil_Sand_White"
+													"Solid":	"Soil_Sand_White",
+													"SolidBottomUp":	false
 												}]
 										}
 									},
@@ -940,13 +952,16 @@
 											"Inclusive":	true,
 											"Materials":	[{
 													"$NodeId":	"Material-6aeec826-31f4-473d-a6bb-5ea57bc8d176",
-													"Solid":	"Rock_Sandstone"
+													"Solid":	"Rock_Sandstone",
+													"SolidBottomUp":	false
 												}, {
 													"$NodeId":	"Material-cae77fbb-1ba0-4fb9-9d69-0386aaeab939",
-													"Solid":	"Soil_Sand_White"
+													"Solid":	"Soil_Sand_White",
+													"SolidBottomUp":	false
 												}, {
 													"$NodeId":	"Material-416757b0-8d03-4b6b-a51b-f1cc200df569",
-													"Solid":	"Rock_Sandstone_Cobble"
+													"Solid":	"Rock_Sandstone_Cobble",
+													"SolidBottomUp":	false
 												}]
 										}
 									}
@@ -971,7 +986,8 @@
 									"Inclusive":	false,
 									"Materials":	[{
 											"$NodeId":	"Material-7d3f71b3-a963-4fea-9d23-52bfcbc264b7",
-											"Solid":	"Empty"
+											"Solid":	"Empty",
+											"SolidBottomUp":	false
 										}]
 								},
 								"Advanced":	[]

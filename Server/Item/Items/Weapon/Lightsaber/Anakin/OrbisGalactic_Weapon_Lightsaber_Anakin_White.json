@@ -25,7 +25,7 @@
         "Quantity": 5
       },
       {
-        "ItemId": "OrbisGalactic_Kyber_Crystal_Multicolor",
+        "ItemId": "OrbisGalactic_Kyber_Crystal_White",
         "Quantity": 1
       },
       {
@@ -34,7 +34,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_White.png",
   "IconProperties": {
     "Scale": 0.3,
     "Rotation": [
@@ -81,6 +81,27 @@
             }
           ]
         },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Anakin.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Anakin_Lightsaber_White.png",
+              "Light": {
+                "Color": "#666"
+              }
+            }
+          ]
+        },
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
         "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
         "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
@@ -89,8 +110,8 @@
       "Set": "",
       "Quality": "Epic",
       "Variant": true,
-      "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_White.png",
-      "Animation": "Items/Animations/Lightsaber/Saber_Animate.blockyanim"
+      "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Anakin_White.png",
+      "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim"
     }
   }
 }

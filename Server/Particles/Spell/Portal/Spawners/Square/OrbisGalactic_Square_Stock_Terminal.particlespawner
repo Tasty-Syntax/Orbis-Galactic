@@ -1,0 +1,89 @@
+{
+  "RenderMode": "BlendLinear",
+  "ParticleRotationInfluence": "None",
+  "LinearFiltering": false,
+  "LightInfluence": 0,
+  "ParticleRotateWithSpawner": true,
+  "TrailSpawnerPositionMultiplier": 1,
+  "TrailSpawnerRotationMultiplier": 1,
+  "MaxConcurrentParticles": 5,
+  "ParticleLifeSpan": {
+    "Min": 2,
+    "Max": 3
+  },
+  "SpawnRate": {
+    "Min": 1,
+    "Max": 1
+  },
+  "InitialVelocity": {
+    "Yaw": {
+      "Min": -15,
+      "Max": 15
+    },
+    "Pitch": {
+      "Min": 80,
+      "Max": 100
+    }
+  },
+  "$Comment": "background for the square portal",
+  "Particle": {
+    "Texture": "Particles/Textures/Circles/Portal_Round_Distortion.png",
+    "FrameSize": {
+      "Width": 128,
+      "Height": 128
+    },
+    "ScaleRatioConstraint": "None",
+    "UVOption": "None",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Opacity": 1,
+        "Color": "#0a3967",
+        "Scale": {
+          "X": {
+            "Min": 0.7,
+            "Max": 0.7
+          },
+          "Y": {
+            "Min": 0.28,
+            "Max": 0.28
+          }
+        }
+      },
+      "100": {
+        "Opacity": 1,
+        "Color": "#092351"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.6,
+          "Max": 0.6
+        },
+        "Y": {
+          "Min": 0.6,
+          "Max": 0.6
+        }
+      },
+      "Opacity": 1,
+      "Color": "#d9fdff",
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      }
+    }
+  },
+  "SpawnBurst": false,
+  "UVMotion": {
+    "Texture": "Particles/Textures/UVMotion/FlowMap4.png",
+    "Strength": 2.2,
+    "SpeedY": 0.16,
+    "Scale": 0.64,
+    "SpeedX": 0.16,
+    "AddRandomUVOffset": false
+  }
+}

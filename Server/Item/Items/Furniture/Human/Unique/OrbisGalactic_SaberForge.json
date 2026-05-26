@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "Saber Forge",
+    "Description": "Used to assemble and refine lightsabers."
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "OrbisGalactic.Misc"
+  ],
+  "Set": "Furniture_Human_Ruins",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      23.625,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -13,
+      -15
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Laser Weapon Bench/Lightsaber_Forge.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Laser Weapon Bench/Lightsaber_Forge.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "BB_SaberForge",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Wood",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OrbisGalactic_OpenSaberWorkbench"
+          }
+        ]
+      }
+    }
+  },
+  "Model": "Blocks/Laser Weapon Bench/Lightsaber_Forge.blockymodel",
+  "Texture": "Blocks/Decorative_Sets/Tavern/Table_Texture.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_SaberWorkbench.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "KyberCrystal"
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 10
+      },
+      {
+        "Quantity": 15,
+        "ItemId": "OrbisGalactic_Bar_Durasteel"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "SubCategory": "Benches"
+}

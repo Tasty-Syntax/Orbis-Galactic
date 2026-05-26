@@ -1,0 +1,47 @@
+{
+  "Model": "Items/Weapons/Blaster_RA4C/RA-4C.blockymodel",
+  "Texture": "Items/Weapons/Blaster_RA4C/RA-4C_Texture.png",
+  "Parent": "OrbisGalactic_Blaster_Template",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Blaster_RA4C.png",
+  "IconProperties": {
+    "Scale": 0.15,
+    "Rotation": [
+      14,
+      264,
+      13
+    ],
+    "Translation": [
+      -49,
+      -55
+    ]
+  },
+  "InteractionVars": {
+    "Interaction_Blaster_Launch_Bolt": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_ShootBlaster",
+          "ProjectileConfigId": "Projectile_Config_Blaster_Bolt_RA4C",
+          "ImpactDamage": 7,
+          "RunTime": 0,
+          "BulletSpread": 0.01
+        }
+      ]
+    },
+    "Interaction_Blaster_Shoot_SFX": {
+      "Interactions": [
+        "Interaction_Blaster_Shoot_SFX_RA4C"
+      ]
+    }
+  },
+  "TranslationProperties": {
+    "Name": "server.items.OrbisGalactic_Weapon_RA4C.name",
+    "Description": "server.items.OrbisGalactic_Weapon_RA4C.description"
+  },
+  "Quality": "Rare",
+  "Categories": [
+    "OrbisGalactic.Blasters"
+  ],
+  "Scale": 0.3,
+  "PlayerAnimationsId": "BlasterRA4C",
+  "ClipsGeometry": false
+}

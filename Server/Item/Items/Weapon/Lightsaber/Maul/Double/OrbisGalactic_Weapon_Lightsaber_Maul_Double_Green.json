@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Green.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Green.png",
   "IconProperties": {
     "Scale": 0.1,
     "Rotation": [
@@ -73,17 +73,17 @@
   "State": {
     "On": {
       "Variant": true,
+      "Quality": "Epic",
       "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
       "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Green.png",
       "Light": {
-        "Color": "#060"
+        "Color": "#3b2"
       },
-      "Quality": "Epic",
       "Trails": [
         {
           "TargetEntityPart": "PrimaryItem",
           "TargetNodeName": "Blade",
-          "TrailId": "Lightsaber_Trail_Green",
+          "TrailId": "Lightsaber_Trail_Blue",
           "PositionOffset": {
             "Y": 0,
             "Z": 0.0
@@ -95,35 +95,81 @@
       ],
       "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
-        "Primary": "ROOT_Interaction_Lightsaber_Attack_Green",
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Green_Double",
-        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Green",
-        "Held": "ROOT_Interaction_Lightsaber_Idle_Green",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
         "Ability2": {
           "Interactions": [
             {
-              "Type": "RunRootInteraction",
-              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-              "Effects": {
-                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Green_Local"
+              "Type": "Charging",
+              "Next": {
+                "0": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "RunRootInteraction",
+                      "RootInteraction": "ROOT_Interaction_Lightsaber_Retract_Blue_Double",
+                      "RunTime": 0,
+                      "Effects": {
+                        "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Green_Local"
+                      }
+                    },
+                    {
+                      "Type": "OrbisGalactic_Lightsaber_Interaction"
+                    }
+                  ]
+                },
+                "0.5": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    "Interaction_Lightsaber_Double_Switch",
+                    {
+                      "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                      "Effects": {}
+                    }
+                  ]
+                }
               }
             }
           ]
         }
       }
-    }
+    },
+    "On_Seperate": "*OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Green_State_On",
+    "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Green"
   },
   "Interactions": {
     "Ability2": {
       "Interactions": [
         {
-          "Type": "RunRootInteraction",
-          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Green_Double",
-          "RunTime": 0
-        },
-        {
-          "Type": "OrbisGalactic_Lightsaber_Interaction"
+          "Type": "Charging",
+          "Next": {
+            "0": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "RunRootInteraction",
+                  "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                  "RunTime": 0
+                },
+                {
+                  "Type": "OrbisGalactic_Lightsaber_Interaction"
+                }
+              ]
+            },
+            "0.5": {
+              "Type": "Serial",
+              "Interactions": [
+                "Interaction_Lightsaber_Double_Switch",
+                {
+                  "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                  "Effects": {}
+                }
+              ]
+            }
+          }
         }
       ]
     }

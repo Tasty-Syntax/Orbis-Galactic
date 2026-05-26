@@ -1,0 +1,97 @@
+{
+  "documentations": [
+    {
+      "group": "TastySyntax",
+      "id": "OrbisGalacticDocs",
+      "name": "OrbisGalactic documentation",
+      "enabled": true,
+      "sortIndex": 300,
+      "topics": [
+        {
+          "file": "home.md"
+        },
+        {
+          "file": "space-travel/space-travel.md",
+          "subTopics": [
+            { "file": "space-travel/ship-call-beacon.md" },
+            {
+              "file": "space-travel/hub-ship.md",
+              "subTopics": [
+                { "file": "space-travel/galactic-trade-central.md" },
+                { "file": "space-travel/crew-quarters.md" },
+                { "file": "space-travel/old-hangar.md" },
+                { "file": "space-travel/navigation-control-room.md" },
+                { "file": "space-travel/command-center.md" },
+                { "file": "space-travel/ship-bridge.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "planets/list-of-planets.md",
+          "subTopics": [
+            {
+              "file": "planets/planet-ilum.md",
+              "subTopics": [{ "file": "planets/ancient-jedi-temple.md" }]
+            },
+            {
+              "file": "planets/planet-tatooine.md",
+              "subTopics": [
+                { "file": "planets/mos-eisley.md" },
+                { "file": "planets/jawa-sandcrawler.md" },
+                { "file": "planets/tusken-raiders.md" },
+                { "file": "planets/crashed-escape-pod.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "file": "the-force/force-powers.md",
+          "subTopics": [
+            { "file": "the-force/force-holocron.md" },
+            { "file": "the-force/broken-force-holocron.md" }
+          ]
+        },
+        {
+          "file": "bounty-hunting/bounty-hunting.md",
+          "subTopics": [{ "file": "bounty-hunting/bounty-board.md" }]
+        },
+        {
+          "file": "vendors/scrap-trader.md",
+          "subTopics": [{ "file": "vendors/jabba.md" }]
+        },
+        {
+          "file": "ores/list-of-ores.md",
+          "subTopics": [{ "file": "ores/kyber-crystal-ore.md" }]
+        },
+        {
+          "file": "items/list-of-items.md",
+          "subTopics": [
+            { "file": "items/durasteel-ingot.md" },
+            { "file": "items/kyber-crystals.md" },
+            { "file": "items/kyber-crystal-bleeding.md" },
+            { "file": "items/holocron-core.md" },
+            { "file": "items/memory-crystal.md" }
+          ]
+        },
+        {
+          "file": "weapons/list-of-weapons.md",
+          "subTopics": [
+            {
+              "file": "weapons/lightsaber.md",
+              "subTopics": [
+                { "file": "weapons/lightsaber-hilts.md" },
+                { "file": "weapons/saber-hilt-bench.md" },
+                { "file": "weapons/saber-forge.md" }
+              ]
+            },
+            { "file": "weapons/blaster.md" }
+          ]
+        },
+        {
+          "file": "companions/r2-d2.md"
+        }
+      ]
+    }
+  ]
+}

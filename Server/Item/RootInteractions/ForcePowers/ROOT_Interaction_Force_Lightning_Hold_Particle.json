@@ -1,0 +1,16 @@
+{
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "Effects": {
+        "Particles": [
+          {
+            "SystemId": "ParticleSystem_ForceLightning",
+            "TargetEntityPart": "Entity",
+            "DetachedFromModel": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "Type": "DamageEntity",
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Lightning": 55
+    }
+  }
+}

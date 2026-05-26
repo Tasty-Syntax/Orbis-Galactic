@@ -1,0 +1,52 @@
+{
+  "TranslationProperties": {
+    "Name": "Broken Force Holocron",
+    "Description": "server.items.OrbisGalactic_ForceHolocronBroken.description"
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_ForceHolocron_Broken.png",
+  "Quality": "Rare",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_OpenForceAbilityMenu_Interaction"
+        }
+      ]
+    }
+  },
+  "Model": "Items/Utility/Holocron.blockymodel",
+  "Texture": "Items/Utility/Holocron_Texture.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Categories": [
+    "OrbisGalactic.Ingredients"
+  ],
+  "Scale": 0.5,
+  "BlockType": {
+    "CustomModel": "Items/Utility/Holocron_Broken.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Utility/Holocron_Broken_Texture.png"
+      }
+    ],
+    "Material": "Solid",
+    "DrawType": "Model"
+  },
+  "Tags": {
+    "Type": [
+      "Tool"
+    ],
+    "ForceFocus": []
+  },
+  "PlayerAnimationsId": "Block"
+}

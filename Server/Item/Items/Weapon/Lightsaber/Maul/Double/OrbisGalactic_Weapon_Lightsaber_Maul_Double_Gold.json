@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Gold.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Gold.png",
   "IconProperties": {
     "Scale": 0.1,
     "Rotation": [
@@ -55,13 +55,13 @@
       "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
       "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Gold.png",
       "Light": {
-        "Color": "#761"
+        "Color": "#fc1"
       },
       "Trails": [
         {
           "TargetEntityPart": "PrimaryItem",
           "TargetNodeName": "Blade",
-          "TrailId": "Lightsaber_Trail_Gold",
+          "TrailId": "Lightsaber_Trail_Blue",
           "PositionOffset": {
             "Y": 0,
             "Z": 0.0
@@ -73,23 +73,105 @@
       ],
       "Animation": "Items/Animations/Lightsaber/Saber_Animate_Upscaled.blockyanim",
       "Interactions": {
-        "Primary": "ROOT_Interaction_Lightsaber_Attack_Default",
+        "Primary": "ROOT_Interaction_Lightsaber_Attack_Blue",
         "Secondary": "ROOT_Interaction_Lightsaber_Block_Damage",
-        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default_Double",
-        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
-        "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
+        "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+        "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
+        "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
         "Ability2": {
           "Interactions": [
             {
-              "Type": "RunRootInteraction",
-              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-              "Effects": {
-                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+              "Type": "Charging",
+              "Next": {
+                "0": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "RunRootInteraction",
+                      "RootInteraction": "ROOT_Interaction_Lightsaber_Retract_Blue_Double",
+                      "RunTime": 0,
+                      "Effects": {
+                        "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
+                      }
+                    },
+                    {
+                      "Type": "OrbisGalactic_Lightsaber_Interaction"
+                    }
+                  ]
+                },
+                "0.5": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    "Interaction_Lightsaber_Double_Switch",
+                    {
+                      "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                      "Effects": {}
+                    }
+                  ]
+                }
               }
             }
           ]
         }
       }
+    },
+    "On_Seperate": "*OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Gold_State_On",
+    "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Gold"
+  },
+  "Interactions": {
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "Next": {
+            "0": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "RunRootInteraction",
+                  "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                  "RunTime": 0
+                },
+                {
+                  "Type": "OrbisGalactic_Lightsaber_Interaction"
+                }
+              ]
+            },
+            "0.5": {
+              "Type": "Serial",
+              "Interactions": [
+                "Interaction_Lightsaber_Double_Switch",
+                {
+                  "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                  "Effects": {}
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "InteractionVars": {
+    "Lightsaber_Swing_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Right_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Right_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Swing_Up_Left_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Swing_Up_Left_Effect_Blue"
+      ]
+    },
+    "Lightsaber_Stab_Charged_Effect": {
+      "Interactions": [
+        "Interaction_Lightsaber_Stab_Charged_Effect_Blue"
+      ]
     }
   }
 }

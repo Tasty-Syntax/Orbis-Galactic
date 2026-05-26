@@ -1,0 +1,61 @@
+{
+  "Model": "Items/Ingredients/Holocron/MemoryCrystal.blockymodel",
+  "Texture": "Items/Ingredients/Holocron/MemoryCrystal_Texture.png",
+  "Categories": [
+    "OrbisGalactic.Ingredients"
+  ],
+  "TranslationProperties": {
+    "Name": "Memory Crystal",
+    "Description": "server.items.OrbisGalactic_MemoryCrystal.description"
+  },
+  "UsePlayerAnimations": true,
+  "PlayerAnimationsId": "Item",
+  "Scale": 1,
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_MemoryCrystal.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      293,
+      123,
+      34
+    ],
+    "Translation": [
+      4,
+      -4
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "Quality": "Rare",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 50
+      },
+      {
+        "ItemId": "Ingredient_Water_Essence",
+        "Quantity": 15
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Type": "Selector",
+  "RunTime": 0.083,
+  "Selector": {
+    "Id": "Stab",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.5,
+    "ExtendLeft": 2,
+    "ExtendRight": 2,
+    "ExtendBottom": 0.5,
+    "StartDistance": 0.5,
+    "EndDistance": 8
+  },
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.2
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "OrbisGalactic_R2_ColorCycle_Interaction",
+        "Appearances": [
+          "OrbisGalactic_Model_R2_Blue",
+          "OrbisGalactic_Model_R2_Green",
+          "OrbisGalactic_Model_R2_Red",
+          "OrbisGalactic_Model_R2_Yellow",
+          "OrbisGalactic_Model_R2_Purple",
+          "OrbisGalactic_Model_R2_Imperial"
+        ]
+      }
+    ]
+  }
+}

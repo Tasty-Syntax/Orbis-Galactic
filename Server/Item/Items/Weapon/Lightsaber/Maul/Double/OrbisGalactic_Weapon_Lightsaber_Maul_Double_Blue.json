@@ -33,7 +33,6 @@
       }
     ]
   },
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Double_Blue.png",
   "IconProperties": {
     "Scale": 0.1,
     "Rotation": [
@@ -103,29 +102,76 @@
         "Ability2": {
           "Interactions": [
             {
-              "Type": "RunRootInteraction",
-              "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
-              "Effects": {
-                "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
+              "Type": "Charging",
+              "Next": {
+                "0": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "RunRootInteraction",
+                      "RootInteraction": "ROOT_Interaction_Lightsaber_Retract_Blue_Double",
+                      "RunTime": 0,
+                      "Effects": {
+                        "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Blue_Local"
+                      }
+                    },
+                    {
+                      "Type": "OrbisGalactic_Lightsaber_Interaction"
+                    }
+                  ]
+                },
+                "0.5": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    "Interaction_Lightsaber_Double_Switch",
+                    {
+                      "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                      "Effects": {}
+                    }
+                  ]
+                }
               }
             }
           ]
         }
       }
-    }
+    },
+    "On_Seperate": "*OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Blue_State_On",
+    "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Blue"
   },
   "Interactions": {
     "Ability2": {
       "Interactions": [
         {
-          "Type": "RunRootInteraction",
-          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-          "RunTime": 0
-        },
-        {
-          "Type": "OrbisGalactic_Lightsaber_Interaction"
+          "Type": "Charging",
+          "Next": {
+            "0": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "RunRootInteraction",
+                  "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                  "RunTime": 0
+                },
+                {
+                  "Type": "OrbisGalactic_Lightsaber_Interaction"
+                }
+              ]
+            },
+            "0.5": {
+              "Type": "Serial",
+              "Interactions": [
+                "Interaction_Lightsaber_Double_Switch",
+                {
+                  "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                  "Effects": {}
+                }
+              ]
+            }
+          }
         }
       ]
     }
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Blue.png"
 }

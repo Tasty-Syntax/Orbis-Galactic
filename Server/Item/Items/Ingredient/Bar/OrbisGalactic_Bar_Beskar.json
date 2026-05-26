@@ -1,26 +1,11 @@
 {
   "TranslationProperties": {
-    "Name": "Beskar Ingot"
+    "Name": "Beskar Ingot",
+    "Description": "A rare forged metal used in advanced Mandalorian equipment."
   },
   "Categories": [
     "Items.Ingredients"
   ],
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Ore_Iron",
-        "Quantity": 1
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Processing",
-        "Id": "Furnace"
-      }
-    ],
-    "OutputQuantity": 1,
-    "TimeSeconds": 14
-  },
   "Model": "Resources/ItemModels/Beskar_Bar.blockymodel",
   "Texture": "Resources/ItemTextures/Beskar_Bar_Texture.png",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Bar_Beskar.png",
@@ -51,5 +36,6 @@
     "ParticleSystemId": null
   },
   "ItemSoundSetId": "ISS_Items_Ingots",
-  "DropOnDeath": true
+  "DropOnDeath": true,
+  "Quality": "Developer"
 }

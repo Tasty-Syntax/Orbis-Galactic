@@ -11,9 +11,7 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Categories": [
-          "Lightsabers_Single"
-        ],
+        "Categories": ["Lightsabers_Single"],
         "Id": "Bench_Laser_Weapon_Crafter",
         "RequiredTierLevel": 1
       }
@@ -35,38 +33,23 @@
   },
   "IconProperties": {
     "Scale": 0.2,
-    "Rotation": [
-      318,
-      323,
-      335
-    ],
-    "Translation": [
-      -82,
-      -75
-    ]
+    "Rotation": [318, 323, 335],
+    "Translation": [-82, -75]
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Single_Template",
-  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Lightsaber_Maul_Single_Green.png",
+  "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Single_Green.png",
   "InteractionVars": {
     "Lightsaber_Swing_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Left_Effect_Green"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Left_Effect_Green"]
     },
     "Lightsaber_Swing_Right_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Right_Effect_Green"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Right_Effect_Green"]
     },
     "Lightsaber_Swing_Up_Left_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Swing_Up_Left_Effect_Green"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Swing_Up_Left_Effect_Green"]
     },
     "Lightsaber_Stab_Charged_Effect": {
-      "Interactions": [
-        "Interaction_Lightsaber_Stab_Charged_Effect_Green"
-      ]
+      "Interactions": ["Interaction_Lightsaber_Stab_Charged_Effect_Green"]
     }
   },
   "State": {
@@ -106,6 +89,27 @@
               "RootInteraction": "OrbisGalactic_Lightsaber_Activate",
               "Effects": {
                 "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Green_Local"
+              }
+            }
+          ]
+        },
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "OrbisGalactic_ThrowLightsaber",
+              "ReturnSpeedMultiplier": 8,
+              "MaxReturnSpeed": 30,
+              "ImpactDamage": 10,
+              "Effects": {
+                "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                "LocalSoundEventId": "SFX_Lightsaber_Throw"
+              },
+              "MaxLifetimeSeconds": 5,
+              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+              "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Single.blockymodel",
+              "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Green.png",
+              "Light": {
+                "Color": "#060"
               }
             }
           ]

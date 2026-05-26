@@ -4,7 +4,7 @@
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
-    "OrbisGalactic.Misc"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "Set": "",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Spaceship_Chair.png",
@@ -54,9 +54,7 @@
         "Offset": {
           "X": 0,
           "Y": 0,
-          "Z": 0.1,
-          "Yaw": 0,
-          "Pitch": 5
+          "Z": 0.1
         },
         "Yaw": 0
       }

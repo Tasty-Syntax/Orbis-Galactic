@@ -22,7 +22,7 @@
     "TimeSeconds": 0
   },
   "Categories": [
-    "Blocks.Structural"
+    "OrbisGalactic.Decorative Blocks"
   ],
   "BlockType": {
     "DrawType": "Model",
@@ -67,7 +67,7 @@
       -18.9
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Red_Flap_Cantina.png",
+  "Icon": "Icons/ItemsGenerated/Cloth_Roof_Yellow_Flap_Cantina.png",
   "Tags": {
     "Type": [
       "Cloth"
@@ -76,5 +76,6 @@
       "Roof"
     ]
   },
-  "ItemSoundSetId": "ISS_Items_Cloth"
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "SubCategory": "Cloth"
 }

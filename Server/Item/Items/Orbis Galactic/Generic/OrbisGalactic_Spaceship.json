@@ -5,7 +5,7 @@
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/Orbis_Galactic_Spaceship_Test.png",
   "Categories": [
-    "Blocks.Portals"
+    "OrbisGalactic.Misc"
   ],
   "Set": "Soil",
   "ResourceTypes": [
