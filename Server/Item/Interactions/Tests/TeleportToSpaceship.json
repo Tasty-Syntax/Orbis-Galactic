@@ -10,7 +10,7 @@
   "Rotation": {
     "Yaw": 180
   },
-  "OriginSource": "Player",
+  "OriginSource": "Entity",
   "PersonalReturnPoint": true,
   "CloseOnBlockRemove": false,
   "Effects": {
