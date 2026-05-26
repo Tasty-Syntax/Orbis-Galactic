@@ -2,7 +2,7 @@
     "Group": "TastySyntax",
     "Name": "OrbisGalactic",
     "Version": "1.5.2",
-    "Description": "A star wars mod for Hytale.",
+    "Description": "Orbis Galactic - A Hytale Star Wars Universe and Lightsaber mod. Travel to planets from the star wars universe, visit familiar places, accept bounties, use lightsabers to aid you in your quest to explore the star wars universe recreated in hytale",
     "Authors": [
         {
             "Name": "Cerzix",
@@ -15,22 +15,29 @@
             "Url": "https://github.com/Viluron"
         },
         {
+            "Name": "Holag",
+            "Email": "",
+            "Url": "https://github.com/xHolagx"
+        },
+        {
             "Name": "Nelayx",
             "Email": "",
             "Url": "https://github.com/Nelayx"
         },
         {
-            "Name": "Holag",
+            "Name": "And many more contributors from our Discord <3",
             "Email": "",
-            "Url": "https://github.com/xHolagx"
+            "Url": ""
         }
     ],
     "Website": "https://github.com/Tasty-Syntax/Orbis-Galactic",
     "Dependencies": {},
-    "OptionalDependencies": {},
+    "OptionalDependencies": {
+        "JarHax:EyeSpy": "*"
+    },
     "LoadBefore": {},
     "DisabledByDefault": false,
-    "IncludesAssetPack": false,
+    "IncludesAssetPack": true,
     "SubPlugins": [],
     "ServerVersion": "0.5.0"
 }
