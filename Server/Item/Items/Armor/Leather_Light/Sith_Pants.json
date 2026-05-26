@@ -26,7 +26,7 @@
       "Physical": [
         {
           "Amount": 0.5,
-          "CalculationType": "Multiplicative"
+          "CalculationType": "Percent"
         }
       ]
     }
