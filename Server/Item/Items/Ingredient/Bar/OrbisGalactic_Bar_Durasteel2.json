@@ -1,0 +1,41 @@
+{
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -3
+    ]
+  },
+  "Quality": "Developer",
+  "Parent": "OrbisGalactic_Bar_Durasteel",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 30,
+    "Output": [
+      {
+        "ItemId": "OrbisGalactic_Bar_Durasteel"
+      }
+    ]
+  }
+}
