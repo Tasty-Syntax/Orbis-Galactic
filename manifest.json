@@ -39,5 +39,5 @@
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
     "SubPlugins": [],
-    "ServerVersion": "0.5.0"
+    "ServerVersion": "^0.6.1"
 }
