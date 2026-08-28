@@ -11,81 +11,88 @@
     "Secondary": "Block_Secondary"
   },
   "IconProperties": {
-    "Scale": 0.3,
+    "Scale": 0.2,
     "Rotation": [
-      0,
-      28,
-      0
+      22.5,
+      45,
+      22.5
     ],
     "Translation": [
-      1,
-      -47
+      0,
+      -37
     ]
   },
   "BlockType": {
-    "BlockParticleSetId": "Metal",
+    "BlockParticleSetId": "Stone",
+    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door_Sandstone.png"
       }
     ],
     "DrawType": "Model",
-    "Material": "Empty",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
+    "Material": "Solid",
     "State": {
       "Definitions": {
         "CloseDoorIn": {
-          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
           "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Close.blockyanim",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
           "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
-          "Material": "Solid"
+          "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox"
         },
         "CloseDoorOut": {
-          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
           "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Close.blockyanim",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Close",
           "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
-          "Material": "Solid"
+          "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox"
         },
         "OpenDoorIn": {
-          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "SoundOcclusionOpacity": 0.0,
           "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Open.blockyanim",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "InteractionHint": "server.interactionHints.closeDoor",
+          "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox_Open",
           "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox"
         },
         "OpenDoorOut": {
-          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "SoundOcclusionOpacity": 0.0,
           "CustomModelAnimation": "Blocks/Animations/Mos_Eisley_Door_Open.blockyanim",
+          "InteractionSoundEventId": "SFX_Door_Temple_Dark_Open",
+          "InteractionHint": "server.interactionHints.closeDoor",
+          "IsDoor": false,
+          "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox_Open",
           "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox"
         }
       }
     },
     "VariantRotation": "NESW",
-    "ParticleColor": "#676767",
-    "BlockSoundSetId": "Metal",
+    "BlockSoundSetId": "Stone",
+    "PhysicalMaterialId": "Stone",
+    "SoundOcclusionOpacity": 2.0,
+    "InteractionHint": "server.interactionHints.openDoor",
     "IsDoor": true,
     "Interactions": {
       "Use": "Door"
     },
-    "Opacity": "Solid",
-    "InteractionHitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
-    "HitboxType": "OrbisGalactic_Mos_Eisley_Door_Hitbox",
-    "CustomModel": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel",
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Rocks",
-        "ItemId": "OrbisGalactic_Mos_Eisley_Door_Sandstone"
-      }
-    }
+    "ParticleColor": "#72503e",
+    "TextureComputedColor": "#664637"
   },
-  "Scale": 0.5,
+  "Scale": 0.667,
   "Tags": {
     "Type": [
       "Furniture"
     ],
     "Family": [
-      "Temple"
+      "Human"
     ]
   },
-  "ItemSoundSetId": "ISS_Items_Metal",
+  "$Comment": "",
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Mos_Eisley_Door_Sandstone.png",
-  "Model": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door.blockymodel",
-  "Texture": "Blocks/Tatooine/Mos Eisley/Mos_Eisley_Door_Sandstone.png"
+  "ItemSoundSetId": "ISS_Blocks_Stone"
 }

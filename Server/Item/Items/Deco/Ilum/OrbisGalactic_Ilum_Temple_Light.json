@@ -71,7 +71,7 @@
         "Scale": 0.85
       }
     ],
-    "BlockSoundSetId": "Brazier",
+    "BlockSoundSetId": "Metal",
     "Looping": true,
     "AmbientSoundEventId": "SFX_Campfire_Default_Loop",
     "InteractionSoundEventId": "SFX_Flame_Ignite",
