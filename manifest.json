@@ -1,7 +1,7 @@
 {
     "Group": "TastySyntax",
     "Name": "OrbisGalactic",
-    "Version": "1.5.2",
+    "Version": "1.5.3",
     "Description": "Orbis Galactic - A Hytale Star Wars Universe and Lightsaber mod. Travel to planets from the star wars universe, visit familiar places, accept bounties, use lightsabers to aid you in your quest to explore the star wars universe recreated in hytale",
     "Authors": [
         {
@@ -39,5 +39,5 @@
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
     "SubPlugins": [],
-    "ServerVersion": "0.5.0"
+    "ServerVersion": "^0.6.1"
 }
