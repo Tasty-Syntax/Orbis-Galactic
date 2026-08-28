@@ -34,9 +34,6 @@
     ]
   },
   "Icon": "Icons/ItemsGenerated/OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Orange.png",
-  "Light": {
-    "Color": "#750"
-  },
   "IconProperties": {
     "Scale": 0.4,
     "Rotation": [

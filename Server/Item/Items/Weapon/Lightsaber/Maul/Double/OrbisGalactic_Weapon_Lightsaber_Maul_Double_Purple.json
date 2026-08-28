@@ -48,20 +48,6 @@
   },
   "Parent": "OrbisGalactic_Lightsaber_Maul_Double_Template",
   "Scale": 0.5,
-  "Interactions": {
-    "Ability2": {
-      "Interactions": [
-        {
-          "Type": "RunRootInteraction",
-          "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
-          "RunTime": 0
-        },
-        {
-          "Type": "OrbisGalactic_Lightsaber_Interaction"
-        }
-      ]
-    }
-  },
   "State": {
     "On": {
       "Variant": true,
@@ -131,5 +117,39 @@
     },
     "On_Seperate": "*OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Purple_State_On",
     "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Purple"
+  },
+  "Interactions": {
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Charging",
+          "Next": {
+            "0": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "RunRootInteraction",
+                  "RootInteraction": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
+                  "RunTime": 0
+                },
+                {
+                  "Type": "OrbisGalactic_Lightsaber_Interaction"
+                }
+              ]
+            },
+            "0.5": {
+              "Type": "Serial",
+              "Interactions": [
+                "Interaction_Lightsaber_Double_Switch",
+                {
+                  "Type": "OrbisGalactic_DoubleLightsaberSwitch_Interaction",
+                  "Effects": {}
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
   }
 }

@@ -55,7 +55,7 @@
       "Model": "Items/Weapons/Lightsabers/Lightsaber_Maul_Double.blockymodel",
       "Texture": "Items/Weapons/Lightsabers/Maul_Lightsaber_Gold.png",
       "Light": {
-        "Color": "#fc1"
+        "Color": "#761"
       },
       "Trails": [
         {
