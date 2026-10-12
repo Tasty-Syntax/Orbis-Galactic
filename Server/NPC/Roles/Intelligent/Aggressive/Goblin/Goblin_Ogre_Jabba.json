@@ -9,7 +9,7 @@
   "StartState": "Idle",
   "DefaultNPCAttitude": "Ignore",
   "DefaultPlayerAttitude": "Neutral",
-  "Appearance": "Goblin_Ogre",
+  "Appearance": "Goblin_Glutton",
   "DropList": "Drop_Jawa",
   "MaxHealth": 74,
   "DisableDamageGroups": [
