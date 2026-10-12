@@ -48,6 +48,12 @@
     {
       "Model": "Cosmetics/Pants/Pants_Slim.blockymodel",
       "Texture": "Cosmetics/Pants/LeatherPant_Texture.png"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
+      "Texture": "Characters/Body_Attachments/Faces/Faces_Detached_Textures/Face_Neutral_Freckles.png",
+      "GradientSet": "Skin",
+      "GradientId": "01"
     }
   ],
   "Icon": "Icons/ModelsGenerated/Rodian_Blue_Model.png",
@@ -1284,5 +1290,7 @@
     }
   },
   "Model": "Characters/Player_With_Face.blockymodel",
-  "Texture": "Characters/Player_Textures/Outlander_1.png"
+  "Texture": "Characters/Player_Textures/Player_Greyscale.png",
+  "GradientSet": "Skin",
+  "GradientId": "01"
 }

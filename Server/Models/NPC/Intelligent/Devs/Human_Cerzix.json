@@ -1,6 +1,6 @@
 {
   "Parent": "Template_Human_Static",
-  "Model": "Characters/Player_With_Face.blockymodel",
+  "Model": "Characters/Player.blockymodel",
   "Texture": "Characters/Player_Textures/Player_Muscular_Greyscale.png",
   "EyeHeight": 1.65,
   "CrouchOffset": -0.2,
@@ -110,6 +110,12 @@
       "Texture": "Cosmetics/Pants/HighSkirt_Textures/PopstarSkirt_Texture.png",
       "GradientSet": "Colored_Cotton",
       "GradientId": "Purple"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
+      "Texture": "Characters/Body_Attachments/Faces/Faces_Detached_Textures/Face_Neutral_Freckles.png",
+      "GradientSet": "Skin",
+      "GradientId": "15"
     }
   ],
   "GradientSet": "Skin",

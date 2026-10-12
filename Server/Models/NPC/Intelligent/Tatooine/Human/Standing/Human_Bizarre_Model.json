@@ -1295,6 +1295,12 @@
       "Texture": "Cosmetics/Head/Shaped_Cap_Textures/ChillGaia_Cap_Texture.png",
       "GradientSet": "Fantasy_Cotton_Dark",
       "GradientId": "Blue"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
+      "Texture": "Characters/Body_Attachments/Faces/Faces_Detached_Textures/Face_Neutral_Freckles.png",
+      "GradientSet": "Skin",
+      "GradientId": "01"
     }
   ],
   "GradientSet": "Skin",

@@ -1282,6 +1282,12 @@
     {
       "Model": "Cosmetics/Hands/LongDetail_Gloves_Custom.blockymodel",
       "Texture": "Items/Armors/Stormtrooper/LongDetailGloves_Stormtrooper_Texture.png"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
+      "Texture": "Characters/Body_Attachments/Faces/Faces_Detached_Textures/Face_Neutral_Freckles.png",
+      "GradientSet": "Skin",
+      "GradientId": "04"
     }
   ],
   "GradientSet": "Skin",

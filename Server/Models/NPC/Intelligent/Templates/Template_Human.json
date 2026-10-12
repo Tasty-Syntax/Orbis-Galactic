@@ -1263,6 +1263,12 @@
       "Model": "Characters/Haircuts/StylishWindswept.blockymodel",
       "Texture": "Characters/Haircuts/StylishWindswept_Greyscale.png",
       "GradientSet": "Hair"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
+      "Texture": "Characters/Body_Attachments/Faces/Faces_Detached_Textures/Face_Neutral_Freckles.png",
+      "GradientSet": "Skin",
+      "GradientId": "01"
     }
   ],
   "GradientSet": "Skin",

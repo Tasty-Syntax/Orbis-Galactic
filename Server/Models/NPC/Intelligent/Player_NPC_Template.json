@@ -1,5 +1,5 @@
 {
-  "Texture": "Characters/Player_Textures/Player_Greyscale.png",
+  "Texture": "Characters/Player_Textures/Player_Muscular_Greyscale.png",
   "EyeHeight": 1.6,
   "CrouchOffset": -0.4,
   "HitBox": {

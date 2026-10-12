@@ -1294,6 +1294,12 @@
       "Texture": "Characters/Body_Attachments/Eyebrows/Angry_Greyscale.png",
       "GradientSet": "Hair",
       "GradientId": "Black"
+    },
+    {
+      "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
+      "Texture": "Characters/Body_Attachments/Faces/Faces_Detached_Textures/Face_Neutral_Freckles.png",
+      "GradientSet": "Skin",
+      "GradientId": "02"
     }
   ],
   "GradientSet": "Skin",
