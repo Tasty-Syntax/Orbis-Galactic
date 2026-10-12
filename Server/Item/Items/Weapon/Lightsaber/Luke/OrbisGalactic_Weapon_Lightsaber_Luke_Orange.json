@@ -77,7 +77,41 @@
         "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Default",
         "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Default",
         "Held": "ROOT_Interaction_Lightsaber_Idle_Default",
-        "Ability2": {
+        "Ability1": {
+          "Interactions": [
+            {
+              "Type": "Condition",
+              "Crouching": true,
+              "Next": {
+                "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+              },
+              "Failed": {
+                "Type": "Serial",
+                "Interactions": [
+                  {
+                    "Type": "OrbisGalactic_ThrowLightsaber",
+                    "ReturnSpeedMultiplier": 8,
+                    "MaxReturnSpeed": 30,
+                    "ImpactDamage": 10,
+                    "Effects": {
+                      "WorldSoundEventId": "SFX_Lightsaber_Throw",
+                      "LocalSoundEventId": "SFX_Lightsaber_Throw"
+                    },
+                    "MaxLifetimeSeconds": 5,
+                    "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
+                    "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
+                    "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Orange.png",
+                    "Light": {
+                      "Color": "#f70"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "RequireNewClick": true
+        },
+        "Ability4": {
           "Interactions": [
             {
               "Type": "RunRootInteraction",
@@ -86,28 +120,8 @@
                 "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Unequip_Default_Local"
               }
             }
-          ]
-        },
-        "Ability1": {
-          "Interactions": [
-            {
-              "Type": "OrbisGalactic_ThrowLightsaber",
-              "ReturnSpeedMultiplier": 8,
-              "MaxReturnSpeed": 30,
-              "ImpactDamage": 10,
-              "Effects": {
-                "WorldSoundEventId": "SFX_Lightsaber_Throw",
-                "LocalSoundEventId": "SFX_Lightsaber_Throw"
-              },
-              "MaxLifetimeSeconds": 5,
-              "ProjectileConfigId": "Projectile_Config_Lightsaber_Throw",
-              "Model": "Items/Weapons/Lightsabers/Lightsaber_Luke.blockymodel",
-              "Texture": "Items/Weapons/Lightsabers/Luke_Lightsaber_Orange.png",
-              "Light": {
-                "Color": "#f70"
-              }
-            }
-          ]
+          ],
+          "RequireNewClick": true
         }
       }
     }

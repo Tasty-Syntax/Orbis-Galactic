@@ -30,15 +30,23 @@
   },
   "Interactions": {
     "Secondary": "Root_Weapon_Daggers_Secondary_Guard",
-    "Ability1": "Root_Weapon_Daggers_Signature_Razorstrike",
-    "Ability3": {
+    "Ability1": {
+      "RequireNewClick": true,
       "Interactions": [
         {
-          "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+          "Type": "Condition",
+          "Crouching": true,
+          "Next": {
+            "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+          },
+          "Failed": {
+            "Type": "RunRootInteraction",
+            "RootInteraction": "Root_Weapon_Daggers_Signature_Razorstrike"
+          }
         }
       ]
     },
-    "Ability2": {
+    "Ability4": {
       "Interactions": [
         {
           "Type": "Charging",
@@ -73,7 +81,8 @@
             }
           }
         }
-      ]
+      ],
+      "RequireNewClick": true
     }
   },
   "Tags": {

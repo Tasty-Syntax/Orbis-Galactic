@@ -10,5 +10,11 @@
   },
   "DamageEffects": {
     "WorldSoundEventId": "OrbisGalactic_SFX_Lightsaber_Collision_Local"
-  }
+  },
+  "EntityStatsOnHit": [
+    {
+      "EntityStatId": "SignatureEnergy",
+      "Amount": 1
+    }
+  ]
 }

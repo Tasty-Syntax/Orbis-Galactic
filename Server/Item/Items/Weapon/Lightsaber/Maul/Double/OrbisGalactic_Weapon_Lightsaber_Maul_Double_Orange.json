@@ -78,7 +78,7 @@
         "SwapTo": "ROOT_Interaction_Lightsaber_Ignite_Blue_Double",
         "SwapFrom": "ROOT_Interaction_Lightsaber_Retract_Blue",
         "Held": "ROOT_Interaction_Lightsaber_Idle_Blue",
-        "Ability2": {
+        "Ability4": {
           "Interactions": [
             {
               "Type": "Charging",
@@ -111,6 +111,19 @@
                 }
               }
             }
+          ],
+          "RequireNewClick": true
+        },
+        "Ability1": {
+          "RequireNewClick": true,
+          "Interactions": [
+            {
+              "Type": "Condition",
+              "Crouching": true,
+              "Next": {
+                "Type": "OrbisGalactic_TriggerForcePower_Interaction"
+              }
+            }
           ]
         }
       }
@@ -119,7 +132,7 @@
     "Off_Single": "OrbisGalactic_Weapon_Lightsaber_Maul_Double_Separate_Orange"
   },
   "Interactions": {
-    "Ability2": {
+    "Ability4": {
       "Interactions": [
         {
           "Type": "Charging",
@@ -147,6 +160,19 @@
                 }
               ]
             }
+          }
+        }
+      ],
+      "RequireNewClick": true
+    },
+    "Ability1": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Condition",
+          "Crouching": true,
+          "Next": {
+            "Type": "OrbisGalactic_TriggerForcePower_Interaction"
           }
         }
       ]

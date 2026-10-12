@@ -9,7 +9,14 @@
   },
   "Reticle": "DefaultMelee",
   "Interactions": {
-    "Ability3": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "OrbisGalactic_OpenForceAbilityMenu_Interaction"
+        }
+      ]
+    },
+    "Ability4": {
       "Interactions": [
         {
           "Type": "StatsCondition",
@@ -33,14 +40,8 @@
             "ItemPlayerAnimationsId": "OrbisGalactic_Forcepowers_Animations"
           }
         }
-      ]
-    },
-    "Secondary": {
-      "Interactions": [
-        {
-          "Type": "OrbisGalactic_OpenForceAbilityMenu_Interaction"
-        }
-      ]
+      ],
+      "RequireNewClick": true
     }
   },
   "IconProperties": {
